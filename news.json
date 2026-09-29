@@ -1,334 +1,649 @@
-import urllib.request
-import urllib.parse
-import xml.etree.ElementTree as ET
-import json
-import re
-import os
-from datetime import datetime, timezone, timedelta
-
-MAX_ARTICLES = 100  # 保持する最大記事数
-
-FEEDS = [
-    {"url": "https://topics.nintendo.co.jp/feed/rss/index.xml", "source": "任天堂", "category": "hardware", "category_name": "🎮 任天堂公式"},
-    {"url": "https://blog.ja.playstation.com/feed/", "source": "PS Blog", "category": "hardware", "category_name": "🎮 PS公式"},
-    {"url": "https://news.xbox.com/ja-jp/feed/", "source": "Xbox Wire", "category": "hardware", "category_name": "🎮 Xbox公式"},
-    {"url": "https://www.famitsu.com/rss/famitsu-all.xml", "source": "ファミ通", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    {"url": "https://jp.ign.com/feed/news", "source": "IGN Japan", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    {"url": "https://www.4gamer.net/rss/index.xml", "source": "4Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    {"url": "https://dengekionline.com/rss/index.xml", "source": "電撃オンライン", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    {"url": "https://www.gamer.ne.jp/rss/news/", "source": "Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    {"url": "https://news.denfaminicogamer.jp/feed", "source": "電ファミ", "category": "jp", "category_name": "🇯🇵 電ファミ・話題"},
-    {"url": "https://automaton-media.com/feed/", "source": "AUTOMATON", "category": "jp", "category_name": "🇯🇵 インディー・話題"},
-    {"url": "https://gamebiz.jp/rss/all.xml", "source": "gamebiz", "category": "jp", "category_name": "📱 スマホ・業界"},
-    {"url": "https://www.gamespark.jp/rss/index.rdf", "source": "Game*Spark", "category": "hardware", "category_name": "💻 CorePC・ハード"},
-    {"url": "https://www.gematsu.com/feed", "source": "Gematsu", "category": "global", "category_name": "🌐 海外速報"},
-    {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer", "category": "global", "category_name": "🌐 海外トレンド"},
-    {"url": "https://kotaku.com/rss", "source": "Kotaku", "category": "global", "category_name": "🌐 海外トレンド"},
-    {"url": "https://www.eurogamer.net/feed", "source": "Eurogamer", "category": "global", "category_name": "🌐 海外トレンド"},
-]
-
-PLATFORM_KEYWORDS = {
-    "Switch": ["switch", "スイッチ", "nintendo switch", "任天堂"],
-    "PS5": ["ps5", "playstation 5", "プレイステーション5"],
-    "PS4": ["ps4", "playstation 4"],
-    "PC": ["pc", "steam", "epic games", "rtx", "gpu", "ゲーミングpc", "pc gamer"],
-    "Xbox": ["xbox", "series x", "series s", "game pass"]
-}
-
-def detect_platforms(text, default_platform=None):
-    text_lower = text.lower()
-    detected = set()
-    
-    if default_platform:
-        detected.add(default_platform)
-        
-    for platform, keywords in PLATFORM_KEYWORDS.items():
-        if any(kw in text_lower for kw in keywords):
-            detected.add(platform)
-            
-    return list(detected) if detected else ["ALL"]
-
-def clean_html(text):
-    if not text: return ""
-    clean = re.sub('<.*?>', '', text)
-    return clean.strip()[:140] + "..."
-
-def translate_to_japanese(text):
-    if not text or len(text.strip()) == 0:
-        return text
-    try:
-        url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ja&dt=t&q=" + urllib.parse.quote(text)
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-        res = urllib.request.urlopen(req, timeout=4).read().decode('utf-8')
-        result = json.loads(res)
-        translated = "".join([sentence[0] for sentence[0] in result[0] if sentence[0]])
-        return translated if translated else text
-    except Exception:
-        return text
-
-def fetch_epic_store():
-    epic_items = []
-    try:
-        url = "https://store-site-backend-static-ipv4.akamaized.net/store/ffi/offers/v1/japan?locale=ja&country=JP&allowCountries=JP"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-        res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
-        data = json.loads(res)
-        elements = data.get('data', {}).get('Catalog', {}).get('searchStore', {}).get('elements', [])
-
-        now = datetime.now(timezone.utc)
-
-        for el in elements:
-            title = el.get('title')
-            promotions = el.get('promotions')
-            price_info = el.get('price', {}).get('totalPrice', {})
-            
-            image_url = None
-            for img in el.get('keyImages', []):
-                if img.get('type') in ['OfferImageWide', 'DieselStoreFrontWide', 'Thumbnail']:
-                    image_url = img.get('url')
-                    break
-            if not image_url and el.get('keyImages'):
-                image_url = el['keyImages'][0].get('url')
-
-            product_slug = el.get('productSlug') or (el.get('catalogNs', {}).get('mappings', [{}])[0].get('pageSlug') if el.get('catalogNs') else None)
-            link = f"https://store.epicgames.com/ja/p/{product_slug}" if product_slug else "https://store.epicgames.com/ja/"
-
-            is_free = False
-            discount_price = price_info.get('discountPrice', 0)
-            original_price = price_info.get('originalPrice', 0)
-            end_date_str = ""
-
-            if promotions and promotions.get('promotionalOffers'):
-                for group in promotions['promotionalOffers']:
-                    for offer in group.get('promotionalOffers', []):
-                        start = offer.get('startDate')
-                        end = offer.get('endDate')
-                        if start and end:
-                            s_date = datetime.fromisoformat(start.replace('Z', '+00:00'))
-                            e_date = datetime.fromisoformat(end.replace('Z', '+00:00'))
-                            if s_date <= now <= e_date:
-                                jst_end = e_date.astimezone(timezone(timedelta(hours=9)))
-                                end_date_str = jst_end.strftime("%m/%d %H:%Mまで")
-                                if offer.get('discountSetting', {}).get('discountPercentage') == 0 or discount_price == 0:
-                                    is_free = True
-
-            if is_free:
-                epic_items.append({
-                    "id": f"epic_free_{hash(title)}",
-                    "title": title,
-                    "link": link,
-                    "summary": f"【Epic Gamesストア 無料配布中】通常価格 ¥{original_price:,} ➔ 無料！",
-                    "source": "Epic Games Store",
-                    "category": "epic_free",
-                    "category_name": "🎁 Epic無料配布",
-                    "platforms": ["PC"],
-                    "image": image_url,
-                    "badge": "FREE",
-                    "expire": end_date_str,
-                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
-                })
-            elif original_price > 0 and discount_price < original_price:
-                discount_rate = int((1 - discount_price / original_price) * 100)
-                epic_items.append({
-                    "id": f"epic_sale_{hash(title)}",
-                    "title": title,
-                    "link": link,
-                    "summary": f"【セール中】¥{original_price:,} ➔ ¥{discount_price:,}",
-                    "source": "Epic Games Store",
-                    "category": "epic_sale",
-                    "category_name": "🏷️ Epicセール",
-                    "platforms": ["PC"],
-                    "image": image_url,
-                    "badge": f"-{discount_rate}%",
-                    "expire": end_date_str,
-                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
-                })
-    except Exception as e:
-        print(f"Error fetching Epic Games Store: {e}")
-    
-    return epic_items
-
-def fetch_steam_sales():
-    steam_items = []
-    try:
-        url = "https://store.steampowered.com/api/featuredcategories/?cc=jp&l=japanese"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-        res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
-        data = json.loads(res)
-        
-        specials = data.get('specials', {}).get('items', [])
-        
-        for item in specials:
-            if not item.get('discount_expiration'):
-                continue
-            
-            exp_time = item.get('discount_expiration')
-            now_ts = int(datetime.now().timestamp())
-            
-            if exp_time > now_ts:
-                title = item.get('name')
-                app_id = item.get('id')
-                link = f"https://store.steampowered.com/app/{app_id}/"
-                image_url = item.get('header_image') or item.get('large_capsule_image')
-                
-                discount_percent = item.get('discount_percent', 0)
-                orig_price = item.get('original_price', 0) // 100
-                final_price = item.get('final_price', 0) // 100
-                
-                exp_dt = datetime.fromtimestamp(exp_time, tz=timezone(timedelta(hours=9)))
-                expire_str = exp_dt.strftime("%m/%d %H:%Mまで")
-
-                steam_items.append({
-                    "id": f"steam_{app_id}",
-                    "title": title,
-                    "link": link,
-                    "summary": f"【Steamセール中】¥{orig_price:,} ➔ ¥{final_price:,}",
-                    "source": "Steam Store",
-                    "category": "steam_sale",
-                    "category_name": "🎮 Steamセール",
-                    "platforms": ["PC"],
-                    "image": image_url,
-                    "badge": f"-{discount_percent}%",
-                    "expire": expire_str,
-                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
-                })
-    except Exception as e:
-        print(f"Error fetching Steam Store: {e}")
-        
-    return steam_items
-
-def load_existing_articles():
-    """既存の news.json から過去記事を取得する"""
-    if os.path.exists('news.json'):
-        try:
-            with open('news.json', 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                return data.get('articles', [])
-        except Exception as e:
-            print(f"Error loading existing news.json: {e}")
-    return []
-
-def fetch_rss():
-    news_articles = []
-    sale_articles = []
-    
-    sale_articles.extend(fetch_epic_store())
-    sale_articles.extend(fetch_steam_sales())
-    
-    for feed in FEEDS:
-        try:
-            req = urllib.request.Request(
-                feed["url"], 
-                headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-            )
-            xml_data = urllib.request.urlopen(req, timeout=10).read()
-            
-            try:
-                root = ET.fromstring(xml_data)
-            except ET.ParseError:
-                continue
-            
-            items = (
-                root.findall('.//item') or 
-                root.findall('.//{http://www.w3.org/2005/Atom}entry') or
-                root.findall('.//{http://purl.org/rss/1.0/}item')
-            )
-            
-            default_platform = None
-            if feed["source"] == "任天堂": default_platform = "Switch"
-            elif feed["source"] == "PS Blog": default_platform = "PS5"
-            elif feed["source"] == "Xbox Wire": default_platform = "Xbox"
-
-            for item in items[:4]:
-                title = (
-                    item.findtext('title') or 
-                    item.findtext('{http://www.w3.org/2005/Atom}title')
-                )
-                link = (
-                    item.findtext('link') or 
-                    item.findtext('{http://www.w3.org/2005/Atom}href')
-                )
-                desc = (
-                    item.findtext('description') or 
-                    item.findtext('{http://www.w3.org/2005/Atom}summary') or ""
-                )
-                
-                if not title or not link: continue
-                
-                title = title.strip()
-                summary = clean_html(desc)
-                
-                if feed["category"] == "global" or re.search(r'[a-zA-Z]{5,}', title):
-                    title = translate_to_japanese(title)
-                    if summary:
-                        summary = translate_to_japanese(summary)
-
-                cat = feed["category"]
-                cat_name = feed["category_name"]
-                title_lower = title.lower()
-                
-                is_sale_article = False
-                badge = ""
-                if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle", "game pass"]):
-                    cat = "sale"
-                    cat_name = "🔥 セール速報"
-                    is_sale_article = True
-                    badge = "SALE"
-                elif any(k in title_lower for k in ["ps5", "switch", "steam deck", "gpu", "rtx", "グラボ", "モニター", "コントローラー", "xbox", "ハード", "新型"]):
-                    cat = "hardware"
-                    cat_name = "💻 ハード・機器"
-
-                platforms = detect_platforms(f"{title} {summary}", default_platform)
-
-                article = {
-                    "id": f"rss_{hash(title)}",
-                    "title": title,
-                    "link": link.strip(),
-                    "summary": summary,
-                    "source": feed["source"],
-                    "category": cat,
-                    "category_name": cat_name,
-                    "platforms": platforms,
-                    "badge": badge,
-                    "expire": "",
-                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
-                }
-
-                if is_sale_article:
-                    sale_articles.append(article)
-                else:
-                    news_articles.append(article)
-        except Exception as e:
-            print(f"Error fetching {feed['source']}: {e}")
-
-    # 今回取得した新着記事
-    new_fetched = news_articles + sale_articles
-    
-    # 過去の保存済み記事を読み込み
-    existing_articles = load_existing_articles()
-    
-    # URL (link) をキーにして新旧記事を統合（新着記事を優先）
-    combined_dict = {}
-    
-    # まず今回取得した新しい記事を登録
-    for art in new_fetched:
-        combined_dict[art["link"]] = art
-        
-    # 過去記事でまだ登録されていない（古い）記事を追加
-    for art in existing_articles:
-        if art["link"] not in combined_dict:
-            combined_dict[art["link"]] = art
-
-    # リスト化して最新の MAX_ARTICLES 件に切り詰める
-    final_articles = list(combined_dict.values())[:MAX_ARTICLES]
-
-    data = {
-        "updated_at": datetime.now(timezone(timedelta(hours=9))).strftime("%Y/%m/%d %H:%M"),
-        "articles": final_articles
+{
+  "updated_at": "2026/09/30 00:54",
+  "articles": [
+    {
+      "id": "rss_7027158777156124310",
+      "title": "『ゴッド・オブ・ウォー ラウフェイ』9月29日（火）予約受付開始。予約特典や豪華版の詳細をチェック！",
+      "link": "https://blog.ja.playstation.com/2026/09/28/20260928-gow-laufey-release-date-reveal-o/",
+      "summary": "※本記事は英語版PlayStation®.Blogの日本語翻訳記事です。 2027年2月16日（火）、PlayStation®5で発売予定の『ゴッド・オブ・ウォー ラウフェイ』。本作の予約受付が明日9月29日（火）午前1 [&#8230;]...",
+      "source": "PS Blog",
+      "category": "hardware",
+      "category_name": "🎮 PS公式",
+      "platforms": [
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-7886719734423780879",
+      "title": "『SILENT HILL: Townfall』の一人称視点が、シリーズならではのホラー体験を変える9つのポイント",
+      "link": "https://blog.ja.playstation.com/2026/09/28/20260928-silent-hill-townfall-hands-on-preview-o/",
+      "summary": "一人称視点によって恐怖の深まる『SILENT HILL: Townfall』。限られた視界、敵の位置を映し出すCRTV、ステルス、モーションコントロール、手がかりの探索など、一人称を活かした9つのポイントをチェック！...",
+      "source": "PS Blog",
+      "category": "hardware",
+      "category_name": "🎮 PS公式",
+      "platforms": [
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-5264336503022738693",
+      "title": "『ACE COMBAT 8: WINGS OF THEVE』は明日9月29日午前7時よりアーリーアクセス開始！【特集】",
+      "link": "https://blog.ja.playstation.com/2026/09/28/20260928-acecombat8-launch-reminder-s/",
+      "summary": "10月2日（金）に通常版が発売されるPlayStation®5用ソフトウェア『ACE COMBAT 8: WINGS OF THEVE（エースコンバット8 ウイングス・オブ・シーヴ）』。本作は30年の歴史を持つフライトシ [&#8230;]...",
+      "source": "PS Blog",
+      "category": "hardware",
+      "category_name": "🎮 PS公式",
+      "platforms": [
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-2331325334121338646",
+      "title": "『STRANGER THAN HEAVEN』で描かれる、激動の時代を生きる主人公・大東真の人生と交差する人々を紹介",
+      "link": "https://blog.ja.playstation.com/2026/09/24/20260924-stranger-than-heaven-pre-launch-update-o/",
+      "summary": "『STRANGER THAN HEAVEN』で描かれる、激動の時代を生きる主人公・大東真の人生と交差する人々を紹介！ これは5つの都市、5つの時代を渡りゆく、ひとりの男の物語。大東の50年の人生と、大東や大東の親友である真城、そして多彩な登場人物を一挙紹介！...",
+      "source": "PS Blog",
+      "category": "hardware",
+      "category_name": "🎮 PS公式",
+      "platforms": [
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-5608381081533633653",
+      "title": "『Minecraft Dungeons II』のシームレスにつながる世界があらゆる旅路を冒険に変える",
+      "link": "https://news.xbox.com/ja-jp/2026/09/29/how-minecraft-dungeons-iis-interconnected-world-makes-every-journey-an-adventure/",
+      "summary": "The post 『Minecraft Dungeons II』のシームレスにつながる世界があらゆる旅路を冒険に変える appeared first on XBOX Wire Japan....",
+      "source": "Xbox Wire",
+      "category": "hardware",
+      "category_name": "🎮 Xbox公式",
+      "platforms": [
+        "Xbox"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_8116483195251744900",
+      "title": "『Minecraft Dungeons II』に登場する新ディメンション「シフト」が『Minecraft: Java & Bedrock Edition』にも登場",
+      "link": "https://news.xbox.com/ja-jp/2026/09/29/minecraft-new-dimension-sift-dungeons-2/",
+      "summary": "The post 『Minecraft Dungeons II』に登場する新ディメンション「シフト」が『Minecraft: Java &amp; Bedrock Edition』にも登場 appeared first on XBOX Wire Japan....",
+      "source": "Xbox Wire",
+      "category": "hardware",
+      "category_name": "🎮 Xbox公式",
+      "platforms": [
+        "Xbox"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_8555512238863525908",
+      "title": "『STRANGER THAN HEAVEN』: 激動の時代を生きる、大東の人生と交差する人々を紹介",
+      "link": "https://news.xbox.com/ja-jp/2026/09/24/stranger-than-heaven-full-cast-character-reveal-xbox-sega/",
+      "summary": "The post 『STRANGER THAN HEAVEN』: 激動の時代を生きる、大東の人生と交差する人々を紹介 appeared first on XBOX Wire Japan....",
+      "source": "Xbox Wire",
+      "category": "hardware",
+      "category_name": "🎮 Xbox公式",
+      "platforms": [
+        "Xbox"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_752885152601370005",
+      "title": "『カゲロウデイズ』2026年9月30日で投稿15周年。「カゲロウプロジェクト」で最も“目”を集めたと言える代表的な初音ミクオリジナル楽曲",
+      "link": "https://news.denfaminicogamer.jp/news/2609302x",
+      "summary": "2011年にじん氏（自然の敵P）がニコニコ動画で初公開した初音ミクオリジナル楽曲。「カゲロウプロジェクト」を代表するような楽曲で、最も“目”を集めたと言える。同じタイトルで小説やマンガも展開された...",
+      "source": "電ファミ",
+      "category": "jp",
+      "category_name": "🇯🇵 電ファミ・話題",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-4232288936144024907",
+      "title": "“ソーセージ”で殴り合うローグライト対戦ゲーム『ソーセージレジェンド・アリーナ』体験版が本日9月29日より配信開始。ソースとトッピングで戦術を変えながら、分岐するマップを進む",
+      "link": "https://news.denfaminicogamer.jp/news/2609293f",
+      "summary": "中世の捕虜が自由を求めて貴族の道楽「ソーセージの決闘」に挑戦。ソースとトッピングで戦術を変えながら、分岐するマップを進む...",
+      "source": "電ファミ",
+      "category": "jp",
+      "category_name": "🇯🇵 電ファミ・話題",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-6597008474112101822",
+      "title": "『アウトラン』風ローグライクレース『Reality Drift』11月12日配信へ。奇抜世界を巡るレースは99台の敵もどんどん強化、一部コースのデザインは『塊魂』の高橋慶太氏が担当",
+      "link": "https://automaton-media.com/articles/newsjp/20260929-470713/",
+      "summary": "Arganoid Industriesは9月29日、ローグライクレースゲーム『Reality Drift』を11月11日に配信すると発表した。...",
+      "source": "AUTOMATON",
+      "category": "jp",
+      "category_name": "🇯🇵 インディー・話題",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_8417825698059818756",
+      "title": "美少女精神崩壊ローグライク『カオスゼロナイトメア』9月30日アプデで「銀河系災害」シーズン5の第0章公開へ。「セレニエル」の強化＆復刻も来る",
+      "link": "https://automaton-media.com/articles/newsjp/20260929-470706/",
+      "summary": "Smilegateは9月29日、『カオスゼロナイトメア』にて9月30日より「銀河系災害」のシーズン5「雪に交わした約束」第0章が実装されることを発表した。...",
+      "source": "AUTOMATON",
+      "category": "jp",
+      "category_name": "🇯🇵 インディー・話題",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-4856165648773714425",
+      "title": "マルチプレイ「車で椅子取り」対戦『Get Off My Trailer!』発表。トレーラーの荷台を奪い合い、トレーラー側も全力拒否、全員で妨害し合うカオスパーティーゲーム",
+      "link": "https://automaton-media.com/articles/newsjp/20260929-470694/",
+      "summary": "Plotrickは9月29日、物理演算パーティーゲーム『Get Off My Trailer!』を発表した。...",
+      "source": "AUTOMATON",
+      "category": "jp",
+      "category_name": "🇯🇵 インディー・話題",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_5785870202947845192",
+      "title": "Sci-fi shoot ’em up Sturmjager announced for PS5, Xbox Series, Switch, and PC",
+      "link": "https://www.gematsu.com/2026/09/sci-fi-shoot-em-up-sturmjager-announced-for-ps5-xbox-series-switch-and-pc",
+      "summary": "Germany-based studio Byteproduct has announced Sturmjager, a science-fiction shoot &#8217;em up coming to PlayStation 5, &hellip;...",
+      "source": "Gematsu",
+      "category": "hardware",
+      "category_name": "💻 ハード・機器",
+      "platforms": [
+        "Xbox",
+        "PC",
+        "Switch",
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-1801512476032869936",
+      "title": "Remothered: Tormented Fathers Remastered and Remothered: Broken Porcelain Remastered launch in Q1 2027",
+      "link": "https://www.gematsu.com/2026/09/remothered-tormented-fathers-remastered-and-remothered-broken-porcelain-remastered-launch-in-q1-2027",
+      "summary": "Remothered: Tormented Fathers Remastered and Remothered: Broken Porcelain Remastered will launch for PlayStation 5, Xbox &hellip;...",
+      "source": "Gematsu",
+      "category": "global",
+      "category_name": "🌐 海外速報",
+      "platforms": [
+        "Xbox",
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_8671147320468641582",
+      "title": "31% of you go full goth and keep your RGB lighting turned off, while a mere 7% drench your rigs in unicorn vomit",
+      "link": "https://www.pcgamer.com/hardware/lighting/31-percent-of-you-go-full-goth-and-keep-your-rgb-lighting-turned-off-while-a-mere-7-percent-drench-your-rigs-in-unicorn-vomit/",
+      "summary": "I too crave the dark, but even I like a dash of RGB here and there....",
+      "source": "PC Gamer",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-4265403621373187838",
+      "title": "No USB connectivity? Like, at all? It's a good job SteelSeries' new gaming mice are two of the best I've felt under my fingertips",
+      "link": "https://www.pcgamer.com/hardware/gaming-mice/no-usb-connectivity-like-at-all-its-a-good-job-steelseries-new-gaming-mice-are-two-of-the-best-ive-felt-under-my-fingertips/",
+      "summary": "The SteelSeries Sensei Pro and Rival Pro are two of the best rodents I've held....",
+      "source": "PC Gamer",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "Xbox"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-6789882680685387868",
+      "title": "The best frog in all of gaming, Touch Me, is now appreciable in all its glory thanks to a FF7 model viewer",
+      "link": "https://www.pcgamer.com/games/final-fantasy/the-best-frog-in-all-of-gaming-touch-me-is-now-appreciable-in-all-its-glory-thanks-to-a-ff7-model-viewer/",
+      "summary": "My sweet sweet boy....",
+      "source": "PC Gamer",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_5551817014903770",
+      "title": "SteelSeries Rival Pro gaming mouse review",
+      "link": "https://www.pcgamer.com/hardware/gaming-mice/steelseries-rival-pro-gaming-mouse-review/",
+      "summary": "SteelSeries is back, baby....",
+      "source": "PC Gamer",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-3118130315949094730",
+      "title": "A New PS5 Jailbreak May Have Just Opened The Floodgates To Piracy",
+      "link": "https://kotaku.com/new-ps5-jailbreak-exploit-works-on-systems-running-july-2026-firmware-2000738283",
+      "summary": "According to those who have installed the new Relapse exploit, it works with everything from Marvel's Wolverine to The Witcher 3 Remastered...",
+      "source": "Kotaku",
+      "category": "hardware",
+      "category_name": "💻 ハード・機器",
+      "platforms": [
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_3151545545878154353",
+      "title": "GTA 5 Modder Cancels Nintendo Switch Port Just Days Before Launch After Previously Taunting Rockstar: ‘I Am Thankful For Take-Two’s Mercy’",
+      "link": "https://kotaku.com/gta-5-modder-cancels-nintendo-switch-port-just-days-before-launch-after-previously-taunting-rockstar-i-am-thankful-for-take-twos-mercy-2000738284",
+      "summary": "The creator behind the planned port will not release any code or assets online in order to avoid a possible lawsuit...",
+      "source": "Kotaku",
+      "category": "hardware",
+      "category_name": "💻 ハード・機器",
+      "platforms": [
+        "Switch"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-6560318085382721678",
+      "title": "Pokémon Pro Begs Rivals To Wash After A ‘Putrid’ Smell At A Recent Competition Made Him Throw Up",
+      "link": "https://kotaku.com/pokemon-pro-begs-rivals-to-wash-after-a-putrid-smell-at-a-recent-competition-made-him-throw-up-2000738281",
+      "summary": "Axe body spray doesn't cut it, folks...",
+      "source": "Kotaku",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_706356679584842220",
+      "title": "Monster Hunter Wilds Ascendance Aims To Supercharge The Endgame And Increase Difficulty With Master Ranks: ‘We Want To Make Sure It Delivers The Level Of Challenge And Depth That Players Would Expect’",
+      "link": "https://kotaku.com/monster-hunter-wilds-ascendance-aims-to-supercharge-the-endgame-and-increase-difficulty-with-master-ranks-we-want-to-make-sure-it-delivers-the-level-of-challenge-and-depth-that-players-would-expect-2000736835",
+      "summary": "Capcom's biggest entry in the Monster Hunter series to date is ready for its big comeback...",
+      "source": "Kotaku",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "PC"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_3435921103070668209",
+      "title": "You can now watch one of this year's best orchestral game-music performances, celebrating Hades 1 and 2, online for free",
+      "link": "https://www.eurogamer.net/watch-hades-orchestral-performance-recording",
+      "summary": "The outrageously enjoyable Hades musical orchestral concert, Ballads of the Underworld, is now available to watch in its entirety, online, f...",
+      "source": "Eurogamer",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-8659035686096630452",
+      "title": "Don't worry if you're struggling in human form in The Blood of Dawnwalker - \"it should be harder\" playing that way",
+      "link": "https://www.eurogamer.net/blood-of-dawnwalker-harder-as-human-easier-as-vampire",
+      "summary": "If you've been playing Medieval vampire RPG The Blood of Dawnwalker and you're wondering why you're having a hard time during the day, as a ...",
+      "source": "Eurogamer",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-7736422839983901182",
+      "title": "Mexican lawmakers join the fight for digital games ownership with a new consumer rights initiative",
+      "link": "https://www.eurogamer.net/mexican-lawmakers-join-fight-digital-games-ownership",
+      "summary": "Another country has entered the fray as ongoing debates around digital video game ownership ignite across the world. Read more...",
+      "source": "Eurogamer",
+      "category": "global",
+      "category_name": "🌐 海外トレンド",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_292030",
+      "title": "ウィッチャー３　ワイルドハント　リマスター",
+      "link": "https://store.steampowered.com/app/292030/",
+      "summary": "【Steamセール中】¥6,490 ➔ ¥3,245",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e624516e647cb6c467c3b2ce9c8c70b058bcebe4/header_alt_assets_1_japanese.jpg?t=1790693338",
+      "badge": "-50%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_2161700",
+      "title": "ペルソナ３ リロード",
+      "link": "https://store.steampowered.com/app/2161700/",
+      "summary": "【Steamセール中】¥7,678 ➔ ¥2,303",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg?t=1764776430",
+      "badge": "-70%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_1687950",
+      "title": "ペルソナ５ ザ・ロイヤル",
+      "link": "https://store.steampowered.com/app/1687950/",
+      "summary": "【Steamセール中】¥7,678 ➔ ¥2,303",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header_japanese.jpg?t=1783356822",
+      "badge": "-70%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_160150",
+      "title": "DARK SOULS III - The Fire Fades Edition",
+      "link": "https://store.steampowered.com/app/160150/",
+      "summary": "【Steamセール中】¥5,940 ➔ ¥2,970",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/160150/header_ratio_japanese.jpg?t=1492793326",
+      "badge": "-50%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_570940",
+      "title": "DARK SOULS™: REMASTERED",
+      "link": "https://store.steampowered.com/app/570940/",
+      "summary": "【Steamセール中】¥4,730 ➔ ¥2,365",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
+      "badge": "-50%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_4623570",
+      "title": "デスクロール：放置ARPG",
+      "link": "https://store.steampowered.com/app/4623570/",
+      "summary": "【Steamセール中】¥905 ➔ ¥633",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4623570/5e45f8c897cb174bf97999eb3a9a41dd16dc53ad/header_japanese.jpg?t=1790673311",
+      "badge": "-30%",
+      "expire": "10/13 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "link": "https://store.steampowered.com/app/2909400/",
+      "summary": "【Steamセール中】¥6,578 ➔ ¥1,973",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1789446799",
+      "badge": "-70%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "link": "https://store.steampowered.com/app/1462040/",
+      "summary": "【Steamセール中】¥5,478 ➔ ¥1,369",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+      "badge": "-75%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_2900640",
+      "title": "トーエム2",
+      "link": "https://store.steampowered.com/app/2900640/",
+      "summary": "【Steamセール中】¥2,300 ➔ ¥1,955",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2900640/499ae31f4d74c4c41e61058259fca32ccd73c93c/header.jpg?t=1790694652",
+      "badge": "-15%",
+      "expire": "10/14 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "steam_3101040",
+      "title": "魔法少女ノ魔女裁判",
+      "link": "https://store.steampowered.com/app/3101040/",
+      "summary": "【Steamセール中】¥3,500 ➔ ¥2,800",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg?t=1789891545",
+      "badge": "-20%",
+      "expire": "10/02 02:00まで",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-6781659070287910630",
+      "title": "Game Pass に『Gears of War: E-Day』『Minecraft Dungeons II』『Dune: Awakening デューン：アウェイクニング』などが登場",
+      "link": "https://news.xbox.com/ja-jp/2026/09/18/xbox-game-pass-september-2026-wave-2/",
+      "summary": "The post Game Pass に『Gears of War: E-Day』『Minecraft Dungeons II』『Dune: Awakening デューン：アウェイクニング』などが登場 appeared first on XBOX Wire Japan....",
+      "source": "Xbox Wire",
+      "category": "sale",
+      "category_name": "🔥 セール速報",
+      "platforms": [
+        "Xbox"
+      ],
+      "badge": "SALE",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_8456434359946207508",
+      "title": "【99円】マンガ『警部銭形』Kindle版が全巻「99円」で買えるお得なセールが開催中。全12巻を購入しても「1188円」",
+      "link": "https://news.denfaminicogamer.jp/news/2609293h",
+      "summary": "『ルパン三世』でおなじみの「銭形警部」を主人公にしたスピンオフ作品。ルパンの犯行予告が残された殺人事件など、“とっつぁん”が難事件に挑む...",
+      "source": "電ファミ",
+      "category": "sale",
+      "category_name": "🔥 セール速報",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "SALE",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-3400135622022930431",
+      "title": "『ウィッチャー3』リマスター版がさっそくSteam同接「11万人」を突破。対象のオリジナル版は“無償アップデート”に対応",
+      "link": "https://news.denfaminicogamer.jp/news/2609293g",
+      "summary": "ビジュアルやスキルシステムを刷新し、UIやフォトモードの機能も拡張。装備の外見変更に対応し、拡張パック「無情なる心」「血塗られた美酒」も収録...",
+      "source": "電ファミ",
+      "category": "sale",
+      "category_name": "🔥 セール速報",
+      "platforms": [
+        "PC"
+      ],
+      "badge": "SALE",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-8249930234520906698",
+      "title": "『ウィッチャー3 リマスター』さっそく「Steam同接10万人突破」で人気爆発中。“オリジナル版所有者は無料”、グラフィック美麗化＆便利要素もりもり太っ腹リマスター",
+      "link": "https://automaton-media.com/articles/newsjp/20260929-470720/",
+      "summary": "『ウィッチャー3 ワイルドハント リマスター』がリリースされた。さっそく多くのプレイヤーが集まり、Steamでは同時接続プレイヤー数が10万人に達している。...",
+      "source": "AUTOMATON",
+      "category": "sale",
+      "category_name": "🔥 セール速報",
+      "platforms": [
+        "PC"
+      ],
+      "badge": "SALE",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-6828754521979999121",
+      "title": "Mobile Suit Gundam: Battle Operation 3 Network Test Version appears on SteamDB",
+      "link": "https://www.gematsu.com/2026/09/mobile-suit-gundam-battle-operation-3-network-test-version-appears-on-steamdb",
+      "summary": "A SteamDB page for a &#8220;Mobile Suit Gundam: Battle Operation 3 Network Test Version&#8221; has &hellip;...",
+      "source": "Gematsu",
+      "category": "sale",
+      "category_name": "🔥 セール速報",
+      "platforms": [
+        "PC"
+      ],
+      "badge": "SALE",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_1605012618733678917",
+      "title": "Teenage Mutant Ninja Turtles: Splintered Fate sales top 1.5 million",
+      "link": "https://www.gematsu.com/2026/09/teenage-mutant-ninja-turtles-splintered-fate-sales-top-1-5-million",
+      "summary": "Total sales for Teenage Mutant Ninja Turtles: Splintered Fate have surpassed 1.5 million units, developer &hellip;...",
+      "source": "Gematsu",
+      "category": "sale",
+      "category_name": "🔥 セール速報",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "SALE",
+      "expire": "",
+      "pubDate": "09/29 15:54"
+    },
+    {
+      "id": "rss_-7212581313077403182",
+      "title": "Controversy erupts around Ace Combat 8 on PC as bundled Belkan War re-release remains problematically attached to the new game, whereas it's standalone on console",
+      "link": "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-steam-community-reaction",
+      "summary": "Early access to Ace Combat 8: Wings of Theve is now available to owners of the game's Deluxe Edition, but the launch has been soured due to ...",
+      "source": "Eurogamer",
+      "category": "sale",
+      "category_name": "🔥 セール速報",
+      "platforms": [
+        "PC"
+      ],
+      "badge": "SALE",
+      "expire": "",
+      "pubDate": "09/29 15:54"
     }
-    
-    with open('news.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-if __name__ == "__main__":
-    fetch_rss()
+  ]
+}
