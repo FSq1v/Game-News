@@ -5,8 +5,12 @@ import json
 import re
 from datetime import datetime
 
-# 大幅拡張！国内外の主要ゲームメディア（計12ソース）
+# 全15メディアの超豪華ソースリスト
 FEEDS = [
+    # 🎮 公式プラットフォーム速報
+    {"url": "https://blog.ja.playstation.com/feed/", "source": "PS Blog", "category": "hardware", "category_name": "🎮 PS公式"},
+    {"url": "https://news.xbox.com/ja-jp/feed/", "source": "Xbox Wire", "category": "hardware", "category_name": "🎮 Xbox公式"},
+
     # 🇯🇵 国内大手・総合ニュース
     {"url": "https://www.famitsu.com/rss/famitsu-all.xml", "source": "ファミ通", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://jp.ign.com/feed/news", "source": "IGN Japan", "category": "jp", "category_name": "🇯🇵 国内速報"},
@@ -14,15 +18,16 @@ FEEDS = [
     {"url": "https://dengekionline.com/rss/index.xml", "source": "電撃オンライン", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://www.gamer.ne.jp/rss/news/", "source": "Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
     
-    # 🇯🇵 カルチャー・インディー・話題系
+    # 🇯🇵 カルチャー・インディー・業界
     {"url": "https://news.denfaminicogamer.jp/feed", "source": "電ファミ", "category": "jp", "category_name": "🇯🇵 電ファミ・話題"},
     {"url": "https://automaton-media.com/feed/", "source": "AUTOMATON", "category": "jp", "category_name": "🇯🇵 インディー・話題"},
     {"url": "https://gamebiz.jp/rss/all.xml", "source": "gamebiz", "category": "jp", "category_name": "📱 スマホ・業界"},
     
-    # 💻 ハードウェア & PC
+    # 💻 ハードウェア & Core PC
     {"url": "https://www.gamespark.jp/rss/index.rdf", "source": "Game*Spark", "category": "hardware", "category_name": "💻 CorePC・ハード"},
 
-    # 🌐 海外トレンド（自動日本語翻訳）
+    # 🌐 海外トレンド & 速報（自動日本語翻訳）
+    {"url": "https://www.gematsu.com/feed", "source": "Gematsu", "category": "global", "category_name": "🌐 海外速報"},
     {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer", "category": "global", "category_name": "🌐 海外トレンド"},
     {"url": "https://kotaku.com/rss", "source": "Kotaku", "category": "global", "category_name": "🌐 海外トレンド"},
     {"url": "https://www.eurogamer.net/feed", "source": "Eurogamer", "category": "global", "category_name": "🌐 海外トレンド"},
@@ -64,7 +69,7 @@ def fetch_rss():
                 root.findall('.//{http://purl.org/rss/1.0/}item')
             )
             
-            # 取得数を各メディア最新4件にして、より多様なサイトから満遍なく集める
+            # 各メディア最新3〜4件を取得して均等に表示
             for item in items[:4]:
                 title = (
                     item.findtext('title') or 
@@ -84,7 +89,7 @@ def fetch_rss():
                 title = title.strip()
                 summary = clean_html(desc)
                 
-                # 海外ニュースの自動翻訳
+                # 海外ソース（Gematsu, PC Gamer, Kotaku, Eurogamer）は自動日本語翻訳
                 if feed["category"] == "global" or re.search(r'[a-zA-Z]{5,}', title):
                     title = translate_to_japanese(title)
                     if summary:
@@ -94,8 +99,8 @@ def fetch_rss():
                 cat_name = feed["category_name"]
                 title_lower = title.lower()
                 
-                # 自動判別タグ（セール、ハードウェア）
-                if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle"]):
+                # セールやハード関連のキーワードがあれば動的にタグ変更
+                if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle", "game pass"]):
                     cat = "sale"
                     cat_name = "🔥 セール・お得"
                 elif any(k in title_lower for k in ["ps5", "switch", "steam deck", "gpu", "rtx", "グラボ", "モニター", "コントローラー", "xbox", "ハード", "新型"]):
@@ -114,7 +119,7 @@ def fetch_rss():
         except Exception as e:
             print(f"Error fetching {feed['source']}: {e}")
             
-    # 重複記事の削除（同じタイトルのものは排除）
+    # タイトル重複チェック
     unique_articles = []
     seen_titles = set()
     for art in articles:
