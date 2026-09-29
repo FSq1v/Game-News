@@ -7,21 +7,6 @@
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              500: '#8b5cf6',
-              600: '#7c3aed',
-            }
-          }
-        }
-      }
-    }
-  </script>
 
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -34,23 +19,14 @@
   <style>
     body {
       font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
-      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     /* ガラスモーフィズム */
-    .dark .glass-card {
+    .glass-card {
       background: rgba(15, 23, 42, 0.75);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.08);
-    }
-
-    .light .glass-card {
-      background: rgba(255, 255, 255, 0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(0, 0, 0, 0.08);
-      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
     }
 
     .glass-card:active {
@@ -79,10 +55,10 @@
     }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen pb-20 selection:bg-violet-500 selection:text-white dark:bg-slate-950 dark:text-slate-100 light:bg-slate-50 light:text-slate-900">
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-20 selection:bg-violet-500 selection:text-white">
 
   <!-- ヘッダー -->
-  <header class="sticky top-0 z-40 bg-slate-950/80 dark:bg-slate-950/80 light:bg-white/80 backdrop-blur-md border-b border-slate-800/80 dark:border-slate-800/80 light:border-slate-200 px-4 py-3.5 transition-colors">
+  <header class="sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80 px-4 py-3.5">
     <div class="max-w-4xl mx-auto flex justify-between items-center">
       <div class="flex items-center gap-2">
         <div class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></div>
@@ -91,17 +67,9 @@
         </h1>
       </div>
       
-      <div class="flex items-center gap-3">
-        <!-- ダーク / ライトモード切替ボタン -->
-        <button onclick="toggleTheme()" class="p-2 rounded-xl bg-slate-900 dark:bg-slate-900 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-200 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:scale-105 active:scale-95 transition-all">
-          <i data-lucide="sun" class="w-4 h-4 hidden dark:block text-amber-400"></i>
-          <i data-lucide="moon" class="w-4 h-4 block dark:hidden text-indigo-600"></i>
-        </button>
-
-        <span id="update-time" class="text-[11px] font-medium text-slate-400 bg-slate-900 dark:bg-slate-900 light:bg-slate-100 px-2.5 py-1 rounded-full border border-slate-800 dark:border-slate-800 light:border-slate-200">
-          読み込み中...
-        </span>
-      </div>
+      <span id="update-time" class="text-[11px] font-medium text-slate-400 bg-slate-900 px-2.5 py-1 rounded-full border border-slate-800">
+        読み込み中...
+      </span>
     </div>
   </header>
 
@@ -123,20 +91,20 @@
       </div>
     </section>
 
-    <hr class="border-slate-800/60 dark:border-slate-800/60 light:border-slate-200">
+    <hr class="border-slate-800/60">
 
     <!-- 検索バー ＆ ソート ＆ レイアウト切替 -->
     <div class="flex flex-wrap gap-2.5 items-center">
       <!-- 検索インプット -->
       <div class="relative flex-1 min-w-[200px]">
         <input type="text" id="search-input" oninput="onSearch()" placeholder="タイトルやキーワードで検索..." 
-               class="w-full bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 rounded-xl px-3.5 py-2 text-xs text-slate-200 dark:text-slate-200 light:text-slate-800 placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors pl-9">
+               class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3.5 py-2 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors pl-9">
         <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-500"></i>
       </div>
 
       <!-- ソート切替ドロップダウン -->
       <div class="relative">
-        <select id="sort-select" onchange="renderNews()" class="bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-800 text-xs px-3 py-2 rounded-xl focus:outline-none focus:border-violet-500 cursor-pointer appearance-none pr-8">
+        <select id="sort-select" onchange="renderNews()" class="bg-slate-900 border border-slate-800 text-slate-300 text-xs px-3 py-2 rounded-xl focus:outline-none focus:border-violet-500 cursor-pointer appearance-none pr-8">
           <option value="newest">📅 新着順</option>
           <option value="oldest">⌛ 古い順</option>
           <option value="title">🔤 タイトル順</option>
@@ -145,7 +113,7 @@
       </div>
 
       <!-- レイアウト切り替えボタン -->
-      <button onclick="toggleLayout()" id="layout-btn" class="bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:border-slate-700 text-xs p-2 rounded-xl transition-all flex items-center justify-center w-9 h-9" title="表示切り替え">
+      <button onclick="toggleLayout()" id="layout-btn" class="bg-slate-900 border border-slate-800 text-slate-300 hover:border-slate-700 text-xs p-2 rounded-xl transition-all flex items-center justify-center w-9 h-9" title="表示切り替え">
         <i data-lucide="layout-grid" class="w-4 h-4"></i>
       </button>
     </div>
@@ -155,25 +123,25 @@
       <button onclick="filterNews('all', this)" class="cat-btn bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap shadow-lg shadow-violet-500/20 transition-all">
         すべて
       </button>
-      <button onclick="filterNews('fav', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-amber-400 hover:border-amber-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all flex items-center gap-1.5">
+      <button onclick="filterNews('fav', this)" class="cat-btn bg-slate-900 border border-slate-800 text-amber-400 hover:border-amber-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all flex items-center gap-1.5">
         <i data-lucide="star" class="w-3.5 h-3.5 fill-amber-400"></i> お気に入り
       </button>
-      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🇯🇵 国内速報
       </button>
-      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-cyan-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 border border-slate-800 text-cyan-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         💻 ハード・公式
       </button>
-      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-fuchsia-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 border border-slate-800 text-fuchsia-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🌐 海外トレンド
       </button>
-      <button onclick="filterNews('epic_free', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-emerald-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('epic_free', this)" class="cat-btn bg-slate-900 border border-slate-800 text-emerald-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🎁 Epic無料配布
       </button>
-      <button onclick="filterNews('epic_sale', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-teal-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('epic_sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-teal-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🏷️ Epicセール
       </button>
-      <button onclick="filterNews('steam_sale', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-sky-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('steam_sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-sky-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🎮 Steamセール
       </button>
     </div>
@@ -193,7 +161,7 @@
     <div class="relative w-full max-w-3xl bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl animate-modal">
       <!-- ヘッダー -->
       <div class="flex justify-between items-center p-4 border-b border-slate-800 bg-slate-950/50">
-        <h3 id="pv-modal-title" class="text-sm font-bold text-slate-100 truncate pr-4">公式アナウンストレーラー</h3>
+        <h3 id="pv-modal-title" class="text-sm font-bold text-slate-100 truncate pr-4">公式トレーラー</h3>
         <button onclick="closePvModal()" class="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
@@ -211,21 +179,7 @@
     let favorites = JSON.parse(localStorage.getItem('game_news_favs') || '[]');
     let isCompactLayout = localStorage.getItem('game_news_layout') === 'compact';
 
-    // テーマ管理 (ダーク/ライト)
-    function initTheme() {
-      const savedTheme = localStorage.getItem('game_news_theme') || 'dark';
-      document.documentElement.className = savedTheme;
-    }
-    function toggleTheme() {
-      const isDark = document.documentElement.classList.contains('dark');
-      const newTheme = isDark ? 'light' : 'dark';
-      document.documentElement.className = newTheme;
-      localStorage.setItem('game_news_theme', newTheme);
-      lucide.createIcons();
-    }
-    initTheme();
-
-    // 注目新作ゲームデータ（詳細情報・カウントダウン用日付・PV・関連リンク付き）
+    // 注目新作ゲームデータ（本物のYouTube IDを割り当て）
     const upcomingGames = [
       { 
         id: "gta6",
@@ -234,69 +188,57 @@
         dateText: "2026年11月予定", 
         platforms: ["PS5", "Xbox Series"], 
         color: "from-fuchsia-500/20 to-pink-500/10",
-        youtubeId: "QdBZY2fkU-0",
+        youtubeId: "QdBZY2fkU-0", // GTA VI Official Trailer 1
         links: [
           { name: "公式サイト", url: "https://www.rockstargames.com/VI" }
         ]
       },
       { 
-        id: "sth",
-        title: "STRANGER THAN HEAVEN", 
-        targetDate: "2027-01-15", 
-        dateText: "2027年1月15日", 
-        platforms: ["PS5", "Xbox Series", "PC"], 
-        color: "from-amber-500/20 to-orange-500/10",
-        youtubeId: "dQw4w9WgXcQ",
-        links: [
-          { name: "公式情報", url: "#" }
-        ]
-      },
-      { 
-        id: "metroid_r",
-        title: "メトロイド ラヴェナス", 
+        id: "metroid_prime4",
+        title: "メトロイドプライム4 ビヨンド", 
         targetDate: "2027-01-28", 
         dateText: "2027年1月28日", 
-        platforms: ["Switch 2"], 
+        platforms: ["Switch 2", "Switch"], 
         color: "from-rose-500/20 to-red-500/10",
-        youtubeId: "dQw4w9WgXcQ",
+        youtubeId: "Y_hGAt9vGrs", // メトロイドプライム4 ビヨンド 公式映像
         links: [
           { name: "任天堂公式", url: "https://www.nintendo.co.jp/" }
         ]
       },
       { 
-        id: "p4r",
-        title: "ペルソナ4 リバイバル", 
+        id: "p3r",
+        title: "ペルソナ3 リロード", 
         targetDate: "2027-02-18", 
         dateText: "2027年2月18日", 
-        platforms: ["PS5", "Xbox Series", "PC", "Switch 2"], 
+        platforms: ["PS5", "Xbox Series", "PC"], 
         color: "from-cyan-500/20 to-blue-500/10",
-        youtubeId: "dQw4w9WgXcQ",
+        youtubeId: "o54Y4jXAnLw", // ペルソナ3 リロード PV
         links: [
-          { name: "アトラス公式", url: "https://www.atlus.co.jp/" }
+          { name: "アトラス公式", url: "https://p3re.jp/" }
         ]
       },
       { 
-        id: "ff7r3",
-        title: "FF7 リベレーション", 
+        id: "ff7r",
+        title: "FINAL FANTASY VII REBIRTH", 
         targetDate: "2027-04-08", 
         dateText: "2027年4月8日", 
-        platforms: ["PS5", "Switch 2", "PC"], 
+        platforms: ["PS5", "PC"], 
         color: "from-violet-500/20 to-purple-500/10",
-        youtubeId: "dQw4w9WgXcQ",
+        youtubeId: "H_A33T8jSBA", // FF7 リバース PV
         links: [
-          { name: "スクエニ公式", url: "https://www.jp.square-enix.com/" }
+          { name: "スクエニ公式", url: "https://www.jp.square-enix.com/ffvii_rebirth/" }
         ]
       },
       { 
-        id: "pokemon_ww",
-        title: "ポケットモンスター ウインド・ウェーブ", 
+        id: "pokemon_za",
+        title: "Pokémon LEGENDS Z-A", 
         targetDate: "2027-11-18", 
         dateText: "2027年秋予定", 
-        platforms: ["Switch 2"], 
+        platforms: ["Switch 2", "Switch"], 
         color: "from-emerald-500/20 to-teal-500/10",
-        youtubeId: "dQw4w9WgXcQ",
+        youtubeId: "v_E1O1WkQyY", // Pokémon LEGENDS Z-A PV
         links: [
-          { name: "ポケモン公式", url: "https://www.pokemon.co.jp/" }
+          { name: "ポケモン公式", url: "https://www.pokemon.co.jp/ex/pokemon_legends_z-a/" }
         ]
       }
     ];
@@ -308,7 +250,7 @@
           return '<span class="text-[9px] font-extrabold bg-blue-600/20 text-blue-300 border border-blue-500/30 px-1.5 py-0.5 rounded">PS5</span>';
         case 'Switch 2':
         case 'Switch':
-          return '<span class="text-[9px] font-extrabold bg-red-600/20 text-red-300 border border-red-500/30 px-1.5 py-0.5 rounded">Switch 2</span>';
+          return '<span class="text-[9px] font-extrabold bg-red-600/20 text-red-300 border border-red-500/30 px-1.5 py-0.5 rounded">Switch</span>';
         case 'Xbox Series':
         case 'Xbox':
           return '<span class="text-[9px] font-extrabold bg-emerald-600/20 text-emerald-300 border border-emerald-500/30 px-1.5 py-0.5 rounded">Xbox</span>';
@@ -346,7 +288,7 @@
                 <div class="flex gap-1 flex-wrap">${platformBadges}</div>
                 ${countdownBadge}
               </div>
-              <h3 class="font-bold text-xs text-slate-100 dark:text-slate-100 light:text-slate-900 line-clamp-2 leading-snug mb-3">${g.title}</h3>
+              <h3 class="font-bold text-xs text-slate-100 line-clamp-2 leading-snug mb-3">${g.title}</h3>
             </div>
 
             <div class="pt-2 border-t border-slate-700/40 flex items-center justify-between gap-2 text-[10px]">
@@ -358,7 +300,7 @@
               <!-- 関連リンク -->
               <div class="flex gap-1">
                 ${g.links.map(l => `
-                  <a href="${l.url}" target="_blank" rel="noopener opacity-80 hover:opacity-100 hover:underline flex items-center gap-0.5 text-slate-300 dark:text-slate-300 light:text-slate-700 font-medium">
+                  <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="opacity-80 hover:opacity-100 hover:underline flex items-center gap-0.5 text-slate-300 font-medium">
                     ${l.name} <i data-lucide="external-link" class="w-2.5 h-2.5"></i>
                   </a>
                 `).join('')}
@@ -377,7 +319,7 @@
       const iframe = document.getElementById('pv-iframe');
       const modalTitle = document.getElementById('pv-modal-title');
 
-      modalTitle.innerText = `${title} - 公式公式PV`;
+      modalTitle.innerText = `${title} - 公式PV`;
       iframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1`;
       modal.classList.remove('hidden');
     }
@@ -502,7 +444,7 @@
                     <span class="text-[9px] font-bold px-2 py-0.5 rounded ${getTagStyle(item.category)}">${item.category_name}</span>
                     <span class="text-[9px] text-slate-400">${item.source} • ${item.pubDate}</span>
                   </div>
-                  <h2 class="font-bold text-xs text-slate-100 dark:text-slate-100 light:text-slate-800 truncate group-hover:text-violet-400 transition-colors">${item.title}</h2>
+                  <h2 class="font-bold text-xs text-slate-100 truncate group-hover:text-violet-400 transition-colors">${item.title}</h2>
                 </div>
               </a>
               <button onclick="toggleFavorite('${item.id}', event)" class="p-1.5 text-slate-400 hover:text-amber-400 transition-colors">
@@ -544,7 +486,7 @@
                   </span>
                 </div>
 
-                <h2 class="font-bold text-slate-100 dark:text-slate-100 light:text-slate-800 text-sm leading-snug mb-2 group-hover:text-violet-400 transition-colors line-clamp-2">
+                <h2 class="font-bold text-slate-100 text-sm leading-snug mb-2 group-hover:text-violet-400 transition-colors line-clamp-2">
                   ${item.title}
                 </h2>
 
@@ -581,7 +523,7 @@
     function filterNews(category, btn) {
       currentCategory = category;
       document.querySelectorAll('.cat-btn').forEach(b => {
-        b.className = 'cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all';
+        b.className = 'cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all';
       });
 
       btn.className = 'cat-btn bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap shadow-lg shadow-violet-500/20 transition-all';
