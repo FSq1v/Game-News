@@ -5,7 +5,7 @@ import json
 import re
 from datetime import datetime
 
-# 安定して取得できる主要メディア一覧
+# ニュース収集対象ソース
 FEEDS = [
     # 🇯🇵 国内ゲームメディア
     {"url": "https://www.famitsu.com/rss/famitsu-all.xml", "source": "ファミ通", "category": "jp", "category_name": "🇯🇵 国内速報"},
@@ -14,9 +14,9 @@ FEEDS = [
     {"url": "https://www.4gamer.net/rss/index.xml", "source": "4Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://www.gamespark.jp/rss/index.rdf", "source": "Game*Spark", "category": "hardware", "category_name": "💻 CorePC・ハード"},
 
-    # 🌐 海外人気トレンドメディア（自動で日本語翻訳します）
-    {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer (海外)", "category": "global", "category_name": "🌐 海外トレンド"},
-    {"url": "https://kotaku.com/rss", "source": "Kotaku (海外)", "category": "global", "category_name": "🌐 海外トレンド"},
+    # 🌐 海外トレンド（自動日本語翻訳対応）
+    {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer", "category": "global", "category_name": "🌐 海外トレンド"},
+    {"url": "https://kotaku.com/rss", "source": "Kotaku", "category": "global", "category_name": "🌐 海外トレンド"},
 ]
 
 def clean_html(text):
@@ -24,17 +24,19 @@ def clean_html(text):
     clean = re.sub('<.*?>', '', text)
     return clean.strip()[:140] + "..."
 
-# 簡易的な自動日本語翻訳（Google翻訳API）
+# 日本語翻訳処理（Google翻訳API使用）
 def translate_to_japanese(text):
-    if not text or len(text.strip()) == 0: return text
+    if not text or len(text.strip()) == 0:
+        return text
     try:
         url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ja&dt=t&q=" + urllib.parse.quote(text)
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        res = urllib.request.urlopen(req, timeout=5).read().decode('utf-8')
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+        res = urllib.request.urlopen(req, timeout=6).read().decode('utf-8')
         result = json.loads(res)
         translated = "".join([sentence[0] for sentence[0] in result[0] if sentence[0]])
-        return translated
+        return translated if translated else text
     except Exception as e:
+        print(f"Translation error: {e}")
         return text
 
 def fetch_rss():
@@ -74,16 +76,17 @@ def fetch_rss():
                 title = title.strip()
                 summary = clean_html(desc)
                 
-                # 海外ソースの場合、タイトルと概要を自動で日本語化
-                if feed["category"] == "global":
+                # 海外ソースまたは英語が含まれている場合は、タイトルと概要を必ず日本語翻訳
+                if feed["category"] == "global" or re.search(r'[a-zA-Z]{5,}', title):
                     title = translate_to_japanese(title)
-                    summary = translate_to_japanese(summary)
+                    if summary:
+                        summary = translate_to_japanese(summary)
 
-                # カテゴリの自動判定
                 cat = feed["category"]
                 cat_name = feed["category_name"]
                 title_lower = title.lower()
                 
+                # セール・ハードウェアの自動判定
                 if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle"]):
                     cat = "sale"
                     cat_name = "🔥 セール・お得"
@@ -103,7 +106,7 @@ def fetch_rss():
         except Exception as e:
             print(f"Error fetching {feed['source']}: {e}")
             
-    # 重複記事の排除
+    # 重複記事の削除
     unique_articles = []
     seen_titles = set()
     for art in articles:
