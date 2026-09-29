@@ -24,6 +24,27 @@ FEEDS = [
     {"url": "https://www.eurogamer.net/feed", "source": "Eurogamer", "category": "global", "category_name": "🌐 海外トレンド"},
 ]
 
+PLATFORM_KEYWORDS = {
+    "Switch": ["switch", "スイッチ", "nintendo switch", "任天堂"],
+    "PS5": ["ps5", "playstation 5", "プレイステーション5"],
+    "PS4": ["ps4", "playstation 4"],
+    "PC": ["pc", "steam", "epic games", "rtx", "gpu", "ゲーミングpc", "pc gamer"],
+    "Xbox": ["xbox", "series x", "series s", "game pass"]
+}
+
+def detect_platforms(text, default_platform=None):
+    text_lower = text.lower()
+    detected = set()
+    
+    if default_platform:
+        detected.add(default_platform)
+        
+    for platform, keywords in PLATFORM_KEYWORDS.items():
+        if any(kw in text_lower for kw in keywords):
+            detected.add(platform)
+            
+    return list(detected) if detected else ["ALL"]
+
 def clean_html(text):
     if not text: return ""
     clean = re.sub('<.*?>', '', text)
@@ -35,7 +56,7 @@ def translate_to_japanese(text):
     try:
         url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ja&dt=t&q=" + urllib.parse.quote(text)
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-        res = urllib.request.urlopen(req, timeout=6).read().decode('utf-8')
+        res = urllib.request.urlopen(req, timeout=4).read().decode('utf-8')
         result = json.loads(res)
         translated = "".join([sentence[0] for sentence[0] in result[0] if sentence[0]])
         return translated if translated else text
@@ -90,13 +111,14 @@ def fetch_epic_store():
 
             if is_free:
                 epic_items.append({
-                    "id": f"epic_free_{title}",
+                    "id": f"epic_free_{hash(title)}",
                     "title": title,
                     "link": link,
                     "summary": f"【Epic Gamesストア 無料配布中】通常価格 ¥{original_price:,} ➔ 無料！",
                     "source": "Epic Games Store",
                     "category": "epic_free",
                     "category_name": "🎁 Epic無料配布",
+                    "platforms": ["PC"],
                     "image": image_url,
                     "badge": "FREE",
                     "expire": end_date_str,
@@ -105,13 +127,14 @@ def fetch_epic_store():
             elif original_price > 0 and discount_price < original_price:
                 discount_rate = int((1 - discount_price / original_price) * 100)
                 epic_items.append({
-                    "id": f"epic_sale_{title}",
+                    "id": f"epic_sale_{hash(title)}",
                     "title": title,
                     "link": link,
                     "summary": f"【セール中】¥{original_price:,} ➔ ¥{discount_price:,}",
                     "source": "Epic Games Store",
                     "category": "epic_sale",
                     "category_name": "🏷️ Epicセール",
+                    "platforms": ["PC"],
                     "image": image_url,
                     "badge": f"-{discount_rate}%",
                     "expire": end_date_str,
@@ -160,6 +183,7 @@ def fetch_steam_sales():
                     "source": "Steam Store",
                     "category": "steam_sale",
                     "category_name": "🎮 Steamセール",
+                    "platforms": ["PC"],
                     "image": image_url,
                     "badge": f"-{discount_percent}%",
                     "expire": expire_str,
@@ -183,8 +207,12 @@ def fetch_rss():
                 feed["url"], 
                 headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
             )
-            xml_data = urllib.request.urlopen(req, timeout=12).read()
-            root = ET.fromstring(xml_data)
+            xml_data = urllib.request.urlopen(req, timeout=10).read()
+            
+            try:
+                root = ET.fromstring(xml_data)
+            except ET.ParseError:
+                continue
             
             items = (
                 root.findall('.//item') or 
@@ -192,6 +220,12 @@ def fetch_rss():
                 root.findall('.//{http://purl.org/rss/1.0/}item')
             )
             
+            # ソースごとの固定プラットフォーム（公式ブログ等）
+            default_platform = None
+            if feed["source"] == "任天堂": default_platform = "Switch"
+            elif feed["source"] == "PS Blog": default_platform = "PS5"
+            elif feed["source"] == "Xbox Wire": default_platform = "Xbox"
+
             for item in items[:4]:
                 title = (
                     item.findtext('title') or 
@@ -231,6 +265,9 @@ def fetch_rss():
                     cat = "hardware"
                     cat_name = "💻 ハード・機器"
 
+                # プラットフォーム判定
+                platforms = detect_platforms(f"{title} {summary}", default_platform)
+
                 article = {
                     "id": f"rss_{hash(title)}",
                     "title": title,
@@ -239,6 +276,7 @@ def fetch_rss():
                     "source": feed["source"],
                     "category": cat,
                     "category_name": cat_name,
+                    "platforms": platforms,
                     "badge": badge,
                     "expire": "",
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
@@ -262,7 +300,7 @@ def fetch_rss():
             unique_articles.append(art)
 
     data = {
-        "updated_at": datetime.now().strftime("%Y/%m/%d %H:%M"),
+        "updated_at": datetime.now(timezone(timedelta(hours=9))).strftime("%Y/%m/%d %H:%M"),
         "articles": unique_articles
     }
     
