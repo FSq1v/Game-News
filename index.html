@@ -4,74 +4,149 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GAME FEED | ゲーム速報・セール・新作カレンダー</title>
+  
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              500: '#8b5cf6',
+              600: '#7c3aed',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
-    .glass-card {
-      background: rgba(30, 41, 59, 0.7);
+
+    /* ガラスモーフィズム */
+    .dark .glass-card {
+      background: rgba(15, 23, 42, 0.75);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.08);
     }
+
+    .light .glass-card {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+    }
+
     .glass-card:active {
       transform: scale(0.98);
     }
-    .no-scrollbar::-webkit-scrollbar {
-      display: none;
+
+    /* アニメーションエフェクト */
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .no-scrollbar {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+    .card-hover:hover {
+      transform: translateY(-4px);
+    }
+
+    /* スクロールバー非表示 */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* モーダルアニメーション */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .animate-modal {
+      animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen pb-16 selection:bg-violet-500 selection:text-white">
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-20 selection:bg-violet-500 selection:text-white dark:bg-slate-950 dark:text-slate-100 light:bg-slate-50 light:text-slate-900">
 
   <!-- ヘッダー -->
-  <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80 px-4 py-3.5">
-    <div class="max-w-3xl mx-auto flex justify-between items-center">
+  <header class="sticky top-0 z-40 bg-slate-950/80 dark:bg-slate-950/80 light:bg-white/80 backdrop-blur-md border-b border-slate-800/80 dark:border-slate-800/80 light:border-slate-200 px-4 py-3.5 transition-colors">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
       <div class="flex items-center gap-2">
         <div class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></div>
         <h1 class="text-lg font-extrabold tracking-wider bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">
           GAME FEED
         </h1>
       </div>
-      <span id="update-time" class="text-[11px] font-medium text-slate-400 bg-slate-900 px-2.5 py-1 rounded-full border border-slate-800">
-        読み込み中...
-      </span>
+      
+      <div class="flex items-center gap-3">
+        <!-- ダーク / ライトモード切替ボタン -->
+        <button onclick="toggleTheme()" class="p-2 rounded-xl bg-slate-900 dark:bg-slate-900 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-200 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:scale-105 active:scale-95 transition-all">
+          <i data-lucide="sun" class="w-4 h-4 hidden dark:block text-amber-400"></i>
+          <i data-lucide="moon" class="w-4 h-4 block dark:hidden text-indigo-600"></i>
+        </button>
+
+        <span id="update-time" class="text-[11px] font-medium text-slate-400 bg-slate-900 dark:bg-slate-900 light:bg-slate-100 px-2.5 py-1 rounded-full border border-slate-800 dark:border-slate-800 light:border-slate-200">
+          読み込み中...
+        </span>
+      </div>
     </div>
   </header>
 
-  <main class="max-w-3xl mx-auto px-4 py-5 space-y-5">
+  <main class="max-w-4xl mx-auto px-4 py-6 space-y-6">
     
-    <!-- 今後発売・注目新作ゲーム -->
-    <section class="space-y-2">
+    <!-- 今後発売・注目新作ゲーム（カウントダウン・PV・予約リンク付き） -->
+    <section class="space-y-3">
       <div class="flex justify-between items-center px-1">
-        <h2 class="text-xs font-bold text-slate-300 flex items-center gap-1.5">
-          <span>📅</span> 今後発売・注目の新作
+        <h2 class="text-sm font-bold flex items-center gap-2">
+          <i data-lucide="calendar" class="w-4 h-4 text-violet-400"></i>
+          <span>注目・期待の新作ゲーム</span>
         </h2>
-        <span class="text-[10px] text-slate-500">Upcoming Games</span>
+        <span class="text-[11px] text-slate-500 font-medium">Upcoming Games</span>
       </div>
-      <div class="flex gap-3 overflow-x-auto no-scrollbar py-1" id="upcoming-container">
-        <!-- JSで動的に追加されます -->
+
+      <!-- 横スクロールコンテナ -->
+      <div class="flex gap-4 overflow-x-auto no-scrollbar py-2 px-1" id="upcoming-container">
+        <!-- JSで動的に挿入されます -->
       </div>
     </section>
 
-    <!-- 検索バー ＆ レイアウト切替 -->
-    <div class="flex gap-2 items-center">
-      <div class="relative flex-1">
+    <hr class="border-slate-800/60 dark:border-slate-800/60 light:border-slate-200">
+
+    <!-- 検索バー ＆ ソート ＆ レイアウト切替 -->
+    <div class="flex flex-wrap gap-2.5 items-center">
+      <!-- 検索インプット -->
+      <div class="relative flex-1 min-w-[200px]">
         <input type="text" id="search-input" oninput="onSearch()" placeholder="タイトルやキーワードで検索..." 
-               class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3.5 py-2 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors pl-9">
-        <span class="absolute left-3 top-2.5 text-slate-500 text-xs">🔍</span>
+               class="w-full bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 rounded-xl px-3.5 py-2 text-xs text-slate-200 dark:text-slate-200 light:text-slate-800 placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors pl-9">
+        <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-500"></i>
       </div>
+
+      <!-- ソート切替ドロップダウン -->
+      <div class="relative">
+        <select id="sort-select" onchange="renderNews()" class="bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-800 text-xs px-3 py-2 rounded-xl focus:outline-none focus:border-violet-500 cursor-pointer appearance-none pr-8">
+          <option value="newest">📅 新着順</option>
+          <option value="oldest">⌛ 古い順</option>
+          <option value="title">🔤 タイトル順</option>
+        </select>
+        <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2.5 top-2.5 text-slate-500 pointer-events-none"></i>
+      </div>
+
       <!-- レイアウト切り替えボタン -->
-      <button onclick="toggleLayout()" id="layout-btn" class="bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 text-xs p-2 rounded-xl transition-all flex items-center justify-center w-9 h-9" title="表示切り替え">
-        🔲
+      <button onclick="toggleLayout()" id="layout-btn" class="bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:border-slate-700 text-xs p-2 rounded-xl transition-all flex items-center justify-center w-9 h-9" title="表示切り替え">
+        <i data-lucide="layout-grid" class="w-4 h-4"></i>
       </button>
     </div>
 
@@ -80,29 +155,26 @@
       <button onclick="filterNews('all', this)" class="cat-btn bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap shadow-lg shadow-violet-500/20 transition-all">
         すべて
       </button>
-      <button onclick="filterNews('fav', this)" class="cat-btn bg-slate-900 border border-slate-800 text-amber-300 hover:border-amber-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all flex items-center gap-1">
-        ★ お気に入り
+      <button onclick="filterNews('fav', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-amber-400 hover:border-amber-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all flex items-center gap-1.5">
+        <i data-lucide="star" class="w-3.5 h-3.5 fill-amber-400"></i> お気に入り
       </button>
-      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 border border-slate-800 text-slate-300 hover:border-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🇯🇵 国内速報
       </button>
-      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 border border-slate-800 text-cyan-400 hover:border-cyan-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-cyan-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         💻 ハード・公式
       </button>
-      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 border border-slate-800 text-fuchsia-400 hover:border-fuchsia-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-fuchsia-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🌐 海外トレンド
       </button>
-      <button onclick="filterNews('epic_free', this)" class="cat-btn bg-slate-900 border border-slate-800 text-emerald-400 hover:border-emerald-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('epic_free', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-emerald-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🎁 Epic無料配布
       </button>
-      <button onclick="filterNews('epic_sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-teal-400 hover:border-teal-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('epic_sale', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-teal-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🏷️ Epicセール
       </button>
-      <button onclick="filterNews('steam_sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-sky-400 hover:border-sky-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+      <button onclick="filterNews('steam_sale', this)" class="cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-sky-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🎮 Steamセール
-      </button>
-      <button onclick="filterNews('sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-amber-400 hover:border-amber-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
-        🔥 セール速報
       </button>
     </div>
 
@@ -116,37 +188,208 @@
 
   </main>
 
+  <!-- YouTube PV再生用モーダル -->
+  <div id="pv-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md hidden">
+    <div class="relative w-full max-w-3xl bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl animate-modal">
+      <!-- ヘッダー -->
+      <div class="flex justify-between items-center p-4 border-b border-slate-800 bg-slate-950/50">
+        <h3 id="pv-modal-title" class="text-sm font-bold text-slate-100 truncate pr-4">公式アナウンストレーラー</h3>
+        <button onclick="closePvModal()" class="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <!-- 動画埋め込みエリア -->
+      <div class="relative aspect-video w-full bg-black">
+        <iframe id="pv-iframe" class="w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
   <script>
     let allNews = [];
     let currentCategory = 'all';
     let favorites = JSON.parse(localStorage.getItem('game_news_favs') || '[]');
     let isCompactLayout = localStorage.getItem('game_news_layout') === 'compact';
 
-    // 今後発売・注目新作ゲームリスト
+    // テーマ管理 (ダーク/ライト)
+    function initTheme() {
+      const savedTheme = localStorage.getItem('game_news_theme') || 'dark';
+      document.documentElement.className = savedTheme;
+    }
+    function toggleTheme() {
+      const isDark = document.documentElement.classList.contains('dark');
+      const newTheme = isDark ? 'light' : 'dark';
+      document.documentElement.className = newTheme;
+      localStorage.setItem('game_news_theme', newTheme);
+      lucide.createIcons();
+    }
+    initTheme();
+
+    // 注目新作ゲームデータ（詳細情報・カウントダウン用日付・PV・関連リンク付き）
     const upcomingGames = [
-      { title: "GTA VI (グランド・セフト・オートVI)", date: "2026年11月予定", platform: "PS5/Xbox Series", color: "from-fuchsia-500/20 to-pink-500/10" },
-      { title: "STRANGER THAN HEAVEN", date: "2027年1月15日", platform: "PS5/Xbox/PC", color: "from-amber-500/20 to-orange-500/10" },
-      { title: "メトロイド ラヴェナス", date: "2027年1月28日", platform: "Switch 2", color: "from-rose-500/20 to-red-500/10" },
-      { title: "ペルソナ4 リバイバル", date: "2027年2月18日", platform: "PS5/Xbox/PC", color: "from-cyan-500/20 to-blue-500/10" },
-      { title: "FF7 リベレーション", date: "2027年春予定", platform: "PS5/Switch 2/PC", color: "from-violet-500/20 to-purple-500/10" },
-      { title: "ポケットモンスター ウインド・ウェーブ", date: "2027年予定", platform: "Switch 2", color: "from-emerald-500/20 to-teal-500/10" }
+      { 
+        id: "gta6",
+        title: "GTA VI (グランド・セフト・オートVI)", 
+        targetDate: "2026-11-15", 
+        dateText: "2026年11月予定", 
+        platforms: ["PS5", "Xbox Series"], 
+        color: "from-fuchsia-500/20 to-pink-500/10",
+        youtubeId: "QdBZY2fkU-0",
+        links: [
+          { name: "公式サイト", url: "https://www.rockstargames.com/VI" }
+        ]
+      },
+      { 
+        id: "sth",
+        title: "STRANGER THAN HEAVEN", 
+        targetDate: "2027-01-15", 
+        dateText: "2027年1月15日", 
+        platforms: ["PS5", "Xbox Series", "PC"], 
+        color: "from-amber-500/20 to-orange-500/10",
+        youtubeId: "dQw4w9WgXcQ",
+        links: [
+          { name: "公式情報", url: "#" }
+        ]
+      },
+      { 
+        id: "metroid_r",
+        title: "メトロイド ラヴェナス", 
+        targetDate: "2027-01-28", 
+        dateText: "2027年1月28日", 
+        platforms: ["Switch 2"], 
+        color: "from-rose-500/20 to-red-500/10",
+        youtubeId: "dQw4w9WgXcQ",
+        links: [
+          { name: "任天堂公式", url: "https://www.nintendo.co.jp/" }
+        ]
+      },
+      { 
+        id: "p4r",
+        title: "ペルソナ4 リバイバル", 
+        targetDate: "2027-02-18", 
+        dateText: "2027年2月18日", 
+        platforms: ["PS5", "Xbox Series", "PC", "Switch 2"], 
+        color: "from-cyan-500/20 to-blue-500/10",
+        youtubeId: "dQw4w9WgXcQ",
+        links: [
+          { name: "アトラス公式", url: "https://www.atlus.co.jp/" }
+        ]
+      },
+      { 
+        id: "ff7r3",
+        title: "FF7 リベレーション", 
+        targetDate: "2027-04-08", 
+        dateText: "2027年4月8日", 
+        platforms: ["PS5", "Switch 2", "PC"], 
+        color: "from-violet-500/20 to-purple-500/10",
+        youtubeId: "dQw4w9WgXcQ",
+        links: [
+          { name: "スクエニ公式", url: "https://www.jp.square-enix.com/" }
+        ]
+      },
+      { 
+        id: "pokemon_ww",
+        title: "ポケットモンスター ウインド・ウェーブ", 
+        targetDate: "2027-11-18", 
+        dateText: "2027年秋予定", 
+        platforms: ["Switch 2"], 
+        color: "from-emerald-500/20 to-teal-500/10",
+        youtubeId: "dQw4w9WgXcQ",
+        links: [
+          { name: "ポケモン公式", url: "https://www.pokemon.co.jp/" }
+        ]
+      }
     ];
 
-    function renderUpcoming() {
-      const container = document.getElementById('upcoming-container');
-      container.innerHTML = upcomingGames.map(g => `
-        <div class="glass-card bg-gradient-to-br ${g.color} p-3 rounded-xl min-w-[200px] max-w-[220px] flex-shrink-0 flex flex-col justify-between border border-slate-700/50">
-          <div>
-            <div class="flex justify-between items-center gap-1 mb-1.5">
-              <span class="text-[9px] font-extrabold bg-slate-950/80 px-2 py-0.5 rounded text-slate-300 border border-slate-800">${g.platform}</span>
-              <span class="text-[10px] font-bold text-violet-300">${g.date}</span>
-            </div>
-            <h3 class="font-bold text-xs text-slate-100 line-clamp-2 leading-snug">${g.title}</h3>
-          </div>
-        </div>
-      `).join('');
+    // プラットフォーム別のカラーバッジ定義
+    function getPlatformBadge(platform) {
+      switch(platform) {
+        case 'PS5':
+          return '<span class="text-[9px] font-extrabold bg-blue-600/20 text-blue-300 border border-blue-500/30 px-1.5 py-0.5 rounded">PS5</span>';
+        case 'Switch 2':
+        case 'Switch':
+          return '<span class="text-[9px] font-extrabold bg-red-600/20 text-red-300 border border-red-500/30 px-1.5 py-0.5 rounded">Switch 2</span>';
+        case 'Xbox Series':
+        case 'Xbox':
+          return '<span class="text-[9px] font-extrabold bg-emerald-600/20 text-emerald-300 border border-emerald-500/30 px-1.5 py-0.5 rounded">Xbox</span>';
+        case 'PC':
+          return '<span class="text-[9px] font-extrabold bg-cyan-600/20 text-cyan-300 border border-cyan-500/30 px-1.5 py-0.5 rounded">PC</span>';
+        default:
+          return `<span class="text-[9px] font-extrabold bg-slate-800 text-slate-300 px-1.5 py-0.5 rounded">${platform}</span>`;
+      }
     }
 
+    // カウントダウン日数計算
+    function getDaysRemaining(targetDateStr) {
+      const target = new Date(targetDateStr);
+      const today = new Date();
+      const diffTime = target - today;
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      return diffDays > 0 ? diffDays : null;
+    }
+
+    // 今後発売カードのレンダリング
+    function renderUpcoming() {
+      const container = document.getElementById('upcoming-container');
+      container.innerHTML = upcomingGames.map(g => {
+        const daysLeft = getDaysRemaining(g.targetDate);
+        const countdownBadge = daysLeft 
+          ? `<span class="text-[10px] font-bold text-amber-400 bg-amber-500/10 border border-amber-500/30 px-2 py-0.5 rounded-full flex items-center gap-1">⏰ あと ${daysLeft} 日</span>`
+          : `<span class="text-[10px] font-bold text-violet-300">${g.dateText}</span>`;
+
+        const platformBadges = g.platforms.map(p => getPlatformBadge(p)).join(' ');
+
+        return `
+          <div class="glass-card card-hover bg-gradient-to-br ${g.color} p-3.5 rounded-2xl min-w-[240px] max-w-[260px] flex-shrink-0 flex flex-col justify-between border border-slate-700/50 relative group">
+            <div>
+              <div class="flex justify-between items-center gap-1 mb-2">
+                <div class="flex gap-1 flex-wrap">${platformBadges}</div>
+                ${countdownBadge}
+              </div>
+              <h3 class="font-bold text-xs text-slate-100 dark:text-slate-100 light:text-slate-900 line-clamp-2 leading-snug mb-3">${g.title}</h3>
+            </div>
+
+            <div class="pt-2 border-t border-slate-700/40 flex items-center justify-between gap-2 text-[10px]">
+              <!-- PV再生ボタン -->
+              <button onclick="openPvModal('${g.youtubeId}', '${g.title.replace(/'/g, "\\'")}')" class="flex items-center gap-1 bg-red-600/80 hover:bg-red-600 text-white px-2.5 py-1 rounded-lg font-bold transition-all shadow-md active:scale-95">
+                <i data-lucide="youtube" class="w-3.5 h-3.5"></i> PV再生
+              </button>
+
+              <!-- 関連リンク -->
+              <div class="flex gap-1">
+                ${g.links.map(l => `
+                  <a href="${l.url}" target="_blank" rel="noopener opacity-80 hover:opacity-100 hover:underline flex items-center gap-0.5 text-slate-300 dark:text-slate-300 light:text-slate-700 font-medium">
+                    ${l.name} <i data-lucide="external-link" class="w-2.5 h-2.5"></i>
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+      
+      lucide.createIcons();
+    }
+
+    // PVモーダルの開閉
+    function openPvModal(youtubeId, title) {
+      const modal = document.getElementById('pv-modal');
+      const iframe = document.getElementById('pv-iframe');
+      const modalTitle = document.getElementById('pv-modal-title');
+
+      modalTitle.innerText = `${title} - 公式公式PV`;
+      iframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1`;
+      modal.classList.remove('hidden');
+    }
+
+    function closePvModal() {
+      const modal = document.getElementById('pv-modal');
+      const iframe = document.getElementById('pv-iframe');
+      iframe.src = '';
+      modal.classList.add('hidden');
+    }
+
+    // ニュース取得＆表示
     async function loadNews() {
       renderUpcoming();
       updateLayoutBtn();
@@ -160,7 +403,7 @@
         document.getElementById('news-container').innerHTML = `
           <div class="col-span-full py-12 text-center bg-slate-900/50 border border-rose-500/20 rounded-2xl p-6">
             <p class="text-sm font-semibold text-rose-400">データの読み込みに失敗しました</p>
-            <p class="text-xs text-slate-500 mt-1">初回自動更新が完了するまでしばらくお待ちください。</p>
+            <p class="text-xs text-slate-500 mt-1">自動更新スクリプトの初回実行をお待ちください。</p>
           </div>
         `;
       }
@@ -175,8 +418,11 @@
 
     function updateLayoutBtn() {
       const btn = document.getElementById('layout-btn');
-      btn.innerText = isCompactLayout ? '☰' : '🔲';
+      btn.innerHTML = isCompactLayout 
+        ? '<i data-lucide="layout-grid" class="w-4 h-4"></i>' 
+        : '<i data-lucide="list" class="w-4 h-4"></i>';
       btn.title = isCompactLayout ? 'グリッド表示に切り替え' : 'リスト表示に切り替え';
+      lucide.createIcons();
     }
 
     function toggleFavorite(id, e) {
@@ -198,15 +444,18 @@
     function renderNews() {
       const container = document.getElementById('news-container');
       const searchKeyword = document.getElementById('search-input').value.toLowerCase().trim();
+      const sortValue = document.getElementById('sort-select').value;
 
-      let filtered = allNews;
+      let filtered = [...allNews];
 
+      // カテゴリフィルター
       if (currentCategory === 'fav') {
         filtered = filtered.filter(n => favorites.includes(n.id));
       } else if (currentCategory !== 'all') {
         filtered = filtered.filter(n => n.category === currentCategory);
       }
 
+      // 検索フィルター
       if (searchKeyword) {
         filtered = filtered.filter(n => 
           n.title.toLowerCase().includes(searchKeyword) || 
@@ -215,6 +464,16 @@
         );
       }
 
+      // ソート処理
+      if (sortValue === 'newest') {
+        filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      } else if (sortValue === 'oldest') {
+        filtered.sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
+      } else if (sortValue === 'title') {
+        filtered.sort((a, b) => a.title.localeCompare(b.title, 'ja'));
+      }
+
+      // クラス名調整
       if (isCompactLayout) {
         container.className = "grid gap-2 grid-cols-1";
       } else {
@@ -224,7 +483,7 @@
       if (filtered.length === 0) {
         container.innerHTML = `
           <div class="col-span-full py-12 text-center text-slate-500 text-xs font-medium">
-            ${currentCategory === 'fav' ? 'お気に入りに登録された記事がありません。' : '該当する記事・セールが見つかりませんでした。'}
+            ${currentCategory === 'fav' ? 'お気に入りに登録された記事がありません。' : '該当する記事が見つかりませんでした。'}
           </div>
         `;
         return;
@@ -235,36 +494,36 @@
 
         if (isCompactLayout) {
           return `
-            <div class="glass-card relative rounded-xl p-3 flex gap-3 items-center justify-between hover:border-violet-500/40 transition-all group">
+            <div class="glass-card card-hover relative rounded-xl p-3 flex gap-3 items-center justify-between group">
               <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center gap-3 min-w-0">
                 ${item.image ? `<img src="${item.image}" alt="" class="w-16 h-12 object-cover rounded-lg bg-slate-900 flex-shrink-0">` : ''}
                 <div class="min-w-0 flex-1">
                   <div class="flex items-center gap-2 mb-1">
-                    <span class="text-[9px] font-bold px-2 py-0.2 rounded ${getTagStyle(item.category)}">${item.category_name}</span>
+                    <span class="text-[9px] font-bold px-2 py-0.5 rounded ${getTagStyle(item.category)}">${item.category_name}</span>
                     <span class="text-[9px] text-slate-400">${item.source} • ${item.pubDate}</span>
                   </div>
-                  <h2 class="font-bold text-xs text-slate-100 truncate group-hover:text-violet-300 transition-colors">${item.title}</h2>
+                  <h2 class="font-bold text-xs text-slate-100 dark:text-slate-100 light:text-slate-800 truncate group-hover:text-violet-400 transition-colors">${item.title}</h2>
                 </div>
               </a>
-              <button onclick="toggleFavorite('${item.id}', event)" class="text-xs p-1 text-slate-400 hover:text-amber-400 transition-colors">
-                ${isFav ? '★' : '☆'}
+              <button onclick="toggleFavorite('${item.id}', event)" class="p-1.5 text-slate-400 hover:text-amber-400 transition-colors">
+                <i data-lucide="star" class="w-4 h-4 ${isFav ? 'text-amber-400 fill-amber-400' : ''}"></i>
               </button>
             </div>
           `;
         }
 
         return `
-        <div class="glass-card relative rounded-2xl overflow-hidden transition-all duration-200 hover:border-violet-500/40 hover:shadow-xl hover:shadow-violet-500/5 group flex flex-col justify-between">
+        <div class="glass-card card-hover relative rounded-2xl overflow-hidden group flex flex-col justify-between">
           
-          <button onclick="toggleFavorite('${item.id}', event)" class="absolute top-2.5 right-2.5 z-20 bg-slate-950/70 backdrop-blur-md border border-slate-700/60 text-xs p-1.5 rounded-full hover:scale-110 transition-transform">
-            ${isFav ? '★' : '☆'}
+          <button onclick="toggleFavorite('${item.id}', event)" class="absolute top-2.5 right-2.5 z-20 bg-slate-950/70 backdrop-blur-md border border-slate-700/60 p-1.5 rounded-full hover:scale-110 transition-transform">
+            <i data-lucide="star" class="w-3.5 h-3.5 ${isFav ? 'text-amber-400 fill-amber-400' : 'text-slate-300'}"></i>
           </button>
 
           <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="block h-full flex flex-col justify-between">
             ${item.image ? `
               <div class="w-full h-36 overflow-hidden relative bg-slate-900">
                 <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
                 
                 ${item.badge ? `
                   <span class="absolute top-2.5 left-2.5 z-10 bg-rose-600 text-white font-extrabold text-[10px] px-2 py-0.5 rounded-md shadow-lg tracking-wider">
@@ -280,12 +539,12 @@
                   <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-md tracking-wider ${getTagStyle(item.category)}">
                     ${item.category_name}
                   </span>
-                  <span class="text-[10px] text-slate-400 font-medium flex items-center gap-1">
-                    <span class="text-slate-300 font-semibold">${item.source}</span>
+                  <span class="text-[10px] text-slate-400 font-medium">
+                    ${item.source}
                   </span>
                 </div>
 
-                <h2 class="font-bold text-slate-100 text-sm leading-snug mb-2 group-hover:text-violet-300 transition-colors line-clamp-2">
+                <h2 class="font-bold text-slate-100 dark:text-slate-100 light:text-slate-800 text-sm leading-snug mb-2 group-hover:text-violet-400 transition-colors line-clamp-2">
                   ${item.title}
                 </h2>
 
@@ -305,6 +564,8 @@
 
         </div>
       `}).join('');
+
+      lucide.createIcons();
     }
 
     function getTagStyle(cat) {
@@ -320,7 +581,7 @@
     function filterNews(category, btn) {
       currentCategory = category;
       document.querySelectorAll('.cat-btn').forEach(b => {
-        b.className = 'cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all hover:border-slate-700';
+        b.className = 'cat-btn bg-slate-900 dark:bg-slate-900 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all';
       });
 
       btn.className = 'cat-btn bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap shadow-lg shadow-violet-500/20 transition-all';
