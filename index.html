@@ -49,11 +49,11 @@
 
   <main class="max-w-3xl mx-auto px-4 py-5 space-y-5">
     
-    <!-- 近日発売の注目新作ゲームカレンダー -->
+    <!-- 今後発売・注目新作ゲーム -->
     <section class="space-y-2">
       <div class="flex justify-between items-center px-1">
         <h2 class="text-xs font-bold text-slate-300 flex items-center gap-1.5">
-          <span>📅</span> 近日発売の注目新作
+          <span>📅</span> 今後発売・注目の新作
         </h2>
         <span class="text-[10px] text-slate-500">Upcoming Games</span>
       </div>
@@ -122,13 +122,14 @@
     let favorites = JSON.parse(localStorage.getItem('game_news_favs') || '[]');
     let isCompactLayout = localStorage.getItem('game_news_layout') === 'compact';
 
-    // 近日発売注目ゲームリスト（スケジュール例）
+    // 今後発売・注目新作ゲームリスト
     const upcomingGames = [
-      { title: "モンスターハンターワイルズ", date: "2025/02/28", platform: "PS5/Xbox/PC", color: "from-amber-500/20 to-orange-500/10" },
-      { title: "GTA VI (グランド・セフト・オートVI)", date: "2025年秋", platform: "PS5/Xbox Series", color: "from-fuchsia-500/20 to-pink-500/10" },
-      { title: "龍が如く8 外伝 Pirates in Hawaii", date: "2025/02/21", platform: "PS/Xbox/PC", color: "from-cyan-500/20 to-blue-500/10" },
-      { title: "メタファー：リファンタジオ", date: "好評発売中", platform: "PS/Xbox/PC", color: "from-violet-500/20 to-purple-500/10" },
-      { title: "ゼノブレイドクロス ディフィニティブ", date: "2025/03/20", platform: "Switch", color: "from-emerald-500/20 to-teal-500/10" }
+      { title: "GTA VI (グランド・セフト・オートVI)", date: "2026年11月予定", platform: "PS5/Xbox Series", color: "from-fuchsia-500/20 to-pink-500/10" },
+      { title: "STRANGER THAN HEAVEN", date: "2027年1月15日", platform: "PS5/Xbox/PC", color: "from-amber-500/20 to-orange-500/10" },
+      { title: "メトロイド ラヴェナス", date: "2027年1月28日", platform: "Switch 2", color: "from-rose-500/20 to-red-500/10" },
+      { title: "ペルソナ4 リバイバル", date: "2027年2月18日", platform: "PS5/Xbox/PC", color: "from-cyan-500/20 to-blue-500/10" },
+      { title: "FF7 リベレーション", date: "2027年春予定", platform: "PS5/Switch 2/PC", color: "from-violet-500/20 to-purple-500/10" },
+      { title: "ポケットモンスター ウインド・ウェーブ", date: "2027年予定", platform: "Switch 2", color: "from-emerald-500/20 to-teal-500/10" }
     ];
 
     function renderUpcoming() {
@@ -233,7 +234,6 @@
         const isFav = favorites.includes(item.id);
 
         if (isCompactLayout) {
-          // 1列リスト型コンパクト表示
           return `
             <div class="glass-card relative rounded-xl p-3 flex gap-3 items-center justify-between hover:border-violet-500/40 transition-all group">
               <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center gap-3 min-w-0">
@@ -253,7 +253,6 @@
           `;
         }
 
-        // 通常のカード型表示
         return `
         <div class="glass-card relative rounded-2xl overflow-hidden transition-all duration-200 hover:border-violet-500/40 hover:shadow-xl hover:shadow-violet-500/5 group flex flex-col justify-between">
           
