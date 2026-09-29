@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GAME FEED | ゲーム速報・セール・新作カレンダー</title>
+  <title>GAME FEED</title>
   
-  <!-- Tailwind CSS -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
+  
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -24,117 +24,88 @@
     .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen pb-20 selection:bg-violet-500 selection:text-white">
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-20">
 
   <!-- ヘッダー -->
-  <header class="sticky top-0 z-40 bg-slate-900 border-b border-slate-800 px-4 py-3.5">
+  <header class="sticky top-0 z-40 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/80 px-4 py-3">
     <div class="max-w-4xl mx-auto flex justify-between items-center">
       <div class="flex items-center gap-2">
-        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
-        <h1 class="text-lg font-extrabold tracking-wider text-violet-400">
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+        </span>
+        <h1 class="text-lg font-extrabold bg-gradient-to-r from-violet-400 via-fuchsia-400 to-indigo-400 bg-clip-text text-transparent tracking-wider">
           GAME FEED
         </h1>
       </div>
-      
-      <span id="update-time" class="text-[11px] font-medium text-slate-400 bg-slate-950 px-2.5 py-1 rounded-full border border-slate-800">
-        読み込み中...
+      <span id="update-time" class="text-[11px] font-mono text-slate-400 bg-slate-950 px-2.5 py-1 rounded-full border border-slate-800">
+        更新中...
       </span>
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto px-4 py-6 space-y-6">
+  <main class="max-w-4xl mx-auto px-4 py-6 space-y-5">
     
-    <!-- 今後発売・注目新作ゲーム -->
-    <section class="space-y-3">
-      <div class="flex justify-between items-center px-1">
-        <h2 class="text-sm font-bold flex items-center gap-2">
-          <i data-lucide="calendar" class="w-4 h-4 text-violet-400"></i>
-          <span>注目・期待の新作ゲーム</span>
+    <!-- 注目新作ゲーム -->
+    <section class="space-y-2">
+      <div class="flex justify-between items-center">
+        <h2 class="text-xs font-bold text-slate-300 flex items-center gap-1.5">
+          <i data-lucide="calendar" class="w-3.5 h-3.5 text-violet-400"></i>
+          注目・期待の新作ゲーム
         </h2>
-        <span class="text-[11px] text-slate-500 font-medium">Upcoming Games</span>
       </div>
-
-      <!-- 横スクロールコンテナ -->
       <div class="flex gap-3 overflow-x-auto no-scrollbar py-1" id="upcoming-container">
-        <div class="text-xs text-slate-500 py-2">新作ゲーム情報を取得中...</div>
+        <!-- JSで挿入 -->
       </div>
     </section>
 
-    <hr class="border-slate-800">
+    <hr class="border-slate-800/60">
 
-    <!-- 検索バー ＆ ソート ＆ レイアウト切替 -->
-    <div class="flex flex-wrap gap-2.5 items-center">
+    <!-- 検索 & フィルターバー -->
+    <div class="flex flex-wrap gap-2 items-center">
+      <!-- 検索窓 -->
       <div class="relative flex-1 min-w-[200px]">
-        <input type="text" id="search-input" oninput="onSearch()" placeholder="タイトルやキーワードで検索..." 
-               class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3.5 py-2 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-violet-500 pl-9">
-        <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-500"></i>
+        <i data-lucide="search" class="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"></i>
+        <input type="text" id="search-input" oninput="renderNews()" placeholder="キーワードで絞り込み..." 
+               class="w-full bg-slate-900 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-violet-500">
       </div>
 
-      <div class="relative">
-        <select id="sort-select" onchange="renderNews()" class="bg-slate-900 border border-slate-800 text-slate-300 text-xs px-3 py-2 rounded-xl focus:outline-none focus:border-violet-500 cursor-pointer appearance-none pr-8">
-          <option value="newest">📅 新着順</option>
-          <option value="oldest">⌛ 古い順</option>
-          <option value="title">🔤 タイトル順</option>
+      <!-- 並び替え -->
+      <div class="flex items-center gap-1 bg-slate-900 border border-slate-800 rounded-lg px-2 py-1">
+        <i data-lucide="arrow-up-down" class="w-3 h-3 text-slate-400"></i>
+        <select id="sort-select" onchange="renderNews()" class="bg-transparent text-slate-300 text-xs focus:outline-none cursor-pointer">
+          <option value="newest">新着順</option>
+          <option value="oldest">古い順</option>
+          <option value="title">タイトル順</option>
         </select>
-        <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2.5 top-2.5 text-slate-500 pointer-events-none"></i>
       </div>
 
-      <button onclick="toggleLayout()" id="layout-btn" class="bg-slate-900 border border-slate-800 text-slate-300 text-xs p-2 rounded-xl flex items-center justify-center w-9 h-9" title="表示切り替え">
-        <i data-lucide="layout-grid" class="w-4 h-4"></i>
+      <!-- 表示切り替え -->
+      <button onclick="toggleLayout()" id="layout-btn" class="bg-slate-900 border border-slate-800 text-slate-300 hover:text-white px-2.5 py-1.5 rounded-lg flex items-center gap-1 text-xs transition">
+        <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
       </button>
     </div>
 
-    <!-- カテゴリフィルター -->
-    <div class="flex gap-2 overflow-x-auto no-scrollbar py-1" id="category-bar">
-      <button onclick="filterNews('all', this)" class="cat-btn bg-violet-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap">
-        すべて
-      </button>
-      <button onclick="filterNews('fav', this)" class="cat-btn bg-slate-900 border border-slate-800 text-amber-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap flex items-center gap-1.5">
-        <i data-lucide="star" class="w-3.5 h-3.5 fill-amber-400"></i> お気に入り
-      </button>
-      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap">
-        🇯🇵 国内速報
-      </button>
-      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 border border-slate-800 text-cyan-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap">
-        💻 ハード・公式
-      </button>
-      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 border border-slate-800 text-fuchsia-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap">
-        🌐 海外トレンド
-      </button>
-      <button onclick="filterNews('epic_free', this)" class="cat-btn bg-slate-900 border border-slate-800 text-emerald-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap">
-        🎁 Epic無料配布
-      </button>
-      <button onclick="filterNews('epic_sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-teal-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap">
-        🏷️ Epicセール
-      </button>
-      <button onclick="filterNews('steam_sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-sky-400 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap">
-        🎮 Steamセール
-      </button>
+    <!-- カテゴリタブ -->
+    <div class="flex gap-1.5 overflow-x-auto no-scrollbar py-1" id="category-bar">
+      <button onclick="filterNews('all', this)" class="cat-btn bg-violet-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap">すべて</button>
+      <button onclick="filterNews('fav', this)" class="cat-btn bg-slate-900 border border-slate-800 text-amber-400 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap flex items-center gap-1">★ お気に入り</button>
+      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap">🇯🇵 国内速報</button>
+      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 border border-slate-800 text-cyan-400 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap">💻 ハード・公式</button>
+      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 border border-slate-800 text-fuchsia-400 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap">🌐 海外トレンド</button>
+      <button onclick="filterNews('epic_free', this)" class="cat-btn bg-slate-900 border border-slate-800 text-emerald-400 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap">🎁 Epic無料</button>
+      <button onclick="filterNews('steam_sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-sky-400 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap">🎮 Steamセール</button>
     </div>
 
-    <!-- ニュース一覧表示領域 -->
-    <div id="news-container" class="grid gap-3.5 sm:grid-cols-2">
-      <div class="col-span-full py-12 text-center">
-        <p class="text-xs text-slate-400 font-medium">データを読み込んでいます...</p>
+    <!-- 記事一覧 -->
+    <div id="news-container" class="grid gap-3 sm:grid-cols-2">
+      <div class="col-span-full py-12 text-center text-xs text-slate-500 flex flex-col items-center gap-2">
+        <i data-lucide="loader-2" class="w-5 h-5 animate-spin text-violet-500"></i>
+        <span>ニュースを読み込んでいます...</span>
       </div>
     </div>
 
   </main>
-
-  <!-- YouTube PV再生用モーダル -->
-  <div id="pv-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 hidden">
-    <div class="relative w-full max-w-3xl bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
-      <div class="flex justify-between items-center p-3 border-b border-slate-800 bg-slate-950">
-        <h3 id="pv-modal-title" class="text-sm font-bold text-slate-100 truncate pr-4">公式トレーラー</h3>
-        <button onclick="closePvModal()" class="p-1 rounded text-slate-400 hover:text-white">
-          <i data-lucide="x" class="w-5 h-5"></i>
-        </button>
-      </div>
-      <div class="relative aspect-video w-full bg-black">
-        <iframe id="pv-iframe" class="w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
 
   <script>
     let allNews = [];
@@ -143,165 +114,51 @@
     let favorites = JSON.parse(localStorage.getItem('game_news_favs') || '[]');
     let isCompactLayout = localStorage.getItem('game_news_layout') === 'compact';
 
-    function getPlatformBadge(platform) {
-      switch(platform) {
-        case 'PS5':
-          return '<span class="text-[9px] font-bold bg-blue-900/50 text-blue-300 px-1.5 py-0.5 rounded border border-blue-700">PS5</span>';
-        case 'Switch 2':
-        case 'Switch':
-          return '<span class="text-[9px] font-bold bg-red-900/50 text-red-300 px-1.5 py-0.5 rounded border border-red-700">Switch</span>';
-        case 'Xbox Series':
-        case 'Xbox':
-          return '<span class="text-[9px] font-bold bg-emerald-900/50 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-700">Xbox</span>';
-        case 'PC':
-          return '<span class="text-[9px] font-bold bg-cyan-900/50 text-cyan-300 px-1.5 py-0.5 rounded border border-cyan-700">PC</span>';
-        default:
-          return `<span class="text-[9px] font-bold bg-slate-800 text-slate-300 px-1.5 py-0.5 rounded">${platform}</span>`;
-      }
-    }
-
-    function getDaysRemaining(targetDateStr) {
-      if (!targetDateStr) return null;
-      const target = new Date(targetDateStr);
-      const today = new Date();
-      const diffTime = target - today;
-      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-      return diffDays > 0 ? diffDays : null;
-    }
-
-    function renderUpcoming() {
-      const container = document.getElementById('upcoming-container');
-      
-      if (!upcomingGames || upcomingGames.length === 0) {
-        container.innerHTML = `<p class="text-xs text-slate-500 py-2">現在予定されている注目新作情報はありません。</p>`;
-        return;
-      }
-
-      container.innerHTML = upcomingGames.map((g, idx) => {
-        const daysLeft = getDaysRemaining(g.targetDate);
-        const countdownBadge = daysLeft 
-          ? `<span class="text-[10px] font-bold text-amber-400 bg-amber-950/50 border border-amber-700 px-2 py-0.5 rounded-full">⏰ あと ${daysLeft} 日</span>`
-          : `<span class="text-[10px] font-bold text-violet-300">${g.dateText || ''}</span>`;
-
-        const platformBadges = (g.platforms || []).map(p => getPlatformBadge(p)).join(' ');
-
-        return `
-          <div class="bg-slate-900 p-3 rounded-xl min-w-[240px] max-w-[260px] flex-shrink-0 flex flex-col justify-between border border-slate-800">
-            <div>
-              <div class="flex justify-between items-center gap-1 mb-2">
-                <div class="flex gap-1 flex-wrap">${platformBadges}</div>
-                ${countdownBadge}
-              </div>
-              <h3 class="font-bold text-xs text-slate-100 line-clamp-2 leading-snug mb-3">${g.title}</h3>
-            </div>
-
-            <div class="pt-2 border-t border-slate-800 flex items-center justify-between gap-2 text-[10px]">
-              ${g.youtubeId ? `
-                <button onclick="openPvModalByIdx(${idx})" class="bg-red-700 hover:bg-red-600 text-white px-2 py-1 rounded font-bold">
-                  ▶ PV再生
-                </button>
-              ` : '<div></div>'}
-
-              <div class="flex gap-1">
-                {(g.links || []).map(l => `
-                  <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white underline">
-                    ${l.name}
-                  </a>
-                `).join('')}
-              </div>
-            </div>
-          </div>
-        `;
-      }).join('');
-      
-      lucide.createIcons();
-    }
-
-    function openPvModalByIdx(idx) {
-      const g = upcomingGames[idx];
-      if (!g) return;
-
-      const modal = document.getElementById('pv-modal');
-      const iframe = document.getElementById('pv-iframe');
-      const modalTitle = document.getElementById('pv-modal-title');
-
-      modalTitle.innerText = `${g.title} - 公式PV`;
-      iframe.src = `https://www.youtube-nocookie.com/embed/${g.youtubeId}?autoplay=1&rel=0`;
-      modal.classList.remove('hidden');
-    }
-
-    function closePvModal() {
-      const modal = document.getElementById('pv-modal');
-      const iframe = document.getElementById('pv-iframe');
-      iframe.src = '';
-      modal.classList.add('hidden');
-    }
-
     async function loadNews() {
-      updateLayoutBtn();
       const container = document.getElementById('news-container');
-      
       try {
         if (window.location.protocol === 'file:') {
-          throw new Error("【重要】file:// (ファイルの直開き) で実行されているためブラウザの制限で読み込めません。Webサーバー経由(http://)で開いてください。");
+          throw new Error("file:// 直開きでは表示できません。ローカルサーバー経由で開いてください。");
         }
 
         const res = await fetch('./news.json?t=' + Date.now());
-        if (!res.ok) {
-          throw new Error(`【HTTPエラー ${res.status}】news.json が読み込めません。同じフォルダに存在するか確認してください。`);
-        }
+        if (!res.ok) throw new Error(`HTTPエラー ${res.status}: news.json が読み込めません。`);
 
         const data = await res.json();
         allNews = data.articles || [];
         upcomingGames = data.upcoming_games || [];
         
-        document.getElementById('update-time').innerText = `最終更新: ${data.updated_at || '未設定'}`;
+        document.getElementById('update-time').innerText = `更新: ${data.updated_at || '未設定'}`;
         
         renderUpcoming();
         renderNews();
       } catch (e) {
-        console.error("Data load error:", e);
         container.innerHTML = `
-          <div class="col-span-full p-4 bg-red-950/40 border border-red-800 rounded-xl text-left space-y-2">
-            <h3 class="text-xs font-bold text-red-400">⚠️ 読み込みエラーが発生しました</h3>
-            <p class="text-[11px] text-slate-300 font-mono bg-slate-950 p-2 rounded border border-slate-800">
-              ${e.message}
-            </p>
+          <div class="col-span-full p-4 bg-red-950/40 border border-red-800 rounded-lg text-xs text-red-300">
+            ⚠️ ${e.message}
           </div>
         `;
       }
     }
 
-    function toggleLayout() {
-      isCompactLayout = !isCompactLayout;
-      localStorage.setItem('game_news_layout', isCompactLayout ? 'compact' : 'grid');
-      updateLayoutBtn();
-      renderNews();
-    }
-
-    function updateLayoutBtn() {
-      const btn = document.getElementById('layout-btn');
-      btn.innerHTML = isCompactLayout 
-        ? '<i data-lucide="layout-grid" class="w-4 h-4"></i>' 
-        : '<i data-lucide="list" class="w-4 h-4"></i>';
-      btn.title = isCompactLayout ? 'グリッド表示に切り替え' : 'リスト表示に切り替え';
-      lucide.createIcons();
-    }
-
-    function toggleFavorite(id, e) {
-      e.preventDefault();
-      e.stopPropagation();
-      if (favorites.includes(id)) {
-        favorites = favorites.filter(fId => fId !== id);
-      } else {
-        favorites.push(id);
+    function renderUpcoming() {
+      const container = document.getElementById('upcoming-container');
+      if (!upcomingGames.length) {
+        container.innerHTML = `<p class="text-xs text-slate-500 py-1">予定はありません</p>`;
+        return;
       }
-      localStorage.setItem('game_news_favs', JSON.stringify(favorites));
-      renderNews();
-    }
 
-    function onSearch() {
-      renderNews();
+      container.innerHTML = upcomingGames.map(g => `
+        <div class="bg-slate-900 p-3 rounded-lg min-w-[220px] border border-slate-800 flex flex-col justify-between">
+          <div>
+            <div class="text-[10px] text-amber-400 font-bold mb-1">${g.dateText || ''}</div>
+            <h3 class="font-bold text-xs text-slate-100 line-clamp-2">${g.title}</h3>
+          </div>
+          <div class="mt-2 text-[10px] text-slate-400 border-t border-slate-800 pt-1.5 flex gap-2">
+            ${(g.links || []).map(l => `<a href="${l.url}" target="_blank" class="underline hover:text-white">${l.name}</a>`).join('')}
+          </div>
+        </div>
+      `).join('');
     }
 
     function renderNews() {
@@ -320,27 +177,18 @@
       if (searchKeyword) {
         filtered = filtered.filter(n => 
           n.title.toLowerCase().includes(searchKeyword) || 
-          (n.summary && n.summary.toLowerCase().includes(searchKeyword)) ||
-          (n.source && n.source.toLowerCase().includes(searchKeyword))
+          (n.summary && n.summary.toLowerCase().includes(searchKeyword))
         );
       }
 
-      if (sortValue === 'newest') {
-        filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-      } else if (sortValue === 'oldest') {
-        filtered.sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
-      } else if (sortValue === 'title') {
-        filtered.sort((a, b) => a.title.localeCompare(b.title, 'ja'));
-      }
+      if (sortValue === 'newest') filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      if (sortValue === 'oldest') filtered.sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
+      if (sortValue === 'title') filtered.sort((a, b) => a.title.localeCompare(b.title, 'ja'));
 
-      container.className = isCompactLayout ? "grid gap-2 grid-cols-1" : "grid gap-3.5 sm:grid-cols-2";
+      container.className = isCompactLayout ? "grid gap-2 grid-cols-1" : "grid gap-3 sm:grid-cols-2";
 
-      if (filtered.length === 0) {
-        container.innerHTML = `
-          <div class="col-span-full py-8 text-center text-slate-500 text-xs">
-            ${currentCategory === 'fav' ? 'お気に入りに登録された記事がありません。' : '該当する記事が見つかりませんでした。'}
-          </div>
-        `;
+      if (!filtered.length) {
+        container.innerHTML = `<div class="col-span-full py-8 text-center text-slate-500 text-xs">条件に該当する記事がありません</div>`;
         return;
       }
 
@@ -349,78 +197,65 @@
 
         if (isCompactLayout) {
           return `
-            <div class="bg-slate-900 border border-slate-800 rounded-xl p-3 flex gap-3 items-center justify-between">
-              <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center gap-3 min-w-0">
-                ${item.image ? `<img src="${item.image}" alt="" class="w-16 h-12 object-cover rounded bg-slate-950 flex-shrink-0" loading="lazy">` : ''}
-                <div class="min-w-0 flex-1">
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class="text-[9px] font-bold px-1.5 py-0.5 rounded ${getTagStyle(item.category)}">${item.category_name}</span>
-                    <span class="text-[9px] text-slate-400">${item.source} • ${item.pubDate}</span>
-                  </div>
-                  <h2 class="font-bold text-xs text-slate-100 truncate">${item.title}</h2>
-                </div>
+            <div class="bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-lg p-2.5 flex items-center justify-between gap-2 transition">
+              <a href="${item.link}" target="_blank" class="flex-1 min-w-0">
+                <div class="text-[9px] text-slate-400 mb-0.5">${item.category_name} • ${item.source} • ${item.pubDate}</div>
+                <h2 class="font-bold text-xs text-slate-100 truncate hover:text-violet-300 transition">${item.title}</h2>
               </a>
-              <button onclick="toggleFavorite('${item.id}', event)" class="p-1.5 text-slate-400 hover:text-amber-400">
-                <i data-lucide="star" class="w-4 h-4 ${isFav ? 'text-amber-400 fill-amber-400' : ''}"></i>
+              <button onclick="toggleFavorite('${item.id}', event)" class="p-1 text-slate-400 hover:text-amber-400 transition">
+                <i data-lucide="star" class="w-4 h-4 ${isFav ? 'fill-amber-400 text-amber-400' : ''}"></i>
               </button>
             </div>
           `;
         }
 
         return `
-        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden flex flex-col justify-between relative">
-          <button onclick="toggleFavorite('${item.id}', event)" class="absolute top-2.5 right-2.5 z-20 bg-slate-950 border border-slate-800 p-1.5 rounded-full">
-            <i data-lucide="star" class="w-3.5 h-3.5 ${isFav ? 'text-amber-400 fill-amber-400' : 'text-slate-400'}"></i>
-          </button>
-
-          <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="block h-full flex flex-col justify-between">
-            ${item.image ? `
-              <div class="w-full h-36 overflow-hidden relative bg-slate-950">
-                <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover" loading="lazy">
-                ${item.badge ? `<span class="absolute top-2.5 left-2.5 z-10 bg-rose-600 text-white font-extrabold text-[10px] px-2 py-0.5 rounded shadow">${item.badge}</span>` : ''}
-              </div>
-            ` : ''}
-
-            <div class="p-3.5 flex-1 flex flex-col justify-between">
+          <div class="bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-lg overflow-hidden flex flex-col justify-between relative group transition">
+            <button onclick="toggleFavorite('${item.id}', event)" class="absolute top-2 right-2 bg-slate-950/80 p-1.5 rounded-md text-slate-400 hover:text-amber-400 transition z-10">
+              <i data-lucide="star" class="w-3.5 h-3.5 ${isFav ? 'fill-amber-400 text-amber-400' : ''}"></i>
+            </button>
+            <a href="${item.link}" target="_blank" class="p-3.5 flex-1 flex flex-col justify-between">
               <div>
-                <div class="flex items-center justify-between gap-2 mb-2 pr-6">
-                  <span class="text-[10px] font-bold px-2 py-0.5 rounded ${getTagStyle(item.category)}">${item.category_name}</span>
-                  <span class="text-[10px] text-slate-400">${item.source}</span>
+                <div class="text-[10px] text-slate-400 mb-1.5 flex items-center gap-1.5">
+                  <span class="font-semibold text-slate-300">${item.category_name}</span>
+                  <span>•</span>
+                  <span>${item.source}</span>
                 </div>
-                <h2 class="font-bold text-slate-100 text-xs leading-snug mb-2 line-clamp-2">${item.title}</h2>
-                ${item.summary ? `<p class="text-[11px] text-slate-400 leading-relaxed line-clamp-2 mb-2 bg-slate-950 p-2 rounded border border-slate-800/80">${item.summary}</p>` : ''}
+                <h2 class="font-bold text-slate-100 text-xs leading-snug mb-2 group-hover:text-violet-300 transition line-clamp-2">${item.title}</h2>
+                ${item.summary ? `<p class="text-[11px] text-slate-400 line-clamp-2 bg-slate-950/60 p-2 rounded mb-2 border border-slate-800/40">${item.summary}</p>` : ''}
               </div>
-
-              <div class="flex items-center justify-between text-[10px] text-slate-400 pt-2 border-t border-slate-800 mt-2">
+              <div class="text-[10px] text-slate-500 pt-2 border-t border-slate-800/60 flex justify-between items-center">
                 <span>${item.pubDate}</span>
-                ${item.expire ? `<span class="text-amber-400 font-bold bg-amber-950/50 px-1.5 py-0.5 rounded border border-amber-800">⏰ ${item.expire}</span>` : ''}
+                <i data-lucide="external-link" class="w-3 h-3 text-slate-600 group-hover:text-violet-400 transition"></i>
               </div>
-            </div>
-          </a>
-        </div>
-      `}).join('');
+            </a>
+          </div>
+        `;
+      }).join('');
 
       lucide.createIcons();
     }
 
-    function getTagStyle(cat) {
-      if (cat === 'epic_free') return 'bg-emerald-950 text-emerald-300 border border-emerald-800';
-      if (cat === 'epic_sale') return 'bg-teal-950 text-teal-300 border border-teal-800';
-      if (cat === 'steam_sale') return 'bg-sky-950 text-sky-300 border border-sky-800';
-      if (cat === 'sale') return 'bg-amber-950 text-amber-400 border border-amber-800';
-      if (cat === 'jp') return 'bg-indigo-950 text-indigo-300 border border-indigo-800';
-      if (cat === 'hardware') return 'bg-cyan-950 text-cyan-300 border border-cyan-800';
-      return 'bg-fuchsia-950 text-fuchsia-300 border border-fuchsia-800';
+    function toggleLayout() {
+      isCompactLayout = !isCompactLayout;
+      localStorage.setItem('game_news_layout', isCompactLayout ? 'compact' : 'grid');
+      renderNews();
+    }
+
+    function toggleFavorite(id, e) {
+      e.preventDefault();
+      e.stopPropagation();
+      favorites = favorites.includes(id) ? favorites.filter(fId => fId !== id) : [...favorites, id];
+      localStorage.setItem('game_news_favs', JSON.stringify(favorites));
+      renderNews();
     }
 
     function filterNews(category, btn) {
       currentCategory = category;
       document.querySelectorAll('.cat-btn').forEach(b => {
-        b.className = 'cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap';
+        b.className = 'cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap';
       });
-
-      btn.className = 'cat-btn bg-violet-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap';
-
+      btn.className = 'cat-btn bg-violet-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg whitespace-nowrap';
       renderNews();
     }
 
