@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GAME FEED | ゲーム速報・セール・配布ポータル</title>
+  <title>GAME FEED | ゲーム速報・セール・新作カレンダー</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,15 +47,32 @@
     </div>
   </header>
 
-  <main class="max-w-3xl mx-auto px-4 py-5 space-y-4">
+  <main class="max-w-3xl mx-auto px-4 py-5 space-y-5">
     
-    <!-- 検索バー ＆ お気に入りタブ切り替え -->
+    <!-- 近日発売の注目新作ゲームカレンダー -->
+    <section class="space-y-2">
+      <div class="flex justify-between items-center px-1">
+        <h2 class="text-xs font-bold text-slate-300 flex items-center gap-1.5">
+          <span>📅</span> 近日発売の注目新作
+        </h2>
+        <span class="text-[10px] text-slate-500">Upcoming Games</span>
+      </div>
+      <div class="flex gap-3 overflow-x-auto no-scrollbar py-1" id="upcoming-container">
+        <!-- JSで動的に追加されます -->
+      </div>
+    </section>
+
+    <!-- 検索バー ＆ レイアウト切替 -->
     <div class="flex gap-2 items-center">
       <div class="relative flex-1">
         <input type="text" id="search-input" oninput="onSearch()" placeholder="タイトルやキーワードで検索..." 
                class="w-full bg-slate-900 border border-slate-800 rounded-xl px-3.5 py-2 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-violet-500 transition-colors pl-9">
         <span class="absolute left-3 top-2.5 text-slate-500 text-xs">🔍</span>
       </div>
+      <!-- レイアウト切り替えボタン -->
+      <button onclick="toggleLayout()" id="layout-btn" class="bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 text-xs p-2 rounded-xl transition-all flex items-center justify-center w-9 h-9" title="表示切り替え">
+        🔲
+      </button>
     </div>
 
     <!-- カテゴリフィルター -->
@@ -103,8 +120,35 @@
     let allNews = [];
     let currentCategory = 'all';
     let favorites = JSON.parse(localStorage.getItem('game_news_favs') || '[]');
+    let isCompactLayout = localStorage.getItem('game_news_layout') === 'compact';
+
+    // 近日発売注目ゲームリスト（スケジュール例）
+    const upcomingGames = [
+      { title: "モンスターハンターワイルズ", date: "2025/02/28", platform: "PS5/Xbox/PC", color: "from-amber-500/20 to-orange-500/10" },
+      { title: "GTA VI (グランド・セフト・オートVI)", date: "2025年秋", platform: "PS5/Xbox Series", color: "from-fuchsia-500/20 to-pink-500/10" },
+      { title: "龍が如く8 外伝 Pirates in Hawaii", date: "2025/02/21", platform: "PS/Xbox/PC", color: "from-cyan-500/20 to-blue-500/10" },
+      { title: "メタファー：リファンタジオ", date: "好評発売中", platform: "PS/Xbox/PC", color: "from-violet-500/20 to-purple-500/10" },
+      { title: "ゼノブレイドクロス ディフィニティブ", date: "2025/03/20", platform: "Switch", color: "from-emerald-500/20 to-teal-500/10" }
+    ];
+
+    function renderUpcoming() {
+      const container = document.getElementById('upcoming-container');
+      container.innerHTML = upcomingGames.map(g => `
+        <div class="glass-card bg-gradient-to-br ${g.color} p-3 rounded-xl min-w-[200px] max-w-[220px] flex-shrink-0 flex flex-col justify-between border border-slate-700/50">
+          <div>
+            <div class="flex justify-between items-center gap-1 mb-1.5">
+              <span class="text-[9px] font-extrabold bg-slate-950/80 px-2 py-0.5 rounded text-slate-300 border border-slate-800">${g.platform}</span>
+              <span class="text-[10px] font-bold text-violet-300">${g.date}</span>
+            </div>
+            <h3 class="font-bold text-xs text-slate-100 line-clamp-2 leading-snug">${g.title}</h3>
+          </div>
+        </div>
+      `).join('');
+    }
 
     async function loadNews() {
+      renderUpcoming();
+      updateLayoutBtn();
       try {
         const res = await fetch('./news.json?t=' + new Date().getTime());
         const data = await res.json();
@@ -119,6 +163,19 @@
           </div>
         `;
       }
+    }
+
+    function toggleLayout() {
+      isCompactLayout = !isCompactLayout;
+      localStorage.setItem('game_news_layout', isCompactLayout ? 'compact' : 'grid');
+      updateLayoutBtn();
+      renderNews();
+    }
+
+    function updateLayoutBtn() {
+      const btn = document.getElementById('layout-btn');
+      btn.innerText = isCompactLayout ? '☰' : '🔲';
+      btn.title = isCompactLayout ? 'グリッド表示に切り替え' : 'リスト表示に切り替え';
     }
 
     function toggleFavorite(id, e) {
@@ -139,7 +196,7 @@
 
     function renderNews() {
       const container = document.getElementById('news-container');
-      const searchKeyword = document.getElementById('search-input').value.toLowerCase().strip ? document.getElementById('search-input').value.toLowerCase().strip() : document.getElementById('search-input').value.toLowerCase();
+      const searchKeyword = document.getElementById('search-input').value.toLowerCase().trim();
 
       let filtered = allNews;
 
@@ -157,6 +214,12 @@
         );
       }
 
+      if (isCompactLayout) {
+        container.className = "grid gap-2 grid-cols-1";
+      } else {
+        container.className = "grid gap-3.5 sm:grid-cols-2";
+      }
+
       if (filtered.length === 0) {
         container.innerHTML = `
           <div class="col-span-full py-12 text-center text-slate-500 text-xs font-medium">
@@ -168,10 +231,32 @@
 
       container.innerHTML = filtered.map(item => {
         const isFav = favorites.includes(item.id);
+
+        if (isCompactLayout) {
+          // 1列リスト型コンパクト表示
+          return `
+            <div class="glass-card relative rounded-xl p-3 flex gap-3 items-center justify-between hover:border-violet-500/40 transition-all group">
+              <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center gap-3 min-w-0">
+                ${item.image ? `<img src="${item.image}" alt="" class="w-16 h-12 object-cover rounded-lg bg-slate-900 flex-shrink-0">` : ''}
+                <div class="min-w-0 flex-1">
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="text-[9px] font-bold px-2 py-0.2 rounded ${getTagStyle(item.category)}">${item.category_name}</span>
+                    <span class="text-[9px] text-slate-400">${item.source} • ${item.pubDate}</span>
+                  </div>
+                  <h2 class="font-bold text-xs text-slate-100 truncate group-hover:text-violet-300 transition-colors">${item.title}</h2>
+                </div>
+              </a>
+              <button onclick="toggleFavorite('${item.id}', event)" class="text-xs p-1 text-slate-400 hover:text-amber-400 transition-colors">
+                ${isFav ? '★' : '☆'}
+              </button>
+            </div>
+          `;
+        }
+
+        // 通常のカード型表示
         return `
         <div class="glass-card relative rounded-2xl overflow-hidden transition-all duration-200 hover:border-violet-500/40 hover:shadow-xl hover:shadow-violet-500/5 group flex flex-col justify-between">
           
-          <!-- お気に入りボタン -->
           <button onclick="toggleFavorite('${item.id}', event)" class="absolute top-2.5 right-2.5 z-20 bg-slate-950/70 backdrop-blur-md border border-slate-700/60 text-xs p-1.5 rounded-full hover:scale-110 transition-transform">
             ${isFav ? '★' : '☆'}
           </button>
