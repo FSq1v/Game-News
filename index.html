@@ -197,7 +197,6 @@
       return diffDays > 0 ? diffDays : null;
     }
 
-    // 新作ゲーム一覧描画（修正済み）
     function renderUpcoming() {
       const container = document.getElementById('upcoming-container');
       
@@ -246,7 +245,6 @@
       lucide.createIcons();
     }
 
-    // PVモーダル表示（配列のインデックス参照に変更して文字列エラーを防止）
     function openPvModalByIdx(idx) {
       const g = upcomingGames[idx];
       if (!g) return;
@@ -267,10 +265,23 @@
       modal.classList.add('hidden');
     }
 
+    // ニュース取得＆エラーハンドリング強化関数
     async function loadNews() {
       updateLayoutBtn();
+      const container = document.getElementById('news-container');
+      
       try {
+        // file:// 直開き時の警告チェック
+        if (window.location.protocol === 'file:') {
+          throw new Error("【エラー】file:// プロトコルで開かれています。ブラウザのセキュリティ制限(CORS)により news.json を読み込めません。Live Server などのローカルWebサーバー経由で開くか、Web上にアップロードしてください。");
+        }
+
         const res = await fetch('./news.json?t=' + Date.now());
+        
+        if (!res.ok) {
+          throw new Error(`【HTTPエラー】ステータス: ${res.status} (${res.statusText}) - news.json が同じフォルダーに存在するか確認してください。`);
+        }
+
         const data = await res.json();
         
         allNews = data.articles || [];
@@ -282,10 +293,16 @@
         renderNews();
       } catch (e) {
         console.error("Data load error:", e);
-        document.getElementById('news-container').innerHTML = `
-          <div class="col-span-full py-12 text-center bg-slate-900/50 border border-rose-500/20 rounded-2xl p-6">
-            <p class="text-sm font-semibold text-rose-400">データの読み込みに失敗しました</p>
-            <p class="text-xs text-slate-500 mt-1">news.json が正しく作成されているかご確認ください。</p>
+        container.innerHTML = `
+          <div class="col-span-full py-10 px-6 text-center bg-slate-900 border border-rose-500/30 rounded-2xl space-y-3">
+            <div class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-rose-500/10 text-rose-400 font-bold">⚠️</div>
+            <h3 class="text-sm font-bold text-rose-400">データの読み込みに失敗しました</h3>
+            <p class="text-xs text-slate-300 font-mono bg-slate-950 p-3 rounded-lg border border-slate-800 break-all text-left">
+              ${e.message}
+            </p>
+            <p class="text-[11px] text-slate-500">
+              F12キーを押して「コンソール (Console)」タブを開くと詳しい状況が確認できます。
+            </p>
           </div>
         `;
       }
