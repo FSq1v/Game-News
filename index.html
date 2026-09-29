@@ -1,35 +1,81 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ゲームニュース＆トレンドまとめ</title>
+  <title>GAME FEED | ゲーム速報・トレンドポータル</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+    .glass-card {
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:active {
+      transform: scale(0.98);
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen pb-12">
-  <header class="bg-slate-800/90 backdrop-blur border-b border-slate-700 sticky top-0 z-50 p-4">
-    <div class="max-w-4xl mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-amber-400">
-        🎮 ゲーム速報＆トレンド
-      </h1>
-      <span id="update-time" class="text-xs text-slate-400"></span>
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-16 selection:bg-violet-500 selection:text-white">
+
+  <!-- ヘッダー -->
+  <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80 px-4 py-3.5">
+    <div class="max-w-3xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <div class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></div>
+        <h1 class="text-lg font-extrabold tracking-wider bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">
+          GAME FEED
+        </h1>
+      </div>
+      <span id="update-time" class="text-[11px] font-medium text-slate-400 bg-slate-900 px-2.5 py-1 rounded-full border border-slate-800">
+        読み込み中...
+      </span>
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto p-4 space-y-6">
-    <!-- カテゴリ切り替えボタン（すべて日本語） -->
-    <div class="flex gap-2 overflow-x-auto pb-2 scrollbar-none" id="category-bar">
-      <button onclick="filterNews('all', this)" class="category-btn bg-violet-600 text-white text-sm px-4 py-1.5 rounded-full whitespace-nowrap font-medium">すべて</button>
-      <button onclick="filterNews('sale', this)" class="category-btn bg-slate-800 border border-slate-700 text-amber-400 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🔥 セール・お得情報</button>
-      <button onclick="filterNews('jp', this)" class="category-btn bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🇯🇵 国内速報</button>
-      <button onclick="filterNews('hardware', this)" class="category-btn bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">💻 ハード・機器</button>
-      <button onclick="filterNews('global', this)" class="category-btn bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🌐 海外トレンド</button>
+  <main class="max-w-3xl mx-auto px-4 py-5 space-y-5">
+    
+    <!-- カテゴリフィルター（横スクロール） -->
+    <div class="flex gap-2 overflow-x-auto no-scrollbar py-1" id="category-bar">
+      <button onclick="filterNews('all', this)" class="cat-btn bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap shadow-lg shadow-violet-500/20 transition-all">
+        すべて
+      </button>
+      <button onclick="filterNews('sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-amber-400 hover:border-amber-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+        🔥 セール・お得
+      </button>
+      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 border border-slate-800 text-slate-300 hover:border-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+        🇯🇵 国内速報
+      </button>
+      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 border border-slate-800 text-cyan-400 hover:border-cyan-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+        💻 ハード・公式
+      </button>
+      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 border border-slate-800 text-fuchsia-400 hover:border-fuchsia-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+        🌐 海外トレンド
+      </button>
     </div>
 
-    <!-- 記事一覧 -->
-    <div id="news-container" class="grid gap-4 md:grid-cols-2">
-      <p class="text-center text-slate-500 col-span-2 py-12">ニュースを読み込んでいます...</p>
+    <!-- ニュース一覧表示領域 -->
+    <div id="news-container" class="grid gap-3.5 sm:grid-cols-2">
+      <div class="col-span-full py-16 text-center space-y-3">
+        <div class="w-8 h-8 border-2 border-violet-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+        <p class="text-xs text-slate-400 font-medium">最新ニュースを取得中...</p>
+      </div>
     </div>
+
   </main>
 
   <script>
@@ -43,43 +89,74 @@
         document.getElementById('update-time').innerText = `最終更新: ${data.updated_at || '未設定'}`;
         renderNews(allNews);
       } catch (e) {
-        document.getElementById('news-container').innerHTML = `<p class="text-center text-rose-400 col-span-2 py-12">データの読み込みに失敗しました。<br>自動更新が完了するまでしばらくお待ちください。</p>`;
+        document.getElementById('news-container').innerHTML = `
+          <div class="col-span-full py-12 text-center bg-slate-900/50 border border-rose-500/20 rounded-2xl p-6">
+            <p class="text-sm font-semibold text-rose-400">データの読み込みに失敗しました</p>
+            <p class="text-xs text-slate-500 mt-1">初回自動更新が完了するまでしばらくお待ちください。</p>
+          </div>
+        `;
       }
     }
 
     function renderNews(articles) {
       const container = document.getElementById('news-container');
       if (articles.length === 0) {
-        container.innerHTML = `<p class="text-center text-slate-500 col-span-2 py-12">該当するニュースがありません。</p>`;
+        container.innerHTML = `
+          <div class="col-span-full py-12 text-center text-slate-500 text-xs font-medium">
+            該当するニュースが見つかりませんでした。
+          </div>
+        `;
         return;
       }
 
       container.innerHTML = articles.map(item => `
-        <a href="${item.link}" target="_blank" class="block bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 hover:border-violet-500/50 transition shadow-lg">
-          <div class="flex justify-between items-start gap-2 mb-2">
-            <span class="text-xs px-2 py-0.5 rounded font-medium ${getTagStyle(item.category)}">${item.category_name}</span>
-            <span class="text-[10px] text-slate-400">${item.source} • ${item.pubDate}</span>
+        <a href="${item.link}" target="_blank" rel="noopener noreferrer" 
+           class="glass-card block rounded-2xl p-4 transition-all duration-200 hover:border-violet-500/40 hover:shadow-xl hover:shadow-violet-500/5 group flex flex-col justify-between">
+          
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-md tracking-wider ${getTagStyle(item.category)}">
+                ${item.category_name}
+              </span>
+              <span class="text-[10px] text-slate-400 font-medium flex items-center gap-1">
+                <span class="text-slate-300 font-semibold">${item.source}</span>
+                <span>•</span>
+                <span>${item.pubDate}</span>
+              </span>
+            </div>
+
+            <h2 class="font-bold text-slate-100 text-sm leading-snug mb-2 group-hover:text-violet-300 transition-colors line-clamp-2">
+              ${item.title}
+            </h2>
+
+            ${item.summary ? `
+              <p class="text-xs text-slate-400 leading-relaxed line-clamp-2 mb-3 bg-slate-950/40 p-2.5 rounded-lg border border-slate-800/50">
+                ${item.summary}
+              </p>
+            ` : ''}
           </div>
-          <h2 class="font-bold text-slate-100 text-sm mb-2 line-clamp-2">${item.title}</h2>
-          <p class="text-xs text-slate-400 line-clamp-3 bg-slate-900/50 p-2.5 rounded leading-relaxed">${item.summary || item.description}</p>
+
+          <div class="flex items-center justify-end text-[11px] font-semibold text-violet-400 group-hover:translate-x-0.5 transition-transform">
+            記事を読む <span class="ml-1">→</span>
+          </div>
+
         </a>
       `).join('');
     }
 
     function getTagStyle(cat) {
-      if (cat === 'sale') return 'bg-amber-500/20 text-amber-400 border border-amber-500/30';
-      if (cat === 'jp') return 'bg-rose-500/20 text-rose-300 border border-rose-500/30';
-      if (cat === 'hardware') return 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30';
-      return 'bg-violet-500/20 text-violet-300 border border-violet-500/30';
+      if (cat === 'sale') return 'bg-amber-500/10 text-amber-400 border border-amber-500/30';
+      if (cat === 'jp') return 'bg-indigo-500/10 text-indigo-300 border border-indigo-500/30';
+      if (cat === 'hardware') return 'bg-cyan-500/10 text-cyan-300 border border-cyan-500/30';
+      return 'bg-fuchsia-500/10 text-fuchsia-300 border border-fuchsia-500/30';
     }
 
     function filterNews(category, btn) {
-      document.querySelectorAll('.category-btn').forEach(b => {
-        b.classList.remove('bg-violet-600', 'text-white');
-        b.classList.add('bg-slate-800', 'text-slate-300');
+      document.querySelectorAll('.cat-btn').forEach(b => {
+        b.className = 'cat-btn bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all hover:border-slate-700';
       });
-      btn.classList.remove('bg-slate-800', 'text-slate-300');
-      btn.classList.add('bg-violet-600', 'text-white');
+
+      btn.className = 'cat-btn bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap shadow-lg shadow-violet-500/20 transition-all';
 
       if (category === 'all') {
         renderNews(allNews);
