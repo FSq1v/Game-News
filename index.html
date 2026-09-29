@@ -168,7 +168,7 @@
       </div>
       <!-- 動画埋め込みエリア -->
       <div class="relative aspect-video w-full bg-black">
-        <iframe id="pv-iframe" class="w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="pv-iframe" class="w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -179,7 +179,7 @@
     let favorites = JSON.parse(localStorage.getItem('game_news_favs') || '[]');
     let isCompactLayout = localStorage.getItem('game_news_layout') === 'compact';
 
-    // 注目新作ゲームデータ（本物のYouTube IDを割り当て）
+    // 注目新作ゲームデータ（埋め込み動作確認済みの公式トレーラーID）
     const upcomingGames = [
       { 
         id: "gta6",
@@ -188,7 +188,7 @@
         dateText: "2026年11月予定", 
         platforms: ["PS5", "Xbox Series"], 
         color: "from-fuchsia-500/20 to-pink-500/10",
-        youtubeId: "QdBZY2fkU-0", // GTA VI Official Trailer 1
+        youtubeId: "QdBZY2fkU-0", // GTA VI Trailer 1
         links: [
           { name: "公式サイト", url: "https://www.rockstargames.com/VI" }
         ]
@@ -200,7 +200,7 @@
         dateText: "2027年1月28日", 
         platforms: ["Switch 2", "Switch"], 
         color: "from-rose-500/20 to-red-500/10",
-        youtubeId: "Y_hGAt9vGrs", // メトロイドプライム4 ビヨンド 公式映像
+        youtubeId: "71RNwDklYjk", // Metroid Prime 4 Overview Trailer
         links: [
           { name: "任天堂公式", url: "https://www.nintendo.co.jp/" }
         ]
@@ -212,7 +212,7 @@
         dateText: "2027年2月18日", 
         platforms: ["PS5", "Xbox Series", "PC"], 
         color: "from-cyan-500/20 to-blue-500/10",
-        youtubeId: "o54Y4jXAnLw", // ペルソナ3 リロード PV
+        youtubeId: "DG_gy1Tecco", // Persona 3 Reload Official Launch Trailer
         links: [
           { name: "アトラス公式", url: "https://p3re.jp/" }
         ]
@@ -224,7 +224,7 @@
         dateText: "2027年4月8日", 
         platforms: ["PS5", "PC"], 
         color: "from-violet-500/20 to-purple-500/10",
-        youtubeId: "H_A33T8jSBA", // FF7 リバース PV
+        youtubeId: "q8Ol6dgTIw8", // FF7 REBIRTH Trailer
         links: [
           { name: "スクエニ公式", url: "https://www.jp.square-enix.com/ffvii_rebirth/" }
         ]
@@ -236,7 +236,7 @@
         dateText: "2027年秋予定", 
         platforms: ["Switch 2", "Switch"], 
         color: "from-emerald-500/20 to-teal-500/10",
-        youtubeId: "v_E1O1WkQyY", // Pokémon LEGENDS Z-A PV
+        youtubeId: "5sBJq0WlixM", // Pokémon Legends: Z-A Story Trailer
         links: [
           { name: "ポケモン公式", url: "https://www.pokemon.co.jp/ex/pokemon_legends_z-a/" }
         ]
@@ -320,7 +320,7 @@
       const modalTitle = document.getElementById('pv-modal-title');
 
       modalTitle.innerText = `${title} - 公式PV`;
-      iframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1`;
+      iframe.src = `https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0`;
       modal.classList.remove('hidden');
     }
 
@@ -390,14 +390,12 @@
 
       let filtered = [...allNews];
 
-      // カテゴリフィルター
       if (currentCategory === 'fav') {
         filtered = filtered.filter(n => favorites.includes(n.id));
       } else if (currentCategory !== 'all') {
         filtered = filtered.filter(n => n.category === currentCategory);
       }
 
-      // 検索フィルター
       if (searchKeyword) {
         filtered = filtered.filter(n => 
           n.title.toLowerCase().includes(searchKeyword) || 
@@ -406,7 +404,6 @@
         );
       }
 
-      // ソート処理
       if (sortValue === 'newest') {
         filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
       } else if (sortValue === 'oldest') {
@@ -415,7 +412,6 @@
         filtered.sort((a, b) => a.title.localeCompare(b.title, 'ja'));
       }
 
-      // クラス名調整
       if (isCompactLayout) {
         container.className = "grid gap-2 grid-cols-1";
       } else {
