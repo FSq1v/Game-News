@@ -129,7 +129,6 @@ def fetch_steam_sales():
             exp_time = item.get('discount_expiration')
             now_ts = int(datetime.now().timestamp())
             
-            # セール期限内の場合のみ採用
             if exp_time > now_ts:
                 title = item.get('name')
                 app_id = item.get('id')
@@ -156,8 +155,14 @@ def fetch_steam_sales():
     return steam_items
 
 def fetch_rss():
-    articles = fetch_epic_store() + fetch_steam_sales()
+    news_articles = []
+    sale_articles = []
     
+    # 1. Epic / Steam セール商品を取得
+    sale_articles.extend(fetch_epic_store())
+    sale_articles.extend(fetch_steam_sales())
+    
+    # 2. メディアニュースを取得
     for feed in FEEDS:
         try:
             req = urllib.request.Request(
@@ -201,14 +206,16 @@ def fetch_rss():
                 cat_name = feed["category_name"]
                 title_lower = title.lower()
                 
+                is_sale_article = False
                 if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle", "game pass"]):
                     cat = "sale"
                     cat_name = "🔥 セール速報"
+                    is_sale_article = True
                 elif any(k in title_lower for k in ["ps5", "switch", "steam deck", "gpu", "rtx", "グラボ", "モニター", "コントローラー", "xbox", "ハード", "新型"]):
                     cat = "hardware"
                     cat_name = "💻 ハード・機器"
 
-                articles.append({
+                article = {
                     "title": title,
                     "link": link.strip(),
                     "summary": summary,
@@ -216,13 +223,23 @@ def fetch_rss():
                     "category": cat,
                     "category_name": cat_name,
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
-                })
+                }
+
+                if is_sale_article:
+                    sale_articles.append(article)
+                else:
+                    news_articles.append(article)
         except Exception as e:
             print(f"Error fetching {feed['source']}: {e}")
             
+    # タイトル重複排除処理
     unique_articles = []
     seen_titles = set()
-    for art in articles:
+    
+    # ニュース系を先頭に、セール系（Epic, Steam, メディアセール）を後ろに結合
+    all_combined = news_articles + sale_articles
+    
+    for art in all_combined:
         if art["title"] not in seen_titles:
             seen_titles.add(art["title"])
             unique_articles.append(art)
