@@ -3,30 +3,20 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
-# 全15メディアの超豪華ソースリスト
 FEEDS = [
-    # 🎮 公式プラットフォーム速報
     {"url": "https://blog.ja.playstation.com/feed/", "source": "PS Blog", "category": "hardware", "category_name": "🎮 PS公式"},
     {"url": "https://news.xbox.com/ja-jp/feed/", "source": "Xbox Wire", "category": "hardware", "category_name": "🎮 Xbox公式"},
-
-    # 🇯🇵 国内大手・総合ニュース
     {"url": "https://www.famitsu.com/rss/famitsu-all.xml", "source": "ファミ通", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://jp.ign.com/feed/news", "source": "IGN Japan", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://www.4gamer.net/rss/index.xml", "source": "4Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://dengekionline.com/rss/index.xml", "source": "電撃オンライン", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://www.gamer.ne.jp/rss/news/", "source": "Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    
-    # 🇯🇵 カルチャー・インディー・業界
     {"url": "https://news.denfaminicogamer.jp/feed", "source": "電ファミ", "category": "jp", "category_name": "🇯🇵 電ファミ・話題"},
     {"url": "https://automaton-media.com/feed/", "source": "AUTOMATON", "category": "jp", "category_name": "🇯🇵 インディー・話題"},
     {"url": "https://gamebiz.jp/rss/all.xml", "source": "gamebiz", "category": "jp", "category_name": "📱 スマホ・業界"},
-    
-    # 💻 ハードウェア & Core PC
     {"url": "https://www.gamespark.jp/rss/index.rdf", "source": "Game*Spark", "category": "hardware", "category_name": "💻 CorePC・ハード"},
-
-    # 🌐 海外トレンド & 速報（自動日本語翻訳）
     {"url": "https://www.gematsu.com/feed", "source": "Gematsu", "category": "global", "category_name": "🌐 海外速報"},
     {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer", "category": "global", "category_name": "🌐 海外トレンド"},
     {"url": "https://kotaku.com/rss", "source": "Kotaku", "category": "global", "category_name": "🌐 海外トレンド"},
@@ -51,8 +41,122 @@ def translate_to_japanese(text):
     except Exception:
         return text
 
+def fetch_epic_store():
+    epic_items = []
+    try:
+        url = "https://store-site-backend-static-ipv4.akamaized.net/store/ffi/offers/v1/japan?locale=ja&country=JP&allowCountries=JP"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+        res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
+        data = json.loads(res)
+        elements = data.get('data', {}).get('Catalog', {}).get('searchStore', {}).get('elements', [])
+
+        now = datetime.now(timezone.utc)
+
+        for el in elements:
+            title = el.get('title')
+            promotions = el.get('promotions')
+            price_info = el.get('price', {}).get('totalPrice', {})
+            
+            image_url = None
+            for img in el.get('keyImages', []):
+                if img.get('type') in ['OfferImageWide', 'DieselStoreFrontWide', 'Thumbnail']:
+                    image_url = img.get('url')
+                    break
+            if not image_url and el.get('keyImages'):
+                image_url = el['keyImages'][0].get('url')
+
+            product_slug = el.get('productSlug') or (el.get('catalogNs', {}).get('mappings', [{}])[0].get('pageSlug') if el.get('catalogNs') else None)
+            link = f"https://store.epicgames.com/ja/p/{product_slug}" if product_slug else "https://store.epicgames.com/ja/"
+
+            is_free = False
+            discount_price = price_info.get('discountPrice', 0)
+            original_price = price_info.get('originalPrice', 0)
+
+            if promotions and promotions.get('promotionalOffers'):
+                for group in promotions['promotionalOffers']:
+                    for offer in group.get('promotionalOffers', []):
+                        start = offer.get('startDate')
+                        end = offer.get('endDate')
+                        if start and end:
+                            s_date = datetime.fromisoformat(start.replace('Z', '+00:00'))
+                            e_date = datetime.fromisoformat(end.replace('Z', '+00:00'))
+                            if s_date <= now <= e_date:
+                                if offer.get('discountSetting', {}).get('discountPercentage') == 0 or discount_price == 0:
+                                    is_free = True
+
+            if is_free:
+                epic_items.append({
+                    "title": title,
+                    "link": link,
+                    "summary": f"【Epic Gamesストア 無料配布中】通常価格 ¥{original_price:,} ➔ 無料！",
+                    "source": "Epic Games Store",
+                    "category": "epic_free",
+                    "category_name": "🎁 Epic無料配布",
+                    "image": image_url,
+                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
+                })
+            elif original_price > 0 and discount_price < original_price:
+                discount_rate = int((1 - discount_price / original_price) * 100)
+                epic_items.append({
+                    "title": title,
+                    "link": link,
+                    "summary": f"【セール中 {discount_rate}% OFF】¥{original_price:,} ➔ ¥{discount_price:,}",
+                    "source": "Epic Games Store",
+                    "category": "epic_sale",
+                    "category_name": "🏷️ Epicセール",
+                    "image": image_url,
+                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
+                })
+    except Exception as e:
+        print(f"Error fetching Epic Games Store: {e}")
+    
+    return epic_items
+
+def fetch_steam_sales():
+    steam_items = []
+    try:
+        url = "https://store.steampowered.com/api/featuredcategories/?cc=jp&l=japanese"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+        res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
+        data = json.loads(res)
+        
+        specials = data.get('specials', {}).get('items', [])
+        
+        for item in specials:
+            if not item.get('discount_expiration'):
+                continue
+            
+            exp_time = item.get('discount_expiration')
+            now_ts = int(datetime.now().timestamp())
+            
+            # セール期限内の場合のみ採用
+            if exp_time > now_ts:
+                title = item.get('name')
+                app_id = item.get('id')
+                link = f"https://store.steampowered.com/app/{app_id}/"
+                image_url = item.get('header_image') or item.get('large_capsule_image')
+                
+                discount_percent = item.get('discount_percent', 0)
+                orig_price = item.get('original_price', 0) // 100
+                final_price = item.get('final_price', 0) // 100
+                
+                steam_items.append({
+                    "title": title,
+                    "link": link,
+                    "summary": f"【Steamセール中 {discount_percent}% OFF】¥{orig_price:,} ➔ ¥{final_price:,}",
+                    "source": "Steam Store",
+                    "category": "steam_sale",
+                    "category_name": "🎮 Steamセール",
+                    "image": image_url,
+                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
+                })
+    except Exception as e:
+        print(f"Error fetching Steam Store: {e}")
+        
+    return steam_items
+
 def fetch_rss():
-    articles = []
+    articles = fetch_epic_store() + fetch_steam_sales()
     
     for feed in FEEDS:
         try:
@@ -69,7 +173,6 @@ def fetch_rss():
                 root.findall('.//{http://purl.org/rss/1.0/}item')
             )
             
-            # 各メディア最新3〜4件を取得して均等に表示
             for item in items[:4]:
                 title = (
                     item.findtext('title') or 
@@ -89,7 +192,6 @@ def fetch_rss():
                 title = title.strip()
                 summary = clean_html(desc)
                 
-                # 海外ソース（Gematsu, PC Gamer, Kotaku, Eurogamer）は自動日本語翻訳
                 if feed["category"] == "global" or re.search(r'[a-zA-Z]{5,}', title):
                     title = translate_to_japanese(title)
                     if summary:
@@ -99,10 +201,9 @@ def fetch_rss():
                 cat_name = feed["category_name"]
                 title_lower = title.lower()
                 
-                # セールやハード関連のキーワードがあれば動的にタグ変更
                 if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle", "game pass"]):
                     cat = "sale"
-                    cat_name = "🔥 セール・お得"
+                    cat_name = "🔥 セール速報"
                 elif any(k in title_lower for k in ["ps5", "switch", "steam deck", "gpu", "rtx", "グラボ", "モニター", "コントローラー", "xbox", "ハード", "新型"]):
                     cat = "hardware"
                     cat_name = "💻 ハード・機器"
@@ -119,7 +220,6 @@ def fetch_rss():
         except Exception as e:
             print(f"Error fetching {feed['source']}: {e}")
             
-    # タイトル重複チェック
     unique_articles = []
     seen_titles = set()
     for art in articles:
