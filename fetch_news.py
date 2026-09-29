@@ -5,18 +5,27 @@ import json
 import re
 from datetime import datetime
 
-# ニュース収集対象ソース
+# 大幅拡張！国内外の主要ゲームメディア（計12ソース）
 FEEDS = [
-    # 🇯🇵 国内ゲームメディア
+    # 🇯🇵 国内大手・総合ニュース
     {"url": "https://www.famitsu.com/rss/famitsu-all.xml", "source": "ファミ通", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://jp.ign.com/feed/news", "source": "IGN Japan", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    {"url": "https://automaton-media.com/feed/", "source": "AUTOMATON", "category": "jp", "category_name": "🇯🇵 国内・インディー"},
     {"url": "https://www.4gamer.net/rss/index.xml", "source": "4Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
+    {"url": "https://dengekionline.com/rss/index.xml", "source": "電撃オンライン", "category": "jp", "category_name": "🇯🇵 国内速報"},
+    {"url": "https://www.gamer.ne.jp/rss/news/", "source": "Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
+    
+    # 🇯🇵 カルチャー・インディー・話題系
+    {"url": "https://news.denfaminicogamer.jp/feed", "source": "電ファミ", "category": "jp", "category_name": "🇯🇵 電ファミ・話題"},
+    {"url": "https://automaton-media.com/feed/", "source": "AUTOMATON", "category": "jp", "category_name": "🇯🇵 インディー・話題"},
+    {"url": "https://gamebiz.jp/rss/all.xml", "source": "gamebiz", "category": "jp", "category_name": "📱 スマホ・業界"},
+    
+    # 💻 ハードウェア & PC
     {"url": "https://www.gamespark.jp/rss/index.rdf", "source": "Game*Spark", "category": "hardware", "category_name": "💻 CorePC・ハード"},
 
-    # 🌐 海外トレンド（自動日本語翻訳対応）
+    # 🌐 海外トレンド（自動日本語翻訳）
     {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer", "category": "global", "category_name": "🌐 海外トレンド"},
     {"url": "https://kotaku.com/rss", "source": "Kotaku", "category": "global", "category_name": "🌐 海外トレンド"},
+    {"url": "https://www.eurogamer.net/feed", "source": "Eurogamer", "category": "global", "category_name": "🌐 海外トレンド"},
 ]
 
 def clean_html(text):
@@ -24,7 +33,6 @@ def clean_html(text):
     clean = re.sub('<.*?>', '', text)
     return clean.strip()[:140] + "..."
 
-# 日本語翻訳処理（Google翻訳API使用）
 def translate_to_japanese(text):
     if not text or len(text.strip()) == 0:
         return text
@@ -35,8 +43,7 @@ def translate_to_japanese(text):
         result = json.loads(res)
         translated = "".join([sentence[0] for sentence[0] in result[0] if sentence[0]])
         return translated if translated else text
-    except Exception as e:
-        print(f"Translation error: {e}")
+    except Exception:
         return text
 
 def fetch_rss():
@@ -57,7 +64,8 @@ def fetch_rss():
                 root.findall('.//{http://purl.org/rss/1.0/}item')
             )
             
-            for item in items[:5]:
+            # 取得数を各メディア最新4件にして、より多様なサイトから満遍なく集める
+            for item in items[:4]:
                 title = (
                     item.findtext('title') or 
                     item.findtext('{http://www.w3.org/2005/Atom}title')
@@ -76,7 +84,7 @@ def fetch_rss():
                 title = title.strip()
                 summary = clean_html(desc)
                 
-                # 海外ソースまたは英語が含まれている場合は、タイトルと概要を必ず日本語翻訳
+                # 海外ニュースの自動翻訳
                 if feed["category"] == "global" or re.search(r'[a-zA-Z]{5,}', title):
                     title = translate_to_japanese(title)
                     if summary:
@@ -86,11 +94,11 @@ def fetch_rss():
                 cat_name = feed["category_name"]
                 title_lower = title.lower()
                 
-                # セール・ハードウェアの自動判定
+                # 自動判別タグ（セール、ハードウェア）
                 if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle"]):
                     cat = "sale"
                     cat_name = "🔥 セール・お得"
-                elif any(k in title_lower for k in ["ps5", "switch", "steam deck", "gpu", "rtx", "グラボ", "モニター", "コントローラー", "xbox", "ハード"]):
+                elif any(k in title_lower for k in ["ps5", "switch", "steam deck", "gpu", "rtx", "グラボ", "モニター", "コントローラー", "xbox", "ハード", "新型"]):
                     cat = "hardware"
                     cat_name = "💻 ハード・機器"
 
@@ -106,7 +114,7 @@ def fetch_rss():
         except Exception as e:
             print(f"Error fetching {feed['source']}: {e}")
             
-    # 重複記事の削除
+    # 重複記事の削除（同じタイトルのものは排除）
     unique_articles = []
     seen_titles = set()
     for art in articles:
