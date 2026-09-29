@@ -1,519 +1,70 @@
 {
-  "updated_at": "2026/09/29 10:54",
+  "updated_at": "2026-09-29 10:59",
+  "upcoming_games": [
+    {
+      "id": "gta6",
+      "title": "Grand Theft Auto VI",
+      "targetDate": "2026-11-15",
+      "dateText": "2026年11月予定",
+      "platforms": [
+        "PS5",
+        "Xbox Series"
+      ],
+      "color": "from-fuchsia-500/20 to-pink-500/10",
+      "youtubeId": "QdBZY2fkU-0",
+      "links": [
+        {
+          "name": "公式サイト",
+          "url": "https://www.rockstargames.com/VI"
+        }
+      ]
+    },
+    {
+      "id": "metroid_prime4",
+      "title": "メトロイドプライム4 ビヨンド",
+      "targetDate": "2027-01-28",
+      "dateText": "2027年1月28日",
+      "platforms": [
+        "Switch 2",
+        "Switch"
+      ],
+      "color": "from-rose-500/20 to-red-500/10",
+      "youtubeId": "71RNwDklYjk",
+      "links": [
+        {
+          "name": "任天堂公式",
+          "url": "https://www.nintendo.co.jp/"
+        }
+      ]
+    },
+    {
+      "id": "pokemon_za",
+      "title": "Pokémon LEGENDS Z-A",
+      "targetDate": "2027-11-18",
+      "dateText": "2027年秋予定",
+      "platforms": [
+        "Switch 2",
+        "Switch"
+      ],
+      "color": "from-emerald-500/20 to-teal-500/10",
+      "youtubeId": "5sBJq0WlixM",
+      "links": [
+        {
+          "name": "ポケモン公式",
+          "url": "https://www.pokemon.co.jp/ex/pokemon_legends_z-a/"
+        }
+      ]
+    }
+  ],
   "articles": [
     {
-      "id": "rss_1790899428898441163",
-      "title": "『ゴッド・オブ・ウォー ラウフェイ』9月29日（火）予約受付開始。予約特典や豪華版の詳細をチェック！",
-      "link": "https://blog.ja.playstation.com/2026/09/28/20260928-gow-laufey-release-date-reveal-o/",
-      "summary": "※本記事は英語版PlayStation®.Blogの日本語翻訳記事です。 2027年2月16日（火）、PlayStation®5で発売予定の『ゴッド・オブ・ウォー ラウフェイ』。本作の予約受付が明日9月29日（火）午前1 [&#8230;]...",
-      "source": "PS Blog",
-      "category": "hardware",
-      "category_name": "🎮 PS公式",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_8720362845274705284",
-      "title": "『SILENT HILL: Townfall』の一人称視点が、シリーズならではのホラー体験を変える9つのポイント",
-      "link": "https://blog.ja.playstation.com/2026/09/28/20260928-silent-hill-townfall-hands-on-preview-o/",
-      "summary": "一人称視点によって恐怖の深まる『SILENT HILL: Townfall』。限られた視界、敵の位置を映し出すCRTV、ステルス、モーションコントロール、手がかりの探索など、一人称を活かした9つのポイントをチェック！...",
-      "source": "PS Blog",
-      "category": "hardware",
-      "category_name": "🎮 PS公式",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-3806104695092756802",
-      "title": "『ACE COMBAT 8: WINGS OF THEVE』は明日9月29日午前7時よりアーリーアクセス開始！【特集】",
-      "link": "https://blog.ja.playstation.com/2026/09/28/20260928-acecombat8-launch-reminder-s/",
-      "summary": "10月2日（金）に通常版が発売されるPlayStation®5用ソフトウェア『ACE COMBAT 8: WINGS OF THEVE（エースコンバット8 ウイングス・オブ・シーヴ）』。本作は30年の歴史を持つフライトシ [&#8230;]...",
-      "source": "PS Blog",
-      "category": "hardware",
-      "category_name": "🎮 PS公式",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_3915886514106399410",
-      "title": "『STRANGER THAN HEAVEN』で描かれる、激動の時代を生きる主人公・大東真の人生と交差する人々を紹介",
-      "link": "https://blog.ja.playstation.com/2026/09/24/20260924-stranger-than-heaven-pre-launch-update-o/",
-      "summary": "『STRANGER THAN HEAVEN』で描かれる、激動の時代を生きる主人公・大東真の人生と交差する人々を紹介！ これは5つの都市、5つの時代を渡りゆく、ひとりの男の物語。大東の50年の人生と、大東や大東の親友である真城、そして多彩な登場人物を一挙紹介！...",
-      "source": "PS Blog",
-      "category": "hardware",
-      "category_name": "🎮 PS公式",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_8019007423147288584",
-      "title": "『Minecraft Dungeons II』のシームレスにつながる世界があらゆる旅路を冒険に変える",
-      "link": "https://news.xbox.com/ja-jp/2026/09/29/how-minecraft-dungeons-iis-interconnected-world-makes-every-journey-an-adventure/",
-      "summary": "The post 『Minecraft Dungeons II』のシームレスにつながる世界があらゆる旅路を冒険に変える appeared first on XBOX Wire Japan....",
-      "source": "Xbox Wire",
-      "category": "hardware",
-      "category_name": "🎮 Xbox公式",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-8256897110406346952",
-      "title": "『Minecraft Dungeons II』に登場する新ディメンション「シフト」が『Minecraft: Java & Bedrock Edition』にも登場",
-      "link": "https://news.xbox.com/ja-jp/2026/09/29/minecraft-new-dimension-sift-dungeons-2/",
-      "summary": "The post 『Minecraft Dungeons II』に登場する新ディメンション「シフト」が『Minecraft: Java &amp; Bedrock Edition』にも登場 appeared first on XBOX Wire Japan....",
-      "source": "Xbox Wire",
-      "category": "hardware",
-      "category_name": "🎮 Xbox公式",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_3325959962902571519",
-      "title": "『STRANGER THAN HEAVEN』: 激動の時代を生きる、大東の人生と交差する人々を紹介",
-      "link": "https://news.xbox.com/ja-jp/2026/09/24/stranger-than-heaven-full-cast-character-reveal-xbox-sega/",
-      "summary": "The post 『STRANGER THAN HEAVEN』: 激動の時代を生きる、大東の人生と交差する人々を紹介 appeared first on XBOX Wire Japan....",
-      "source": "Xbox Wire",
-      "category": "hardware",
-      "category_name": "🎮 Xbox公式",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_931786371107764752",
-      "title": "『ボボボーボ・ボーボボ』の香水が登場。各キャラクターをイメージした9種の香水と「ぬ（る）ハンドクリーム」が、明日9月30日より開催の「ボボボーボ・ボーボボ展」にて先行販売",
-      "link": "https://news.denfaminicogamer.jp/news/2609293a",
-      "summary": "ビュティ、首領パッチ、ところ天の助たちをイメージした全9種の香水と「ぬ（る）ハンドクリーム」がラインナップ...",
-      "source": "電ファミ",
+      "id": "1",
+      "title": "最新ゲームニュースタイトル",
+      "link": "https://example.com",
+      "source": "ファミ通",
       "category": "jp",
-      "category_name": "🇯🇵 電ファミ・話題",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-4570249521921948943",
-      "title": "『ヒロアカUR』なんと「でんじろう先生」とコラボか。9月30日に「僕のでんじろうアカデミア ULTRA RUMBLE」開講へ",
-      "link": "https://news.denfaminicogamer.jp/news/2609293c",
-      "summary": "Xでは「でんじろう先生参戦は意味わからんすぎる」「！？」「1番わけわからんコラボでやばい」といった反応が相次いでいる...",
-      "source": "電ファミ",
-      "category": "jp",
-      "category_name": "🇯🇵 電ファミ・話題",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-7436890451593880092",
-      "title": "『原神』新キャラクター「バレリー（CV.古川慎）」のキャラ紹介が公開！雷元素の“神の目”を持つ「特殊任務隊」の隊長",
-      "link": "https://news.denfaminicogamer.jp/news/2609293b",
-      "summary": "スネージナヤの研究施設「オルジェイナヤ・パラタ」を護衛する、戦闘と部隊管理に長けた少佐。称号は“轟雷の要塞”、命ノ星座は“ウルスス・マグヌス座”...",
-      "source": "電ファミ",
-      "category": "jp",
-      "category_name": "🇯🇵 電ファミ・話題",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-3718192991359287873",
-      "title": "『ライザのアトリエ』チャットAIアプリ『RyzaChat:AI』、入力内容にも制限導入へ。キャラクターや作品性を守るために",
-      "link": "https://automaton-media.com/articles/newsjp/20260929-470677/",
-      "summary": "SpiralAIは9月29日、『RyzaChat:AI ライザと創るあなただけのひと夏の夢物語』の運営方針に関する声明を発表。...",
-      "source": "AUTOMATON",
-      "category": "jp",
-      "category_name": "🇯🇵 インディー・話題",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-3214010587825643519",
-      "title": "恐竜シューター『Turok: Origins』はシューターなのに近寄ってぶん殴るし、恐竜はミサイルを撃つ。見た目は豪快、ビルド構築は急にガチ",
-      "link": "https://automaton-media.com/articles/reportjp/20260929-470660/",
-      "summary": "約18年ぶりのシリーズ新作『Turok: Origins』を試遊し、開発陣にこだわりを訊いた。...",
-      "source": "AUTOMATON",
-      "category": "jp",
-      "category_name": "🇯🇵 インディー・話題",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_6348527016957076973",
-      "title": "『STRANGER THAN HEAVEN』開発陣が「“タイパ”に反逆する極上フルコース」を作るために何をしたか訊く。過去の常識を捨ててゼロから出直したり、「老けディーン・フジオカ」に苦労したりいろいろ",
-      "link": "https://automaton-media.com/articles/interviewsjp/stranger-than-heaven-20260925-470019/",
-      "summary": "セガ/RGGスタジオは、「TOKYO GAME SHOW 2026」に出展。完全新作『STRANGER THAN HEAVEN』試遊やスペシャルステージなどを展開した。弊誌は同イベントにて、本作開発陣にインタビューをする [&#8230;]...",
-      "source": "AUTOMATON",
-      "category": "jp",
-      "category_name": "🇯🇵 インディー・話題",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_8291136642837659653",
-      "title": "Monster Hunter Outlanders launches October 29",
-      "link": "https://www.gematsu.com/2026/09/monster-hunter-outlanders-launches-october-29",
-      "summary": "Free-to-play open-world survival game Monster Hunter Outlanders will launch for iOS via App Store and &hellip;...",
-      "source": "Gematsu",
-      "category": "global",
-      "category_name": "🌐 海外速報",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-3391018195067938641",
-      "title": "Intergalactic: The Heretic Prophet to be fully revealed in 2027",
-      "link": "https://www.gematsu.com/2026/09/intergalactic-the-heretic-prophet-to-be-fully-revealed-in-2027",
-      "summary": "Publisher Sony Interactive Entertainment and developer Naughty Dog will lift the veil on science-fiction adventure &hellip;...",
-      "source": "Gematsu",
-      "category": "global",
-      "category_name": "🌐 海外速報",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-3243633852860090895",
-      "title": "Two new The Last of Us projects in “very early stages” at Naughty Dog",
-      "link": "https://www.gematsu.com/2026/09/two-new-the-last-of-us-projects-in-very-early-stages-at-naughty-dog",
-      "summary": "Two new projects set in the world of The Last of Us are in the &hellip;...",
-      "source": "Gematsu",
-      "category": "global",
-      "category_name": "🌐 海外速報",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-2775228451430858885",
-      "title": "STRANGER THAN HEAVEN ‘1915 Kokura, Fukuoka In-Depth Look’ gameplay",
-      "link": "https://www.gematsu.com/2026/09/stranger-than-heaven-1915-kokura-fukuoka-in-depth-look-gameplay",
-      "summary": "Publisher SEGA and developer RGG Studio have released a new gameplay video for 50-year action &hellip;...",
-      "source": "Gematsu",
-      "category": "global",
-      "category_name": "🌐 海外速報",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-7520967302501457512",
-      "title": "The Witcher 3 updated system requirements are in, and you will need an RTX 5080 for path tracing with DLSS and frame generation",
-      "link": "https://www.pcgamer.com/hardware/the-witcher-3-updated-system-requirements-are-in-and-you-will-need-an-rtx-5080-for-path-tracing-with-dlss-and-frame-generation/",
-      "summary": "And CD Projekt Red doesn't state what upscaling mode that is....",
-      "source": "PC Gamer",
-      "category": "hardware",
-      "category_name": "💻 ハード・機器",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-4384900637270631937",
-      "title": "How to get unlocked Multi Frame Gen working on an RTX 40-series graphics card",
-      "link": "https://www.pcgamer.com/hardware/graphics-cards/how-to-get-unlocked-multi-frame-gen-working-on-an-rtx-40-series-graphics-card/",
-      "summary": "Who needs an RTX 5090, right?...",
-      "source": "PC Gamer",
-      "category": "hardware",
-      "category_name": "💻 ハード・機器",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-32679897272282714",
-      "title": "This new super-bright 500 nit 'inkjet' tech promises to fix OLED's full-screen brightness limitation",
-      "link": "https://www.pcgamer.com/hardware/gaming-monitors/this-new-super-bright-500-nit-inkjet-tech-promises-to-fix-oleds-full-screen-brightness-limitation/",
-      "summary": "That just leaves the minor matter of burn-in......",
-      "source": "PC Gamer",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_908696101146561194",
-      "title": "How to unlock transmog in The Witcher 3 Remastered",
-      "link": "https://www.pcgamer.com/games/rpg/the-witcher-3-remastered-transmog-unlock/",
-      "summary": "Level up Geralt's fashion game by changing his sword and armor skins....",
-      "source": "PC Gamer",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_3552112087606272981",
-      "title": "Control Resonant Director Explains The Game’s Lack Of Yellow Paint: ‘It Was A Conscious Decision, Obviously’",
-      "link": "https://kotaku.com/control-resonant-director-explains-the-games-lack-of-yellow-paint-it-was-a-conscious-decision-obviously-2000738062",
-      "summary": "'If you want to get the most out of this world, you have to participate'...",
-      "source": "Kotaku",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_2844354516565985657",
-      "title": "Avengers: Endgame Encore Viewers Shocked To Find Out One Scene Teasing Doomsday Was Exclusive To IMAX",
-      "link": "https://kotaku.com/avengers-endgame-encore-viewers-shocked-to-find-out-one-scene-teasing-doomsday-was-exclusive-to-imax-2000738063",
-      "summary": "Regular viewers only got access to three of the four new scenes...",
-      "source": "Kotaku",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_7445682295092192483",
-      "title": "The Guy Who Saved The Predator Franchise Is Reportedly Making A Sleeping Beauty Movie",
-      "link": "https://kotaku.com/the-guy-who-saved-the-predator-franchise-is-reportedly-making-a-sleeping-beauty-movie-2000738053",
-      "summary": "Uhhhh...okay then, Disney, that's an idea...",
-      "source": "Kotaku",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_3749391167959275152",
-      "title": "The Publisher Of Ys, Disgaea, Trails Wants To Do More Worldwide, Simultaneous Game Releases",
-      "link": "https://kotaku.com/publisher-ys-trails-disgaea-global-simultaneous-releases-2000737996",
-      "summary": "Ys X: Nordics took over a year to make it out of Japan...",
-      "source": "Kotaku",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_8988815214534489280",
-      "title": "The Elder Scrolls Online is partly why Skyrim never got a Fallout: New Vegas-style spin-off, says Bethesda veteran",
-      "link": "https://www.eurogamer.net/the-elder-scrolls-online-skyrim-spin-off-fallout-new-vegas-bethesda",
-      "summary": "Why did The Elder Scrolls 5: Skyrim never receive a spin-off like Bethesda's Fallout 3 did, with Fallout: New Vegas? According to Skyrim co-...",
-      "source": "Eurogamer",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:54"
-    },
-    {
-      "id": "rss_1769394136159885911",
-      "title": "Wardogs early access review",
-      "link": "https://www.eurogamer.net/wardogs-early-access-review",
-      "summary": "It took me four attempts to successfully parachute into a Wardogs match. On the first try, I opened my parachute far too early, and was prom...",
-      "source": "Eurogamer",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:54"
-    },
-    {
-      "id": "rss_-4046247854450900652",
-      "title": "All versions of The Witcher 3 \"that exist in the world\" will be upgraded with the free Remastered edition today",
-      "link": "https://www.eurogamer.net/all-versions-of-the-witcher-3-that-exist-in-the-world-will-be-upgraded-with-the-free-remastered-edition-today",
-      "summary": "CD Projekt Red has clarified to Eurogamer that \"all versions of The Witcher 3: Wild Hunt that exist in the world\" are to be updated with the...",
-      "source": "Eurogamer",
-      "category": "global",
-      "category_name": "🌐 海外トレンド",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:54"
-    },
-    {
-      "id": "rss_5629476548534998687",
-      "title": "Sony is introducing an anti-scalping lottery system for PS5 Pros in Japan as supply shortages persist",
-      "link": "https://www.eurogamer.net/sony-ps5-pro-lottery-system-japan-supply-shortage",
-      "summary": "Sony is introducing a lottery system for PS5 Pros on its Japanese online store for when demand for new consoles outstrips the limited supply...",
-      "source": "Eurogamer",
-      "category": "hardware",
-      "category_name": "💻 ハード・機器",
-      "badge": "",
-      "expire": "",
-      "pubDate": "09/29 10:54"
-    },
-    {
-      "id": "steam_292030",
-      "title": "ウィッチャー３　ワイルドハント　リマスター",
-      "link": "https://store.steampowered.com/app/292030/",
-      "summary": "【Steamセール中】¥6,490 ➔ ¥3,245",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e624516e647cb6c467c3b2ce9c8c70b058bcebe4/header_alt_assets_1_japanese.jpg?t=1790678872",
-      "badge": "-50%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_2161700",
-      "title": "ペルソナ３ リロード",
-      "link": "https://store.steampowered.com/app/2161700/",
-      "summary": "【Steamセール中】¥7,678 ➔ ¥2,303",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg?t=1764776430",
-      "badge": "-70%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_4623570",
-      "title": "デスクロール：放置ARPG",
-      "link": "https://store.steampowered.com/app/4623570/",
-      "summary": "【Steamセール中】¥905 ➔ ¥633",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4623570/5e45f8c897cb174bf97999eb3a9a41dd16dc53ad/header_japanese.jpg?t=1790673311",
-      "badge": "-30%",
-      "expire": "10/13 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_1687950",
-      "title": "ペルソナ５ ザ・ロイヤル",
-      "link": "https://store.steampowered.com/app/1687950/",
-      "summary": "【Steamセール中】¥7,678 ➔ ¥2,303",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header_japanese.jpg?t=1783356822",
-      "badge": "-70%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_160150",
-      "title": "DARK SOULS III - The Fire Fades Edition",
-      "link": "https://store.steampowered.com/app/160150/",
-      "summary": "【Steamセール中】¥5,940 ➔ ¥2,970",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/160150/header_ratio_japanese.jpg?t=1492793326",
-      "badge": "-50%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_570940",
-      "title": "DARK SOULS™: REMASTERED",
-      "link": "https://store.steampowered.com/app/570940/",
-      "summary": "【Steamセール中】¥4,730 ➔ ¥2,365",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
-      "badge": "-50%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "link": "https://store.steampowered.com/app/2909400/",
-      "summary": "【Steamセール中】¥6,578 ➔ ¥1,973",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1789446799",
-      "badge": "-70%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_3020510",
-      "title": "Heroes' Vow: Three Kingdoms",
-      "link": "https://store.steampowered.com/app/3020510/",
-      "summary": "【Steamセール中】¥2,300 ➔ ¥2,070",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3020510/5da5e2f53fa0a7b7d7eb97f6006f8567dd60f663/header_japanese.jpg?t=1790499638",
-      "badge": "-10%",
-      "expire": "10/01 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "link": "https://store.steampowered.com/app/1462040/",
-      "summary": "【Steamセール中】¥5,478 ➔ ¥1,369",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
-      "badge": "-75%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "steam_3101040",
-      "title": "魔法少女ノ魔女裁判",
-      "link": "https://store.steampowered.com/app/3101040/",
-      "summary": "【Steamセール中】¥3,500 ➔ ¥2,800",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg?t=1789891545",
-      "badge": "-20%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_7470583811930130854",
-      "title": "Game Pass に『Gears of War: E-Day』『Minecraft Dungeons II』『Dune: Awakening デューン：アウェイクニング』などが登場",
-      "link": "https://news.xbox.com/ja-jp/2026/09/18/xbox-game-pass-september-2026-wave-2/",
-      "summary": "The post Game Pass に『Gears of War: E-Day』『Minecraft Dungeons II』『Dune: Awakening デューン：アウェイクニング』などが登場 appeared first on XBOX Wire Japan....",
-      "source": "Xbox Wire",
-      "category": "sale",
-      "category_name": "🔥 セール速報",
-      "badge": "SALE",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_3966080291706203770",
-      "title": "【無料】TVアニメ『メイドインアビス』全話がABEMAにて10月4日より一挙配信。第2期『烈日の黄金郷』や劇場版『深き魂の黎明』も",
-      "link": "https://news.denfaminicogamer.jp/news/2609292z",
-      "summary": "10月23日に控えた劇場アニメ『メイドインアビス 目覚める神秘』に向けてアニメ全話を予習できるチャンス。放送後2週間は無料で視聴できる...",
-      "source": "電ファミ",
-      "category": "sale",
-      "category_name": "🔥 セール速報",
-      "badge": "SALE",
-      "expire": "",
-      "pubDate": "09/29 10:53"
-    },
-    {
-      "id": "rss_-4012551837911365225",
-      "title": "『マインクラフト ダンジョンズ 2』早くも「Steam同接約2万人」スタート。新次元「シフト」に飛び込む、スピンオフRPG“約6年ぶり”の続編",
-      "link": "https://automaton-media.com/articles/newsjp/20260929-470670/",
-      "summary": "Mojang Studiosは9月29日、『Minecraft Dungeons II（マインクラフト ダンジョンズ 2）』を発売した。...",
-      "source": "AUTOMATON",
-      "category": "sale",
-      "category_name": "🔥 セール速報",
-      "badge": "SALE",
-      "expire": "",
-      "pubDate": "09/29 10:53"
+      "category_name": "🇯🇵 国内速報",
+      "pubDate": "2026-09-29 12:00"
     }
   ]
 }
