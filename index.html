@@ -33,10 +33,10 @@
     }
 
     .card-hover {
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.2s ease, border-color 0.2s ease;
     }
     .card-hover:hover {
-      transform: translateY(-4px);
+      transform: translateY(-2px);
     }
 
     .no-scrollbar::-webkit-scrollbar { display: none; }
@@ -47,7 +47,7 @@
       to { opacity: 1; transform: scale(1); }
     }
     .animate-modal {
-      animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation: fadeIn 0.15s ease-out forwards;
     }
   </style>
 </head>
@@ -197,7 +197,7 @@
       return diffDays > 0 ? diffDays : null;
     }
 
-    // JSONから受け取ったデータを描画
+    // 新作ゲーム一覧描画（修正済み）
     function renderUpcoming() {
       const container = document.getElementById('upcoming-container');
       
@@ -206,7 +206,7 @@
         return;
       }
 
-      container.innerHTML = upcomingGames.map(g => {
+      container.innerHTML = upcomingGames.map((g, idx) => {
         const daysLeft = getDaysRemaining(g.targetDate);
         const countdownBadge = daysLeft 
           ? `<span class="text-[10px] font-bold text-amber-400 bg-amber-500/10 border border-amber-500/30 px-2 py-0.5 rounded-full flex items-center gap-1">⏰ あと ${daysLeft} 日</span>`
@@ -226,7 +226,7 @@
 
             <div class="pt-2 border-t border-slate-700/40 flex items-center justify-between gap-2 text-[10px]">
               ${g.youtubeId ? `
-                <button onclick="openPvModal('${g.youtubeId}', '${g.title.replace(/'/g, "\\'")}')" class="flex items-center gap-1 bg-red-600/80 hover:bg-red-600 text-white px-2.5 py-1 rounded-lg font-bold transition-all shadow-md active:scale-95">
+                <button onclick="openPvModalByIdx(${idx})" class="flex items-center gap-1 bg-red-600/80 hover:bg-red-600 text-white px-2.5 py-1 rounded-lg font-bold transition-all shadow-md active:scale-95">
                   <i data-lucide="youtube" class="w-3.5 h-3.5"></i> PV再生
                 </button>
               ` : '<div></div>'}
@@ -246,13 +246,17 @@
       lucide.createIcons();
     }
 
-    function openPvModal(youtubeId, title) {
+    // PVモーダル表示（配列のインデックス参照に変更して文字列エラーを防止）
+    function openPvModalByIdx(idx) {
+      const g = upcomingGames[idx];
+      if (!g) return;
+
       const modal = document.getElementById('pv-modal');
       const iframe = document.getElementById('pv-iframe');
       const modalTitle = document.getElementById('pv-modal-title');
 
-      modalTitle.innerText = `${title} - 公式PV`;
-      iframe.src = `https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0`;
+      modalTitle.innerText = `${g.title} - 公式PV`;
+      iframe.src = `https://www.youtube-nocookie.com/embed/${g.youtubeId}?autoplay=1&rel=0`;
       modal.classList.remove('hidden');
     }
 
@@ -266,7 +270,7 @@
     async function loadNews() {
       updateLayoutBtn();
       try {
-        const res = await fetch('./news.json?t=' + new Date().getTime());
+        const res = await fetch('./news.json?t=' + Date.now());
         const data = await res.json();
         
         allNews = data.articles || [];
@@ -277,10 +281,11 @@
         renderUpcoming();
         renderNews();
       } catch (e) {
+        console.error("Data load error:", e);
         document.getElementById('news-container').innerHTML = `
           <div class="col-span-full py-12 text-center bg-slate-900/50 border border-rose-500/20 rounded-2xl p-6">
             <p class="text-sm font-semibold text-rose-400">データの読み込みに失敗しました</p>
-            <p class="text-xs text-slate-500 mt-1">自動更新スクリプトの実行をお待ちください。</p>
+            <p class="text-xs text-slate-500 mt-1">news.json が正しく作成されているかご確認ください。</p>
           </div>
         `;
       }
@@ -335,7 +340,7 @@
         filtered = filtered.filter(n => 
           n.title.toLowerCase().includes(searchKeyword) || 
           (n.summary && n.summary.toLowerCase().includes(searchKeyword)) ||
-          n.source.toLowerCase().includes(searchKeyword)
+          (n.source && n.source.toLowerCase().includes(searchKeyword))
         );
       }
 
@@ -365,7 +370,7 @@
           return `
             <div class="glass-card card-hover relative rounded-xl p-3 flex gap-3 items-center justify-between group">
               <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center gap-3 min-w-0">
-                ${item.image ? `<img src="${item.image}" alt="" class="w-16 h-12 object-cover rounded-lg bg-slate-900 flex-shrink-0">` : ''}
+                ${item.image ? `<img src="${item.image}" alt="" class="w-16 h-12 object-cover rounded-lg bg-slate-900 flex-shrink-0" loading="lazy">` : ''}
                 <div class="min-w-0 flex-1">
                   <div class="flex items-center gap-2 mb-1">
                     <span class="text-[9px] font-bold px-2 py-0.5 rounded ${getTagStyle(item.category)}">${item.category_name}</span>
