@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game Trend & Sale Radar</title>
+  <title>ゲームニュース＆トレンドまとめ</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen pb-12">
   <header class="bg-slate-800/90 backdrop-blur border-b border-slate-700 sticky top-0 z-50 p-4">
     <div class="max-w-4xl mx-auto flex justify-between items-center">
       <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-amber-400">
-        🎮 Game Trend Radar
+        🎮 ゲーム速報＆トレンド
       </h1>
       <span id="update-time" class="text-xs text-slate-400"></span>
     </div>
   </header>
 
   <main class="max-w-4xl mx-auto p-4 space-y-6">
-    <!-- カテゴリ切り替えボタン -->
+    <!-- カテゴリ切り替えボタン（すべて日本語） -->
     <div class="flex gap-2 overflow-x-auto pb-2 scrollbar-none" id="category-bar">
-      <button onclick="filterNews('all')" class="bg-violet-600 text-white text-sm px-4 py-1.5 rounded-full whitespace-nowrap font-medium">すべて</button>
-      <button onclick="filterNews('sale')" class="bg-slate-800 border border-slate-700 text-amber-400 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🔥 セール・お得</button>
-      <button onclick="filterNews('jp')" class="bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🇯🇵 国内ニュース</button>
-      <button onclick="filterNews('hardware')" class="bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">💻 ハード・機器</button>
-      <button onclick="filterNews('global')" class="bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🌐 海外トレンド</button>
+      <button onclick="filterNews('all', this)" class="category-btn bg-violet-600 text-white text-sm px-4 py-1.5 rounded-full whitespace-nowrap font-medium">すべて</button>
+      <button onclick="filterNews('sale', this)" class="category-btn bg-slate-800 border border-slate-700 text-amber-400 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🔥 セール・お得情報</button>
+      <button onclick="filterNews('jp', this)" class="category-btn bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🇯🇵 国内速報</button>
+      <button onclick="filterNews('hardware', this)" class="category-btn bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">💻 ハード・機器</button>
+      <button onclick="filterNews('global', this)" class="category-btn bg-slate-800 border border-slate-700 text-slate-300 text-sm px-4 py-1.5 rounded-full whitespace-nowrap">🌐 海外トレンド</button>
     </div>
 
     <!-- 記事一覧 -->
@@ -40,28 +40,28 @@
         const res = await fetch('./news.json?t=' + new Date().getTime());
         const data = await res.json();
         allNews = data.articles || [];
-        document.getElementById('update-time').innerText = `更新: ${data.updated_at || '未設定'}`;
+        document.getElementById('update-time').innerText = `最終更新: ${data.updated_at || '未設定'}`;
         renderNews(allNews);
       } catch (e) {
-        document.getElementById('news-container').innerHTML = `<p class="text-center text-rose-400 col-span-2 py-12">データの読み込みに失敗しました。自動更新が完了するまでお待ちください。</p>`;
+        document.getElementById('news-container').innerHTML = `<p class="text-center text-rose-400 col-span-2 py-12">データの読み込みに失敗しました。<br>自動更新が完了するまでしばらくお待ちください。</p>`;
       }
     }
 
     function renderNews(articles) {
       const container = document.getElementById('news-container');
       if (articles.length === 0) {
-        container.innerHTML = `<p class="text-center text-slate-500 col-span-2 py-12">該当する記事がありません。</p>`;
+        container.innerHTML = `<p class="text-center text-slate-500 col-span-2 py-12">該当するニュースがありません。</p>`;
         return;
       }
 
       container.innerHTML = articles.map(item => `
-        <a href="${item.link}" target="_blank" class="block bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 hover:border-violet-500/50 transition">
+        <a href="${item.link}" target="_blank" class="block bg-slate-800/60 border border-slate-700/60 rounded-xl p-4 hover:border-violet-500/50 transition shadow-lg">
           <div class="flex justify-between items-start gap-2 mb-2">
             <span class="text-xs px-2 py-0.5 rounded font-medium ${getTagStyle(item.category)}">${item.category_name}</span>
             <span class="text-[10px] text-slate-400">${item.source} • ${item.pubDate}</span>
           </div>
           <h2 class="font-bold text-slate-100 text-sm mb-2 line-clamp-2">${item.title}</h2>
-          <p class="text-xs text-slate-400 line-clamp-3 bg-slate-900/50 p-2 rounded">${item.summary || item.description}</p>
+          <p class="text-xs text-slate-400 line-clamp-3 bg-slate-900/50 p-2.5 rounded leading-relaxed">${item.summary || item.description}</p>
         </a>
       `).join('');
     }
@@ -73,7 +73,14 @@
       return 'bg-violet-500/20 text-violet-300 border border-violet-500/30';
     }
 
-    function filterNews(category) {
+    function filterNews(category, btn) {
+      document.querySelectorAll('.category-btn').forEach(b => {
+        b.classList.remove('bg-violet-600', 'text-white');
+        b.classList.add('bg-slate-800', 'text-slate-300');
+      });
+      btn.classList.remove('bg-slate-800', 'text-slate-300');
+      btn.classList.add('bg-violet-600', 'text-white');
+
       if (category === 'all') {
         renderNews(allNews);
       } else {
