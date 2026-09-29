@@ -49,10 +49,19 @@
 
   <main class="max-w-3xl mx-auto px-4 py-5 space-y-5">
     
-    <!-- カテゴリフィルター（横スクロール） -->
+    <!-- カテゴリフィルター（ニュース系を左、セール・無料配布系を右に配置） -->
     <div class="flex gap-2 overflow-x-auto no-scrollbar py-1" id="category-bar">
       <button onclick="filterNews('all', this)" class="cat-btn bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-xl whitespace-nowrap shadow-lg shadow-violet-500/20 transition-all">
         すべて
+      </button>
+      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 border border-slate-800 text-slate-300 hover:border-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+        🇯🇵 国内速報
+      </button>
+      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 border border-slate-800 text-cyan-400 hover:border-cyan-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+        💻 ハード・公式
+      </button>
+      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 border border-slate-800 text-fuchsia-400 hover:border-fuchsia-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
+        🌐 海外トレンド
       </button>
       <button onclick="filterNews('epic_free', this)" class="cat-btn bg-slate-900 border border-slate-800 text-emerald-400 hover:border-emerald-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
         🎁 Epic無料配布
@@ -64,16 +73,7 @@
         🎮 Steamセール
       </button>
       <button onclick="filterNews('sale', this)" class="cat-btn bg-slate-900 border border-slate-800 text-amber-400 hover:border-amber-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
-        🔥 メディアセール速報
-      </button>
-      <button onclick="filterNews('jp', this)" class="cat-btn bg-slate-900 border border-slate-800 text-slate-300 hover:border-slate-700 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
-        🇯🇵 国内速報
-      </button>
-      <button onclick="filterNews('hardware', this)" class="cat-btn bg-slate-900 border border-slate-800 text-cyan-400 hover:border-cyan-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
-        💻 ハード・公式
-      </button>
-      <button onclick="filterNews('global', this)" class="cat-btn bg-slate-900 border border-slate-800 text-fuchsia-400 hover:border-fuchsia-500/50 text-xs font-semibold px-4 py-2 rounded-xl whitespace-nowrap transition-all">
-        🌐 海外トレンド
+        🔥 セール速報
       </button>
     </div>
 
