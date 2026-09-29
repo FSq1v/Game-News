@@ -3,9 +3,10 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 FEEDS = [
+    {"url": "https://topics.nintendo.co.jp/feed/rss/index.xml", "source": "任天堂", "category": "hardware", "category_name": "🎮 任天堂公式"},
     {"url": "https://blog.ja.playstation.com/feed/", "source": "PS Blog", "category": "hardware", "category_name": "🎮 PS公式"},
     {"url": "https://news.xbox.com/ja-jp/feed/", "source": "Xbox Wire", "category": "hardware", "category_name": "🎮 Xbox公式"},
     {"url": "https://www.famitsu.com/rss/famitsu-all.xml", "source": "ファミ通", "category": "jp", "category_name": "🇯🇵 国内速報"},
@@ -71,6 +72,7 @@ def fetch_epic_store():
             is_free = False
             discount_price = price_info.get('discountPrice', 0)
             original_price = price_info.get('originalPrice', 0)
+            end_date_str = ""
 
             if promotions and promotions.get('promotionalOffers'):
                 for group in promotions['promotionalOffers']:
@@ -81,11 +83,14 @@ def fetch_epic_store():
                             s_date = datetime.fromisoformat(start.replace('Z', '+00:00'))
                             e_date = datetime.fromisoformat(end.replace('Z', '+00:00'))
                             if s_date <= now <= e_date:
+                                jst_end = e_date.astimezone(timezone(timedelta(hours=9)))
+                                end_date_str = jst_end.strftime("%m/%d %H:%Mまで")
                                 if offer.get('discountSetting', {}).get('discountPercentage') == 0 or discount_price == 0:
                                     is_free = True
 
             if is_free:
                 epic_items.append({
+                    "id": f"epic_free_{title}",
                     "title": title,
                     "link": link,
                     "summary": f"【Epic Gamesストア 無料配布中】通常価格 ¥{original_price:,} ➔ 無料！",
@@ -93,18 +98,23 @@ def fetch_epic_store():
                     "category": "epic_free",
                     "category_name": "🎁 Epic無料配布",
                     "image": image_url,
+                    "badge": "FREE",
+                    "expire": end_date_str,
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
                 })
             elif original_price > 0 and discount_price < original_price:
                 discount_rate = int((1 - discount_price / original_price) * 100)
                 epic_items.append({
+                    "id": f"epic_sale_{title}",
                     "title": title,
                     "link": link,
-                    "summary": f"【セール中 {discount_rate}% OFF】¥{original_price:,} ➔ ¥{discount_price:,}",
+                    "summary": f"【セール中】¥{original_price:,} ➔ ¥{discount_price:,}",
                     "source": "Epic Games Store",
                     "category": "epic_sale",
                     "category_name": "🏷️ Epicセール",
                     "image": image_url,
+                    "badge": f"-{discount_rate}%",
+                    "expire": end_date_str,
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
                 })
     except Exception as e:
@@ -139,14 +149,20 @@ def fetch_steam_sales():
                 orig_price = item.get('original_price', 0) // 100
                 final_price = item.get('final_price', 0) // 100
                 
+                exp_dt = datetime.fromtimestamp(exp_time, tz=timezone(timedelta(hours=9)))
+                expire_str = exp_dt.strftime("%m/%d %H:%Mまで")
+
                 steam_items.append({
+                    "id": f"steam_{app_id}",
                     "title": title,
                     "link": link,
-                    "summary": f"【Steamセール中 {discount_percent}% OFF】¥{orig_price:,} ➔ ¥{final_price:,}",
+                    "summary": f"【Steamセール中】¥{orig_price:,} ➔ ¥{final_price:,}",
                     "source": "Steam Store",
                     "category": "steam_sale",
                     "category_name": "🎮 Steamセール",
                     "image": image_url,
+                    "badge": f"-{discount_percent}%",
+                    "expire": expire_str,
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
                 })
     except Exception as e:
@@ -158,11 +174,9 @@ def fetch_rss():
     news_articles = []
     sale_articles = []
     
-    # 1. Epic / Steam セール商品を取得
     sale_articles.extend(fetch_epic_store())
     sale_articles.extend(fetch_steam_sales())
     
-    # 2. メディアニュースを取得
     for feed in FEEDS:
         try:
             req = urllib.request.Request(
@@ -207,21 +221,26 @@ def fetch_rss():
                 title_lower = title.lower()
                 
                 is_sale_article = False
+                badge = ""
                 if any(k in title_lower for k in ["セール", "無料", "割引", "discount", "sale", "epic", "steam", "100%", "bundle", "game pass"]):
                     cat = "sale"
                     cat_name = "🔥 セール速報"
                     is_sale_article = True
+                    badge = "SALE"
                 elif any(k in title_lower for k in ["ps5", "switch", "steam deck", "gpu", "rtx", "グラボ", "モニター", "コントローラー", "xbox", "ハード", "新型"]):
                     cat = "hardware"
                     cat_name = "💻 ハード・機器"
 
                 article = {
+                    "id": f"rss_{hash(title)}",
                     "title": title,
                     "link": link.strip(),
                     "summary": summary,
                     "source": feed["source"],
                     "category": cat,
                     "category_name": cat_name,
+                    "badge": badge,
+                    "expire": "",
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
                 }
 
@@ -232,11 +251,9 @@ def fetch_rss():
         except Exception as e:
             print(f"Error fetching {feed['source']}: {e}")
             
-    # タイトル重複排除処理
     unique_articles = []
     seen_titles = set()
     
-    # ニュース系を先頭に、セール系（Epic, Steam, メディアセール）を後ろに結合
     all_combined = news_articles + sale_articles
     
     for art in all_combined:
