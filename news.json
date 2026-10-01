@@ -1,8 +1,23 @@
 {
-  "updated_at": "2026/10/02 00:57",
+  "updated_at": "2026/10/02 05:48",
   "articles": [
     {
-      "id": "rss_-6371150098272550678",
+      "id": "rss_2049258696737142972",
+      "title": "PS5®にAIアップスケーリング技術QSSRが登場",
+      "link": "https://blog.ja.playstation.com/2026/10/02/20261002-ps5-qssr-o/",
+      "summary": "PS5®にAIアップスケーリング技術「クイックスペクトルスーパーレゾリューション （QSSR）」が登場！ ゲーム映像を、より精細で安定した映像へとアップスケール。『Marvel’s Wolverine』と『Ghost of Yōtei』が本日10月2日（金）配信のパッチで対応。...",
+      "source": "PS Blog",
+      "category": "hardware",
+      "category_name": "💻 ハード・機器",
+      "platforms": [
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "rss_1709321692549969692",
       "title": "『Kena: コスモラの刻印』が2027年に発売決定。開発スタジオEmber Labが物語の概要を公開！",
       "link": "https://blog.ja.playstation.com/2026/10/01/20261001-kena-sok-story-overview-o/",
       "summary": "『Kena: コスモラの刻印』が2027年にPS5®で発売決定！ 本作の物語や舞台設定について、新たに明かされた情報をチェック！...",
@@ -14,10 +29,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-5916599109133390486",
+      "id": "rss_1388664979190154482",
       "title": "「PlayStation® Game Music大賞 2026」開催決定！ 今年も人気ゲームサウンドトラックが集結！",
       "link": "https://blog.ja.playstation.com/2026/10/01/20261001-ps-game-music-awards2026-event-reveal-s/",
       "summary": "ソニー・インタラクティブエンタテインメントは、PlayStation®プラットフォームを彩る音楽コンテンツを対象にした「PlayStation Game Music大賞 2026」を開催します。 PlayStationフ [&#8230;]...",
@@ -29,10 +44,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-7616367498944775007",
+      "id": "rss_6808229622851287641",
       "title": "PlayStation®Plus 10月のフリープレイに『F1® 25』『Hello Neighbor』『四角い地球に再びシカク現る!? デジボク地球防衛軍2 EARTH DEFENSE FORCE: WORLD BROTHERS』の3タイトルが登場！",
       "link": "https://blog.ja.playstation.com/2026/10/01/20261001-psplus-freeplay-o/",
       "summary": "PlayStation®Plus 2026年10月提供コンテンツ情報！ 10月6日（火）から、フリープレイに『F1® 25』『Hello Neighbor』『四角い地球に再びシカク現る!? デジボク地球防衛軍２ EARTH DEFENSE FORCE: WORLD BROTHER...",
@@ -44,26 +59,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-4801906375743752609",
-      "title": "10月発売のPS5®/PS4®注目ソフトはこれだ！【今月のおすすめ新作ガイド】",
-      "link": "https://blog.ja.playstation.com/2026/10/01/20261001-monthly-picks-s/",
-      "summary": "10月発売予定のPlayStation®5/PlayStation®4用ソフトウェアから、おすすめタイトルをピックアップ！ 注目ポイントをいまからチェックしておこう！ 【INDEX】Ghost of Yōtei Comp [&#8230;]...",
-      "source": "PS Blog",
-      "category": "hardware",
-      "category_name": "💻 ハード・機器",
-      "platforms": [
-        "PS5",
-        "PS4"
-      ],
-      "badge": "",
-      "expire": "",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "rss_1827605223226058886",
+      "id": "rss_2869606964861162033",
       "title": "『Minecraft Dungeons II』のシームレスにつながる世界があらゆる旅路を冒険に変える",
       "link": "https://news.xbox.com/ja-jp/2026/09/29/how-minecraft-dungeons-iis-interconnected-world-makes-every-journey-an-adventure/",
       "summary": "The post 『Minecraft Dungeons II』のシームレスにつながる世界があらゆる旅路を冒険に変える appeared first on XBOX Wire Japan....",
@@ -75,10 +74,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_3881148748378500875",
+      "id": "rss_-1706711555204723067",
       "title": "『Minecraft Dungeons II』に登場する新ディメンション「シフト」が『Minecraft: Java & Bedrock Edition』にも登場",
       "link": "https://news.xbox.com/ja-jp/2026/09/29/minecraft-new-dimension-sift-dungeons-2/",
       "summary": "The post 『Minecraft Dungeons II』に登場する新ディメンション「シフト」が『Minecraft: Java &amp; Bedrock Edition』にも登場 appeared first on XBOX Wire Japan....",
@@ -90,10 +89,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_8866379478791597777",
+      "id": "rss_-1656490129395317418",
       "title": "『STRANGER THAN HEAVEN』: 激動の時代を生きる、大東の人生と交差する人々を紹介",
       "link": "https://news.xbox.com/ja-jp/2026/09/24/stranger-than-heaven-full-cast-character-reveal-xbox-sega/",
       "summary": "The post 『STRANGER THAN HEAVEN』: 激動の時代を生きる、大東の人生と交差する人々を紹介 appeared first on XBOX Wire Japan....",
@@ -105,10 +104,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-2560460339246008892",
+      "id": "rss_8129962070765117241",
       "title": "「サイバーパンク: エッジランナーズ２」は前作とはまるで対照的。1話を観ただけでも伝わってきた、人を喰う街「ナイトシティ」のリアル",
       "link": "https://automaton-media.com/articles/reportjp/ce2-20261002-471283/",
       "summary": "「サイバーパンク: エッジランナーズ２」は『サイバーパンク2077』を原作としたアニメ作品だ。Netflixにて2026年10月20日より配信予定となっている。...",
@@ -120,10 +119,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_5042153527524009493",
+      "id": "rss_-7194422851165914761",
       "title": "マザーボードメーカー各社、中国で軒並み値上げの動き。半導体高騰の影響は、メモリ/SSDを超えて「マザーボード」までにも波及か",
       "link": "https://automaton-media.com/articles/newsjp/20261001-471244/",
       "summary": "マザーボードについても価格は上昇傾向のようだ。...",
@@ -135,10 +134,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-5893371408037225227",
+      "id": "rss_-7949008314465217755",
       "title": "『エースコンバット』風ローグライク『DELIVERY MUST COMPLETE』は“ビルド盛り放題＆ドッグファイトし放題”ゲームだった。チェーンソー少女終末パルクールなど、濃い新作を一気にプレイ",
       "link": "https://automaton-media.com/articles/reportjp/20261001-471239/",
       "summary": "パルクールアクションからホラー、空中戦、メトロイドヴァニアまで、それぞれ異なる持ち味を備えたTop Hat Studiosの4作品のプレイ感を紹介していく。...",
@@ -150,75 +149,74 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_1523476506787986596",
-      "title": "Metro Redux coming to PS5, Xbox Series on October 29",
-      "link": "https://www.gematsu.com/2026/10/metro-redux-coming-to-ps5-xbox-series-on-october-29",
-      "summary": "Publisher Deep Silver and developer 4A Games will release PlayStation 5 and Xbox Series versions &hellip;...",
+      "id": "rss_-1262979363836676743",
+      "title": "VOID/BREAKER launches November 4",
+      "link": "https://www.gematsu.com/2026/10/void-breaker-launches-november-4",
+      "summary": "Fast-paced roguelite first-person shooter VOID/BREAKER will leave Early Access and launch for PlayStation 5, Xbox &hellip;...",
+      "source": "Gematsu",
+      "category": "global",
+      "category_name": "🌐 海外速報",
+      "platforms": [
+        "Xbox",
+        "PS5"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "rss_7197240742529856123",
+      "title": "Invincible VS DLC character Angstrom Levy launches October 13",
+      "link": "https://www.gematsu.com/2026/10/invincible-vs-dlc-character-angstrom-levy-launches-october-13",
+      "summary": "Publisher Skybound Games and developer Quarter Up will release three-versus-three tag fighting game Invincible VS &hellip;...",
+      "source": "Gematsu",
+      "category": "global",
+      "category_name": "🌐 海外速報",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "rss_1986463114638788752",
+      "title": "Croc 2: Kingdom of the Gobbos remaster launches October 29",
+      "link": "https://www.gematsu.com/2026/10/croc-2-kingdom-of-the-gobbos-remaster-launches-october-29",
+      "summary": "The remastered version of the 1999-released platformer Croc 2: Kingdom of the Gobbos will launch &hellip;...",
+      "source": "Gematsu",
+      "category": "global",
+      "category_name": "🌐 海外速報",
+      "platforms": [
+        "ALL"
+      ],
+      "badge": "",
+      "expire": "",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "rss_2377041334535645998",
+      "title": "PS5 AI upscaler Quick Spectral Super Resolution announced",
+      "link": "https://www.gematsu.com/2026/10/ps5-ai-upscaler-quick-spectral-super-resolution-announced",
+      "summary": "PlayStation 5 will introduce Quick Spectral Super Resolution&#8212;the base console equivalent of PlayStation 5 Pro&#8217;s &hellip;...",
       "source": "Gematsu",
       "category": "hardware",
       "category_name": "💻 ハード・機器",
       "platforms": [
-        "Xbox",
         "PS5"
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-5610475560746200911",
-      "title": "ArcheAge Chronicles limited-time demo for PC launches October 19",
-      "link": "https://www.gematsu.com/2026/10/archeage-chronicles-limited-time-demo-for-pc-launches-october-19",
-      "summary": "XLGAMES will release a limited-time demo for open-world action MMORPG ArcheAge Chronicles for PC via &hellip;...",
-      "source": "Gematsu",
-      "category": "global",
-      "category_name": "🌐 海外速報",
-      "platforms": [
-        "PC"
-      ],
-      "badge": "",
-      "expire": "",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "rss_-5515729618297296169",
-      "title": "Sifu coming to iOS, Android on October 12",
-      "link": "https://www.gematsu.com/2026/10/sifu-coming-to-ios-android-on-october-12",
-      "summary": "Sloclap will release iOS and Android versions of kung-fu third-person brawler Sifu on October 12, &hellip;...",
-      "source": "Gematsu",
-      "category": "global",
-      "category_name": "🌐 海外速報",
-      "platforms": [
-        "ALL"
-      ],
-      "badge": "",
-      "expire": "",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "rss_-7775196785234862760",
-      "title": "Elta: Defy All Gods launches February 2, 2027, demo now available",
-      "link": "https://www.gematsu.com/2026/10/elta-defy-all-gods-launches-february-2-2027-demo-now-available",
-      "summary": "&#8220;Adrenaline-fueled action platformer&#8221; Elta: Defy All Gods will launch for PlayStation 5, Xbox Series, and &hellip;...",
-      "source": "Gematsu",
-      "category": "global",
-      "category_name": "🌐 海外速報",
-      "platforms": [
-        "Xbox",
-        "PS5"
-      ],
-      "badge": "",
-      "expire": "",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "rss_-3916763324910780872",
-      "title": "Great news, cowards: The Witcher 3's most yellow-bellied mod is ready for the remaster",
-      "link": "https://www.pcgamer.com/games/the-witcher/great-news-cowards-the-witcher-3s-most-yellow-bellied-mod-is-ready-for-the-remaster/",
-      "summary": "What's the matter? Scared of a little meat on your witcher?...",
+      "id": "rss_7942689285552602287",
+      "title": "How to conquer Kuttenberg",
+      "link": "https://www.pcgamer.com/games/rpg/how-to-conquer-kuttenberg/",
+      "summary": "Bypassing Kingdom Come: Deliverance 2's main quest by taking Kuttenberg myself....",
       "source": "PC Gamer",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -227,13 +225,13 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-1432872757086725401",
-      "title": "Don't fear the BIOS update: Asus has just fixed a local access vulnerability affecting older Intel motherboards",
-      "link": "https://www.pcgamer.com/hardware/motherboards/dont-fear-the-bios-update-asus-has-just-fixed-a-local-access-vulnerability-affecting-older-intel-motherboards/",
-      "summary": "To be clear, it's only older motherboards for 8th and 9th Gen Intel CPUs that are affected by the issue....",
+      "id": "rss_6439524112613068925",
+      "title": "More than 450 Witcher 3 mods have already been updated to support the Remastered version",
+      "link": "https://www.pcgamer.com/games/the-witcher/more-than-450-witcher-3-mods-have-already-been-updated-to-support-the-remastered-version/",
+      "summary": "That's a lotta mods!...",
       "source": "PC Gamer",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -242,13 +240,13 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_1621050812492128226",
-      "title": "Gears of War: E-Day system requirements require ray tracing-capable graphics card to play, alongside 115 GB of free space on an SSD",
-      "link": "https://www.pcgamer.com/games/action/gears-of-war-e-day-system-requirements-require-ray-tracing-capable-graphics-card-to-play-alongside-115-gb-of-free-space-on-an-ssd/",
-      "summary": "The game's minimum requirements are pretty forgiving....",
+      "id": "rss_-7153210069373244053",
+      "title": "Kingdom Come: Deliverance studio co-founder hopes Grand Theft Auto 6 will 'blaze a trail' to higher game prices",
+      "link": "https://www.pcgamer.com/games/grand-theft-auto/kingdom-come-deliverance-studio-co-founder-hopes-grand-theft-auto-6-will-blaze-a-trail-to-higher-game-prices/",
+      "summary": "Warhorse co-founder Martin Klima says games keep getting more expensive to make, and that money has to come from somewhere....",
       "source": "PC Gamer",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -257,13 +255,13 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-2149421017092557690",
-      "title": "Where to find the Nangan region Treasure Hunt in Forza Horizon 6",
-      "link": "https://www.pcgamer.com/games/racing/forza-horizon-6-nangan-treasure-hunt-location/",
-      "summary": "Smash this chest at the space center....",
+      "id": "rss_-5592253656891672881",
+      "title": "'We needed a potentially infinite resource of party members so that we could then kill them:' Entropy dev James Wragg explains how you fit permadeath in a party RPG",
+      "link": "https://www.pcgamer.com/games/rpg/we-needed-a-potentially-infinite-resource-of-party-members-so-that-we-could-then-kill-them-entropy-dev-james-wragg-explains-how-you-fit-permadeath-in-a-party-rpg/",
+      "summary": "Human Resources....",
       "source": "PC Gamer",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -272,13 +270,13 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_5611716793239511429",
-      "title": "Sonic Boss Apologizes To Fans For Lack Of Remasters And Remakes: ‘We Have A Stronger Desire To Provide Fans With New Games’",
-      "link": "https://kotaku.com/sonic-boss-apologizes-to-fans-for-lack-of-remasters-and-remakes-we-have-a-stronger-desire-to-provide-fans-with-new-games-2000738964",
-      "summary": "It doesn't seem like there will be a new port of Sonic Unleashed anytime soon...",
+      "id": "rss_-393658917656464796",
+      "title": "Gears Of War Devs Explain Missing Features: ‘We Started E-Day With An Empty Hard Drive Building Our Entire Gameplay Sandbox From Scratch’",
+      "link": "https://kotaku.com/gears-of-war-devs-explain-missing-features-we-started-e-day-with-an-empty-hard-drive-building-our-entire-gameplay-sandbox-from-scratch-2000739072",
+      "summary": "Meat shields and private lobbies aren't currently in the game...",
       "source": "Kotaku",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -287,13 +285,13 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:48"
     },
     {
-      "id": "rss_-3473130594606446012",
-      "title": "One Of My Favorite Block Pushers Is Finally Coming To The Platform I Most Want To Play It On",
-      "link": "https://kotaku.com/isles-of-sea-and-sky-sokoban-switch-2000738950",
-      "summary": "Isles of Sea and Sky is a fantastic little sokoban that it's time everyone stopped sleeping on...",
+      "id": "rss_5615851879428950529",
+      "title": "Advocacy Group Stop Killing Games Sounds Alarm On EU Kids Act: ‘This Is Such A Horrible Law Proposal’",
+      "link": "https://kotaku.com/advocacy-group-stop-killing-games-sounds-alarm-on-eu-kids-act-this-is-such-a-horrible-law-proposal-2000738930",
+      "summary": "Stop Killing Games' Ross Scott calls the EU Kids Act 'the most draconian proposal I've ever seen regarding video games and consumers'...",
       "source": "Kotaku",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -302,13 +300,13 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:48"
     },
     {
-      "id": "rss_8449948940450082455",
-      "title": "Arc Raiders Is About To Go Nuclear On Cheaters: ‘No Warnings, No Second Chances’",
-      "link": "https://kotaku.com/arc-raiders-cheating-exploits-queue-teaming-embark-update-frozen-trail-2000738934",
-      "summary": "There are also plans to introduce new tech, and prevent the misery of queue teaming...",
+      "id": "rss_6072997786142450501",
+      "title": "Unshine Arcade Is A Really Cool Crunchy Pixel Roguelite Shooter That’s Packed Full Of Secrets",
+      "link": "https://kotaku.com/unshine-arcade-game-review-indie-mardt-steam-pc-roguelite-2000738973",
+      "summary": "Win tickets, open gacha balls, enter cheat codes, and anything else you can think of to escape the arcade...",
       "source": "Kotaku",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -317,13 +315,13 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:48"
     },
     {
-      "id": "rss_-7551615837771303817",
-      "title": "Ubisoft Unites Developers Of Splinter Cell, The Division, Ghost Recon And More Under Star Wars Outlaws Studio Massive Entertainment",
-      "link": "https://kotaku.com/star-wars-outlaws-massive-ubisoft-tom-clancy-the-division-ghost-recon-2000738920",
-      "summary": "The Swedish group, Massive Entertainment, now coordinates development of multiple games across international teams...",
+      "id": "rss_-448861158412042505",
+      "title": "24-Year-Old Final Fantasy MMORPG Finally Gets A Generous Free Trial",
+      "link": "https://kotaku.com/24-year-old-final-fantasy-mmorpg-finally-gets-a-generous-free-trial-2000738770",
+      "summary": "Those looking to jump into Final Fantasy XI can now access the entire base game without time restrictions...",
       "source": "Kotaku",
       "category": "global",
       "category_name": "🌐 海外トレンド",
@@ -332,10 +330,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:48"
     },
     {
-      "id": "rss_5072769663159225330",
+      "id": "rss_-2246513019405549366",
       "title": "Aion 2's imminent worldwide release could be huge as early access founders' packs outsell major games, and player numbers soar",
       "link": "https://www.eurogamer.net/aion-2-western-release-steam-player-numbers",
       "summary": "Aion 2's much-awaited worldwide release is days away, following its release in Korea and Taiwan roughly a year ago. Despite this, the MMO ha...",
@@ -347,10 +345,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:48"
     },
     {
-      "id": "rss_-5587032599349303727",
+      "id": "rss_8491926984736234209",
       "title": "007 First Light gets free new DLC today, adding New Game Plus and Photo modes, new TacSim missions and more",
       "link": "https://www.eurogamer.net/007-james-bond-first-light-free-dlc",
       "summary": "James Bond game 007 First Light is getting free DLC today in an Extended Operations update. This adds much-asked-for features to the game - ...",
@@ -362,10 +360,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:48"
     },
     {
-      "id": "rss_-5553197979681157300",
+      "id": "rss_-594130125844501205",
       "title": "Ace Combat 8 developer apologises for Belkan War pre-order backlash, explains why it happened and vows to explore possible solutions",
       "link": "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-backlash-response",
       "summary": "The early access launch of Ace Combat 8: Wings of Theve kicked off on a down note due to some confusion regarding one of the game's pre-orde...",
@@ -377,10 +375,10 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:48"
     },
     {
-      "id": "rss_9069760573656488591",
+      "id": "rss_-8626229159641531043",
       "title": "Gears of War E-Day campaign review - turns out you can teach old Cogs new tricks",
       "link": "https://www.eurogamer.net/gears-of-war-eday-campaign-review",
       "summary": "\"Look ma, no face,\" growls Marcus Fenix as I land a headshot on an Elite Sniper from across the map. The foley, wet with viscera and meat, d...",
@@ -392,7 +390,55 @@
       ],
       "badge": "",
       "expire": "",
-      "pubDate": "10/01 15:57"
+      "pubDate": "10/01 20:48"
+    },
+    {
+      "id": "steam_814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "link": "https://store.steampowered.com/app/814380/",
+      "summary": "【Steamセール中】¥8,360 ➔ ¥4,180",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
+      "badge": "-50%",
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "steam_1091500",
+      "title": "サイバーパンク2077",
+      "link": "https://store.steampowered.com/app/1091500/",
+      "summary": "【Steamセール中】¥8,778 ➔ ¥2,633",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
+      "badge": "-70%",
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "steam_4001890",
+      "title": "How to Fish",
+      "link": "https://store.steampowered.com/app/4001890/",
+      "summary": "【Steamセール中】¥880 ➔ ¥545",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
+      "badge": "-38%",
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
     },
     {
       "id": "steam_2161700",
@@ -407,8 +453,56 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg?t=1764776430",
       "badge": "-70%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "steam_1067360",
+      "title": "Pax Autocratica",
+      "link": "https://store.steampowered.com/app/1067360/",
+      "summary": "【Steamセール中】¥3,850 ➔ ¥770",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1067360/d492e901f3aec578ea3b3fc45c25f09784313d8c/header.jpg?t=1787757968",
+      "badge": "-80%",
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "steam_2138330",
+      "title": "サイバーパンク2077：仮初めの自由",
+      "link": "https://store.steampowered.com/app/2138330/",
+      "summary": "【Steamセール中】¥4,309 ➔ ¥2,585",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/bdbeea292270b8cd9dde1f2044a411624db58657/header.jpg?t=1784713876",
+      "badge": "-40%",
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "steam_2651280",
+      "title": "Marvel's Spider-Man 2",
+      "link": "https://store.steampowered.com/app/2651280/",
+      "summary": "【Steamセール中】¥7,590 ➔ ¥5,085",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg?t=1763569811",
+      "badge": "-33%",
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
     },
     {
       "id": "steam_160150",
@@ -423,120 +517,8 @@
       ],
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/160150/header_ratio_japanese.jpg?t=1492793326",
       "badge": "-50%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "steam_1687950",
-      "title": "ペルソナ５ ザ・ロイヤル",
-      "link": "https://store.steampowered.com/app/1687950/",
-      "summary": "【Steamセール中】¥7,678 ➔ ¥2,303",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header_japanese.jpg?t=1783356822",
-      "badge": "-70%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "steam_570940",
-      "title": "DARK SOULS™: REMASTERED",
-      "link": "https://store.steampowered.com/app/570940/",
-      "summary": "【Steamセール中】¥4,730 ➔ ¥2,365",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
-      "badge": "-50%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "steam_292030",
-      "title": "ウィッチャー３　ワイルドハント　リマスター",
-      "link": "https://store.steampowered.com/app/292030/",
-      "summary": "【Steamセール中】¥6,490 ➔ ¥3,245",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e624516e647cb6c467c3b2ce9c8c70b058bcebe4/header_alt_assets_1_japanese.jpg?t=1790845156",
-      "badge": "-50%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "steam_2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "link": "https://store.steampowered.com/app/2909400/",
-      "summary": "【Steamセール中】¥6,578 ➔ ¥1,973",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1789446799",
-      "badge": "-70%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "steam_1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "link": "https://store.steampowered.com/app/1462040/",
-      "summary": "【Steamセール中】¥5,478 ➔ ¥1,369",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
-      "badge": "-75%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "steam_2455640",
-      "title": "ロマンシング サガ2 リベンジオブザセブン",
-      "link": "https://store.steampowered.com/app/2455640/",
-      "summary": "【Steamセール中】¥6,820 ➔ ¥2,728",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455640/header_japanese.jpg?t=1777013886",
-      "badge": "-60%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
-    },
-    {
-      "id": "steam_335300",
-      "title": "DARK SOULS™ II: Scholar of the First Sin",
-      "link": "https://store.steampowered.com/app/335300/",
-      "summary": "【Steamセール中】¥5,720 ➔ ¥2,860",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/header_japanese.jpg?t=1760721873",
-      "badge": "-50%",
-      "expire": "10/02 02:00まで",
-      "pubDate": "10/01 15:56"
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
     },
     {
       "id": "steam_1488490",
@@ -552,10 +534,26 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg?t=1790855080",
       "badge": "-10%",
       "expire": "10/14 02:00まで",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_636648044546576387",
+      "id": "steam_1478500",
+      "title": "Big Walk",
+      "link": "https://store.steampowered.com/app/1478500/",
+      "summary": "【Steamセール中】¥2,300 ➔ ¥1,840",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg?t=1785911674",
+      "badge": "-20%",
+      "expire": "10/09 02:00まで",
+      "pubDate": "10/01 20:47"
+    },
+    {
+      "id": "rss_3385565082836893884",
       "title": "Game Pass に『Gears of War: E-Day』『Minecraft Dungeons II』『Dune: Awakening デューン：アウェイクニング』などが登場",
       "link": "https://news.xbox.com/ja-jp/2026/09/18/xbox-game-pass-september-2026-wave-2/",
       "summary": "The post Game Pass に『Gears of War: E-Day』『Minecraft Dungeons II』『Dune: Awakening デューン：アウェイクニング』などが登場 appeared first on XBOX Wire Japan....",
@@ -567,10 +565,10 @@
       ],
       "badge": "SALE",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_8592665929071768944",
+      "id": "rss_-4732583415122615383",
       "title": "【半額】マンガ『Fate/stay night [Heaven’s Feel]』Kindle版1～11巻が最大52％オフのセール開催中。既刊11巻がまとめて「3959円」に",
       "link": "https://news.denfaminicogamer.jp/news/261002b",
       "summary": "間桐桜に焦点をあてる「桜ルート」のコミカライズ。作画は『FGO』で「百貌のハサン」「呪腕のハサン」などを描くタスクオーナ氏...",
@@ -582,10 +580,10 @@
       ],
       "badge": "SALE",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-4316560415484026725",
+      "id": "rss_-1480605824580637615",
       "title": "【全話無料】マンガ『パタリロ！』が「花とゆめ＋」にて72時間限定で全話無料で公開。10月5日11時59分まで、常魔夜峰央氏による長寿ギャグマンガを読みまくれる",
       "link": "https://news.denfaminicogamer.jp/news/2610013f",
       "summary": "魔夜峰央氏による長寿ギャグマンガを読みまくれる。常春の国マリネラの少年国王パタリロが、周囲を巻き込みながら起こす騒動を描く...",
@@ -597,10 +595,10 @@
       ],
       "badge": "SALE",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_4665224405480703086",
+      "id": "rss_9015842631322618347",
       "title": "“2000年代PC風”ヴァンサバライク『Antivirus Survivors 2003 Professional』が発売3日でSteam「圧倒的に好評」と好調な滑り出し。懐かしいデスクトップでウイルスを狩りまくる",
       "link": "https://news.denfaminicogamer.jp/news/2610013d",
       "summary": "懐かしいデスクトップ上でスクリーンセーバーやファイアウォール、Cドライブなどの武器を駆使し、ウイルスを狩りまくる。日本語にも対応...",
@@ -612,10 +610,10 @@
       ],
       "badge": "SALE",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-660512654585073086",
+      "id": "rss_2148642852333142158",
       "title": "『007 ファーストライト』初の大型無料DLCが配信開始。機関銃とミサイルランチャーを搭載したボンドカー「ヴァルハラ」で爆走",
       "link": "https://news.denfaminicogamer.jp/news/2610013c",
       "summary": "ニューゲーム＋やフォトモード、新難易度「00」を追加。ベトナムのホテルで重要文書を回収する新オペレーションは、挑戦するたびに状況が変化する...",
@@ -627,10 +625,10 @@
       ],
       "badge": "SALE",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     },
     {
-      "id": "rss_-3386449429637164332",
+      "id": "rss_6965764712508793146",
       "title": "基本プレイ無料・期待の新作MMO『AION 2』、正式配信前から「Steam同接17万人超」の大盛況。いじれすぎるキャラクリ主人公で、前作から“36倍”の広大世界を駆け回れる",
       "link": "https://automaton-media.com/articles/newsjp/20261001-471150/",
       "summary": "NCは9月30日、ファウンダーズ パック購入者向けにMMORPG『AION 2』の先行アクセスを開始した。先行アクセスの時点で大きな盛り上がりを見せている。...",
@@ -642,7 +640,7 @@
       ],
       "badge": "SALE",
       "expire": "",
-      "pubDate": "10/01 15:56"
+      "pubDate": "10/01 20:47"
     }
   ]
 }
