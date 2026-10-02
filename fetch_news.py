@@ -12,7 +12,7 @@ FEEDS = [
     {"url": "https://www.famitsu.com/rss/famitsu-all.xml", "source": "ファミ通", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://jp.ign.com/feed/news", "source": "IGN Japan", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://www.4gamer.net/rss/index.xml", "source": "4Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
-    {"url": "https://dengekionline.com/rss/index.xml", "source": "電撃オンライン", "category": "jp", "category_name": "🇯🇵 国内速報"},
+    {"url": "https://dengegionline.com/rss/index.xml", "source": "電撃オンライン", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://www.gamer.ne.jp/rss/news/", "source": "Gamer", "category": "jp", "category_name": "🇯🇵 国内速報"},
     {"url": "https://news.denfaminicogamer.jp/feed", "source": "電ファミ", "category": "jp", "category_name": "🇯🇵 電ファミ・話題"},
     {"url": "https://automaton-media.com/feed/", "source": "AUTOMATON", "category": "jp", "category_name": "🇯🇵 インディー・話題"},
@@ -66,12 +66,13 @@ def translate_to_japanese(text):
 def fetch_epic_store():
     epic_items = []
     try:
-        url = "https://store-site-backend-static-ipv4.akamaized.net/store/ffi/offers/v1/japan?locale=ja&country=JP&allowCountries=JP"
+        # 最新のEpic Games Store 無料配布・セール情報取得API
+        url = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=ja&country=JP&allowCountries=JP"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
         res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
         data = json.loads(res)
+        
         elements = data.get('data', {}).get('Catalog', {}).get('searchStore', {}).get('elements', [])
-
         now = datetime.now(timezone.utc)
 
         for el in elements:
@@ -79,34 +80,52 @@ def fetch_epic_store():
             promotions = el.get('promotions')
             price_info = el.get('price', {}).get('totalPrice', {})
             
+            if not title or not promotions:
+                continue
+
+            # 画像URLの取得
             image_url = None
             for img in el.get('keyImages', []):
-                if img.get('type') in ['OfferImageWide', 'DieselStoreFrontWide', 'Thumbnail']:
+                if img.get('type') in ['OfferImageWide', 'DieselStoreFrontWide', 'VaultClosed', 'Thumbnail']:
                     image_url = img.get('url')
                     break
             if not image_url and el.get('keyImages'):
                 image_url = el['keyImages'][0].get('url')
 
-            product_slug = el.get('productSlug') or (el.get('catalogNs', {}).get('mappings', [{}])[0].get('pageSlug') if el.get('catalogNs') else None)
-            link = f"https://store.epicgames.com/ja/p/{product_slug}" if product_slug else "https://store.epicgames.com/ja/"
+            # 商品ページURLの特定
+            product_slug = el.get('productSlug')
+            if not product_slug and el.get('offerMappings'):
+                product_slug = el['offerMappings'][0].get('pageSlug')
+            if not product_slug and el.get('catalogNs', {}).get('mappings'):
+                product_slug = el['catalogNs']['mappings'][0].get('pageSlug')
+
+            link = f"https://store.epicgames.com/ja/p/{product_slug}" if product_slug else "https://store.epicgames.com/ja/free-games"
 
             is_free = False
             discount_price = price_info.get('discountPrice', 0)
             original_price = price_info.get('originalPrice', 0)
             end_date_str = ""
 
-            if promotions and promotions.get('promotionalOffers'):
-                for group in promotions['promotionalOffers']:
+            # プロモーション情報の解析
+            promotional_offers = promotions.get('promotionalOffers', [])
+            if promotional_offers:
+                for group in promotional_offers:
                     for offer in group.get('promotionalOffers', []):
                         start = offer.get('startDate')
                         end = offer.get('endDate')
                         if start and end:
                             s_date = datetime.fromisoformat(start.replace('Z', '+00:00'))
                             e_date = datetime.fromisoformat(end.replace('Z', '+00:00'))
+                            
+                            # 現在配布中のセール・無料情報
                             if s_date <= now <= e_date:
                                 jst_end = e_date.astimezone(timezone(timedelta(hours=9)))
                                 end_date_str = jst_end.strftime("%m/%d %H:%Mまで")
-                                if offer.get('discountSetting', {}).get('discountPercentage') == 0 or discount_price == 0:
+                                
+                                discount_setting = offer.get('discountSetting', {})
+                                if discount_setting.get('discountType') == 'PERCENTAGE' and discount_setting.get('discountPercentage') == 0:
+                                    is_free = True
+                                elif discount_price == 0:
                                     is_free = True
 
             if is_free:
@@ -142,7 +161,7 @@ def fetch_epic_store():
                 })
     except Exception as e:
         print(f"Error fetching Epic Games Store: {e}")
-    
+        
     return epic_items
 
 def fetch_steam_sales():
