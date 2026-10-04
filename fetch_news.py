@@ -76,7 +76,7 @@ def detect_platforms(text, default_platform=None):
     return list(platforms) if platforms else ["ALL"]
 
 # ==========================================
-# 3. Epic (無料配布のみ取得)
+# 3. Epic Games Store (無料配布枠のみ取得)
 # ==========================================
 def fetch_epic_store():
     epic_items = []
@@ -109,7 +109,6 @@ def fetch_epic_store():
             product_slug = el.get('productSlug')
             link = f"https://store.epicgames.com/ja/p/{product_slug}" if product_slug else "https://store.epicgames.com/ja/"
 
-            # 無料配布判定
             is_free = False
             end_date_str = ""
             promotional_offers = promotions.get('promotionalOffers', [])
@@ -146,57 +145,80 @@ def fetch_epic_store():
         
     return epic_items
 
-
 # ==========================================
-# 4. Steam (全セールタイトル制限なし取得)
+# 4. Steam (全セール・季節限定特設セール網羅取得)
 # ==========================================
 def fetch_steam_sales():
     steam_items = []
-    try:
-        # count=100 に拡大し、季節セール・スペシャルセール・日替わりセールを全て取得
-        url = "https://store.steampowered.com/api/storesearch/?term=&campaign=specials&cc=jp&l=japanese&count=100"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
-        res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
-        data = json.loads(res)
-        
-        items = data.get('items', [])
-        
-        for item in items:
-            title = item.get('name')
-            app_id = item.get('id')
-            price_info = item.get('price', {})
-            
-            if not title or not app_id or not price_info:
-                continue
-                
-            orig_price = price_info.get('initial', 0) // 100
-            final_price = price_info.get('final', 0) // 100
-            discount_percent = price_info.get('discount_percent', 0)
-            
-            # 割引率が1%以上の全てのセール商品を制限なく抽出
-            if discount_percent > 0 and final_price < orig_price:
-                link = f"https://store.steampowered.com/app/{app_id}/"
-                image_url = item.get('tiny_image', '').replace("capsule_sm_120.jpg", "header.jpg")
-                
-                steam_items.append({
-                    "id": f"steam_{app_id}",
-                    "title": title,
-                    "link": link,
-                    "summary": f"【Steamセール中】¥{orig_price:,} ➔ ¥{final_price:,}",
-                    "source": "Steam Store",
-                    "category": "steam_sale",
-                    "category_name": "🎮 Steamセール",
-                    "platforms": ["PC"],
-                    "image": image_url,
-                    "badge": f"-{discount_percent}%",
-                    "expire": "セール期間中",
-                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
-                })
-    except Exception as e:
-        print(f"Error fetching Steam Store: {e}")
-        
-    return steam_items
+    
+    endpoints = [
+        "https://store.steampowered.com/api/featuredcategories/?cc=jp&l=japanese",
+        "https://store.steampowered.com/api/storesearch/?term=&campaign=specials&cc=jp&l=japanese&count=100"
+    ]
+    
+    seen_ids = set()
 
+    for url in endpoints:
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+            res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
+            data = json.loads(res)
+            
+            raw_items = []
+            
+            if 'specials' in data:
+                raw_items.extend(data['specials'].get('items', []))
+            if 'top_sellers' in data:
+                raw_items.extend(data['top_sellers'].get('items', []))
+            if 'items' in data:
+                raw_items.extend(data['items'])
+
+            for item in raw_items:
+                app_id = item.get('id')
+                title = item.get('name')
+                
+                if not app_id or not title or app_id in seen_ids:
+                    continue
+                
+                discount_percent = item.get('discount_percent', 0)
+                
+                price_info = item.get('price', {})
+                if price_info:
+                    orig_price = price_info.get('initial', 0) // 100
+                    final_price = price_info.get('final', 0) // 100
+                    discount_percent = price_info.get('discount_percent', discount_percent)
+                else:
+                    orig_price = item.get('original_price', 0) // 100
+                    final_price = item.get('final_price', 0) // 100
+                    discount_percent = item.get('discount_percent', discount_percent)
+
+                if discount_percent > 0 and final_price < orig_price:
+                    seen_ids.add(app_id)
+                    link = f"https://store.steampowered.com/app/{app_id}/"
+                    
+                    image_url = item.get('header_image') or item.get('large_capsule_image') or item.get('tiny_image', '')
+                    if 'capsule_sm_120.jpg' in image_url:
+                        image_url = image_url.replace("capsule_sm_120.jpg", "header.jpg")
+
+                    steam_items.append({
+                        "id": f"steam_{app_id}",
+                        "title": title,
+                        "link": link,
+                        "summary": f"【Steamセール】¥{orig_price:,} ➔ ¥{final_price:,} ({discount_percent}% OFF)",
+                        "source": "Steam Store",
+                        "category": "steam_sale",
+                        "category_name": "🎮 Steamセール",
+                        "platforms": ["PC"],
+                        "image": image_url,
+                        "badge": f"-{discount_percent}%",
+                        "expire": "セール期間中",
+                        "pubDate": datetime.now().strftime("%m/%d %H:%M")
+                    })
+        except Exception as e:
+            print(f"Error fetching Steam Store endpoint ({url}): {e}")
+            continue
+
+    return steam_items
 
 # ==========================================
 # 5. メディアRSS取得処理
@@ -256,7 +278,6 @@ def fetch_rss_feeds():
             
     return rss_items
 
-
 # ==========================================
 # 6. メイン実行処理
 # ==========================================
@@ -281,7 +302,6 @@ def main():
         "articles": unique_articles
     }
 
-    # news.json を出力
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
