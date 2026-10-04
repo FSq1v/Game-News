@@ -76,7 +76,7 @@ def detect_platforms(text, default_platform=None):
     return list(platforms) if platforms else ["ALL"]
 
 # ==========================================
-# 3. ストアAPI取得処理 (Epic / Steam)
+# 3. Epic (無料配布のみ取得)
 # ==========================================
 def fetch_epic_store():
     epic_items = []
@@ -102,23 +102,16 @@ def fetch_epic_store():
             
             image_url = None
             for img in el.get('keyImages', []):
-                if img.get('type') in ['OfferImageWide', 'DieselStoreFrontWide', 'VaultClosed', 'Thumbnail', 'OfferImageTall']:
+                if img.get('type') in ['OfferImageWide', 'DieselStoreFrontWide', 'VaultClosed', 'Thumbnail']:
                     image_url = img.get('url')
                     break
-            if not image_url and el.get('keyImages'):
-                image_url = el['keyImages'][0].get('url')
 
             product_slug = el.get('productSlug')
-            if not product_slug and el.get('offerMappings'):
-                product_slug = el['offerMappings'][0].get('pageSlug')
-            if not product_slug and el.get('catalogNs', {}).get('mappings'):
-                product_slug = el['catalogNs']['mappings'][0].get('pageSlug')
+            link = f"https://store.epicgames.com/ja/p/{product_slug}" if product_slug else "https://store.epicgames.com/ja/"
 
-            link = f"https://store.epicgames.com/ja/p/{product_slug}" if product_slug else "https://store.epicgames.com/ja/browse?sortBy=releaseDate&sortDir=DESC&priceTier=tierDiscounts"
-
+            # 無料配布判定
             is_free = False
             end_date_str = ""
-
             promotional_offers = promotions.get('promotionalOffers', [])
             if promotional_offers:
                 for group in promotional_offers:
@@ -128,16 +121,11 @@ def fetch_epic_store():
                         if start and end:
                             s_date = datetime.fromisoformat(start.replace('Z', '+00:00'))
                             e_date = datetime.fromisoformat(end.replace('Z', '+00:00'))
-                            
                             if s_date <= now <= e_date:
                                 jst_end = e_date.astimezone(timezone(timedelta(hours=9)))
                                 end_date_str = jst_end.strftime("%m/%d %H:%Mまで")
-                                
-                                discount_setting = offer.get('discountSetting', {})
-                                if discount_setting.get('discountPercentage') == 0 or discount_price == 0:
-                                    is_free = True
+                                is_free = True
 
-            # 無料配布
             if is_free or (discount_price == 0 and original_price > 0):
                 epic_items.append({
                     "id": f"epic_free_{hash(title)}",
@@ -153,34 +141,20 @@ def fetch_epic_store():
                     "expire": end_date_str,
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
                 })
-            # 通常セール・季節限定セール含む全セール
-            elif original_price > 0 and discount_price < original_price:
-                discount_rate = int((1 - discount_price / original_price) * 100)
-                epic_items.append({
-                    "id": f"epic_sale_{hash(title)}",
-                    "title": title,
-                    "link": link,
-                    "summary": f"【セール中】¥{original_price:,} ➔ ¥{discount_price:,}",
-                    "source": "Epic Games Store",
-                    "category": "epic_sale",
-                    "category_name": "🏷 Epicセール",
-                    "platforms": ["PC"],
-                    "image": image_url,
-                    "badge": f"-{discount_rate}%",
-                    "expire": end_date_str,
-                    "pubDate": datetime.now().strftime("%m/%d %H:%M")
-                })
     except Exception as e:
         print(f"Error fetching Epic Games Store: {e}")
         
     return epic_items
 
 
+# ==========================================
+# 4. Steam (全セールタイトル制限なし取得)
+# ==========================================
 def fetch_steam_sales():
     steam_items = []
     try:
-        # Steam Store API（全セール中タイトルを検索取得）
-        url = "https://store.steampowered.com/api/storesearch/?term=&campaign=specials&cc=jp&l=japanese&count=50"
+        # count=100 に拡大し、季節セール・スペシャルセール・日替わりセールを全て取得
+        url = "https://store.steampowered.com/api/storesearch/?term=&campaign=specials&cc=jp&l=japanese&count=100"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
         res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
         data = json.loads(res)
@@ -199,6 +173,7 @@ def fetch_steam_sales():
             final_price = price_info.get('final', 0) // 100
             discount_percent = price_info.get('discount_percent', 0)
             
+            # 割引率が1%以上の全てのセール商品を制限なく抽出
             if discount_percent > 0 and final_price < orig_price:
                 link = f"https://store.steampowered.com/app/{app_id}/"
                 image_url = item.get('tiny_image', '').replace("capsule_sm_120.jpg", "header.jpg")
@@ -224,7 +199,7 @@ def fetch_steam_sales():
 
 
 # ==========================================
-# 4. メディアRSS取得処理
+# 5. メディアRSS取得処理
 # ==========================================
 def fetch_rss_feeds():
     rss_items = []
@@ -283,7 +258,7 @@ def fetch_rss_feeds():
 
 
 # ==========================================
-# 5. メイン実行処理
+# 6. メイン実行処理
 # ==========================================
 def main():
     print("Starting news fetch pipeline...")
