@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026/10/05 00:37",
+  "updated_at": "2026/10/05 03:58",
   "articles": [
     {
-      "id": "epic_free_7446903233951039326",
+      "id": "epic_free_713568005942671292",
       "title": "System Shock 2: 25th Anniversary Remaster",
       "link": "https://store.epicgames.com/ja/",
       "summary": "【Epic Gamesストア 無料配布中】通常価格 ¥2,880 ➔ 無料！",
@@ -15,10 +15,10 @@
       "image": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg",
       "badge": "FREE",
       "expire": "10/09 00:00まで",
-      "pubDate": "10/04 15:36"
+      "pubDate": "10/04 18:57"
     },
     {
-      "id": "epic_free_-3526419079993180968",
+      "id": "epic_free_-6029019160068115440",
       "title": "ベリード・スターズ",
       "link": "https://store.epicgames.com/ja/",
       "summary": "【Epic Gamesストア 無料配布中】通常価格 ¥4,100 ➔ 無料！",
@@ -31,7 +31,7 @@
       "image": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg",
       "badge": "FREE",
       "expire": "10/09 00:00まで",
-      "pubDate": "10/04 15:36"
+      "pubDate": "10/04 18:57"
     },
     {
       "id": "steam_1091500",
@@ -47,23 +47,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
       "badge": "-70%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
-    },
-    {
-      "id": "steam_4001890",
-      "title": "How to Fish",
-      "link": "https://store.steampowered.com/app/4001890/",
-      "summary": "【Steamセール】¥880 ➔ ¥545 (38% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
-      "badge": "-38%",
-      "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
     },
     {
       "id": "steam_814380",
@@ -79,7 +63,23 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
       "badge": "-50%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
+    },
+    {
+      "id": "steam_4001890",
+      "title": "How to Fish",
+      "link": "https://store.steampowered.com/app/4001890/",
+      "summary": "【Steamセール】¥880 ➔ ¥545 (38% OFF)",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
+      "badge": "-38%",
+      "expire": "セール期間中",
+      "pubDate": "10/04 18:57"
     },
     {
       "id": "steam_1478500",
@@ -95,39 +95,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg?t=1785911674",
       "badge": "-20%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
-    },
-    {
-      "id": "steam_692569",
-      "title": "Monster Hunter Rise + Sunbreak",
-      "link": "https://store.steampowered.com/app/692569/",
-      "summary": "【Steamセール】¥5,990 ➔ ¥958 (84% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/692569/header_ratio.jpg?t=1661817293",
-      "badge": "-84%",
-      "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
-    },
-    {
-      "id": "steam_1364780",
-      "title": "Street Fighter 6",
-      "link": "https://store.steampowered.com/app/1364780/",
-      "summary": "【Steamセール】¥4,990 ➔ ¥1,996 (60% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1789611360",
-      "badge": "-60%",
-      "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
     },
     {
       "id": "steam_2483190",
@@ -143,7 +111,39 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/a3f1465050b6103274991a29b7462d3f28918b5d/header_alt_assets_4.jpg?t=1790866995",
       "badge": "-20%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
+    },
+    {
+      "id": "steam_1364780",
+      "title": "Street Fighter 6",
+      "link": "https://store.steampowered.com/app/1364780/",
+      "summary": "【Steamセール】¥4,990 ➔ ¥1,996 (60% OFF)",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1789611360",
+      "badge": "-60%",
+      "expire": "セール期間中",
+      "pubDate": "10/04 18:57"
+    },
+    {
+      "id": "steam_692569",
+      "title": "Monster Hunter Rise + Sunbreak",
+      "link": "https://store.steampowered.com/app/692569/",
+      "summary": "【Steamセール】¥5,990 ➔ ¥958 (84% OFF)",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/692569/header_ratio.jpg?t=1661817293",
+      "badge": "-84%",
+      "expire": "セール期間中",
+      "pubDate": "10/04 18:57"
     },
     {
       "id": "steam_1623730",
@@ -159,55 +159,39 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
       "badge": "-30%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
     },
     {
-      "id": "steam_1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "link": "https://store.steampowered.com/app/1817070/",
-      "summary": "【Steamセール】¥7,590 ➔ ¥3,036 (60% OFF)",
+      "id": "steam_489830",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "link": "https://store.steampowered.com/app/489830/",
+      "summary": "【Steamセール】¥4,399 ➔ ¥439 (90% OFF)",
       "source": "Steam Store",
       "category": "steam_sale",
       "category_name": "🎮 Steamセール",
       "platforms": [
         "PC"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header_japanese.jpg?t=1787838689",
-      "badge": "-60%",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1786648247",
+      "badge": "-90%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
     },
     {
-      "id": "steam_3357650",
-      "title": "PRAGMATA",
-      "link": "https://store.steampowered.com/app/3357650/",
-      "summary": "【Steamセール】¥7,990 ➔ ¥6,392 (20% OFF)",
+      "id": "steam_2215430",
+      "title": "Ghost of Tsushima DIRECTOR'S CUT",
+      "link": "https://store.steampowered.com/app/2215430/",
+      "summary": "【Steamセール】¥7,590 ➔ ¥4,554 (40% OFF)",
       "source": "Steam Store",
       "category": "steam_sale",
       "category_name": "🎮 Steamセール",
       "platforms": [
         "PC"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/e32e168b25ed68a0cf6264c220c07e96c2abfb56/header.jpg?t=1789603448",
-      "badge": "-20%",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1763409398",
+      "badge": "-40%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
-    },
-    {
-      "id": "steam_78920",
-      "title": "Big Walk and PEAK\t",
-      "link": "https://store.steampowered.com/app/78920/",
-      "summary": "【Steamセール】¥3,180 ➔ ¥2,146 (25% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/78920/my04uwve5ivnm8lt/c0d0045e79b05e38bda73e37952b6f2529ea48dd/header_ratio.jpg?t=1785847914",
-      "badge": "-25%",
-      "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
     },
     {
       "id": "steam_2246340",
@@ -223,23 +207,23 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1787549555",
       "badge": "-25%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
     },
     {
-      "id": "steam_3101040",
-      "title": "魔法少女ノ魔女裁判",
-      "link": "https://store.steampowered.com/app/3101040/",
-      "summary": "【Steamセール】¥3,500 ➔ ¥2,800 (20% OFF)",
+      "id": "steam_78920",
+      "title": "Big Walk and PEAK\t",
+      "link": "https://store.steampowered.com/app/78920/",
+      "summary": "【Steamセール】¥3,180 ➔ ¥2,146 (25% OFF)",
       "source": "Steam Store",
       "category": "steam_sale",
       "category_name": "🎮 Steamセール",
       "platforms": [
         "PC"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg?t=1789891545",
-      "badge": "-20%",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/bundles/78920/my04uwve5ivnm8lt/c0d0045e79b05e38bda73e37952b6f2529ea48dd/header_ratio.jpg?t=1785847914",
+      "badge": "-25%",
       "expire": "セール期間中",
-      "pubDate": "10/04 15:37"
+      "pubDate": "10/04 18:57"
     }
   ]
 }
