@@ -1,28 +1,28 @@
-name: Auto Update Game News
+name: Fetch Game News
 
 on:
   schedule:
-    - cron: '0 * * * *' # 1時間ごとに全自動実行
-  workflow_dispatch: # 手動実行用
+    - cron: '0 * * * *' # 1時間ごとに自動実行
+  workflow_dispatch: # 手動実行ボタン用
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Fetch Latest News
-        run: python fetch_news.py
+      - name: Run fetcher
+        run: python src/fetcher.py
 
-      - name: Commit and Push
+      - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add news.json
-          git commit -m "Auto update news" || exit 0
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update news.json" && git push)
