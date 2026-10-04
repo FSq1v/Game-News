@@ -81,7 +81,6 @@ def detect_platforms(text, default_platform=None):
 def fetch_epic_store():
     epic_items = []
     try:
-        # Epic Store GraphQL API (セール対象含め確実に取得するためのパラメータ設定)
         url = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=ja&country=JP&allowCountries=JP"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
         res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
@@ -101,7 +100,6 @@ def fetch_epic_store():
             discount_price = price_info.get('discountPrice', 0)
             original_price = price_info.get('originalPrice', 0)
             
-            # 画像取得
             image_url = None
             for img in el.get('keyImages', []):
                 if img.get('type') in ['OfferImageWide', 'DieselStoreFrontWide', 'VaultClosed', 'Thumbnail', 'OfferImageTall']:
@@ -110,7 +108,6 @@ def fetch_epic_store():
             if not image_url and el.get('keyImages'):
                 image_url = el['keyImages'][0].get('url')
 
-            # URL設定
             product_slug = el.get('productSlug')
             if not product_slug and el.get('offerMappings'):
                 product_slug = el['offerMappings'][0].get('pageSlug')
@@ -122,7 +119,6 @@ def fetch_epic_store():
             is_free = False
             end_date_str = ""
 
-            # プロモーション（無料配布）判定
             promotional_offers = promotions.get('promotionalOffers', [])
             if promotional_offers:
                 for group in promotional_offers:
@@ -141,7 +137,7 @@ def fetch_epic_store():
                                 if discount_setting.get('discountPercentage') == 0 or discount_price == 0:
                                     is_free = True
 
-            # 1. 無料配布中
+            # 無料配布
             if is_free or (discount_price == 0 and original_price > 0):
                 epic_items.append({
                     "id": f"epic_free_{hash(title)}",
@@ -157,7 +153,7 @@ def fetch_epic_store():
                     "expire": end_date_str,
                     "pubDate": datetime.now().strftime("%m/%d %H:%M")
                 })
-            # 2. 通常セール・季節限定セール中
+            # 通常セール・季節限定セール含む全セール
             elif original_price > 0 and discount_price < original_price:
                 discount_rate = int((1 - discount_price / original_price) * 100)
                 epic_items.append({
@@ -183,7 +179,7 @@ def fetch_epic_store():
 def fetch_steam_sales():
     steam_items = []
     try:
-        # Steam Store API (セール中タイトルを網羅的に検索取得)
+        # Steam Store API（全セール中タイトルを検索取得）
         url = "https://store.steampowered.com/api/storesearch/?term=&campaign=specials&cc=jp&l=japanese&count=50"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
         res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
@@ -310,12 +306,11 @@ def main():
         "articles": unique_articles
     }
 
-    # カレントディレクトリ（プロジェクトルート）に news.json を出力
-    output_path = os.path.join(os.getcwd(), "news.json")
-    with open(output_path, "w", encoding="utf-8") as f:
+    # news.json を出力
+    with open("news.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print(f"Successfully output {len(unique_articles)} articles to {output_path}")
+    print(f"Successfully output {len(unique_articles)} articles to news.json")
 
 if __name__ == "__main__":
     main()
