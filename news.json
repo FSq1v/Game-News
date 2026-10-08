@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026/10/08 10:31",
+  "updated_at": "2026/10/08 17:20",
   "articles": [
     {
-      "id": "epic_free_1094000753153412634",
+      "id": "epic_free_-1451780725805273638",
       "title": "System Shock 2: 25th Anniversary Remaster",
       "link": "https://store.epicgames.com/ja/",
       "summary": "【Epic Gamesストア 無料配布中】通常価格 ¥2,880 ➔ 無料！",
@@ -15,10 +15,10 @@
       "image": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-1e28j.jpg",
       "badge": "FREE",
       "expire": "10/09 00:00まで",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
-      "id": "epic_free_-3490108877439443736",
+      "id": "epic_free_-7481636194186505492",
       "title": "ベリード・スターズ",
       "link": "https://store.epicgames.com/ja/",
       "summary": "【Epic Gamesストア 無料配布中】通常価格 ¥4,100 ➔ 無料！",
@@ -31,7 +31,7 @@
       "image": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-1j9of.jpg",
       "badge": "FREE",
       "expire": "10/09 00:00まで",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_1091500",
@@ -47,7 +47,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
       "badge": "-70%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_814380",
@@ -63,23 +63,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
       "badge": "-50%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
-    },
-    {
-      "id": "steam_1478500",
-      "title": "Big Walk",
-      "link": "https://store.steampowered.com/app/1478500/",
-      "summary": "【Steamセール】¥2,300 ➔ ¥1,840 (20% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg?t=1785911674",
-      "badge": "-20%",
-      "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_4001890",
@@ -95,7 +79,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1788788717",
       "badge": "-38%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_1304930",
@@ -111,7 +95,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/65fbdba4ad0f1a7ed7a362a086c87042fa40fadc/header_alt_assets_3.jpg?t=1784123708",
       "badge": "-90%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_692569",
@@ -127,7 +111,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/692569/header_ratio.jpg?t=1661817293",
       "badge": "-84%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_1364780",
@@ -143,55 +127,55 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1789611360",
       "badge": "-60%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
-      "id": "steam_1623730",
-      "title": "Palworld / パルワールド",
-      "link": "https://store.steampowered.com/app/1623730/",
-      "summary": "【Steamセール】¥3,400 ➔ ¥2,380 (30% OFF)",
+      "id": "steam_1478500",
+      "title": "Big Walk",
+      "link": "https://store.steampowered.com/app/1478500/",
+      "summary": "【Steamセール】¥2,300 ➔ ¥1,840 (20% OFF)",
       "source": "Steam Store",
       "category": "steam_sale",
       "category_name": "🎮 Steamセール",
       "platforms": [
         "PC"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
-      "badge": "-30%",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg?t=1785911674",
+      "badge": "-20%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
-      "id": "steam_489830",
-      "title": "The Elder Scrolls V: Skyrim Special Edition",
-      "link": "https://store.steampowered.com/app/489830/",
-      "summary": "【Steamセール】¥4,399 ➔ ¥439 (90% OFF)",
+      "id": "steam_3240220",
+      "title": "グランド・セフト・オートV エンハンスト",
+      "link": "https://store.steampowered.com/app/3240220/",
+      "summary": "【Steamセール】¥4,380 ➔ ¥2,190 (50% OFF)",
       "source": "Steam Store",
       "category": "steam_sale",
       "category_name": "🎮 Steamセール",
       "platforms": [
         "PC"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1786648247",
-      "badge": "-90%",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
+      "badge": "-50%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
-      "id": "steam_2138330",
-      "title": "サイバーパンク2077：仮初めの自由",
-      "link": "https://store.steampowered.com/app/2138330/",
-      "summary": "【Steamセール】¥4,309 ➔ ¥2,585 (40% OFF)",
+      "id": "steam_2215430",
+      "title": "Ghost of Tsushima DIRECTOR'S CUT",
+      "link": "https://store.steampowered.com/app/2215430/",
+      "summary": "【Steamセール】¥7,590 ➔ ¥4,554 (40% OFF)",
       "source": "Steam Store",
       "category": "steam_sale",
       "category_name": "🎮 Steamセール",
       "platforms": [
         "PC"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/bdbeea292270b8cd9dde1f2044a411624db58657/header.jpg?t=1784713876",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1763409398",
       "badge": "-40%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_2246340",
@@ -207,23 +191,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1787549555",
       "badge": "-25%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
-    },
-    {
-      "id": "steam_3101040",
-      "title": "魔法少女ノ魔女裁判",
-      "link": "https://store.steampowered.com/app/3101040/",
-      "summary": "【Steamセール】¥3,500 ➔ ¥2,800 (20% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg?t=1789891545",
-      "badge": "-20%",
-      "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
     },
     {
       "id": "steam_3932890",
@@ -239,7 +207,23 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/4dd12ea3b00a4f8b67bfd629f3b9abbf8d5cab05/header_alt_assets_2.jpg?t=1785782094",
       "badge": "-25%",
       "expire": "セール期間中",
-      "pubDate": "10/08 01:31"
+      "pubDate": "10/08 08:19"
+    },
+    {
+      "id": "steam_3101040",
+      "title": "魔法少女ノ魔女裁判",
+      "link": "https://store.steampowered.com/app/3101040/",
+      "summary": "【Steamセール】¥3,500 ➔ ¥2,800 (20% OFF)",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg?t=1789891545",
+      "badge": "-20%",
+      "expire": "セール期間中",
+      "pubDate": "10/08 08:19"
     }
   ]
 }
