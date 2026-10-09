@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026/10/09 06:45",
+  "updated_at": "2026/10/09 10:41",
   "articles": [
     {
-      "id": "epic_free_-6084706842144764895",
+      "id": "epic_free_4962695259463546122",
       "title": "Out of Sight",
       "link": "https://store.epicgames.com/ja/",
       "summary": "【Epic Gamesストア 無料配布中】通常価格 ¥1,700 ➔ 無料！",
@@ -15,10 +15,10 @@
       "image": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg",
       "badge": "FREE",
       "expire": "10/16 00:00まで",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     },
     {
-      "id": "epic_free_-4104823556728315995",
+      "id": "epic_free_-6038084165725904111",
       "title": "TerraScape",
       "link": "https://store.epicgames.com/ja/",
       "summary": "【Epic Gamesストア 無料配布中】通常価格 ¥1,650 ➔ 無料！",
@@ -31,7 +31,7 @@
       "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
       "badge": "FREE",
       "expire": "10/16 00:00まで",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_814380",
@@ -47,7 +47,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1762888662",
       "badge": "-50%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_1478500",
@@ -63,7 +63,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg?t=1785911674",
       "badge": "-20%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_1364780",
@@ -79,23 +79,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1789611360",
       "badge": "-60%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
-    },
-    {
-      "id": "steam_1623730",
-      "title": "Palworld / パルワールド",
-      "link": "https://store.steampowered.com/app/1623730/",
-      "summary": "【Steamセール】¥3,400 ➔ ¥2,380 (30% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
-      "badge": "-30%",
-      "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_1808500",
@@ -111,7 +95,23 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
       "badge": "-50%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
+    },
+    {
+      "id": "steam_1623730",
+      "title": "Palworld / パルワールド",
+      "link": "https://store.steampowered.com/app/1623730/",
+      "summary": "【Steamセール】¥3,400 ➔ ¥2,380 (30% OFF)",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
+      "badge": "-30%",
+      "expire": "セール期間中",
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_3883570",
@@ -127,23 +127,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/77442fe87da250d359fd54d1e76465bf80632da8/header_japanese.jpg?t=1791485649",
       "badge": "-25%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
-    },
-    {
-      "id": "steam_1621690",
-      "title": "Core Keeper",
-      "link": "https://store.steampowered.com/app/1621690/",
-      "summary": "【Steamセール】¥2,300 ➔ ¥1,380 (40% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/4d3798fbb307f52d9e11ed5b5f665779097b2f55/header_alt_assets_12.jpg?t=1791454740",
-      "badge": "-40%",
-      "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_3240220",
@@ -159,7 +143,39 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
       "badge": "-56%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
+    },
+    {
+      "id": "steam_1621690",
+      "title": "Core Keeper",
+      "link": "https://store.steampowered.com/app/1621690/",
+      "summary": "【Steamセール】¥2,300 ➔ ¥1,380 (40% OFF)",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/4d3798fbb307f52d9e11ed5b5f665779097b2f55/header_alt_assets_12.jpg?t=1791454740",
+      "badge": "-40%",
+      "expire": "セール期間中",
+      "pubDate": "10/09 01:40"
+    },
+    {
+      "id": "steam_2333000",
+      "title": "Silver Pines",
+      "link": "https://store.steampowered.com/app/2333000/",
+      "summary": "【Steamセール】¥2,500 ➔ ¥2,250 (10% OFF)",
+      "source": "Steam Store",
+      "category": "steam_sale",
+      "category_name": "🎮 Steamセール",
+      "platforms": [
+        "PC"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/2ce661be5b6e60b8fcc92ecdf3f9dc2dca2a9037/header.jpg?t=1791483390",
+      "badge": "-10%",
+      "expire": "セール期間中",
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_1174180",
@@ -175,23 +191,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
       "badge": "-75%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
-    },
-    {
-      "id": "steam_3867170",
-      "title": " 戦国ランス",
-      "link": "https://store.steampowered.com/app/3867170/",
-      "summary": "【Steamセール】¥2,530 ➔ ¥2,024 (20% OFF)",
-      "source": "Steam Store",
-      "category": "steam_sale",
-      "category_name": "🎮 Steamセール",
-      "platforms": [
-        "PC"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3867170/24703551cb9c98e792afe2ab520002dd677c00a8/header_japanese.jpg?t=1790913603",
-      "badge": "-20%",
-      "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     },
     {
       "id": "steam_3932890",
@@ -207,7 +207,7 @@
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/4dd12ea3b00a4f8b67bfd629f3b9abbf8d5cab05/header_alt_assets_2.jpg?t=1785782094",
       "badge": "-25%",
       "expire": "セール期間中",
-      "pubDate": "10/08 21:45"
+      "pubDate": "10/09 01:40"
     }
   ]
 }
