@@ -1,0 +1,6 @@
+{
+  "git": { "deploymentEnabled": false },
+  "framework": null,
+  "outputDirectory": "public",
+  "cleanUrls": true
+}
