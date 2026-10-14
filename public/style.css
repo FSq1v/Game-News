@@ -1,0 +1,205 @@
+:root {
+  --bg: #161a2b;
+  --surface: #1e2338;
+  --surface-2: #272d47;
+  --line: #2f3653;
+  --text: #eef0f7;
+  --muted: #9aa1b9;
+  --sticker: #ffd23f;
+  --sticker-ink: #2a2000;
+  --free: #3ddc97;
+  --free-ink: #062b1b;
+  --warn: #ff8a5b;
+  --steam: #66c0f4;
+  --epic: #d9dbe3;
+  --ps: #6f93ff;
+  --eshop: #ff5a5f;
+  --radius-lg: 14px;
+  --radius-sm: 6px;
+  --font: "Zen Kaku Gothic New", system-ui, -apple-system, "Hiragino Sans", sans-serif;
+  --display: "Dela Gothic One", var(--font);
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+button, select, input { font: inherit; color: inherit; }
+img { display: block; max-width: 100%; }
+
+:focus-visible { outline: 2px solid var(--sticker); outline-offset: 2px; border-radius: 4px; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* ---------- ヘッダー ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.site-header__inner {
+  max-width: 1240px; margin: 0 auto; padding: 12px 20px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.logo { font-family: var(--display); font-size: 22px; letter-spacing: 0.02em; line-height: 1; }
+.status { margin: 0; font-size: 13px; color: var(--muted); text-align: right; }
+.status.is-stale { color: var(--warn); }
+.status__failed { display: block; font-size: 12px; }
+
+.view-tabs { display: none; }
+
+/* ---------- レイアウト ---------- */
+.layout {
+  max-width: 1240px; margin: 0 auto; padding: 20px;
+  display: grid; gap: 32px;
+  grid-template-columns: minmax(0, 1.7fr) minmax(320px, 1fr);
+  align-items: start;
+}
+.deals { position: sticky; top: 76px; max-height: calc(100vh - 92px); overflow-y: auto; padding-right: 4px; }
+
+.section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.section-head h2 { margin: 0; font-size: 18px; font-weight: 700; }
+
+.search, .sort select {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm);
+  padding: 6px 10px; font-size: 14px;
+}
+.search { flex: 1; max-width: 420px; }
+.search::placeholder { color: var(--muted); }
+
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 12px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; border: 1px solid var(--line); background: transparent; color: var(--muted);
+  border-radius: 999px; padding: 4px 12px; font-size: 13px; cursor: pointer;
+}
+.chip:hover { color: var(--text); border-color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); font-weight: 700; }
+
+/* ---------- 共通：サムネイル・お気に入り ---------- */
+.thumb { flex: none; background: var(--surface-2); border-radius: var(--radius-sm); overflow: hidden; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; }
+.thumb.is-missing { display: grid; place-items: center; padding: 6px; }
+.thumb.is-missing img { display: none; }
+.thumb.is-missing::after {
+  content: attr(data-label); font-family: var(--display); font-size: 12px; color: var(--muted);
+  text-align: center; line-height: 1.3; word-break: break-all;
+}
+
+.fav {
+  flex: none; align-self: center; width: 32px; height: 32px; border: 0; background: none;
+  cursor: pointer; color: var(--muted); border-radius: 50%;
+}
+.fav::before { content: "☆"; font-size: 18px; }
+.fav[aria-pressed="true"] { color: var(--sticker); }
+.fav[aria-pressed="true"]::before { content: "★"; }
+.fav:hover { background: var(--surface-2); }
+
+/* ---------- ニュース ---------- */
+.news-list, .deal-list { list-style: none; margin: 0; padding: 0; }
+.news-item { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
+.news-item__link { flex: 1; min-width: 0; display: flex; gap: 14px; padding: 12px 0; }
+.news-item .thumb { width: 128px; aspect-ratio: 16 / 9; }
+.news-item__body { min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.news-item__title {
+  font-weight: 500; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.news-item__link:hover .news-item__title { text-decoration: underline; text-underline-offset: 3px; }
+.news-item__meta { display: flex; gap: 10px; align-items: center; font-size: 12px; color: var(--muted); }
+.news-item__source { color: var(--text); opacity: 0.85; }
+.badge { border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; font-size: 11px; }
+
+/* ---------- セール ---------- */
+.free { display: grid; gap: 10px; margin-bottom: 14px; }
+.free:empty { display: none; }
+.free-card {
+  display: grid; grid-template-columns: 120px 1fr; gap: 12px; align-items: center;
+  background: var(--surface); border: 1px solid color-mix(in srgb, var(--free) 45%, var(--line));
+  border-radius: var(--radius-lg); padding: 10px;
+}
+.free-card img { width: 120px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-sm); background: var(--surface-2); }
+.free-card__body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.free-card__label { font-family: var(--display); font-size: 13px; color: var(--free); }
+.free-card.is-upcoming { border-color: var(--line); }
+.free-card.is-upcoming .free-card__label { color: var(--muted); }
+.free-card__title { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.free-card__when { font-size: 12px; color: var(--muted); }
+
+.deal { display: flex; gap: 2px; border-bottom: 1px solid var(--line); }
+.deal__link { flex: 1; min-width: 0; display: flex; align-items: center; gap: 12px; padding: 10px 0; }
+.thumb--deal { width: 72px; aspect-ratio: 16 / 9; }
+.deal__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.deal__title { font-size: 14px; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.deal__link:hover .deal__title { text-decoration: underline; text-underline-offset: 3px; }
+.deal__meta { display: flex; gap: 8px; font-size: 12px; color: var(--muted); }
+.store-mark { display: inline-flex; align-items: center; gap: 5px; }
+.store-mark::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.store-mark[data-store="steam"] { color: var(--steam); }
+.store-mark[data-store="epic"] { color: var(--epic); }
+.store-mark[data-store="ps"] { color: var(--ps); }
+.store-mark[data-store="eshop"] { color: var(--eshop); }
+.chip--steam[aria-pressed="true"] { background: var(--steam); border-color: var(--steam); }
+.chip--epic[aria-pressed="true"] { background: var(--epic); border-color: var(--epic); }
+.chip--ps[aria-pressed="true"] { background: var(--ps); border-color: var(--ps); }
+.chip--eshop[aria-pressed="true"] { background: var(--eshop); border-color: var(--eshop); }
+
+/* 値札シール：このサイトでいちばん目立たせる部分 */
+.tag { flex: none; display: grid; justify-items: end; text-align: right; line-height: 1.15; }
+.tag__off {
+  font-family: var(--display); font-size: 15px;
+  background: var(--sticker); color: var(--sticker-ink);
+  padding: 2px 7px 1px; border-radius: 4px 4px 4px 12px;
+  transform: rotate(-3deg);
+}
+.tag__price { font-weight: 700; font-size: 14px; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.tag__was { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.empty { color: var(--muted); font-size: 14px; padding: 24px 0; text-align: center; }
+
+.site-footer { max-width: 1240px; margin: 0 auto; padding: 24px 20px 40px; font-size: 12px; color: var(--muted); }
+
+/* ---------- スマホ ---------- */
+@media (max-width: 899px) {
+  .site-header__inner { padding: 10px 16px; flex-wrap: wrap; }
+  .site-header__inner .search { order: 3; flex-basis: 100%; max-width: none; }
+  .logo { font-size: 19px; }
+  .view-tabs { display: grid; grid-template-columns: 1fr 1fr; padding: 0 16px; }
+  .view-tab {
+    border: 0; background: none; color: var(--muted); padding: 8px 0 10px;
+    border-bottom: 2px solid transparent; font-weight: 700; cursor: pointer;
+  }
+  .view-tab[aria-pressed="true"] { color: var(--text); border-bottom-color: var(--sticker); }
+
+  .layout { display: block; padding: 14px 16px; }
+  .layout[data-view="news"] .deals, .layout[data-view="deals"] .news { display: none; }
+  .deals { position: static; max-height: none; overflow: visible; padding: 0; }
+
+  .section-head h2, .news .section-head { display: none; }
+  .sort, .sort select { width: 100%; }
+
+  .news-item .thumb { width: 96px; }
+  .news-item__title { font-size: 14px; }
+  .free-card { grid-template-columns: 96px 1fr; }
+  .free-card img { width: 96px; }
+  .site-footer { padding: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
