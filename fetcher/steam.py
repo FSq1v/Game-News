@@ -70,7 +70,8 @@ def parse_search(results_html: str) -> list[dict]:
         if not row["appid"].isdigit():
             continue
         original, sale = _yen(row["original"]), _yen(row["final"])
-        if row["discount"] <= 0 or original is None or sale is None or sale >= original:
+        # ¥0 は無料配布で値引きセールではないので除く
+        if row["discount"] <= 0 or not original or not sale or sale >= original:
             continue
         items.append({
             "appid": int(row["appid"]),

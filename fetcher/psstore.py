@@ -55,7 +55,7 @@ def parse(data: dict) -> list[dict]:
         original = parse_price(price.get("basePrice"))
         sale = parse_price(price.get("discountedPrice"))
         discount = parse_price(price.get("discountText"))
-        if not original or sale is None or sale >= original or not discount:
+        if not original or not sale or sale >= original or not discount:
             continue
         deals.append({
             "id": f"d_ps_{p['id']}",

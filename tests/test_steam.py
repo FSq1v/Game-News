@@ -52,3 +52,13 @@ def test_parse_search_keeps_capsule_image():
     items = search_items()
     assert all(it["image"].startswith("https://") for it in items)
     assert "capsule_231x87" in items[0]["image"]
+
+
+def test_parse_search_skips_zero_price():
+    html = '''
+    <a href="https://store.steampowered.com/app/30/Z/" data-ds-appid="30" class="search_result_row">
+      <span class="title">Free now</span>
+      <div class="discount_block search_discount_block" data-discount="100"><div class="discount_pct">-100%</div>
+      <div class="discount_prices"><div class="discount_original_price">¥2,000</div><div class="discount_final_price">¥ 0</div></div></div>
+    </a>'''
+    assert parse_search(html) == []

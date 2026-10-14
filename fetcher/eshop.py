@@ -23,7 +23,10 @@ def parse(data: dict, now: datetime) -> list[dict]:
         nsuid, price, sprice = it.get("nsuid"), it.get("price"), it.get("sprice")
         end = _jst(it.get("sedate"))
         if (it.get("sale_flg") != "1" or not nsuid or nsuid in seen
-                or not price or sprice is None or sprice >= price or not end or end <= now):
+                or not price or not sprice or sprice >= price or not end or end <= now):
+            continue
+        discount = round((1 - sprice / price) * 100)
+        if discount <= 0:
             continue
         seen.add(nsuid)
         start = _jst(it.get("ssdate"))
@@ -35,7 +38,7 @@ def parse(data: dict, now: datetime) -> list[dict]:
             "image": f"https://img-eshop.cdn.nintendo.net/i/{it['iurl']}.jpg" if it.get("iurl") else None,
             "price_original": int(price),
             "price_sale": int(sprice),
-            "discount": round((1 - sprice / price) * 100),
+            "discount": discount,
             "is_free": False,
             "upcoming": False,
             "starts_at": to_iso(start) if start else None,

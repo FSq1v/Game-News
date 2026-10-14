@@ -55,3 +55,7 @@ def test_build_url_contains_category_and_page():
     assert CATEGORY_ID in url
     assert '"offset":30' in url and '"size":30' in url
     assert "operationName=categoryGridRetrieve" in url
+
+
+def test_skips_zero_price():
+    assert parse(wrap(product(discountedPrice="¥0", discountText="-100%"))) == []

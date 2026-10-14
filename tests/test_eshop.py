@@ -49,3 +49,8 @@ def test_duplicate_nsuid_dropped():
     data = item()
     data["result"]["items"].append(dict(data["result"]["items"][0]))
     assert len(parse(data, NOW)) == 1
+
+
+def test_zero_price_and_zero_discount_dropped():
+    assert parse(item(price=1000.0, sprice=0.0), NOW) == []
+    assert parse(item(price=1000.0, sprice=996.0), NOW) == []
