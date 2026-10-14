@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>Sample</title>
+<item>
+  <title><![CDATA[『テスト』発売決定 & 新情報]]></title>
+  <link>https://example.com/a1</link>
+  <description><![CDATA[<p>本文<b>その1</b></p>]]></description>
+  <pubDate>Tue, 14 Oct 2026 01:00:00 GMT</pubDate>
+  <media:content url="https://example.com/a1.jpg" medium="image"/>
+</item>
+<item>
+  <title>Second item</title>
+  <link>https://example.com/a2</link>
+  <description>&lt;img src="https://example.com/a2.png"&gt; text</description>
+  <pubDate>Tue, 14 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>No date item</title>
+  <link>https://example.com/a3</link>
+  <enclosure url="https://example.com/a3.jpg" type="image/jpeg" length="1"/>
+</item>
+</channel>
+</rss>
