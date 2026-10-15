@@ -1,127 +1,527 @@
 {
- "updated_at": "2026-10-16T03:19:22+09:00",
+ "updated_at": "2026-10-16T07:21:09+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:IGN Japan",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:電ファミニコゲーマー",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:AUTOMATON",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:gamebiz",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:Game*Spark",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:任天堂公式",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:PlayStation Blog",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:Xbox Wire Japan",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:Gematsu",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:PC Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:Kotaku",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "rss:Eurogamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "steam",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "epic",
    "ok": true,
    "count": 4,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "ps",
    "ok": true,
    "count": 53,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "eshop",
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-10-16T03:19:22+09:00"
+   "last_success": "2026-10-16T07:21:09+09:00"
   }
  ],
  "news": [
+  {
+   "id": "n_9d82270400cc",
+   "title": "「最大4人」の協力登山ゲーム『PEAK』PS5、Xbox Series X|S、Nintendo Switch 2版が10月22日にリリース決定。クロスプレイにも対応し、全アップデート内容を収録",
+   "link": "https://news.denfaminicogamer.jp/news/261016c",
+   "summary": "クロスプレイにも対応し、これまでPC（Steam）版で配信された全アップデート内容を収録。PS5向けにはパッケージ版も展開",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [
+    "Switch",
+    "PS5",
+    "PC",
+    "Xbox"
+   ],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/maxresdefault-9-1024x576.jpg",
+   "published_at": "2026-10-16T07:11:50+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_67b91bc3b39b",
+   "title": "Massive GTA 6 Banner In Paris Censors All Of The Guns",
+   "link": "https://kotaku.com/massive-gta-6-banner-in-paris-features-some-silly-censorship-2000746458",
+   "summary": "Grand Theft Auto is a franchise that famously includes guns, but this big advertisement for it in Paris cut them out",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/censortower-1280x720.jpg",
+   "published_at": "2026-10-16T07:00:10+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_8a731f7484f7",
+   "title": "「トイ・ストーリー」ゲーム化作品がまとめて楽しめる『Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack』スイッチ向けパッケージ版発売",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173672.html",
+   "summary": "スイッチ向けに「トイ・ストーリー」関連ゲームがまとめて楽しめるパッケージ版が発売されます。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "http://www.gamespark.jp/imgs/rss/1160017.jpg",
+   "published_at": "2026-10-16T07:00:03+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_c7f6a0f8513b",
+   "title": "「ドラゴンクエストモンスターズ4」，オンライン共闘やランクマッチ，闘技場の詳細を公開。全50試合に挑むローグライク要素も",
+   "link": "https://www.4gamer.net/games/010/G101055/20261006046/",
+   "summary": "スクウェア・エニックスは本日，「ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ」の最新情報を公開した。今回は，最大4人で巨大モンスターに挑む「オンライン共闘」やランクマッチ，闘技場に加え，全50試合を勝ち抜くローグライクな「",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T07:00:00+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_29f2e74d4d84",
+   "title": "Battlefield 6 Gets Slammed For More Slop Slipping Through: ‘Charging Players $$$ For AI-Generated Content Is Peak Disrespect’",
+   "link": "https://kotaku.com/battlefield-6-gets-slammed-for-more-slop-slipping-through-charging-players-for-ai-generated-content-is-peak-disrespect-2000746452",
+   "summary": "Operators with five guns and misspelled patches have fans shaking their heads",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/battlefield-ai.jpg",
+   "published_at": "2026-10-16T06:40:48+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_598440eaa58b",
+   "title": "『ストリートファイター／ザ・ムービー』海外レビューひとまとめ―メタスコア46点、「退屈はさせない」も脚本に賛否",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173671.html",
+   "summary": "2026年10月16日に公開される「ストリートファイター／ザ・ムービー」の海外レビューをお届けします。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207101.jpg",
+   "published_at": "2026-10-16T06:30:03+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_0c9dd2dce189",
+   "title": "Less than 2 weeks after announcing RuneScape Reignited, Jagex is scrapping the whole thing",
+   "link": "https://www.pcgamer.com/games/mmo/less-than-2-weeks-after-announcing-runescape-reignited-jagex-is-scrapping-the-whole-thing/",
+   "summary": "In the wake of a furious backlash from players, Jagex admits it \"missed the mark.\"",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/c3Khw6Jt6G6JFntqYeotUT-1920-80.png",
+   "published_at": "2026-10-16T06:09:54+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_5934aec6b46a",
+   "title": "The Fire Emblem: Fortune’s Weave Expansion Pass Adds Stories For Those Other Four Protagonists The Game Was Supposed To Have",
+   "link": "https://kotaku.com/the-fire-emblem-fortunes-weave-expansion-pass-adds-stories-for-those-other-four-protagonists-the-game-was-supposed-to-have-2000746422",
+   "summary": "But damn is it gonna cost you to get",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/orchel-1280x720.jpg",
+   "published_at": "2026-10-16T06:00:56+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_a577eb7e53e8",
+   "title": "ゾンビサバイバル『DayZ』広大な砂漠の荒野を舞台にした拡張DLC「Badlands」配信！",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173670.html",
+   "summary": "過去最大級の267平方キロメートルに及ぶ新マップ「ナスダラ」が登場。極度の暑さや干ばつ、砂嵐といった新たな脅威が待ち受けています。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207075.jpg",
+   "published_at": "2026-10-16T06:00:03+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_48418b3d4414",
+   "title": "Valheim vs Enshrouded vs RuneScape: Dragonwilds: Let's settle this",
+   "link": "https://www.pcgamer.com/games/survival-crafting/valheim-vs-runescape-dragonwilds-vs-enshrouded/",
+   "summary": "Three top-tier survival crafting games have entered their 1.0 era.",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/zzWFitsgpC7sijeUsvAQoE-1920-80.jpg",
+   "published_at": "2026-10-16T05:54:41+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_eaa1c46ea41f",
+   "title": "Street Fighter review roundup: sorry, folks, but it sounds like a mess",
+   "link": "https://www.pcgamer.com/movies-tv/street-fighter-review-roundup-sorry-folks-but-it-sounds-like-a-mess/",
+   "summary": "The general consensus seems to be that Street Fighter isn't a disaster, but it definitely misses a lot more than it hits",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/8RgfieBNh6Baks7DMQSZsM-1920-80.jpg",
+   "published_at": "2026-10-16T05:51:45+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_85d05286a149",
+   "title": "Whoa, This Minecraft Mod Turns The Game Into A Deltarune-Style Turn-Based RPG",
+   "link": "https://kotaku.com/whoa-this-minecraft-mod-turns-the-game-into-a-deltarune-style-turn-based-rpg-2000746024",
+   "summary": "And it’s not one of those AI-generated mods that just slaps two games together and calls it a day",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/soulbound-1280x721.jpg",
+   "published_at": "2026-10-16T05:30:45+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_e61314cc5820",
+   "title": "SPINE ‘Customization Announce’ trailer, screenshots",
+   "link": "https://www.gematsu.com/2026/10/spine-customization-announce-trailer-screenshots",
+   "summary": "Nekki has released a new trailer and screenshots for single-player story-focused action game SPINE introducing …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/SPINE-Parrot_10-15-26.jpg",
+   "published_at": "2026-10-16T04:57:32+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_878a9de06ab4",
+   "title": "When Sirens Fall Silent adds PS5, Xbox Series versions",
+   "link": "https://www.gematsu.com/2026/10/when-sirens-fall-silent-adds-ps5-xbox-series-versions",
+   "summary": "Psychological horror game When Sirens Fall Silent will launch for PlayStation 5 and Xbox Series …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "PS5",
+    "Xbox"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/WSFS_10-15-26.jpg",
+   "published_at": "2026-10-16T04:56:58+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_b3c692e39dfe",
+   "title": "Guns of Eschaton launches December 8",
+   "link": "https://www.gematsu.com/2026/10/guns-of-eschaton-launches-december-8",
+   "summary": "Mystical Western Soulslike first-person shooter Guns of Eschaton will launch for PlayStation 5, Xbox Series, …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "PS5",
+    "Xbox"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Guns-Eschaton_10-15-26.jpg",
+   "published_at": "2026-10-16T04:52:03+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_4f06ac95c9f8",
+   "title": "Did Street Fighter Actor And WWE Wrestler Cody Rhodes Accidentally Let Slip He’s In The X-Men Reboot?",
+   "link": "https://kotaku.com/street-fighter-cody-rhodes-guile-x-men-mcu-reboot-cast-2000746434",
+   "summary": "The MCU is bringing mutants back into the fold in 2028",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/guile-1280x720.jpg",
+   "published_at": "2026-10-16T04:50:14+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_bbf864c21f28",
+   "title": "MR. RECORDS reveals Level Editor",
+   "link": "https://www.gematsu.com/2026/10/mr-records-reveals-level-editor",
+   "summary": "Publisher Wired Productions and developer Glee-Cheese Studio have revealed the Level Editor for rhythm adventure …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/MR-RECORDS-Level-Edit_10-15-26.jpg",
+   "published_at": "2026-10-16T04:50:13+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_a6bbb94eacf8",
+   "title": "ZERO PARADES: Director’s Cut coming to Switch 2 on November 3 alongside PS5 version",
+   "link": "https://www.gematsu.com/2026/10/zero-parades-directors-cut-coming-to-switch-2-on-november-3-alongside-ps5-version",
+   "summary": "ZA/UM will release a Switch 2 version of espionage RPG ZERO PARADES: Director’s Cut alongside …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "Switch",
+    "PS5"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/ZERO-PARADES-Console_10-15-26.jpg",
+   "published_at": "2026-10-16T04:46:45+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_54647feec08e",
+   "title": "Cinematic first-person psychological horror game Encryption announced for PC",
+   "link": "https://www.gematsu.com/2026/10/cinematic-first-person-psychological-horror-game-encryption-announced-for-pc",
+   "summary": "Digital Lighthouse Games has announced Encryption, a cinematic first-person psychological horror game set during a …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Encryption-Announced_10-15-26.jpg",
+   "published_at": "2026-10-16T04:41:19+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_8d99c6892606",
+   "title": "Ancestors: The Humankind Odyssey coming to PS5, Xbox Series, and Switch 2 on December 8",
+   "link": "https://www.gematsu.com/2026/10/ancestors-the-humankind-odyssey-coming-to-ps5-xbox-series-and-switch-2-on-december-8",
+   "summary": "Publisher Fictions and developer Panache Digital Games will release PlayStation 5, Xbox Series, and Switch …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "Switch",
+    "PS5",
+    "Xbox"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Ancestors_10-15-26.jpg",
+   "published_at": "2026-10-16T04:40:19+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_35c4acea3adc",
+   "title": "Ember & Blade launches in Early Access for PC on January 8, 2027",
+   "link": "https://www.gematsu.com/2026/10/ember-blade-launches-in-early-access-for-pc-on-january-8-2027",
+   "summary": "Dark fantasy roguelite action RPG Ember & Blade will launch in Early Access for PC …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Ember-Blade-Early-Access-Date_10-15-26.jpg",
+   "published_at": "2026-10-16T04:36:48+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_fde9bd2b4d70",
+   "title": "Squad coming to PS5, Xbox Series in 2027",
+   "link": "https://www.gematsu.com/2026/10/squad-coming-to-ps5-xbox-series-in-2027",
+   "summary": "Publisher Secret Mode and developer Offworld Industries will release PlayStation 5 and Xbox Series of …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "PS5",
+    "Xbox"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Squad-Console-Ann_10-15-26.jpg",
+   "published_at": "2026-10-16T04:35:44+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_2fd3031c5505",
+   "title": "Modern Warfare 4 Testers Vote To Authorize Union Strike As Contract Negotiations Stall: ‘It Is Time To Stop Playing Games’",
+   "link": "https://kotaku.com/modern-warfare-4-testers-vote-to-authorize-union-strike-as-contract-negotiations-stall-it-is-time-to-stop-playing-games-2000746427",
+   "summary": "The union has spent over two years trying to negotiate its first contract",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/MW4-1280x720.jpg",
+   "published_at": "2026-10-16T04:30:54+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_3b5d7e00bb8b",
+   "title": "Monochromatic Metroidvania game Lelu launches January 21, 2027 for Xbox Series, Switch 2, and PC",
+   "link": "https://www.gematsu.com/2026/10/monochromatic-metroidvania-game-lelu-launches-january-21-2027-for-xbox-series-switch-2-and-pc",
+   "summary": "Monochromatic Metroidvania game Lelu will launch for Xbox Series, Switch 2, and PC via Steam …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "Switch",
+    "PC",
+    "Xbox"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Lelu-Date_10-15-26.jpg",
+   "published_at": "2026-10-16T04:30:32+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_38804ca9c1b3",
+   "title": "Gravity Circuit 2 adds Switch 2 version, launches in spring 2027",
+   "link": "https://www.gematsu.com/2026/10/gravity-circuit-2-adds-switch-2-version-launches-in-spring-2027",
+   "summary": "Side-scrolling action platformer sequel Gravity Circuit 2 will launch for PlayStation 5, Switch 2, Switch, …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "Switch",
+    "PS5"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/GC2-Release-Window_10-15-26.jpg",
+   "published_at": "2026-10-16T04:28:02+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_ba1ed5712c8d",
+   "title": "Story-driven driving exploration game AfterZero: The Last Drive announced for PS5, Xbox Series, and PC",
+   "link": "https://www.gematsu.com/2026/10/story-driven-driving-exploration-game-afterzero-the-last-drive-announced-for-ps5-xbox-series-and-pc",
+   "summary": "3DClouds has announced AfterZero: The Last Drive, a story-driven single-player driving survival adventure game coming …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "PS5",
+    "PC",
+    "Xbox"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/AfterZero-The-Last-Drive_2026_10-14-26_006.jpg",
+   "published_at": "2026-10-16T04:21:10+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_1caeef30b6f6",
+   "title": "Appulse launches November 26",
+   "link": "https://www.gematsu.com/2026/10/appulse-launches-november-26",
+   "summary": "Roguelite pinball shooter Appulse will launch for PC via Steam on November 26, publisher Raw …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Appulse-Date_10-15-26.jpg",
+   "published_at": "2026-10-16T04:19:03+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_f10b1c72398d",
+   "title": "World of Warcraft: Forever devs say gear upgrades will stay relevant 'for a long, long time': 'It's very much our intention to try wherever we can to not invalidate old content'",
+   "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-devs-say-gear-upgrades-will-stay-relevant-for-a-long-long-time-its-very-much-our-intention-to-try-wherever-we-can-to-not-invalidate-old-content/",
+   "summary": "Blizzard says items won't work like the modern version of the MMO.",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/4a9oyQdrXFpY6keN5AagHb-1920-80.png",
+   "published_at": "2026-10-16T04:14:30+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_6a5b95a68c6b",
+   "title": "Stuntman: Hollywood ‘Knight Rider’ gameplay reveal trailer",
+   "link": "https://www.gematsu.com/2026/10/stuntman-hollywood-knight-rider-gameplay-reveal-trailer",
+   "summary": "Saber Interactive has released a new trailer for single-player action racing game Stuntman: Hollywood introducing …",
+   "source": "Gematsu",
+   "region": "global",
+   "platforms": [],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Stuntman-Hollywood_10-15-26.jpg",
+   "published_at": "2026-10-16T04:05:37+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
+  {
+   "id": "n_9f9f71f6e4ec",
+   "title": "Control Resonant sells 1 million copies in 3 weeks to become Remedy's fastest-selling game ever",
+   "link": "https://www.pcgamer.com/games/action/control-resonant-sells-1-million-copies-in-3-weeks-to-become-remedys-fastest-selling-game-ever/",
+   "summary": "It's not a huge number, but it's big news for Remedy.",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/WcjUWGKChMoMQDoCxmjz3P-1920-80.jpg",
+   "published_at": "2026-10-16T03:15:22+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
+  },
   {
    "id": "n_42de3ebd52c2",
    "title": "The Ocarina Of Time Remake Doesn’t Do Everyone’s Favorite Bombchu-Bowling Baddie Justice",
@@ -172,22 +572,6 @@
    "platforms": [],
    "image": "http://www.gamespark.jp/imgs/rss/1207038.jpg",
    "published_at": "2026-10-16T02:04:15+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
-   "id": "n_501e5e7b921b",
-   "title": "PEAK coming to PS5, Xbox Series, and Switch 2 on October 22",
-   "link": "https://www.gematsu.com/2026/10/peak-coming-to-ps5-xbox-series-and-switch-2-on-october-22",
-   "summary": "Aggro Crab and Landfall will release cooperative climbing game PEAK for PlayStation 5, Xbox Series, …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "Switch",
-    "PS5",
-    "Xbox"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/PEAK-Console-Edition_10-15-26.jpg",
-   "published_at": "2026-10-16T02:02:43+09:00",
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
@@ -275,18 +659,6 @@
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
-   "id": "n_7731e94ed338",
-   "title": "CONTROL Resonant sales top one million",
-   "link": "https://www.gematsu.com/2026/10/control-resonant-sales-top-one-million",
-   "summary": "Total sales for supernatural action RPG CONTROL Resonant have surpassed one million units, developer Remedy …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/CONTROL-Resonant-Sales_10-15-26.jpg",
-   "published_at": "2026-10-16T01:12:47+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
    "id": "n_439092d85004",
    "title": "GTA 6 squeaks into eligibility for The Game Awards 2026 by the smallest of margins - but can it break Clair Obscur: Expedition 33's record number of wins?",
    "link": "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley",
@@ -347,6 +719,20 @@
    "image": "https://cdn.mos.cms.futurecdn.net/zWDtXy8tgeArpGeCpqVRpU-1920-80.jpg",
    "published_at": "2026-10-16T00:50:41+09:00",
    "first_seen": "2026-10-16T03:19:22+09:00"
+  },
+  {
+   "id": "n_68b978b4f6ae",
+   "title": "クリックで資源を集め，仕事は住民におまかせ。都市建設シムとインクリメンタルを融合した「クリッキーアイランド」，11月16日にSteamで発売",
+   "link": "https://www.4gamer.net/games/027/G102729/20261016001/",
+   "summary": "ポケットペアパブリッシングは2026年10月15日，「クリッキーアイランド」を11月16日にSteamで発売すると発表した。本作は，クリックで資源を集め，住民を雇って生産を自動化しながら島を発展させるゲームだ。配信中のデモ版にも，今回の発表",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T00:45:57+09:00",
+   "first_seen": "2026-10-16T07:21:09+09:00"
   },
   {
    "id": "n_ad7d7daf5689",
@@ -420,20 +806,6 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/9gFcHJrxmo3sAmPLHpcum6-1920-80.jpg",
    "published_at": "2026-10-16T00:26:59+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
-   "id": "n_1866e5316cb2",
-   "title": "Hitman: Absolution – Nintendo Switch 2 Edition launches October 22",
-   "link": "https://www.gematsu.com/2026/10/hitman-absolution-nintendo-switch-2-edition-launches-october-22",
-   "summary": "Feral Interactive will release IO Interactive-developed stealth action game Hitman: Absolution – Nintendo Switch 2 …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Hitman-Absolution-Switch-2_10-15-26.jpg",
-   "published_at": "2026-10-16T00:19:48+09:00",
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
@@ -707,18 +1079,6 @@
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
-   "id": "n_13e998d3f0dd",
-   "title": "Sega’s Total War: Shogun 2 Remake Is Such A Disaster It’s Being Pulled From Sale",
-   "link": "https://kotaku.com/sega-total-war-shogun-2-complete-edition-ai-reviews-pulled-from-sale-2000746339",
-   "summary": "One of the most beloved games of all time has done horrible damage to its reputation",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/shogun-2-1280x720.jpg",
-   "published_at": "2026-10-15T22:59:17+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
    "id": "n_09fdce71bab7",
    "title": "ポケットペアパブリッシング、街づくり×クリッカー×資源管理ゲーム『クリッキーアイランド』を2026年11月16日に発売",
    "link": "https://gamebiz.jp/news/434133",
@@ -730,18 +1090,6 @@
    ],
    "image": null,
    "published_at": "2026-10-15T22:56:00+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
-   "id": "n_0e5a431e2add",
-   "title": "The Sex Scene Is One Of The Best Parts Of Grand Theft Auto 6′s New Trailer",
-   "link": "https://kotaku.com/grand-theft-auto-6-new-trailer-sex-scene-jason-lucia-2000746333",
-   "summary": "Jason and Lucia bare it all in the GTA6 launch trailer",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/gtaluciajason-1280x634.jpg",
-   "published_at": "2026-10-15T22:53:58+09:00",
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
@@ -771,18 +1119,6 @@
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
-   "id": "n_af36c45ce56a",
-   "title": "The Grand Theft Auto 6 launch trailer is here",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-launch-trailer/",
-   "summary": "This one's got a very different vibe than what we've seen previously.",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/4Er25EtnFdb9QU2xZV3et4-1920-80.jpg",
-   "published_at": "2026-10-15T22:43:12+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
    "id": "n_83cf5b88736f",
    "title": "『GTA6』熱烈なシャワーシーンお披露目！発売に先駆けローンチトレイラー公開",
    "link": "http://www.gamespark.jp/article/2026/10/15/173659.html",
@@ -792,20 +1128,6 @@
    "platforms": [],
    "image": "http://www.gamespark.jp/imgs/rss/1206986.jpg",
    "published_at": "2026-10-15T22:41:37+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
-   "id": "n_9b5fa3eefa9e",
-   "title": "Nvidia's RTX Spark makes for an impressive Arm-based gaming laptop but not one I'd recommend you buy just for PC gaming",
-   "link": "https://www.pcgamer.com/hardware/gaming-laptops/nvidias-rtx-spark-makes-for-an-impressive-arm-based-gaming-laptop-but-not-one-id-recommend-you-buy-just-for-pc-gaming/",
-   "summary": "The performance is there, the experience is great, but the price is utterly punitive when you compare against dedicated ",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://cdn.mos.cms.futurecdn.net/28dXjtPHbhp8obUy9ASfVL-1920-80.jpg",
-   "published_at": "2026-10-15T22:35:06+09:00",
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
@@ -835,32 +1157,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_196b3a84922e",
-   "title": "Epic Games「Steamより起動が速い」とアピールも、Steamは前日に高速化済み―検証ではむしろ遅かった？",
-   "link": "http://www.gamespark.jp/article/2026/10/15/173657.html",
-   "summary": "Epic Games Launcherは10月14日にSteamより起動が早くなったとアピールしていました。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1206983.jpg",
-   "published_at": "2026-10-15T22:18:23+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_f4cfceeac7d1",
-   "title": "Grand Theft Auto VI launch trailer",
-   "link": "https://www.gematsu.com/2026/10/grand-theft-auto-vi-launch-trailer",
-   "summary": "Rockstar Games has released the launch trailer for Grand Theft Auto VI, just over one …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/GTA6-Launch-PV_10-15-26.jpg",
-   "published_at": "2026-10-15T22:13:59+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
    "id": "n_b5b2d7c16f51",
    "title": "『グランド・セフト・オートVI（GTA 6）』の“ローンチトレイラー”早くもぬるっとお披露目。発売はまだ1か月先だけど、安心できそう",
    "link": "https://automaton-media.com/articles/newsjp/20261015-473745/",
@@ -870,56 +1166,6 @@
    "platforms": [],
    "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261015-473745-header.jpg",
    "published_at": "2026-10-15T22:13:34+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_0ec19fcc6eec",
-   "title": "Epic said its game launcher was faster than Steam on the same day Steam got a speed boost—so I've put both to the test",
-   "link": "https://www.pcgamer.com/hardware/epic-said-its-game-launcher-was-faster-than-steam-on-the-same-day-steam-got-a-speed-boost-so-ive-put-both-to-the-test/",
-   "summary": "There's only seconds in it, mind.",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://cdn.mos.cms.futurecdn.net/aRmuneCkQLMQZfYejmFp7o-1920-80.jpg",
-   "published_at": "2026-10-15T22:10:51+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_3d86dc95d906",
-   "title": "Famitsu Sales: 10/5/26 – 10/11/26",
-   "link": "https://www.gematsu.com/2026/10/famitsu-sales-10-5-26-10-11-26",
-   "summary": "Famitsu has published its estimated physical game software data for Japan for the week of …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Famitsu-Sales_10-15-26.jpg",
-   "published_at": "2026-10-15T22:10:25+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_76f43db2aec2",
-   "title": "After Civ 7 stumbled, Humankind 2 looks like it's making smart choices to pick up the 4X torch",
-   "link": "https://www.pcgamer.com/games/strategy/after-civ-7-stumbled-humankind-2-looks-like-its-making-smart-choices-to-pick-up-the-4x-torch/",
-   "summary": "Very dialectical.",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/RvHpWzB8ZkFUBFtHkD8Qdc-1920-80.jpg",
-   "published_at": "2026-10-15T22:09:36+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_e9856339b44e",
-   "title": "Surprise, Here’s A New Grand Theft Auto 6 Trailer",
-   "link": "https://kotaku.com/surprise-heres-a-new-grand-theft-auto-6-trailer-2000746327",
-   "summary": "Rockstar has dropped the launch trailer for its upcoming open-world game",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/09/Lucia_Caminos_07.0.c7un8ro7_p2-1280x720.jpg",
-   "published_at": "2026-10-15T22:09:32+09:00",
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
@@ -949,20 +1195,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_faf8a7630d2b",
-   "title": "El Paso, Elsewhere 2 demo now available for PC",
-   "link": "https://www.gematsu.com/2026/10/el-paso-elsewhere-2-demo-now-available-for-pc",
-   "summary": "A demo for El Paso, Elsewhere 2 is now available for PC via Steam as part …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/EPEW2-Demo_10-15-26.jpg",
-   "published_at": "2026-10-15T22:05:17+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
    "id": "n_5049c7ca1ffb",
    "title": "DayZ creator Dean Hall says \"our industry is rotting from its core\" because of big-company \"greed\", aiming shots at Epic's Unreal and Unity",
    "link": "https://www.eurogamer.net/dean-hall-brutal-framework-ksp-epic-unreal-unity",
@@ -972,35 +1204,6 @@
    "platforms": [],
    "image": "https://assetsio.gnwcdn.com/dean-hall-astronaut.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-10-15T22:02:51+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_2d0961027308",
-   "title": "最大6人で遊べるアライグマのCo-opアクションが“非常に好評”のスタート。ワゴンを押しつつゴミ漁り、時にはフレンドを射出―採れたて！本日のSteam注目ゲーム20選【2026年10月15日】",
-   "link": "http://www.gamespark.jp/article/2026/10/15/173656.html",
-   "summary": "自由きままにアライグマ生活をしつつ、ゴールを目指します。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1206960.jpg",
-   "published_at": "2026-10-15T22:00:04+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_d1bd3453d581",
-   "title": "Hokko Spaces launches October 29 for Switch, PC",
-   "link": "https://www.gematsu.com/2026/10/hokko-spaces-launches-october-29-for-switch-pc",
-   "summary": "Diorama-style sandbox design game Hokko Spaces will launch for Switch and PC via Steam on …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "Switch",
-    "PC"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Hokko-Spaces-Date_10-13-26.jpg",
-   "published_at": "2026-10-15T22:00:01+09:00",
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
@@ -1019,48 +1222,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_375ff349662c",
-   "title": "Asus ROG Xbox Ally X20 review",
-   "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/asus-rog-xbox-ally-x20-review/",
-   "summary": "How much are an OLED screen, TMR sticks, and a fresh aesthetic worth to you?",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [
-    "Xbox"
-   ],
-   "image": "https://cdn.mos.cms.futurecdn.net/q2KGqXCKzUfQnh7GN4Uzm3-1920-80.jpg",
-   "published_at": "2026-10-15T22:00:00+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_a5994ce0fb1c",
-   "title": "DREADMOOR launches in Early Access on November 9",
-   "link": "https://www.gematsu.com/2026/10/dreadmoor-launches-in-early-access-on-november-9",
-   "summary": "Dark first-person fishing adventure game DREADMOOR will launch in Early Access for PC via Steam …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/DREADMOOR_10-15-26.jpg",
-   "published_at": "2026-10-15T21:59:18+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
-   "id": "n_b24632035011",
-   "title": "Big Walk Devs Say The Game Won’t Come To Xbox In Accordance With The BDS Boycott",
-   "link": "https://kotaku.com/big-walk-xbox-microsoft-bds-boycott-palestine-israel-2000746321",
-   "summary": "‘We would love for people to be able to play the game on Xbox, but not until Microsoft and/or Xbox have been removed as ",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [
-    "Xbox"
-   ],
-   "image": "https://kotaku.com/app/uploads/2026/07/Big-Walk-35-1280x720.jpg",
-   "published_at": "2026-10-15T21:48:35+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
    "id": "n_6494056ed5d4",
    "title": "「影」と「立体」を懐中電灯の光で切り替える一人称パズルゲーム『THANKS, LIGHT.』がPS5とPC向けに発売。電球頭の管理人に招待されたリミナル空間で、光と影のパズルを解く",
    "link": "https://news.denfaminicogamer.jp/news/2610153l",
@@ -1072,18 +1233,6 @@
    ],
    "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/ss_fbd82f7fc7dc191764583a320d20a1affb18d314.1920x1080-1024x576.jpg",
    "published_at": "2026-10-15T21:45:19+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_4c238981b3fd",
-   "title": "『アークナイツ：エンドフィールド』新バージョン「丹青渡」配信開始！新★6「スー」「ミンホ」登場や表参道POP UP、1周年フェス開催も",
-   "link": "http://www.gamespark.jp/article/2026/10/15/173655.html",
-   "summary": "GRYPHLINEは2026年10月15日、『アークナイツ：エンドフィールド』の新コアバージョン「丹青渡」の配信を開始しました。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1206927.jpg",
-   "published_at": "2026-10-15T21:30:03+09:00",
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
@@ -1146,18 +1295,6 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-10-15T21:02:10+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_074973b1d000",
-   "title": "Edge of Memories delayed to December 3",
-   "link": "https://www.gematsu.com/2026/10/edge-of-memories-delayed-to-december-3",
-   "summary": "Publisher Nacon and developer Midgar Studio have delayed action RPG Edge of Memories from its previously …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Edge-Memories-Delay_10-15-26.jpg",
-   "published_at": "2026-10-15T21:00:09+09:00",
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
@@ -1225,18 +1362,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_a60ea9369b8e",
-   "title": "Fate/EXTRA Record characters trailer – Rival’s Side",
-   "link": "https://www.gematsu.com/2026/10/fate-extra-record-characters-trailer-rivals-side",
-   "summary": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Fate-EXTRA-Record-PV_10-15-26.jpg",
-   "published_at": "2026-10-15T20:45:45+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
    "id": "n_a03659095d7d",
    "title": "「チェンクロ」，フィーナと緋の年代記 エピローグの配信を開始",
    "link": "https://www.4gamer.net/games/223/G022384/20261015048/",
@@ -1285,42 +1410,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_28a8f29fc7f1",
-   "title": "The Ubisoft Carnage Continues, With One In Six German Staff Asked To Voluntarily Resign",
-   "link": "https://kotaku.com/ubisoft-job-losses-germany-anno-rayman-prince-of-persia-layoffs-2000746312",
-   "summary": "The axe falls yet again on Ubisofts Düsseldorf, Berlin and Mainz, responsible for the Anno franchise",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/anno-1280x720.jpg",
-   "published_at": "2026-10-15T20:35:47+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_6e89413f61a6",
-   "title": "「マインクラフト」のランタンがインテリアライトに。4種類の発光モードを搭載し，2027年1月下旬に発売",
-   "link": "https://www.4gamer.net/games/126/G012627/20261015046/",
-   "summary": "インフォレンズは本日，「マインクラフトランタンライト」と「マインクラフトメタルウォーターボトル（取っ手付き）」の予約受付を開始した。ランタンライトは4種類の発光モードや2時間後の自動消灯機能を備え，IPX4防滴に対応し，2027年1月下旬に",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-15T20:35:40+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_b0204943e471",
-   "title": "「刀剣乱舞ぱずぎり」，にじさんじコラボ配信を10月19日と10月22日に実施。イブラヒムさん，星導ショウさんらが出演",
-   "link": "https://www.4gamer.net/games/024/G102437/20261015042/",
-   "summary": "EXNOAは本日（2026年10月15日），「刀剣乱舞ぱずぎり」のリリースを記念して，バーチャルライバーグループ「にじさんじ」とのコラボ配信を10月19日と10月22日に実施すると発表した。",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-15T20:19:47+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
    "id": "n_26f8ed1037b5",
    "title": "ガンホー、物言う株主から臨時株主総会の招集請求 SMEの株式取得スキームの変更で52億円の利益創出を提案",
    "link": "https://gamebiz.jp/news/434132",
@@ -1357,24 +1446,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_898a6cfaa258",
-   "title": "Old school-inspired open-world RPG Lair of the Leviathan announced for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
-   "link": "https://www.gematsu.com/2026/10/old-school-inspired-open-world-rpg-lair-of-the-leviathan-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
-   "summary": "Publisher Deck13 Spotlight and developers Nostalgic Realms and Whiskeybarrel Studios have announced old school-inspired ",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "Switch",
-    "PS5",
-    "PS4",
-    "PC",
-    "Xbox"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Lair-Leviathan-Ann_10-15-26.jpg",
-   "published_at": "2026-10-15T19:55:12+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
    "id": "n_0e511a804aba",
    "title": "【最大4人】フードトラックで爆走しながら調理する協力型クッキングゲーム『Hot Meals Fast Wheels』無料プロローグがSteamで配信中。新たなトレーラーも公開",
    "link": "https://news.denfaminicogamer.jp/news/2610153e",
@@ -1389,22 +1460,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_fc77d2913100",
-   "title": "Forge of the Fae launches in March 2027",
-   "link": "https://www.gematsu.com/2026/10/forge-of-the-fae-launches-in-march-2027",
-   "summary": "Pixel RPG Forge of the Fae will launch for PlayStation 5, Xbox Series, PlayStation 4, …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "PS5",
-    "PS4",
-    "Xbox"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Forge-Fae-Release_10-15-26.jpg",
-   "published_at": "2026-10-15T19:50:08+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
    "id": "n_0e00113f1d3b",
    "title": "ワイルドドッグ、『Japanese Ramen Simulator』アップデート 配膳バイトや小型冷蔵庫、ワールド設定追加 ゲームプレイの改善も",
    "link": "https://gamebiz.jp/news/434131",
@@ -1414,24 +1469,6 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-10-15T19:46:00+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_2fb3ba99439e",
-   "title": "Drova II: Torn Lands announced for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
-   "link": "https://www.gematsu.com/2026/10/drova-ii-torn-lands-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
-   "summary": "Publisher Deck13 Spotlight and developer Just2D have announced Drova: Forsaken Kin sequel Drova II: Torn …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "Switch",
-    "PS5",
-    "PS4",
-    "PC",
-    "Xbox"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Drova-II-Torn-Lands_2026_10-15-26_008.jpg",
-   "published_at": "2026-10-15T19:45:56+09:00",
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
@@ -1494,18 +1531,6 @@
    "platforms": [],
    "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HUpnQu4bMAI_szQ.jpg",
    "published_at": "2026-10-15T19:03:22+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
-   "id": "n_7acfdd1aa694",
-   "title": "『13日の金曜日』前日譚ドラマ『クリスタル・レイク / 殺人鬼の母』が本日10月15日からU-NEXTで配信開始。吹替に園崎未恵さんやファイルーズあいさんのほか、新たに浪川大輔さんが参加",
-   "link": "https://news.denfaminicogamer.jp/news/2610153c",
-   "summary": "園崎未恵さんやファイルーズあいさん、『サイレントヒルf』の加藤小夏さんが吹替を担当。狂気の始まりを描くホラードラマ",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/590d5984130b7c589e85ffed14aebdd7-819x1024.png",
-   "published_at": "2026-10-15T19:00:49+09:00",
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
@@ -1691,20 +1716,6 @@
    "first_seen": "2026-10-15T22:27:47+09:00"
   },
   {
-   "id": "n_10be0d4c81c5",
-   "title": "holoVillage: Our Cozy Days coming to Switch 2 on October 22",
-   "link": "https://www.gematsu.com/2026/10/holovillage-our-cozy-days-coming-to-switch-2-on-october-22",
-   "summary": "Publisher holo Indie and developer Roboqlo will release a Switch 2 version of slow-life simulation …",
-   "source": "Gematsu",
-   "region": "global",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/holoVillage-Switch-2_10-15-26.jpg",
-   "published_at": "2026-10-15T17:20:55+09:00",
-   "first_seen": "2026-10-15T22:27:47+09:00"
-  },
-  {
    "id": "n_58d2aa40c966",
    "title": "期待のオープンワールド・モンスター収集RPG『ロコキングダム』新映像公開。キュートな子から“平手打ちマッチョ”まで、いろんな「ジニ」大集合",
    "link": "https://automaton-media.com/articles/newsjp/20261015-473646/",
@@ -1858,22 +1869,6 @@
    "image": null,
    "published_at": "2026-10-15T10:01:00+09:00",
    "first_seen": "2026-10-15T10:33:22+09:00"
-  },
-  {
-   "id": "n_64f0c1fa9473",
-   "title": "壮大な作品がバイブコード化された店頭で Steam をダンクして炎上:「このランチャーはバイブスロップがクソすぎて面白い」",
-   "link": "https://kotaku.com/epic-dunks-on-steam-with-vibe-coded-storefront-and-gets-roasted-this-launcher-is-so-fucking-vibeslopped-its-funny-2000746031",
-   "summary": "The Fortnite maker is promoting faster response times",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://kotaku.com/app/uploads/2026/10/peely.jpg",
-   "published_at": "2026-10-15T06:30:56+09:00",
-   "first_seen": "2026-10-15T08:15:56+09:00",
-   "title_original": "Epic Dunks On Steam With Vibe-Coded Storefront And Gets Roasted: ‘This Launcher Is So F*cking Vibeslopped Its Funny’",
-   "translated": true
   },
   {
    "id": "n_77c11e8bf98f",
@@ -2263,20 +2258,6 @@
    "ends_at": "2026-10-30T02:00:03+09:00"
   },
   {
-   "id": "d_steam_1621690",
-   "store": "steam",
-   "title": "Core Keeper",
-   "link": "https://store.steampowered.com/app/1621690/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/4d3798fbb307f52d9e11ed5b5f665779097b2f55/header_alt_assets_12.jpg?t=1791454740",
-   "price_original": 2300,
-   "price_sale": 1380,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-23T02:00:00+09:00"
-  },
-  {
    "id": "d_steam_1091500",
    "store": "steam",
    "title": "サイバーパンク2077",
@@ -2291,6 +2272,20 @@
    "ends_at": "2026-10-27T03:00:00+09:00"
   },
   {
+   "id": "d_steam_1621690",
+   "store": "steam",
+   "title": "Core Keeper",
+   "link": "https://store.steampowered.com/app/1621690/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1621690/74ae27901ff218090ff1b122b7c71489df920994/capsule_231x87_alt_assets_12.jpg?t=1791454740",
+   "price_original": 2300,
+   "price_sale": 1380,
+   "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_4656000",
    "store": "steam",
    "title": "BOMBANANA!",
@@ -2303,20 +2298,6 @@
    "upcoming": false,
    "starts_at": null,
    "ends_at": "2026-10-24T02:00:00+09:00"
-  },
-  {
-   "id": "d_steam_5228920",
-   "store": "steam",
-   "title": "Brick by Brick: Tidy Up the Small Town!",
-   "link": "https://store.steampowered.com/app/5228920/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5228920/999d76679b85624ff8d765b9f3e748073e3ee394/capsule_231x87.jpg?t=1792078556",
-   "price_original": 1050,
-   "price_sale": 651,
-   "discount": 38,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
   },
   {
    "id": "d_steam_632360",
@@ -2347,32 +2328,18 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3240220",
+   "id": "d_steam_5228920",
    "store": "steam",
-   "title": "グランド・セフト・オートV エンハンスト",
-   "link": "https://store.steampowered.com/app/3240220/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
-   "price_original": 6480,
-   "price_sale": 2851,
-   "discount": 56,
+   "title": "Brick by Brick: Tidy Up the Small Town!",
+   "link": "https://store.steampowered.com/app/5228920/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/8c57f18ab6a1940b328584fe5556f4c87839e1a0/header.jpg?t=1792078556",
+   "price_original": 1050,
+   "price_sale": 651,
+   "discount": 38,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-10-23T02:00:00+09:00"
-  },
-  {
-   "id": "d_steam_3299050",
-   "store": "steam",
-   "title": "No Such Place",
-   "link": "https://store.steampowered.com/app/3299050/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3299050/7ac41a077dfde4582707c5c9bd905c916b7a014c/capsule_231x87.jpg?t=1791980785",
-   "price_original": 2280,
-   "price_sale": 1960,
-   "discount": 14,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
+   "ends_at": "2026-10-30T02:00:08+09:00"
   },
   {
    "id": "d_steam_4356430",
@@ -2389,6 +2356,34 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_3299050",
+   "store": "steam",
+   "title": "No Such Place",
+   "link": "https://store.steampowered.com/app/3299050/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3299050/7ac41a077dfde4582707c5c9bd905c916b7a014c/capsule_231x87.jpg?t=1791980785",
+   "price_original": 2280,
+   "price_sale": 1960,
+   "discount": 14,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3240220",
+   "store": "steam",
+   "title": "グランド・セフト・オートV エンハンスト",
+   "link": "https://store.steampowered.com/app/3240220/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
+   "price_original": 6480,
+   "price_sale": 2851,
+   "discount": 56,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-23T02:00:00+09:00"
+  },
+  {
    "id": "d_steam_3314580",
    "store": "steam",
    "title": "Trash Day",
@@ -2401,48 +2396,6 @@
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
-  },
-  {
-   "id": "d_steam_3883570",
-   "store": "steam",
-   "title": "インボキア-呪いのダイスゲーム-",
-   "link": "https://store.steampowered.com/app/3883570/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/77442fe87da250d359fd54d1e76465bf80632da8/header_japanese.jpg?t=1791907648",
-   "price_original": 1200,
-   "price_sale": 900,
-   "discount": 25,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-23T02:00:22+09:00"
-  },
-  {
-   "id": "d_steam_1623730",
-   "store": "steam",
-   "title": "Palworld / パルワールド",
-   "link": "https://store.steampowered.com/app/1623730/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_231x87.jpg?t=1790336367",
-   "price_original": 3400,
-   "price_sale": 2380,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2138330",
-   "store": "steam",
-   "title": "サイバーパンク2077：仮初めの自由",
-   "link": "https://store.steampowered.com/app/2138330/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/bdbeea292270b8cd9dde1f2044a411624db58657/header.jpg?t=1784713876",
-   "price_original": 4309,
-   "price_sale": 2585,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-27T03:00:00+09:00"
   },
   {
    "id": "d_steam_1151340",
@@ -2473,18 +2426,88 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_1623730",
+   "store": "steam",
+   "title": "Palworld / パルワールド",
+   "link": "https://store.steampowered.com/app/1623730/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_231x87.jpg?t=1790336367",
+   "price_original": 3400,
+   "price_sale": 2380,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2138330",
+   "store": "steam",
+   "title": "サイバーパンク2077：仮初めの自由",
+   "link": "https://store.steampowered.com/app/2138330/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138330/3d2b6a051a7e2fc4ff654d95d6876c24d6dda13d/capsule_231x87.jpg?t=1784713876",
+   "price_original": 4309,
+   "price_sale": 2585,
+   "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1374490",
+   "store": "steam",
+   "title": "RuneScape: Dragonwilds ルーンスケープ：ドラゴンワイルズ",
+   "link": "https://store.steampowered.com/app/1374490/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg?t=1791278745",
+   "price_original": 3400,
+   "price_sale": 2380,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-30T03:00:00+09:00"
+  },
+  {
+   "id": "d_steam_3883570",
+   "store": "steam",
+   "title": "インボキア-呪いのダイスゲーム-",
+   "link": "https://store.steampowered.com/app/3883570/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3883570/91d5e903bee960c574cf8ff991abe8d44db62b29/capsule_231x87_japanese.jpg?t=1791907648",
+   "price_original": 1200,
+   "price_sale": 900,
+   "discount": 25,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4098030",
+   "store": "steam",
+   "title": "Shipping Store Simulator 2037",
+   "link": "https://store.steampowered.com/app/4098030/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4098030/3485e9062fd28c4abcf6ba6d5f60e82119ade026/capsule_231x87.jpg?t=1791985843",
+   "price_original": 2600,
+   "price_sale": 2340,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_3845070",
    "store": "steam",
    "title": "虚言審判",
    "link": "https://store.steampowered.com/app/3845070/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3845070/653e9d6239c048007b04258f5ba10633cb87e005/capsule_231x87_alt_assets_1_japanese.jpg?t=1792079628",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_alt_assets_1_japanese.jpg?t=1792079628",
    "price_original": 2300,
    "price_sale": 1840,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": null
+   "ends_at": "2026-10-30T02:00:08+09:00"
   },
   {
    "id": "d_steam_3892270",
@@ -2515,6 +2538,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_3410460",
+   "store": "steam",
+   "title": "Street Fighter 6 - Year 3 キャラクターパス",
+   "link": "https://store.steampowered.com/app/3410460/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3410460/1119bed10001e616e190bcb4af3eeede7be99d97/capsule_231x87.jpg?t=1784618229",
+   "price_original": 3000,
+   "price_sale": 2400,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_1778820",
    "store": "steam",
    "title": "鉄拳8",
@@ -2529,13 +2566,13 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_4098030",
+   "id": "d_steam_2967950",
    "store": "steam",
-   "title": "Shipping Store Simulator 2037",
-   "link": "https://store.steampowered.com/app/4098030/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4098030/3485e9062fd28c4abcf6ba6d5f60e82119ade026/capsule_231x87.jpg?t=1791985843",
-   "price_original": 2600,
-   "price_sale": 2340,
+   "title": "The Witch's Bakery",
+   "link": "https://store.steampowered.com/app/2967950/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2967950/af8db0d80cbbaed8db31580689945d9abaa904aa/capsule_231x87.jpg?t=1791986240",
+   "price_original": 2400,
+   "price_sale": 2160,
    "discount": 10,
    "is_free": false,
    "upcoming": false,
@@ -2557,28 +2594,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3410460",
+   "id": "d_steam_1174180",
    "store": "steam",
-   "title": "Street Fighter 6 - Year 3 キャラクターパス",
-   "link": "https://store.steampowered.com/app/3410460/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3410460/1119bed10001e616e190bcb4af3eeede7be99d97/capsule_231x87.jpg?t=1784618229",
-   "price_original": 3000,
-   "price_sale": 2400,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2967950",
-   "store": "steam",
-   "title": "The Witch's Bakery",
-   "link": "https://store.steampowered.com/app/2967950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2967950/af8db0d80cbbaed8db31580689945d9abaa904aa/capsule_231x87.jpg?t=1791986240",
-   "price_original": 2400,
-   "price_sale": 2160,
-   "discount": 10,
+   "title": "Red Dead Redemption 2",
+   "link": "https://store.steampowered.com/app/1174180/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
+   "price_original": 8618,
+   "price_sale": 2154,
+   "discount": 75,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2599,98 +2622,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1374490",
+   "id": "d_steam_3410470",
    "store": "steam",
-   "title": "RuneScape: Dragonwilds ルーンスケープ：ドラゴンワイルズ",
-   "link": "https://store.steampowered.com/app/1374490/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1374490/f58347a40fdb989309b2b738c1176f67447aec11/capsule_231x87.jpg?t=1791278745",
-   "price_original": 3400,
-   "price_sale": 2380,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2138720",
-   "store": "steam",
-   "title": "REMATCH",
-   "link": "https://store.steampowered.com/app/2138720/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138720/926eeaa4f0ed77b69b4c64c3e1f22bcd587fc96a/capsule_231x87_alt_assets_1.jpg?t=1791561528",
-   "price_original": 4900,
-   "price_sale": 1960,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1859910",
-   "store": "steam",
-   "title": "活俠傳",
-   "link": "https://store.steampowered.com/app/1859910/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1859910/capsule_231x87.jpg?t=1780993657",
-   "price_original": 2300,
-   "price_sale": 2070,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2254990",
-   "store": "steam",
-   "title": "Permafrost",
-   "link": "https://store.steampowered.com/app/2254990/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2254990/024db5584cd87b23dd37229e049378f2d4828bdb/capsule_231x87.jpg?t=1791980722",
-   "price_original": 2799,
-   "price_sale": 2239,
+   "title": "Street Fighter 6 - Year 3 アルティメットパス",
+   "link": "https://store.steampowered.com/app/3410470/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3410470/10f9275afdec37285fcf49be04c62678b982f0eb/capsule_231x87.jpg?t=1784618620",
+   "price_original": 4800,
+   "price_sale": 3840,
    "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2725250",
-   "store": "steam",
-   "title": "ニエンタム — オプス・ゼロ — (Nientum - Op.ZERO)",
-   "link": "https://store.steampowered.com/app/2725250/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2725250/5d3cfcc2d00c057b1d888c3f69d0e41fae6c3be6/capsule_231x87.jpg?t=1791950185",
-   "price_original": 2200,
-   "price_sale": 1760,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3907350",
-   "store": "steam",
-   "title": "テニスの王子様　も～っと 学園祭の王子様 ♡-40 and more...",
-   "link": "https://store.steampowered.com/app/3907350/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3907350/9ae88c869f3d4820799ec33772003c1b8a8426a7/capsule_231x87_japanese.jpg?t=1791955082",
-   "price_original": 7700,
-   "price_sale": 6160,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1174180",
-   "store": "steam",
-   "title": "Red Dead Redemption 2",
-   "link": "https://store.steampowered.com/app/1174180/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
-   "price_original": 8618,
-   "price_sale": 2154,
-   "discount": 75,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2711,84 +2650,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3569420",
+   "id": "d_steam_2254990",
    "store": "steam",
-   "title": "Chained Beasts",
-   "link": "https://store.steampowered.com/app/3569420/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3569420/37a1f130512c4537b4a2b556bd104adb710bb0c5/capsule_231x87.jpg?t=1792082632",
-   "price_original": 2600,
-   "price_sale": 1690,
-   "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3410470",
-   "store": "steam",
-   "title": "Street Fighter 6 - Year 3 アルティメットパス",
-   "link": "https://store.steampowered.com/app/3410470/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3410470/10f9275afdec37285fcf49be04c62678b982f0eb/capsule_231x87.jpg?t=1784618620",
-   "price_original": 4800,
-   "price_sale": 3840,
+   "title": "Permafrost",
+   "link": "https://store.steampowered.com/app/2254990/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2254990/024db5584cd87b23dd37229e049378f2d4828bdb/capsule_231x87.jpg?t=1791980722",
+   "price_original": 2799,
+   "price_sale": 2239,
    "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1858630",
-   "store": "steam",
-   "title": "ソードアート・オンライン フラクチュアード デイドリーム",
-   "link": "https://store.steampowered.com/app/1858630/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1858630/capsule_231x87.jpg?t=1791363033",
-   "price_original": 12100,
-   "price_sale": 4840,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1702010",
-   "store": "steam",
-   "title": "Sengoku Dynasty",
-   "link": "https://store.steampowered.com/app/1702010/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1702010/628fe5d015f6b8a95693a9ab01b7f56c5d23f1e6/capsule_231x87.jpg?t=1792008540",
-   "price_original": 3378,
-   "price_sale": 1620,
-   "discount": 52,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1243830",
-   "store": "steam",
-   "title": "Overcooked! All You Can Eat",
-   "link": "https://store.steampowered.com/app/1243830/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1243830/capsule_231x87.jpg?t=1788969190",
-   "price_original": 4100,
-   "price_sale": 1230,
-   "discount": 70,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2634950",
-   "store": "steam",
-   "title": "首都高バトル",
-   "link": "https://store.steampowered.com/app/2634950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2634950/26e314a7da5d9af3afbba68efc0ae3e04cce3e36/capsule_231x87_japanese.jpg?t=1790326750",
-   "price_original": 6600,
-   "price_sale": 3960,
-   "discount": 40,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2809,14 +2678,42 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2567870",
+   "id": "d_steam_3907350",
    "store": "steam",
-   "title": "Chained Together",
-   "link": "https://store.steampowered.com/app/2567870/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2567870/fe50d80ef2412446a0761056c5d5395e97b525a6/capsule_231x87.jpg?t=1791478907",
-   "price_original": 580,
-   "price_sale": 464,
+   "title": "テニスの王子様　も～っと 学園祭の王子様 ♡-40 and more...",
+   "link": "https://store.steampowered.com/app/3907350/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3907350/9ae88c869f3d4820799ec33772003c1b8a8426a7/capsule_231x87_japanese.jpg?t=1791955082",
+   "price_original": 7700,
+   "price_sale": 6160,
    "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1859910",
+   "store": "steam",
+   "title": "活俠傳",
+   "link": "https://store.steampowered.com/app/1859910/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1859910/capsule_231x87.jpg?t=1780993657",
+   "price_original": 2300,
+   "price_sale": 2070,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2138720",
+   "store": "steam",
+   "title": "REMATCH",
+   "link": "https://store.steampowered.com/app/2138720/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138720/926eeaa4f0ed77b69b4c64c3e1f22bcd587fc96a/capsule_231x87_alt_assets_1.jpg?t=1791561528",
+   "price_original": 4900,
+   "price_sale": 1960,
+   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2837,28 +2734,126 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2825190",
+   "id": "d_steam_1702010",
    "store": "steam",
-   "title": "Street Fighter 6 - Year 2 キャラクターパス",
-   "link": "https://store.steampowered.com/app/2825190/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2825190/capsule_231x87.jpg?t=1780278916",
-   "price_original": 3000,
-   "price_sale": 1950,
-   "discount": 35,
+   "title": "Sengoku Dynasty",
+   "link": "https://store.steampowered.com/app/1702010/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1702010/628fe5d015f6b8a95693a9ab01b7f56c5d23f1e6/capsule_231x87.jpg?t=1792008540",
+   "price_original": 3378,
+   "price_sale": 1620,
+   "discount": 52,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_1046480",
+   "id": "d_steam_2725250",
    "store": "steam",
-   "title": "アイドルマスター スターリットシーズン",
-   "link": "https://store.steampowered.com/app/1046480/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1046480/capsule_231x87.jpg?t=1704409921",
-   "price_original": 9020,
-   "price_sale": 2706,
+   "title": "ニエンタム — オプス・ゼロ — (Nientum - Op.ZERO)",
+   "link": "https://store.steampowered.com/app/2725250/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2725250/5d3cfcc2d00c057b1d888c3f69d0e41fae6c3be6/capsule_231x87.jpg?t=1791950185",
+   "price_original": 2200,
+   "price_sale": 1760,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1295660",
+   "store": "steam",
+   "title": "シドマイヤーズ シヴィライゼーション VII",
+   "link": "https://store.steampowered.com/app/1295660/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1295660/56f256d5776521616d8842cd435f97b22de655cd/capsule_231x87.jpg?t=1789481137",
+   "price_original": 12650,
+   "price_sale": 6325,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2634950",
+   "store": "steam",
+   "title": "首都高バトル",
+   "link": "https://store.steampowered.com/app/2634950/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2634950/26e314a7da5d9af3afbba68efc0ae3e04cce3e36/capsule_231x87_japanese.jpg?t=1790326750",
+   "price_original": 6600,
+   "price_sale": 3960,
+   "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2567870",
+   "store": "steam",
+   "title": "Chained Together",
+   "link": "https://store.steampowered.com/app/2567870/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2567870/fe50d80ef2412446a0761056c5d5395e97b525a6/capsule_231x87.jpg?t=1791478907",
+   "price_original": 580,
+   "price_sale": 464,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1243830",
+   "store": "steam",
+   "title": "Overcooked! All You Can Eat",
+   "link": "https://store.steampowered.com/app/1243830/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1243830/capsule_231x87.jpg?t=1788969190",
+   "price_original": 4100,
+   "price_sale": 1230,
    "discount": 70,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_699130",
+   "store": "steam",
+   "title": "World War Z",
+   "link": "https://store.steampowered.com/app/699130/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/699130/bc262c3fd0b77d064cae97471f4218a8f1f34495/capsule_231x87.jpg?t=1791201515",
+   "price_original": 4299,
+   "price_sale": 1074,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2124120",
+   "store": "steam",
+   "title": "サルファー",
+   "link": "https://store.steampowered.com/app/2124120/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/939ba19f0fa15e399329ae380b2de0cb15593ea3/capsule_231x87.jpg?t=1791577246",
+   "price_original": 2900,
+   "price_sale": 1160,
+   "discount": 60,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3167020",
+   "store": "steam",
+   "title": "エスケープ フロム ダッコフ",
+   "link": "https://store.steampowered.com/app/3167020/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3167020/7c2aff88e9dec754268cebac09113f5a41bc792e/capsule_231x87_japanese.jpg?t=1788419722",
+   "price_original": 1800,
+   "price_sale": 1260,
+   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2879,28 +2874,28 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_673750",
+   "id": "d_steam_1858630",
    "store": "steam",
-   "title": "スーパーバニーマン",
-   "link": "https://store.steampowered.com/app/673750/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/673750/5613e86f95b528938211d22326e29cddcabcf669/capsule_231x87.jpg?t=1764709681",
-   "price_original": 1700,
-   "price_sale": 850,
-   "discount": 50,
+   "title": "ソードアート・オンライン フラクチュアード デイドリーム",
+   "link": "https://store.steampowered.com/app/1858630/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1858630/capsule_231x87.jpg?t=1791363033",
+   "price_original": 12100,
+   "price_sale": 4840,
+   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_3167020",
+   "id": "d_steam_2825190",
    "store": "steam",
-   "title": "エスケープ フロム ダッコフ",
-   "link": "https://store.steampowered.com/app/3167020/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3167020/7c2aff88e9dec754268cebac09113f5a41bc792e/capsule_231x87_japanese.jpg?t=1788419722",
-   "price_original": 1800,
-   "price_sale": 1260,
-   "discount": 30,
+   "title": "Street Fighter 6 - Year 2 キャラクターパス",
+   "link": "https://store.steampowered.com/app/2825190/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2825190/capsule_231x87.jpg?t=1780278916",
+   "price_original": 3000,
+   "price_sale": 1950,
+   "discount": 35,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
