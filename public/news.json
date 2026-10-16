@@ -1,308 +1,1135 @@
 {
- "updated_at": "2026-10-16T16:11:59+09:00",
+ "updated_at": "2026-10-16T21:27:26+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:IGN Japan",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:電ファミニコゲーマー",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:AUTOMATON",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:gamebiz",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:Game*Spark",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:任天堂公式",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:PlayStation Blog",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:Xbox Wire Japan",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:Gematsu",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:PC Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:Kotaku",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "rss:Eurogamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "steam",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "epic",
    "ok": true,
    "count": 4,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "ps",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "eshop",
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-10-16T16:11:59+09:00"
+   "last_success": "2026-10-16T21:27:26+09:00"
   }
  ],
  "news": [
   {
-   "id": "n_9dc45eb44250",
-   "title": "【ゲームエンタメ株概況(10/16)】1Q決算が大幅な増益での着地となったIGポートが大幅反発 業績予想の増額が最終益のみにとどまった東宝は反落",
-   "link": "https://gamebiz.jp/news/434212",
-   "summary": "10月16日の東京株式市場では、日経平均は7日ぶりに反発し、前日比898.34円高の6万5324.29円で取引を終えた。AI投資への過度な懸念の後退から国内市場は朝方からAI・半導体関連株を中心に買い戻しの動きが先行した。 中で、IGポート",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T16:09:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_3502d51ab64a",
-   "title": "Serafini ProductionsとSoft Source、東京タワーが舞台の一人称視点心理ホラーゲーム『BrokenLore: ASCEND』を2027年1月7日に発売決定",
-   "link": "https://gamebiz.jp/news/434211",
-   "summary": "Serafini ProductionsとSoft Sourceは、一人称視点心理ホラーゲーム『BrokenLore: ASCEND』を2027年1月7日に発売すると発表した。対応プラットフォームはPlayStation 5、Xbox Se",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [
-    "PS5",
-    "Xbox"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T16:07:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_2fb27b96e7f1",
-   "title": "「ディスコ エリジウム」を手掛けたZA/UMによるスパイRPG「ZERO PARADES: Director's Cut」，2026年11月3日にPS5版とNintendo Switch 2版を発売。各コンソール版の固有機能を紹介する映像も公開",
-   "link": "https://www.4gamer.net/games/050/G105084/20261016024/",
-   "summary": "ZA/UMは，スパイRPG「ZEROPARADES:Director'sCut」のPS5版とNintendoSwitch2版を2026年11月3日に発売する。あわせて，各コンソール版の固有機能を紹介する映像を公開した。",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [
-    "Switch",
-    "PS5"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T16:02:43+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_33e6181526de",
-   "title": "異形の生物を釣りながら水没した世界を放浪するアクションADV「DREADMOOR」，早期アクセス版を11月9日にリリース",
-   "link": "https://www.4gamer.net/games/902/G090206/20261016029/",
-   "summary": "DigitalVortexEntertainmentは2026年10月15日，新作タイトル「DREADMOOR」の早期アクセス版を11月9日にリリースすると発表した。本作は，過去の大災厄によって文明が崩壊し，陸地のほとんどが海に沈んだ世界を",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T16:02:31+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_4a90bc1f05ef",
-   "title": "謎の疫病の蔓延に苦しむ島で新たな冒険に挑む『ATOM RPG』ストーリー拡張DLC「Plague Island」配信！",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173689.html",
-   "summary": "物語を重視したDLCで、新たなロケーション、ストーリー、キャラクター、そして数々の魅力的なゲームプレイ要素を追加します。",
+   "id": "n_451a1479928b",
+   "title": "【実体験】生成AIはすでに「パラドゲー」すらクリアできる―こんなに簡単！PC操作をAIに任せ、ハードコア歴史ストラテジーを攻略させた一部始終をお見せします",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173711.html",
+   "summary": "もはや少なからぬ数の人間のゲーマー以上なのでは…。",
    "source": "Game*Spark",
    "region": "jp",
    "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207308.jpg",
-   "published_at": "2026-10-16T16:00:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "image": "http://www.gamespark.jp/imgs/rss/1206934.jpg",
+   "published_at": "2026-10-16T21:25:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
   },
   {
-   "id": "n_11ca43a653d0",
-   "title": "コシダカ、PANDORAおよびソニー協力のもと最新XR技術を用いてVTuberと直接会える・話せるイベント「うかふぇす!」を11月7日にカラオケまねきねこ渋谷本店で開催",
-   "link": "https://gamebiz.jp/news/434200",
-   "summary": "「カラオケまねきねこ」を全国725店舗（2026年9月末時点）展開するコシダカは、PANDORAおよびソニーの技術協力のもと、最新のXR技術を用いてVTuberと直接【会える】【話せる】イベント「うかふぇす!」を、2026年11月7日（土）",
-   "source": "gamebiz",
+   "id": "n_717ea101c13e",
+   "title": "ロシアンルーレット飲酒サバイバル「PUKEY GODDESS SHOT TRICK」，体験版の一般公開を中止。AIによる模倣作品の登場などを懸念して",
+   "link": "https://www.4gamer.net/games/002/G100266/20261016067/",
+   "summary": "アライアンス・アーツは本日（2026年10月16日），10月19日に予定していた「PUKEYGODDESSSHOTTRICK」の体験版の一般公開を中止し，参加者を限定したクローズド形式の試遊へと変更すると発表した。",
+   "source": "4Gamer",
    "region": "jp",
    "platforms": [],
    "image": null,
-   "published_at": "2026-10-16T16:00:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "published_at": "2026-10-16T21:20:50+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
   },
   {
-   "id": "n_e756bf6cd689",
-   "title": "『フォールアウト』レトロな雰囲気たっぷりのブラウン管型「ペンスタンド」が欲しすぎる。池袋パルコにて10月22日より「Fallout mini Collection」が開催",
-   "link": "https://news.denfaminicogamer.jp/news/2610162d",
-   "summary": "画面にはシリーズおなじみ“ボルトボーイ”がいつもの笑顔でサムズアップ。ウェイストランドでの過酷なデスクワークにも",
+   "id": "n_0b39d01939a6",
+   "title": "話題を呼んだ『ウマ娘』ぱちスロの発表会に声優の上田瞳さん、大空直美さん、日笠陽子さんが登壇！お笑い芸人・バッテリィズと早口＆ロングブレス対決の様子をお届け",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173710.html",
+   "summary": "「ぱちスロ ウマ娘 プリティーダービー」のプレス発表会に、上田瞳さん、大空直美さん、日笠陽子さん、バッテリィズが登壇。早口やロングブレスで競うチャレンジ企画のほか、それぞれが育成したいステータスについて語りました。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207592.jpg",
+   "published_at": "2026-10-16T21:15:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_f2fb31cfbc79",
+   "title": "ヤンデレ悪魔との酒呑みサバイバルゲーム『PUKEY GODDESS SHOT TRICK』体験版の一般公開を取りやめ。発売前に「AIによる模倣作」が出回る可能性を懸念",
+   "link": "https://news.denfaminicogamer.jp/news/2610162r",
+   "summary": "当初は10月19日に体験版が一般公開予定だったが、クローズドなオンライン体験会へと変更。参加者は公式Discordにて募集",
    "source": "電ファミニコゲーマー",
    "region": "jp",
    "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/92133-351-ed196ce187c1a0ca2d0b064a24bb4823-1440x1440-1-1024x1024.webp",
-   "published_at": "2026-10-16T15:59:50+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/ss_c6067e139d8dd2cbf79c41a9c4e41e3bb088c95a.1920x1080-1024x576.jpg",
+   "published_at": "2026-10-16T21:02:10+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
   },
   {
-   "id": "n_567f027f614c",
-   "title": "「ブレス オブ ファイア」シリーズのキャラデザインなどで知られる吉川達哉氏の個展が渋谷にて開催中。会場の様子とミニインタビューをお届け",
-   "link": "https://www.4gamer.net/games/991/G999110/20261016025/",
-   "summary": "「ブレスオブファイア」シリーズ，「野狗子:Slitterhead」など，さまざまなゲームのキャラクターデザインを手がけた吉川達哉氏の個展「Xv-TatsuyaYoshikawaArtExhibition」が，2026年10月16日から10月",
-   "source": "4Gamer",
+   "id": "n_5b5e7ecda289",
+   "title": "ヤンデレ悪魔と飲みサババル『PUKEY GODDESS SHOT TRICK』体験版、一般公開中止しクローズド形式へ方針転換―AI模倣懸念と運営体制を考慮",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173709.html",
+   "summary": "公開予定日直前に変更。",
+   "source": "Game*Spark",
    "region": "jp",
    "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T15:52:24+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "image": "http://www.gamespark.jp/imgs/rss/1207488.jpg",
+   "published_at": "2026-10-16T21:01:36+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
   },
   {
-   "id": "n_7295ff242548",
-   "title": "「ポケモン」より，クリスマスをテーマにしたグッズ「クリスマスじゅんびチュウ！」が10月22日に発売",
-   "link": "https://www.4gamer.net/games/991/G999106/20261016027/",
-   "summary": "ポケモンは本日（2026年10月16日），クリスマスをテーマにしたグッズ「クリスマスじゅんびチュウ！」を，ポケモンセンターオンラインで10月22日10：00に，ポケモンセンターで10月24日に発売すると発表した。",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T15:47:54+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_df0ca93c0988",
-   "title": "ブシロード、『バンドリ！アワーノーツ』で映画「BanG Dream! Ave Mujica prima aurora」公開記念Ave Mujicaピックアップガチャを開催",
-   "link": "https://gamebiz.jp/news/434202",
-   "summary": "ブシロード は『バンドリ！アワーノーツ』において、10月16日15時より映画「BanG Dream! Ave Mujica prima aurora」公開記念 Ave Mujicaピックアップガチャを開催中だ。 本ガチャは、Ave Muji",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T15:47:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_d31c94e1fd88",
-   "title": "GENDA GiGO、ベトナム5店舗目「GiGOイオンモール タインホア」を10月18日にグランドオープン",
-   "link": "https://gamebiz.jp/news/434209",
-   "summary": "GENDA のグループ会社であるGENDA GiGO Entertainmentは、ベトナム・タインホア省に「GiGOイオンモール タインホア」を10月18日にグランドオープンすると発表した。 ベトナムにおける「GiGO」として5店舗目とな",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T15:45:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_af9930bc9fef",
-   "title": "ローグライクサバイバルゲーム「Amazing Slot Survivor」，体験版がSteamで公開に。10月20日に開幕する「Steam Nextフェス」への出展も決定",
-   "link": "https://www.4gamer.net/games/040/G104050/20261016026/",
-   "summary": "LINEGamesは本日（2026年10月16日），PC向け新作ゲーム「AmazingSlotSurvivor」の体験版をSteamで公開した。体験版は，9月に開催されたSteamプレイテストで寄せられたフィードバックを反映し，ゲーム性が向",
+   "id": "n_9eaf83b08e3b",
+   "title": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める",
+   "link": "https://www.4gamer.net/games/050/G105051/20261015021/",
+   "summary": "去る北米時間2026年10月7日，NVIDIA製のSoC「NVIDIARTXSpark」搭載PCが，MicrosoftやASUSTeKComputer，MSIなどから発表となった。その翌日にNVIDIAは，米国でRTXSparkに関する技術",
    "source": "4Gamer",
    "region": "jp",
    "platforms": [
     "PC"
    ],
    "image": null,
-   "published_at": "2026-10-16T15:38:43+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "published_at": "2026-10-16T21:00:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
   },
   {
-   "id": "n_35fe129214d7",
-   "title": "セガ、『ペルソナ５: The Phantom X』に『ペルソナ３ リロード』の「桐条美鶴」が登場！ Ver.4.11アップデートを実施",
-   "link": "https://gamebiz.jp/news/434206",
-   "summary": "セガは、『ペルソナ５: The Phantom X』（以下、『P5X』）について、Ver.4.11アップデートを実施した。今回のアップデートでは、『ペルソナ３ リロード』（以下、『P3R』）とのコラボイベント“月の道を往く・麗氷の細剣”の開",
+   "id": "n_645df051fcb7",
+   "title": "【無料】アニメ『カードキャプターさくら クリアカード編』YouTubeにて期間限定配信中。さくらのあつめたカードが突然“透明”に",
+   "link": "https://news.denfaminicogamer.jp/news/2610162v",
+   "summary": "中学生になったさくらは、友枝町で相次ぐ不思議な出来事に遭遇し、夢で出会った「鍵」に導かれていく。配信期間は11月16日まで",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HUuINtwagAALNMn-1024x576.jpg",
+   "published_at": "2026-10-16T20:59:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_a755c26a3a07",
+   "title": "開封しながら物語を読み進める対戦ボドゲ「Mālum（マールム） リンゴゲーム」が2027年2月発売へ。ゲムマ2026秋で試遊が可能",
+   "link": "https://www.4gamer.net/games/051/G105101/20261016065/",
+   "summary": "スクウェア・エニックスは本日（2026年10月16日），新作ボードゲーム「Mālum（マールム）リンゴゲーム」を2027年2月頃に発売すると発表し，公式サイトをオープンした。相手の手札から「プレイヤーカード」を引けば勝利する，1対1のシンプ",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T20:50:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_38f27a61cfe2",
+   "title": "「ペルソナ5 ザ・ロイヤル」可哀想に！氏が描き起こしたLINEアニメーションスタンプを発売。グッズも販売予定",
+   "link": "https://www.4gamer.net/games/637/G063753/20261016064/",
+   "summary": "アトラスは本日（2026年10月16日），「ペルソナ5ザ・ロイヤル」より，クリエイター・可哀想に！氏が描き起こしたLINEアニメーションスタンプを発売した。描き起こしイラストを使用したコラボグッズの販売も予定されている。",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T20:45:34+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_416bc3f7f82d",
+   "title": "「廃課金生活」が体験できるゲーム『廃課金シミュレーター』体験版が配信開始。働いて稼いだお金を、ソシャゲの課金につぎ込む",
+   "link": "https://news.denfaminicogamer.jp/news/261016f",
+   "summary": "スキルレベルを上げたり、従業員を雇って自ら会社を経営することも可能。効率的に稼いで莫大な金額でほかのプレイヤーを蹂躙しよう",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/gacha-1024x576.png",
+   "published_at": "2026-10-16T20:44:48+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_ba78c42a2fb1",
+   "title": "鎖でつながれた4人が闘技場での戦いを生き抜く協力型ローグライトACT「Chained Beasts」，配信開始",
+   "link": "https://www.4gamer.net/games/050/G105081/20261016061/",
+   "summary": "FeatherweightGamesは本日（2026年10月16日），新作タイトル「ChainedBeasts」をリリースした。本作は，仲間とともに闘技場での混沌とした戦いに挑む，最大4人協力プレイに対応した剣闘士ローグライクアクションゲー",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T20:40:17+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_4c27fbd4e836",
+   "title": "Steam実績をテーマや用途ごとに整理できる新機能「実績セット」がベータで提供開始。ゲーム本編とDLCで実績の進捗が分離され，一度達成したコンプリート状況は保持される",
+   "link": "https://www.4gamer.net/games/038/G003821/20261016063/",
+   "summary": "Steamは，クライアントベータで新機能「実績セット」の提供を開始した。ゲーム内の実績をテーマや用途ごとにグループ化する機能で，ゲーム本編と追加コンテンツの実績を整理できる。",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T20:35:59+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_1154e155a2e0",
+   "title": "大注目の美少女悪魔・酒飲みロシアンルーレット『PUKEY GODDESS SHOT TRICK』、体験版が急遽公開中止に。「AIによる模倣」への懸念から“参加者を絞って”実施へ",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-474004/",
+   "summary": "アライアンス・アーツは10月16日、『PUKEY GODDESS SHOT TRICK』体験版の一般公開を中止すると発表した。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-474004-header.jpg",
+   "published_at": "2026-10-16T20:33:39+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_e5493c6c8315",
+   "title": "堀井雄二氏、今話題の人生シムをプレイ。どこかの誰かの一生を体験する『80億分の1』―「けっこう長生きでした」",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173708.html",
+   "summary": "統計に基づいて再現された世界での一生を描く。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207463.png",
+   "published_at": "2026-10-16T20:15:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_2211b191fcbe",
+   "title": "CD Projekt Redは、謎のHadarゲームが「これまでで最大のプロジェクト」であると述べているが、「数年」を経ても、それは遠いようだ",
+   "link": "https://www.eurogamer.net/cd-projekt-red-project-hadar-sirius-witcher",
+   "summary": "CD Projekt Red has described its mysterious new game, which is currently known by its codename Hadar, as its \"biggest pr",
+   "source": "Eurogamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://assetsio.gnwcdn.com/what-is-cdpr-hadar.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-10-16T20:09:05+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "CD Projekt Red says its mysterious Hadar game is its \"biggest project to date\", but even after \"several good years\" it's seemingly a long way off",
+   "translated": true
+  },
+  {
+   "id": "n_f6f20c8f4d3c",
+   "title": "Switch2 / Switch本体の修理価格を11月16日に到着した修理品から改定。修理内容によっては9900円の値上げに",
+   "link": "https://www.4gamer.net/games/999/G999903/20261016057/",
+   "summary": "任天堂は，2026年11月16日に同社に到着した修理品から，NintendoSwitch2/NintendoSwitch本体の修理価格を改定すると発表した。このたびの改定は修理部品の価格高騰によるものであり，全体的に値上げする形となった。",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [
+    "Switch"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T20:05:24+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_737f5acc55f5",
+   "title": "地元バルセロナのイベントで大賞を受賞した「Wilderings: The Lost Spring」は，生命の輪廻を描いたローグライト・サバイバルアドベンチャー",
+   "link": "https://www.4gamer.net/games/939/G093958/20261016052/",
+   "summary": "前作「エンドリング-エクスティンクションイズフォーエバー」で高い評価を得たHerobeatStudiosの新作「Wilderings:TheLostSpring」は，失われた“春”を取り戻すために旅するサバイバルアドベンチャーだ。SAGAB",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T20:01:16+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_d68449abc7a7",
+   "title": "Silver Lining Interactive、飢えた怪物たちから娘を守り抜くホラーゲーム『The Road Of Dust And Sorrow』を2026年12月3日にリリース",
+   "link": "https://gamebiz.jp/news/434240",
+   "summary": "Painted Black GamesとSilver Lining Interactiveは、『The Road Of Dust And Sorrow』を2026年12月3日にSteam、PlayStation 5、XBOX Series ",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [
+    "PS5",
+    "PC",
+    "Xbox"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T20:01:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_2b71e2432beb",
+   "title": "Control Resonant は Remedy 史上最速で売れたゲームとなり、Alan Wake 2 とオリジナルの Control を上回ります",
+   "link": "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment",
+   "summary": "The latest game to pass a 1 million copies sold milestone is Control Resonant. Developer Remedy Entertainment broke the ",
+   "source": "Eurogamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://assetsio.gnwcdn.com/control-resonant-upside-down-new-york-shot-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-10-16T20:00:24+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "Control Resonant becomes the fastest-selling game in Remedy's history, outpacing Alan Wake 2 and the original Control",
+   "translated": true
+  },
+  {
+   "id": "n_ead8dc980856",
+   "title": "2羽の飛べない鳥が協力して脱出目指すカートゥーン調パズルADV『Reason and Rhyme』Steamでリリース",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173707.html",
+   "summary": "近接ボイスチャット機能によるコミュニケーションが攻略の鍵となっており、声を掛け合って情報を共有したり、タイミングを合わせたりします。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": "http://www.gamespark.jp/imgs/rss/1192063.jpg",
+   "published_at": "2026-10-16T20:00:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_c15985b04733",
+   "title": "「ホロライブ甲子園 2026」開催記念グッズがGRAPHTから登場。デスク周りに置きやすいマスコットや帽子など3種類を用意",
+   "link": "https://www.4gamer.net/games/949/G094901/20261016023/",
+   "summary": "2026年10月16日，MSYは，ゲーマー向け製品ブランド「GRAPHT」から，「ホロライブ」博衣こより主催の企画「ホロライブ甲子園2026」の参加監督6名やチームをモチーフにした開催記念グッズ全3種類をGRAPHT公式ECサイトにて販売す",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T20:00:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_85413ae9599c",
+   "title": "“自分”を食べさせて人外メイドを育てるラブコメローグライト『Inferno Cafe』無料体験版が配信開始。愛する人に喰べられたい",
+   "link": "https://news.denfaminicogamer.jp/news/2610162u",
+   "summary": "「ケーキ」の自分を喰わせて、悪魔やスライムなどの“問題児メイド”たちを成長させよう。魔界No.1メイドカフェを目指す過程で恋が芽生えることも",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/ss_298a3dce465be624fdde872e6d70d1fa6fdfde87.1920x1080-1024x576.jpg",
+   "published_at": "2026-10-16T19:54:07+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_29cdf107235c",
+   "title": "「ソニックランブル パーティ」，本日から「ハロウィン2026イベント」を開催",
+   "link": "https://www.4gamer.net/games/797/G079769/20261016059/",
+   "summary": "",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T19:53:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_0a6e023f2ea6",
+   "title": "「リトル・ティムはゲイブに夢中だ」：元 Valve ライター、Epic CEO の Tim Sweeney がバイブコーディングで Steam に対抗しようとする試みに困惑",
+   "link": "https://www.pcgamer.com/software/platforms/little-tim-is-so-obsessed-with-gabe-former-valve-writer-baffled-by-epic-ceo-tim-sweeneys-attempts-to-compete-with-steam-via-vibe-coding/",
+   "summary": "\"He talks about Gabe's yachts obsessively, so this is not an accident.\"",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://cdn.mos.cms.futurecdn.net/aRmuneCkQLMQZfYejmFp7o-1920-80.jpg",
+   "published_at": "2026-10-16T19:52:32+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "'Little Tim is so obsessed with Gabe': Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
+   "translated": true
+  },
+  {
+   "id": "n_7a2fe4fea466",
+   "title": "個人ゲーム開発サークル「夜路地」、終末ドット絵アドベンチャー『人のいない世界に』を「Steam Nextフェス」に出展",
+   "link": "https://gamebiz.jp/news/434239",
+   "summary": "個人ゲーム開発サークル「夜路地(YORUROJI)」は、2026年10月16日、開発中の終末ドット絵アドベンチャー『人のいない世界に』について、同年10月19日より開催される「Steam Nextフェス」に出展することを発表した。本作は、S",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T19:49:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_60a58b6bb988",
+   "title": "「グリザイア 集結の百果」の事前登録受付がApp StoreとGoogle Playで開始。「グリザイア」シリーズの15周年を記念したタイトル",
+   "link": "https://www.4gamer.net/games/037/G103778/20261016050/",
+   "summary": "CLYREは本日（2026年10月16日），スマホアプリ「グリザイア集結の百果」の事前登録受付をAppStoreとGooglePlayで開始した。本作は，「グリザイア」シリーズの15周年を記念したタイトルで，2026年内のリリースが予定され",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T19:48:51+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_b7d9901d7222",
+   "title": "ゲーフリ『Beast of Reincarnation』高頻度アプデは次回10月20日頃で一区切りに。最近のレビューでは“やや好評”に評価が上昇",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173706.html",
+   "summary": "サポート窓口へのフィードバックは引き続き受け付けます。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207445.jpg",
+   "published_at": "2026-10-16T19:45:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_13573340de8b",
+   "title": "準決勝: 史上最高の RTS ユニットを決定する残酷な戦争にはあなたの投票が必要です",
+   "link": "https://www.pcgamer.com/games/rts/semifinals-the-brutal-war-to-determine-the-best-rts-unit-of-all-time-needs-your-votes/",
+   "summary": "We've lost a lot of heroes so far.",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/HN7HHkkaXptVvVdZrLXrXg-1920-80.jpg",
+   "published_at": "2026-10-16T19:44:42+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes",
+   "translated": true
+  },
+  {
+   "id": "n_3c880e24ad66",
+   "title": "「D2メガテン」，2026年10月開催！寒露の公開生放送！を10月17日14：00より配信",
+   "link": "https://www.4gamer.net/games/393/G039361/20261016056/",
+   "summary": "",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T19:42:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_4ba552d42685",
+   "title": "Hanamiriro、インタラクティブ・ストーリーカードゲーム『アリスと彼岸』をSteamにて正式リリース",
+   "link": "https://gamebiz.jp/news/434238",
+   "summary": "Hanamiriroは、インタラクティブ・ストーリーカードゲーム『アリスと彼岸』をSteamにて正式リリースした。価格は通常1,050円のところ、リリース記念セールとして10%オフの945円で販売されている。対応プラットフォームはPC(St",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T19:42:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_b0947b1abdc1",
+   "title": "「SONIC THE HEDGEHOG DNA FIGURE」，受注生産の受け付けを開始",
+   "link": "https://www.4gamer.net/games/991/G999106/20261016055/",
+   "summary": "",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T19:41:49+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_fc5ff5d9527d",
+   "title": "「FM27」，監督作成ツールや生成選手を紹介する機能解説ブログを公開",
+   "link": "https://www.4gamer.net/games/037/G103744/20261016054/",
+   "summary": "",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T19:37:41+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_dd504ef40e90",
+   "title": "Peter Molyneux 氏は、Black & White 3 が MIA のままである理由を説明し、「開発するのはとても難しく、困難で、やりがいのあるタイトルです」と魅力的なティーザーを投下します。",
+   "link": "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-why-black-and-white-3-remains-mia-and-then-drops-a-tantalising-teaser-its-such-a-difficult-difficult-challenging-title-to-develop/",
+   "summary": "The father of the god game genre speaks",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/eEaxXEs4Ld3RZRw2WpgkJ7-1920-80.jpg",
+   "published_at": "2026-10-16T19:34:30+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+   "translated": true
+  },
+  {
+   "id": "n_7538b8047abb",
+   "title": "新たな恐怖が消えた: Amazon 詐欺師が 889 ドルの AMD チップをだまし取り、古い Intel チップに移植し、返品検査を通過させたようだ",
+   "link": "https://www.pcgamer.com/hardware/processors/new-fear-dropped-amazon-scammer-seems-to-have-delidded-an-usd889-amd-chip-transplanted-it-on-old-intel-chip-and-got-it-through-return-inspection/",
+   "summary": "The AMD Ryzen 9 9950X3D2 is not a cheap chip.",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/sCFU4JewLjYATBtGnTKmBZ-1920-80.jpg",
+   "published_at": "2026-10-16T19:30:59+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "New fear dropped: Amazon scammer seems to have delidded an $889 AMD chip, transplanted it on old Intel chip, and got it through return inspection",
+   "translated": true
+  },
+  {
+   "id": "n_12beed9a4a19",
+   "title": "『ドラクエ』勇者やローラ姫、ローレシアの王子たちがミニチュアフィギュア化！それぞれの個性が表現された全6種ラインナップ",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173705.html",
+   "summary": "『ドラクエI・II』勇者たち6名がミニチュアフィギュア化！",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207249.jpg",
+   "published_at": "2026-10-16T19:30:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_205910867a30",
+   "title": "宮崎市、公式キャラクター「みやねこ」のLINE絵文字をリリース…愛くるしい表情とかわいい肉球で大切な人とのトークを優しく彩る",
+   "link": "https://gamebiz.jp/news/434236",
+   "summary": "宮崎市は、公式キャラクター「みやねこ」のLINE絵文字を、10月26日よりリリースした。今回配信を開始した絵文字は、日常の何気ない会話で使いやすいフレーズや表情を厳選した全24種類のラインナップとなっている。 ■スタンプの概要と特徴 「みや",
    "source": "gamebiz",
    "region": "jp",
    "platforms": [],
    "image": null,
-   "published_at": "2026-10-16T15:36:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "published_at": "2026-10-16T19:30:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
   },
   {
-   "id": "n_78037b7e9a51",
-   "title": "ドイツ・Retrofiction Games、重厚なストーリーと緻密な世界観が魅力のサバイバルホラーゲーム『Dead of Darkness 2』を発表",
-   "link": "https://gamebiz.jp/news/434207",
-   "summary": "ドイツのRetrofiction Gamesは、新作サバイバルホラーゲーム『Dead of Darkness 2』を発表した。PC(Steam、GOG)およびPlayStation 5、PlayStation 4、Xbox、Nintendo",
+   "id": "n_12f4cae1692e",
+   "title": "みんなで協力し，全力で試験のカンニングに挑むマルチプレイアクションゲーム「Finals Week」，10月29日にリリース決定",
+   "link": "https://www.4gamer.net/games/050/G105097/20261016049/",
+   "summary": "PrettySoonは2026年10月15日，DESTINYbitが開発中の新作タイトル「FinalsWeek」を，10月29日にリリースすると発表した。本作は，期末試験なのに一切勉強してこなかったプレイヤーが，あらゆるツールを駆使してカン",
+   "source": "4Gamer",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T19:29:58+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_3b05be93bc41",
+   "title": "「ネットで擦られきったネタしか言わない女の子」再び、『てあカノ 後輩編』が公開。「フォロワー5000兆人のおもしろインフルエンサー」を目指す後輩女子が、どこかで聞いたネタを連発するフリーゲーム",
+   "link": "https://news.denfaminicogamer.jp/news/2610162o",
+   "summary": "「フォロワー5000兆人のおもしろインフルエンサー」を目指す後輩女子が、どこかで聞いたネタを連発。白Tシャツは無課金アバターだし、酢豚に入っているパイナップルは過剰に否定してくる",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/teakano_kouhai03-1024x576.png",
+   "published_at": "2026-10-16T19:29:55+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_876260f54f22",
+   "title": "『カリアのアトリエ』、“ふっくらからスリムまで”体型変化システム実装決定。最大ふっくらはかなり本気、体型固定も完備",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-473996/",
+   "summary": "ガスト/コーエーテクモは10月16日、『カリアのアトリエ』のユーザーアンケートンの結果を発表した。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473996-header.jpg",
+   "published_at": "2026-10-16T19:28:46+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_9b9d9f66b17c",
+   "title": "『カリアのアトリエ』カリアが食事によって“むちむち”になる機能が実装決定！オプションでON/OFFを切り替えられ、スリムからふっくらまで好きな体型での固定も可能に",
+   "link": "https://news.denfaminicogamer.jp/news/2610162q",
+   "summary": "オプションでON/OFFを切り替えられ、スリムからふっくらまで好きな体型での固定も可能に",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/85c01524336957fa29417299c55c8202-1024x576.jpg",
+   "published_at": "2026-10-16T19:17:07+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_150fa0075e3e",
+   "title": "Wild River Games、愛馬との絆を深めていくライディングADV『HORSE CLUB Ride West』パッケージ版・デジタル版を発売",
+   "link": "https://gamebiz.jp/news/434237",
+   "summary": "Wild River Gamesは、10月9日、『HORSE CLUB Ride West』のパッケージ版をNintendo SwitchおよびPlayStation 5向けに発売し、同時に両機種およびXbox Series X|S、PC(",
    "source": "gamebiz",
    "region": "jp",
    "platforms": [
     "Switch",
     "PS5",
-    "PS4",
     "PC",
     "Xbox"
    ],
    "image": null,
-   "published_at": "2026-10-16T15:34:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "published_at": "2026-10-16T19:17:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_c348c604c4f2",
+   "title": "開発中のSteamゲーム、「Steamフォロワー100人」もいればかなり上位という分析。中央値はわずか12人、みんな案外そんなもん",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-473962/",
+   "summary": "Steamではフォロワー数の中央値が“意外と低い”可能性が、有志の報告によって明らかになっている。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473962-header.jpg",
+   "published_at": "2026-10-16T19:16:31+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_4b196ce4dedc",
+   "title": "緻密なドット絵で描かれる自然系サバイバルゲーム『Wild n Chill』新トレイラー！ 信頼できる犬の相棒と山小屋で過ごそう",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173704.html",
+   "summary": "相棒の犬とともに何もない場所に山小屋を建て、冬を越し、新たな仲間と焚き火を囲む様子が披露されています。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207360.jpg",
+   "published_at": "2026-10-16T19:15:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_d2bd2d164b91",
+   "title": "Puriza Games、限られた視界で闇を探索するホラーゲーム『The Maze: In Dark』を「Steam Next Fest」に出展",
+   "link": "https://gamebiz.jp/news/434235",
+   "summary": "Puriza Gamesは、『The Maze: In Dark』が、10月19日午前10時より1週間にわたって開催される「Steam Next Fest」に参加することを発表した。本作の無料デモ版はNext Fest終了後の10月31日ま",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T19:03:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_24aa56b57fee",
+   "title": "『ローゼンメイデン』から「真紅」の可動プラスチックモデルキットが登場。眼球に視線を変えられる可動機構を採用、ポーズとあわせて高貴な乙女を再現",
+   "link": "https://news.denfaminicogamer.jp/news/2610162p",
+   "summary": "表情パーツ、ゼンマイ、ティーカップ＆ソーサー、アンティークチェアなど付属品満載。価格は6930円、予約は本日から受付中",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/7NtUqB4bXvsZpDQVikgC3ecJ1mSYdRuj-683x1024.webp",
+   "published_at": "2026-10-16T19:00:37+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_b732c73642c6",
+   "title": "PCに住み着いた少女の性格が作業していくと変化―集中支援×娘育成系ADV『Fenestra: my focus, her future』Steamデモ版リリース！",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173703.html",
+   "summary": "PCの中で目覚めた名前しか知らない少女と、現実の仕事や勉強の時間を積み重ねながら、ふたりの関係と未来を紡いでいく育成アドベンチャー。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": "http://www.gamespark.jp/imgs/rss/1207460.png",
+   "published_at": "2026-10-16T19:00:06+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_50041d182dae",
+   "title": "『まのさば』Re,AERシナリオ×不穏イラストのfracoco氏ビジュアルな群像劇オカルト・ホラーADV『Resequence: The Orchard』11月20日発売決定",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173702.html",
+   "summary": "約1時間遊べる無料体験版も配信中。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207165.jpg",
+   "published_at": "2026-10-16T19:00:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_cfda332e1d33",
+   "title": "STAYRESIDENT、『Fenestra: my focus, her future』の無料体験版を配信！集中した時間で物語が進む「集中支援×プリメ系育成アドベンチャー」",
+   "link": "https://gamebiz.jp/news/434226",
+   "summary": "インディーゲームレーベル「STAYRESIDENT」は、『Fenestra: my focus, her future』の無料体験版を配信。あわせて新たなデモトレーラーを公開する。 Steamウィッシュリスト登録数が2万件を突破した本作は、",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T19:00:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_a35bd055369e",
+   "title": "Cygames、『シャドバWB』公式番組「しゃどばすチャンネルビヨンド」が10月24日に配信決定！ 10月28日に追加となる新カードパック情報を公開！",
+   "link": "https://gamebiz.jp/news/434175",
+   "summary": "Cygamesは、次世代スマホカードゲーム『Shadowverse: Worlds Beyond(以下、シャドウバース ワールズビヨンド)』の最新情報をお届けする公式生配信番組「しゃどばすチャンネルビヨンド 第10弾カードパック情報公開！」",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T19:00:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_9f07c51a2fe5",
+   "title": "team17、新作ダークファンタジーアクションローグライト『Little Prince Tyger』を発表",
+   "link": "https://gamebiz.jp/news/434234",
+   "summary": "team17は、2026年10月8日、新作ダークファンタジーアクションローグライト『Little Prince Tyger』を発表した。対応プラットフォームはPCで、2027年の発売を予定している。 本作は、物理演算による緻密な戦闘と流体シ",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T18:56:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_dc7cd126615c",
+   "title": "team17、プリズン脱獄シミュレーションゲームシリーズ最新作『The Escapists 3』を発表",
+   "link": "https://gamebiz.jp/news/434233",
+   "summary": "team17は、10月8日、プリズン脱獄シミュレーションゲームシリーズの最新作となる『The Escapists 3』を発表した。本作はPCおよびコンソール向けに2027年の発売を予定しており、「Triple-I Initiative Sh",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T18:49:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_552e0b91bad5",
+   "title": "【最安値】『ストリートファイター6』が4990円→1996円で購入できるセール開催中。Nintendo Switch 2版なども対象、熱いストリートファイトの世界へ身を投じる絶好のチャンス",
+   "link": "https://news.denfaminicogamer.jp/news/2610162k",
+   "summary": "どういうわけか『名探偵プリキュア！』とのコラボも12月に控えており、格ゲーに馴染みのない層も気軽に『スト6』の世界へ身を投じる絶好のチャンス。『6』！向き合う！",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HUu9fRNbwAAl1sM-1024x576.jpg",
+   "published_at": "2026-10-16T18:48:27+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_ea12455df74a",
+   "title": "Curve Games、フランス革命期のパリ、カルム監獄が舞台のナラティブ型デッキビルダーゲーム『Lazare's Sacrifice』を発表",
+   "link": "https://gamebiz.jp/news/434232",
+   "summary": "Curve Gamesは、2026年10月8日、デベロッパーのDream Reality Interactiveと共同で、PC向けナラティブ型デッキビルダーゲーム『Lazare's Sacrifice』を発表した。発売は2027年春を予定し",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T18:42:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_e9676c4504cd",
+   "title": "終末ガンマン列車防衛ローグライク『Australia Did It』11月11日配信へ。じっくりターン制戦略と大群蹴散らしオートバトルの欲張りパック、『Nuclear Throne』開発者新作",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-473983/",
+   "summary": "Mystic Forgeは10月16日、『Australia Did It: End-of-the-World Railway Defense Business』を11月11日に配信開始すると発表した。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473983-header.jpg",
+   "published_at": "2026-10-16T18:39:30+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_642c4049647d",
+   "title": "『エルミナージュII』Switch版の新情報が11月に公開へ。12種族×16職業の“自分だけのパーティー”が組める3DダンジョンRPG",
+   "link": "https://news.denfaminicogamer.jp/news/2610162l",
+   "summary": "二つ名や性格まで決められるキャラメイクや、個性豊かなNPCとの多彩なイベントで世界に没入できる。モンスターとの激闘が待ち受けるダンジョン探索も",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HUvHZMxawAAffwi-1024x772.jpg",
+   "published_at": "2026-10-16T18:31:46+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_36d21b207081",
+   "title": "ゲーム開発者のおまど、「除霊師」と「背後霊」に分かれて協力しながら探索するアクションゲーム『Bye Bye Obake!』を発表",
+   "link": "https://gamebiz.jp/news/434231",
+   "summary": "ゲーム開発者のおまどは、2026年ハロウィンまでの発売を目標に開発を進めている新作PC向けゲーム『Bye Bye Obake!』について、Steamでの販売予定価格を790円として発表した。本作は、1～8人(オンライン協力は2～8人)に対応",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": null,
+   "published_at": "2026-10-16T18:31:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_149521b401b0",
+   "title": "【無料公開】あとからゆっくり恐怖がこみあげるホラーゲームが話題沸騰。PC/スマホでプレイできるタイピングゲーム『タイピング』公開―1プレイ1分、3タイプのマルチエンド",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173701.html",
+   "summary": "キーボードとスマホのフリック入力に対応しています。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": "http://www.gamespark.jp/imgs/rss/1207381.png",
+   "published_at": "2026-10-16T18:30:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_caad0e602972",
+   "title": "「コミックシーモア」不正アクセスにより一部ユーザーの会員情報が流出。10月15日よりサービスが停止中。原因の究明と影響範囲の調査を進めるとともに、再発防止およびサービス再開に向けて取り組み中",
+   "link": "https://news.denfaminicogamer.jp/news/2610162m",
+   "summary": "クレジットカード情報は流出せず。原因の究明と影響範囲の調査を進めるとともに、再発防止およびサービス再開に向けて取り組み中",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/cmoa_thumbnail-ba5476d0.jpg",
+   "published_at": "2026-10-16T18:29:05+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_ea8137339357",
+   "title": "ABEMA、2026年秋アニメのラインナップを発表！TVアニメ『薬屋のひとりごと』第3期のクール期間中はいつでも全話無料で見放題",
+   "link": "https://gamebiz.jp/news/434230",
+   "summary": "ABEMAは、2026年10月クールにABEMAのアニメチャンネルにて無料放送・配信中の、2026年秋アニメラインナップを発表した。新作アニメ、および継続新作アニメ70作品超の無料放送、無料配信を実施している。 2026年10月クールでは、",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T18:23:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_b89994ae8d1a",
+   "title": "CLYRE、『グリザイア』シリーズ15周年記念プロジェクト『グリザイア 集結の百果』の事前登録を開始…歴代シリーズキャラが集結",
+   "link": "https://gamebiz.jp/news/434229",
+   "summary": "CLYREは、本日10月16日、スマートフォン向け新作ゲーム『グリザイア 集結の百果』(通称『グリ百』)について、App StoreおよびGoogle Playにて事前登録の受付を開始した。本作は、2026年2月25日に15周年を迎えた『グ",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T18:17:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_1f88b0dd3222",
+   "title": "スイッチ2版『ゼルダの伝説 時のオカリナ』新CM「バトル編」「オカリナ編」公開！美しく生まれ変わったハイラルやリンクたちをチラ見せ",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173700.html",
+   "summary": "2026年11月5日発売予定です。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "http://www.gamespark.jp/imgs/rss/1207407.jpg",
+   "published_at": "2026-10-16T18:15:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_9d4704897c6d",
+   "title": "Cygames、『ウマ娘』の公式生配信番組「ぱかライブTV' #8」を10月24日20時から放送 未発表の新ウマ娘役として廣瀬千夏さんが初出走",
+   "link": "https://gamebiz.jp/news/434228",
+   "summary": "Cygamesは、クロスメディアコンテンツ『ウマ娘 プリティーダービー』の公式生配信番組「ぱかライブTV' #8」を10月24日20時から放送することと、その出走者が決定したことを発表した。 今回のぱかライブTV’は、未発表の新ウマ娘役とし",
+   "source": "gamebiz",
+   "region": "jp",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-10-16T18:14:00+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_c96e6e0b63d7",
+   "title": "Jagex、プレイヤーからの「大量の」フィードバックのため、発表から 2 週間も経たないうちに RuneScape Reignited をキャンセル",
+   "link": "https://www.eurogamer.net/runescape-reignited-cancelled-two-weeks-player-feedback",
+   "summary": "RuneScape : Reignited, a shiny new version of the long-running British MMORPG, has been cancelled less than two weeks af",
+   "source": "Eurogamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://assetsio.gnwcdn.com/runescape-reignited-logo.png?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-10-16T18:07:10+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "Jagex cancels RuneScape Reignited less than two weeks after it was announced, due to \"a ton\" of player feedback",
+   "translated": true
+  },
+  {
+   "id": "n_9931ac806d47",
+   "title": "小島監督も「きっつ…」と明かした『デススト』最初期のプロトタイプ版映像を初公開へ―コジプロ10周年記念展の展示詳細が明らかに。『DS2』初期エンディング案なども",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173699.html",
+   "summary": "『OD - KNOCK』のティーザー映像に登場した“赤い扉”も再現。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207415.jpg",
+   "published_at": "2026-10-16T18:05:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_0db9e7fad072",
+   "title": "サイバーパンクメトロイドヴァニア『ナイトブラッドW：断罪の狼』配信開始。無制限バレットタイムとフックで一気に殲滅、広大なサイバー都市を駆け巡る",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-473973/",
+   "summary": "HARRISONWORLDは、Midnight Fantasy Gamesが手がける『ナイトブラッドW：断罪の狼』を10月16日に配信した。本作はサイバーパンク世界を舞台にしたドット絵の2Dメトロイドヴァニアだ。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473973-header.jpg",
+   "published_at": "2026-10-16T18:03:05+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_628427899fe2",
+   "title": "【最大16人マルチ】オブジェクトを“コピペ”するネコになる、かくれんぼ対戦ゲーム『Cat and Paste!』オープンプレイテストが開始。10月19日16時までの期間限定",
+   "link": "https://news.denfaminicogamer.jp/news/2610162h",
+   "summary": "木箱やタル、トラクター、木などに変身してニセモノをバラまき、ハンターたちから隠れ切ろう。プレイテストは10月19日16時までの期間限定",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/Cat_and_Paste_Screenshot09-1-1024x576.png",
+   "published_at": "2026-10-16T18:00:40+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_76e3b08ed87b",
+   "title": "「ティア表」作成が日本でブームに―オープンワールド作品やホラーゲームなどプレイしたタイトルのリスト出回る。公開テンプレも使える作成ツールで実は簡単に作れる",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173698.html",
+   "summary": "Game*Sparkでも紹介した、人のティア表を予想するパーティゲーム『みんなでティア表!』も多くの反響を集めました。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207349.png",
+   "published_at": "2026-10-16T18:00:03+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_1bc7cb189eea",
+   "title": "実写版『ゴールデンカムイ』の続編『樺太追跡編』がWOWOWで配信へ！離れ離れになってしまったアシリパと杉元の物語が描かれる",
+   "link": "https://news.denfaminicogamer.jp/news/2610162n",
+   "summary": "公開されている特報映像では、男同士の殴り合い「スチェンカ」の様子や人気エピソード「サーカス」などが確認できる。配信は2027年1月を予定",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HUt3RA9aMAAlfkx-1024x724.jpg",
+   "published_at": "2026-10-16T17:49:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_6e08d93f0ef7",
+   "title": "買ったゲームを「所有」できるように―米下院議員が法案を発表、サーバー終了後も遊べるオフラインモードの提供も求める",
+   "link": "http://www.gamespark.jp/article/2026/10/16/173697.html",
+   "summary": "取り消し可能なライセンスではなく、購入後も遊び続けられる権利を。デジタルゲームの譲渡や再販も視野に。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1207355.jpg",
+   "published_at": "2026-10-16T17:45:02+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_2a22ffc8028b",
+   "title": "物議を醸した「バトルフィールド 6」の XP 変更は撤回され、バトルフィールド スタジオは「意図的ではなかった」と述べた",
+   "link": "https://www.eurogamer.net/battlefield-6-xp-cap-season-5-reverted",
+   "summary": "Season 5 launched in Battlefield 6 this week as planned, and though most of the new additions - new maps, weapons and ve",
+   "source": "Eurogamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://assetsio.gnwcdn.com/battlefield-6-season-5-vegas-shot-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-10-16T17:37:38+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00",
+   "title_original": "Controversial Battlefield 6 XP changes have been reversed, with Battlefield Studios saying they were \"unintended\"",
+   "translated": true
+  },
+  {
+   "id": "n_35838c35d51e",
+   "title": "警察に突如拘束された『Dota 2』のプロゲーマー、その場で「32キル」の超絶プレイを見せつけ“身分証明”。実力でわからせる",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-473967/",
+   "summary": "『Dota 2』のプロゲーマーである23savage氏が、突如警察に突入され拘束されたのだという。同氏は身元を疑われたが、「ゲームプレイ」でプロゲーマーであることを証明したとのことだ。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473967-header.jpg",
+   "published_at": "2026-10-16T17:37:15+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_04963e56134a",
+   "title": "終末世界の西部劇×ソウルライクFPS『ガンズ・オブ・エスカトン』が12月8日に発売決定。敵の攻撃パターンを覚えて弾丸をブチ込み、パリィやオカルト能力を駆使して立ち向かう",
+   "link": "https://news.denfaminicogamer.jp/news/2610162g",
+   "summary": "敵の攻撃パターンを覚えて弾丸をブチ込み、パリィやオカルト能力を駆使して立ち向かう。『Half-Life 2』の故ヴィクトル・アントノフ氏がアートディレクションを担当",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/GOE-Screen1-1024x576.jpg",
+   "published_at": "2026-10-16T17:13:04+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_3283c3b883ae",
+   "title": "CygamesEdge新作『崩落の国』は「Cygames社内ゲームコンテストで高評価」から誕生した。落ちるだけだけど、落ちるだけでも面白いアクションのかたち",
+   "link": "https://automaton-media.com/articles/interviewsjp/where-the-seeds-fall-20261016-473925/",
+   "summary": "「CygamesEdge」にてブランドプロデューサーを務める、濱田修一郎氏にインタビューを実施。ブランド1作目となる『崩落の国』の仕上がりなどについて伺った。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/where-the-seeds-fall-20261016-473925-header.jpg",
+   "published_at": "2026-10-16T17:07:34+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_772851b3b591",
+   "title": "CygamesEdgeは「Cygamesでは出せない実験作/尖った作品」を出していく。でも“インディーは名乗らない”。ブランドプロデューサーが出したいゲームとは",
+   "link": "https://automaton-media.com/articles/interviewsjp/where-the-seeds-fall-20261016-473933/",
+   "summary": "「CygamesEdge」にてブランドプロデューサーを務める、濱田修一郎氏にインタビューを実施。「CygamesEdge」は、どういった位置付けのブランドなのか、それを率いる濱田氏の来歴などについて伺った。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/where-the-seeds-fall-20261016-473933-header.jpg",
+   "published_at": "2026-10-16T17:03:19+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_4bbe6f2eed27",
+   "title": "Cygames新ブランドデビュー作『崩落の国』体験版が配信開始。緊張感とともにある“濃密高難度落下アクション”を一足お先に体験できる",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-473934/",
+   "summary": "Cygamesは10月16日、『崩落の国』の体験版をSteamにて配信開始した。本作は同社の新ブランド「CygamesEdge」より発売予定の落下アクションゲームだ。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473934-header.jpg",
+   "published_at": "2026-10-16T17:00:55+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_eef29e169e3b",
+   "title": "サイゲームスは、なぜいま小・中規模のゲーム開発に特化した新ブランドを立ち上げたのか──10名以下のチームなら、試すのも変えるのも速い。その機動力を武器に、新作を年に2、3本送り出すことを目指す【CygamesEdge・濱田修一郎氏インタビュー】",
+   "link": "https://news.denfaminicogamer.jp/interview/261016k",
+   "summary": "大作1本に5年だって7年だってかけて作りこんできた会社が、新ブランドでは10名以下のチームでゲームを作る 少人数なら試すのも変えるのも速い。その機動力で、年に2、3本の新作を目指す",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2027/10/image1-1024x576.jpg",
+   "published_at": "2026-10-16T17:00:52+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_aa19e9724ca0",
+   "title": "Cygamesの新作ゲーム『崩落の国』Steam向け体験版が配信開始、最新映像も公開。崩落をはじめた世界樹から地上を目指して降りていく",
+   "link": "https://news.denfaminicogamer.jp/news/2610162f",
+   "summary": "“小・中規模開発”に特化した新ブランド「CygamesEdge」の第1弾。体験版は15~30分ほどで、“降りていく”体験を楽しめる特別仕様",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/05_KV-1024x576.png",
+   "published_at": "2026-10-16T17:00:52+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_044cf9ab51ad",
+   "title": "Cygames新ブランド第一弾『崩落の国』先行プレイ感想。「降りる」だけの1100円ゲームは、思ったよりずっと面白かった。クセあり操作が面白さにもなる落下作業",
+   "link": "https://automaton-media.com/articles/reportjp/where-the-seeds-fall-20261016-473917/",
+   "summary": "OSAKA INDIE GAMES SUMMIT 2026でプレイできた、『崩落の国』のプレイフィールをお伝えする。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/where-the-seeds-fall-20261016-473917-header.jpg",
+   "published_at": "2026-10-16T17:00:27+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
+  },
+  {
+   "id": "n_2d9dad2fe3d6",
+   "title": "“多腕ガンマン”ソウルライクFPS『ガンズ・オブ・エスカトン』12月9日リリースへ。『Half-Life 2』アートディレクターが遺した終末暗黒西部劇",
+   "link": "https://automaton-media.com/articles/newsjp/20261016-473949/",
+   "summary": "4Divinityは10月16日、Eschatology Entertainmentが手がける『ガンズ・オブ・エスカトン』を日本時間12月9日に発売すると発表した。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473949-header.jpg",
+   "published_at": "2026-10-16T16:55:18+09:00",
+   "first_seen": "2026-10-16T21:27:26+09:00"
   },
   {
    "id": "n_22a3e45db138",
@@ -317,59 +1144,6 @@
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
-   "id": "n_dec4e9a5feb9",
-   "title": "スイッチ2版『バイオハザード RE:4』の映像表現や動作は？ PS5版との比較映像が公開―50fps台で安定に動作する様子も",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173688.html",
-   "summary": "ドック・携帯モードでの動作を確認。PS5版から映像表現を調整しつつ、持ち運んで遊べる『RE:4』に。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "Switch",
-    "PS5"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1207322.png",
-   "published_at": "2026-10-16T15:30:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_ba5bc9a5aa1f",
-   "title": "TOPAZ、スマホ向けダンジョンアドベンチャー『Monster Hero: Dungeon Quest』をリリース",
-   "link": "https://gamebiz.jp/news/434204",
-   "summary": "TOPAZは、スマートフォン向けダンジョンアドベンチャー『Monster Hero: Dungeon Quest』を配信開始した。本作は基本プレイ無料(アイテム課金制)で、iOSおよびAndroidに対応している。 本作は、ピクセルアートで",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T15:27:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_c7fb3ce02cf6",
-   "title": "理想のラーメン店を目指す経営シミュレーションゲーム『Japanese Ramen Simulator』累計販売本数が10万本突破！今後のアップデートのロードマップも公開",
-   "link": "https://news.denfaminicogamer.jp/news/2610162e",
-   "summary": "唐揚げや食券機、新たな評論家が増えたり、餃子やビール担当のアルバイトまで……より“自由”なラーメン店経営へ",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/image6-14-1024x576.png",
-   "published_at": "2026-10-16T15:25:34+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_d4948e0dd421",
-   "title": "ニチコマ、4人用オンラインパーティーゲーム『WAZATO - そのミス、ワザと？』を10月30日にSteamで発売",
-   "link": "https://gamebiz.jp/news/434203",
-   "summary": "ニチコマは、本日（10月16日）、4人用オンラインパーティーゲーム『WAZATO - そのミス、ワザと？』を10月30日にSteamで発売することを発表した。 通常価格は990円で、発売から1週間は発売記念セールとして20％OFFの792円",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T15:25:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
    "id": "n_772239048c98",
    "title": "RTX 5060を搭載したASUSの16型ゲーミングノートPC「TUF Gaming F16 FX608JMI」がAmazon プライム感謝祭先行セールにて24%オフで販売中",
    "link": "https://jp.ign.com/gaming-device/84419/rtx-5060asus16pctuf-gaming-f16-fx608jmiamazon-24",
@@ -379,58 +1153,6 @@
    "platforms": [],
    "image": "https://sm.ign.com/ign_jp/screenshot/default/1_58s7.png",
    "published_at": "2026-10-16T15:23:20+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_5c46b1211b9b",
-   "title": "シルバーライニング・インタラクティブ、心理ホラーRPG『The Pines』のパブリッシング権を取得、全世界に向けて発売決定",
-   "link": "https://gamebiz.jp/news/434201",
-   "summary": "シルバーライニング・インタラクティブは、2026年10月7日、スタジオ・アバトワールとの間でグローバルパブリッシング契約を締結し、心理ホラーRPG『The Pines』を全世界に向けて発売すると発表した。 本作は、アラン・ウェイク風のパラノ",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T15:22:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_49fa5f9d538c",
-   "title": "「ポケモンカードゲーム MEGA」より「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」を11月13日に発売",
-   "link": "https://gamebiz.jp/news/434197",
-   "summary": "ポケモンは、2026年11月13日に、「ポケモンカードゲーム MEGA」シリーズから「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」を発売する。 3種類のメガシンカexが入ったデッキと、対戦グッズで、メガシン",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T15:14:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_5053f52d0288",
-   "title": "誕生日を迎えた小学生の少女が父親を探して，異変に蝕まれていく路地を彷徨う。サイコホラー謎解きADV「残影」，体験版をSteamで公開",
-   "link": "https://www.4gamer.net/games/050/G105079/20261016015/",
-   "summary": "2PGamesは本日，FerineColumbaStudioが開発しているPC用ソフト「残影」の体験版をSteamで公開した。本作は，2000年代初頭のノスタルジックな町を舞台にしたサイコホラー謎解きアドベンチャーゲームだ。",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T15:03:35+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_f6595feb85c6",
-   "title": "Studio Kerosene、ハイスピード・アーケードムーブメントFPS『FIRESTARTERS』早期アクセス版を10月28日よりリリース",
-   "link": "https://gamebiz.jp/news/434199",
-   "summary": "Studio Keroseneは、PC(Steam)向けソフト『FIRESTARTERS』の早期アクセス版を10月28日より配信開始すると発表した。本作はエピソード1を収録しており、残りのエピソードは早期アクセス期間中の無料アップデートとし",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T15:02:00+09:00",
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
@@ -460,104 +1182,6 @@
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
-   "id": "n_e7b7f3b444e3",
-   "title": "協力対応オープンワールドサバクラARPG『Enshrouded~霧の王国~』正式版PC/PS5でリリース！メタスコア89点、Steamでは早速6.5万人集う",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173687.html",
-   "summary": "XBOX Series X|S版は2027年春にリリース予定。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "PS5",
-    "PC",
-    "Xbox"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1150160.jpg",
-   "published_at": "2026-10-16T15:00:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_b8222c59de63",
-   "title": "カプコン、「CAPCOM AUTUMN SALE」を開催…『ストリートファイター6』やそのほか人気格闘ゲームが各デジタルストアでお得なセール中",
-   "link": "https://gamebiz.jp/news/434193",
-   "summary": "カプコン は、各デジタルストアで「CAPCOM AUTUMN SALE」開催中だ。 Year 4キャラクター第二弾として10月13日（火）に「アルジュン」が参戦した『ストリートファイター6』が、PlayStation(TM) Store、ニ",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T14:59:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_fcc0b9e42e82",
-   "title": "人体から機械パーツを取り出して“再利用”する怖い業者のゲーム『MEATRASH』Steamストアページが公開。最初の3回勤務できる体験版も遊べる",
-   "link": "https://news.denfaminicogamer.jp/news/261016x",
-   "summary": "元・身体改造医として、地下の処理施設に流れるインプラントを「納品」か「私物化」するか選べる一風変わった作業シミュレーション",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/01_intake_floor-1024x576.png",
-   "published_at": "2026-10-16T14:57:54+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_ace59f2162d4",
-   "title": "「jubeat」シリーズのリブートが検討されていることが明らかに。過去作の復活を期待する声に応える",
-   "link": "https://www.4gamer.net/games/640/G064035/20261016022/",
-   "summary": "2026年10月15日に公開されたコナミグループ統合報告書2026で，コナミアーケードゲームスが「jubeat」シリーズのリブートを検討していることが明らかになった。「DJYOSHITAKA」こと西村宜隆氏は，過去作の復活を期待する声に応え",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T14:55:08+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_ee07ab5fe699",
-   "title": "4Divinity、荒廃した19世紀のアメリカを舞台にしたウェスタンソウルライクFPS『Guns of Eschaton』を2026年12月8日に発売",
-   "link": "https://gamebiz.jp/news/434196",
-   "summary": "4DivinityとEschatology Entertainmentは、10月15日、『Guns of Eschaton』を2026年12月8日に発売すると発表した。対応プラットフォームはPC、PlayStation 5、Xbox Ser",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [
-    "PS5",
-    "Xbox"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T14:55:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_a40b9f3891fc",
-   "title": "Silver Lining Interactive、『Warhammer 40,000: Rogue Trader』PS5＆Switch2パッケージ版をリリース",
-   "link": "https://gamebiz.jp/news/434195",
-   "summary": "Silver Lining Interactive(シルバーライニングインタラクティブ)は、10月15日、『Warhammer 40,000: Rogue Trader』のPlayStation 5およびNintendo Switch 2版",
-   "source": "gamebiz",
-   "region": "jp",
-   "platforms": [
-    "Switch",
-    "PS5"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T14:52:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_9efcd93281eb",
-   "title": "「みんなで空気読み。ワールド 韓国Ver.」，10月20日開幕のSteam Nextフェスで体験版をリリース。韓国の日常で空気を読もう",
-   "link": "https://www.4gamer.net/games/031/G103121/20261016019/",
-   "summary": "グラビティゲームアライズは本日，「みんなで空気読み。ワールド韓国Ver.」のPC版を，10月20日開幕のSteamNextフェスに出展すると発表した。期間中は体験版を遊べる。本作は，日常の「あるある」シチュエーションで「空気読めてる度」を診",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T14:51:04+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
    "id": "n_a47c2f93b8bf",
    "title": "Ankerのワイヤレスヘッドホン「Soundcore Space One Pro」のフラッグシップモデルがAmazonにて41％オフでタイムセール中",
    "link": "https://jp.ign.com/gaming-device/80581/news/ankersoundcore-space-one-proamazon20",
@@ -570,110 +1194,6 @@
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
-   "id": "n_63cda6c99a99",
-   "title": "【！？】テスラ「空飛ぶ車」を発表、本当に飛ぶ。圧縮空気を噴射してジャンプできる機能、上下逆さまの状態から空中で姿勢を安定させて降りる機能を公開",
-   "link": "https://news.denfaminicogamer.jp/news/261016v",
-   "summary": "半円状の道を駆け上がって上下逆さまの状態で飛び出し、姿勢を安定させながら降りる動画も公開",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/The-Kickflip-_-Roadster-0-34-screenshot-1024x576.png",
-   "published_at": "2026-10-16T14:45:10+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_5676c1babf0f",
-   "title": "Switch2版「バイオハザード RE:2」「RE:3」「RE:4」本日発売。3作品とも11月7日まで1000円オフ",
-   "link": "https://www.4gamer.net/games/040/G104094/20261016020/",
-   "summary": "カプコンは本日，「REENGINE」で再構築されたリメイク3作品のSwitch2版として「バイオハザードRE:2ZVersionデラックスエディション」「バイオハザードRE:3ZVersion」「バイオハザードRE:4GoldEdition",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [
-    "Switch"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T14:39:30+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_668f31327139",
-   "title": "ポケモンから「コイル」「みがわり」のモコモコぬいぐるみ、23日正午より新登場！「モンチッチ」などのセキグチ製、どれも可愛すぎる",
-   "link": "https://news.denfaminicogamer.jp/news/2610162a",
-   "summary": "今現在も話題沸騰中、メタリックボディが特徴のコイルがモコモコに。みがわりは離席時などに座らせておこう。自分の体力を削る必要はない",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/HUt4waSXkAA03CD.jpg",
-   "published_at": "2026-10-16T14:33:32+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_4399b920ded9",
-   "title": "PC（Steam）版「ゆるキャン△ つなげるみんなのオールインワン!! ちるタイム」，価格が1300円に決定",
-   "link": "https://www.4gamer.net/games/705/G070580/20261016018/",
-   "summary": "enishは本日（2026年10月16日），PC（Steam）版「ゆるキャン△つなげるみんなのオールインワン!!ちるタイム」の価格が1300円（税込）に決定したことを発表した。また，ゲーム公式Xでは動画が3本公開されている。",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T14:33:00+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_9a5c03ab45fc",
-   "title": "【最大4人】人類と悪魔の戦い描く協力型ARPG『EVILBANE』Steamで初のプレイテスト実施中―奪われた領土の奪還・防衛で戦況が変化する構想も",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173686.html",
-   "summary": "プレイテストは日本時間10月19日17時まで実施予定。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1207236.jpg",
-   "published_at": "2026-10-16T14:30:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_b52ab77643a3",
-   "title": "Radeon RX 9000搭載カード計5製品がCrowxisから10月23日発売。RX 9060 XTには白色モデルも用意",
-   "link": "https://www.4gamer.net/games/043/G104376/20261016021/",
-   "summary": "2026年10月16日，CFD販売は，PCパーツブランド「Crowxis」から，RadeonRX9000シリーズ搭載グラフィックスカード計5製品を10月23日に発売すると発表した。搭載GPUは「RadeonRX9070XT」「RadeonR",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T14:23:42+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_bea3a3062b23",
-   "title": "ファンタジー世界を自由に創造し，その行く末を見守ろう。「Fantasy World Manager」，10月28日に早期アクセス版をリリース",
-   "link": "https://www.4gamer.net/games/899/G089908/20261016016/",
-   "summary": "LegendaryPixelsは2026年10月15日，開発中の新作タイトル「FantasyWorldManager」の早期アクセス版を10月28日にリリースすると発表した。本作は，ピクセルで描かれた広大な世界を舞台に，ファンタジー世界を創",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T14:18:11+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_f7cf1d2ec663",
-   "title": "発掘した化石の骨を持ち帰り，博物館で恐竜の全身骨格を復元するシミュレータ「穴掘り恐竜博物館」，本日発売",
-   "link": "https://www.4gamer.net/games/046/G104636/20261016017/",
-   "summary": "YagniLabは本日，発掘シム「穴掘り恐竜博物館」をSteamでリリースした。価格は880円（税込）。10月23日まではリリース記念セールにより15％オフで購入できる。本作は，地面をひたすら掘り進んで化石を発掘し，持ち帰った骨から恐竜の全",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-10-16T14:13:20+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
    "id": "n_cec7115a14e0",
    "title": "『The Witness』開発者の新作『Order of the Sinking Star』、前作を余裕で超える初動売上本数を叩き出す。10年がかりの新たな“パズル地獄”も人気強烈",
    "link": "https://automaton-media.com/articles/newsjp/20261016-473889/",
@@ -683,18 +1203,6 @@
    "platforms": [],
    "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473889-header.jpg",
    "published_at": "2026-10-16T14:10:21+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_8c1847ebca1e",
-   "title": "【週末無料】無人島サバイバル『Stranded Deep』を体験できるフリーウィークエンド開催中！協力にも対応し10月23日まで60％オフセールも",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173685.html",
-   "summary": "ソロでも友達とでも南の島でサバイバル生活を体験できます。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207232.jpg",
-   "published_at": "2026-10-16T14:00:03+09:00",
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
@@ -712,30 +1220,6 @@
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
-   "id": "n_506bd775c9e9",
-   "title": "2000年代初期の「リネージュ」を再現。「リネージュ クラシック」日本サービス決定，10月21日から事前登録開始",
-   "link": "https://www.4gamer.net/games/579/G057943/20261016014/",
-   "summary": "エヌ・シー・ジャパンは本日，PC向けMMORPG「リネージュクラシック」を日本でサービスすると発表した。2000年代初期の「リネージュ」を原点としたタイトルで，当時の世界観や戦闘，キャラクターの成長，プレイヤー同士の交流を再現する。事前登録",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T13:54:14+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_fa6038826b48",
-   "title": "ホラー作家・雨穴氏の動画に登場した恋愛シム「おせちプリンセス」，体験版をリリース。おせちのキャラクターと恋愛するゲームを実際に遊べる",
-   "link": "https://www.4gamer.net/games/991/G999111/20261016011/",
-   "summary": "闇とバーグハンバーグバーグは本日，スマホ向けブラウザゲーム「おせちプリンセス」の体験版をリリースした。本作は，雨穴氏のYouTube動画に登場した恋愛シミュレーションゲームを，実際に遊べるようにしたものだ。シナリオは本人が新たに書き下ろして",
-   "source": "4Gamer",
-   "region": "jp",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-16T13:43:09+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
    "id": "n_cfa758882e7d",
    "title": "破壊上等・物理演算レース『Wreckfest 2』に、“車ぶっ壊し合い”新モード実装。スクラップと化すまでとにかく暴れる",
    "link": "https://automaton-media.com/articles/newsjp/20261016-473888/",
@@ -748,56 +1232,8 @@
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
-   "id": "n_3ed17d8ee376",
-   "title": "『勝利の女神：NIKKE』公式ファンブックの日本語版が2027年2月10日に発売決定。描き下ろしイラストやコミックも掲載",
-   "link": "https://news.denfaminicogamer.jp/news/2610162b",
-   "summary": "ゲームの世界観やキャラクター設定に関する資料のほか、人気作家陣によるファンアートなども収録。全180ページにわたる指揮官必携の1冊",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/main-48-749x1024.jpg",
-   "published_at": "2026-10-16T13:40:35+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_ccb9dbb4e7e4",
-   "title": "『ジョジョ』の“敵役”と「GU」のコラボアイテムが登場！ロンTやスウェットプルオーバー、カーディガンが12月中旬に発売",
-   "link": "https://news.denfaminicogamer.jp/news/261016z",
-   "summary": "「プッチ」や「カーズ」、「ドッピオ」、「DIO」のイラストを大胆に配置。これからの季節に欲しくなるアイテムがラインナップ",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/res04cfd6f05fe03e8fa4ec9a9c72946227fr-1024x576.jpg",
-   "published_at": "2026-10-16T13:33:22+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_747588fc22bb",
-   "title": "過去に戻り、未来を変えるバトルに挑む『エターナルアニマ』は“大人になった自分たちが遊びたいJRPG”として始動！ キーワードは「継承」と「未来予測」【インタビュー】",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173684.html",
-   "summary": "過去を変えれば現代が変わり、戦闘では未来さえも変えられる。JRPG『エターナルアニマ』は、物語とバトルの両面に独自の仕掛けを盛り込んでいます。「継承」をテーマにした世界の謎や、戦略性を生み出すシステムについて開発者に話を伺いました。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207298.jpg",
-   "published_at": "2026-10-16T13:30:04+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_85340f2da82d",
-   "title": "『エターナルアニマ』は「1ターン先の未来」を変革する戦略的RPG！ボスの行動すら「キャンセル」して勝利を勝ち取れ【試遊レポ】",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173683.html",
-   "summary": "敵の攻撃も、受けるダメージも、あらかじめ分かっている。それなら、予測された未来を変えてしまえばいい――。『エターナルアニマ』の試遊で体験した、敵の行動を遅らせてキャンセルする独特なバトルの魅力をお届けします。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207273.png",
-   "published_at": "2026-10-16T13:16:06+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
    "id": "n_bccaecad3ed5",
-   "title": "Heavy Metal Death Can now available for PS5, Xbox Series",
+   "title": "Heavy Metal Death Can が PS5、Xbox シリーズで利用可能になりました",
    "link": "https://www.gematsu.com/2026/10/heavy-metal-death-can-now-available-for-ps5-xbox-series",
    "summary": "Survival horror game Heavy Metal Death Can is now available for PlayStation 5 and Xbox …",
    "source": "Gematsu",
@@ -808,37 +1244,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Heavy-Metal-Death-Can-PS5_10-15-26.jpg",
    "published_at": "2026-10-16T13:05:50+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_2b0eeb7c681c",
-   "title": "新作RPG『エターナルアニマ』は、「JRPG歴40年ベテランクリエイター」の集大成だった。「ランダム要素排除」を盛り込んだ、JRPGファンへのチャレンジラブレター",
-   "link": "https://automaton-media.com/articles/interviewsjp/etern-20261016-473838/",
-   "summary": "本作のバトルシステムとストーリーの狙い、そして牧野圭祐氏、野島一成氏、崎元仁氏といった豪華クリエイターが参加するに至った経緯までを伺っている。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/eternal-anima-header.jpg",
-   "published_at": "2026-10-16T13:02:49+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_5b8f1c1ca650",
-   "title": "オープンワールド拠点づくりサバイバル『Enshrouded霧の王国』正式リリースでSteam同接「6万5000人」の人気爆発中。マップ全域解禁、“論理回路”まで実装で遊び大拡張",
-   "link": "https://automaton-media.com/articles/newsjp/20261016-473878/",
-   "summary": "Keen Gamesは10月16日、『Enshrouded~霧の王国~』を正式リリースした。正式リリースにともなうアップデートでは新エリアや新要素などが追加されており、盛況を博している。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473878-header.jpg",
-   "published_at": "2026-10-16T13:01:52+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "first_seen": "2026-10-16T16:11:59+09:00",
+   "title_original": "Heavy Metal Death Can now available for PS5, Xbox Series",
+   "translated": true
   },
   {
    "id": "n_3ea31743afbc",
-   "title": "Eternal Anima interview with producer Makoto Shioda and development director Katsuhisa Higuchi – Future Sight Battles, time travel, and more",
+   "title": "『エターナルアニマ』プロデューサー塩田誠氏と開発ディレクター樋口勝久氏インタビュー - 未来予知バトル、タイムトラベルなど",
    "link": "https://www.gematsu.com/2026/10/eternal-anima-interview-with-producer-makoto-shioda-and-development-director-katsuhisa-higuchi-future-sight-battles-time-travel-and-more",
    "summary": "Gematsu recently sat down with Eternal Anima producer Makoto Shioda and development director Katsuhisa Higuchi …",
    "source": "Gematsu",
@@ -846,35 +1258,13 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Eternal-Anima_2026_10-16-26_015.jpg",
    "published_at": "2026-10-16T13:01:34+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_07fbcc7a8177",
-   "title": "マーベラスの新RPG『エターナルアニマ』先行プレイ感想。本作のバトルは長考不可避、先読み×タイムラインのド頭脳バトルで「最良の結果」を追い求め時間を費やす",
-   "link": "https://automaton-media.com/articles/reportjp/eternal-20261016-473787/",
-   "summary": "王道のスタイルながら、バトルはターンごとの敵の行動とその結果が常に予測表示される「未来予測」を始めとした独自要素を多々採り入れた個性的なものになっている。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/eternalanima_header.jpg",
-   "published_at": "2026-10-16T13:00:55+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_dc094af3409b",
-   "title": "『FF』のバトルシステムを手掛けた樋口勝久氏による完全新作RPG『エターナルアニマ』先行プレイ＆開発者インタビュー。40年に渡ってJRPGを作り続け、「JRPGの面白さはバトルで決まる」と語る樋口氏の本作における狙いを聞いた",
-   "link": "https://news.denfaminicogamer.jp/kikakuthetower/261016e",
-   "summary": "1988年の『FF2』以来、40年に渡ってJRPGを作り続けてきた樋口氏。「JRPGの面白さはバトルで決まる」という信念を胸に制作を進める、本作の狙いを聞いてみた",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/image_001-6-1024x576.jpg",
-   "published_at": "2026-10-16T13:00:54+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "first_seen": "2026-10-16T16:11:59+09:00",
+   "title_original": "Eternal Anima interview with producer Makoto Shioda and development director Katsuhisa Higuchi – Future Sight Battles, time travel, and more",
+   "translated": true
   },
   {
    "id": "n_6ed43c08f853",
-   "title": "Eternal Anima hands-on gameplay preview",
+   "title": "エターナル アニマのハンズオン ゲームプレイ プレビュー",
    "link": "https://www.gematsu.com/2026/10/eternal-anima-hands-on-gameplay-preview",
    "summary": "Recently, I visited Marvelous at its Shinagawa headquarters for a one-hour preview of its upcoming …",
    "source": "Gematsu",
@@ -882,63 +1272,13 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Eternal-Anima_2026_10-16-26_009.jpg",
    "published_at": "2026-10-16T13:00:41+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_300f82e052ca",
-   "title": "元任天堂社員がたまたま“救出”した『ドンキーコング』の原画、オークション出品で推定価格は最大約2400万円。ゴミ箱から救われるも、40年忘れ去られた超レア物",
-   "link": "https://automaton-media.com/articles/newsjp/20261016-473871/",
-   "summary": "オークションに出品出品された『ドンキーコング』の原画は推定価格約1580万～2370万円だ。実はゴミ箱に捨てられていたというエピソードも含めて注目されている。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473871-header.jpg",
-   "published_at": "2026-10-16T12:52:11+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_3ee819a6a2f7",
-   "title": "『CoD: MW4』、長期・有名シリーズすぎてハードル高く注目度も上がらない「CoD税」が課せられている？シリーズ復活目指すマーケ責任者が語る老舗IPゆえの“枷”",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173682.html",
-   "summary": "『CoD』が時代を超えて愛され続ける理由も語っています。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207201.jpg",
-   "published_at": "2026-10-16T12:45:02+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_4268ccf03eb1",
-   "title": "オフロード車で雪に覆われた“文明崩壊後の世界”を生き抜くゲーム『AFTERZERO：ラストラン』が発表。ほかの生存者を助け、世界に起きたことの真実に迫る",
-   "link": "https://news.denfaminicogamer.jp/news/261016o",
-   "summary": "『AFTERZERO：ラストラン』が発表。オフロード車で雪に覆われた文明崩壊後の世界を生き抜くゲーム",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/ss_64911d707117d7e466b9ef07fbaf7d9b3591e6d6.1920x1080-1024x576.jpg",
-   "published_at": "2026-10-16T12:40:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_63a1919dafaf",
-   "title": "“2時間以内にクリア”して実際に「Steamでの返金」を目指す高難度ゲーム『Refund This Game』配信中。開発者からの挑戦状",
-   "link": "https://news.denfaminicogamer.jp/news/261016m",
-   "summary": "宙に浮かぶオブジェクトに棒を突き刺し、しならせた反動で飛び上がりながら頂上に到達。「返金時間を超えてプレイする」などの実績も",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/ss_77d5ffa9fdece5b26e63a3a34d68babff1805628.1920x1080-1024x576.jpg",
-   "published_at": "2026-10-16T12:29:41+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "first_seen": "2026-10-16T16:11:59+09:00",
+   "title_original": "Eternal Anima hands-on gameplay preview",
+   "translated": true
   },
   {
    "id": "n_77786448a7d0",
-   "title": "Brave Dungeon + Dark Witch’s Story: COMBAT coming to PS5 on October 24",
+   "title": "『ブレイブダンジョン + ダークウィッチズ ストーリー: COMBAT』が PS5 で 10 月 24 日に登場",
    "link": "https://www.gematsu.com/2026/10/brave-dungeon-dark-witchs-story-combat-coming-to-ps5-on-october-24",
    "summary": "Inside System will release dungeon RPG collection Brave Dungeon + Dark Witch’s Story: COMBAT for …",
    "source": "Gematsu",
@@ -948,23 +1288,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Brave-Dungeon-Dark-Witchs-Story-COMBAT-PS5_10-07-26.jpg",
    "published_at": "2026-10-16T12:20:21+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_99508d32443f",
-   "title": "ドタバタ協力型ホラーゲーム『プロジェクト:ドア』は、異常空間で謎アイテムを回収し、“売り飛ばす”。クリーチャーそこをどけ！金が欲しいんだよ！金金金！",
-   "link": "https://news.denfaminicogamer.jp/kikakuthetower/261016a",
-   "summary": "怖い！でもギラついた金への欲望が上回る。クリーチャーそこどけ！金欲しいんだよ！金金金！※死んでも約3万円でクローン生成可能、福利厚生もバッチリ",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/image33-2-1024x576.jpg",
-   "published_at": "2026-10-16T12:07:50+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "first_seen": "2026-10-16T16:11:59+09:00",
+   "title_original": "Brave Dungeon + Dark Witch’s Story: COMBAT coming to PS5 on October 24",
+   "translated": true
   },
   {
    "id": "n_c9feff7892db",
-   "title": "Dementium II coming to Steam on October 20",
+   "title": "Dementium II が 10 月 20 日に Steam に登場",
    "link": "https://www.gematsu.com/2026/10/dementium-ii-coming-to-steam-on-october-20",
    "summary": "Atooi will release horror first-person shooter sequel Dementium II for PC via Steam on October …",
    "source": "Gematsu",
@@ -974,93 +1304,9 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Dementium-2-Steam_10-15-26.jpg",
    "published_at": "2026-10-16T12:01:42+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_1ac950154b93",
-   "title": "【最大4人】ファンタジー世界を生き抜くオープンワールドサバイバルゲーム『ルーンスケープ：ドラゴンワイルズ』2027年以降のロードマップを公開。新ストーリーや新スキル「祈り」が12月の無料アプデで実装",
-   "link": "https://news.denfaminicogamer.jp/news/261016n",
-   "summary": "新ストーリーや新スキル「祈り」が2026年12月の無料アプデで実装。2027年には物語の大型アプデや、複数の新スキルの実装も控える",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/Runefest_SOR_Keyart-1024x576.jpg",
-   "published_at": "2026-10-16T12:00:59+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_ff192862b8b0",
-   "title": "高評価カンフーゲーム『Sifu』制作チーム最新作は、“反則なし”のサッカー『REMATCH』。カンフーとサッカーをつなぐ共通点を開発者が語った。過去作から『REMATCH』へ受け継がれる「身体性」の追求と、サッカーならではの協力アクションが融合するまで",
-   "link": "https://news.denfaminicogamer.jp/interview/261016r",
-   "summary": "過去作から『REMATCH』へ受け継がれる「身体性」の追求と、サッカーならではの“協力アクション”が融合するまでを開発者・Pierre Tarno氏が語る",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/image_004-6-1024x576.jpg",
-   "published_at": "2026-10-16T12:00:51+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_efaf882eb3ed",
-   "title": "『【推しの子】』公式パズルゲーム『【推しの子】Puzzle Star』に描き下ろし衣装の「アイ」「MEMちょ」が登場。幼いアクアとルビーがアイのもとを目指して進んでいく新イベントも実施",
-   "link": "https://news.denfaminicogamer.jp/news/261016t",
-   "summary": "幼いアクアとルビーがアイのもとを目指して進んでいく新イベントや、育成の自由度が上がるカード育成＆カスタマイズ機能の改修も実施",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/b6db908989b38bd458d262bab0952b3b-1024x576.jpg",
-   "published_at": "2026-10-16T12:00:46+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_a92332109fea",
-   "title": "ホラー作家・雨穴さんの動画に登場した“おせち”との恋愛シミュレーションゲーム『おせちプリンセス』が実際に遊べるように。「チョロギ」「こんぶ」「かまぼこ」と付き合える体験版がスマホブラウザで無料公開",
-   "link": "https://news.denfaminicogamer.jp/news/261016l",
-   "summary": "「チョロギ」「こんぶ」「かまぼこ」と付き合える体験版がスマホブラウザで無料公開。10月23日開催の「雨穴の変な世界展。」で製品版が無料で遊べる",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/02_playing-3-1024x691.png",
-   "published_at": "2026-10-16T12:00:29+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_900e143dff2f",
-   "title": "基本プレイ無料“プレイヤーが乱世を作る”SRPG×SLG『三國志 戦棋版』では急にガチ戦争に巻き込まれる。いきなり対人戦勃発リアル乱世で、SRPG×SLG融合が生む新たな戦略体験",
-   "link": "https://automaton-media.com/articles/reportjp/20261015-473568/",
-   "summary": "『三國志 戦棋版』のβテストに基づき、自ら采配を振るう戦棋バトルと、「GvGによって形成される生々しい乱世」を体験した感想をお届けしよう。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261015-473568-header.jpg",
-   "published_at": "2026-10-16T12:00:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_8801d49587ad",
-   "title": "AIと人間が芸術で対決！レプリカを演奏で打ち破れるか…リズムADV『Morpho Reverie』Steamデモ版配信―250年のピアノ史を約10分で描く大曲も",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173681.html",
-   "summary": "人間とAIレプリカが芸術で対決する、音楽をめぐるSFミステリー。体験版では約10分の大曲「Piano History」を専用演出付きで楽しめます。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1206322.png",
-   "published_at": "2026-10-16T12:00:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_aa073720a765",
-   "title": "「ストリートファイター／ザ・ムービー」、大手映画レビュー集積サイトでは批評家の賛否分かれ44%の評価―キャラやアクションを称賛する声もストーリーなどのマイナス点",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173680.html",
-   "summary": "映画レビュー集積サイトRotten Tomatoesでの批評家支持率は44％。Metacriticのメタスコアは45となっています。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207174.jpg",
-   "published_at": "2026-10-16T11:45:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "first_seen": "2026-10-16T16:11:59+09:00",
+   "title_original": "Dementium II coming to Steam on October 20",
+   "translated": true
   },
   {
    "id": "n_45f32cb2412f",
@@ -1087,96 +1333,6 @@
    "first_seen": "2026-10-16T16:11:59+09:00"
   },
   {
-   "id": "n_1ec793609df1",
-   "title": "“神頼み”ローマ復興シム『ノヴァ・ローマ』大型アプデで、やっかいな「疫病」追加。治すためにはアポロにお参り、ただし怒らせれば病大拡散",
-   "link": "https://automaton-media.com/articles/newsjp/20261016-473863/",
-   "summary": "Hooded Horseは10月15日、Lion Shieldの手掛ける『Nova Roma ノヴァ・ローマ』に大型アップデートを配信した。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473863-header.jpg",
-   "published_at": "2026-10-16T11:36:58+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_9f1f749f9007",
-   "title": "【50名限定】「モバイルゲームの寿命をどう伸ばす？」特別セミナー開催—ポノス・KONAMI・Molocoが登壇、新規タイトルのトレンドからマーケター主導のリエンゲージメントまで徹底解説",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173679.html",
-   "summary": "GameBusiness.jpは来る2026年10月29日(木)、アプリ広告プラットフォームを提供するMoloco協賛のもと、オフラインセミナーを渋谷・Hikarie Conferenceにて、50名限定で開催します。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207160.jpg",
-   "published_at": "2026-10-16T11:35:02+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_66791a2f1d1f",
-   "title": "Steam、DLC追加されても\"実績コンプ\"が崩れない！新実績システムのベータ開始―取れなくなった期間限定のやつも100%を邪魔しない",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173678.html",
-   "summary": "『Portal 2』『Forza Horizon 5』など17作品がすでに対応。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1207196.png",
-   "published_at": "2026-10-16T11:15:12+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_20c1e95a0ec1",
-   "title": "大人気マルチ対応サバイバル『ルーンスケープ：ドラゴンワイルズ』来年は「毎月無料アプデ」でどんどん拡張へ。“ラスボス”を倒したくらいでは終わらない大冒険",
-   "link": "https://automaton-media.com/articles/newsjp/20261016-473824/",
-   "summary": "Graphはオープンワールド・サバイバルゲーム『RuneScape: Dragonwilds（ルーンスケープ：ドラゴンワイルズ）』向けのロードマップの詳細を公開した。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473824-header.jpg",
-   "published_at": "2026-10-16T10:54:30+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_92a896edd4b7",
-   "title": "ニンテンドースイッチ2/スイッチ本体の修理価格が改訂―部品の価格高騰により値上げ、11月16日到着分より",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173677.html",
-   "summary": "ニンテンドースイッチ2/ニンテンドースイッチ本体の修理価格が改定。ドックやJoy-Conは対象外です。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1207188.jpg",
-   "published_at": "2026-10-16T10:42:39+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_6ed39bc35281",
-   "title": "任天堂、Nintendo Switch 2とSwitch本体の修理価格を値上げへ。CPU基板の修理交換は「約1万円値上げ」に",
-   "link": "https://automaton-media.com/articles/newsjp/20261016-473850/",
-   "summary": "任天堂は10月16日、Nintendo Switch 2/Nintendo Switch本体の修理価格を改定すると発表した。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473850-header.jpg",
-   "published_at": "2026-10-16T10:31:10+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
-   "id": "n_06bc848f1daf",
-   "title": "【2,950円→0円】バンで終末世界を巡り消えた家族を探すADV『Caravan SandWitch』Amazonプライム会員向けに無料配布！戦闘も死もない冒険",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173676.html",
-   "summary": "吸血鬼ナラティブRPG『ヴァンパイア：ザ・マスカレード スワンソング』も含め、合計2作のPCゲームが無料配布。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1207135.jpg",
-   "published_at": "2026-10-16T10:30:03+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
-  },
-  {
    "id": "n_85a2e06d3c17",
    "title": "ニンテンドーeショップ新作ソフト情報 10/16（金）号。",
    "link": "https://www.nintendo.com/jp/topics/article/d99e9c21-98d1-48cd-b732-7daaf6084fda",
@@ -1191,50 +1347,8 @@
    "first_seen": "2026-10-16T10:22:33+09:00"
   },
   {
-   "id": "n_ceb8510b5c7b",
-   "title": "Steamの「実績セット」システム発表、“DLC買わないと100％にできない問題”が解消へ。コンプ記録を守り、期間限定実績取り逃しも救済",
-   "link": "https://automaton-media.com/articles/newsjp/steam-20261016-473831/",
-   "summary": "Valveは10月16日、Steamに向けて「Steam実績セット」を展開した。Steamクライアントベータにて利用可能となっている。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/steam-20261016-473831-header.jpg",
-   "published_at": "2026-10-16T09:46:02+09:00",
-   "first_seen": "2026-10-16T10:22:33+09:00"
-  },
-  {
-   "id": "n_727b7731f053",
-   "title": "2,000万人以上が遊んだ協力登山『PEAK』PS5/XBOX/スイッチ2版が10月22日発売―クロスプレイ対応！1人になると超不安になる定番ゲーム",
-   "link": "http://www.gamespark.jp/article/2026/10/16/173675.html",
-   "summary": "ステッカー付きのパスポートを同梱したPS5パッケージ版も海外向けにリリースされます。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "Switch",
-    "PS5",
-    "Xbox"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1207134.jpg",
-   "published_at": "2026-10-16T09:34:07+09:00",
-   "first_seen": "2026-10-16T10:22:33+09:00"
-  },
-  {
-   "id": "n_76d4b12d3814",
-   "title": "『コントロール レゾナント』、“Remedy史上最速”で売上100万本達成。発売から3週間で大台到達、名実ともに『Alan Wake』と並ぶシリーズに",
-   "link": "https://automaton-media.com/articles/newsjp/20261016-473807/",
-   "summary": "Remedy Entertainment（以下、Remedy）は10月16日、『CONTROL Resonant（コントロール レゾナント）』の販売本数が100万本を突破したと発表した。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/20261016-473807-header.jpg",
-   "published_at": "2026-10-16T09:18:51+09:00",
-   "first_seen": "2026-10-16T10:22:33+09:00"
-  },
-  {
    "id": "n_6b5be63e5305",
-   "title": "US lawmaker calls videogame purchases rentals disguised as sales: 'When you pay for a game, you should own it'",
+   "title": "米議員、ビデオゲームの販売を装ったレンタル購入を批判「ゲームにお金を払うなら、それを所有すべきだ」",
    "link": "https://www.pcgamer.com/gaming-industry/us-lawmaker-calls-videogame-purchases-rentals-disguised-as-sales-when-you-pay-for-a-game-you-should-own-it/",
    "summary": "Representative Ritchie Torres will introduce a bill aimed at protecting videogame ownership, including for online games ",
    "source": "PC Gamer",
@@ -1242,23 +1356,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/5b4WMs9ucymCPvbCjSEF8-1920-80.jpg",
    "published_at": "2026-10-16T09:08:45+09:00",
-   "first_seen": "2026-10-16T10:22:33+09:00"
-  },
-  {
-   "id": "n_98f6b5278fb5",
-   "title": "『NTE』大阪リアルイベントに行ってきた。会場は新キャラ「クロバネ」を推しまくり。コスプレ撮影会や埋めつくされるメッセージボードなど、大盛り上がりの一日",
-   "link": "https://automaton-media.com/articles/reportjp/nte-osaka-20261016-473763/",
-   "summary": "大阪・難波にて10月2日から4日にかけて、『NTE: Neverness to Everness』のポップアップイベント「クロバネのプチ占い」が開催された。初の大阪開催となった会場の様子をお伝えする。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/10/nte-osaka-00.jpg",
-   "published_at": "2026-10-16T09:03:13+09:00",
-   "first_seen": "2026-10-16T10:22:33+09:00"
+   "first_seen": "2026-10-16T10:22:33+09:00",
+   "title_original": "US lawmaker calls videogame purchases rentals disguised as sales: 'When you pay for a game, you should own it'",
+   "translated": true
   },
   {
    "id": "n_cafb393763c0",
-   "title": "Steam achievements are getting a huge overhaul, with separate sets for DLC and season passes, and an easy way to compare with friends",
+   "title": "Steam の実績は大幅に見直され、DLC とシーズン パスに個別のセットが追加され、友達と簡単に比較できるようになりました。",
    "link": "https://www.pcgamer.com/software/platforms/steam-achievements-are-getting-a-huge-overhaul-with-separate-sets-for-dlc-and-season-passes-and-an-easy-way-to-compare-with-friends/",
    "summary": "It's in beta now, but will likely release widely in about a month.",
    "source": "PC Gamer",
@@ -1268,11 +1372,13 @@
    ],
    "image": "https://cdn.mos.cms.futurecdn.net/aDSd3fesSdXXhP9JGLAMAS-1920-80.png",
    "published_at": "2026-10-16T08:58:30+09:00",
-   "first_seen": "2026-10-16T10:22:33+09:00"
+   "first_seen": "2026-10-16T10:22:33+09:00",
+   "title_original": "Steam achievements are getting a huge overhaul, with separate sets for DLC and season passes, and an easy way to compare with friends",
+   "translated": true
   },
   {
    "id": "n_cfae4eae2355",
-   "title": "The New Street Fighter Movie Gets Savaged By Critics, But Not Everyone Hates It",
+   "title": "『ストリートファイター』の新作映画が批評家に酷評されるも、誰もが嫌いなわけではない",
    "link": "https://kotaku.com/the-new-street-fighter-movie-gets-savaged-by-critics-but-not-everyone-hates-it-2000746464",
    "summary": "From an 'incoherent mess' to the 'natural zenith of an arcade player’s imagination'",
    "source": "Kotaku",
@@ -1280,11 +1386,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/street-fighter-movie.jpg",
    "published_at": "2026-10-16T08:00:23+09:00",
-   "first_seen": "2026-10-16T10:22:33+09:00"
+   "first_seen": "2026-10-16T10:22:33+09:00",
+   "title_original": "The New Street Fighter Movie Gets Savaged By Critics, But Not Everyone Hates It",
+   "translated": true
   },
   {
    "id": "n_f0cc1ab088a8",
-   "title": "Dragon Quest Monsters: The Withered World details online content, offline Battle Arena, and Wrangler’s Gauntlet",
+   "title": "『Dragon Quest Monsters: The Withered World』のオンライン コンテンツ、オフライン バトル アリーナ、ラングラーのガントレットの詳細",
    "link": "https://www.gematsu.com/2026/10/dragon-quest-monsters-the-withered-world-details-online-content-offline-battle-arena-and-wranglers-gauntlet",
    "summary": "Publisher and developer Square Enix, and developer TOSE have released new information and screenshots for …",
    "source": "Gematsu",
@@ -1292,11 +1400,13 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/DragonQuest-Monsters-The-Withered-World_2026_10-15-26_003.jpg",
    "published_at": "2026-10-16T07:00:36+09:00",
-   "first_seen": "2026-10-16T16:11:59+09:00"
+   "first_seen": "2026-10-16T16:11:59+09:00",
+   "title_original": "Dragon Quest Monsters: The Withered World details online content, offline Battle Arena, and Wrangler’s Gauntlet",
+   "translated": true
   },
   {
    "id": "n_67b91bc3b39b",
-   "title": "Massive GTA 6 Banner In Paris Censors All Of The Guns",
+   "title": "パリの大規模な「GTA 6」バナーがすべての銃を検閲",
    "link": "https://kotaku.com/massive-gta-6-banner-in-paris-features-some-silly-censorship-2000746458",
    "summary": "Grand Theft Auto is a franchise that famously includes guns, but this big advertisement for it in Paris cut them out",
    "source": "Kotaku",
@@ -1304,11 +1414,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/censortower-1280x720.jpg",
    "published_at": "2026-10-16T07:00:10+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Massive GTA 6 Banner In Paris Censors All Of The Guns",
+   "translated": true
   },
   {
    "id": "n_29f2e74d4d84",
-   "title": "Battlefield 6 Gets Slammed For More Slop Slipping Through: ‘Charging Players $$$ For AI-Generated Content Is Peak Disrespect’",
+   "title": "『バトルフィールド 6』、更なる不正すり抜けで非難：「AI が生成したコンテンツに対してプレイヤーに $$$ 請求するのは最大の失礼だ」",
    "link": "https://kotaku.com/battlefield-6-gets-slammed-for-more-slop-slipping-through-charging-players-for-ai-generated-content-is-peak-disrespect-2000746452",
    "summary": "Operators with five guns and misspelled patches have fans shaking their heads",
    "source": "Kotaku",
@@ -1316,11 +1428,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/battlefield-ai.jpg",
    "published_at": "2026-10-16T06:40:48+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Battlefield 6 Gets Slammed For More Slop Slipping Through: ‘Charging Players $$$ For AI-Generated Content Is Peak Disrespect’",
+   "translated": true
   },
   {
    "id": "n_0c9dd2dce189",
-   "title": "Less than 2 weeks after announcing RuneScape Reignited, Jagex is scrapping the whole thing",
+   "title": "RuneScape Reignited の発表から 2 週間も経たないうちに、Jagex はすべてを廃棄する",
    "link": "https://www.pcgamer.com/games/mmo/less-than-2-weeks-after-announcing-runescape-reignited-jagex-is-scrapping-the-whole-thing/",
    "summary": "In the wake of a furious backlash from players, Jagex admits it \"missed the mark.\"",
    "source": "PC Gamer",
@@ -1328,11 +1442,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/c3Khw6Jt6G6JFntqYeotUT-1920-80.png",
    "published_at": "2026-10-16T06:09:54+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Less than 2 weeks after announcing RuneScape Reignited, Jagex is scrapping the whole thing",
+   "translated": true
   },
   {
    "id": "n_5934aec6b46a",
-   "title": "The Fire Emblem: Fortune’s Weave Expansion Pass Adds Stories For Those Other Four Protagonists The Game Was Supposed To Have",
+   "title": "ファイアーエムブレム フォーチュンの織り 拡張パスには、ゲームに予定されていた他の 4 人の主人公のストーリーが追加されます",
    "link": "https://kotaku.com/the-fire-emblem-fortunes-weave-expansion-pass-adds-stories-for-those-other-four-protagonists-the-game-was-supposed-to-have-2000746422",
    "summary": "But damn is it gonna cost you to get",
    "source": "Kotaku",
@@ -1340,11 +1456,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/orchel-1280x720.jpg",
    "published_at": "2026-10-16T06:00:56+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "The Fire Emblem: Fortune’s Weave Expansion Pass Adds Stories For Those Other Four Protagonists The Game Was Supposed To Have",
+   "translated": true
   },
   {
    "id": "n_48418b3d4414",
-   "title": "Valheim vs Enshrouded vs RuneScape: Dragonwilds: Let's settle this",
+   "title": "Valheim vs Enshrouded vs RuneScape: Dragonwilds: これを解決しましょう",
    "link": "https://www.pcgamer.com/games/survival-crafting/valheim-vs-runescape-dragonwilds-vs-enshrouded/",
    "summary": "Three top-tier survival crafting games have entered their 1.0 era.",
    "source": "PC Gamer",
@@ -1352,11 +1470,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/zzWFitsgpC7sijeUsvAQoE-1920-80.jpg",
    "published_at": "2026-10-16T05:54:41+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Valheim vs Enshrouded vs RuneScape: Dragonwilds: Let's settle this",
+   "translated": true
   },
   {
    "id": "n_eaa1c46ea41f",
-   "title": "Street Fighter review roundup: sorry, folks, but it sounds like a mess",
+   "title": "ストリートファイターのレビューまとめ: 申し訳ありませんが、めちゃくちゃのようです",
    "link": "https://www.pcgamer.com/movies-tv/street-fighter-review-roundup-sorry-folks-but-it-sounds-like-a-mess/",
    "summary": "The general consensus seems to be that Street Fighter isn't a disaster, but it definitely misses a lot more than it hits",
    "source": "PC Gamer",
@@ -1364,11 +1484,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/8RgfieBNh6Baks7DMQSZsM-1920-80.jpg",
    "published_at": "2026-10-16T05:51:45+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Street Fighter review roundup: sorry, folks, but it sounds like a mess",
+   "translated": true
   },
   {
    "id": "n_85d05286a149",
-   "title": "Whoa, This Minecraft Mod Turns The Game Into A Deltarune-Style Turn-Based RPG",
+   "title": "おっと、この Minecraft Mod はゲームを Deltarune スタイルのターン制 RPG に変えます",
    "link": "https://kotaku.com/whoa-this-minecraft-mod-turns-the-game-into-a-deltarune-style-turn-based-rpg-2000746024",
    "summary": "And it’s not one of those AI-generated mods that just slaps two games together and calls it a day",
    "source": "Kotaku",
@@ -1376,11 +1498,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/soulbound-1280x721.jpg",
    "published_at": "2026-10-16T05:30:45+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Whoa, This Minecraft Mod Turns The Game Into A Deltarune-Style Turn-Based RPG",
+   "translated": true
   },
   {
    "id": "n_e61314cc5820",
-   "title": "SPINE ‘Customization Announce’ trailer, screenshots",
+   "title": "SPINE「カスタマイズの発表」トレーラー、スクリーンショット",
    "link": "https://www.gematsu.com/2026/10/spine-customization-announce-trailer-screenshots",
    "summary": "Nekki has released a new trailer and screenshots for single-player story-focused action game SPINE introducing …",
    "source": "Gematsu",
@@ -1388,11 +1512,13 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/SPINE-Parrot_10-15-26.jpg",
    "published_at": "2026-10-16T04:57:32+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "SPINE ‘Customization Announce’ trailer, screenshots",
+   "translated": true
   },
   {
    "id": "n_878a9de06ab4",
-   "title": "When Sirens Fall Silent adds PS5, Xbox Series versions",
+   "title": "When Sirens Fall Silent に PS5、Xbox シリーズのバージョンが追加される",
    "link": "https://www.gematsu.com/2026/10/when-sirens-fall-silent-adds-ps5-xbox-series-versions",
    "summary": "Psychological horror game When Sirens Fall Silent will launch for PlayStation 5 and Xbox Series …",
    "source": "Gematsu",
@@ -1403,11 +1529,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/WSFS_10-15-26.jpg",
    "published_at": "2026-10-16T04:56:58+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "When Sirens Fall Silent adds PS5, Xbox Series versions",
+   "translated": true
   },
   {
    "id": "n_b3c692e39dfe",
-   "title": "Guns of Eschaton launches December 8",
+   "title": "Guns of Eschaton は 12 月 8 日に発売",
    "link": "https://www.gematsu.com/2026/10/guns-of-eschaton-launches-december-8",
    "summary": "Mystical Western Soulslike first-person shooter Guns of Eschaton will launch for PlayStation 5, Xbox Series, …",
    "source": "Gematsu",
@@ -1418,11 +1546,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Guns-Eschaton_10-15-26.jpg",
    "published_at": "2026-10-16T04:52:03+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Guns of Eschaton launches December 8",
+   "translated": true
   },
   {
    "id": "n_4f06ac95c9f8",
-   "title": "Did Street Fighter Actor And WWE Wrestler Cody Rhodes Accidentally Let Slip He’s In The X-Men Reboot?",
+   "title": "ストリートファイター俳優でWWEレスラーのコーディ・ローズが、『X-MEN』リブート版に出演していることをうっかり漏らしてしまったのか？",
    "link": "https://kotaku.com/street-fighter-cody-rhodes-guile-x-men-mcu-reboot-cast-2000746434",
    "summary": "The MCU is bringing mutants back into the fold in 2028",
    "source": "Kotaku",
@@ -1430,11 +1560,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/guile-1280x720.jpg",
    "published_at": "2026-10-16T04:50:14+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Did Street Fighter Actor And WWE Wrestler Cody Rhodes Accidentally Let Slip He’s In The X-Men Reboot?",
+   "translated": true
   },
   {
    "id": "n_bbf864c21f28",
-   "title": "MR. RECORDS reveals Level Editor",
+   "title": "氏。 RECORDS がレベルエディターを公開",
    "link": "https://www.gematsu.com/2026/10/mr-records-reveals-level-editor",
    "summary": "Publisher Wired Productions and developer Glee-Cheese Studio have revealed the Level Editor for rhythm adventure …",
    "source": "Gematsu",
@@ -1442,11 +1574,13 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/MR-RECORDS-Level-Edit_10-15-26.jpg",
    "published_at": "2026-10-16T04:50:13+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "MR. RECORDS reveals Level Editor",
+   "translated": true
   },
   {
    "id": "n_a6bbb94eacf8",
-   "title": "ZERO PARADES: Director’s Cut coming to Switch 2 on November 3 alongside PS5 version",
+   "title": "ZERO PARADES: ディレクターズ カットが PS5 版とともに 11 月 3 日に Switch 2 に登場",
    "link": "https://www.gematsu.com/2026/10/zero-parades-directors-cut-coming-to-switch-2-on-november-3-alongside-ps5-version",
    "summary": "ZA/UM will release a Switch 2 version of espionage RPG ZERO PARADES: Director’s Cut alongside …",
    "source": "Gematsu",
@@ -1457,11 +1591,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/ZERO-PARADES-Console_10-15-26.jpg",
    "published_at": "2026-10-16T04:46:45+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "ZERO PARADES: Director’s Cut coming to Switch 2 on November 3 alongside PS5 version",
+   "translated": true
   },
   {
    "id": "n_54647feec08e",
-   "title": "Cinematic first-person psychological horror game Encryption announced for PC",
+   "title": "映画のような一人称視点の心理ホラー ゲーム、暗号化が PC 向けに発表",
    "link": "https://www.gematsu.com/2026/10/cinematic-first-person-psychological-horror-game-encryption-announced-for-pc",
    "summary": "Digital Lighthouse Games has announced Encryption, a cinematic first-person psychological horror game set during a …",
    "source": "Gematsu",
@@ -1471,11 +1607,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Encryption-Announced_10-15-26.jpg",
    "published_at": "2026-10-16T04:41:19+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Cinematic first-person psychological horror game Encryption announced for PC",
+   "translated": true
   },
   {
    "id": "n_8d99c6892606",
-   "title": "Ancestors: The Humankind Odyssey coming to PS5, Xbox Series, and Switch 2 on December 8",
+   "title": "『Ancestors: The Humankind Odyssey』が 12 月 8 日に PS5、Xbox シリーズ、Switch 2 に登場",
    "link": "https://www.gematsu.com/2026/10/ancestors-the-humankind-odyssey-coming-to-ps5-xbox-series-and-switch-2-on-december-8",
    "summary": "Publisher Fictions and developer Panache Digital Games will release PlayStation 5, Xbox Series, and Switch …",
    "source": "Gematsu",
@@ -1487,11 +1625,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Ancestors_10-15-26.jpg",
    "published_at": "2026-10-16T04:40:19+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Ancestors: The Humankind Odyssey coming to PS5, Xbox Series, and Switch 2 on December 8",
+   "translated": true
   },
   {
    "id": "n_35c4acea3adc",
-   "title": "Ember & Blade launches in Early Access for PC on January 8, 2027",
+   "title": "Ember & Blade は 2027 年 1 月 8 日に PC 向けに早期アクセスでリリースされます",
    "link": "https://www.gematsu.com/2026/10/ember-blade-launches-in-early-access-for-pc-on-january-8-2027",
    "summary": "Dark fantasy roguelite action RPG Ember & Blade will launch in Early Access for PC …",
    "source": "Gematsu",
@@ -1501,11 +1641,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Ember-Blade-Early-Access-Date_10-15-26.jpg",
    "published_at": "2026-10-16T04:36:48+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Ember & Blade launches in Early Access for PC on January 8, 2027",
+   "translated": true
   },
   {
    "id": "n_fde9bd2b4d70",
-   "title": "Squad coming to PS5, Xbox Series in 2027",
+   "title": "スクワッドは 2027 年に PS5、Xbox シリーズに登場",
    "link": "https://www.gematsu.com/2026/10/squad-coming-to-ps5-xbox-series-in-2027",
    "summary": "Publisher Secret Mode and developer Offworld Industries will release PlayStation 5 and Xbox Series of …",
    "source": "Gematsu",
@@ -1516,11 +1658,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Squad-Console-Ann_10-15-26.jpg",
    "published_at": "2026-10-16T04:35:44+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Squad coming to PS5, Xbox Series in 2027",
+   "translated": true
   },
   {
    "id": "n_2fd3031c5505",
-   "title": "Modern Warfare 4 Testers Vote To Authorize Union Strike As Contract Negotiations Stall: ‘It Is Time To Stop Playing Games’",
+   "title": "モダン・ウォーフェア4テスター、契約交渉行き詰まりで組合ストライキ承認に投票：「ゲームをやめるべき時が来た」",
    "link": "https://kotaku.com/modern-warfare-4-testers-vote-to-authorize-union-strike-as-contract-negotiations-stall-it-is-time-to-stop-playing-games-2000746427",
    "summary": "The union has spent over two years trying to negotiate its first contract",
    "source": "Kotaku",
@@ -1528,11 +1672,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/MW4-1280x720.jpg",
    "published_at": "2026-10-16T04:30:54+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Modern Warfare 4 Testers Vote To Authorize Union Strike As Contract Negotiations Stall: ‘It Is Time To Stop Playing Games’",
+   "translated": true
   },
   {
    "id": "n_f10b1c72398d",
-   "title": "World of Warcraft: Forever devs say gear upgrades will stay relevant 'for a long, long time': 'It's very much our intention to try wherever we can to not invalidate old content'",
+   "title": "World of Warcraft: Forever 開発者は、ギアのアップグレードは「長い間」関連性を維持すると述べています: 「古いコンテンツを無効にしないようにできる限り努力するのが私たちの意図です」",
    "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-devs-say-gear-upgrades-will-stay-relevant-for-a-long-long-time-its-very-much-our-intention-to-try-wherever-we-can-to-not-invalidate-old-content/",
    "summary": "Blizzard says items won't work like the modern version of the MMO.",
    "source": "PC Gamer",
@@ -1540,11 +1686,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/4a9oyQdrXFpY6keN5AagHb-1920-80.png",
    "published_at": "2026-10-16T04:14:30+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "World of Warcraft: Forever devs say gear upgrades will stay relevant 'for a long, long time': 'It's very much our intention to try wherever we can to not invalidate old content'",
+   "translated": true
   },
   {
    "id": "n_9f9f71f6e4ec",
-   "title": "Control Resonant sells 1 million copies in 3 weeks to become Remedy's fastest-selling game ever",
+   "title": "Control Resonant は 3 週間で 100 万本を販売し、Remedy 史上最も売れたゲームとなる",
    "link": "https://www.pcgamer.com/games/action/control-resonant-sells-1-million-copies-in-3-weeks-to-become-remedys-fastest-selling-game-ever/",
    "summary": "It's not a huge number, but it's big news for Remedy.",
    "source": "PC Gamer",
@@ -1552,11 +1700,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/WcjUWGKChMoMQDoCxmjz3P-1920-80.jpg",
    "published_at": "2026-10-16T03:15:22+09:00",
-   "first_seen": "2026-10-16T07:21:09+09:00"
+   "first_seen": "2026-10-16T07:21:09+09:00",
+   "title_original": "Control Resonant sells 1 million copies in 3 weeks to become Remedy's fastest-selling game ever",
+   "translated": true
   },
   {
    "id": "n_42de3ebd52c2",
-   "title": "The Ocarina Of Time Remake Doesn’t Do Everyone’s Favorite Bombchu-Bowling Baddie Justice",
+   "title": "時のオカリナのリメイク版は、みんなが大好きなボムチューのボウリングの悪役の正義を果たさない",
    "link": "https://kotaku.com/the-ocarina-of-time-remake-doesnt-do-everyones-favorite-bombchu-bowling-baddie-justice-2000746378",
    "summary": "But her updated goth look is a vibe, though",
    "source": "Kotaku",
@@ -1564,11 +1714,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/bombchu-baddie-1280x720.jpg",
    "published_at": "2026-10-16T02:30:13+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
+   "first_seen": "2026-10-16T03:19:22+09:00",
+   "title_original": "The Ocarina Of Time Remake Doesn’t Do Everyone’s Favorite Bombchu-Bowling Baddie Justice",
+   "translated": true
   },
   {
    "id": "n_086659711637",
-   "title": "Rep. Ritchie Torres Announces Congressional Legislation To Protect Video Game Ownership: ‘If You Pay For It, You Own It’",
+   "title": "リッチー・トーレス下院議員、ビデオゲームの所有権を保護する議会法案を発表：「お金を払えば、それはあなたが所有するもの」",
    "link": "https://kotaku.com/rep-ritchie-torres-announces-congressional-legislation-to-protect-video-game-ownership-2000746395",
    "summary": "The Power To The Players Act would put an end to digital game licenses",
    "source": "Kotaku",
@@ -1576,11 +1728,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/ritchieGTA-1280x720.jpg",
    "published_at": "2026-10-16T02:00:32+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
+   "first_seen": "2026-10-16T03:19:22+09:00",
+   "title_original": "Rep. Ritchie Torres Announces Congressional Legislation To Protect Video Game Ownership: ‘If You Pay For It, You Own It’",
+   "translated": true
   },
   {
    "id": "n_c8cee88e76b5",
-   "title": "GTA 5 finally measures up to the actual best GTA game now I've added a jetpack",
+   "title": "GTA 5 はジェットパックを追加したことで、ついに実際の最高の GTA ゲームに匹敵するようになりました",
    "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-5-finally-measures-up-to-the-actual-best-gta-game-now-ive-added-a-jetpack/",
    "summary": "Zoom.",
    "source": "PC Gamer",
@@ -1588,7 +1742,9 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/ZXJ6aXUqYxt72Zefkog3BL-1920-80.jpg",
    "published_at": "2026-10-16T02:00:00+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
+   "first_seen": "2026-10-16T03:19:22+09:00",
+   "title_original": "GTA 5 finally measures up to the actual best GTA game now I've added a jetpack",
+   "translated": true
   },
   {
    "id": "n_bacbef31434a",
@@ -1699,30 +1855,6 @@
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
-   "id": "n_fe0c950adf0e",
-   "title": "79% of you think Razer's new gaming mouse feature counts as cheating",
-   "link": "https://www.pcgamer.com/hardware/gaming-mice/79-percent-of-you-think-razers-new-gaming-mouse-feature-counts-as-cheating/",
-   "summary": "I doubt it will do a 180, though. Hey-hey!",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/WCWEkMPXSJjjqpqAA4mqt-1920-80.jpg",
-   "published_at": "2026-10-16T00:42:42+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
-   "id": "n_0e1547bbaf5f",
-   "title": "It's taken its sweet time, but Intel's response to AMD's X3D chips is starting to look tasty",
-   "link": "https://www.pcgamer.com/hardware/processors/its-taken-its-sweet-time-but-intels-response-to-amds-x3d-chips-is-starting-to-look-tasty/",
-   "summary": "A 65 W Ultra 9 Nova Lake chip with BLLC is reportedly on the way.",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/xNPHqUrH9cAL7uimaVYGoG-1920-80.jpg",
-   "published_at": "2026-10-16T00:34:33+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
    "id": "n_f8bb0264626a",
    "title": "GTA 6 Avoids A Very Awkward Situation By Officially Being Eligible For The 2026 Game Awards",
    "link": "https://kotaku.com/gta-6-avoids-a-very-awkward-situation-by-officially-being-eligible-for-the-2026-game-awards-2000746320",
@@ -1735,18 +1867,6 @@
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
-   "id": "n_9bc495ac507e",
-   "title": "I jammed Nvidia's new DLSS 5 October update model into the RTX Spark and it's 25% faster at 1440p",
-   "link": "https://www.pcgamer.com/hardware/i-jammed-nvidias-new-dlss-5-october-update-model-into-the-rtx-spark-and-its-25-percent-faster-at-1440p/",
-   "summary": "The performance hit you get from enabling DLSS Neural Rendering is now significantly lower, but NBA 2K27 is still not go",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/9gFcHJrxmo3sAmPLHpcum6-1920-80.jpg",
-   "published_at": "2026-10-16T00:26:59+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
    "id": "n_23df68056068",
    "title": "Link Can Blow Up Boulders With Water In Newly Discovered Ocarina Of Time Glitch",
    "link": "https://kotaku.com/link-can-blow-up-boulders-with-water-in-newly-discovered-ocarina-of-time-glitch-2000746332",
@@ -1756,18 +1876,6 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/07/ocarina-of-time-link-1280x720.jpg",
    "published_at": "2026-10-16T00:00:05+09:00",
-   "first_seen": "2026-10-16T03:19:22+09:00"
-  },
-  {
-   "id": "n_e096b39e9833",
-   "title": "Where to find the Takashiro region Treasure Hunt in Forza Horizon 6",
-   "link": "https://www.pcgamer.com/games/racing/forza-horizon-6-treasure-hunt-takashiro-region-location/",
-   "summary": "Track this chest to a field of long grass.",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/HDu7yeGoTdWjD7osXXyToD-1920-80.jpg",
-   "published_at": "2026-10-15T23:33:44+09:00",
    "first_seen": "2026-10-16T03:19:22+09:00"
   },
   {
@@ -2011,20 +2119,6 @@
    "translated": true
   },
   {
-   "id": "n_9ebbc68bb633",
-   "title": "10月のPS Plusプレミアムゲームとエクストラゲームはこちらです",
-   "link": "https://www.eurogamer.net/playstation-plus-october-2026-games",
-   "summary": "Sony has announced the games coming to PlayStation Plus Premium and Extra in October, and there's a good mix of modern h",
-   "source": "Eurogamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/aloy_MWsQoJB.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-10-15T01:51:54+09:00",
-   "first_seen": "2026-10-15T04:26:12+09:00",
-   "title_original": "Here are our PS Plus Premium and Extra games for October",
-   "translated": true
-  },
-  {
    "id": "n_333ebad46528",
    "title": "『Castlevania: Belmont’s Curse』: ベルモンドの復活は、その伝統を受け継ぐにふさわしいものに",
    "link": "https://news.xbox.com/ja-jp/2026/10/15/castlevania-belmonts-curse-legacy/",
@@ -2075,48 +2169,6 @@
    "image": "https://sm.ign.com/ign_jp/preview/t/the-legend/the-legend-of-zelda-ocarina-of-time-remake-is-surprisingly-m_qbgp.jpg",
    "published_at": "2026-10-15T00:15:36+09:00",
    "first_seen": "2026-10-15T04:26:12+09:00"
-  },
-  {
-   "id": "n_04d914c8b1e8",
-   "title": "ArenaNet は、有料の Living World アドオンを廃止し、拡張機能にバンドルすることで、進行中の Guild Wars 2 の問題を解決しました。",
-   "link": "https://www.eurogamer.net/guild-wars-2-living-world-expansions",
-   "summary": "ArenaNet has announced a major shift in its live service Guild Wars 2 operation today, ditching separate payments for Li",
-   "source": "Eurogamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/guild-wars-2-characters.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-10-15T00:14:15+09:00",
-   "first_seen": "2026-10-15T04:26:12+09:00",
-   "title_original": "ArenaNet solves an ongoing Guild Wars 2 issue by ditching paid Living World add-ons and bundling them with expansions",
-   "translated": true
-  },
-  {
-   "id": "n_bf37ba653199",
-   "title": "「この非営利団体は『ゲーマーの声』になるでしょう」 - 元 Disco Elysium 開発者がプレイヤーと開発者が所有するスタジオ構造で新境地を開拓",
-   "link": "https://www.eurogamer.net/summer-eternal-studio-structure-player-non-profit",
-   "summary": "Elsewhere on the site , you can read a big reveal piece that outlines the new game from former Disco Elysium devs under ",
-   "source": "Eurogamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/come-home-to-roost-red-rooster.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-10-14T23:00:16+09:00",
-   "first_seen": "2026-10-14T23:32:13+09:00",
-   "title_original": "\"This non-profit will be the 'voice of the gamers'\" - Former Disco Elysium devs break new ground with player- and developer-owned studio structure",
-   "translated": true
-  },
-  {
-   "id": "n_62c2e2abaa1e",
-   "title": "「GTA 6」リーク者の最新ビデオには、最終ミッションのシーンが含まれており、リークが終了した可能性があることが示唆されているとされている",
-   "link": "https://www.eurogamer.net/gta-6-cyberleek-ending-crypto-coin-crash",
-   "summary": "Cyberleek, the leaker who's been releasing footage from Grand Theft Auto 6 for weeks now, is seemingly done posting leak",
-   "source": "Eurogamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/gta-6-jason_9MumaLo.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-10-14T22:06:10+09:00",
-   "first_seen": "2026-10-14T23:32:13+09:00",
-   "title_original": "GTA 6 leaker's latest video allegedly shows scenes from the final mission, as they indicate the leaks may have come to an end",
-   "translated": true
   },
   {
    "id": "n_fff2869b1af9",
@@ -2230,20 +2282,6 @@
    "ends_at": "2026-10-22T02:00:00+09:00"
   },
   {
-   "id": "d_steam_2929250",
-   "store": "steam",
-   "title": "over the hill",
-   "link": "https://store.steampowered.com/app/2929250/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
-   "price_original": 3150,
-   "price_sale": 2520,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-29T02:00:36+09:00"
-  },
-  {
    "id": "d_steam_1203620",
    "store": "steam",
    "title": "Enshrouded~霧の王国~",
@@ -2258,18 +2296,18 @@
    "ends_at": "2026-10-30T02:00:03+09:00"
   },
   {
-   "id": "d_steam_1091500",
+   "id": "d_steam_2929250",
    "store": "steam",
-   "title": "サイバーパンク2077",
-   "link": "https://store.steampowered.com/app/1091500/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
-   "price_original": 8778,
-   "price_sale": 2633,
-   "discount": 70,
+   "title": "over the hill",
+   "link": "https://store.steampowered.com/app/2929250/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792002879",
+   "price_original": 3150,
+   "price_sale": 2520,
+   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-10-27T03:00:00+09:00"
+   "ends_at": "2026-10-29T02:00:36+09:00"
   },
   {
    "id": "d_steam_1621690",
@@ -2286,6 +2324,62 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_1091500",
+   "store": "steam",
+   "title": "サイバーパンク2077",
+   "link": "https://store.steampowered.com/app/1091500/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
+   "price_original": 8778,
+   "price_sale": 2633,
+   "discount": 70,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-27T03:00:00+09:00"
+  },
+  {
+   "id": "d_steam_5228920",
+   "store": "steam",
+   "title": "Brick by Brick: Tidy Up the Small Town!",
+   "link": "https://store.steampowered.com/app/5228920/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/999d76679b85624ff8d765b9f3e748073e3ee394/capsule_231x87.jpg?t=1792140551",
+   "price_original": 1050,
+   "price_sale": 651,
+   "discount": 38,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4656000",
+   "store": "steam",
+   "title": "BOMBANANA!",
+   "link": "https://store.steampowered.com/app/4656000/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
+   "price_original": 1050,
+   "price_sale": 630,
+   "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-24T02:00:00+09:00"
+  },
+  {
+   "id": "d_steam_3845070",
+   "store": "steam",
+   "title": "虚言審判",
+   "link": "https://store.steampowered.com/app/3845070/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_alt_assets_1_japanese.jpg?t=1792132260",
+   "price_original": 2300,
+   "price_sale": 1840,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-30T02:00:08+09:00"
+  },
+  {
    "id": "d_steam_632360",
    "store": "steam",
    "title": "Risk of Rain 2",
@@ -2294,34 +2388,6 @@
    "price_original": 2570,
    "price_sale": 848,
    "discount": 67,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_5228920",
-   "store": "steam",
-   "title": "Brick by Brick: Tidy Up the Small Town!",
-   "link": "https://store.steampowered.com/app/5228920/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/8c57f18ab6a1940b328584fe5556f4c87839e1a0/header.jpg?t=1792078556",
-   "price_original": 1050,
-   "price_sale": 651,
-   "discount": 38,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-30T02:00:08+09:00"
-  },
-  {
-   "id": "d_steam_4656000",
-   "store": "steam",
-   "title": "BOMBANANA!",
-   "link": "https://store.steampowered.com/app/4656000/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/4b28cb7e3572e7ab0ffcd6a53030b1a719ff3fff/capsule_231x87.jpg?t=1791542068",
-   "price_original": 1050,
-   "price_sale": 630,
-   "discount": 40,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2346,70 +2412,42 @@
    "store": "steam",
    "title": "RuneScape: Dragonwilds ルーンスケープ：ドラゴンワイルズ",
    "link": "https://store.steampowered.com/app/1374490/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg?t=1791278745",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/f58347a40fdb989309b2b738c1176f67447aec11/capsule_231x87.jpg?t=1791278745",
    "price_original": 3400,
    "price_sale": 2380,
    "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-10-30T03:00:00+09:00"
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3569420",
+   "store": "steam",
+   "title": "Chained Beasts",
+   "link": "https://store.steampowered.com/app/3569420/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/be237edbd1bdbcf361d7b315d70e89fea3b5262a/header.jpg?t=1792082632",
+   "price_original": 2600,
+   "price_sale": 1690,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-30T02:00:48+09:00"
   },
   {
    "id": "d_steam_3240220",
    "store": "steam",
    "title": "グランド・セフト・オートV エンハンスト",
    "link": "https://store.steampowered.com/app/3240220/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1781187782",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
    "price_original": 6480,
    "price_sale": 2851,
    "discount": 56,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3845070",
-   "store": "steam",
-   "title": "虚言審判",
-   "link": "https://store.steampowered.com/app/3845070/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_alt_assets_1_japanese.jpg?t=1792132260",
-   "price_original": 2300,
-   "price_sale": 1840,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-30T02:00:08+09:00"
-  },
-  {
-   "id": "d_steam_3299050",
-   "store": "steam",
-   "title": "No Such Place",
-   "link": "https://store.steampowered.com/app/3299050/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/7ac41a077dfde4582707c5c9bd905c916b7a014c/capsule_231x87.jpg?t=1791980785",
-   "price_original": 2280,
-   "price_sale": 1960,
-   "discount": 14,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2138330",
-   "store": "steam",
-   "title": "サイバーパンク2077：仮初めの自由",
-   "link": "https://store.steampowered.com/app/2138330/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/bdbeea292270b8cd9dde1f2044a411624db58657/header.jpg?t=1784713876",
-   "price_original": 4309,
-   "price_sale": 2585,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-27T03:00:00+09:00"
+   "ends_at": "2026-10-23T02:00:00+09:00"
   },
   {
    "id": "d_steam_3768760",
@@ -2426,20 +2464,6 @@
    "ends_at": "2026-10-23T02:00:00+09:00"
   },
   {
-   "id": "d_steam_4356430",
-   "store": "steam",
-   "title": "『NBA 2K27』",
-   "link": "https://store.steampowered.com/app/4356430/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_231x87.jpg?t=1790702884",
-   "price_original": 9460,
-   "price_sale": 6622,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_1623730",
    "store": "steam",
    "title": "Palworld / パルワールド",
@@ -2454,14 +2478,42 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1151340",
+   "id": "d_steam_4356430",
    "store": "steam",
-   "title": "Fallout 76",
-   "link": "https://store.steampowered.com/app/1151340/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/5ff8cf414a0d102dbc2024613d7f5bd27c6609db/capsule_231x87.jpg?t=1791379859",
-   "price_original": 4800,
-   "price_sale": 960,
-   "discount": 80,
+   "title": "『NBA 2K27』",
+   "link": "https://store.steampowered.com/app/4356430/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_231x87.jpg?t=1790702884",
+   "price_original": 9460,
+   "price_sale": 6622,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3883570",
+   "store": "steam",
+   "title": "インボキア-呪いのダイスゲーム-",
+   "link": "https://store.steampowered.com/app/3883570/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/91d5e903bee960c574cf8ff991abe8d44db62b29/capsule_231x87_japanese.jpg?t=1791907648",
+   "price_original": 1200,
+   "price_sale": 900,
+   "discount": 25,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3299050",
+   "store": "steam",
+   "title": "No Such Place",
+   "link": "https://store.steampowered.com/app/3299050/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/7ac41a077dfde4582707c5c9bd905c916b7a014c/capsule_231x87.jpg?t=1791980785",
+   "price_original": 2280,
+   "price_sale": 1960,
+   "discount": 14,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2475,20 +2527,6 @@
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/dcc96a6f2eee6a1f001ef6d00ca5d533d24338e8/capsule_231x87.jpg?t=1791911043",
    "price_original": 1050,
    "price_sale": 945,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3816030",
-   "store": "steam",
-   "title": "DayZ Badlands",
-   "link": "https://store.steampowered.com/app/3816030/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/fb0824834103c0c1a2206feb9ec4e9a5e87a9b1c/capsule_231x87.jpg?t=1792059040",
-   "price_original": 3150,
-   "price_sale": 2835,
    "discount": 10,
    "is_free": false,
    "upcoming": false,
@@ -2510,70 +2548,28 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3883570",
+   "id": "d_steam_2138330",
    "store": "steam",
-   "title": "インボキア-呪いのダイスゲーム-",
-   "link": "https://store.steampowered.com/app/3883570/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/91d5e903bee960c574cf8ff991abe8d44db62b29/capsule_231x87_japanese.jpg?t=1791907648",
-   "price_original": 1200,
-   "price_sale": 900,
-   "discount": 25,
+   "title": "サイバーパンク2077：仮初めの自由",
+   "link": "https://store.steampowered.com/app/2138330/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/3d2b6a051a7e2fc4ff654d95d6876c24d6dda13d/capsule_231x87.jpg?t=1784713876",
+   "price_original": 4309,
+   "price_sale": 2585,
+   "discount": 40,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_3569420",
+   "id": "d_steam_3816030",
    "store": "steam",
-   "title": "Chained Beasts",
-   "link": "https://store.steampowered.com/app/3569420/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/37a1f130512c4537b4a2b556bd104adb710bb0c5/capsule_231x87.jpg?t=1792082632",
-   "price_original": 2600,
-   "price_sale": 1690,
-   "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1096900",
-   "store": "steam",
-   "title": "RPGツクールMZ",
-   "link": "https://store.steampowered.com/app/1096900/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096900/capsule_231x87_japanese.jpg?t=1791423716",
-   "price_original": 10420,
-   "price_sale": 3412,
-   "discount": 67,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1902690",
-   "store": "steam",
-   "title": "Fate/Samurai Remnant",
-   "link": "https://store.steampowered.com/app/1902690/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1902690/capsule_231x87_japanese.jpg?t=1760594680",
-   "price_original": 4950,
-   "price_sale": 3217,
-   "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2537590",
-   "store": "steam",
-   "title": "Microsoft Flight Simulator 2024",
-   "link": "https://store.steampowered.com/app/2537590/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/c992a0851b2714fdeaa65469ba5e7b8e60c06a96/capsule_231x87.jpg?t=1791557822",
-   "price_original": 9700,
-   "price_sale": 6790,
-   "discount": 30,
+   "title": "DayZ Badlands",
+   "link": "https://store.steampowered.com/app/3816030/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/fb0824834103c0c1a2206feb9ec4e9a5e87a9b1c/capsule_231x87.jpg?t=1792059040",
+   "price_original": 3150,
+   "price_sale": 2835,
+   "discount": 10,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2608,56 +2604,28 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1859910",
+   "id": "d_steam_2537590",
    "store": "steam",
-   "title": "活俠傳",
-   "link": "https://store.steampowered.com/app/1859910/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859910/capsule_231x87.jpg?t=1780993657",
-   "price_original": 2300,
-   "price_sale": 2070,
-   "discount": 10,
+   "title": "Microsoft Flight Simulator 2024",
+   "link": "https://store.steampowered.com/app/2537590/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/c992a0851b2714fdeaa65469ba5e7b8e60c06a96/capsule_231x87.jpg?t=1791557822",
+   "price_original": 9700,
+   "price_sale": 6790,
+   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_1174180",
+   "id": "d_steam_1096900",
    "store": "steam",
-   "title": "Red Dead Redemption 2",
-   "link": "https://store.steampowered.com/app/1174180/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
-   "price_original": 8618,
-   "price_sale": 2154,
-   "discount": 75,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1778820",
-   "store": "steam",
-   "title": "鉄拳8",
-   "link": "https://store.steampowered.com/app/1778820/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_231x87.jpg?t=1787180720",
-   "price_original": 4950,
-   "price_sale": 2970,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4098030",
-   "store": "steam",
-   "title": "Shipping Store Simulator 2037",
-   "link": "https://store.steampowered.com/app/4098030/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4098030/3485e9062fd28c4abcf6ba6d5f60e82119ade026/capsule_231x87.jpg?t=1791985843",
-   "price_original": 2600,
-   "price_sale": 2340,
-   "discount": 10,
+   "title": "RPGツクールMZ",
+   "link": "https://store.steampowered.com/app/1096900/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096900/capsule_231x87_japanese.jpg?t=1791423716",
+   "price_original": 10420,
+   "price_sale": 3412,
+   "discount": 67,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2678,28 +2646,42 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2254990",
+   "id": "d_steam_1778820",
    "store": "steam",
-   "title": "Permafrost",
-   "link": "https://store.steampowered.com/app/2254990/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/024db5584cd87b23dd37229e049378f2d4828bdb/capsule_231x87.jpg?t=1791980722",
-   "price_original": 2799,
-   "price_sale": 2239,
-   "discount": 20,
+   "title": "鉄拳8",
+   "link": "https://store.steampowered.com/app/1778820/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_231x87.jpg?t=1787180720",
+   "price_original": 4950,
+   "price_sale": 2970,
+   "discount": 40,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_2967950",
+   "id": "d_steam_1859910",
    "store": "steam",
-   "title": "The Witch's Bakery",
-   "link": "https://store.steampowered.com/app/2967950/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/af8db0d80cbbaed8db31580689945d9abaa904aa/capsule_231x87.jpg?t=1791986240",
-   "price_original": 2400,
-   "price_sale": 2160,
+   "title": "活俠傳",
+   "link": "https://store.steampowered.com/app/1859910/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859910/capsule_231x87.jpg?t=1780993657",
+   "price_original": 2300,
+   "price_sale": 2070,
    "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1902690",
+   "store": "steam",
+   "title": "Fate/Samurai Remnant",
+   "link": "https://store.steampowered.com/app/1902690/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1902690/capsule_231x87_japanese.jpg?t=1760594680",
+   "price_original": 4950,
+   "price_sale": 3217,
+   "discount": 35,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2720,13 +2702,41 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_377160",
+   "id": "d_steam_2138720",
    "store": "steam",
-   "title": "Fallout 4",
-   "link": "https://store.steampowered.com/app/377160/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/capsule_231x87.jpg?t=1786648137",
-   "price_original": 2246,
-   "price_sale": 561,
+   "title": "REMATCH",
+   "link": "https://store.steampowered.com/app/2138720/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/926eeaa4f0ed77b69b4c64c3e1f22bcd587fc96a/capsule_231x87_alt_assets_1.jpg?t=1791561528",
+   "price_original": 4900,
+   "price_sale": 1960,
+   "discount": 60,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1295660",
+   "store": "steam",
+   "title": "シドマイヤーズ シヴィライゼーション VII",
+   "link": "https://store.steampowered.com/app/1295660/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295660/56f256d5776521616d8842cd435f97b22de655cd/capsule_231x87.jpg?t=1789481137",
+   "price_original": 12650,
+   "price_sale": 6325,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1174180",
+   "store": "steam",
+   "title": "Red Dead Redemption 2",
+   "link": "https://store.steampowered.com/app/1174180/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
+   "price_original": 8618,
+   "price_sale": 2154,
    "discount": 75,
    "is_free": false,
    "upcoming": false,
@@ -2734,13 +2744,27 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3907350",
+   "id": "d_steam_2825190",
    "store": "steam",
-   "title": "テニスの王子様　も～っと 学園祭の王子様 ♡-40 and more...",
-   "link": "https://store.steampowered.com/app/3907350/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907350/9ae88c869f3d4820799ec33772003c1b8a8426a7/capsule_231x87_japanese.jpg?t=1791955082",
-   "price_original": 7700,
-   "price_sale": 6160,
+   "title": "Street Fighter 6 - Year 2 キャラクターパス",
+   "link": "https://store.steampowered.com/app/2825190/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825190/capsule_231x87.jpg?t=1780278916",
+   "price_original": 3000,
+   "price_sale": 1950,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2254990",
+   "store": "steam",
+   "title": "Permafrost",
+   "link": "https://store.steampowered.com/app/2254990/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/024db5584cd87b23dd37229e049378f2d4828bdb/capsule_231x87.jpg?t=1791980722",
+   "price_original": 2799,
+   "price_sale": 2239,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
@@ -2762,13 +2786,55 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1295660",
+   "id": "d_steam_1151340",
    "store": "steam",
-   "title": "シドマイヤーズ シヴィライゼーション VII",
-   "link": "https://store.steampowered.com/app/1295660/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295660/56f256d5776521616d8842cd435f97b22de655cd/capsule_231x87.jpg?t=1789481137",
-   "price_original": 12650,
-   "price_sale": 6325,
+   "title": "Fallout 76",
+   "link": "https://store.steampowered.com/app/1151340/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/5ff8cf414a0d102dbc2024613d7f5bd27c6609db/capsule_231x87.jpg?t=1791379859",
+   "price_original": 4800,
+   "price_sale": 960,
+   "discount": 80,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2967950",
+   "store": "steam",
+   "title": "The Witch's Bakery",
+   "link": "https://store.steampowered.com/app/2967950/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/af8db0d80cbbaed8db31580689945d9abaa904aa/capsule_231x87.jpg?t=1791986240",
+   "price_original": 2400,
+   "price_sale": 2160,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1858630",
+   "store": "steam",
+   "title": "ソードアート・オンライン フラクチュアード デイドリーム",
+   "link": "https://store.steampowered.com/app/1858630/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1858630/capsule_231x87.jpg?t=1791363033",
+   "price_original": 12100,
+   "price_sale": 4840,
+   "discount": 60,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_673750",
+   "store": "steam",
+   "title": "スーパーバニーマン",
+   "link": "https://store.steampowered.com/app/673750/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673750/5613e86f95b528938211d22326e29cddcabcf669/capsule_231x87.jpg?t=1764709681",
+   "price_original": 1700,
+   "price_sale": 850,
    "discount": 50,
    "is_free": false,
    "upcoming": false,
@@ -2776,56 +2842,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2138720",
+   "id": "d_steam_1046480",
    "store": "steam",
-   "title": "REMATCH",
-   "link": "https://store.steampowered.com/app/2138720/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/926eeaa4f0ed77b69b4c64c3e1f22bcd587fc96a/capsule_231x87_alt_assets_1.jpg?t=1791561528",
-   "price_original": 4900,
-   "price_sale": 1960,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2725250",
-   "store": "steam",
-   "title": "ニエンタム — オプス・ゼロ — (Nientum - Op.ZERO)",
-   "link": "https://store.steampowered.com/app/2725250/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725250/5d3cfcc2d00c057b1d888c3f69d0e41fae6c3be6/capsule_231x87.jpg?t=1791950185",
-   "price_original": 2200,
-   "price_sale": 1760,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2124120",
-   "store": "steam",
-   "title": "サルファー",
-   "link": "https://store.steampowered.com/app/2124120/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/939ba19f0fa15e399329ae380b2de0cb15593ea3/capsule_231x87.jpg?t=1791577246",
-   "price_original": 2900,
-   "price_sale": 1160,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3167020",
-   "store": "steam",
-   "title": "エスケープ フロム ダッコフ",
-   "link": "https://store.steampowered.com/app/3167020/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/7c2aff88e9dec754268cebac09113f5a41bc792e/capsule_231x87_japanese.jpg?t=1788419722",
-   "price_original": 1800,
-   "price_sale": 1260,
-   "discount": 30,
+   "title": "アイドルマスター スターリットシーズン",
+   "link": "https://store.steampowered.com/app/1046480/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1046480/capsule_231x87.jpg?t=1704409921",
+   "price_original": 9020,
+   "price_sale": 2706,
+   "discount": 70,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2846,6 +2870,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_377160",
+   "store": "steam",
+   "title": "Fallout 4",
+   "link": "https://store.steampowered.com/app/377160/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/capsule_231x87.jpg?t=1786648137",
+   "price_original": 2246,
+   "price_sale": 561,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_3410470",
    "store": "steam",
    "title": "Street Fighter 6 - Year 3 アルティメットパス",
@@ -2860,42 +2898,56 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2567870",
+   "id": "d_steam_3755350",
    "store": "steam",
-   "title": "Chained Together",
-   "link": "https://store.steampowered.com/app/2567870/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2567870/fe50d80ef2412446a0761056c5d5395e97b525a6/capsule_231x87.jpg?t=1791478907",
-   "price_original": 580,
-   "price_sale": 464,
-   "discount": 20,
+   "title": "アリスと彼岸",
+   "link": "https://store.steampowered.com/app/3755350/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3755350/896e2fdd504d589b95027f887591c980332fafc4/capsule_231x87_japanese.jpg?t=1792123557",
+   "price_original": 1050,
+   "price_sale": 945,
+   "discount": 10,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_2825190",
+   "id": "d_steam_2183900",
    "store": "steam",
-   "title": "Street Fighter 6 - Year 2 キャラクターパス",
-   "link": "https://store.steampowered.com/app/2825190/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825190/capsule_231x87.jpg?t=1780278916",
-   "price_original": 3000,
-   "price_sale": 1950,
+   "title": "Warhammer 40,000: Space Marine 2",
+   "link": "https://store.steampowered.com/app/2183900/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/4d708ded1bdd58a39111eb1b91f7056bb416a9d4/capsule_231x87_alt_assets_14_japanese.jpg?t=1790874369",
+   "price_original": 9800,
+   "price_sale": 2450,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2634950",
+   "store": "steam",
+   "title": "首都高バトル",
+   "link": "https://store.steampowered.com/app/2634950/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2634950/26e314a7da5d9af3afbba68efc0ae3e04cce3e36/capsule_231x87_japanese.jpg?t=1790326750",
+   "price_original": 6600,
+   "price_sale": 3960,
+   "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1857950",
+   "store": "steam",
+   "title": "VEIN",
+   "link": "https://store.steampowered.com/app/1857950/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1857950/f1b93d2ae46b8118d5454073aaf5a199d74e661a/capsule_231x87_alt_assets_0.jpg?t=1790673186",
+   "price_original": 2600,
+   "price_sale": 1690,
    "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1046480",
-   "store": "steam",
-   "title": "アイドルマスター スターリットシーズン",
-   "link": "https://store.steampowered.com/app/1046480/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1046480/capsule_231x87.jpg?t=1704409921",
-   "price_original": 9020,
-   "price_sale": 2706,
-   "discount": 70,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -4064,6 +4116,20 @@
    "ends_at": "2026-11-24T23:59:59+09:00"
   },
   {
+   "id": "d_eshop_70070000040863",
+   "store": "eshop",
+   "title": "こどものための記憶ゲーム デラックス版",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000040863",
+   "image": "https://img-eshop.cdn.nintendo.net/i/ca508b185e810f5d26e5401979cdc65acdfbbaf9bd64c55afdbb79039643d115.jpg",
+   "price_original": 1697,
+   "price_sale": 299,
+   "discount": 82,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-16T00:00:00+09:00",
+   "ends_at": "2026-11-11T23:59:59+09:00"
+  },
+  {
    "id": "d_eshop_70010000137306",
    "store": "eshop",
    "title": "Phel The Penguin",
@@ -4218,6 +4284,146 @@
    "ends_at": "2026-10-28T23:59:59+09:00"
   },
   {
+   "id": "d_eshop_70070000040868",
+   "store": "eshop",
+   "title": "アシヲード の会 ピーチパーフェクト パック",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000040868",
+   "image": "https://img-eshop.cdn.nintendo.net/i/1584b8ee4b7889ebe7b7fc23e38911cb06b8cfb8cb17a84ac2bcb67eb6356e17.jpg",
+   "price_original": 1674,
+   "price_sale": 299,
+   "discount": 82,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-10T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000038990",
+   "store": "eshop",
+   "title": "Urban Flow Amazing Bundle",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000038990",
+   "image": "https://img-eshop.cdn.nintendo.net/i/8b72d41eebc0c9f5b2d9e94da606a39c9fe49e671764979630bf305b3f2d522f.jpg",
+   "price_original": 1720,
+   "price_sale": 100,
+   "discount": 94,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-04T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000038986",
+   "store": "eshop",
+   "title": "S.N.I.P.E.R. - Hunter Scope Amazing Bundle",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000038986",
+   "image": "https://img-eshop.cdn.nintendo.net/i/6e768838befbe9b428faceadaa58afac41d7d7b07db383c3a685a11a3b9e4cdb.jpg",
+   "price_original": 4900,
+   "price_sale": 100,
+   "discount": 98,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-04T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000038983",
+   "store": "eshop",
+   "title": "Cooking Tycoons - 3 in 1 Bundle Super Edition",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000038983",
+   "image": "https://img-eshop.cdn.nintendo.net/i/d5f90a446060c50b00033b8bd1830a1b293c93a9211461c351171a76c79e85f7.jpg",
+   "price_original": 1880,
+   "price_sale": 100,
+   "discount": 95,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-04T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000040874",
+   "store": "eshop",
+   "title": "クック フォー ラブ コート・ダジュール　パック",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000040874",
+   "image": "https://img-eshop.cdn.nintendo.net/i/f46f05c37842c22e2e0ba82822d325f921739e4bd1db5c6b0e0303d27ad10dbc.jpg",
+   "price_original": 2089,
+   "price_sale": 299,
+   "discount": 86,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-10T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000038966",
+   "store": "eshop",
+   "title": "Club Sports Collection Value Edition",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000038966",
+   "image": "https://img-eshop.cdn.nintendo.net/i/a53c728afb94519864145d91f2d3314b63364eb55b61d0bb7df75121cb451985.jpg",
+   "price_original": 2100,
+   "price_sale": 100,
+   "discount": 95,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-04T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000041105",
+   "store": "eshop",
+   "title": "『グルーヴコースター フューチャーパフォーマーズ』+『ヒットソング 楽曲+キャラクターパック』セット",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000041105",
+   "image": "https://img-eshop.cdn.nintendo.net/i/0b935357b4913b4f470b0d85257e092bd0ea24efb516f98d91031438911d749d.jpg",
+   "price_original": 7568,
+   "price_sale": 3780,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-11T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000040579",
+   "store": "eshop",
+   "title": "Chubby Pixel Mega Bundle",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000040579",
+   "image": "https://img-eshop.cdn.nintendo.net/i/bdd64fb55bd1d756fa706ef36d290c6136e33e6ea2467ccfd44ce978aabb6394.jpg",
+   "price_original": 1999,
+   "price_sale": 399,
+   "discount": 80,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-04T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000038961",
+   "store": "eshop",
+   "title": "Bowling Fever Prime Edition",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000038961",
+   "image": "https://img-eshop.cdn.nintendo.net/i/a90ae248a6d143877d65f22c823d6e66747a8b6b60dbe1343ce475833c2bb25b.jpg",
+   "price_original": 1550,
+   "price_sale": 100,
+   "discount": 94,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-04T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000040834",
+   "store": "eshop",
+   "title": "Make It Cozy! シック　パック",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000040834",
+   "image": "https://img-eshop.cdn.nintendo.net/i/750a186d09bdbe8b8ab3aef6fda8adb69d3c31d4956dd4159cd85dd6ef3483b5.jpg",
+   "price_original": 2499,
+   "price_sale": 299,
+   "discount": 88,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-15T00:00:00+09:00",
+   "ends_at": "2026-11-10T23:59:59+09:00"
+  },
+  {
    "id": "d_eshop_70010000118305",
    "store": "eshop",
    "title": "UNDERGROUNDED",
@@ -4230,6 +4436,20 @@
    "upcoming": false,
    "starts_at": "2026-09-17T00:00:00+09:00",
    "ends_at": "2027-02-03T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70070000040586",
+   "store": "eshop",
+   "title": "モナーク／Monark アルティメットエディション",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000040586",
+   "image": "https://img-eshop.cdn.nintendo.net/i/e08ae5bfdee4afdeafc60d9e482378d483527d84b4acef4d04c1dbcc81077dd7.jpg",
+   "price_original": 12870,
+   "price_sale": 1500,
+   "discount": 88,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-10-14T00:00:00+09:00",
+   "ends_at": "2026-11-09T23:59:59+09:00"
   },
   {
    "id": "d_eshop_70010000118652",
@@ -4316,186 +4536,18 @@
    "ends_at": "2026-10-21T23:59:59+09:00"
   },
   {
-   "id": "d_eshop_70010000116481",
+   "id": "d_eshop_70070000041116",
    "store": "eshop",
-   "title": "Shockwave Triggers",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000116481",
-   "image": "https://img-eshop.cdn.nintendo.net/i/d0665f15c0ab3923a401819fd201246cae80d7d01e3f2e78282bf38e92c6d03d.jpg",
-   "price_original": 1980,
-   "price_sale": 1780,
-   "discount": 10,
+   "title": "塗り絵の 達人 ドット絵ドリーマー: ミニチュア シーズン 2 (Pixel Cross Stitch Color by Number: Miniatures Season 2)",
+   "link": "https://store-jp.nintendo.com/item/software/D70070000041116",
+   "image": "https://img-eshop.cdn.nintendo.net/i/dc994c3e7975babb2ec38f0d357230e51e18b0bda9cacd000eb53a97ce145dca.jpg",
+   "price_original": 1434,
+   "price_sale": 717,
+   "discount": 50,
    "is_free": false,
    "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-04T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000129853",
-   "store": "eshop",
-   "title": "不思議な図書館",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000129853",
-   "image": "https://img-eshop.cdn.nintendo.net/i/f3f09ea1bb54bab6460c4fd13e18bbf09e2582f7403febc92528b0a48bec7db6.jpg",
-   "price_original": 400,
-   "price_sale": 360,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-08T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000134842",
-   "store": "eshop",
-   "title": "トロピカル・アイ リゾート美女のまちがい探し",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000134842",
-   "image": "https://img-eshop.cdn.nintendo.net/i/564e79f0cb9cdde4097c4e20b7b998c626e0fbda8794d51a5f36faf36ce2a525.jpg",
-   "price_original": 420,
-   "price_sale": 378,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-08T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000135297",
-   "store": "eshop",
-   "title": "ヴァルキリー・サーガ（VALKYRIE SAGA）",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000135297",
-   "image": "https://img-eshop.cdn.nintendo.net/i/58dee298de89609c4b6a4894aa07f8026f7833fea6c1ad27e79e4e743a0a840f.jpg",
-   "price_original": 1050,
-   "price_sale": 630,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-10-21T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000135786",
-   "store": "eshop",
-   "title": "ZENONIA",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000135786",
-   "image": "https://img-eshop.cdn.nintendo.net/i/feee02bb4f21bff95a1242a09a9dc9c8811a9962dbe3f85a85eba7cf9e2f5f58.jpg",
-   "price_original": 990,
-   "price_sale": 792,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-10-29T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000136097",
-   "store": "eshop",
-   "title": "フライドポテトプッシャーフレンズ",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000136097",
-   "image": "https://img-eshop.cdn.nintendo.net/i/3140b4f19970de68c3d973b1030797c8e55acc70b13f8f79f18802f2964506c1.jpg",
-   "price_original": 470,
-   "price_sale": 423,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-10-21T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000137367",
-   "store": "eshop",
-   "title": "Freaky Trip: Puzzled",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000137367",
-   "image": "https://img-eshop.cdn.nintendo.net/i/954347fc1cdc4eacb8a34cee70758a12da439cb596731a222f4f44999b280229.jpg",
-   "price_original": 1079,
-   "price_sale": 199,
-   "discount": 82,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-10T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000137484",
-   "store": "eshop",
-   "title": "おくだけスタディかんたん英単語ー指一本で英会話かんたん勉強学習教養ゲームー",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000137484",
-   "image": "https://img-eshop.cdn.nintendo.net/i/ac5643ebd3fc557c971fcc633f962a628b3f6321ca9bad20e9572e2882edd0dd.jpg",
-   "price_original": 420,
-   "price_sale": 378,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-08T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000137514",
-   "store": "eshop",
-   "title": "リバーシ脳トレー１手で大量ゲットー初心者でもできる簡単脳トレ",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000137514",
-   "image": "https://img-eshop.cdn.nintendo.net/i/4f62a2e1b91dc3beb4c75db48abad858590e3d00beddd23bff45c6a4a302704a.jpg",
-   "price_original": 420,
-   "price_sale": 378,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-08T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000138079",
-   "store": "eshop",
-   "title": "IQ クロスロジック 法則を見抜く推論パズル",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000138079",
-   "image": "https://img-eshop.cdn.nintendo.net/i/e99136387682dd33f266880d12cd940b26fc60d5c437dbcacd4c45e5ded154a2.jpg",
-   "price_original": 420,
-   "price_sale": 378,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-08T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000138414",
-   "store": "eshop",
-   "title": "そろえて青春！部活女子モンタージュパズル",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000138414",
-   "image": "https://img-eshop.cdn.nintendo.net/i/d70bcfa48e73819b94ca66a08c23f58d238f013338d96e6c36a37db0203b2516.jpg",
-   "price_original": 420,
-   "price_sale": 378,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-08T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70010000138519",
-   "store": "eshop",
-   "title": "どっち!? 毒ドクターの危ない◯×クイズー毒あるorない!?2択で楽しく雑学教養テストー",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000138519",
-   "image": "https://img-eshop.cdn.nintendo.net/i/76936a4022e7b85a228ec55182af513997ece32e17a7d4b5b7f4e329798c092a.jpg",
-   "price_original": 420,
-   "price_sale": 378,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2026-11-08T23:59:59+09:00"
-  },
-  {
-   "id": "d_eshop_70070000040894",
-   "store": "eshop",
-   "title": "SUSHIショット＋豪華ネタ＆スキンダブルパックセット",
-   "link": "https://store-jp.nintendo.com/item/software/D70070000040894",
-   "image": "https://img-eshop.cdn.nintendo.net/i/9f0c5592f1b41be985a44784f5ac91ce39f9624be50d2d87686a9dadc0dde164.jpg",
-   "price_original": 700,
-   "price_sale": 450,
-   "discount": 36,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-10-15T00:00:00+09:00",
-   "ends_at": "2027-01-05T23:59:59+09:00"
+   "starts_at": "2026-10-10T00:00:00+09:00",
+   "ends_at": "2026-10-30T23:59:59+09:00"
   }
  ]
 }
