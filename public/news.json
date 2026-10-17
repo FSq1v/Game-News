@@ -1,33 +1,33 @@
 {
- "updated_at": "2026-10-18T04:25:55+09:00",
+ "updated_at": "2026-10-18T07:20:54+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:IGN Japan",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:電ファミニコゲーマー",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:AUTOMATON",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:gamebiz",
@@ -41,87 +41,143 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:任天堂公式",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:PlayStation Blog",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:Xbox Wire Japan",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:Gematsu",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:PC Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:Kotaku",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "rss:Eurogamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "steam",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "epic",
    "ok": true,
    "count": 4,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "ps",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   },
   {
    "id": "eshop",
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-10-18T04:25:55+09:00"
+   "last_success": "2026-10-18T07:20:54+09:00"
   }
  ],
  "news": [
+  {
+   "id": "n_f917ef556103",
+   "title": "メタルバンドのジェニターチュラーズが『ヴァンパイア：ザ・マスカレード - ブラッドライン』のリメイク版が登場すると主張、12人の気難しいオタクが興奮しすぎている",
+   "link": "https://www.pcgamer.com/games/rpg/metal-band-genitorturers-allegedly-claims-a-vampire-the-masquerade-bloodlines-remake-is-coming-getting-a-dozen-crusty-nerds-way-too-worked-up/",
+   "summary": "I'm one of a dozen crusty nerds.",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/VCqXuCa5LDSdzrMj4RK2xA-1920-80.jpg",
+   "published_at": "2026-10-18T06:52:34+09:00",
+   "first_seen": "2026-10-18T07:20:54+09:00",
+   "title_original": "Metal band Genitorturers allegedly claims a Vampire: The Masquerade - Bloodlines remake is coming, getting a dozen crusty nerds way too worked up",
+   "translated": true
+  },
+  {
+   "id": "n_607dd2cfaaef",
+   "title": "『霊安室アシスタント』映画監督ジェレマイア・キップ死去",
+   "link": "https://kotaku.com/the-mortuary-assistant-film-director-jeremiah-kipp-passes-away-2000747075",
+   "summary": "The underground horror community is mourning a charitable filmmaker, who sharpened his fangs on numerous indie scares",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/mortuaryassistantmovie.jpg",
+   "published_at": "2026-10-18T06:10:34+09:00",
+   "first_seen": "2026-10-18T07:20:54+09:00",
+   "title_original": "The Mortuary Assistant Film Director Jeremiah Kipp Passes Away",
+   "translated": true
+  },
+  {
+   "id": "n_737f2b4d3b56",
+   "title": "駐車場の首都は世界で最も邪悪なシミュレーター (無料)",
+   "link": "https://kotaku.com/car-park-capital-is-the-worlds-most-evil-simulator-complimentary-2000747068",
+   "summary": "Step into Robert Moses’ shoes as you dismantle civilization and ensure these little computer people never witness a 15-m",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/carparkcapital-1280x771.jpg",
+   "published_at": "2026-10-18T04:55:46+09:00",
+   "first_seen": "2026-10-18T07:20:54+09:00",
+   "title_original": "Car Park Capital Is The World’s Most Evil Simulator (Complimentary)",
+   "translated": true
+  },
+  {
+   "id": "n_48d2c8842451",
+   "title": "クアルコムが同じハイテク大手アームに対して2ドルの法的判決を勝ち取る、それはタイプミスではない",
+   "link": "https://www.pcgamer.com/gaming-industry/qualcomm-wins-usd2-legal-decision-against-fellow-tech-giant-arm-and-thats-not-a-typo/",
+   "summary": "It's not just the principle of the thing: There could be more money up for grabs.",
+   "source": "PC Gamer",
+   "region": "global",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/dWCr2RhPTciT8TceHkwqcY-1920-80.jpg",
+   "published_at": "2026-10-18T04:30:53+09:00",
+   "first_seen": "2026-10-18T07:20:54+09:00",
+   "title_original": "Qualcomm wins $2 legal decision against fellow tech giant Arm, and that's not a typo",
+   "translated": true
+  },
   {
    "id": "n_a00c48e1088a",
    "title": "「圧倒され、過剰な刺激を受けています」: 『スター・ウォーズ: ギャラクティック・レーサー』の俳優ビディ・ブラスが、あなたの熱意をすべて台無しにしています",
@@ -1238,20 +1294,6 @@
    "first_seen": "2026-10-17T06:11:51+09:00"
   },
   {
-   "id": "n_42839b0b8657",
-   "title": "ストリートファイター ムービー: Kotaku レビュー",
-   "link": "https://kotaku.com/street-fighter-2026-movie-review-guile-ken-ryu-chun-li-2000746803",
-   "summary": "The fighting game movie oscillates between two extremes at a rate not even Daigo could parry",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/sfreviewryu-1280x720.jpg",
-   "published_at": "2026-10-17T02:30:19+09:00",
-   "first_seen": "2026-10-17T06:11:51+09:00",
-   "title_original": "The Street Fighter Movie: The Kotaku Review",
-   "translated": true
-  },
-  {
    "id": "n_e2c4431ffb1a",
    "title": "いつもの6月にXboxシリーズ版が追加される",
    "link": "https://www.gematsu.com/2026/10/usual-june-adds-xbox-series-version",
@@ -1282,48 +1324,6 @@
    "published_at": "2026-10-17T02:11:28+09:00",
    "first_seen": "2026-10-17T02:26:10+09:00",
    "title_original": "Analogue is reviving its Mega SG and Super Nt consoles, and they'll play all your old Sega and Nintendo cartridges with some modern enhancements",
-   "translated": true
-  },
-  {
-   "id": "n_2c72713b3fad",
-   "title": "雑草農家としての私のキャリアは、抑えられないゴルフへの欲望によって狂わされました",
-   "link": "https://www.pcgamer.com/games/grand-theft-auto/my-career-as-a-weed-farmer-was-derailed-by-my-unslakeable-lust-for-golf/",
-   "summary": "Same old story.",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/diX8JrbQusyGiBcCAEMm7n-1920-80.jpg",
-   "published_at": "2026-10-17T02:06:21+09:00",
-   "first_seen": "2026-10-17T02:26:10+09:00",
-   "title_original": "My career as a weed farmer was derailed by my unslakeable lust for golf",
-   "translated": true
-  },
-  {
-   "id": "n_4a32096e6ce4",
-   "title": "Pokémon TCG Pocket が最もイライラする機能の 1 つをついに修正",
-   "link": "https://kotaku.com/pokemon-tcg-pocket-mobile-dena-trading-immersive-cards-series-c-2000746788",
-   "summary": "Alongside slowing its release cadence, trading and immersive cards are also getting improvements",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/series-c-1280x720.jpg",
-   "published_at": "2026-10-17T02:00:31+09:00",
-   "first_seen": "2026-10-17T02:26:10+09:00",
-   "title_original": "Pokémon TCG Pocket Is Finally Fixing One Of Its Most Frustrating Features",
-   "translated": true
-  },
-  {
-   "id": "n_ae0e29148154",
-   "title": "Call of Duty: Modern Warfare 4 レビュー進行中: スキップすべきではないキャンペーン",
-   "link": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-review-in-progress-a-campaign-you-shouldnt-skip/",
-   "summary": "A fractured, fun campaign that benefits from looking backward.",
-   "source": "PC Gamer",
-   "region": "global",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/ZwFQmSCjPDJErkVS8HYzwV-1920-80.jpg",
-   "published_at": "2026-10-17T02:00:00+09:00",
-   "first_seen": "2026-10-17T02:26:10+09:00",
-   "title_original": "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip",
    "translated": true
   },
   {
@@ -2192,34 +2192,6 @@
    "ends_at": "2026-10-24T02:00:00+09:00"
   },
   {
-   "id": "d_steam_1091500",
-   "store": "steam",
-   "title": "サイバーパンク2077",
-   "link": "https://store.steampowered.com/app/1091500/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
-   "price_original": 8778,
-   "price_sale": 2633,
-   "discount": 70,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-27T03:00:00+09:00"
-  },
-  {
-   "id": "d_steam_1621690",
-   "store": "steam",
-   "title": "Core Keeper",
-   "link": "https://store.steampowered.com/app/1621690/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/74ae27901ff218090ff1b122b7c71489df920994/capsule_231x87_alt_assets_12.jpg?t=1791454740",
-   "price_original": 2300,
-   "price_sale": 1380,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_632360",
    "store": "steam",
    "title": "Risk of Rain 2",
@@ -2232,6 +2204,20 @@
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
+  },
+  {
+   "id": "d_steam_1091500",
+   "store": "steam",
+   "title": "サイバーパンク2077",
+   "link": "https://store.steampowered.com/app/1091500/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
+   "price_original": 8778,
+   "price_sale": 2633,
+   "discount": 70,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-27T03:00:00+09:00"
   },
   {
    "id": "d_steam_2929250",
@@ -2248,18 +2234,18 @@
    "ends_at": "2026-10-29T02:00:36+09:00"
   },
   {
-   "id": "d_steam_3883570",
+   "id": "d_steam_1621690",
    "store": "steam",
-   "title": "インボキア-呪いのダイスゲーム-",
-   "link": "https://store.steampowered.com/app/3883570/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/77442fe87da250d359fd54d1e76465bf80632da8/header_japanese.jpg?t=1791907648",
-   "price_original": 1200,
-   "price_sale": 900,
-   "discount": 25,
+   "title": "Core Keeper",
+   "link": "https://store.steampowered.com/app/1621690/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/74ae27901ff218090ff1b122b7c71489df920994/capsule_231x87_alt_assets_12.jpg?t=1791454740",
+   "price_original": 2300,
+   "price_sale": 1380,
+   "discount": 40,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-10-23T02:00:22+09:00"
+   "ends_at": null
   },
   {
    "id": "d_steam_4356430",
@@ -2290,6 +2276,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_3883570",
+   "store": "steam",
+   "title": "インボキア-呪いのダイスゲーム-",
+   "link": "https://store.steampowered.com/app/3883570/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/91d5e903bee960c574cf8ff991abe8d44db62b29/capsule_231x87_japanese.jpg?t=1791907648",
+   "price_original": 1200,
+   "price_sale": 900,
+   "discount": 25,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_990080",
    "store": "steam",
    "title": "ホグワーツ・レガシー",
@@ -2304,46 +2304,18 @@
    "ends_at": "2026-10-23T02:00:00+09:00"
   },
   {
-   "id": "d_steam_1623730",
+   "id": "d_steam_3240220",
    "store": "steam",
-   "title": "Palworld / パルワールド",
-   "link": "https://store.steampowered.com/app/1623730/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
-   "price_original": 3400,
-   "price_sale": 2380,
-   "discount": 30,
+   "title": "グランド・セフト・オートV エンハンスト",
+   "link": "https://store.steampowered.com/app/3240220/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
+   "price_original": 6480,
+   "price_sale": 2851,
+   "discount": 56,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": "2026-10-23T02:00:00+09:00"
-  },
-  {
-   "id": "d_steam_5228920",
-   "store": "steam",
-   "title": "Brick by Brick: Tidy Up the Small Town!",
-   "link": "https://store.steampowered.com/app/5228920/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/999d76679b85624ff8d765b9f3e748073e3ee394/capsule_231x87.jpg?t=1792140551",
-   "price_original": 1050,
-   "price_sale": 651,
-   "discount": 38,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3569420",
-   "store": "steam",
-   "title": "Chained Beasts",
-   "link": "https://store.steampowered.com/app/3569420/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/37a1f130512c4537b4a2b556bd104adb710bb0c5/capsule_231x87.jpg?t=1792082632",
-   "price_original": 2600,
-   "price_sale": 1690,
-   "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
   },
   {
    "id": "d_steam_2295060",
@@ -2374,18 +2346,60 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3240220",
+   "id": "d_steam_5228920",
    "store": "steam",
-   "title": "グランド・セフト・オートV エンハンスト",
-   "link": "https://store.steampowered.com/app/3240220/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1781187782",
-   "price_original": 6480,
-   "price_sale": 2851,
-   "discount": 56,
+   "title": "Brick by Brick: Tidy Up the Small Town!",
+   "link": "https://store.steampowered.com/app/5228920/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/999d76679b85624ff8d765b9f3e748073e3ee394/capsule_231x87.jpg?t=1792140551",
+   "price_original": 1050,
+   "price_sale": 651,
+   "discount": 38,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
+  },
+  {
+   "id": "d_steam_1623730",
+   "store": "steam",
+   "title": "Palworld / パルワールド",
+   "link": "https://store.steampowered.com/app/1623730/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_231x87.jpg?t=1790336367",
+   "price_original": 3400,
+   "price_sale": 2380,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3569420",
+   "store": "steam",
+   "title": "Chained Beasts",
+   "link": "https://store.steampowered.com/app/3569420/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/37a1f130512c4537b4a2b556bd104adb710bb0c5/capsule_231x87.jpg?t=1792082632",
+   "price_original": 2600,
+   "price_sale": 1690,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3768760",
+   "store": "steam",
+   "title": "007 ファーストライト",
+   "link": "https://store.steampowered.com/app/3768760/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg?t=1791886607",
+   "price_original": 8910,
+   "price_sale": 5346,
+   "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-23T02:00:00+09:00"
   },
   {
    "id": "d_steam_3892270",
@@ -2416,34 +2430,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2138330",
-   "store": "steam",
-   "title": "サイバーパンク2077：仮初めの自由",
-   "link": "https://store.steampowered.com/app/2138330/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/3d2b6a051a7e2fc4ff654d95d6876c24d6dda13d/capsule_231x87.jpg?t=1784713876",
-   "price_original": 4309,
-   "price_sale": 2585,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3768760",
-   "store": "steam",
-   "title": "007 ファーストライト",
-   "link": "https://store.steampowered.com/app/3768760/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/6833c82f518e5a4d0881152fa9cbf01c5d103924/capsule_231x87_alt_assets_4.jpg?t=1791886607",
-   "price_original": 8910,
-   "price_sale": 5346,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_3845070",
    "store": "steam",
    "title": "虚言審判",
@@ -2452,6 +2438,20 @@
    "price_original": 2300,
    "price_sale": 1840,
    "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2138330",
+   "store": "steam",
+   "title": "サイバーパンク2077：仮初めの自由",
+   "link": "https://store.steampowered.com/app/2138330/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/3d2b6a051a7e2fc4ff654d95d6876c24d6dda13d/capsule_231x87.jpg?t=1784713876",
+   "price_original": 4309,
+   "price_sale": 2585,
+   "discount": 40,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2486,34 +2486,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2537590",
-   "store": "steam",
-   "title": "Microsoft Flight Simulator 2024",
-   "link": "https://store.steampowered.com/app/2537590/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/c992a0851b2714fdeaa65469ba5e7b8e60c06a96/capsule_231x87.jpg?t=1791557822",
-   "price_original": 9700,
-   "price_sale": 6790,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2254990",
-   "store": "steam",
-   "title": "Permafrost",
-   "link": "https://store.steampowered.com/app/2254990/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/024db5584cd87b23dd37229e049378f2d4828bdb/capsule_231x87.jpg?t=1791980722",
-   "price_original": 2799,
-   "price_sale": 2239,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_1859910",
    "store": "steam",
    "title": "活俠傳",
@@ -2522,20 +2494,6 @@
    "price_original": 2300,
    "price_sale": 2070,
    "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2121510",
-   "store": "steam",
-   "title": "Tenebris Somnia",
-   "link": "https://store.steampowered.com/app/2121510/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/03a5c65bccf278414a7111265b6b4b1b2fac564c/capsule_231x87.jpg?t=1792175122",
-   "price_original": 2550,
-   "price_sale": 2040,
-   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2556,14 +2514,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2138720",
+   "id": "d_steam_2537590",
    "store": "steam",
-   "title": "REMATCH",
-   "link": "https://store.steampowered.com/app/2138720/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/926eeaa4f0ed77b69b4c64c3e1f22bcd587fc96a/capsule_231x87_alt_assets_1.jpg?t=1791561528",
-   "price_original": 4900,
-   "price_sale": 1960,
-   "discount": 60,
+   "title": "Microsoft Flight Simulator 2024",
+   "link": "https://store.steampowered.com/app/2537590/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/c992a0851b2714fdeaa65469ba5e7b8e60c06a96/capsule_231x87.jpg?t=1791557822",
+   "price_original": 9700,
+   "price_sale": 6790,
+   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2578,6 +2536,48 @@
    "price_original": 3990,
    "price_sale": 1995,
    "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2121510",
+   "store": "steam",
+   "title": "Tenebris Somnia",
+   "link": "https://store.steampowered.com/app/2121510/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/03a5c65bccf278414a7111265b6b4b1b2fac564c/capsule_231x87.jpg?t=1792268798",
+   "price_original": 2550,
+   "price_sale": 2040,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2254990",
+   "store": "steam",
+   "title": "Permafrost",
+   "link": "https://store.steampowered.com/app/2254990/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/024db5584cd87b23dd37229e049378f2d4828bdb/capsule_231x87.jpg?t=1791980722",
+   "price_original": 2799,
+   "price_sale": 2239,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2138720",
+   "store": "steam",
+   "title": "REMATCH",
+   "link": "https://store.steampowered.com/app/2138720/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/926eeaa4f0ed77b69b4c64c3e1f22bcd587fc96a/capsule_231x87_alt_assets_1.jpg?t=1791561528",
+   "price_original": 4900,
+   "price_sale": 1960,
+   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2612,6 +2612,34 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_1174180",
+   "store": "steam",
+   "title": "Red Dead Redemption 2",
+   "link": "https://store.steampowered.com/app/1174180/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
+   "price_original": 8618,
+   "price_sale": 2154,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1243830",
+   "store": "steam",
+   "title": "Overcooked! All You Can Eat",
+   "link": "https://store.steampowered.com/app/1243830/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1243830/capsule_231x87.jpg?t=1788969190",
+   "price_original": 4100,
+   "price_sale": 1230,
+   "discount": 70,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_673750",
    "store": "steam",
    "title": "スーパーバニーマン",
@@ -2620,34 +2648,6 @@
    "price_original": 1700,
    "price_sale": 850,
    "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4069520",
-   "store": "steam",
-   "title": "Super Battle Golf",
-   "link": "https://store.steampowered.com/app/4069520/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4069520/778c2cb70cbb47abb6d82f0bb1aef05cc69e1378/capsule_231x87.jpg?t=1791816445",
-   "price_original": 1500,
-   "price_sale": 975,
-   "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2825190",
-   "store": "steam",
-   "title": "Street Fighter 6 - Year 2 キャラクターパス",
-   "link": "https://store.steampowered.com/app/2825190/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825190/capsule_231x87.jpg?t=1780278916",
-   "price_original": 3000,
-   "price_sale": 1950,
-   "discount": 35,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2668,48 +2668,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2567870",
-   "store": "steam",
-   "title": "Chained Together",
-   "link": "https://store.steampowered.com/app/2567870/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2567870/fe50d80ef2412446a0761056c5d5395e97b525a6/capsule_231x87.jpg?t=1791478907",
-   "price_original": 580,
-   "price_sale": 464,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1174180",
-   "store": "steam",
-   "title": "Red Dead Redemption 2",
-   "link": "https://store.steampowered.com/app/1174180/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
-   "price_original": 8618,
-   "price_sale": 2154,
-   "discount": 75,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_699130",
-   "store": "steam",
-   "title": "World War Z",
-   "link": "https://store.steampowered.com/app/699130/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/bc262c3fd0b77d064cae97471f4218a8f1f34495/capsule_231x87.jpg?t=1791201515",
-   "price_original": 4299,
-   "price_sale": 1074,
-   "discount": 75,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_3755350",
    "store": "steam",
    "title": "アリスと彼岸",
@@ -2724,6 +2682,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_4771580",
+   "store": "steam",
+   "title": "Five Nights with Maids",
+   "link": "https://store.steampowered.com/app/4771580/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771580/de3ba2707c1c4a1cff18067e4cf9981cc5b7e040/capsule_231x87.jpg?t=1792204505",
+   "price_original": 990,
+   "price_sale": 792,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_1857950",
    "store": "steam",
    "title": "VEIN",
@@ -2731,6 +2703,76 @@
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1857950/f1b93d2ae46b8118d5454073aaf5a199d74e661a/capsule_231x87_alt_assets_0.jpg?t=1790673186",
    "price_original": 2600,
    "price_sale": 1690,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2333000",
+   "store": "steam",
+   "title": "Silver Pines",
+   "link": "https://store.steampowered.com/app/2333000/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/1d876833b58e192d06e6067a84da77c2768c30e4/capsule_231x87.jpg?t=1791897978",
+   "price_original": 2500,
+   "price_sale": 2250,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2781620",
+   "store": "steam",
+   "title": "リスク・オブ・レイン 2: アロイ・コレクティブ",
+   "link": "https://store.steampowered.com/app/2781620/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2781620/182e8dfd04fd1c8ab5693d1defebf4647cd261ed/capsule_231x87.jpg?t=1763508164",
+   "price_original": 1520,
+   "price_sale": 988,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3419520",
+   "store": "steam",
+   "title": "Quarantine Zone: The Last Check",
+   "link": "https://store.steampowered.com/app/3419520/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/d04dd64dc02a074f3f149a9acffdf38c130efa55/capsule_231x87_alt_assets_2.jpg?t=1792107989",
+   "price_original": 2300,
+   "price_sale": 1495,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_377160",
+   "store": "steam",
+   "title": "Fallout 4",
+   "link": "https://store.steampowered.com/app/377160/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/capsule_231x87.jpg?t=1786648137",
+   "price_original": 2246,
+   "price_sale": 561,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4069520",
+   "store": "steam",
+   "title": "Super Battle Golf",
+   "link": "https://store.steampowered.com/app/4069520/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4069520/778c2cb70cbb47abb6d82f0bb1aef05cc69e1378/capsule_231x87.jpg?t=1791816445",
+   "price_original": 1500,
+   "price_sale": 975,
    "discount": 35,
    "is_free": false,
    "upcoming": false,
@@ -2752,28 +2794,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1243830",
+   "id": "d_steam_2224460",
    "store": "steam",
-   "title": "Overcooked! All You Can Eat",
-   "link": "https://store.steampowered.com/app/1243830/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1243830/capsule_231x87.jpg?t=1788969190",
-   "price_original": 4100,
-   "price_sale": 1230,
-   "discount": 70,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2333000",
-   "store": "steam",
-   "title": "Silver Pines",
-   "link": "https://store.steampowered.com/app/2333000/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/1d876833b58e192d06e6067a84da77c2768c30e4/capsule_231x87.jpg?t=1791897978",
-   "price_original": 2500,
-   "price_sale": 2250,
-   "discount": 10,
+   "title": "Street Fighter 6 - Year 1 キャラクターパス",
+   "link": "https://store.steampowered.com/app/2224460/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2224460/33ba689cd549c19cbb2d77234d9ad3e364e2041e/capsule_231x87.jpg?t=1780301752",
+   "price_original": 3000,
+   "price_sale": 1500,
+   "discount": 50,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2794,42 +2822,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2781620",
+   "id": "d_steam_2825190",
    "store": "steam",
-   "title": "リスク・オブ・レイン 2: アロイ・コレクティブ",
-   "link": "https://store.steampowered.com/app/2781620/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2781620/182e8dfd04fd1c8ab5693d1defebf4647cd261ed/capsule_231x87.jpg?t=1763508164",
-   "price_original": 1520,
-   "price_sale": 988,
+   "title": "Street Fighter 6 - Year 2 キャラクターパス",
+   "link": "https://store.steampowered.com/app/2825190/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825190/capsule_231x87.jpg?t=1780278916",
+   "price_original": 3000,
+   "price_sale": 1950,
    "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4771580",
-   "store": "steam",
-   "title": "Five Nights with Maids",
-   "link": "https://store.steampowered.com/app/4771580/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771580/de3ba2707c1c4a1cff18067e4cf9981cc5b7e040/capsule_231x87.jpg?t=1792204505",
-   "price_original": 990,
-   "price_sale": 792,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1794680",
-   "store": "steam",
-   "title": "Vampire Survivors",
-   "link": "https://store.steampowered.com/app/1794680/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/6f2de6d6936990a96ab082be0b89136d137df13e/capsule_231x87.jpg?t=1787911678",
-   "price_original": 499,
-   "price_sale": 374,
-   "discount": 25,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
