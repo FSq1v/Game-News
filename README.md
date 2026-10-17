@@ -2,6 +2,8 @@
 
 国内外のゲームニュースと、Steam・Epic・PS Store・Nintendo eShop のセール情報を1時間ごとに自動でまとめるサイトです。
 
+ニュースは、国内メディア（4Gamer、IGN Japan、AUTOMATON など）、任天堂・PlayStation・Xbox の公式発表、海外メディア（Gematsu、PC Gamer、Kotaku、Eurogamer。タイトルは日本語に翻訳）の RSS から集めています。セールは各ストアの値引き中の商品と、Epic Games Store の無料配布（今週・来週の分）を集めています。
+
 公開先：https://game-news-smoky.vercel.app/
 
 ## 仕組み
