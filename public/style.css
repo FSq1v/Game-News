@@ -1,24 +1,25 @@
 :root {
-  --bg: #161a2b;
-  --surface: #1e2338;
-  --surface-2: #272d47;
-  --line: #2f3653;
-  --text: #eef0f7;
-  --muted: #9aa1b9;
-  --sticker: #ffd23f;
-  --sticker-ink: #2a2000;
-  --free: #3ddc97;
-  --free-ink: #062b1b;
-  --warn: #ff8a5b;
-  --steam: #66c0f4;
-  --epic: #d9dbe3;
-  --ps: #6f93ff;
-  --eshop: #ff5a5f;
-  --radius-lg: 14px;
-  --radius-sm: 6px;
-  --font: "Zen Kaku Gothic New", system-ui, -apple-system, "Hiragino Sans", sans-serif;
-  --display: "Dela Gothic One", var(--font);
-  color-scheme: dark;
+  --bg: #f5f5f7;
+  --surface: #ffffff;
+  --surface-2: #e8e8ed;
+  --line: #d2d2d7;
+  --text: #1d1d1f;
+  --muted: #6e6e73;
+  --accent: #0071e3;
+  --sticker: #bf4800;
+  --sticker-ink: #fff;
+  --free: #1a7f4b;
+  --free-ink: #fff;
+  --warn: #b64400;
+  --steam: #1b6ca8;
+  --epic: #3a3a3c;
+  --ps: #0050c8;
+  --eshop: #d70015;
+  --radius-lg: 18px;
+  --radius-sm: 10px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
+  --display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
+  color-scheme: light;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -30,15 +31,17 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
 }
 
 a { color: inherit; text-decoration: none; }
 button, select, input { font: inherit; color: inherit; }
 img { display: block; max-width: 100%; }
 
-:focus-visible { outline: 2px solid var(--sticker); outline-offset: 2px; border-radius: 4px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
@@ -56,7 +59,7 @@ img { display: block; max-width: 100%; }
   max-width: 1240px; margin: 0 auto; padding: 12px 20px;
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
 }
-.logo { font-family: var(--display); font-size: 22px; letter-spacing: 0.02em; line-height: 1; }
+.logo { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spacing: 0.02em; line-height: 1; }
 .status { margin: 0; font-size: 13px; color: var(--muted); text-align: right; }
 .status.is-stale { color: var(--warn); }
 .status__failed { display: block; font-size: 12px; }
@@ -97,7 +100,7 @@ img { display: block; max-width: 100%; }
 .thumb.is-missing { display: grid; place-items: center; padding: 6px; }
 .thumb.is-missing img { display: none; }
 .thumb.is-missing::after {
-  content: attr(data-label); font-family: var(--display); font-size: 12px; color: var(--muted);
+  content: attr(data-label); font-family: var(--display); font-weight: 600; font-size: 12px; color: var(--muted);
   text-align: center; line-height: 1.3; word-break: break-all;
 }
 
@@ -135,7 +138,7 @@ img { display: block; max-width: 100%; }
 }
 .free-card img { width: 120px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-sm); background: var(--surface-2); }
 .free-card__body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-.free-card__label { font-family: var(--display); font-size: 13px; color: var(--free); }
+.free-card__label { font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--free); }
 .free-card.is-upcoming { border-color: var(--line); }
 .free-card.is-upcoming .free-card__label { color: var(--muted); }
 .free-card__title { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -162,7 +165,7 @@ img { display: block; max-width: 100%; }
 /* 値札シール：このサイトでいちばん目立たせる部分 */
 .tag { flex: none; display: grid; justify-items: end; text-align: right; line-height: 1.15; }
 .tag__off {
-  font-family: var(--display); font-size: 15px;
+  font-family: var(--display); font-weight: 700; font-size: 15px;
   background: var(--sticker); color: var(--sticker-ink);
   padding: 2px 7px 1px; border-radius: 4px 4px 4px 12px;
   transform: rotate(-3deg);
