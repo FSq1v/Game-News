@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GAME FEED | ゲームニュースとセール情報</title>
   <meta name="description" content="国内外のゲームニュースと、Steam・Epic・PS Store・Nintendo eShop のセール情報を1時間ごとに自動でまとめています。">
-  <meta name="theme-color" content="#161a2b">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#f5f5f7">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,12 +21,17 @@
     </nav>
   </header>
 
+  <section class="hero reveal">
+    <h1 class="hero__title">ゲームの今を、ひと目で。</h1>
+    <p class="hero__lead">国内外のゲームニュースと、Steam・Epic・PS Store・Nintendo eShop のセール情報。1時間ごとに、まとめてお届けします。</p>
+  </section>
+
   <main class="layout" data-view="news">
     <section class="news" aria-labelledby="news-heading">
-      <div class="section-head">
+      <div class="section-head reveal">
         <h2 id="news-heading">ニュース</h2>
       </div>
-      <div class="chips" role="group" aria-label="ニュースの絞り込み" id="news-filters">
+      <div class="chips reveal" role="group" aria-label="ニュースの絞り込み" id="news-filters">
         <button type="button" class="chip" data-filter="all" aria-pressed="true">すべて</button>
         <button type="button" class="chip" data-filter="jp" aria-pressed="false">国内</button>
         <button type="button" class="chip" data-filter="global" aria-pressed="false">海外</button>
@@ -41,7 +43,7 @@
     </section>
 
     <aside class="deals" aria-labelledby="deals-heading">
-      <div class="section-head">
+      <div class="section-head reveal">
         <h2 id="deals-heading">セールと無料配布</h2>
         <label class="sort">
           <span class="visually-hidden">並べ替え</span>
@@ -53,7 +55,7 @@
           </select>
         </label>
       </div>
-      <div class="chips" role="group" aria-label="ストアの絞り込み" id="store-filters">
+      <div class="chips reveal" role="group" aria-label="ストアの絞り込み" id="store-filters">
         <button type="button" class="chip" data-store="all" aria-pressed="true">すべて</button>
         <button type="button" class="chip chip--steam" data-store="steam" aria-pressed="false">Steam</button>
         <button type="button" class="chip chip--epic" data-store="epic" aria-pressed="false">Epic</button>
@@ -66,7 +68,7 @@
     </aside>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer reveal">
     <p>ニュースは各メディアの RSS、セールは各ストアの公開データから1時間ごとに自動で集めています。価格や期間は各ストアのページで確認してください。</p>
   </footer>
 
