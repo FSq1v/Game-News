@@ -102,18 +102,21 @@ img { display: block; max-width: 100%; }
 .search { flex: 1; max-width: 420px; }
 .search::placeholder { color: var(--muted); }
 
-.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 12px; }
+.chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 20px; }
 .chips::-webkit-scrollbar { display: none; }
 .chip {
-  flex: none; border: 1px solid var(--line); background: transparent; color: var(--muted);
-  border-radius: 999px; padding: 4px 12px; font-size: 13px; cursor: pointer;
+  flex: none; border: 0; background: var(--surface-2); color: var(--text);
+  border-radius: 999px; padding: 8px 18px; font-size: 15px; line-height: 1.3; cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
-.chip:hover { color: var(--text); border-color: var(--muted); }
-.chip[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); font-weight: 700; }
+.chip:hover { background: var(--line); }
+.chip[aria-pressed="true"] { background: var(--text); color: #fff; font-weight: 600; }
 
 /* ---------- 共通：サムネイル・お気に入り ---------- */
 .thumb { flex: none; background: var(--surface-2); border-radius: var(--radius-sm); overflow: hidden; }
-.thumb img { width: 100%; height: 100%; object-fit: cover; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.news-item__link:hover .thumb img,
+.deal__link:hover .thumb img { transform: scale(1.03); }
 .thumb.is-missing { display: grid; place-items: center; padding: 6px; }
 .thumb.is-missing img { display: none; }
 .thumb.is-missing::after {
@@ -132,67 +135,73 @@ img { display: block; max-width: 100%; }
 
 /* ---------- ニュース ---------- */
 .news-list, .deal-list { list-style: none; margin: 0; padding: 0; }
-.news-item { display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
-.news-item__link { flex: 1; min-width: 0; display: flex; gap: 14px; padding: 12px 0; }
-.news-item .thumb { width: 128px; aspect-ratio: 16 / 9; }
-.news-item__body { min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.news-item { display: flex; gap: 8px; border-bottom: 1px solid var(--line); }
+.news-item__link { flex: 1; min-width: 0; display: flex; gap: 24px; padding: 24px 0; }
+.news-item .thumb { width: 200px; aspect-ratio: 16 / 9; border-radius: var(--radius-lg); }
+.news-item__body { min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 8px; }
 .news-item__title {
-  font-weight: 500; line-height: 1.5;
+  font-size: 20px; font-weight: 600; line-height: 1.45; letter-spacing: -0.005em;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
-.news-item__link:hover .news-item__title { text-decoration: underline; text-underline-offset: 3px; }
-.news-item__meta { display: flex; gap: 10px; align-items: center; font-size: 12px; color: var(--muted); }
+.news-item__link:hover .news-item__title { text-decoration: underline; text-underline-offset: 4px; }
+.news-item__meta { display: flex; gap: 12px; align-items: center; font-size: 14px; color: var(--muted); }
 .news-item__source { color: var(--text); opacity: 0.85; }
-.badge { border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; font-size: 11px; }
+.badge { border: 1px solid var(--line); border-radius: 6px; padding: 0 6px; font-size: 12px; }
 
 /* ---------- セール ---------- */
-.free { display: grid; gap: 10px; margin-bottom: 14px; }
+.free { display: grid; gap: 12px; margin-bottom: 12px; }
 .free:empty { display: none; }
+.deal-list { display: grid; gap: 12px; }
+.free-card, .deal {
+  background: var(--surface); border-radius: var(--radius-lg);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.4s ease;
+}
+.free-card:hover, .deal:hover { box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1); }
 .free-card {
-  display: grid; grid-template-columns: 120px 1fr; gap: 12px; align-items: center;
-  background: var(--surface); border: 1px solid color-mix(in srgb, var(--free) 45%, var(--line));
-  border-radius: var(--radius-lg); padding: 10px;
+  display: grid; grid-template-columns: 120px 1fr; gap: 16px; align-items: center; padding: 16px;
 }
 .free-card img { width: 120px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-sm); background: var(--surface-2); }
-.free-card__body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-.free-card__label { font-family: var(--display); font-weight: 600; font-size: 13px; color: var(--free); }
-.free-card.is-upcoming { border-color: var(--line); }
+.free-card__body { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.free-card__label { font-family: var(--display); font-weight: 600; font-size: 14px; color: var(--free); }
 .free-card.is-upcoming .free-card__label { color: var(--muted); }
-.free-card__title { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.free-card__when { font-size: 12px; color: var(--muted); }
+.free-card__title { font-size: 16px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.free-card__when { font-size: 13px; color: var(--muted); }
 
-.deal { display: flex; gap: 2px; border-bottom: 1px solid var(--line); }
-.deal__link { flex: 1; min-width: 0; display: flex; align-items: center; gap: 12px; padding: 10px 0; }
-.thumb--deal { width: 72px; aspect-ratio: 16 / 9; }
-.deal__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
-.deal__title { font-size: 14px; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.deal { display: flex; }
+.deal__link { flex: 1; min-width: 0; display: flex; align-items: center; gap: 16px; padding: 16px; }
+.thumb--deal { width: 88px; aspect-ratio: 16 / 9; }
+.deal__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.deal__title { font-size: 16px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .deal__link:hover .deal__title { text-decoration: underline; text-underline-offset: 3px; }
-.deal__meta { display: flex; gap: 8px; font-size: 12px; color: var(--muted); }
+.deal__meta { display: flex; gap: 10px; font-size: 13px; color: var(--muted); }
 .store-mark { display: inline-flex; align-items: center; gap: 5px; }
 .store-mark::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
 .store-mark[data-store="steam"] { color: var(--steam); }
 .store-mark[data-store="epic"] { color: var(--epic); }
 .store-mark[data-store="ps"] { color: var(--ps); }
 .store-mark[data-store="eshop"] { color: var(--eshop); }
-.chip--steam[aria-pressed="true"] { background: var(--steam); border-color: var(--steam); }
-.chip--epic[aria-pressed="true"] { background: var(--epic); border-color: var(--epic); }
-.chip--ps[aria-pressed="true"] { background: var(--ps); border-color: var(--ps); }
-.chip--eshop[aria-pressed="true"] { background: var(--eshop); border-color: var(--eshop); }
+.chip--steam[aria-pressed="true"] { background: var(--steam); color: #fff; }
+.chip--epic[aria-pressed="true"] { background: var(--epic); color: #fff; }
+.chip--ps[aria-pressed="true"] { background: var(--ps); color: #fff; }
+.chip--eshop[aria-pressed="true"] { background: var(--eshop); color: #fff; }
 
 /* 値札シール：このサイトでいちばん目立たせる部分 */
-.tag { flex: none; display: grid; justify-items: end; text-align: right; line-height: 1.15; }
+.tag { flex: none; display: grid; justify-items: end; text-align: right; line-height: 1.2; }
 .tag__off {
-  font-family: var(--display); font-weight: 700; font-size: 15px;
+  font-family: var(--display); font-weight: 600; font-size: 14px;
   background: var(--sticker); color: var(--sticker-ink);
-  padding: 2px 7px 1px; border-radius: 4px 4px 4px 12px;
-  transform: rotate(-3deg);
+  padding: 3px 10px; border-radius: 999px;
 }
-.tag__price { font-weight: 700; font-size: 14px; margin-top: 4px; font-variant-numeric: tabular-nums; }
-.tag__was { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.tag__price { font-weight: 700; font-size: 16px; margin-top: 6px; font-variant-numeric: tabular-nums; }
+.tag__was { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
-.empty { color: var(--muted); font-size: 14px; padding: 24px 0; text-align: center; }
+.empty { color: var(--muted); font-size: 15px; padding: 48px 0; text-align: center; }
 
-.site-footer { max-width: 1240px; margin: 0 auto; padding: 24px 20px 40px; font-size: 12px; color: var(--muted); }
+.site-footer {
+  max-width: 1240px; margin: 0 auto; padding: 48px 32px 64px;
+  border-top: 1px solid var(--line); font-size: 13px; line-height: 1.6; color: var(--muted);
+}
 
 /* ---------- スマホ ---------- */
 @media (max-width: 899px) {
