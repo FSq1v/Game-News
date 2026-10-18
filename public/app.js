@@ -91,6 +91,32 @@ function matches(item) {
     .some((v) => v && v.toLowerCase().includes(q));
 }
 
+// ---------- 表示アニメーション ----------
+// 一度出た行は render() で作り直されても再びふわっと出さない（チカチカ防止）
+const revealed = new Set();
+const revealKeys = new WeakMap();
+const revealObserver = "IntersectionObserver" in window
+  && !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  ? new IntersectionObserver((entries, observer) => {
+    entries.filter((e) => e.isIntersecting).forEach((e, i) => {
+      e.target.style.setProperty("--reveal-delay", `${Math.min(i * 60, 300)}ms`);
+      e.target.classList.add("is-visible");
+      observer.unobserve(e.target);
+      if (revealKeys.has(e.target)) revealed.add(revealKeys.get(e.target));
+    });
+  }, { threshold: 0.1, rootMargin: "0px 0px -8% 0px" })
+  : null;
+
+function reveal(el, key) {
+  el.classList.add("reveal");
+  if (!revealObserver || (key && revealed.has(key))) {
+    el.classList.add("is-visible");
+    return;
+  }
+  if (key) revealKeys.set(el, key);
+  revealObserver.observe(el);
+}
+
 // ---------- ニュース ----------
 function renderNews() {
   const list = $("news-list");
@@ -114,6 +140,7 @@ function renderNews() {
     time.textContent = relativeTime(n.published_at, now);
     li.querySelector(".badge").hidden = !n.translated;
     favButton(li.querySelector(".fav"), n.id, n.title);
+    reveal(li, n.id);
     return li;
   }));
 
@@ -147,6 +174,7 @@ function renderFree(freeDeals) {
     card.querySelector(".free-card__when").textContent = d.upcoming
       ? `${formatEnd(d.starts_at).replace("まで", "から")} 配布予定`
       : `${formatEnd(d.ends_at)}（通常 ${yen(d.price_original)}）`;
+    reveal(card, d.link);
     return card;
   }));
 }
@@ -172,6 +200,7 @@ function renderDeals() {
     li.querySelector(".tag__off").textContent = `-${d.discount}%`;
     li.querySelector(".tag__price").textContent = yen(d.price_sale);
     li.querySelector(".tag__was").textContent = yen(d.price_original);
+    reveal(li, d.link);
     return li;
   }));
 
@@ -246,6 +275,10 @@ async function load() {
   }
 }
 
+if (revealObserver) {
+  document.documentElement.classList.add("js-reveal");
+  document.querySelectorAll(".reveal").forEach((el) => reveal(el));
+}
 bindEvents();
 load();
 // 開きっぱなしでも「◯分前」がずれないように1分ごとに表示を更新する
