@@ -51,36 +51,53 @@ img { display: block; max-width: 100%; }
 /* ---------- ヘッダー ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 10;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(8px);
+  background: rgba(251, 251, 253, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid var(--line);
 }
+/* 高さはおよそ 69px（上下 14px ＋ 検索欄 40px ＋ 下線 1px）。.deals の top はこれに合わせる */
 .site-header__inner {
-  max-width: 1240px; margin: 0 auto; padding: 12px 20px;
-  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  max-width: 1240px; margin: 0 auto; padding: 14px 32px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
 }
-.logo { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spacing: 0.02em; line-height: 1; }
+.logo { font-family: var(--display); font-weight: 600; font-size: 21px; letter-spacing: -0.01em; line-height: 1; }
 .status { margin: 0; font-size: 13px; color: var(--muted); text-align: right; }
 .status.is-stale { color: var(--warn); }
 .status__failed { display: block; font-size: 12px; }
 
 .view-tabs { display: none; }
 
+/* ---------- ヒーロー ---------- */
+.hero {
+  max-width: 980px; margin: 0 auto; text-align: center;
+  padding: clamp(64px, 10vw, 120px) 32px;
+}
+.hero__title {
+  margin: 0; font-family: var(--display);
+  font-size: clamp(40px, 6vw, 64px); font-weight: 700; line-height: 1.1; letter-spacing: -0.02em;
+}
+.hero__lead {
+  margin: 20px auto 0; max-width: 720px;
+  font-size: clamp(19px, 2vw, 24px); line-height: 1.5; color: var(--muted);
+}
+
 /* ---------- レイアウト ---------- */
 .layout {
-  max-width: 1240px; margin: 0 auto; padding: 20px;
-  display: grid; gap: 32px;
+  max-width: 1240px; margin: 0 auto; padding: 0 32px 96px;
+  display: grid; gap: 64px;
   grid-template-columns: minmax(0, 1.7fr) minmax(320px, 1fr);
   align-items: start;
 }
-.deals { position: sticky; top: 76px; max-height: calc(100vh - 92px); overflow-y: auto; padding-right: 4px; }
+/* ヘッダー（約 69px）の下に 19px のすき間をあけて止める */
+.deals { position: sticky; top: 88px; max-height: calc(100vh - 112px); overflow-y: auto; padding-right: 4px; }
 
-.section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
-.section-head h2 { margin: 0; font-size: 18px; font-weight: 700; }
+.section-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+.section-head h2 { margin: 0; font-family: var(--display); font-size: 32px; font-weight: 700; line-height: 1.2; letter-spacing: -0.015em; }
 
 .search, .sort select {
-  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm);
-  padding: 6px 10px; font-size: 14px;
+  height: 40px; background: var(--surface-2); border: 0; border-radius: 12px;
+  padding: 0 14px; font-size: 15px;
 }
 .search { flex: 1; max-width: 420px; }
 .search::placeholder { color: var(--muted); }
