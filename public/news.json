@@ -1,33 +1,33 @@
 {
- "updated_at": "2026-10-25T04:29:51+09:00",
+ "updated_at": "2026-10-25T07:29:38+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:IGN Japan",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:電ファミニコゲーマー",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:AUTOMATON",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:gamebiz",
@@ -41,90 +41,132 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:任天堂公式",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:PlayStation Blog",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:Xbox Wire Japan",
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:Gematsu",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:PC Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:Kotaku",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "rss:Eurogamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "steam",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "epic",
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "ps",
    "ok": true,
    "count": 49,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   },
   {
    "id": "eshop",
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-10-25T04:29:51+09:00"
+   "last_success": "2026-10-25T07:29:38+09:00"
   }
  ],
  "news": [
   {
+   "id": "n_a34bd4273705",
+   "title": "Xbox、ゲームをベースにした映画や番組を開発するための5億ドルのNetflix独占契約を失敗したと伝えられる",
+   "link": "https://kotaku.com/xbox-reportedly-bungled-500-million-netflix-exclusivity-deal-to-develop-movies-shows-based-on-games-2000749336",
+   "summary": "According to industry insiders, newly appointed Xbox CEO Asha Sharma overplayed cross-media potential with recent Netfli",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [
+    "Xbox"
+   ],
+   "image": "https://kotaku.com/app/uploads/2026/10/halotvshow-1280x761.jpg",
+   "published_at": "2026-10-25T07:07:07+09:00",
+   "first_seen": "2026-10-25T07:29:38+09:00",
+   "title_original": "Xbox Reportedly Bungled $500 Million Netflix Exclusivity Deal To Develop Movies, Shows Based On Games",
+   "translated": true
+  },
+  {
+   "id": "n_4b4a9c31f25e",
+   "title": "自作戦艦で仲間と海戦！“非常に好評”軍艦建造サンドボックス『ShipCrafter』にCo-opモード実装―共同設計からミッション攻略まで楽しめる",
+   "link": "http://www.gamespark.jp/article/2026/10/25/174049.html",
+   "summary": "困難な作戦も戦友との協力があれば容易く攻略できる！",
+   "source": "Game*Spark",
+   "region": "jp",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1210330.jpg",
+   "published_at": "2026-10-25T07:00:04+09:00",
+   "first_seen": "2026-10-25T07:29:38+09:00"
+  },
+  {
+   "id": "n_4660058f570a",
+   "title": "ゼルダの伝説プロデューサー、青沼英二氏がフランス文化省からナイト爵に授与される",
+   "link": "https://kotaku.com/legend-of-zelda-producer-eiji-aonuma-knighted-by-french-ministry-of-culture-2000749331",
+   "summary": "The longtime caretaker of the Zelda series traveled to Paris to receive his title, honored for inspiring the world’s 'im",
+   "source": "Kotaku",
+   "region": "global",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/10/breathofthewildmastersword.jpg",
+   "published_at": "2026-10-25T04:45:31+09:00",
+   "first_seen": "2026-10-25T07:29:38+09:00",
+   "title_original": "Legend Of Zelda Producer Eiji Aonuma Knighted By French Ministry Of Culture",
+   "translated": true
+  },
+  {
    "id": "n_c8ae096e63fd",
-   "title": "Top Xbox exec promoted in brand 'reset' leaves after 3 months in role",
+   "title": "ブランド「リセット」で昇進したXboxのトップ幹部が就任3カ月で退任",
    "link": "https://www.pcgamer.com/gaming-industry/top-xbox-exec-promoted-in-brand-reset-leaves-after-3-months-in-role/",
    "summary": "Is that good?",
    "source": "PC Gamer",
@@ -134,11 +176,13 @@
    ],
    "image": "https://cdn.mos.cms.futurecdn.net/nnXTHjAJbZ7bw4xzhZJCw-1920-80.jpg",
    "published_at": "2026-10-25T03:58:24+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "Top Xbox exec promoted in brand 'reset' leaves after 3 months in role",
+   "translated": true
   },
   {
    "id": "n_6f7b6e992f62",
-   "title": "Call Of Duty: Modern Warfare 4 Director Says There’s Probably No Such Thing As ‘Perfected’ Matchmaking",
+   "title": "『コール オブ デューティ モダン・ウォーフェア 4』ディレクター、「完璧な」マッチメイキングなどというものはおそらく存在しないと語る",
    "link": "https://kotaku.com/call-of-duty-modern-warfare-4-director-says-theres-probably-no-such-thing-as-perfected-matchmaking-2000749327",
    "summary": "With the latest Call of Duty landing, seemingly without matchmaking features, multiplayer director Joe Cecot says he doe",
    "source": "Kotaku",
@@ -146,11 +190,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/modernwarfare4duo-1280x872.jpg",
    "published_at": "2026-10-25T03:25:14+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "Call Of Duty: Modern Warfare 4 Director Says There’s Probably No Such Thing As ‘Perfected’ Matchmaking",
+   "translated": true
   },
   {
    "id": "n_6c6c28e756fe",
-   "title": "Penguin Colony review: A daringly weird horror game whose atmosphere and surprises overcome its rough edges",
+   "title": "Penguin Colony レビュー: 雰囲気と驚きが荒削りな部分を克服する、大胆で奇妙なホラー ゲーム",
    "link": "https://www.pcgamer.com/games/horror/penguin-colony-review/",
    "summary": "Something ancient and horrible stirs in the farthest south: Are you bad enough penguin to… not really do much about it?",
    "source": "PC Gamer",
@@ -158,11 +204,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/zZTTjF3rcB8LvDfbHX23jU-1920-80.jpg",
    "published_at": "2026-10-25T03:10:01+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "Penguin Colony review: A daringly weird horror game whose atmosphere and surprises overcome its rough edges",
+   "translated": true
   },
   {
    "id": "n_b358bf55720f",
-   "title": "Stalker 2's next update has already leaked",
+   "title": "Stalker 2 の次のアップデートはすでにリークされています",
    "link": "https://www.eurogamer.net/stalker-2-update-2-1-zone-lookout-playstation-asia-leak",
    "summary": "PlayStation Asia has reportedly leaked details of an unannounced update coming to Stalker 2: Heart of Chornobyl , 2.1, n",
    "source": "Eurogamer",
@@ -170,11 +218,13 @@
    "platforms": [],
    "image": "https://assetsio.gnwcdn.com/S.T.A.L.K.E.R.-2_-Heart-of-Chornobyl-%E2%80%94-Launch-Trailer-1-18-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-10-25T03:08:22+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "Stalker 2's next update has already leaked",
+   "translated": true
   },
   {
    "id": "n_38d4b4c78fa9",
-   "title": "BioWare's incredible legacy will continue as long as there are RPGs",
+   "title": "BioWare の素晴らしい遺産は、RPG が存在する限り続きます。",
    "link": "https://www.pcgamer.com/games/rpg/biowares-incredible-legacy-will-continue-as-long-as-there-are-rpgs/",
    "summary": "EA is shutting down the venerable studio, but its impact will persevere.",
    "source": "PC Gamer",
@@ -182,11 +232,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/QaMGHy7ehiZ56gLwQYcngN-1920-80.jpg",
    "published_at": "2026-10-25T03:00:00+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "BioWare's incredible legacy will continue as long as there are RPGs",
+   "translated": true
   },
   {
    "id": "n_5f3be48ed928",
-   "title": "Xbox’s Chief Operating Officer Out Three Months After Role’s Creation",
+   "title": "Xboxの最高執行責任者が役割創設から3か月で退任",
    "link": "https://kotaku.com/xboxs-chief-operating-officer-out-three-months-after-roles-creation-2000749324",
    "summary": "As turmoil continues to pile up, Microsoft veteran Helen Chiang departs the company just a few months after taking a new",
    "source": "Kotaku",
@@ -196,11 +248,13 @@
    ],
    "image": "https://kotaku.com/app/uploads/2026/07/Xbox-bad1-1280x720.jpg",
    "published_at": "2026-10-25T02:27:51+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "Xbox’s Chief Operating Officer Out Three Months After Role’s Creation",
+   "translated": true
   },
   {
    "id": "n_1b66a135d655",
-   "title": "FBI investigating theft of more than 6000 PSA-graded trading cards, including almost 3000 Pokémon cards",
+   "title": "FBI、約3000枚のポケモンカードを含む6000枚以上のPSAグレードのトレーディングカードの盗難を捜査",
    "link": "https://www.eurogamer.net/fbi-investigates-psa-graded-card-theft-pokemon",
    "summary": "The FBI and Santa Ana police are investigating the theft of 6451 PSA-graded cards, including nearly 3000 Pokémon cards, ",
    "source": "Eurogamer",
@@ -208,11 +262,13 @@
    "platforms": [],
    "image": "https://assetsio.gnwcdn.com/detective-pikachu-short.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-10-25T02:17:53+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "FBI investigating theft of more than 6000 PSA-graded trading cards, including almost 3000 Pokémon cards",
+   "translated": true
   },
   {
    "id": "n_778594b64895",
-   "title": "Now it's over, WoW: Forever's beta has left me with just one fear—its endgame",
+   "title": "これで終わりです。WoW: Forever のベータ版で私に残った恐怖は 1 つだけです。それは最終ゲームです。",
    "link": "https://www.pcgamer.com/games/world-of-warcraft/now-its-over-wow-forevers-beta-has-left-me-with-just-one-fear-its-endgame/",
    "summary": "How do you zig when all you know is zag?",
    "source": "PC Gamer",
@@ -220,11 +276,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/cnhx4mTdSyZ8kB2GqHMDPJ-1920-80.png",
    "published_at": "2026-10-25T02:00:00+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "Now it's over, WoW: Forever's beta has left me with just one fear—its endgame",
+   "translated": true
   },
   {
    "id": "n_dde63a01614d",
-   "title": "Claude’s Reverse Engineering Capabilities Used To Recompile Games May Have Been Quietly Nerfed",
+   "title": "ゲームの再コンパイルに使用されるクロードのリバース エンジニアリング機能はひっそりと弱体化された可能性がある",
    "link": "https://kotaku.com/claudes-reverse-engineering-capabilities-used-to-recompile-games-may-have-been-quietly-nerfed-2000749320",
    "summary": "Claude Opus 5.5 users are reporting that Anthropic’s AI suddenly seems to be a lot worse at stealing people's intellectu",
    "source": "Kotaku",
@@ -232,7 +290,9 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/10/Claude-Opus-5.5-official-image-Anthropic.jpg",
    "published_at": "2026-10-25T01:48:26+09:00",
-   "first_seen": "2026-10-25T04:29:51+09:00"
+   "first_seen": "2026-10-25T04:29:51+09:00",
+   "title_original": "Claude’s Reverse Engineering Capabilities Used To Recompile Games May Have Been Quietly Nerfed",
+   "translated": true
   },
   {
    "id": "n_d04fcbb5394f",
@@ -847,20 +907,6 @@
    "first_seen": "2026-10-24T16:19:03+09:00"
   },
   {
-   "id": "n_f2516148ab09",
-   "title": "草原に建つ家をひたすら見続ける“何もしない”シミュレーター『Zen House: Zed Zero Simulator』Steamストアページ公開！",
-   "link": "http://www.gamespark.jp/article/2026/10/24/174034.html",
-   "summary": "時間を無駄にして実存的な不安を増幅させるためにデザインされているそうです。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "platforms": [
-    "PC"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1210555.jpg",
-   "published_at": "2026-10-24T14:35:02+09:00",
-   "first_seen": "2026-10-24T16:19:03+09:00"
-  },
-  {
    "id": "n_483586490b97",
    "title": "『ゼンゼロ』「サンブリンガー（CV:大原さやか）」のプレイ映像がいきなり公開！ドラキナ、リンドヴェルヌ、エルダの三位一体で激しく戦う",
    "link": "https://news.denfaminicogamer.jp/news/261024l",
@@ -1331,20 +1377,6 @@
    "translated": true
   },
   {
-   "id": "n_650e6290b3b0",
-   "title": "Amazonプライムの『キャリー』は、ある点を除けば本当に素晴らしい",
-   "link": "https://kotaku.com/carrie-amazon-prime-review-mike-flanagan-stephen-king-tv-series-2000749086",
-   "summary": "Mike Flanagan's TV series seemed an odd choice, but shines in its portrayal of Carrie and her mother",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/carrie-06-1-1280x720.jpg",
-   "published_at": "2026-10-24T00:00:35+09:00",
-   "first_seen": "2026-10-24T00:06:08+09:00",
-   "title_original": "Amazon Prime’s Carrie Is Absolutely Wonderful, Apart From One Thing",
-   "translated": true
-  },
-  {
    "id": "n_e56dc04b6f87",
    "title": "「なぜ彼らはそのような特典を追加するのでしょうか？」 - Modern Warfare 4 DMZ プレイヤーは自己復活能力を巡って憤慨している",
    "link": "https://www.eurogamer.net/modern-warfare-4-dmz-playing-possum-perk-broke",
@@ -1356,22 +1388,6 @@
    "published_at": "2026-10-23T23:55:40+09:00",
    "first_seen": "2026-10-24T00:06:08+09:00",
    "title_original": "\"Why the f**k would they add a perk like that?\" - Modern Warfare 4 DMZ players are up in arms over the ability to self-revive",
-   "translated": true
-  },
-  {
-   "id": "n_b48df6a70e87",
-   "title": "宮本茂氏、AIが創造性を引き継ぐことができるかどうかは分からないが、創造することの意味を定義する「機会」になる可能性があると語る",
-   "link": "https://kotaku.com/shigeru-miyamoto-doesnt-know-if-ai-can-take-over-creativity-but-it-could-become-an-opportunity-to-define-what-it-means-to-create-2000749074",
-   "summary": "The legendary Nintendo developer made his comments while receiving a national award for his contributions to culture",
-   "source": "Kotaku",
-   "region": "global",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://kotaku.com/app/uploads/2026/10/IMG_5850-1280x753.jpeg",
-   "published_at": "2026-10-23T23:26:12+09:00",
-   "first_seen": "2026-10-24T00:06:08+09:00",
-   "title_original": "Shigeru Miyamoto Doesn’t Know If AI Can Take Over Creativity, But Says It Could Be An ‘Opportunity’ To Define What It Means To Create",
    "translated": true
   },
   {
@@ -2081,6 +2097,20 @@
    "ends_at": "2026-11-05T02:00:00+09:00"
   },
   {
+   "id": "d_steam_5335510",
+   "store": "steam",
+   "title": "Moon Sweepers",
+   "link": "https://store.steampowered.com/app/5335510/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792738801",
+   "price_original": 1150,
+   "price_sale": 977,
+   "discount": 15,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-10-31T02:00:00+09:00"
+  },
+  {
    "id": "d_steam_1203620",
    "store": "steam",
    "title": "Enshrouded~霧の王国~",
@@ -2095,20 +2125,6 @@
    "ends_at": "2026-10-30T02:00:03+09:00"
   },
   {
-   "id": "d_steam_5335510",
-   "store": "steam",
-   "title": "Moon Sweepers",
-   "link": "https://store.steampowered.com/app/5335510/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5335510/86fae70046ddca14dc1d44312c5eeb310081eb81/capsule_231x87.jpg?t=1792738801",
-   "price_original": 1150,
-   "price_sale": 977,
-   "discount": 15,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_2315050",
    "store": "steam",
    "title": "We Were Here Tomorrow",
@@ -2117,20 +2133,6 @@
    "price_original": 2600,
    "price_sale": 2340,
    "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3839710",
-   "store": "steam",
-   "title": "Winning Post 10 2026",
-   "link": "https://store.steampowered.com/app/3839710/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3839710/27b3ab5197465a1bfd0d13c6753f3570f526f1cb/capsule_231x87.jpg?t=1775696416",
-   "price_original": 10780,
-   "price_sale": 6899,
-   "discount": 36,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2151,14 +2153,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2050650",
+   "id": "d_steam_3839710",
    "store": "steam",
-   "title": "BIOHAZARD RE:4",
-   "link": "https://store.steampowered.com/app/2050650/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_231x87_japanese.jpg?t=1772502922",
-   "price_original": 3990,
-   "price_sale": 997,
-   "discount": 75,
+   "title": "Winning Post 10 2026",
+   "link": "https://store.steampowered.com/app/3839710/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3839710/27b3ab5197465a1bfd0d13c6753f3570f526f1cb/capsule_231x87.jpg?t=1775696416",
+   "price_original": 10780,
+   "price_sale": 6899,
+   "discount": 36,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2179,6 +2181,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_2050650",
+   "store": "steam",
+   "title": "BIOHAZARD RE:4",
+   "link": "https://store.steampowered.com/app/2050650/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_231x87_japanese.jpg?t=1772502922",
+   "price_original": 3990,
+   "price_sale": 997,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_3247750",
    "store": "steam",
    "title": "Mycopunk: 俺たちキノコバスターズ",
@@ -2193,14 +2209,42 @@
    "ends_at": "2026-11-04T03:00:00+09:00"
   },
   {
+   "id": "d_steam_3240220",
+   "store": "steam",
+   "title": "グランド・セフト・オートV エンハンスト",
+   "link": "https://store.steampowered.com/app/3240220/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
+   "price_original": 4380,
+   "price_sale": 2190,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-11-06T03:00:00+09:00"
+  },
+  {
    "id": "d_steam_3357650",
    "store": "steam",
    "title": "PRAGMATA",
    "link": "https://store.steampowered.com/app/3357650/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3357650/3e7cf55cf72a980ac94cf45d4212e8f0cb566f7f/capsule_231x87.jpg?t=1791454600",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/e32e168b25ed68a0cf6264c220c07e96c2abfb56/header.jpg?t=1791454600",
    "price_original": 7990,
    "price_sale": 6392,
    "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-11-04T03:00:00+09:00"
+  },
+  {
+   "id": "d_steam_5413620",
+   "store": "steam",
+   "title": "TBH : Task Bar Hero - Material Stash Pack",
+   "link": "https://store.steampowered.com/app/5413620/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5413620/8d1491b6db8de1571fb7231d1c21fedcad4329b7/capsule_231x87.jpg?t=1792648772",
+   "price_original": 599,
+   "price_sale": 539,
+   "discount": 10,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2235,42 +2279,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3892270",
+   "id": "d_steam_3645890",
    "store": "steam",
-   "title": "Gamble With Your Friends",
-   "link": "https://store.steampowered.com/app/3892270/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
-   "price_original": 920,
-   "price_sale": 570,
-   "discount": 38,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-10-29T02:00:00+09:00"
-  },
-  {
-   "id": "d_steam_3240220",
-   "store": "steam",
-   "title": "グランド・セフト・オートV エンハンスト",
-   "link": "https://store.steampowered.com/app/3240220/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
-   "price_original": 4380,
-   "price_sale": 2190,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-06T03:00:00+09:00"
-  },
-  {
-   "id": "d_steam_5413620",
-   "store": "steam",
-   "title": "TBH : Task Bar Hero - Material Stash Pack",
-   "link": "https://store.steampowered.com/app/5413620/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5413620/8d1491b6db8de1571fb7231d1c21fedcad4329b7/capsule_231x87.jpg?t=1792648772",
-   "price_original": 599,
-   "price_sale": 539,
-   "discount": 10,
+   "title": "GONE Fishing",
+   "link": "https://store.steampowered.com/app/3645890/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3645890/85d2c928ab2e4c703cc4c40f6451035fdac3988a/capsule_231x87_alt_assets_0.jpg?t=1792492815",
+   "price_original": 999,
+   "price_sale": 669,
+   "discount": 33,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2305,32 +2321,18 @@
    "ends_at": "2026-10-30T03:00:00+09:00"
   },
   {
-   "id": "d_steam_3645890",
+   "id": "d_steam_3892270",
    "store": "steam",
-   "title": "GONE Fishing",
-   "link": "https://store.steampowered.com/app/3645890/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3645890/85d2c928ab2e4c703cc4c40f6451035fdac3988a/capsule_231x87_alt_assets_0.jpg?t=1792492815",
-   "price_original": 999,
-   "price_sale": 669,
-   "discount": 33,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_5228920",
-   "store": "steam",
-   "title": "Brick by Brick: Tidy Up the Small Town!",
-   "link": "https://store.steampowered.com/app/5228920/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5228920/999d76679b85624ff8d765b9f3e748073e3ee394/capsule_231x87.jpg?t=1792780766",
-   "price_original": 1050,
-   "price_sale": 651,
+   "title": "Gamble With Your Friends",
+   "link": "https://store.steampowered.com/app/3892270/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
+   "price_original": 920,
+   "price_sale": 570,
    "discount": 38,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": null
+   "ends_at": "2026-10-29T02:00:00+09:00"
   },
   {
    "id": "d_steam_1295660",
@@ -2361,32 +2363,60 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_5228920",
+   "store": "steam",
+   "title": "Brick by Brick: Tidy Up the Small Town!",
+   "link": "https://store.steampowered.com/app/5228920/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5228920/999d76679b85624ff8d765b9f3e748073e3ee394/capsule_231x87.jpg?t=1792780766",
+   "price_original": 1050,
+   "price_sale": 651,
+   "discount": 38,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_2929250",
    "store": "steam",
    "title": "over the hill",
    "link": "https://store.steampowered.com/app/2929250/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2929250/36a5e318291b96b49df81d3d5de731b19c094a2b/capsule_231x87.jpg?t=1792666389",
    "price_original": 3150,
    "price_sale": 2520,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-10-29T02:00:36+09:00"
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2479810",
+   "store": "steam",
+   "title": "グレーゾーン・ウォーフェア",
+   "link": "https://store.steampowered.com/app/2479810/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2479810/9a7712314c0e5db44ced3b249983160ff8c17890/capsule_231x87_alt_assets_6_japanese.jpg?t=1792840152",
+   "price_original": 5400,
+   "price_sale": 3510,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
   },
   {
    "id": "d_steam_739630",
    "store": "steam",
    "title": "Phasmophobia",
    "link": "https://store.steampowered.com/app/739630/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791632508",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/d639b6a2f845b8fc0063258a5f48ebd51545786c/capsule_231x87_alt_assets_13.jpg?t=1791632508",
    "price_original": 2300,
    "price_sale": 1610,
    "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-11-03T03:00:00+09:00"
+   "ends_at": null
   },
   {
    "id": "d_steam_3569420",
@@ -2403,27 +2433,13 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3813350",
+   "id": "d_steam_1902690",
    "store": "steam",
-   "title": "蒼き雷霆（アームドブルー） ガンヴォルト トライアングル エディション",
-   "link": "https://store.steampowered.com/app/3813350/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3813350/072191c79e09b25779e909a51a22dc9c10c860dc/capsule_231x87_japanese.jpg?t=1792652543",
-   "price_original": 4980,
-   "price_sale": 3486,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2479810",
-   "store": "steam",
-   "title": "グレーゾーン・ウォーフェア",
-   "link": "https://store.steampowered.com/app/2479810/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2479810/9a7712314c0e5db44ced3b249983160ff8c17890/capsule_231x87_alt_assets_6_japanese.jpg?t=1792840152",
-   "price_original": 5400,
-   "price_sale": 3510,
+   "title": "Fate/Samurai Remnant",
+   "link": "https://store.steampowered.com/app/1902690/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1902690/capsule_231x87_japanese.jpg?t=1760594680",
+   "price_original": 4950,
+   "price_sale": 3217,
    "discount": 35,
    "is_free": false,
    "upcoming": false,
@@ -2445,14 +2461,28 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1902690",
+   "id": "d_steam_3813350",
    "store": "steam",
-   "title": "Fate/Samurai Remnant",
-   "link": "https://store.steampowered.com/app/1902690/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1902690/capsule_231x87_japanese.jpg?t=1760594680",
-   "price_original": 4950,
-   "price_sale": 3217,
-   "discount": 35,
+   "title": "蒼き雷霆（アームドブルー） ガンヴォルト トライアングル エディション",
+   "link": "https://store.steampowered.com/app/3813350/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3813350/072191c79e09b25779e909a51a22dc9c10c860dc/capsule_231x87_japanese.jpg?t=1792652543",
+   "price_original": 4980,
+   "price_sale": 3486,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2852190",
+   "store": "steam",
+   "title": "モンスターハンターストーリーズ3　～運命の双竜～",
+   "link": "https://store.steampowered.com/app/2852190/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2852190/1b0e684b1abc98caaa7dd2f7ba5008aa21c6698c/capsule_231x87_japanese.jpg?t=1790900261",
+   "price_original": 8990,
+   "price_sale": 6293,
+   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2501,34 +2531,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3314580",
-   "store": "steam",
-   "title": "Trash Day",
-   "link": "https://store.steampowered.com/app/3314580/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3314580/dcc96a6f2eee6a1f001ef6d00ca5d533d24338e8/capsule_231x87.jpg?t=1792435391",
-   "price_original": 1050,
-   "price_sale": 945,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2852190",
-   "store": "steam",
-   "title": "モンスターハンターストーリーズ3　～運命の双竜～",
-   "link": "https://store.steampowered.com/app/2852190/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2852190/1b0e684b1abc98caaa7dd2f7ba5008aa21c6698c/capsule_231x87_japanese.jpg?t=1790900261",
-   "price_original": 8990,
-   "price_sale": 6293,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_1196590",
    "store": "steam",
    "title": "BIOHAZARD VILLAGE",
@@ -2537,62 +2539,6 @@
    "price_original": 3990,
    "price_sale": 997,
    "discount": 75,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_728880",
-   "store": "steam",
-   "title": "Overcooked! 2",
-   "link": "https://store.steampowered.com/app/728880/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/728880/4bdddd709e033f2d4b4fcd819071825015e402c2/capsule_231x87_japanese.jpg?t=1789548883",
-   "price_original": 4995,
-   "price_sale": 1698,
-   "discount": 66,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_5303370",
-   "store": "steam",
-   "title": "Suspencil",
-   "link": "https://store.steampowered.com/app/5303370/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5303370/3fe5baf27d0eb785b2a405d1c80773909be88b41/capsule_231x87.jpg?t=1792733441",
-   "price_original": 420,
-   "price_sale": 378,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2552310",
-   "store": "steam",
-   "title": "ダンジョン・イン",
-   "link": "https://store.steampowered.com/app/2552310/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2552310/dd4903ea90507daa7fcc297bd7d134f17f837f3e/capsule_231x87_alt_assets_0.jpg?t=1792723472",
-   "price_original": 1800,
-   "price_sale": 1440,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_740130",
-   "store": "steam",
-   "title": "Tales of ARISE",
-   "link": "https://store.steampowered.com/app/740130/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/740130/3c17579d4d76ad1cb7a40c5402a99da0fb478e91/capsule_231x87.jpg?t=1783413316",
-   "price_original": 6930,
-   "price_sale": 2772,
-   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -2613,6 +2559,90 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_1566200",
+   "store": "steam",
+   "title": "Tape to Tape",
+   "link": "https://store.steampowered.com/app/1566200/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1566200/431df6044cad0db1f5d1c70997537e369381fcc0/capsule_231x87_alt_assets_2.jpg?t=1792785759",
+   "price_original": 2300,
+   "price_sale": 2070,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3314580",
+   "store": "steam",
+   "title": "Trash Day",
+   "link": "https://store.steampowered.com/app/3314580/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3314580/dcc96a6f2eee6a1f001ef6d00ca5d533d24338e8/capsule_231x87.jpg?t=1792435391",
+   "price_original": 1050,
+   "price_sale": 945,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_740130",
+   "store": "steam",
+   "title": "Tales of ARISE",
+   "link": "https://store.steampowered.com/app/740130/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/740130/3c17579d4d76ad1cb7a40c5402a99da0fb478e91/capsule_231x87.jpg?t=1783413316",
+   "price_original": 6930,
+   "price_sale": 2772,
+   "discount": 60,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_728880",
+   "store": "steam",
+   "title": "Overcooked! 2",
+   "link": "https://store.steampowered.com/app/728880/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/728880/4bdddd709e033f2d4b4fcd819071825015e402c2/capsule_231x87_japanese.jpg?t=1789548883",
+   "price_original": 4995,
+   "price_sale": 1698,
+   "discount": 66,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2552310",
+   "store": "steam",
+   "title": "ダンジョン・イン",
+   "link": "https://store.steampowered.com/app/2552310/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2552310/dd4903ea90507daa7fcc297bd7d134f17f837f3e/capsule_231x87_alt_assets_0.jpg?t=1792723472",
+   "price_original": 1800,
+   "price_sale": 1440,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3022790",
+   "store": "steam",
+   "title": "RimWorld - Odyssey",
+   "link": "https://store.steampowered.com/app/3022790/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3022790/0ec2e24dc7d478bef541ef6f93ec7d24a1f8cffd/capsule_231x87.jpg?t=1782756963",
+   "price_original": 2800,
+   "price_sale": 2520,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_1794680",
    "store": "steam",
    "title": "Vampire Survivors",
@@ -2627,13 +2657,27 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1566200",
+   "id": "d_steam_952060",
    "store": "steam",
-   "title": "Tape to Tape",
-   "link": "https://store.steampowered.com/app/1566200/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1566200/431df6044cad0db1f5d1c70997537e369381fcc0/capsule_231x87_alt_assets_2.jpg?t=1792785759",
-   "price_original": 2300,
-   "price_sale": 2070,
+   "title": "BIOHAZARD RE:3",
+   "link": "https://store.steampowered.com/app/952060/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/952060/capsule_231x87_japanese.jpg?t=1790215956",
+   "price_original": 3990,
+   "price_sale": 798,
+   "discount": 80,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_5303370",
+   "store": "steam",
+   "title": "Suspencil",
+   "link": "https://store.steampowered.com/app/5303370/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5303370/3fe5baf27d0eb785b2a405d1c80773909be88b41/capsule_231x87.jpg?t=1792733441",
+   "price_original": 420,
+   "price_sale": 378,
    "discount": 10,
    "is_free": false,
    "upcoming": false,
@@ -2655,34 +2699,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_952060",
-   "store": "steam",
-   "title": "BIOHAZARD RE:3",
-   "link": "https://store.steampowered.com/app/952060/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/952060/capsule_231x87_japanese.jpg?t=1790215956",
-   "price_original": 3990,
-   "price_sale": 798,
-   "discount": 80,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1062090",
-   "store": "steam",
-   "title": "Timberborn",
-   "link": "https://store.steampowered.com/app/1062090/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1062090/dc43b790414e5d1028cb931bb3a50b7606fe1a68/capsule_231x87.jpg?t=1788438437",
-   "price_original": 3900,
-   "price_sale": 2730,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_1643320",
    "store": "steam",
    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -2697,14 +2713,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2138720",
+   "id": "d_steam_1826140",
    "store": "steam",
-   "title": "REMATCH",
-   "link": "https://store.steampowered.com/app/2138720/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138720/99d71852c4c1133b8483eb26d0632aa574c5ca82/capsule_231x87.jpg?t=1792763934",
-   "price_original": 6100,
-   "price_sale": 2440,
-   "discount": 60,
+   "title": "RimWorld - Biotech",
+   "link": "https://store.steampowered.com/app/1826140/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1826140/0c271719d8e5b0db5083cf321560f73981278ac2/capsule_231x87.jpg?t=1782756849",
+   "price_original": 2800,
+   "price_sale": 2380,
+   "discount": 15,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
