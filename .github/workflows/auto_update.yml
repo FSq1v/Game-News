@@ -29,10 +29,10 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-dev.txt
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r requirements-dev.txt
 
-      - name: Run tests
+      - name: Run Python tests
         run: pytest -q
 
       - name: Fetch news and deals
@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/news.json
+          git add data/news.json
           if git diff --staged --quiet; then
             echo "No changes"
           else
@@ -51,9 +51,28 @@ jobs:
             git push
           fi
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Run Node tests
+        run: npm test
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@65
+
+      - name: Pull Vercel settings
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Build
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Check links
+        run: npx linkinator .vercel/output/static --recurse --skip "^https?://(?!localhost|127\.0\.0\.1)"
+
       - name: Deploy to Vercel
-        run: |
-          npm install --global vercel@latest
-          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-          vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
