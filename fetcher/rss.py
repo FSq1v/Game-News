@@ -22,6 +22,13 @@ FEEDS = [
     {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer", "region": "global"},
     {"url": "https://kotaku.com/rss", "source": "Kotaku", "region": "global"},
     {"url": "https://www.eurogamer.net/feed", "source": "Eurogamer", "region": "global"},
+    # --- AI ---
+    {"url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", "source": "ITmedia AI+", "region": "jp", "genre": "ai"},
+    {"url": "https://www.publickey1.jp/atom.xml", "source": "Publickey", "region": "jp", "genre": "ai"},
+    {"url": "https://openai.com/news/rss.xml", "source": "OpenAI", "region": "official", "genre": "ai"},
+    {"url": "https://blog.google/technology/ai/rss/", "source": "Google AI", "region": "official", "genre": "ai"},
+    {"url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "source": "The Verge AI", "region": "global", "genre": "ai"},
+    {"url": "https://techcrunch.com/category/artificial-intelligence/feed/", "source": "TechCrunch AI", "region": "global", "genre": "ai"},
 ]
 
 PLATFORM_PATTERNS = {
@@ -107,6 +114,7 @@ def parse_feed(xml: bytes, feed: dict, limit: int = 15) -> list[dict]:
             "summary": summary,
             "source": feed["source"],
             "region": feed["region"],
+            "genre": feed.get("genre", "game"),
             "platforms": detect_platforms(f"{title} {summary}", feed.get("platform")),
             "image": _image(item, f"{description} {body}"),
             "published_at": to_iso(published) if published else None,

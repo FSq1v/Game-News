@@ -69,3 +69,18 @@ def test_parse_rdf_rss10():
     assert item["link"] == "https://example.net/r1"
     assert item["published_at"] == "2026-10-14T09:30:00+09:00"
     assert item["image"] == "https://example.net/r1.jpg"
+
+
+def test_genre_from_feed():
+    items = parse_feed((FIX / "rss_sample.xml").read_bytes(), dict(FEED, genre="ai"))
+    assert all(i["genre"] == "ai" for i in items)
+
+
+def test_genre_defaults_to_game():
+    assert all(i["genre"] == "game" for i in rss_items())
+
+
+def test_every_feed_has_known_genre():
+    from fetcher.rss import FEEDS
+    assert {f.get("genre", "game") for f in FEEDS} <= {"game", "ai"}
+    assert any(f.get("genre") == "ai" for f in FEEDS)
