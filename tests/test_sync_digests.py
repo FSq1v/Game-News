@@ -107,3 +107,21 @@ def test_main_requires_src(monkeypatch, capsys):
         main()
     assert e.value.code == 2
     assert "DIGEST_SRC" in capsys.readouterr().err
+
+
+@pytest.mark.parametrize("env, argv", [
+    ("", []),              # 環境変数が空
+    ("   ", []),           # 空白だけ
+    (None, ["--src", ""]),  # --src に空文字
+])
+def test_main_rejects_empty_src(monkeypatch, capsys, env, argv):
+    # 空の指定が Path("") = 今いるフォルダとして読まれないこと
+    if env is None:
+        monkeypatch.delenv("DIGEST_SRC", raising=False)
+    else:
+        monkeypatch.setenv("DIGEST_SRC", env)
+    monkeypatch.setattr("sys.argv", ["sync_digests", *argv])
+    with pytest.raises(SystemExit) as e:
+        main()
+    assert e.value.code == 2
+    assert "DIGEST_SRC" in capsys.readouterr().err

@@ -44,7 +44,7 @@ flowchart TD
 | `src/content/` | まとめ記事の Markdown（`digest/`）。`sync_digests.py` が書き出す |
 | `tests/` | Python 側のテスト。外部サイトにはつながない |
 
-ニュースの取得元は、国内メディア（4Gamer、IGN Japan、電ファミニコゲーマー、AUTOMATON、gamebiz、Game*Spark）、ハードの公式発表（任天堂、PlayStation Blog、Xbox Wire Japan）、海外メディア（Gematsu、PC Gamer、Kotaku、Eurogamer。タイトルは日本語に翻訳）、AI 関係（ITmedia AI+、Publickey、OpenAI、Google AI、The Verge AI、TechCrunch AI）です。一覧は `fetcher/rss.py` の `FEEDS` にあります。
+ニュースの取得元は、国内メディア（4Gamer、IGN Japan、電ファミニコゲーマー、AUTOMATON、gamebiz、Game*Spark）、ハードの公式発表（任天堂、PlayStation Blog、Xbox Wire Japan）、海外メディア（Gematsu、PC Gamer、Kotaku、Eurogamer。タイトルは日本語に翻訳）、AI 関係（ITmedia AI+、Publickey、OpenAI、Google AI、The Verge AI、TechCrunch AI）です。一覧は `fetcher/rss.py` の `FEEDS` にあります。Anthropic は公式の RSS がないので入れていません（2026-10-25 時点。ページの HTML から拾う方法は、デザインが変わるたびに壊れるので採っていません）。
 
 あるソースの取得に失敗しても、ほかのソースは普通に更新されます。失敗したソースは最後に成功してから 24 時間まで前回のデータを出し、画面には「一部の取得に失敗」と出します。
 

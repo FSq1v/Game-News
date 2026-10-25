@@ -134,12 +134,13 @@ def sync(src: Path, dest: Path) -> list[str]:
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--src", type=Path, default=os.environ.get("DIGEST_SRC"))
+    ap.add_argument("--src", default=os.environ.get("DIGEST_SRC"))
     ap.add_argument("--dest", type=Path, default=DEFAULT_DEST)
     args = ap.parse_args()
-    if not args.src:
+    # Path("") は今いるフォルダになってしまうので、空や空白だけは指定なしと同じに扱う
+    if not (args.src or "").strip():
         ap.error("読み込み元が決まっていない。--src で指定するか、環境変数 DIGEST_SRC を設定して")
-    for line in sync(args.src, args.dest):
+    for line in sync(Path(args.src.strip()), args.dest):
         print(line)
 
 
