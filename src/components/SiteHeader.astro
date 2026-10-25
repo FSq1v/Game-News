@@ -1,0 +1,173 @@
+---
+import { SITE_NAME } from "../site";
+
+interface NavItem {
+  href: string;
+  label: string;
+  /** 今いるページの印に使う色。ゲームと AI はジャンルの色にする */
+  tone: "game" | "ai" | "plain";
+}
+
+const nav: NavItem[] = [
+  { href: "/game", label: "ゲーム", tone: "game" },
+  { href: "/ai", label: "AI", tone: "ai" },
+  { href: "/digest", label: "まとめ", tone: "plain" },
+  { href: "/about", label: "このサイトについて", tone: "plain" },
+];
+
+// 末尾の / を落としてから比べる（/digest/ と /digest/2026-10-14 のどちらも「まとめ」にする）
+const path = Astro.url.pathname.replace(/\/+$/, "") || "/";
+const isCurrent = (href: string) => path === href || path.startsWith(`${href}/`);
+const isHome = path === "/";
+---
+
+<header class="site-header">
+  <div class="site-header__inner container">
+    <a class="logo" href="/" aria-current={isHome ? "page" : undefined}>
+      <svg class="logo__mark" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+        <circle class="logo__dot" cx="6" cy="18" r="2.6" />
+        <path class="logo__wave logo__wave--game" d="M6 10.5a7.5 7.5 0 0 1 7.5 7.5" />
+        <path class="logo__wave logo__wave--ai" d="M6 3.5A14.5 14.5 0 0 1 20.5 18" />
+      </svg>
+      <span class="logo__name">{SITE_NAME}</span>
+    </a>
+
+    <nav class="site-nav" aria-label="サイトの中のページ">
+      <ul class="site-nav__list">
+        {
+          nav.map((item) => (
+            <li>
+              <a
+                class={`site-nav__link site-nav__link--${item.tone}`}
+                href={item.href}
+                aria-current={isCurrent(item.href) ? "page" : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--header-bg);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* スマホ：1 段目にロゴ、2 段目に横にスクロールできるタブ */
+  .site-header__inner {
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--space-2);
+  }
+
+  .logo {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: var(--tap);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .logo__name {
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .logo__dot { fill: var(--text); }
+  .logo__wave {
+    fill: none;
+    stroke-width: 2.6;
+    stroke-linecap: round;
+  }
+  .logo__wave--game { stroke: var(--game); }
+  .logo__wave--ai { stroke: var(--ai); }
+
+  .site-nav {
+    /* 端まで指でなぞれるように、コンテナの左右の余白ぶん外に広げる */
+    margin-inline: calc(var(--space-3) * -1);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-nav::-webkit-scrollbar { display: none; }
+
+  .site-nav__list {
+    display: flex;
+    gap: var(--space-1);
+    width: max-content;
+    margin: 0;
+    padding: 0 var(--space-2);
+    list-style: none;
+  }
+
+  .site-nav__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: var(--tap);
+    padding: 0 var(--space-2);
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: color var(--duration) var(--ease);
+  }
+  .site-nav__link:hover { color: var(--text); }
+  .site-nav__link:focus-visible { outline-offset: -2px; }
+
+  /* 今いるページ：文字を濃くして、下に 3px の線。ゲームと AI はジャンルの色の線 */
+  .site-nav__link[aria-current="page"] {
+    color: var(--text);
+    font-weight: 700;
+  }
+  .site-nav__link[aria-current="page"]::after {
+    content: "";
+    position: absolute;
+    left: var(--space-2);
+    right: var(--space-2);
+    bottom: -1px;
+    height: 3px;
+    border-radius: 3px 3px 0 0;
+    background: var(--text);
+  }
+  .site-nav__link--game[aria-current="page"]::after { background: var(--game); }
+  .site-nav__link--ai[aria-current="page"]::after { background: var(--ai); }
+
+  @media (min-width: 600px) {
+    .site-nav { margin-inline: calc(var(--space-4) * -1); }
+    .site-nav__list { padding: 0 var(--space-3); }
+  }
+
+  /* 900px 以上：ロゴとナビを 1 段に並べる */
+  @media (min-width: 900px) {
+    .site-header__inner {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      padding-top: 0;
+    }
+    .logo { align-self: center; min-height: 60px; }
+    .site-nav { margin-inline: 0; overflow: visible; }
+    .site-nav__list { padding: 0; gap: var(--space-2); }
+    .site-nav__link { min-height: 60px; padding: 0 var(--space-3); }
+    .site-nav__link[aria-current="page"]::after {
+      left: var(--space-3);
+      right: var(--space-3);
+    }
+  }
+</style>

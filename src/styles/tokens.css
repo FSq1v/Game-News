@@ -1,0 +1,91 @@
+/*
+  デザインのトークン。色はここ以外では指定しない。
+  文字と背景の組み合わせは、ライト・ダークどちらもコントラスト 4.5:1 以上を確かめてある
+  （組み合わせと値は .superpowers/sdd/2026-10-25-portfolio-site/task-3-report.md を参照）。
+*/
+:root {
+  color-scheme: light dark;
+
+  /* 色（ライト） */
+  --bg: #f5f5f7;
+  --surface: #ffffff;
+  --surface-2: #e8e8ed;
+  --text: #1d1d1f;
+  --text-muted: #636366;
+  --border: #d2d2d7;
+  --accent: #0066cc;
+  --accent-text: #ffffff;
+  --header-bg: rgb(245 245 247 / 0.82);
+
+  /* ジャンルの色。ゲームは朱、AI は菫。文字にも背景にも使える */
+  --game: #b3301a;
+  --game-soft: #fbebe6;
+  --ai: #5b45d6;
+  --ai-soft: #eeecfc;
+  --on-genre: #ffffff;
+
+  /* 形 */
+  --radius: 14px;
+  --radius-sm: 8px;
+  --radius-pill: 999px;
+
+  /* 余白（4 の倍数で、段ごとにおよそ 1.5〜2 倍） */
+  --space-1: 0.25rem;  /*  4px */
+  --space-2: 0.5rem;   /*  8px */
+  --space-3: 1rem;     /* 16px */
+  --space-4: 1.5rem;   /* 24px */
+  --space-5: 2.5rem;   /* 40px */
+  --space-6: 4rem;     /* 64px */
+
+  /* 文字。Web フォントは読み込まず、OS の日本語フォントを使う */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+    "Segoe UI Variable Text", "Segoe UI", "Yu Gothic UI", "Meiryo", "Noto Sans JP",
+    system-ui, sans-serif;
+
+  /* 文字の大きさ。本文 17px を基準に、1.2 倍前後の段で組む */
+  --font-size-xs: 0.8125rem;  /* 13px：注記、時刻 */
+  --font-size-sm: 0.9375rem;  /* 15px：ナビ、メタ情報 */
+  --font-size-base: 1.0625rem;/* 17px：本文 */
+  --font-size-md: 1.25rem;    /* 20px：カードの見出し */
+  --font-size-lg: 1.5rem;     /* 24px：小見出し */
+  --font-size-xl: 2rem;       /* 32px：セクションの見出し */
+  --font-size-2xl: clamp(2.25rem, 1.6rem + 3.2vw, 3.5rem); /* 36〜56px：ページの見出し */
+
+  --line-height-tight: 1.25;
+  --line-height-body: 1.75;
+
+  /* 幅 */
+  --content-max: 1120px;
+  --measure: 38em; /* 本文の 1 行の長さ（日本語でおよそ 38 字） */
+  --tap: 44px;
+
+  /* 動き */
+  --duration: 160ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --surface: #1c1c1e;
+    --surface-2: #2c2c2e;
+    --text: #f5f5f7;
+    --text-muted: #a1a1a6;
+    --border: #3a3a3c;
+    --accent: #2997ff;
+    --accent-text: #000000;
+    --header-bg: rgb(0 0 0 / 0.78);
+
+    --game: #ff7a5c;
+    --game-soft: #3a1b13;
+    --ai: #a594ff;
+    --ai-soft: #241f42;
+    --on-genre: #000000;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration: 0ms;
+  }
+}

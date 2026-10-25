@@ -1,0 +1,56 @@
+---
+import { SITE_NAME } from "../site";
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="site-footer__inner container">
+    <p class="site-footer__note">
+      ニュースは各サイトの見出しと短い要約だけを載せています。続きは出典のリンクから元の記事で読んでください。
+    </p>
+    <p class="site-footer__meta">
+      <a href="/about">このサイトについて</a>
+      <small>© {year} {SITE_NAME}</small>
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: var(--space-6);
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    line-height: 1.7;
+  }
+  .site-footer__inner {
+    display: grid;
+    gap: var(--space-3);
+    padding-block: var(--space-5);
+  }
+  .site-footer__note { max-width: var(--measure); }
+  .site-footer__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2) var(--space-4);
+  }
+  .site-footer__meta a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap);
+    font-weight: 500;
+  }
+  .site-footer__meta small { font-size: var(--font-size-xs); }
+
+  @media (min-width: 900px) {
+    .site-footer__inner {
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: var(--space-5);
+    }
+  }
+</style>
