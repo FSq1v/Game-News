@@ -167,6 +167,7 @@ function initDeals(root: HTMLElement): void {
   const count = root.querySelector<HTMLElement>("[data-count]");
   const empty = root.querySelector<HTMLElement>("[data-empty]");
   const select = root.querySelector<HTMLSelectElement>("select[data-sort]");
+  const input = root.querySelector<HTMLInputElement>("input[data-search-input]");
   const chips = root.querySelector('[role="group"]');
   const state: DealState = { store: "all", query: "" };
 
@@ -202,7 +203,7 @@ function initDeals(root: HTMLElement): void {
     if (count) count.textContent = `${shown} 件`;
     if (empty) {
       empty.hidden = shown > 0;
-      if (shown === 0) empty.textContent = "条件に合うセールはありません。ストアを変えてみてください。";
+      if (shown === 0) empty.textContent = "条件に合うセールはありません。ストアや検索を変えてみてください。";
     }
   };
 
@@ -217,6 +218,15 @@ function initDeals(root: HTMLElement): void {
       state.store = (STORES as readonly string[]).includes(value) ? (value as DealState["store"]) : "all";
       apply();
     });
+  }
+  if (input) {
+    const readQuery = () => {
+      state.query = input.value.trim().toLowerCase();
+      apply();
+    };
+    input.addEventListener("input", readQuery);
+    // 戻るボタンなどで入力欄に文字が残っていたときも、その文字で絞り込む
+    if (input.value) readQuery();
   }
   if (select) {
     const read = () => {

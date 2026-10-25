@@ -22,6 +22,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
+    {/* JS が動く印。絞り込みやタブは JS がないと動かないので、この印があるときだけ出す。
+        描画の前に付けるので、あとから部品が出てきて画面がずれることはない */}
+    <script is:inline>document.documentElement.setAttribute("data-js", "");</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />

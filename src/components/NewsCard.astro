@@ -157,6 +157,7 @@ const original = item.translated && item.title_original ? `原題：${item.title
     cursor: pointer;
     transition: color var(--duration) var(--ease), transform var(--duration) var(--ease);
   }
+  :global(:root:not([data-js])) .fav { display: none; }
   .fav:hover { color: var(--text); background: var(--surface-2); }
   .fav__icon {
     fill: none;

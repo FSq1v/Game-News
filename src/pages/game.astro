@@ -30,8 +30,6 @@ const description =
     </header>
 
     <div class="container" data-tabs>
-      {/* JS が動くときだけタブを見せる印。後から付けると、タブが出た分だけ画面がずれるので、ここで先に付ける */}
-      <script is:inline>document.documentElement.setAttribute("data-js", "");</script>
       <div class="tabs" role="tablist" aria-label="表示の切り替え">
         <button type="button" class="tab" role="tab" id="tab-news" aria-controls="panel-news" aria-selected="true">ニュース</button>
         <button type="button" class="tab" role="tab" id="tab-deals" aria-controls="panel-deals" aria-selected="false" tabindex="-1">セール</button>

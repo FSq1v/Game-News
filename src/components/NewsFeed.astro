@@ -99,6 +99,8 @@ const filters = [
   }
 
   .feed__controls { display: grid; gap: var(--space-3); }
+  /* JS がないと動かないので出さない（data-js は Base の head で描画前に付く） */
+  :global(:root:not([data-js])) .feed__controls { display: none; }
 
   /* スマホでは 1 行に収めて横にスクロールさせる（折り返すと一覧が下に押し出されるので） */
   .chips {
