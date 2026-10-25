@@ -1,0 +1,146 @@
+---
+import Base from "../layouts/Base.astro";
+import NewsFeed from "../components/NewsFeed.astro";
+import DealsPanel from "../components/DealsPanel.astro";
+import FeedStatus from "../components/FeedStatus.astro";
+import { byGenre, failedSources, loadNews } from "../lib/news";
+
+const data = loadNews();
+const news = byGenre(data.news, "game");
+const failed = failedSources(data.sources.filter((s) => (s.genre ?? "game") === "game"));
+const description =
+  "国内外のゲームニュースと、Steam・Epic・PS Store・Switch のセール、Epic の無料配布を 1 時間ごとに集めて並べています。";
+---
+
+<Base title="ゲームのニュースとセール" description={description}>
+  <div class="genre-page">
+    <header class="page-head container">
+      <h1 class="page-head__title">
+        <svg class="page-head__mark" viewBox="0 0 24 24" width="40" height="40" aria-hidden="true" focusable="false">
+          <circle cx="6" cy="18" r="2.6" />
+          <path d="M6 10.5a7.5 7.5 0 0 1 7.5 7.5" />
+          <path d="M6 3.5A14.5 14.5 0 0 1 20.5 18" />
+        </svg>
+        ゲーム
+      </h1>
+      <p class="page-head__lead">
+        国内外のゲームメディアとメーカーの公式発表に、各ストアのセール情報を合わせて、1 時間ごとに集めています。
+      </p>
+      <FeedStatus updatedAt={data.updated_at} failed={failed} error={data.error} />
+    </header>
+
+    <div class="container" data-tabs>
+      {/* JS が動くときだけタブを見せる印。後から付けると、タブが出た分だけ画面がずれるので、ここで先に付ける */}
+      <script is:inline>document.documentElement.setAttribute("data-js", "");</script>
+      <div class="tabs" role="tablist" aria-label="表示の切り替え">
+        <button type="button" class="tab" role="tab" id="tab-news" aria-controls="panel-news" aria-selected="true">ニュース</button>
+        <button type="button" class="tab" role="tab" id="tab-deals" aria-controls="panel-deals" aria-selected="false" tabindex="-1">セール</button>
+      </div>
+
+      <div class="layout-2col">
+        <div class="panel is-active" id="panel-news">
+          <NewsFeed items={news} label="ニュース" />
+        </div>
+        <div class="panel" id="panel-deals">
+          <DealsPanel deals={data.deals} />
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .genre-page {
+    --genre: var(--game);
+    --genre-soft: var(--game-soft);
+  }
+
+  .page-head {
+    display: grid;
+    gap: var(--space-3);
+    padding-block: var(--space-5) var(--space-4);
+  }
+  .page-head__title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: var(--font-size-2xl);
+    letter-spacing: -0.03em;
+  }
+  .page-head__mark {
+    flex: none;
+    width: 0.8em;
+    height: 0.8em;
+    fill: none;
+    stroke: var(--genre);
+    stroke-width: 2.6;
+    stroke-linecap: round;
+  }
+  .page-head__mark circle { fill: var(--genre); stroke: none; }
+  .page-head__lead {
+    max-width: var(--measure);
+    color: var(--text-muted);
+    font-size: var(--font-size-base);
+  }
+
+  /* タブ：JS がなければ出さない（そのときは両方のパネルが縦に並ぶ） */
+  .tabs { display: none; }
+
+  @media (max-width: 899px) {
+    :global([data-js]) .tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-1);
+      margin-bottom: var(--space-4);
+      padding: var(--space-1);
+      border-radius: var(--radius-pill);
+      background: var(--surface-2);
+    }
+    :global([data-js]) .panel:not(.is-active) { display: none; }
+    /* タブと同じ文字の見出しが続くので、見た目だけ消す（読み上げには残す） */
+    :global([data-js]) .panel :global(.feed__title),
+    :global([data-js]) .panel :global(.deals__title) {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+    :global([data-js]) .panel :global(:is(.feed__head, .deals__head)) { justify-content: flex-end; }
+  }
+
+  .tab {
+    min-height: var(--tap);
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: none;
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--duration) var(--ease), color var(--duration) var(--ease);
+  }
+  .tab:hover { color: var(--text); }
+  .tab[aria-selected="true"] {
+    background: var(--surface);
+    color: var(--text);
+    font-weight: 700;
+  }
+
+  .panel { min-width: 0; }
+  .panel:focus-visible { outline-offset: var(--space-2); }
+
+  @media (min-width: 900px) {
+    .page-head { padding-block: var(--space-6) var(--space-5); }
+    /* セールは横の細い列なので、スクロールしても見えるように上に貼りつける */
+    #panel-deals {
+      position: sticky;
+      top: calc(60px + var(--space-4));
+      max-height: calc(100dvh - 60px - var(--space-5));
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+    }
+  }
+</style>

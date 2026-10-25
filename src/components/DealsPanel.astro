@@ -1,0 +1,165 @@
+---
+import type { Deal } from "../lib/news";
+import { STORE_NAMES } from "../lib/format";
+import DealCard from "./DealCard.astro";
+import FreeCard from "./FreeCard.astro";
+
+interface Props {
+  deals: Deal[];
+  label?: string;
+}
+
+const { deals, label = "セールと無料配布" } = Astro.props;
+// 配布中を先に、来週の分をあとに
+const free = deals.filter((d) => d.is_free).sort((a, b) => Number(a.upcoming) - Number(b.upcoming));
+const paid = deals.filter((d) => !d.is_free);
+
+const stores = [
+  { value: "all", label: "すべて" },
+  ...(Object.keys(STORE_NAMES) as (keyof typeof STORE_NAMES)[]).map((k) => ({ value: k, label: STORE_NAMES[k] })),
+];
+---
+
+<section class="deals" aria-labelledby="deals-title" data-deals>
+  <div class="deals__head">
+    <h2 class="deals__title" id="deals-title">{label}</h2>
+    <p class="deals__count" aria-live="polite" data-count>{free.length + paid.length} 件</p>
+  </div>
+
+  <div class="deals__controls">
+    <div class="chips" role="group" aria-label="ストアの絞り込み">
+      {
+        stores.map((s) => (
+          <button type="button" class="chip" data-store={s.value} aria-pressed={s.value === "all" ? "true" : "false"}>
+            {s.label}
+          </button>
+        ))
+      }
+    </div>
+    <div class="sort">
+      <label class="sort__label" for="deal-sort">並べ替え</label>
+      <select class="sort__select" id="deal-sort" data-sort>
+        <option value="default">おすすめ順</option>
+        <option value="discount">割引率が高い順</option>
+        <option value="ending">終了が近い順</option>
+        <option value="price">安い順</option>
+      </select>
+    </div>
+  </div>
+
+  {
+    free.length > 0 && (
+      <ul class="free-list" aria-label="無料配布" data-free-list>
+        {free.map((d) => <FreeCard deal={d} />)}
+      </ul>
+    )
+  }
+
+  <ol class="deal-list" aria-label="セール" data-deal-list>
+    {paid.map((d) => <DealCard deal={d} />)}
+  </ol>
+  <p class="empty" data-empty hidden={free.length + paid.length > 0}>いま表示できるセールはありません。</p>
+  <p class="deals__note">価格と期間は、買う前に各ストアのページで確かめてください。</p>
+</section>
+
+<script>
+  import "../scripts/feed.ts";
+</script>
+
+<style>
+  .deals { display: grid; gap: var(--space-3); min-width: 0; }
+
+  .deals__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-3);
+  }
+  .deals__title { font-size: var(--font-size-lg); }
+  .deals__count {
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .deals__controls { display: grid; gap: var(--space-3); }
+
+  /* スマホでは 1 行に収めて横にスクロールさせる（折り返すと一覧が下に押し出されるので） */
+  .chips {
+    display: flex;
+    gap: var(--space-2);
+    margin: calc(var(--space-1) * -1) calc(var(--space-3) * -1);
+    padding: var(--space-1) var(--space-3);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; }
+  @media (min-width: 600px) {
+    .chips { flex-wrap: wrap; margin: 0; padding: 0; overflow: visible; }
+  }
+  .chip {
+    min-height: var(--tap);
+    padding: 0 var(--space-3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    color: var(--text);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color var(--duration) var(--ease), border-color var(--duration) var(--ease);
+  }
+  .chip:hover { border-color: var(--text-muted); }
+  .chip[aria-pressed="true"] {
+    border-color: var(--genre, var(--accent));
+    background: var(--genre, var(--accent));
+    color: var(--on-genre);
+    font-weight: 700;
+  }
+
+  .sort {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--font-size-sm);
+  }
+  .sort__label { color: var(--text-muted); white-space: nowrap; }
+  .sort__select {
+    flex: 1;
+    min-height: var(--tap);
+    padding: 0 var(--space-3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    font-size: var(--font-size-base);
+    cursor: pointer;
+  }
+
+  .free-list {
+    display: grid;
+    gap: var(--space-2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .deal-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--border);
+  }
+
+  .empty {
+    padding: var(--space-5) var(--space-3);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text-muted);
+    text-align: center;
+  }
+  .empty[hidden] { display: none; }
+
+  .deals__note { color: var(--text-muted); font-size: var(--font-size-xs); }
+</style>

@@ -1,0 +1,184 @@
+---
+import type { NewsItem } from "../lib/news";
+import NewsCard from "./NewsCard.astro";
+
+interface Props {
+  items: NewsItem[];
+  /** 見出しの文字。一覧の名前にも使う */
+  label: string;
+  limit?: number;
+  /** false のときは絞り込みと検索を出さない（トップページ用） */
+  showControls?: boolean;
+}
+
+const { items, label, limit, showControls = true } = Astro.props;
+
+// 新しい順に並べてから件数をしぼる
+const time = (iso: string) => {
+  const t = new Date(iso).getTime();
+  return Number.isNaN(t) ? 0 : t;
+};
+const sorted = [...items].sort((a, b) => time(b.published_at) - time(a.published_at));
+const shown = limit === undefined ? sorted : sorted.slice(0, limit);
+
+// 同じページに 2 つ置いても id がぶつからないよう、見出しの文字から id を作る
+let hash = 0;
+for (const ch of label) hash = (hash * 31 + ch.codePointAt(0)!) >>> 0;
+const uid = `feed-${hash.toString(36)}`;
+
+const filters = [
+  { value: "all", label: "すべて" },
+  { value: "jp", label: "国内" },
+  { value: "global", label: "海外" },
+  { value: "official", label: "公式" },
+  { value: "fav", label: "お気に入り" },
+] as const;
+---
+
+<section class="feed" aria-labelledby={`${uid}-title`} data-feed>
+  <div class="feed__head">
+    <h2 class="feed__title" id={`${uid}-title`}>{label}</h2>
+    <p class="feed__count" aria-live="polite" data-count>{shown.length} 件</p>
+  </div>
+
+  {
+    showControls && (
+      <div class="feed__controls">
+        <div class="chips" role="group" aria-label="ニュースの絞り込み">
+          {filters.map((f) => (
+            <button type="button" class="chip" data-region={f.value} aria-pressed={f.value === "all" ? "true" : "false"}>
+              {f.label}
+            </button>
+          ))}
+        </div>
+        <div class="search">
+          <label class="visually-hidden" for={`${uid}-search`}>記事を検索</label>
+          <svg class="search__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+            <circle cx="10.5" cy="10.5" r="6.5" />
+            <path d="M15.5 15.5 21 21" />
+          </svg>
+          <input
+            class="search__input"
+            id={`${uid}-search`}
+            type="search"
+            placeholder="タイトルや出典で検索"
+            autocomplete="off"
+            enterkeyhint="search"
+            data-search-input
+          />
+        </div>
+      </div>
+    )
+  }
+
+  <ol class="feed__list" aria-label={label}>
+    {shown.map((item) => <NewsCard item={item} />)}
+  </ol>
+  <p class="empty" data-empty hidden={shown.length > 0}>表示できる記事がありません。</p>
+</section>
+
+<script>
+  import "../scripts/feed.ts";
+</script>
+
+<style>
+  .feed { display: grid; gap: var(--space-3); min-width: 0; }
+
+  .feed__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-3);
+  }
+  .feed__title { font-size: var(--font-size-lg); }
+  .feed__count {
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .feed__controls { display: grid; gap: var(--space-3); }
+
+  /* スマホでは 1 行に収めて横にスクロールさせる（折り返すと一覧が下に押し出されるので） */
+  .chips {
+    display: flex;
+    gap: var(--space-2);
+    margin: calc(var(--space-1) * -1) calc(var(--space-3) * -1);
+    padding: var(--space-1) var(--space-3);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; }
+  @media (min-width: 600px) {
+    .chips { flex-wrap: wrap; margin: 0; padding: 0; overflow: visible; }
+  }
+  .chip {
+    min-height: var(--tap);
+    padding: 0 var(--space-3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    color: var(--text);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color var(--duration) var(--ease), border-color var(--duration) var(--ease);
+  }
+  .chip:hover { border-color: var(--text-muted); }
+  .chip[aria-pressed="true"] {
+    border-color: var(--genre, var(--accent));
+    background: var(--genre, var(--accent));
+    color: var(--on-genre);
+    font-weight: 700;
+  }
+
+  .search { position: relative; }
+  .search__icon {
+    position: absolute;
+    left: var(--space-3);
+    top: 50%;
+    translate: 0 -50%;
+    fill: none;
+    stroke: var(--text-muted);
+    stroke-width: 2;
+    stroke-linecap: round;
+    pointer-events: none;
+  }
+  .search__input {
+    width: 100%;
+    min-height: var(--tap);
+    padding: 0 var(--space-3) 0 calc(var(--space-3) + 26px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    font-size: var(--font-size-base); /* 16px 以上にして iOS で拡大されないようにする */
+  }
+  .search__input::placeholder { color: var(--text-muted); opacity: 1; }
+  .search__input:focus-visible { outline-offset: 0; border-color: var(--accent); }
+
+  .feed__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--border);
+  }
+
+  .empty {
+    padding: var(--space-5) var(--space-3);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text-muted);
+    text-align: center;
+  }
+  .empty[hidden] { display: none; }
+
+  @media (min-width: 600px) {
+    .feed__controls {
+      grid-template-columns: auto minmax(200px, 1fr);
+      align-items: center;
+    }
+  }
+</style>
