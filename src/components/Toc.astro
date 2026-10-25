@@ -1,0 +1,113 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+interface Props {
+  headings: Heading[];
+}
+
+// h2 と h3 だけを目次にする
+const items = Astro.props.headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+{
+  items.length > 0 && (
+    <>
+      <details class="toc-mobile">
+        <summary>目次</summary>
+        <ol class="toc-list">
+          {
+            items.map((h) => (
+              <li class={`toc-list__item toc-list__item--h${h.depth}`}>
+                <a href={`#${h.slug}`}>{h.text}</a>
+              </li>
+            ))
+          }
+        </ol>
+      </details>
+      <nav class="toc-side" aria-label="目次">
+        <p class="toc-side__title">目次</p>
+        <ol class="toc-list">
+          {
+            items.map((h) => (
+              <li class={`toc-list__item toc-list__item--h${h.depth}`}>
+                <a href={`#${h.slug}`}>{h.text}</a>
+              </li>
+            ))
+          }
+        </ol>
+      </nav>
+    </>
+  )
+}
+
+<style>
+  /* スマホ：本文の前に置く、折りたためる目次。横の目次は隠す（重複して読み上げないように display: none） */
+  .toc-mobile {
+    grid-area: toc;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .toc-mobile summary {
+    display: flex;
+    align-items: center;
+    min-height: var(--tap);
+    padding: 0 var(--space-3);
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: var(--radius);
+  }
+  .toc-mobile[open] summary {
+    border-bottom: 1px solid var(--border);
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .toc-mobile .toc-list { padding: var(--space-2) var(--space-3) var(--space-3); }
+
+  .toc-side { display: none; }
+
+  .toc-list {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+  }
+  .toc-list a {
+    display: flex;
+    align-items: center;
+    min-height: var(--tap);
+    padding-block: var(--space-1);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .toc-list a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+  .toc-list__item--h2 a { font-weight: 700; }
+  .toc-list__item--h3 a {
+    padding-left: var(--space-3);
+    border-left: 2px solid var(--border);
+    color: var(--text-muted);
+  }
+  .toc-list__item--h3 a:hover { color: var(--text); }
+
+  /* 900px 以上：本文の横に貼りつける */
+  @media (min-width: 900px) {
+    .toc-mobile { display: none; }
+    .toc-side {
+      display: block;
+      grid-area: toc;
+      position: sticky;
+      top: calc(60px + var(--space-4));
+      align-self: start;
+      max-height: calc(100dvh - 60px - var(--space-5));
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+    }
+    .toc-side__title { margin-bottom: var(--space-2); font-size: var(--font-size-sm); font-weight: 700; }
+  }
+</style>
