@@ -69,10 +69,28 @@ jobs:
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Build
-        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: npm run build
 
       - name: Check links
-        run: npx linkinator .vercel/output/static --recurse --skip "^https?://(?!localhost|127\.0\.0\.1)"
+        run: npm run check:links
+
+      # vercel build は直下の requirements.txt を見て Python 用の準備（uv）を始めて落ちるので使わない。
+      # ビルド済みの dist を Build Output API の形に並べて、そのまま上げる
+      - name: Prepare Vercel output
+        run: |
+          rm -rf .vercel/output
+          mkdir -p .vercel/output
+          cp -r dist .vercel/output/static
+          cat > .vercel/output/config.json <<'EOF'
+          {
+            "version": 3,
+            "routes": [
+              { "handle": "filesystem" },
+              { "src": "^/(.*[^/])/?$", "dest": "/$1/index.html", "check": true },
+              { "src": "/.*", "status": 404, "dest": "/404.html" }
+            ]
+          }
+          EOF
 
       - name: Deploy to Vercel
         run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}

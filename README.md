@@ -26,7 +26,7 @@ flowchart TD
         D["Obsidian のニュースまとめ"] --> E["scripts/sync_digests.py<br>個人メモを除いて変換"]
         E --> F[("src/content/digest/*.md<br>差分を見てから push")]
     end
-    V --> G["vercel build<br>astro check + astro build"]
+    V --> G["npm run build<br>astro check + astro build"]
     F --> G
     G --> H["リンク切れチェック"]
     H --> I["Vercel に公開"]
@@ -54,7 +54,7 @@ flowchart TD
 
 **収集は Python のまま。** このサイトは、もともと Python で集めて素の HTML で出すだけのものでした。収集処理と、各ソースの解析・マージのテストはそのときに作ってあり、ちゃんと動いています。サイトを Astro に移すからといって収集まで書き直すと、壊れていないものを壊す危険があるだけです。なので `fetcher/` はそのまま使い、AI のソースを足すことと、出力先を `data/news.json` に変えることだけをしました。
 
-**デプロイは Actions から直接。** Vercel の Git 連携は止めて、GitHub Actions の中で `vercel build` と `vercel deploy --prebuilt` を呼んでいます。収集、テスト、ビルド、リンクチェック、デプロイが 1 本のジョブに並ぶので、どこかで失敗したらその先には進まず、公開中のサイトは前のまま残ります。Git 連携に任せると、データのコミットとは別のところでビルドが走るので、テストが落ちた状態のものが公開されることがありえました。
+**デプロイは Actions から直接。** Vercel の Git 連携は止めて、GitHub Actions の中で `npm run build` を実行し、できた `dist/` を Vercel の Build Output API の形（`.vercel/output/`）に並べて `vercel deploy --prebuilt` で上げています。`vercel build` を使わないのは、リポジトリ直下の `requirements.txt` を見て Python のプロジェクトとして準備を始めてしまうからです。収集、テスト、ビルド、リンクチェック、デプロイが 1 本のジョブに並ぶので、どこかで失敗したらその先には進まず、公開中のサイトは前のまま残ります。Git 連携に任せると、データのコミットとは別のところでビルドが走るので、テストが落ちた状態のものが公開されることがありえました。
 
 ## 品質で気をつけたこと
 
