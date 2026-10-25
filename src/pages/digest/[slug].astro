@@ -27,7 +27,12 @@ const { title, date, period, tags } = entry.data;
 const description = stories.length > 0 ? stories.join("、") : undefined;
 ---
 
-<Base title={title} description={description} article={{ publishedTime: date.toISOString() }}>
+<Base
+  title={title}
+  description={description}
+  ogImage={`/og/${entry.id}.png`}
+  article={{ publishedTime: date.toISOString() }}
+>
   <div class="container article">
     <nav class="crumbs" aria-label="パンくず">
       <ol>
