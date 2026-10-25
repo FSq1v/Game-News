@@ -1,13 +1,14 @@
 ---
 import { SITE_NAME } from "../site";
 
-const year = new Date().getFullYear();
+// ビルドは UTC で動くので、年は日本時間で出す
+const year = new Intl.DateTimeFormat("ja-JP", { timeZone: "Asia/Tokyo", year: "numeric" }).format(new Date());
 ---
 
 <footer class="site-footer">
   <div class="site-footer__inner container">
     <p class="site-footer__note">
-      ニュースは各サイトの見出しと短い要約だけを載せています。続きは出典のリンクから元の記事で読んでください。
+      ニュースは各サイトの見出しとリンクだけを載せています。続きは出典のリンクから元の記事で読んでください。
     </p>
     <p class="site-footer__meta">
       <a href="/about">このサイトについて</a>
