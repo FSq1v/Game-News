@@ -1,6 +1,8 @@
 from pathlib import Path
 
-from scripts.sync_digests import convert, output_name, sync
+import pytest
+
+from scripts.sync_digests import convert, main, output_name, sync
 
 FIX = Path(__file__).parent / "fixtures" / "digests"
 SAMPLE = (FIX / "2026-10-14_ニュースまとめ.md").read_text(encoding="utf-8")
@@ -75,3 +77,33 @@ def test_sync_reports_overwrite(tmp_path):
 def test_sync_reports_unchanged(tmp_path):
     sync(FIX, tmp_path)
     assert any("変更なし" in line for line in sync(FIX, tmp_path))
+
+
+HEAD = "---\ncreated: 2026-10-14\ntags: [AI]\n---\n\n# タイトル\n"
+
+
+def test_vault_note_lines_removed():
+    out, removed = convert(HEAD + "本文\n※保管庫の中のメモ\n  ※保管庫：インデントつき\n次\n")
+    assert "※保管庫" not in out and "本文" in out and "次" in out
+    assert removed == 2
+
+
+def test_obsidian_comments_removed():
+    out, _ = convert(HEAD + "前%%インライン%%後\n%%\n複数行\nのコメント\n%%\n残る\n")
+    assert "%%" not in out and "インライン" not in out and "複数行" not in out
+    assert "前後" in out and "残る" in out
+
+
+def test_html_comments_removed():
+    out, _ = convert(HEAD + "前<!-- インライン -->後\n<!--\n複数行\n-->\n残る\n")
+    assert "<!--" not in out and "インライン" not in out and "複数行" not in out
+    assert "前後" in out and "残る" in out
+
+
+def test_main_requires_src(monkeypatch, capsys):
+    monkeypatch.delenv("DIGEST_SRC", raising=False)
+    monkeypatch.setattr("sys.argv", ["sync_digests"])
+    with pytest.raises(SystemExit) as e:
+        main()
+    assert e.value.code == 2
+    assert "DIGEST_SRC" in capsys.readouterr().err

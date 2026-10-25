@@ -1,13 +1,18 @@
 """Obsidian のニュースまとめを、公開用の Markdown に変換して取り込む。"""
 import argparse
+import os
 import re
 import sys
 from pathlib import Path
 
-DEFAULT_SRC = Path(r"<保管庫>\30_ニュース")
 DEFAULT_DEST = Path("src/content/digest")
 
 IMPACT = "自分への影響"
+VAULT_NOTE = "※保管庫"  # 保管庫の中だけで意味のある注記の行
+# コメントだけの行は行ごと消し、行の途中のコメントは中身だけ消す（どちらも複数行にまたがってよい）
+COMMENT = r"%%.*?%%|<!--.*?-->"
+COMMENT_LINE_RE = re.compile(rf"^[ \t]*(?:{COMMENT})[ \t]*\n", re.S | re.M)
+COMMENT_RE = re.compile(COMMENT, re.S)
 NAME_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})_ニュースまとめ(?:_(\d+))?\.md$")
 SOURCE_RE = re.compile(r"^(\s*- 出典：)(.+?)\s+(https?://\S+)$")
 WIKI_RE = re.compile(r"\[\[([^\]|]*)(?:\|([^\]]*))?\]\]")
@@ -56,6 +61,7 @@ def convert(text: str) -> tuple[str, int]:
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
         raise ValueError("created が読めない")
 
+    body = COMMENT_RE.sub("", COMMENT_LINE_RE.sub("", body))
     lines = body.split("\n")
     title = None
     out: list[str] = []
@@ -65,6 +71,10 @@ def convert(text: str) -> tuple[str, int]:
         line = lines[i]
         if title is None and line.startswith("# "):
             title = line[2:].strip()  # タイトルはレイアウトが出すので本文からは消す
+            i += 1
+            continue
+        if line.strip().startswith(VAULT_NOTE):
+            removed += 1
             i += 1
             continue
         if _is_impact(line):
@@ -124,9 +134,11 @@ def sync(src: Path, dest: Path) -> list[str]:
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--src", type=Path, default=DEFAULT_SRC)
+    ap.add_argument("--src", type=Path, default=os.environ.get("DIGEST_SRC"))
     ap.add_argument("--dest", type=Path, default=DEFAULT_DEST)
     args = ap.parse_args()
+    if not args.src:
+        ap.error("読み込み元が決まっていない。--src で指定するか、環境変数 DIGEST_SRC を設定して")
     for line in sync(args.src, args.dest):
         print(line)
 

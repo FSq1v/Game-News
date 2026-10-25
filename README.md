@@ -18,14 +18,15 @@
 ```mermaid
 flowchart TD
     subgraph auto["毎時 17 分（GitHub Actions）"]
-        A["pytest / vitest"] --> B["python -m fetcher<br>RSS とセールを収集"]
+        A["pytest"] --> B["python -m fetcher<br>RSS とセールを収集"]
         B --> C[("data/news.json<br>コミットして前回データに使う")]
+        C --> V["npm ci / vitest"]
     end
     subgraph hand["記事を書いたとき（手元の PC）"]
         D["Obsidian のニュースまとめ"] --> E["scripts/sync_digests.py<br>個人メモを除いて変換"]
         E --> F[("src/content/digest/*.md<br>差分を見てから push")]
     end
-    C --> G["Astro でビルド<br>astro check + astro build"]
+    V --> G["vercel build<br>astro check + astro build"]
     F --> G
     G --> H["リンク切れチェック"]
     H --> I["Vercel に公開"]
@@ -39,6 +40,8 @@ flowchart TD
 | `data/news.json` | 集めた結果。Actions が毎時コミットする |
 | `scripts/sync_digests.py` | Obsidian のまとめを公開用の Markdown に変換する |
 | `src/` | サイト本体（Astro）。`pages/` がページ、`components/` が部品、`lib/` が整形や絞り込みの処理とそのテスト |
+| `src/scripts/` | ブラウザで動く JS（ニュース一覧の絞り込みやお気に入り） |
+| `src/content/` | まとめ記事の Markdown（`digest/`）。`sync_digests.py` が書き出す |
 | `tests/` | Python 側のテスト。外部サイトにはつながない |
 
 ニュースの取得元は、国内メディア（4Gamer、IGN Japan、電ファミニコゲーマー、AUTOMATON、gamebiz、Game*Spark）、ハードの公式発表（任天堂、PlayStation Blog、Xbox Wire Japan）、海外メディア（Gematsu、PC Gamer、Kotaku、Eurogamer。タイトルは日本語に翻訳）、AI 関係（ITmedia AI+、Publickey、OpenAI、Google AI、The Verge AI、TechCrunch AI）です。一覧は `fetcher/rss.py` の `FEEDS` にあります。
@@ -108,12 +111,13 @@ npm run check:links   # dist/ のサイト内リンクを確認
 Obsidian で書いたニュースまとめを、公開用に変換して `src/content/digest/` に書き出します。
 
 ```powershell
+$env:DIGEST_SRC = "<保管庫>\30_ニュース"
 .venv\Scripts\python -m scripts.sync_digests
 ```
 
-読み込む場所と書き出す場所は `--src` と `--dest` で変えられます。既定の `--src` は自分の保管庫のニュースフォルダなので、ほかの環境では指定してください。
+読み込む場所は環境変数 `DIGEST_SRC` か `--src "<保管庫>\30_ニュース"` で指定します（どちらもないとエラーで止まります）。書き出す場所は `--dest` で変えられます。
 
-変換では、「自分への影響：」で始まる行（とその下にぶら下がる行）を取り除き、`[[ノート名]]` のリンクを普通の文字にし、プロパティをサイト用の形に直します。元のノートは書き換えません。プロパティの `created` がないなど読めないノートは飛ばして、理由を表示します。終わったら差分を自分の目で確認してから push します。
+変換では、「自分への影響：」で始まる行（とその下にぶら下がる行）、「※保管庫」で始まる注記の行、Obsidian と HTML のコメントを取り除き、`[[ノート名]]` のリンクを普通の文字にし、プロパティをサイト用の形に直します。元のノートは書き換えません。プロパティの `created` がないなど読めないノートは飛ばして、理由を表示します。終わったら差分を自分の目で確認してから push します。
 
 ## 初回だけ必要な設定
 

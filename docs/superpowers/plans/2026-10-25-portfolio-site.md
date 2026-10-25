@@ -191,7 +191,7 @@ git commit -m "feat(fetcher): AI ニュースのソースを足し、ジャン�
   - `convert(text: str) -> tuple[str, int]`：公開用の Markdown と、取り除いた行の数を返す。プロパティが読めなければ `ValueError`。
   - `output_name(source_name: str) -> str`：`2026-10-14_ニュースまとめ.md` → `2026-10-14.md`、`..._2.md` → `2026-10-14-2.md`。
   - `sync(src: Path, dest: Path) -> list[str]`：画面に出す報告の行を返す。
-  - `python -m scripts.sync_digests [--src PATH] [--dest PATH]`。`--src` の初期値は `<保管庫>\30_ニュース`、`--dest` の初期値は `src/content/digest`。
+  - `python -m scripts.sync_digests [--src PATH] [--dest PATH]`。`--src` の初期値は環境変数 `DIGEST_SRC`（どちらもなければエラー終了。例：`<保管庫>\30_ニュース`）、`--dest` の初期値は `src/content/digest`。
   - 出力のプロパティ：`title`（本文の最初の `# ` の行）、`date`（`created`）、`period`（あれば）、`tags`（リスト）。Task 3 のスキーマと同じ名前にする。
 
 - [ ] **Step 1: テスト用のノートを作る**
