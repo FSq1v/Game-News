@@ -1,0 +1,153 @@
+---
+// 仕組みの図。ニュースの自動の流れと、まとめ記事の手作業の流れの 2 本を、縦に並ぶ箱と矢印で描く。
+// 色は tokens.css の変数だけを使うので、ダークモードでもそのまま読める。
+// 箱の幅は 320 で固定し、SVG ごと横幅に合わせて伸び縮みさせる（375px 幅でほぼ等倍）。
+
+type Step = { label: string; note: string; code?: boolean };
+type Flow = { id: string; title: string; when: string; desc: string; tone: "auto" | "hand"; steps: Step[] };
+
+const flows: Flow[] = [
+  {
+    id: "hiw-news",
+    title: "ニュース",
+    when: "毎時 17 分に GitHub Actions が自動で動かす",
+    desc: "ニュースの流れ。毎時 GitHub Actions が動き、Python で各サイトの RSS とストアのセールを集めて data/news.json に書き出し、Astro でページをビルドして Vercel に公開する。",
+    tone: "auto",
+    steps: [
+      { label: "Python で収集", note: "RSS とストアのセールを集めて翻訳" },
+      { label: "data/news.json", note: "集めた結果をリポジトリに保存", code: true },
+      { label: "Astro でビルド", note: "ニュースとまとめから HTML を作る" },
+      { label: "Vercel に公開", note: "できたページをそのまま配信" },
+    ],
+  },
+  {
+    id: "hiw-digest",
+    title: "まとめ記事",
+    when: "記事を書いたときに自分の PC で動かす",
+    desc: "まとめ記事の流れ。Obsidian で書いたニュースまとめを sync_digests.py が個人メモを除いて公開用に変換し、差分を確認してから push する。push した記事は次の毎時のビルドで公開される。",
+    tone: "hand",
+    steps: [
+      { label: "Obsidian で書く", note: "手元のノートにニュースをまとめる" },
+      { label: "sync_digests.py", note: "個人メモを除いて公開用に変換", code: true },
+      { label: "確認して push", note: "差分を目で見てからリポジトリへ" },
+      { label: "次のビルドで公開", note: "上の流れに乗ってサイトに載る" },
+    ],
+  },
+];
+
+const W = 320;
+const BOX_H = 64;
+const GAP = 28;
+const height = flows[0].steps.length * BOX_H + (flows[0].steps.length - 1) * GAP + 2;
+const y = (i: number) => 1 + i * (BOX_H + GAP);
+---
+
+<div class="hiw">
+  {
+    flows.map((flow) => (
+      <figure class:list={["hiw__flow", `hiw__flow--${flow.tone}`]}>
+        <figcaption class="hiw__caption">
+          <span class="hiw__title">{flow.title}</span>
+          <span class="hiw__when">{flow.when}</span>
+        </figcaption>
+        <svg
+          class="hiw__svg"
+          viewBox={`0 0 ${W} ${height}`}
+          role="img"
+          aria-labelledby={`${flow.id}-title ${flow.id}-desc`}
+        >
+          <title id={`${flow.id}-title`}>{flow.title}の流れ</title>
+          <desc id={`${flow.id}-desc`}>{flow.desc}</desc>
+          {flow.steps.map((step, i) => (
+            <g>
+              <rect class="hiw__box" x="1" y={y(i)} width={W - 2} height={BOX_H} rx="10" />
+              <rect class="hiw__bar" x="1" y={y(i)} width="5" height={BOX_H} rx="2.5" />
+              <text class:list={["hiw__label", { "hiw__label--code": step.code }]} x="22" y={y(i) + 28}>
+                {step.label}
+              </text>
+              <text class="hiw__note" x="22" y={y(i) + 50}>
+                {step.note}
+              </text>
+              {i < flow.steps.length - 1 && (
+                <path
+                  class="hiw__arrow"
+                  d={`M ${W / 2} ${y(i) + BOX_H + 5} V ${y(i + 1) - 6} M ${W / 2 - 6} ${y(i + 1) - 12} L ${W / 2} ${y(i + 1) - 6} L ${W / 2 + 6} ${y(i + 1) - 12}`}
+                />
+              )}
+            </g>
+          ))}
+        </svg>
+      </figure>
+    ))
+  }
+</div>
+
+<style>
+  .hiw {
+    display: grid;
+    gap: var(--space-5);
+  }
+  .hiw__flow {
+    display: grid;
+    gap: var(--space-3);
+    margin: 0;
+    min-width: 0;
+  }
+  .hiw__flow--auto { --flow: var(--accent); }
+  .hiw__flow--hand { --flow: var(--text-muted); }
+
+  .hiw__caption {
+    display: grid;
+    gap: var(--space-1);
+  }
+  .hiw__title {
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    line-height: var(--line-height-tight);
+  }
+  .hiw__when {
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+  }
+
+  .hiw__svg {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    overflow: visible;
+  }
+  .hiw__box {
+    fill: var(--surface);
+    stroke: var(--border);
+    stroke-width: 1;
+  }
+  .hiw__bar { fill: var(--flow); }
+  .hiw__label {
+    fill: var(--text);
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .hiw__label--code {
+    font-family: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+    font-size: 16px;
+  }
+  .hiw__note {
+    fill: var(--text-muted);
+    font-size: 13px;
+  }
+  .hiw__arrow {
+    fill: none;
+    stroke: var(--text-muted);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  @media (min-width: 900px) {
+    .hiw {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-6);
+    }
+  }
+</style>
