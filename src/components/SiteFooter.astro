@@ -2,7 +2,10 @@
 import { SITE_NAME } from "../site";
 
 // ビルドは UTC で動くので、年は日本時間で出す
-const year = new Intl.DateTimeFormat("ja-JP", { timeZone: "Asia/Tokyo", year: "numeric" }).format(new Date());
+// ja-JP の format() だと「2026年」になるので、数字の部分だけ取る
+const year = new Intl.DateTimeFormat("ja-JP", { timeZone: "Asia/Tokyo", year: "numeric" })
+  .formatToParts(new Date())
+  .find((part) => part.type === "year")?.value;
 ---
 
 <footer class="site-footer">
