@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { formatEnd, relativeTime, safeUrl, yen } from "./format";
+import { formatEnd, formatShort, relativeTime, safeUrl, yen } from "./format";
 
 test("safeUrl は http(s) だけ通す", () => {
   expect(safeUrl("https://a.jp/x")).toBe("https://a.jp/x");
@@ -26,4 +26,11 @@ test("formatEnd", () => {
   // 表示はローカル時刻なので、ローカルで作った日時を使う
   const d = new Date(2026, 9, 5, 3, 7);
   expect(formatEnd(d.toISOString())).toBe("10/5 03:07まで");
+});
+
+test("timeZone を渡すとプロセスの TZ に関係なく JST で出る", () => {
+  expect(formatEnd("2026-10-25T15:30:00Z", "Asia/Tokyo")).toBe("10/26 00:30まで");
+  expect(formatShort("2026-10-25T15:30:00Z", "Asia/Tokyo")).toBe("10/26 00:30");
+  expect(formatShort("broken", "Asia/Tokyo")).toBe("");
+  expect(relativeTime("2026-10-21T16:00:00Z", new Date("2026-10-25T12:00:00+09:00"), "Asia/Tokyo")).toBe("10/22");
 });
