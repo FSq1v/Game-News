@@ -1,0 +1,78 @@
+---
+import { formatShort } from "../lib/format";
+
+interface Props {
+  updatedAt: string | null;
+  failed: string[];
+  error: boolean;
+}
+
+const { updatedAt, failed, error } = Astro.props;
+const updated = updatedAt ? formatShort(updatedAt, "Asia/Tokyo") : "";
+---
+
+{
+  error ? (
+    <p class="status status--error" role="status">
+      ニュースを読み込めませんでした
+    </p>
+  ) : (
+    <p class="status" data-status>
+      {updatedAt && updated && (
+        <span class="status__updated">最終更新 <time datetime={updatedAt} data-rel>{updated}</time></span>
+      )}
+      <span class="status__stale" data-stale hidden>
+        3 時間以上、更新が止まっています
+      </span>
+      {failed.length > 0 && <span class="status__failed">一部の取得に失敗：{failed.join("、")}</span>}
+    </p>
+  )
+}
+
+<script>
+  import "../scripts/feed.ts";
+</script>
+
+<style>
+  .status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-1) var(--space-3);
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+  }
+  .status__updated { font-variant-numeric: tabular-nums; }
+  .status__updated::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: var(--space-2);
+    border-radius: 50%;
+    background: var(--genre, var(--accent));
+    vertical-align: 0.1em;
+  }
+  .status__failed { flex-basis: 100%; font-size: var(--font-size-xs); }
+
+  .status__stale[hidden] { display: none; }
+  .status__stale,
+  .status--error {
+    padding: 0 var(--space-2);
+    border: 1px solid var(--text);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    font-weight: 700;
+  }
+  .status--error {
+    padding: var(--space-3);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  /* 止まっているときは、色の点のかわりに中抜きの点にする */
+  .status.is-stale .status__updated::before {
+    background: none;
+    box-shadow: inset 0 0 0 2px var(--text-muted);
+  }
+</style>

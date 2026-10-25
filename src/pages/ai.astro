@@ -1,0 +1,80 @@
+---
+import Base from "../layouts/Base.astro";
+import NewsFeed from "../components/NewsFeed.astro";
+import FeedStatus from "../components/FeedStatus.astro";
+import { byGenre, failedSources, loadNews } from "../lib/news";
+
+const data = loadNews();
+const news = byGenre(data.news, "ai");
+const failed = failedSources(data.sources.filter((s) => s.genre === "ai"));
+const description =
+  "国内外のテックメディアと、OpenAI や Google の公式ブログから、AI のニュースを 1 時間ごとに集めて並べています。";
+---
+
+<Base title="AI のニュース" description={description}>
+  <div class="genre-page">
+    <header class="page-head container">
+      <h1 class="page-head__title">
+        <svg class="page-head__mark" viewBox="0 0 24 24" width="40" height="40" aria-hidden="true" focusable="false">
+          <circle cx="6" cy="18" r="2.6" />
+          <path d="M6 10.5a7.5 7.5 0 0 1 7.5 7.5" />
+          <path d="M6 3.5A14.5 14.5 0 0 1 20.5 18" />
+        </svg>
+        AI
+      </h1>
+      <p class="page-head__lead">
+        ITmedia AI+ や Publickey、The Verge、TechCrunch などのテックメディアと、OpenAI と Google の公式ブログから、1 時間ごとに集めています。
+      </p>
+      <FeedStatus updatedAt={data.updated_at} failed={failed} error={data.error} />
+    </header>
+
+    <div class="container ai-feed">
+      <NewsFeed items={news} label="新着の記事" />
+    </div>
+  </div>
+</Base>
+
+<style>
+  .genre-page {
+    --genre: var(--ai);
+    --genre-soft: var(--ai-soft);
+  }
+
+  .page-head {
+    display: grid;
+    gap: var(--space-3);
+    padding-block: var(--space-5) var(--space-4);
+  }
+  .page-head__title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: var(--font-size-2xl);
+    letter-spacing: -0.03em;
+  }
+  .page-head__mark {
+    flex: none;
+    width: 0.8em;
+    height: 0.8em;
+    fill: none;
+    stroke: var(--genre);
+    stroke-width: 2.6;
+    stroke-linecap: round;
+  }
+  .page-head__mark circle { fill: var(--genre); stroke: none; }
+  .page-head__lead {
+    max-width: var(--measure);
+    color: var(--text-muted);
+    font-size: var(--font-size-base);
+  }
+
+  @media (min-width: 900px) {
+    .page-head { padding-block: var(--space-6) var(--space-5); }
+    /* 広い画面では記事を 2 列に並べる */
+    .ai-feed :global(.feed__list) {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: var(--space-5);
+    }
+  }
+</style>

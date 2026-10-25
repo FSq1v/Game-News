@@ -1,4 +1,4 @@
-"""全ソースを集めて、前回データとマージし、public/news.json を書く。"""
+"""全ソースを集めて、前回データとマージし、data/news.json を書く。"""
 import json
 import re
 from concurrent.futures import ThreadPoolExecutor
@@ -10,8 +10,8 @@ from . import epic, eshop, psstore, rss, steam
 from .common import now_jst, parse_date, to_iso
 from .translate import to_japanese
 
-OUTPUT = Path("public/news.json")
-NEWS_MAX = 200
+OUTPUT = Path("data/news.json")
+NEWS_MAX_PER_GENRE = 150
 NEWS_MAX_AGE = timedelta(hours=72)
 REUSE_LIMIT = timedelta(hours=24)
 TRANSLATE_PER_RUN = 40
@@ -24,6 +24,8 @@ SOURCES: list[tuple[str, Callable[[], list[dict]]]] = [
     ("ps", psstore.fetch),
     ("eshop", eshop.fetch),
 ]
+# ソースの id -> ジャンル。RSS は FEEDS の値、セールなどそれ以外は "game"
+SOURCE_GENRES = {f"rss:{f['source']}": f.get("genre", "game") for f in rss.FEEDS}
 
 
 def empty_data() -> dict:
@@ -57,11 +59,13 @@ def merge(results: dict[str, list[dict] | Exception], previous: dict, now: datet
             if last_dt and now - last_dt <= REUSE_LIMIT:
                 items += [i for i in prev_items if _source_of(i) == source_id]
             sources.append({"id": source_id, "ok": False, "count": 0,
-                            "error": f"{type(result).__name__}: {result}", "last_success": last})
+                            "error": f"{type(result).__name__}: {result}", "last_success": last,
+                            "genre": SOURCE_GENRES.get(source_id, "game")})
         else:
             items += result
             sources.append({"id": source_id, "ok": True, "count": len(result),
-                            "error": None, "last_success": to_iso(now)})
+                            "error": None, "last_success": to_iso(now),
+                            "genre": SOURCE_GENRES.get(source_id, "game")})
 
     news, deals, seen = [], [], set()
     for item in items:
@@ -73,6 +77,7 @@ def merge(results: dict[str, list[dict] | Exception], previous: dict, now: datet
     merged_news = []
     for n in news:
         n = dict(n)
+        n.setdefault("genre", "game")  # ジャンルが付く前の古いデータは game 扱い
         old = prev_news.get(n["id"], {})
         n["first_seen"] = old.get("first_seen") or n.get("first_seen") or to_iso(now)
         for key in ("title", "title_original", "translated"):
@@ -85,10 +90,18 @@ def merge(results: dict[str, list[dict] | Exception], previous: dict, now: datet
             merged_news.append(n)
     merged_news.sort(key=lambda n: n["published_at"], reverse=True)
 
+    # 上限はジャンルごと（新しい順は保つ）
+    counts: dict[str, int] = {}
+    capped = []
+    for n in merged_news:
+        counts[n["genre"]] = counts.get(n["genre"], 0) + 1
+        if counts[n["genre"]] <= NEWS_MAX_PER_GENRE:
+            capped.append(n)
+
     live_deals = [d for d in deals if not d.get("ends_at") or parse_date(d["ends_at"]) > now]
 
     return {"updated_at": to_iso(now), "sources": sources,
-            "news": merged_news[:NEWS_MAX], "deals": live_deals}
+            "news": capped, "deals": live_deals}
 
 
 def apply_translations(news: list[dict]) -> None:

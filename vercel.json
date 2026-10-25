@@ -1,5 +1,6 @@
 {
   "git": { "deploymentEnabled": false },
-  "framework": null,
-  "outputDirectory": "public"
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }

@@ -1,0 +1,65 @@
+---
+import Base from "../../layouts/Base.astro";
+import DigestCard from "../../components/DigestCard.astro";
+import { getDigests } from "../../lib/digest";
+
+const digests = await getDigests();
+const description = "ゲームと AI のニュースを、自分で読んで書いたまとめ記事の一覧です。出典のリンクつきで、新しい順に並べています。";
+---
+
+<Base title="まとめ記事" description={description}>
+  <div class="container">
+    <header class="page-head">
+      <h1 class="page-head__title">まとめ</h1>
+      <p class="page-head__lead">
+        ゲームと AI のニュースを、自分で読んで書いた記事です。見出しごとに出典のリンクを付けています。
+      </p>
+      <p class="page-head__rss"><a href="/rss.xml">RSS で購読する</a></p>
+    </header>
+
+    {
+      digests.length > 0 ? (
+        <ul class="digest-list">
+          {digests.map(({ entry, headings }) => (
+            <li>
+              <DigestCard entry={entry} headings={headings} />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="digest-empty">まだ記事がありません。</p>
+      )
+    }
+  </div>
+</Base>
+
+<style>
+  .page-head {
+    display: grid;
+    gap: var(--space-3);
+    padding-block: var(--space-5) var(--space-4);
+  }
+  .page-head__title { font-size: var(--font-size-2xl); letter-spacing: -0.03em; }
+  .page-head__lead { max-width: var(--measure); color: var(--text-muted); }
+  .page-head__rss a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+  }
+
+  .digest-list {
+    display: grid;
+    gap: var(--space-3);
+    margin: 0 0 var(--space-6);
+    padding: 0;
+    list-style: none;
+  }
+  .digest-empty { margin-bottom: var(--space-6); color: var(--text-muted); }
+
+  @media (min-width: 900px) {
+    .page-head { padding-block: var(--space-6) var(--space-5); }
+    .digest-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
+  }
+</style>

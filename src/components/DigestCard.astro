@@ -1,0 +1,119 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { digestDateIso, formatDigestDate } from "../lib/digest-utils";
+
+interface Props {
+  entry: CollectionEntry<"digest">;
+  /** 記事の見出し（h3）。先頭の 3 つを見せる */
+  headings: string[];
+  /** トップページ用の大きい見た目 */
+  featured?: boolean;
+  /** カードの見出しの階層。一覧ページは 2、トップページのように見出しの下に置くときは 3 */
+  level?: 2 | 3;
+}
+
+const { entry, headings, featured = false, level = 2 } = Astro.props;
+const { title, date, period, tags } = entry.data;
+const Heading = `h${level}` as "h2" | "h3";
+const preview = headings.slice(0, 3);
+---
+
+<article class:list={["digest-card", { "digest-card--featured": featured }]}>
+  <p class="digest-card__meta">
+    <time datetime={digestDateIso(date)}>{formatDigestDate(date)}</time>
+    {period && <span>対象期間 {period}</span>}
+    <span>記事 {headings.length} 本</span>
+  </p>
+  <Heading class="digest-card__title">
+    <a class="digest-card__link" href={`/digest/${entry.id}`}>{title}</a>
+  </Heading>
+  {
+    preview.length > 0 && (
+      <ul class="digest-card__headings">
+        {preview.map((h) => <li>{h}</li>)}
+      </ul>
+    )
+  }
+  {
+    tags.length > 0 && (
+      <ul class="digest-card__tags" aria-label="タグ">
+        {tags.map((t) => <li>{t}</li>)}
+      </ul>
+    )
+  }
+</article>
+
+<style>
+  .digest-card {
+    position: relative;
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    transition: border-color var(--duration) var(--ease);
+  }
+  .digest-card:hover { border-color: var(--text-muted); }
+  .digest-card:focus-within { border-color: var(--accent); }
+
+  .digest-card__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-3);
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+  }
+  .digest-card__meta time { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .digest-card__title { font-size: var(--font-size-lg); letter-spacing: -0.02em; }
+
+  /* カード全体を押せるようにする */
+  .digest-card__link { color: var(--text); text-decoration: none; }
+  .digest-card__link::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius); }
+  .digest-card__link:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+  .digest-card__link:focus-visible { outline: none; }
+  .digest-card__link:focus-visible::after { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .digest-card__headings {
+    display: grid;
+    gap: var(--space-2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    line-height: 1.55;
+  }
+  .digest-card__headings li {
+    padding-left: var(--space-3);
+    border-left: 2px solid var(--border);
+  }
+
+  .digest-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .digest-card__tags li {
+    padding: 0 var(--space-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    color: var(--text-muted);
+    font-size: var(--font-size-xs);
+    line-height: 1.7;
+  }
+
+  @media (min-width: 900px) {
+    .digest-card--featured {
+      padding: var(--space-5);
+      gap: var(--space-4);
+    }
+    .digest-card--featured .digest-card__title { font-size: var(--font-size-xl); }
+    .digest-card--featured .digest-card__headings { font-size: var(--font-size-base); }
+  }
+</style>

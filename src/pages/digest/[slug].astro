@@ -1,0 +1,190 @@
+---
+import { render } from "astro:content";
+import type { GetStaticPaths } from "astro";
+import Base from "../../layouts/Base.astro";
+import Toc from "../../components/Toc.astro";
+import { getDigests } from "../../lib/digest";
+import { clampDescription, digestDateIso, formatDigestDate } from "../../lib/digest-utils";
+import "../../styles/prose.css";
+
+export const getStaticPaths = (async () => {
+  const digests = await getDigests();
+  return digests.map(({ entry, headings }, i) => ({
+    params: { slug: entry.id },
+    props: {
+      entry,
+      headings,
+      // 一覧は新しい順なので、i - 1 が新しい記事、i + 1 が古い記事
+      newer: digests[i - 1]?.entry ?? null,
+      older: digests[i + 1]?.entry ?? null,
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { entry, headings: stories, newer, older } = Astro.props;
+const { Content, headings } = await render(entry);
+const { title, date, period, tags } = entry.data;
+const description = stories.length > 0 ? clampDescription(stories) : undefined;
+---
+
+<Base
+  title={title}
+  description={description}
+  ogImage={`/og/${entry.id}.png`}
+  article={{ publishedTime: date.toISOString() }}
+>
+  <div class="container article">
+    <nav class="crumbs" aria-label="パンくず">
+      <ol>
+        <li><a href="/">トップ</a></li>
+        <li><a href="/digest">まとめ</a></li>
+        <li><span aria-current="page">{title}</span></li>
+      </ol>
+    </nav>
+
+    <header class="article__head">
+      <h1 class="article__title">{title}</h1>
+      <p class="article__meta">
+        <time datetime={digestDateIso(date)}>{formatDigestDate(date)}</time>
+        {period && <span>対象期間 {period}</span>}
+      </p>
+      {
+        tags.length > 0 && (
+          <ul class="article__tags" aria-label="タグ">
+            {tags.map((t) => <li>{t}</li>)}
+          </ul>
+        )
+      }
+    </header>
+
+    <div class="article__grid">
+      <Toc headings={headings} />
+      <div class="article__main">
+        <div class="prose">
+          <Content />
+        </div>
+
+        <aside class="about" aria-labelledby="about-title">
+          <h2 id="about-title" class="about__title">このまとめについて</h2>
+          <p>
+            読んだ記事の出典は、見出しごとにリンクで付けています。確認できなかったことは、確認できなかったとそのまま書いています。
+          </p>
+        </aside>
+
+        {
+          (newer || older) && (
+            <nav class="pager" aria-label="前後の記事">
+              {older ? (
+                <a class="pager__link" href={`/digest/${older.id}`} rel="prev">
+                  <span class="pager__label">古い記事</span>
+                  <span class="pager__title">{older.data.title}</span>
+                </a>
+              ) : (
+                <span />
+              )}
+              {newer ? (
+                <a class="pager__link pager__link--next" href={`/digest/${newer.id}`} rel="next">
+                  <span class="pager__label">新しい記事</span>
+                  <span class="pager__title">{newer.data.title}</span>
+                </a>
+              ) : (
+                <span />
+              )}
+            </nav>
+          )
+        }
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .article { padding-bottom: var(--space-6); }
+
+  .crumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+  }
+  .crumbs li { display: flex; align-items: center; min-height: var(--tap); }
+  .crumbs li + li::before { content: "›"; padding-inline: var(--space-2); }
+  .crumbs a { color: var(--text-muted); }
+  .crumbs a:hover { color: var(--text); }
+  .crumbs [aria-current] { color: var(--text); }
+
+  .article__head { display: grid; gap: var(--space-3); padding-block: var(--space-3) var(--space-4); }
+  .article__title { font-size: var(--font-size-xl); letter-spacing: -0.03em; }
+  .article__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-3);
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+  }
+  .article__meta time { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .article__tags { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
+  .article__tags li {
+    padding: 0 var(--space-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    color: var(--text-muted);
+    font-size: var(--font-size-xs);
+    line-height: 1.7;
+  }
+
+  /* スマホは 1 カラム（折りたためる目次 → 本文）。900px 以上は本文の右に目次を貼りつける */
+  .article__grid {
+    display: grid;
+    gap: var(--space-4);
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "toc" "main";
+  }
+  .article__main { grid-area: main; min-width: 0; }
+
+  .about {
+    max-width: var(--measure);
+    margin-top: var(--space-6);
+    padding: var(--space-4);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    font-size: var(--font-size-sm);
+  }
+  .about__title { margin-bottom: var(--space-2); font-size: var(--font-size-base); }
+
+  .pager { display: grid; gap: var(--space-3); max-width: var(--measure); margin-top: var(--space-4); }
+  .pager__link {
+    display: grid;
+    gap: var(--space-1);
+    min-height: var(--tap);
+    padding: var(--space-3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .pager__link:hover { border-color: var(--text-muted); }
+  .pager__label { color: var(--text-muted); font-size: var(--font-size-xs); }
+  .pager__title { font-weight: 600; }
+  .pager__link--next { text-align: right; }
+
+  @media (min-width: 600px) {
+    .pager { grid-template-columns: 1fr 1fr; }
+  }
+
+  @media (min-width: 900px) {
+    .article__head { padding-block: var(--space-4) var(--space-5); }
+    .article__title { max-width: 20em; font-size: var(--font-size-2xl); }
+    .article__grid {
+      grid-template-columns: minmax(0, 1fr) 240px;
+      grid-template-areas: "main toc";
+      gap: var(--space-6);
+      align-items: start;
+    }
+  }
+</style>

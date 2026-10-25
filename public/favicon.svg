@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- ヘッダーのロゴと同じ形。favicon は CSS 変数を読めないので、tokens.css と同じ値をここに書く -->
+  <style>
+    .bg { fill: #1d1d1f; }
+    .dot { fill: #f5f5f7; }
+    .game { stroke: #ff7a5c; }
+    .ai { stroke: #a594ff; }
+  </style>
+  <rect class="bg" width="32" height="32" rx="7" />
+  <g fill="none" stroke-width="3" stroke-linecap="round" transform="translate(4 4)">
+    <circle class="dot" cx="6" cy="18" r="2.8" stroke="none" />
+    <path class="game" d="M6 10.5a7.5 7.5 0 0 1 7.5 7.5" />
+    <path class="ai" d="M6 3.5A14.5 14.5 0 0 1 20.5 18" />
+  </g>
+</svg>

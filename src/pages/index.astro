@@ -1,0 +1,130 @@
+---
+import Base from "../layouts/Base.astro";
+import NewsFeed from "../components/NewsFeed.astro";
+import FeedStatus from "../components/FeedStatus.astro";
+import DigestCard from "../components/DigestCard.astro";
+import { SITE_DESCRIPTION } from "../site";
+import { getDigests } from "../lib/digest";
+import { byGenre, failedSources, loadNews } from "../lib/news";
+
+const data = loadNews();
+const game = byGenre(data.news, "game");
+const ai = byGenre(data.news, "ai");
+const failed = failedSources(data.sources);
+const latest = (await getDigests())[0];
+---
+
+<Base>
+  <section class="hero container" aria-labelledby="hero-title">
+    <h1 class="hero__title" id="hero-title">{SITE_DESCRIPTION}</h1>
+    <div class="hero__sub">
+      <FeedStatus updatedAt={data.updated_at} failed={failed} error={data.error} />
+      <a class="hero__about" href="/about">集め方と仕組みを見る</a>
+    </div>
+  </section>
+
+  {
+    latest && (
+      <section class="latest container" aria-labelledby="latest-title">
+        <div class="section-head">
+          <h2 class="section-head__title" id="latest-title">最新のまとめ</h2>
+          <a class="more" href="/digest">まとめをすべて見る →</a>
+        </div>
+        <DigestCard entry={latest.entry} headings={latest.headings} featured level={3} />
+      </section>
+    )
+  }
+
+  <div class="feeds container">
+    <div class="feeds__col feeds__col--game">
+      <NewsFeed items={game} label="ゲームの新着" limit={5} showControls={false} />
+      <a class="more" href="/game">ゲームのニュースをすべて見る →</a>
+    </div>
+    <div class="feeds__col feeds__col--ai">
+      <NewsFeed items={ai} label="AI の新着" limit={5} showControls={false} />
+      <a class="more" href="/ai">AI のニュースをすべて見る →</a>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    display: grid;
+    gap: var(--space-4);
+    padding-block: var(--space-5) var(--space-5);
+  }
+  .hero__title {
+    max-width: 22em;
+    font-size: var(--font-size-lg);
+    line-height: 1.45;
+    letter-spacing: -0.02em;
+  }
+  .hero__sub {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2) var(--space-4);
+  }
+  .hero__about {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+  }
+
+  .latest {
+    display: grid;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+  }
+  .section-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0 var(--space-3);
+  }
+  .section-head__title { font-size: var(--font-size-lg); }
+
+  .more {
+    display: inline-flex;
+    align-items: center;
+    justify-self: start;
+    min-height: var(--tap);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+  }
+
+  .feeds {
+    display: grid;
+    gap: var(--space-6);
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .feeds__col {
+    display: grid;
+    gap: var(--space-2);
+    align-content: start;
+    min-width: 0;
+  }
+  .feeds__col--game { --genre: var(--game); --genre-soft: var(--game-soft); }
+  .feeds__col--ai { --genre: var(--ai); --genre-soft: var(--ai-soft); }
+  /* どちらの一覧かを、見出しの左のジャンルの色で示す */
+  .feeds__col :global(.feed__title) {
+    padding-left: var(--space-3);
+    border-left: 4px solid var(--genre);
+  }
+  .feeds__col .more { color: var(--genre); }
+
+  @media (min-width: 600px) {
+    .hero__title { font-size: var(--font-size-xl); }
+  }
+  @media (min-width: 900px) {
+    .hero { padding-block: var(--space-6); }
+    .hero__title { font-size: clamp(2rem, 1rem + 2vw, 2.75rem); line-height: 1.35; }
+    .feeds {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-5);
+    }
+  }
+</style>

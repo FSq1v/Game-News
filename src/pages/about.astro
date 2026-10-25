@@ -1,0 +1,188 @@
+---
+import Base from "../layouts/Base.astro";
+import HowItWorks from "../components/HowItWorks.astro";
+import { SITE_DESCRIPTION, SITE_NAME } from "../site";
+import { loadNews } from "../lib/news";
+import { sourcesByGenre } from "../lib/sources";
+
+const data = loadNews();
+const sources = sourcesByGenre(data.sources);
+const groups = [
+  { genre: "game", label: "ゲーム", names: sources.game },
+  { genre: "ai", label: "AI", names: sources.ai },
+] as const;
+
+const tech = [
+  { name: "Astro 5", use: "ページを作る。ビルドのときに HTML を書き出すだけの静的なサイト" },
+  { name: "TypeScript", use: "ページの部品と、ニュースの読み込み・絞り込みの処理" },
+  { name: "Python 3.12", use: "RSS とストアのセール情報の収集、タイトルの翻訳、まとめ記事の変換" },
+  { name: "GitHub Actions", use: "1 時間ごとに収集とビルドを動かす" },
+  { name: "Vercel", use: "できたページの配信" },
+];
+
+const description = `${SITE_NAME} がニュースをどう集めて、どう載せているかの説明です。仕組みの図、使っている技術、出典と翻訳の扱い、取得元のサイトの一覧を載せています。`;
+---
+
+<Base title="このサイトについて" description={description}>
+  <div class="about container">
+    <header class="about__head">
+      <h1 class="about__title">このサイトについて</h1>
+      <p class="about__lead">{SITE_DESCRIPTION}</p>
+      <p class="about__lead">
+        ニュースの収集から公開までは人の手を通さずに動いています。まとめ記事だけは、自分で読んで書いたものを確認してから載せています。
+      </p>
+    </header>
+
+    <section class="about__section about__section--wide" aria-labelledby="how">
+      <h2 class="about__h2" id="how">仕組み</h2>
+      <HowItWorks />
+    </section>
+
+    <section class="about__section" aria-labelledby="tech">
+      <h2 class="about__h2" id="tech">使っている技術</h2>
+      <dl class="tech">
+        {
+          tech.map((t) => (
+            <div class="tech__row">
+              <dt>{t.name}</dt>
+              <dd>{t.use}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </section>
+
+    <section class="about__section" aria-labelledby="policy">
+      <h2 class="about__h2" id="policy">情報の扱い</h2>
+      <ul class="policy">
+        <li>どの記事にも出典のサイト名を付けて、元の記事へリンクしています。</li>
+        <li>載せるのは見出しとリンクだけです。記事の本文は載せません。続きは元の記事で読んでください。</li>
+        <li>
+          海外の記事のタイトルは機械翻訳です。翻訳したものには「翻訳」の印を付けていて、パソコンではタイトルか印にカーソルを合わせると原題が出ます。訳がおかしいときは原題を見てください。
+        </li>
+        <li>セールの価格や期間は、集めた時点のものです。買う前に各ストアのページで確かめてください。</li>
+      </ul>
+    </section>
+
+    <section class="about__section" aria-labelledby="sources">
+      <h2 class="about__h2" id="sources">ニュースの取得元</h2>
+      {
+        data.sources.length === 0 ? (
+          <p class="muted">いまは取得元の一覧を読み込めていません。</p>
+        ) : (
+          <div class="sources">
+            {groups.map((g) => (
+              <div class:list={["sources__group", `sources__group--${g.genre}`]}>
+                <h3 class="sources__label">{g.label}</h3>
+                <ul class="sources__list">
+                  {g.names.map((n) => (
+                    <li>{n}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        )
+      }
+    </section>
+
+    <section class="about__section" aria-labelledby="author">
+      <h2 class="about__h2" id="author">作った人</h2>
+      <p>
+        <a class="author" href="https://github.com/FSq1v" rel="me noopener">GitHub の FSq1v</a>
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .about {
+    display: grid;
+    gap: var(--space-6);
+    padding-bottom: var(--space-4);
+  }
+
+  .about__head {
+    display: grid;
+    gap: var(--space-3);
+    padding-top: var(--space-5);
+  }
+  .about__title { font-size: var(--font-size-2xl); letter-spacing: -0.03em; }
+  .about__lead { max-width: var(--measure); color: var(--text-muted); }
+
+  .about__section {
+    display: grid;
+    gap: var(--space-4);
+    max-width: var(--measure);
+    min-width: 0;
+  }
+  .about__section--wide { max-width: none; }
+  .about__h2 {
+    font-size: var(--font-size-lg);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--border);
+  }
+
+  .tech {
+    display: grid;
+    margin: 0;
+  }
+  .tech__row {
+    display: grid;
+    gap: var(--space-1);
+    padding-block: var(--space-3);
+    border-bottom: 1px solid var(--border);
+  }
+  .tech__row:first-child { padding-top: 0; }
+  .tech dt { font-weight: 700; }
+  .tech dd { margin: 0; color: var(--text-muted); font-size: var(--font-size-sm); line-height: 1.6; }
+
+  .policy {
+    display: grid;
+    gap: var(--space-3);
+    margin: 0;
+    padding-left: 1.2em;
+  }
+  .policy li::marker { color: var(--text-muted); }
+
+  .sources { display: grid; gap: var(--space-4); }
+  .sources__group--game { --genre: var(--game); }
+  .sources__group--ai { --genre: var(--ai); }
+  .sources__label {
+    margin-bottom: var(--space-2);
+    padding-left: var(--space-3);
+    border-left: 4px solid var(--genre);
+    font-size: var(--font-size-base);
+  }
+  .sources__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    line-height: 1.9;
+  }
+  /* 名前のあいだに区切りの「、」を入れる（最後には付けない） */
+  .sources__list li:not(:last-child)::after { content: "、"; }
+
+  .author {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap);
+    font-weight: 600;
+  }
+
+  .muted { color: var(--text-muted); }
+
+  @media (min-width: 900px) {
+    .about { gap: var(--space-6); }
+    .about__head { padding-top: var(--space-6); }
+    .tech__row {
+      grid-template-columns: 11em minmax(0, 1fr);
+      gap: var(--space-4);
+      align-items: baseline;
+    }
+  }
+</style>

@@ -1,0 +1,34 @@
+{
+  "name": "game-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "国内外のゲームと AI のニュースを 1 時間ごとに自動で集めて、手書きのまとめ記事と一緒に届けるサイト。",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "check:links": "linkinator dist --recurse --skip \"^https?://(?!localhost|127\\.0\\.0\\.1)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FSq1v/Game-News.git"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "@resvg/resvg-js": "^2.6.2",
+    "astro": "^5.18.2",
+    "satori": "^0.63.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "linkinator": "^8.1.0",
+    "vitest": "^3.2.7"
+  }
+}

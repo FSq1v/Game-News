@@ -8,7 +8,7 @@ NOW = datetime(2026, 10, 14, 12, 0, tzinfo=JST)
 
 def news(i, source="AUTOMATON", hours_ago=1, **kw):
     item = {"id": f"n_{i}", "title": f"t{i}", "link": f"https://x/{i}", "summary": "",
-            "source": source, "region": "jp", "platforms": [], "image": None,
+            "source": source, "region": "jp", "genre": "game", "platforms": [], "image": None,
             "published_at": to_iso(NOW - timedelta(hours=hours_ago))}
     item.update(kw)
     return item
@@ -80,10 +80,10 @@ def test_old_news_dropped_after_72h():
     assert [n["id"] for n in out["news"]] == ["n_2"]
 
 
-def test_news_capped_at_200():
+def test_news_capped_at_150_per_genre():
     items = [news(i, hours_ago=i / 10) for i in range(250)]
     out = m.merge({"rss:AUTOMATON": items}, m.empty_data(), NOW)
-    assert len(out["news"]) == 200
+    assert len(out["news"]) == m.NEWS_MAX_PER_GENRE == 150
 
 
 def test_duplicate_news_id_kept_once():
@@ -102,7 +102,7 @@ def test_sources_report_counts():
     out = m.merge({"steam": [deal(1), deal(2)], "epic": []}, m.empty_data(), NOW)
     by_id = {s["id"]: s for s in out["sources"]}
     assert by_id["steam"] == {"id": "steam", "ok": True, "count": 2, "error": None,
-                              "last_success": to_iso(NOW)}
+                              "last_success": to_iso(NOW), "genre": "game"}
     assert by_id["epic"]["count"] == 0
     assert out["updated_at"] == to_iso(NOW)
 
@@ -163,3 +163,25 @@ def test_apply_translations_capped(monkeypatch):
     items = [news(i, region="global", title="Hello world") for i in range(50)]
     m.apply_translations(items)
     assert sum(1 for n in items if n.get("translated")) == 40
+
+
+def test_cap_is_per_genre(monkeypatch):
+    monkeypatch.setattr(m, "NEWS_MAX_PER_GENRE", 2)
+    game = [news(i, hours_ago=1) for i in range(5)]
+    ai = [news(f"a{i}", source="AI src", hours_ago=10, genre="ai") for i in range(3)]
+    out = m.merge({"rss:AUTOMATON": game, "rss:AI src": ai}, m.empty_data(), NOW)
+    genres = [n["genre"] for n in out["news"]]
+    assert genres.count("game") == 2 and genres.count("ai") == 2
+
+
+def test_previous_item_without_genre_becomes_game():
+    old = news(1, first_seen=to_iso(NOW))
+    del old["genre"]
+    out = m.merge({"rss:AUTOMATON": RuntimeError("x")}, previous([old]), NOW)
+    assert out["news"][0]["genre"] == "game"
+
+
+def test_source_status_has_genre(monkeypatch):
+    monkeypatch.setattr(m, "SOURCE_GENRES", {"rss:AI src": "ai"})
+    out = m.merge({"rss:AI src": [], "steam": RuntimeError("x")}, m.empty_data(), NOW)
+    assert {s["id"]: s["genre"] for s in out["sources"]} == {"rss:AI src": "ai", "steam": "game"}
