@@ -1,4 +1,5 @@
 import { readFileSync } from "node:fs";
+import { sourceName } from "./sources";
 
 export type Genre = "game" | "ai";
 export type Region = "jp" | "global" | "official";
@@ -80,6 +81,7 @@ export function byGenre(items: NewsItem[], genre: Genre): NewsItem[] {
   return items.filter((n) => (n.genre ?? "game") === genre);
 }
 
+/** 取得に失敗したソースの、画面に出す名前 */
 export function failedSources(sources: SourceStatus[]): string[] {
-  return sources.filter((s) => !s.ok).map((s) => s.id.replace(/^rss:/, ""));
+  return sources.filter((s) => !s.ok).map((s) => sourceName(s.id));
 }

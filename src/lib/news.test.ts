@@ -43,6 +43,6 @@ test("byGenre は genre がない項目を game にする", () => {
 });
 
 test("failedSources", () => {
-  expect(failedSources([{ id: "rss:Kotaku", ok: false }, { id: "steam", ok: true }] as SourceStatus[]))
-    .toEqual(["Kotaku"]);
+  expect(failedSources([{ id: "rss:Kotaku", ok: false }, { id: "steam", ok: false }, { id: "epic", ok: true }] as SourceStatus[]))
+    .toEqual(["Kotaku", "Steam"]);
 });

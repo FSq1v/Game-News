@@ -1,6 +1,7 @@
 import rss from "@astrojs/rss";
 import type { APIContext } from "astro";
 import { getDigests } from "../lib/digest";
+import { clampDescription } from "../lib/digest-utils";
 import { SITE_DESCRIPTION, SITE_NAME } from "../site";
 
 export async function GET(context: APIContext) {
@@ -14,7 +15,7 @@ export async function GET(context: APIContext) {
       title: entry.data.title,
       pubDate: entry.data.date,
       link: `/digest/${entry.id}`,
-      description: headings.join("、"),
+      description: clampDescription(headings),
     })),
   });
 }

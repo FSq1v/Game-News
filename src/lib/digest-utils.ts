@@ -11,6 +11,21 @@ export function h3Texts(headings: { depth: number; text: string }[]): string[] {
   return headings.filter((h) => h.depth === 3).map((h) => h.text);
 }
 
+/** 見出しを「、」でつなぎ、max 文字を超えるときは区切りで切って「…」を付ける（meta description と RSS 用） */
+export function clampDescription(parts: string[], max = 120): string {
+  const full = parts.join("、");
+  if (full.length <= max) return full;
+  let out = "";
+  for (const p of parts) {
+    const next = out ? `${out}、${p}` : p;
+    if (next.length + 1 > max) break;
+    out = next;
+  }
+  // 1 つ目の見出しだけで長すぎるときは文字数で切る
+  if (!out) out = full.slice(0, max - 1);
+  return `${out}…`;
+}
+
 /** 日付は日本時間で出す（ビルドは UTC で動くので、タイムゾーンを明示する） */
 export function formatDigestDate(date: Date): string {
   return new Intl.DateTimeFormat("ja-JP", {

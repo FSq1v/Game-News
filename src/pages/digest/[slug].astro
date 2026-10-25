@@ -4,7 +4,7 @@ import type { GetStaticPaths } from "astro";
 import Base from "../../layouts/Base.astro";
 import Toc from "../../components/Toc.astro";
 import { getDigests } from "../../lib/digest";
-import { digestDateIso, formatDigestDate } from "../../lib/digest-utils";
+import { clampDescription, digestDateIso, formatDigestDate } from "../../lib/digest-utils";
 import "../../styles/prose.css";
 
 export const getStaticPaths = (async () => {
@@ -24,7 +24,7 @@ export const getStaticPaths = (async () => {
 const { entry, headings: stories, newer, older } = Astro.props;
 const { Content, headings } = await render(entry);
 const { title, date, period, tags } = entry.data;
-const description = stories.length > 0 ? stories.join("、") : undefined;
+const description = stories.length > 0 ? clampDescription(stories) : undefined;
 ---
 
 <Base

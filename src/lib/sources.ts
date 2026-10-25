@@ -1,7 +1,7 @@
 import type { Genre, SourceStatus } from "./news";
 
 // RSS 以外の取得元（ストア）の id と、画面に出す名前
-const STORE_NAMES: Record<string, string> = {
+const SOURCE_STORE_LABELS: Record<string, string> = {
   steam: "Steam",
   epic: "Epic Games Store",
   ps: "PlayStation Store",
@@ -11,7 +11,7 @@ const STORE_NAMES: Record<string, string> = {
 /** 取得元の id を、画面に出す名前にする */
 export function sourceName(id: string): string {
   if (id.startsWith("rss:")) return id.slice(4);
-  return STORE_NAMES[id] ?? id;
+  return SOURCE_STORE_LABELS[id] ?? id;
 }
 
 /** 取得元を genre ごとに分けて、名前の一覧にする。genre がない古い項目は game として扱う */
