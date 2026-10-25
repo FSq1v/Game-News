@@ -10,6 +10,12 @@ export function safeUrl(value: string | null | undefined): string {
   }
 }
 
+// 画像は https だけ通す。http の画像はページを「安全でない」と判定される原因になるので、サムネイルなしの表示にする
+export function safeImageUrl(value: string | null | undefined): string {
+  const url = safeUrl(value);
+  return url.startsWith("https:") ? url : "#";
+}
+
 // 月日時分を取り出す。timeZone を渡すとプロセスの TZ に左右されない
 function parts(date: Date, timeZone?: string) {
   if (!timeZone) {

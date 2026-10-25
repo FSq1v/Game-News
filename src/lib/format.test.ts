@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { formatEnd, formatShort, relativeTime, safeUrl, yen } from "./format";
+import { formatEnd, formatShort, relativeTime, safeImageUrl, safeUrl, yen } from "./format";
 
 test("safeUrl は http(s) だけ通す", () => {
   expect(safeUrl("https://a.jp/x")).toBe("https://a.jp/x");
@@ -33,4 +33,11 @@ test("timeZone を渡すとプロセスの TZ に関係なく JST で出る", ()
   expect(formatShort("2026-10-25T15:30:00Z", "Asia/Tokyo")).toBe("10/26 00:30");
   expect(formatShort("broken", "Asia/Tokyo")).toBe("");
   expect(relativeTime("2026-10-21T16:00:00Z", new Date("2026-10-25T12:00:00+09:00"), "Asia/Tokyo")).toBe("10/22");
+});
+
+test("safeImageUrl は https だけ通し、http の画像はサムネイルなしにする", () => {
+  expect(safeImageUrl("https://a.jp/x.png")).toBe("https://a.jp/x.png");
+  expect(safeImageUrl("http://a.jp/x.png")).toBe("#");
+  expect(safeImageUrl("javascript:alert(1)")).toBe("#");
+  expect(safeImageUrl(null)).toBe("#");
 });

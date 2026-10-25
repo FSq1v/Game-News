@@ -1,6 +1,6 @@
 ---
 import type { Deal } from "../lib/news";
-import { STORE_NAMES, formatEnd, safeUrl, yen } from "../lib/format";
+import { STORE_NAMES, formatEnd, safeImageUrl, safeUrl, yen } from "../lib/format";
 
 interface Props {
   deal: Deal;
@@ -8,7 +8,7 @@ interface Props {
 
 const { deal } = Astro.props;
 const href = safeUrl(deal.link);
-const image = deal.image ? safeUrl(deal.image) : "#";
+const image = safeImageUrl(deal.image);
 const storeName = STORE_NAMES[deal.store] ?? deal.store;
 const endsMs = deal.ends_at ? new Date(deal.ends_at).getTime() : NaN;
 const ends = formatEnd(deal.ends_at, "Asia/Tokyo");

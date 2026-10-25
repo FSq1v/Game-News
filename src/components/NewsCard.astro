@@ -1,6 +1,6 @@
 ---
 import type { NewsItem } from "../lib/news";
-import { formatShort, safeUrl } from "../lib/format";
+import { formatShort, safeImageUrl, safeUrl } from "../lib/format";
 
 interface Props {
   item: NewsItem;
@@ -8,7 +8,7 @@ interface Props {
 
 const { item } = Astro.props;
 const href = safeUrl(item.link);
-const image = item.image ? safeUrl(item.image) : "#";
+const image = safeImageUrl(item.image);
 // 検索はタイトル・原題・出典のどれかに当たればよい。改行でつなぐと、検索語（1 行）が語をまたいで当たらない
 const search = [item.title, item.title_original, item.source]
   .filter(Boolean)
