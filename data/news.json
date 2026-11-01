@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-02T00:12:19+09:00",
+ "updated_at": "2026-11-02T04:42:09+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -38,7 +38,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -46,7 +46,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -54,7 +54,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -62,7 +62,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -102,7 +102,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "ai"
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "ai"
   },
   {
@@ -126,7 +126,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "ai"
   },
   {
@@ -134,7 +134,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "ai"
   },
   {
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "ai"
   },
   {
@@ -150,7 +150,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "ai"
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -166,7 +166,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -174,7 +174,7 @@
    "ok": true,
    "count": 57,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   },
   {
@@ -182,11 +182,228 @@
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-11-02T00:12:19+09:00",
+   "last_success": "2026-11-02T04:42:09+09:00",
    "genre": "game"
   }
  ],
  "news": [
+  {
+   "id": "n_695bf664a682",
+   "title": "Tony Hawk Kicked Out Of Park While Trying To Recreate Pro Skater 3",
+   "link": "https://kotaku.com/tony-hawk-kicked-out-of-park-while-trying-to-recreate-pro-skater-3-2000752094",
+   "summary": "The legendary Birdman wanted to celebrate 25 years of the iconic third entry in his video game series, only to be escort",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/ss_8b6b1072bd6d96bd37949e4bfb8c3a229f3ef337.1920x1080-1280x720.jpg",
+   "published_at": "2026-11-02T04:29:35+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_1915290f4377",
+   "title": "Jagex partnered with a RuneScape-inspired idle game to turn the sequel into an official spinoff",
+   "link": "https://www.pcgamer.com/games/rpg/jagex-partnered-with-a-runescape-inspired-idle-game-to-turn-the-sequel-into-an-official-spinoff/",
+   "summary": "Melvor Idle 2 has gained a subtitle: A RuneScape Adventure.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/zwesSkcLZ5MbbfzKLKK7xP-1920-80.jpg",
+   "published_at": "2026-11-02T03:41:29+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_82da43c404ae",
+   "title": "At Dead of Night sequel The Great Hugo is coming \"(very) soon\"",
+   "link": "https://www.eurogamer.net/at-dead-of-night-2-the-great-hugo-sequel-announced",
+   "summary": "Baggy Cat Games, the team behind viral FMV horror game At Dead Of Night, has confirmed that a sequel is \"coming (very) s",
+   "source": "Eurogamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-01-at-18.12.02.png?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-11-02T03:16:20+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_3ecfdfa9eedd",
+   "title": "Grand Theft Auto 6 teased a handful of its upcoming radio stations and its music curation is as strong as ever",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-teased-a-handful-of-its-upcoming-radio-stations-and-its-music-curation-is-as-strong-as-ever/",
+   "summary": "I can already picture my late-night Leonida drives to these bangers.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/D6VRZi8SW9eRmoHuQY2Nfe-1920-80.jpg",
+   "published_at": "2026-11-02T03:00:00+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_46cf70e7f82e",
+   "title": "GOG wants to bring back physical games, but it's 'a very, very complicated thing'",
+   "link": "https://www.pcgamer.com/games/gog-wants-to-bring-back-physical-games-but-its-a-very-very-complicated-thing/",
+   "summary": "\"You click on the game that you would like to receive a physical copy of, you order it, and it gets to you. That would b",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/pbMYsNHxiFa2RoRirv3edd-1920-80.jpg",
+   "published_at": "2026-11-02T02:45:12+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_d179e7571c33",
+   "title": "Valve's long-lost prototype Portal prequel appears online after nearly 20 years",
+   "link": "https://www.pcgamer.com/games/fps/valves-long-lost-prototype-portal-prequel-appears-online-after-nearly-20-years/",
+   "summary": "F-Stop was a result of a post-Orange Box, 2007 Valve game jam.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/nCJfziz7aTjfkS37SmwqTc-1920-80.jpg",
+   "published_at": "2026-11-02T02:44:47+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_7749acdf4ab6",
+   "title": "Modern Warfare 4 on Switch 2 has much worse input lag than PS5",
+   "link": "https://www.eurogamer.net/modern-warfare-4-switch-2-input-lag-digital-foundry",
+   "summary": "Call of Duty: Modern Warfare 4 on Switch 2 has noticeably worse input lag than on PS5, which could put Nintendo players ",
+   "source": "Eurogamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Switch",
+    "PS5"
+   ],
+   "image": "https://assetsio.gnwcdn.com/cod-modern-warfare-4-captain-price.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-11-02T02:27:29+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_e7be44ebfe46",
+   "title": "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"'",
+   "link": "https://www.pcgamer.com/games/composer-and-designer-lena-raine-explains-how-pigstep-altered-minecrafts-approach-to-music-the-prompt-i-keep-hearing-is-oh-pigstep-was-such-a-banger-that-they-want-more-bangers/",
+   "summary": "The composer for Celeste and Minecraft guides us through the games on her PC.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://cdn.mos.cms.futurecdn.net/YsSgua57s2iYxBemzqeS77-1920-80.png",
+   "published_at": "2026-11-02T02:00:00+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_878198d162db",
+   "title": "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions'",
+   "link": "https://www.pcgamer.com/games/fps/an-absolute-behemoth-wildly-ambitious-fps-selaco-is-getting-a-massive-update-that-doubles-its-size-and-adds-a-heavy-machinegun-that-fires-literal-explosions/",
+   "summary": "Selaco: The Machines of War arrives later this month.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/WfcDGag9nWxtKu3VSB8pFV-1920-80.jpg",
+   "published_at": "2026-11-02T01:46:26+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_61411ee5a3cb",
+   "title": "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach'",
+   "link": "https://www.pcgamer.com/games/sim/chronicles-medieval-developer-faces-imminent-closure-after-losing-funding-what-makes-it-hurt-is-how-close-we-are-early-access-is-in-reach/",
+   "summary": "But the studio says it is \"not going down without a fight\".",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/CKWPEHEse9cxfCAd3Kyw5Q-1920-80.png",
+   "published_at": "2026-11-02T01:42:09+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_4f252a657655",
+   "title": "Footage of a Persona 1 remake has seemingly leaked online",
+   "link": "https://www.eurogamer.net/persona-1-remake-be-your-true-mind-leak",
+   "summary": "Almost two minutes of footage from what appears to be a remake of the original Persona has leaked online. Read more",
+   "source": "Eurogamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-01-at-16.28.57.png?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-11-02T01:35:17+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_3082ad17ce43",
+   "title": "Mario-Dressed Speedrunner Breaks World Super Mario Bros. Record On Halloween Stream: ‘Can I Please Break Character’",
+   "link": "https://kotaku.com/mario-dressed-speedrunner-breaks-world-super-mario-bros-record-on-halloween-stream-can-i-please-break-character-2000752087",
+   "summary": "The record-smashing Niftski seems to credit the dress-up routine with taking an edge off, bringing him two frames away f",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/halloweenmariospeedrun.jpg",
+   "published_at": "2026-11-02T01:28:46+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_ea5fcbb3777d",
+   "title": "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit",
+   "link": "https://www.pcgamer.com/gaming-industry/game-development/its-not-just-steam-new-game-pages-created-per-day-on-itch-io-has-doubled-in-the-last-two-months-with-ai-slop-the-likely-culprit/",
+   "summary": "\"The number of downloads and purchases has *not* doubled.\"",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb-1920-80.jpg",
+   "published_at": "2026-11-02T01:25:23+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_3bc19dd0b7e8",
+   "title": "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush",
+   "link": "https://www.pcgamer.com/games/world-of-warcraft/im-glad-that-wow-foreverll-have-a-slower-lo-fi-update-schedule-because-im-not-playing-this-thing-to-be-in-a-rush/",
+   "summary": "I tire of seasons.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/tKRsxThWn74sJzkUVaGVy5-1920-80.jpg",
+   "published_at": "2026-11-02T01:00:00+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_048887d887a8",
+   "title": "This Week’s Japanese Game Releases: The Legend of Zelda: Ocarina of Time, CRYMELIGHT, more",
+   "link": "https://www.gematsu.com/2026/11/this-weeks-japanese-game-releases-the-legend-of-zelda-ocarina-of-time-crymelight-more",
+   "summary": "The remake of The Legend of Zelda: Ocarina of Time for Switch 2, and CRYMELIGHT …",
+   "source": "Gematsu",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Weekly-Japanese-Game-Releases_11-01-26.jpg",
+   "published_at": "2026-11-02T00:35:50+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
+  {
+   "id": "n_8568aca6d5d3",
+   "title": "にじさんじ所属のVTuberユニット・ROF-MAOが11月15日に再始動！加賀美ハヤトさん、不破湊さん、甲斐田晴さんの3名で活動再開へ",
+   "link": "https://news.denfaminicogamer.jp/news/261102a",
+   "summary": "2021年10月のデビューから「カッコいいオトナ」を目指し活躍。今年5月に剣持刀也さんがユニット活動の修了を発表し、ほか3名もユニット活動を休止していた",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/HWDEyJtagAAbgZ7-768x1024.png",
+   "published_at": "2026-11-02T00:24:49+09:00",
+   "first_seen": "2026-11-02T04:42:09+09:00"
+  },
   {
    "id": "n_5550af9d96a9",
    "title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
@@ -1068,19 +1285,6 @@
    "first_seen": "2026-11-01T16:35:22+09:00"
   },
   {
-   "id": "n_bf2b8f60e0a9",
-   "title": "11月1日は『名探偵プリキュア！』森亜るるかの誕生日。CVの東山奈央さんが「なぜ？謎？！ANSWER」踊ってみた動画を公開、駅伝でニチアサがなくなった日曜を白き光で照らす",
-   "link": "https://news.denfaminicogamer.jp/news/261101c",
-   "summary": "森亜るるかの誕生日であり、キュアアルカナの誕生日でもあり、キュアアルカナ・シャドウの誕生日。駅伝でニチアサがなくなった日曜を白き光で照らす",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/maxresdefault-1024x576.jpg",
-   "published_at": "2026-11-01T12:21:03+09:00",
-   "first_seen": "2026-11-01T16:35:22+09:00"
-  },
-  {
    "id": "n_ffa655623dce",
    "title": "『STRANGER THAN HEAVEN』には戦闘を簡単にする任意の「チート」衣装が登場！",
    "link": "https://jp.ign.com/project-century-rgg/84534/stranger-than-heaven",
@@ -1339,21 +1543,6 @@
    "translated": true
   },
   {
-   "id": "n_4efa32477cb2",
-   "title": "ファイナルファンタジー 14: エバーコールドは 2 月に延期、来週予約注文が開始",
-   "link": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-evercold-delayed-to-february-preorders-start-next-week/",
-   "summary": "Surely, one of these is the actual, no joke, FINAL fantasy?",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/mZCpwjMoH624NpBRgk9CL4-1920-80.jpg",
-   "published_at": "2026-11-01T03:57:19+09:00",
-   "first_seen": "2026-11-01T06:37:36+09:00",
-   "title_original": "Final Fantasy 14: Evercold delayed to February, preorders start next week",
-   "translated": true
-  },
-  {
    "id": "n_fca5a7f3e45d",
    "title": "カルト PC-98 ゾンビ ゴア フェストが初の公式英語ポートで Steam で再アニメ化",
    "link": "https://kotaku.com/cult-pc-98-zombie-gore-fest-re-animated-on-steam-with-first-official-english-port-2000751956",
@@ -1368,21 +1557,6 @@
    "published_at": "2026-11-01T03:09:03+09:00",
    "first_seen": "2026-11-01T06:37:36+09:00",
    "title_original": "Cult PC-98 Zombie Gore Fest Re-Animated On Steam With First Official English Port",
-   "translated": true
-  },
-  {
-   "id": "n_a39c1f148b8c",
-   "title": "ヨットクラブはミナ・ザ・ホロワーが生き残るために必要な腕の銃弾だったことを「今のところ」認めている",
-   "link": "https://www.pcgamer.com/games/adventure/yacht-club-confirms-mina-the-hollower-was-the-shot-in-the-arm-it-needed-stay-alive-for-now/",
-   "summary": "Randomizer and speedrunner settings are up next for the spooky Zelda-like.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/ToYgKgwPt4nDWYw88XYRwT-1920-80.png",
-   "published_at": "2026-11-01T02:41:22+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "Yacht Club confirms Mina the Hollower was the shot in the arm it needed stay alive—'for now'",
    "translated": true
   },
   {
@@ -1401,68 +1575,6 @@
    "translated": true
   },
   {
-   "id": "n_a8570abcb9a0",
-   "title": "私がこれまでプレイした中で最も恐ろしい RPG のトップ 10、そして、怖くて試すことができない RPG",
-   "link": "https://www.pcgamer.com/games/rpg/the-top-10-scariest-rpgs-ive-ever-played-and-one-im-too-afraid-to-try/",
-   "summary": "Number 6 will SPOOK you (for 1d6 psychic damage).",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/PQ5Chom3DjoKr3sRganVh6-1920-80.jpg",
-   "published_at": "2026-11-01T02:26:20+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "The top 10 scariest RPGs I've ever played⁠—and one I'm too afraid to try",
-   "translated": true
-  },
-  {
-   "id": "n_bea64d2f5a06",
-   "title": "投票受付中、PC Gamer 読者が PC で最も恐ろしいゲームを選出",
-   "link": "https://www.pcgamer.com/games/horror/the-votes-are-in-and-pc-gamer-readers-have-picked-the-scariest-game-on-pc/",
-   "summary": "The final battle came down to Amnesia: The Dark Descent and Alien: Isolation.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://cdn.mos.cms.futurecdn.net/tacFgjKKgbufeB8YqDE4Kb-1920-80.jpg",
-   "published_at": "2026-11-01T02:25:20+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "The votes are in, and PC Gamer readers have picked the scariest game on PC",
-   "translated": true
-  },
-  {
-   "id": "n_acbd67994c85",
-   "title": "私は世界で唯一のゲーム政治学者の一人と話をし、アーク レイダースで殺害されないようにする方法を教えてくれました。",
-   "link": "https://www.pcgamer.com/games/third-person-shooter/i-spoke-to-one-of-the-worlds-only-gaming-political-scientists-and-he-taught-me-how-to-avoid-getting-murdered-in-arc-raiders/",
-   "summary": "\"Players want to feel like they're powerful and can do something cool.\"",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/WnW8a7zcDkWgd3GDmwXAid-1920-80.jpg",
-   "published_at": "2026-11-01T02:00:00+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders",
-   "translated": true
-  },
-  {
-   "id": "n_42e4ac93dd44",
-   "title": "「これはやりすぎでしょうか?」: 『Outlast』の最悪のシーンの 1 つは、開発者がそれをゲームに追加するかどうか議論していました。",
-   "link": "https://www.pcgamer.com/games/horror/are-we-going-too-far-with-this-one-of-the-worst-scenes-in-outlast-had-its-devs-debating-whether-to-add-it-to-the-game-or-not/",
-   "summary": "How far is too far in a universe that constantly pushes gore to its limits?",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/wsP8ZYqL3zitGswbKBRwrd-1920-80.jpg",
-   "published_at": "2026-11-01T02:00:00+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "'Are we going too far with this?': One of the worst scenes in Outlast had its devs debating whether to add it to the game or not",
-   "translated": true
-  },
-  {
    "id": "n_753ade674a23",
    "title": "キングダム ハーツのターザン レベルに戻るとクラッシュしそうになる",
    "link": "https://kotaku.com/kingdom-hearts-tarzan-alice-wonderland-hercules-cloud-2000751714",
@@ -1475,21 +1587,6 @@
    "published_at": "2026-11-01T01:30:21+09:00",
    "first_seen": "2026-11-01T02:45:06+09:00",
    "title_original": "Going Back To Kingdom Hearts’ Tarzan Level Is About To Make Me Crash Out",
-   "translated": true
-  },
-  {
-   "id": "n_3074069999cf",
-   "title": "Dune: Awakening には、まったく新しいマップを追加し、砂を雪に置き換える無料 DLC が提供されます",
-   "link": "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
-   "summary": "Funcom will also \"continue expanding the game\" through 2027.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/cGALeXMuTDGvVZW3P9ruXR-1920-80.jpg",
-   "published_at": "2026-11-01T01:20:31+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow",
    "translated": true
   },
   {
@@ -1508,23 +1605,6 @@
    "translated": true
   },
   {
-   "id": "n_5733e248d2dd",
-   "title": "id Softwareの共同ディレクターは、Xboxがスタジオの「約半分」を解雇した後、Doom開発者は「これまで以上にMachineGamesと緊密に連携している」と述べた",
-   "link": "https://www.pcgamer.com/games/fps/id-software-co-director-says-the-doom-developer-is-working-more-closely-with-machinegames-than-ever-after-xbox-laid-off-about-half-of-our-studio/",
-   "summary": "MachineGames is rumoured to be working on a third Wolfenstein game.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Xbox"
-   ],
-   "image": "https://cdn.mos.cms.futurecdn.net/wqYDbSC8MLcbRczgQKCDS-1920-80.jpg",
-   "published_at": "2026-11-01T01:10:44+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio'",
-   "translated": true
-  },
-  {
    "id": "n_ed0268fa6e32",
    "title": "メタができる前にAIたまごっちを作りました",
    "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
@@ -1537,21 +1617,6 @@
    "published_at": "2026-11-01T01:05:00+09:00",
    "first_seen": "2026-11-01T02:45:06+09:00",
    "title_original": "I built an AI Tamagotchi before Meta could",
-   "translated": true
-  },
-  {
-   "id": "n_cac6dd75fc7b",
-   "title": "タイピングの速度はどれくらいですか?MMO をプレイすることでタイピングが少しでも改善されましたか?",
-   "link": "https://www.pcgamer.com/games/mmo/how-fast-do-you-type-and-has-playing-mmos-improved-your-typing-in-any-way/",
-   "summary": "On my touch-type, touch-type telephone.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/Zsc9cwmxAyyJ2poU5pgASM-1920-80.png",
-   "published_at": "2026-11-01T01:00:00+09:00",
-   "first_seen": "2026-11-01T02:45:06+09:00",
-   "title_original": "How fast do you type, and has playing MMOs improved your typing in any way?",
    "translated": true
   },
   {
@@ -2145,21 +2210,6 @@
    "translated": true
   },
   {
-   "id": "n_e38d2ab1291e",
-   "title": "AO3 がダウンしたら、怒りの小説を修正するためにウォーハンマー 40,000 の小説を試してください",
-   "link": "https://kotaku.com/with-ao3-down-try-the-warhammer-40000-novels-for-your-angsty-fic-fix-2000751688",
-   "summary": "I'm as serious as an angst-ridden, 'there was only one drop-pod' heart attack",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2024/11/542088df63fd5ebb6bb7f038c987443b-1280x720.jpg",
-   "published_at": "2026-10-31T06:20:59+09:00",
-   "first_seen": "2026-10-31T08:49:28+09:00",
-   "title_original": "With AO3 Down, Try The Warhammer 40,000 Novels For Your Angsty Fic Fix",
-   "translated": true
-  },
-  {
    "id": "n_f1f6194d2036",
    "title": "AI支出ブームに亀裂が生じている",
    "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
@@ -2172,21 +2222,6 @@
    "published_at": "2026-10-31T06:17:40+09:00",
    "first_seen": "2026-10-31T08:49:28+09:00",
    "title_original": "Cracks are emerging in the AI spending boom",
-   "translated": true
-  },
-  {
-   "id": "n_5a83428b4a53",
-   "title": "ファンはブリザードが『World Of Warcraft: Forever』で最も愛された設定への回帰をからかっていると考えている",
-   "link": "https://kotaku.com/fans-think-blizzard-is-teasing-a-return-to-its-most-beloved-setting-in-world-of-warcraft-forever-2000751630",
-   "summary": "There's a chill in the air",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/wow-forever-animation2-1280x720.jpg",
-   "published_at": "2026-10-31T06:00:04+09:00",
-   "first_seen": "2026-10-31T08:49:28+09:00",
-   "title_original": "Fans Think Blizzard Is Teasing A Return To Its Most Beloved Setting In World Of Warcraft: Forever",
    "translated": true
   },
   {
@@ -2282,21 +2317,6 @@
    "translated": true
   },
   {
-   "id": "n_d4d9e61c62c0",
-   "title": "ダークソウル2とダークソウル3のオンラインサーバーが一時的にダウンするとフロムソフトウェアが発表",
-   "link": "https://www.eurogamer.net/dark-souls-servers-temporarily-shutting-down-fromsoftware",
-   "summary": "Things might get even darker over in the world of Lordran without those silly, only sometimes helpful notes left by othe",
-   "source": "Eurogamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/dark-souls-3-header_L2YTf0e.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-10-31T02:45:23+09:00",
-   "first_seen": "2026-10-31T04:25:22+09:00",
-   "title_original": "Dark Souls 2 and Dark Souls 3's online servers are temporarily going dark, FromSoftware announces",
-   "translated": true
-  },
-  {
    "id": "n_0de3f9697e49",
    "title": "スターバックスはAIを活用してドライブスルーで「パーソナライズされたデジタルメニュー」を表示したいと考えている",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
@@ -2339,38 +2359,6 @@
    "published_at": "2026-10-31T01:03:45+09:00",
    "first_seen": "2026-10-31T04:25:22+09:00",
    "title_original": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-   "translated": true
-  },
-  {
-   "id": "n_ab3d5946e9d3",
-   "title": "8 ビット ホラー Tenebris Somnia は、奇妙な実写ホラーとレトロな 2D アドベンチャーを組み合わせた、印象的で不安な効果をもたらします",
-   "link": "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
-   "summary": "I've been captivated by the idea of wrong-footing an audience ever since playing Faith: The Unholy Trinity . That game p",
-   "source": "Eurogamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/tenebris-somnia-2_rwR6NVJ.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-10-31T00:15:54+09:00",
-   "first_seen": "2026-10-31T04:25:22+09:00",
-   "title_original": "8-bit horror Tenebris Somnia mixes weird live-action horror with a retro 2D adventure to impressive and unsettling effect",
-   "translated": true
-  },
-  {
-   "id": "n_e1f3c0b94b90",
-   "title": "Crimson Desert Enhanced Edition が PlayStation と Xbox でサプライズデモを入手、5 時間プレイしてセーブデータを引き継げる",
-   "link": "https://www.eurogamer.net/crimson-desert-free-demo-xbox-playstation",
-   "summary": "Crimson Desert is one of 2026's most successful releases. The game managed to sell over 6 million copies in just three m",
-   "source": "Eurogamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Xbox"
-   ],
-   "image": "https://assetsio.gnwcdn.com/crimson-desert-trial.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-10-30T23:58:30+09:00",
-   "first_seen": "2026-10-31T04:25:22+09:00",
-   "title_original": "Crimson Desert Enhanced Edition gets a surprise demo on PlayStation and Xbox, lets you play for 5 hours and carry over your save data",
    "translated": true
   },
   {
@@ -2890,67 +2878,6 @@
    "image": null,
    "published_at": "2026-10-30T08:00:00+09:00",
    "first_seen": "2026-10-30T10:02:05+09:00"
-  },
-  {
-   "id": "n_3de69496d54b",
-   "title": "NetflixでPUBG実写シリーズが開発中",
-   "link": "https://www.gematsu.com/2026/10/pubg-live-action-series-in-development-at-netflix",
-   "summary": "A live-action series adaptation of PUBG is in development at Netflix, KRAFTON announced. Two-time Emmy …",
-   "source": "Gematsu",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/PUBG-Netflix-Ann_10-29-26.jpg",
-   "published_at": "2026-10-30T02:39:54+09:00",
-   "first_seen": "2026-10-30T05:19:59+09:00",
-   "title_original": "PUBG live-action series in development at Netflix",
-   "translated": true
-  },
-  {
-   "id": "n_7bf0065ceb16",
-   "title": "An updated Model Spec for more capable and beneficial AI",
-   "link": "https://openai.com/index/updated-model-spec",
-   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and ",
-   "source": "OpenAI",
-   "region": "official",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-10-30T02:00:00+09:00",
-   "first_seen": "2026-10-30T05:19:59+09:00"
-  },
-  {
-   "id": "n_2e08a75c34a6",
-   "title": "Leaf Bwer Co.、PS5、Xbox シリーズ向けに 11 月 13 日に発売",
-   "link": "https://www.gematsu.com/2026/10/leaf-blower-co-for-ps5-xbox-series-launches-november-13",
-   "summary": "Leaf blowing simulation game Leaf Blower Co. will launch for PlayStation 5 and Xbox Series …",
-   "source": "Gematsu",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "PS5",
-    "Xbox"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Leaf-Blower-Co-Consoles_10-29-26.jpg",
-   "published_at": "2026-10-30T01:51:48+09:00",
-   "first_seen": "2026-10-30T05:19:59+09:00",
-   "title_original": "Leaf Blower Co. for PS5, Xbox Series launches November 13",
-   "translated": true
-  },
-  {
-   "id": "n_8f8fbc5c662c",
-   "title": "レポート: 「ThelderScrollsVI」のサブタイトル「Sentinel」",
-   "link": "https://www.gematsu.com/2026/10/report-the-elder-scrolls-vi-subtitled-sentinel",
-   "summary": "The 2018-announced sixth entry in the Elder Scrolls series is officially titled The Elder Scrolls …",
-   "source": "Gematsu",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/TES6-Subtitle-Rumor_10-29-26.jpg",
-   "published_at": "2026-10-30T01:28:03+09:00",
-   "first_seen": "2026-10-30T05:19:59+09:00",
-   "title_original": "Report: The Elder Scrolls VI subtitled Sentinel",
-   "translated": true
   }
  ],
  "deals": [
@@ -3053,20 +2980,6 @@
    "ends_at": "2026-11-03T03:00:00+09:00"
   },
   {
-   "id": "d_steam_3241660",
-   "store": "steam",
-   "title": "R.E.P.O.",
-   "link": "https://store.steampowered.com/app/3241660/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
-   "price_original": 1200,
-   "price_sale": 780,
-   "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-10T02:00:00+09:00"
-  },
-  {
    "id": "d_steam_881020",
    "store": "steam",
    "title": "GRANBLUE FANTASY: Relink",
@@ -3081,20 +2994,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_4312190",
-   "store": "steam",
-   "title": "CRACK",
-   "link": "https://store.steampowered.com/app/4312190/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/22701399fd0da99fd3d526cdd7262c116c333e2a/header_alt_assets_0_japanese.jpg?t=1793285498",
-   "price_original": 990,
-   "price_sale": 841,
-   "discount": 15,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-03T02:00:00+09:00"
-  },
-  {
    "id": "d_steam_252490",
    "store": "steam",
    "title": "Rust",
@@ -3102,6 +3001,76 @@
    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_231x87.jpg?t=1781536981",
    "price_original": 4600,
    "price_sale": 2300,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3241660",
+   "store": "steam",
+   "title": "R.E.P.O.",
+   "link": "https://store.steampowered.com/app/3241660/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
+   "price_original": 1200,
+   "price_sale": 780,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-11-10T02:00:00+09:00"
+  },
+  {
+   "id": "d_steam_3839710",
+   "store": "steam",
+   "title": "Winning Post 10 2026",
+   "link": "https://store.steampowered.com/app/3839710/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3839710/27b3ab5197465a1bfd0d13c6753f3570f526f1cb/capsule_231x87.jpg?t=1775696416",
+   "price_original": 10780,
+   "price_sale": 6899,
+   "discount": 36,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3764200",
+   "store": "steam",
+   "title": "BIOHAZARD requiem",
+   "link": "https://store.steampowered.com/app/3764200/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3764200/7b493f4d2547ff29576c58e15fbbcf08536db9d2/capsule_231x87_japanese.jpg?t=1779840172",
+   "price_original": 8990,
+   "price_sale": 6293,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2050650",
+   "store": "steam",
+   "title": "BIOHAZARD RE:4",
+   "link": "https://store.steampowered.com/app/2050650/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_231x87_japanese.jpg?t=1772502922",
+   "price_original": 3990,
+   "price_sale": 997,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2190220",
+   "store": "steam",
+   "title": "東方ダンマクカグラ ファンタジア・ロスト",
+   "link": "https://store.steampowered.com/app/2190220/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2190220/capsule_231x87_japanese.jpg?t=1793351533",
+   "price_original": 2650,
+   "price_sale": 1325,
    "discount": 50,
    "is_free": false,
    "upcoming": false,
@@ -3123,32 +3092,18 @@
    "ends_at": "2026-11-03T03:00:00+09:00"
   },
   {
-   "id": "d_steam_3764200",
+   "id": "d_steam_4312190",
    "store": "steam",
-   "title": "BIOHAZARD requiem",
-   "link": "https://store.steampowered.com/app/3764200/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3764200/7b493f4d2547ff29576c58e15fbbcf08536db9d2/capsule_231x87_japanese.jpg?t=1779840172",
-   "price_original": 8990,
-   "price_sale": 6293,
-   "discount": 30,
+   "title": "CRACK",
+   "link": "https://store.steampowered.com/app/4312190/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/22701399fd0da99fd3d526cdd7262c116c333e2a/header_alt_assets_0_japanese.jpg?t=1793285498",
+   "price_original": 990,
+   "price_sale": 841,
+   "discount": 15,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_5321510",
-   "store": "steam",
-   "title": "肝試しオンライン",
-   "link": "https://store.steampowered.com/app/5321510/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5321510/10f9e72bdf14a27201a8c0506b5ad8f89feee600/capsule_231x87_japanese.jpg?t=1793481579",
-   "price_original": 1200,
-   "price_sale": 888,
-   "discount": 26,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
+   "ends_at": "2026-11-03T02:00:00+09:00"
   },
   {
    "id": "d_steam_4530370",
@@ -3179,42 +3134,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2050650",
+   "id": "d_steam_5321510",
    "store": "steam",
-   "title": "BIOHAZARD RE:4",
-   "link": "https://store.steampowered.com/app/2050650/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_231x87_japanese.jpg?t=1772502922",
-   "price_original": 3990,
-   "price_sale": 997,
-   "discount": 75,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3839710",
-   "store": "steam",
-   "title": "Winning Post 10 2026",
-   "link": "https://store.steampowered.com/app/3839710/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3839710/27b3ab5197465a1bfd0d13c6753f3570f526f1cb/capsule_231x87.jpg?t=1775696416",
-   "price_original": 10780,
-   "price_sale": 6899,
-   "discount": 36,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2190220",
-   "store": "steam",
-   "title": "東方ダンマクカグラ ファンタジア・ロスト",
-   "link": "https://store.steampowered.com/app/2190220/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2190220/capsule_231x87_japanese.jpg?t=1793351533",
-   "price_original": 2650,
-   "price_sale": 1325,
-   "discount": 50,
+   "title": "肝試しオンライン",
+   "link": "https://store.steampowered.com/app/5321510/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5321510/10f9e72bdf14a27201a8c0506b5ad8f89feee600/capsule_231x87_japanese.jpg?t=1793481579",
+   "price_original": 1200,
+   "price_sale": 888,
+   "discount": 26,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3249,20 +3176,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_5069990",
-   "store": "steam",
-   "title": "古今東西ダービー",
-   "link": "https://store.steampowered.com/app/5069990/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5069990/bc3b340acc5709f9635fddadccad72c4e340f8d9/capsule_231x87.jpg?t=1793430845",
-   "price_original": 780,
-   "price_sale": 694,
-   "discount": 11,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_3357650",
    "store": "steam",
    "title": "PRAGMATA",
@@ -3271,6 +3184,34 @@
    "price_original": 7990,
    "price_sale": 6392,
    "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3240220",
+   "store": "steam",
+   "title": "グランド・セフト・オートV エンハンスト",
+   "link": "https://store.steampowered.com/app/3240220/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1781187782",
+   "price_original": 4380,
+   "price_sale": 2190,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4356430",
+   "store": "steam",
+   "title": "『NBA 2K27』",
+   "link": "https://store.steampowered.com/app/4356430/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_231x87.jpg?t=1792163139",
+   "price_original": 14080,
+   "price_sale": 6336,
+   "discount": 55,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3295,66 +3236,10 @@
    "store": "steam",
    "title": "PEAK",
    "link": "https://store.steampowered.com/app/3527290/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
    "price_original": 880,
    "price_sale": 545,
    "discount": 38,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-15T19:00:00+09:00"
-  },
-  {
-   "id": "d_steam_4356430",
-   "store": "steam",
-   "title": "『NBA 2K27』",
-   "link": "https://store.steampowered.com/app/4356430/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_231x87.jpg?t=1792163139",
-   "price_original": 14080,
-   "price_sale": 6336,
-   "discount": 55,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3240220",
-   "store": "steam",
-   "title": "グランド・セフト・オートV エンハンスト",
-   "link": "https://store.steampowered.com/app/3240220/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1781187782",
-   "price_original": 4380,
-   "price_sale": 2190,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2223980",
-   "store": "steam",
-   "title": "Nomad Drive",
-   "link": "https://store.steampowered.com/app/2223980/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg?t=1793283217",
-   "price_original": 2100,
-   "price_sale": 1890,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-11T02:00:40+09:00"
-  },
-  {
-   "id": "d_steam_1943950",
-   "store": "steam",
-   "title": "Escape the Backrooms",
-   "link": "https://store.steampowered.com/app/1943950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1943950/67f23a45ceba2451489994ef512f30dc64d64cc1/capsule_231x87_alt_assets_4.jpg?t=1793277465",
-   "price_original": 1200,
-   "price_sale": 960,
-   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3365,52 +3250,24 @@
    "store": "steam",
    "title": "Phasmophobia",
    "link": "https://store.steampowered.com/app/739630/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/0268c77668d5643d3f2c19e67e92e252fdfe6c7f/capsule_231x87.jpg?t=1791632508",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/c227a2855aba60f3657bc0c3a46515b8c41fb2b6/header.jpg?t=1791632508",
    "price_original": 2300,
    "price_sale": 1610,
    "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": null
+   "ends_at": "2026-11-03T03:00:00+09:00"
   },
   {
-   "id": "d_steam_1588550",
+   "id": "d_steam_5069990",
    "store": "steam",
-   "title": "Cairn",
-   "link": "https://store.steampowered.com/app/1588550/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1588550/acbc2b10669d9f513a62410ac9feb64548fb3c63/capsule_231x87_alt_assets_0.jpg?t=1793289602",
-   "price_original": 3400,
-   "price_sale": 2380,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3720100",
-   "store": "steam",
-   "title": "ARK: Lost Colony Expansion Pass",
-   "link": "https://store.steampowered.com/app/3720100/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3720100/33be731311791d3c8cddd7476d25a82d696ae520/capsule_231x87.jpg?t=1788023107",
-   "price_original": 4318,
-   "price_sale": 2159,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_275850",
-   "store": "steam",
-   "title": "No Man's Sky",
-   "link": "https://store.steampowered.com/app/275850/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/79d6a2b52a0a948b4b80b8a755d873b634dc67c5/capsule_231x87_alt_assets_26.jpg?t=1793196605",
-   "price_original": 6500,
-   "price_sale": 2600,
-   "discount": 60,
+   "title": "古今東西ダービー",
+   "link": "https://store.steampowered.com/app/5069990/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5069990/bc3b340acc5709f9635fddadccad72c4e340f8d9/capsule_231x87.jpg?t=1793430845",
+   "price_original": 780,
+   "price_sale": 694,
+   "discount": 11,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3431,6 +3288,118 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_1588550",
+   "store": "steam",
+   "title": "Cairn",
+   "link": "https://store.steampowered.com/app/1588550/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1588550/acbc2b10669d9f513a62410ac9feb64548fb3c63/capsule_231x87_alt_assets_0.jpg?t=1793289602",
+   "price_original": 3400,
+   "price_sale": 2380,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2223980",
+   "store": "steam",
+   "title": "Nomad Drive",
+   "link": "https://store.steampowered.com/app/2223980/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2223980/04914cfd8e7f5a07e474acdf42ca9b5762fac7af/capsule_231x87.jpg?t=1793283217",
+   "price_original": 2100,
+   "price_sale": 1890,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1943950",
+   "store": "steam",
+   "title": "Escape the Backrooms",
+   "link": "https://store.steampowered.com/app/1943950/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1943950/67f23a45ceba2451489994ef512f30dc64d64cc1/capsule_231x87_alt_assets_4.jpg?t=1793277465",
+   "price_original": 1200,
+   "price_sale": 960,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4395870",
+   "store": "steam",
+   "title": "こちら魔法少女救命外科",
+   "link": "https://store.steampowered.com/app/4395870/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4395870/5c423a7910fd1e86716aa6acd3b5d8b87260118e/capsule_231x87_japanese.jpg?t=1793095313",
+   "price_original": 770,
+   "price_sale": 693,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1196590",
+   "store": "steam",
+   "title": "BIOHAZARD VILLAGE",
+   "link": "https://store.steampowered.com/app/1196590/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1196590/capsule_231x87_japanese.jpg?t=1776927117",
+   "price_original": 3990,
+   "price_sale": 997,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_5072430",
+   "store": "steam",
+   "title": "Ghost in the SQL Data",
+   "link": "https://store.steampowered.com/app/5072430/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5072430/68f0d273de2d8da9c13f6cf314089ec320eb377d/capsule_231x87.jpg?t=1793261054",
+   "price_original": 1350,
+   "price_sale": 1215,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3720100",
+   "store": "steam",
+   "title": "ARK: Lost Colony Expansion Pass",
+   "link": "https://store.steampowered.com/app/3720100/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3720100/33be731311791d3c8cddd7476d25a82d696ae520/capsule_231x87.jpg?t=1788023107",
+   "price_original": 4318,
+   "price_sale": 2159,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_568220",
+   "store": "steam",
+   "title": "Lobotomy Corporation | Monster Management Simulation",
+   "link": "https://store.steampowered.com/app/568220/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/568220/capsule_231x87.jpg?t=1636694188",
+   "price_original": 2570,
+   "price_sale": 873,
+   "discount": 66,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_3024130",
    "store": "steam",
    "title": "どうぶつの町の食堂物語",
@@ -3439,6 +3408,20 @@
    "price_original": 2800,
    "price_sale": 1210,
    "discount": 57,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_275850",
+   "store": "steam",
+   "title": "No Man's Sky",
+   "link": "https://store.steampowered.com/app/275850/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/79d6a2b52a0a948b4b80b8a755d873b634dc67c5/capsule_231x87_alt_assets_26.jpg?t=1793196605",
+   "price_original": 6500,
+   "price_sale": 2600,
+   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3473,97 +3456,13 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_5072430",
+   "id": "d_steam_4558480",
    "store": "steam",
-   "title": "Ghost in the SQL Data",
-   "link": "https://store.steampowered.com/app/5072430/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5072430/68f0d273de2d8da9c13f6cf314089ec320eb377d/capsule_231x87.jpg?t=1793261054",
-   "price_original": 1350,
-   "price_sale": 1215,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1689620",
-   "store": "steam",
-   "title": "BLEACH Rebirth of Souls",
-   "link": "https://store.steampowered.com/app/1689620/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1689620/85d75afeb2c483a64d9503e9bd9ab13f1e68270b/capsule_231x87.jpg?t=1765454766",
-   "price_original": 8360,
-   "price_sale": 3344,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4395870",
-   "store": "steam",
-   "title": "こちら魔法少女救命外科",
-   "link": "https://store.steampowered.com/app/4395870/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4395870/5c423a7910fd1e86716aa6acd3b5d8b87260118e/capsule_231x87_japanese.jpg?t=1793095313",
-   "price_original": 770,
-   "price_sale": 693,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_568220",
-   "store": "steam",
-   "title": "Lobotomy Corporation | Monster Management Simulation",
-   "link": "https://store.steampowered.com/app/568220/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/568220/capsule_231x87.jpg?t=1636694188",
-   "price_original": 2570,
-   "price_sale": 873,
-   "discount": 66,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1295660",
-   "store": "steam",
-   "title": "シドマイヤーズ シヴィライゼーション VII",
-   "link": "https://store.steampowered.com/app/1295660/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1295660/56f256d5776521616d8842cd435f97b22de655cd/capsule_231x87.jpg?t=1792718077",
-   "price_original": 8800,
-   "price_sale": 4400,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4108000",
-   "store": "steam",
-   "title": "Machine Party",
-   "link": "https://store.steampowered.com/app/4108000/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4108000/5986ba4057fa210d0f96bd470e41a0dd439ed6fb/capsule_231x87.jpg?t=1793352925",
-   "price_original": 950,
-   "price_sale": 712,
-   "discount": 25,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2909580",
-   "store": "steam",
-   "title": "Viractal(ヴィラクタル)",
-   "link": "https://store.steampowered.com/app/2909580/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2909580/4b4858cb77ed6db0dfb0df6befc4afe968dcb983/capsule_231x87_japanese.jpg?t=1791452151",
-   "price_original": 3960,
-   "price_sale": 3168,
+   "title": "ARK Tides of Fortune",
+   "link": "https://store.steampowered.com/app/4558480/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4558480/c8615e159b054ae4a66c64cccfa3740690d34788/capsule_231x87.jpg?t=1788022985",
+   "price_original": 3200,
+   "price_sale": 2560,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
@@ -3585,28 +3484,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1196590",
+   "id": "d_steam_2881150",
    "store": "steam",
-   "title": "BIOHAZARD VILLAGE",
-   "link": "https://store.steampowered.com/app/1196590/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1196590/capsule_231x87_japanese.jpg?t=1776927117",
-   "price_original": 3990,
-   "price_sale": 997,
-   "discount": 75,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4715160",
-   "store": "steam",
-   "title": "Finals Week ✍🏻",
-   "link": "https://store.steampowered.com/app/4715160/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4715160/a358dec96fe91e2f79089db31cd2b8278d95cbc9/capsule_231x87.jpg?t=1793289966",
-   "price_original": 1150,
-   "price_sale": 713,
-   "discount": 38,
+   "title": "ARK: Bob's Tall Tales",
+   "link": "https://store.steampowered.com/app/2881150/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2881150/d1282b9f18cc86e6a8f97630622a46ccb3b4a435/capsule_231x87.jpg?t=1788023035",
+   "price_original": 4410,
+   "price_sale": 1455,
+   "discount": 67,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3627,13 +3512,13 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_4558480",
+   "id": "d_steam_2909580",
    "store": "steam",
-   "title": "ARK Tides of Fortune",
-   "link": "https://store.steampowered.com/app/4558480/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4558480/c8615e159b054ae4a66c64cccfa3740690d34788/capsule_231x87.jpg?t=1788022985",
-   "price_original": 3200,
-   "price_sale": 2560,
+   "title": "Viractal(ヴィラクタル)",
+   "link": "https://store.steampowered.com/app/2909580/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2909580/4b4858cb77ed6db0dfb0df6befc4afe968dcb983/capsule_231x87_japanese.jpg?t=1791452151",
+   "price_original": 3960,
+   "price_sale": 3168,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
@@ -3641,14 +3526,56 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2881150",
+   "id": "d_steam_2852190",
    "store": "steam",
-   "title": "ARK: Bob's Tall Tales",
-   "link": "https://store.steampowered.com/app/2881150/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2881150/d1282b9f18cc86e6a8f97630622a46ccb3b4a435/capsule_231x87.jpg?t=1788023035",
-   "price_original": 4410,
-   "price_sale": 1455,
-   "discount": 67,
+   "title": "モンスターハンターストーリーズ3　～運命の双竜～",
+   "link": "https://store.steampowered.com/app/2852190/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2852190/1b0e684b1abc98caaa7dd2f7ba5008aa21c6698c/capsule_231x87_japanese.jpg?t=1790900261",
+   "price_original": 8990,
+   "price_sale": 6293,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4108000",
+   "store": "steam",
+   "title": "Machine Party",
+   "link": "https://store.steampowered.com/app/4108000/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4108000/5986ba4057fa210d0f96bd470e41a0dd439ed6fb/capsule_231x87.jpg?t=1793352925",
+   "price_original": 950,
+   "price_sale": 712,
+   "discount": 25,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1689620",
+   "store": "steam",
+   "title": "BLEACH Rebirth of Souls",
+   "link": "https://store.steampowered.com/app/1689620/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1689620/85d75afeb2c483a64d9503e9bd9ab13f1e68270b/capsule_231x87.jpg?t=1765454766",
+   "price_original": 8360,
+   "price_sale": 3344,
+   "discount": 60,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3247750",
+   "store": "steam",
+   "title": "Mycopunk: 俺たちキノコバスターズ",
+   "link": "https://store.steampowered.com/app/3247750/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3247750/6825b608db79ecf83d22fdf3cef7993d7701c451/capsule_231x87.jpg?t=1793358365",
+   "price_original": 1700,
+   "price_sale": 850,
+   "discount": 50,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -4929,20 +4856,6 @@
    "ends_at": "2026-11-24T22:59:59+09:00"
   },
   {
-   "id": "d_eshop_70010000136605",
-   "store": "eshop",
-   "title": "夜勤事件",
-   "link": "https://store-jp.nintendo.com/item/software/D70010000136605",
-   "image": "https://img-eshop.cdn.nintendo.net/i/09f854578aa0fb20e44fead9b5cda9b36fc05b7a127b783ee6effd7d981454e4.jpg",
-   "price_original": 990,
-   "price_sale": 690,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": "2026-09-24T00:00:00+09:00",
-   "ends_at": "2026-11-03T23:59:59+09:00"
-  },
-  {
    "id": "d_eshop_70010000120015",
    "store": "eshop",
    "title": "猫 vs ネット：ミーム大戦 ガールズ (Cats vs Internet: Rise of the Memes Girls)",
@@ -4997,6 +4910,20 @@
    "upcoming": false,
    "starts_at": "2026-10-29T00:00:00+09:00",
    "ends_at": "2026-12-08T23:59:59+09:00"
+  },
+  {
+   "id": "d_eshop_70010000136605",
+   "store": "eshop",
+   "title": "夜勤事件",
+   "link": "https://store-jp.nintendo.com/item/software/D70010000136605",
+   "image": "https://img-eshop.cdn.nintendo.net/i/09f854578aa0fb20e44fead9b5cda9b36fc05b7a127b783ee6effd7d981454e4.jpg",
+   "price_original": 990,
+   "price_sale": 690,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": "2026-09-24T00:00:00+09:00",
+   "ends_at": "2026-11-03T23:59:59+09:00"
   },
   {
    "id": "d_eshop_70010000137502",
