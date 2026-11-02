@@ -1,5 +1,6 @@
 """Obsidian のニュースまとめを、公開用の Markdown に変換して取り込む。"""
 import argparse
+import difflib
 import os
 import re
 import sys
@@ -108,10 +109,15 @@ def output_name(source_name: str) -> str:
     return f"{m.group(1)}-{m.group(2)}.md" if m.group(2) else f"{m.group(1)}.md"
 
 
-def sync(src: Path, dest: Path) -> list[str]:
-    """src のノートを変換して dest に書き、報告の行を返す。"""
+def sync(src: Path, dest: Path, dry_run: bool = False) -> list[str]:
+    """src のノートを変換して dest に書き、報告の行を返す。
+
+    dry_run のときは何も書き出さず、報告の行のあとに上書きになるノートの差分を付けて返す。
+    """
     report: list[str] = []
-    dest.mkdir(parents=True, exist_ok=True)
+    diffs: list[str] = []
+    if not dry_run:
+        dest.mkdir(parents=True, exist_ok=True)
     for path in sorted(src.glob("*.md")):
         try:
             new, removed = convert(path.read_text(encoding="utf-8"))
@@ -125,9 +131,20 @@ def sync(src: Path, dest: Path) -> list[str]:
             status = "変更なし" if old == new else "上書き"
         else:
             status = "新規"
-        if status != "変更なし":
+        if status != "変更なし" and not dry_run:
             target.write_text(new, encoding="utf-8", newline="\n")
+        if dry_run and status == "上書き":
+            diff = difflib.unified_diff(
+                old.splitlines(keepends=True),
+                new.splitlines(keepends=True),
+                fromfile=f"{name}（今）",
+                tofile=f"{name}（書き出す予定）",
+            )
+            # 最後の行に改行が無くても1行として扱う
+            diffs.extend(d.removesuffix("\n") for d in diff)
         report.append(f"{status}: {name}（取り除いた行: {removed}）")
+    if dry_run:
+        return report + diffs + ["書き出していません(--dry-run)"]
     return report
 
 
@@ -136,11 +153,16 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--src", default=os.environ.get("DIGEST_SRC"))
     ap.add_argument("--dest", type=Path, default=DEFAULT_DEST)
+    ap.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="何も書き出さず、報告と上書きになるノートの差分だけを表示する",
+    )
     args = ap.parse_args()
     # Path("") は今いるフォルダになってしまうので、空や空白だけは指定なしと同じに扱う
     if not (args.src or "").strip():
         ap.error("読み込み元が決まっていない。--src で指定するか、環境変数 DIGEST_SRC を設定して")
-    for line in sync(Path(args.src.strip()), args.dest):
+    for line in sync(Path(args.src.strip()), args.dest, dry_run=args.dry_run):
         print(line)
 
 
