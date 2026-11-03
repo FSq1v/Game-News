@@ -185,6 +185,14 @@ def test_dry_run_shows_diff_only_for_overwrite(tmp_path):
         assert not any(line.startswith((f"--- {name}", f"+++ {name}")) for line in report)
 
 
+def test_dry_run_diff_adds_converted_content(tmp_path):
+    # 差分の + 側が、書き出す予定の中身（convert の結果）そのものになっている
+    _mixed_state(tmp_path)
+    report = sync(FIX, tmp_path, dry_run=True)
+    added = [line[1:] for line in report if line.startswith("+") and not line.startswith("+++")]
+    assert added == convert(SAMPLE)[0].splitlines()
+
+
 def test_dry_run_no_diff_when_unchanged(tmp_path):
     sync(FIX, tmp_path)
     sync(FIX, tmp_path)
