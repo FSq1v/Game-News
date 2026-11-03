@@ -125,3 +125,82 @@ def test_main_rejects_empty_src(monkeypatch, capsys, env, argv):
         main()
     assert e.value.code == 2
     assert "DIGEST_SRC" in capsys.readouterr().err
+
+
+DRY_RUN_LAST = "書き出していません(--dry-run)"
+STATUS = ("新規:", "上書き:", "変更なし:", "スキップ:")
+
+
+def _mixed_state(dest):
+    # 上書き(2026-10-14.md)・新規(2026-10-14-2.md)・スキップ(broken.md)が出る状態
+    sync(FIX, dest)
+    (dest / "2026-10-14.md").write_text("old", encoding="utf-8")
+    (dest / "2026-10-14-2.md").unlink()
+
+
+def _snapshot(dest):
+    return {p.name: p.read_bytes() for p in dest.iterdir()}
+
+
+def _status_lines(report):
+    return [line for line in report if line.startswith(STATUS)]
+
+
+def test_dry_run_writes_nothing(tmp_path):
+    _mixed_state(tmp_path)
+    before = _snapshot(tmp_path)
+    sync(FIX, tmp_path, dry_run=True)
+    assert _snapshot(tmp_path) == before
+    assert not (tmp_path / "2026-10-14-2.md").exists()
+
+
+def test_dry_run_does_not_create_dest(tmp_path):
+    dest = tmp_path / "no" / "dest"
+    report = sync(FIX, dest, dry_run=True)
+    assert not dest.exists()
+    assert any(line.startswith("新規:") for line in report)
+
+
+def test_dry_run_report_matches_real_run(tmp_path):
+    # 手元の見本は2つなので、上書き・新規・スキップの状態と、変更なしの状態を分けて比べる
+    _mixed_state(tmp_path)
+    dry = _status_lines(sync(FIX, tmp_path, dry_run=True))
+    assert dry == _status_lines(sync(FIX, tmp_path))
+    assert {line.split(":")[0] for line in dry} == {"上書き", "新規", "スキップ"}
+    # 本番の sync で書き出したので、ここからは全部が変更なし
+    dry = _status_lines(sync(FIX, tmp_path, dry_run=True))
+    assert dry == _status_lines(sync(FIX, tmp_path))
+    assert {line.split(":")[0] for line in dry} == {"変更なし", "スキップ"}
+
+
+def test_dry_run_shows_diff_only_for_overwrite(tmp_path):
+    _mixed_state(tmp_path)
+    report = sync(FIX, tmp_path, dry_run=True)
+    assert "--- 2026-10-14.md（今）" in report
+    assert "+++ 2026-10-14.md（書き出す予定）" in report
+    assert "-old" in report
+    last_status = max(i for i, line in enumerate(report) if line.startswith(STATUS))
+    assert report.index("--- 2026-10-14.md（今）") > last_status
+    for name in ("2026-10-14-2.md", "broken.md"):
+        assert not any(line.startswith((f"--- {name}", f"+++ {name}")) for line in report)
+
+
+def test_dry_run_no_diff_when_unchanged(tmp_path):
+    sync(FIX, tmp_path)
+    sync(FIX, tmp_path)
+    report = sync(FIX, tmp_path, dry_run=True)
+    assert not any(line.startswith(("---", "+++")) for line in report)
+
+
+def test_dry_run_last_line(tmp_path):
+    _mixed_state(tmp_path)
+    assert sync(FIX, tmp_path, dry_run=True)[-1] == DRY_RUN_LAST
+    assert DRY_RUN_LAST not in sync(FIX, tmp_path)
+
+
+def test_main_dry_run(monkeypatch, capsys, tmp_path):
+    out = tmp_path / "out"
+    monkeypatch.setattr("sys.argv", ["sync_digests", "--src", str(FIX), "--dest", str(out), "--dry-run"])
+    main()
+    assert capsys.readouterr().out.splitlines()[-1] == DRY_RUN_LAST
+    assert not out.exists()
