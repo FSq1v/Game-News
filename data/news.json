@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-05T02:20:58+09:00",
+ "updated_at": "2026-11-05T08:41:07+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -38,7 +38,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -46,7 +46,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -54,7 +54,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -62,7 +62,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -102,7 +102,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "ai"
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "ai"
   },
   {
@@ -126,7 +126,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "ai"
   },
   {
@@ -134,7 +134,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "ai"
   },
   {
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "ai"
   },
   {
@@ -150,7 +150,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "ai"
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -166,7 +166,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -174,7 +174,7 @@
    "ok": true,
    "count": 56,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   },
   {
@@ -182,11 +182,731 @@
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-11-05T02:20:58+09:00",
+   "last_success": "2026-11-05T08:41:07+09:00",
    "genre": "game"
   }
  ],
  "news": [
+  {
+   "id": "n_127aa50ec6ce",
+   "title": "『タルコフ』生みの親が手がける新作FPS『Fragmentary Order』約14分間のプレイ映像が公開。2251年の太陽系で、クローンを遠隔操作して戦う",
+   "link": "https://news.denfaminicogamer.jp/news/261105d",
+   "summary": "荒廃した世界を舞台に、ドローンで敵を探知し、高解像度のスコープをのぞいて撃ち合う場面も。有料テスト参加プログラムも受付開始",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/7b631211b39b063783d53febd0df68df-1024x576.jpg",
+   "published_at": "2026-11-05T08:23:34+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_eb03d3ae22ce",
+   "title": "Sony Promises Some Players Up To $400 To Trade In Their Used PS5s",
+   "link": "https://kotaku.com/sony-promises-some-players-up-to-400-to-trade-in-their-used-ps5s-2000753447",
+   "summary": "Console makers are getting aggressive about trade-ins",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PS5"
+   ],
+   "image": "https://kotaku.com/app/uploads/2025/05/393ab19a515a503e3573fd6ad2ed5b61-1280x719.jpg",
+   "published_at": "2026-11-05T08:00:15+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_1aa4b1147121",
+   "title": "「まったく予想していなかった“完璧なゲーム”」海外レビューハイスコア『ゼルダの伝説 時のオカリナ』ニンテンドースイッチ2版",
+   "link": "http://www.gamespark.jp/article/2026/11/05/174493.html",
+   "summary": "2026年11月5日発売『ゼルダの伝説 時のオカリナ』ニンテンドースイッチ2版の海外レビューをお届けします。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "http://www.gamespark.jp/imgs/rss/1215575.jpg",
+   "published_at": "2026-11-05T08:00:02+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_40078085d974",
+   "title": "実写映画『マッシュル』主人公・マッシュ役は前田真剣佑さんに決定！脚本・監督は福田雄一氏が担当",
+   "link": "https://news.denfaminicogamer.jp/news/261105e",
+   "summary": "前田さんはマッシュ役に向けて3年かけて体づくりに取り組み、原作者の甲本一氏も「筋肉の仕上がりマジでハンパなくて」と驚きを表現。高速ベンチプレスに励む超特報映像も公開",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/HWS1BZ3aMAUCLP1-1-1024x576.jpg",
+   "published_at": "2026-11-05T07:55:48+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_33a707660908",
+   "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+   "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+   "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking ",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T07:45:09+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_48d8c1552d58",
+   "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+   "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost i",
+   "source": "The Verge AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T07:42:15+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_b619cd960c3b",
+   "title": "Mass Effect Fans Get Enough Signatures To Plead To The Canadian Government For BioWare’s Life",
+   "link": "https://kotaku.com/mass-effect-petitions-bioware-canadian-government-house-of-commons-2000753458",
+   "summary": "The #SaveMassEffect movement is taking its grievances to the Canadian House of Commons",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/me-council.jpg",
+   "published_at": "2026-11-05T07:40:33+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_f3c824157cdf",
+   "title": "Final Fantasy 10 Blitzball Was Inspired By Star Wars Podracing",
+   "link": "https://kotaku.com/final-fantasy-10-blitzball-was-inspired-by-star-wars-podracing-2000753441",
+   "summary": "'Now that's Blitzball!'",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/Blitzball.jpg",
+   "published_at": "2026-11-05T07:30:22+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_90248c1ffce4",
+   "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+   "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+   "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is de",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T07:13:16+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_545ae39d8e6f",
+   "title": "シリーズ新作 『ゴッド・オブ・ウォー ラウフェイ』2027年5月20日へ発売延期。最後の仕上げを進め、作品の可能性を最大限引き出す",
+   "link": "https://news.denfaminicogamer.jp/news/261105b",
+   "summary": "当初予定していた2027年2月16日から“約3か月”の後ろ倒しに。発売を待つファンに感謝を伝え、近いうちに続報を公開すると予告",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/god-of-war-laufey-wm-screenshot-magic-test-en-30may26-1024x576.webp",
+   "published_at": "2026-11-05T07:01:45+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_c299c890dd5c",
+   "title": "5 Tips To Make Sure You Have A Fun Time With Castlevania: Belmont’s Curse",
+   "link": "https://kotaku.com/castlevania-belmonts-curse-5-tips-gameplay-settings-2000752811",
+   "summary": "Nothing's gonna fix Rose's weird floaty platforming, though",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/death-1280x720.jpg",
+   "published_at": "2026-11-05T07:00:12+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_ea11e2ec4842",
+   "title": "人間を資源にして宇宙船を管理するタワーディフェンス・ローグライト『Hull Rupture』リリース",
+   "link": "http://www.gamespark.jp/article/2026/11/05/174492.html",
+   "summary": "AIデスポットが指揮する宇宙船を管理し、非力な人間たちを再生可能な資源として利用しながら、容赦ないエイリアンの襲撃を耐え抜き銀河を駆け巡ります。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1121044.jpg",
+   "published_at": "2026-11-05T07:00:03+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_27b815c95e36",
+   "title": "「トイレ」に凝ったらAI需要で大躍進――TOTO、利益の7割かせぐ「半導体」ビジネスの正体",
+   "link": "https://www.itmedia.co.jp/business/articles/2611/05/news018.html",
+   "summary": "“トイレの会社”として知られるTOTOが、半導体ビジネスで化けている。半導体製造装置に使う材料が、営業利益の7割をかせぐまでに成長している。急成長の裏側を社長が語った。",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T07:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_06c5f15fdf5a",
+   "title": "GPT-6モデルはAstra、Sol、それともLuna？ OpenAIが教える、Codex爆速開発の鉄則",
+   "link": "https://kn.itmedia.co.jp/kn/article/2611/05/2000002770/",
+   "summary": "AIエージェントの導入を検討する企業とって大きな懸念となるのがトークン消費に伴うAPI利用コストだろう。高性能な最上位モデルを全工程で走らせれば予算を圧迫し、安価なモデルを一律で選定すれば修正ループが増えて手戻りが発生する。限られた予算枠の",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T07:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_e8501b71f109",
+   "title": "予算止める側だったのに「増額」進言 現場の「伸びそう」応援する“CFOの右腕”設置、MIXIに何が起きた？",
+   "link": "https://www.itmedia.co.jp/business/articles/2611/05/news025.html",
+   "summary": "MIXIが財務経理の改革に注力している。経営企画から「CFOの右腕」を切り出し、予算配分について進言。芽がある事業への予算増額を実現した。改革の裏側をCFOが語る。",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T07:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_19a381127567",
+   "title": "深刻な「中国依存」を脱せるか 老舗問屋が動いた「空気を使った肥料づくり」とAI農業とは？",
+   "link": "https://www.itmedia.co.jp/business/articles/2611/05/news019.html",
+   "summary": "中国が輸出の蛇口を少し締めるだけで、日本の田畑からみずみずしい作物が消え失せかねない──。化学肥料原料のほぼ全量を海外に握られた日本の農業。この食料安全保障の急所に立ち向かうのは、売上高500億円を誇る「100年続く資材問屋」だ。湯気立つ牛",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T07:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_f3f4f568585b",
+   "title": "Almost no one uses AI agents to book their Uber, company says",
+   "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+   "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T06:56:01+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_dde18cea3f51",
+   "title": "『魔法つかいプリキュア！』再放送がTOKYO MXで11月5日夜スタート。まさかの第2期制作をはじめ、多くの供給でファンを“ハチャメチャ大混乱”に陥れた人気作",
+   "link": "https://news.denfaminicogamer.jp/news/2611052m",
+   "summary": "まさかの第2期制作をはじめ、多くの供給でファンをハチャメチャ大混乱に陥れた人気作。最近、某名探偵たちもホウキに跨って魔法を使っていたような気がする",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/maxresdefault-2-1024x576.jpg",
+   "published_at": "2026-11-05T06:55:35+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_4c9b76bc0bf9",
+   "title": "17 better ways Elon Musk could have wasted $446 million",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+   "summary": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts ",
+   "source": "The Verge AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T06:45:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_dad035172b33",
+   "title": "GTA 6 Has Already Sold Nearly 8 Million Copies, One Data Firm Claims",
+   "link": "https://kotaku.com/gta-6-has-already-sold-nearly-8-million-copies-one-data-firm-claims-2000753423",
+   "summary": "It may already be one of the best-selling games of the year weeks before launch",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/06/gta-6-ps5-1280x720.jpg",
+   "published_at": "2026-11-05T06:37:34+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_36e49aaeb9e8",
+   "title": "固有武器モーションが前作比ほぼ倍の約30種！期待のソウルライク続編『Lords of the Fallen II』刷新された戦闘と解説映像公開―前作が期間限定セール中",
+   "link": "http://www.gamespark.jp/article/2026/11/05/174491.html",
+   "summary": "コンボ中も瞬時に武器切り替え可能！",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1215606.jpg",
+   "published_at": "2026-11-05T06:30:03+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_6050c43be029",
+   "title": "OpenAI is already trying to shape the 2028 election",
+   "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+   "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T06:25:44+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_70e60e39b208",
+   "title": "Meta acquires AI coding startup Conductor",
+   "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+   "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T06:10:56+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_c5cbc715b5b9",
+   "title": "Data centers were some of the biggest losers in last night's US midterm elections",
+   "link": "https://www.pcgamer.com/gaming-industry/data-centers-were-some-of-the-biggest-losers-in-last-nights-us-midterm-elections/",
+   "summary": "Voters across the country opted for nearly every local ballot measure that would curb the rate of data center expansion.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/kt57iQemDCCMVmXLVecZXf-1920-80.jpg",
+   "published_at": "2026-11-05T06:10:10+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_62833addcec0",
+   "title": "Xbox Accused Of ‘Sabotaging’ Arkane: ‘We Want To Finish Blade And Release It To The Players’",
+   "link": "https://kotaku.com/xbox-accused-of-sabotaging-arkane-we-want-to-finish-blade-and-release-it-to-the-players-2000753412",
+   "summary": "A French union is making demands amid an attempted sale of the studio",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Xbox"
+   ],
+   "image": "https://kotaku.com/app/uploads/2026/07/blade-1280x729.jpg",
+   "published_at": "2026-11-05T06:06:03+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_ab68e7c306cb",
+   "title": "クラシックなアニメ風に描かれる脱獄アドベンチャー『Mouse Chef: Dig Out』トレイラー！",
+   "link": "http://www.gamespark.jp/article/2026/11/05/174490.html",
+   "summary": "刑務所の厨房で料理をこなしつつ、スプーン1本で脱獄を目指せ。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1215585.jpg",
+   "published_at": "2026-11-05T06:00:03+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_15c246a41d13",
+   "title": "French game union accuses Microsoft of 'sabotaging' Blade and then using the fallout to justify closing Arkane",
+   "link": "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/",
+   "summary": "The STJV union says Microsoft imposed hiring freezes at Arkane that resulted in delays and additional expenses, which it",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/9T4FzWUTqHonQG2a65VZak-1920-80.jpg",
+   "published_at": "2026-11-05T05:51:28+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_5fce1438ca55",
+   "title": "Arkane union says closing the studio \"would probably be more expensive\" for Xbox than simply finishing Marvel's Blade",
+   "link": "https://www.eurogamer.net/arkane-union-xbox-more-expensive-marvels-blade",
+   "summary": "Xbox would probably spend more money shutting down Arkane Lyon than it would trying to finish and release Marvel's Blade",
+   "source": "Eurogamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Xbox"
+   ],
+   "image": "https://assetsio.gnwcdn.com/marvels-blade-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-11-05T05:33:10+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_bc142cefb1bd",
+   "title": "The Best And Worst Parts Of The Legend Of Zelda: Ocarina Of Time",
+   "link": "https://kotaku.com/lets-remember-the-best-and-worst-parts-of-the-legend-of-zelda-ocarina-of-time-2000753399",
+   "summary": "The remake had better only include the things I like, and none of the things I hate, by golly",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2023/02/b98effe774159a5e877425151bb7160b.jpg",
+   "published_at": "2026-11-05T05:30:35+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_b6ceabf91c49",
+   "title": "Gemini for Home now plugs into AT&T’s smart security system",
+   "link": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+   "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the",
+   "source": "The Verge AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T05:23:24+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_d8431ff9ce9e",
+   "title": "Stardew Valley’s 1.7 Update Finally Has A Release Window, And It’s Set To Be The Game’s ‘Largest Update Ever’",
+   "link": "https://kotaku.com/stardew-valleys-1-7-update-finally-has-a-release-window-and-its-set-to-be-the-games-largest-update-ever-2000753367",
+   "summary": "Bad news for Clint haters, good news for everyone else",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2024/03/b66ad22bf1fa8fd498afd50fbbb7c73c.jpg",
+   "published_at": "2026-11-05T05:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_3fac17d94feb",
+   "title": "OSSは「プルリクエストを送る」から「自分用に直す」へ？ AI時代のメンテナーがPR受付を閉じると宣言した理由",
+   "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/05/news004.html",
+   "summary": "AIが生成するプルリクエストの増加を受け、あるOSS開発者が「今後公開するコードではPRの受付をやめ、改変は自由にする」と宣言した。変更を上流に送るのではなく、各自が自分用にカスタマイズする「リミックスモデル」の中身と、その賛否を整理する。",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T05:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_b62799fedeef",
+   "title": "『Escape from Tarkov』生みの親による新作『Fragmentary Order』、長編ゲームプレイ映像ついにお披露目。“宇宙タルコフ”みっちり14分間",
+   "link": "https://automaton-media.com/articles/newsjp/20261105-477526/",
+   "summary": "Rant Gamingは11月5日、『Fragmentary Order』の14分間にわたるゲームプレイ映像を公開した。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261105-477526-header.jpg",
+   "published_at": "2026-11-05T04:49:11+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_972e1c5179bd",
+   "title": "PlayStation’s Massive Black Friday 2026 Sale Is Live Now And Filled With Big Deals On PS5 Games",
+   "link": "https://kotaku.com/playstations-massive-black-friday-2026-sale-is-live-now-and-filled-with-big-deals-on-ps5-games-2000753373",
+   "summary": "Silent Hill 2, God of War Ragnarok, Astro Bot, Disco Elysium, Well Dweller, and many more PS5 games are currently on sal",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PS5"
+   ],
+   "image": "https://kotaku.com/app/uploads/2026/11/PSn-sale-bfriday-1280x720.jpg",
+   "published_at": "2026-11-05T04:30:06+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_604513e69c2a",
+   "title": "Open source AI is booming. Hugging Face explains who profits.",
+   "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+   "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lo",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T04:30:04+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_add91e24e321",
+   "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+   "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+   "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and optio",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T04:29:52+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_79ebf87819d0",
+   "title": "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished'",
+   "link": "https://www.pcgamer.com/games/former-halo-composer-marty-odonnell-loses-election-then-gets-absolutely-bodied-by-his-opponent-the-fight-is-finished/",
+   "summary": "Susie Lee has clearly been waiting for this moment.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/rbvNJm56oM36V2FFnnUWfC-1920-80.jpg",
+   "published_at": "2026-11-05T04:21:48+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_f74a518967e5",
+   "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
+   "link": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
+   "summary": "For The Legend of Zelda: Ocarina of Time 's shiny new remake, Nintendo unintentionally cast the same actor twice - 28 ye",
+   "source": "Eurogamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "https://assetsio.gnwcdn.com/legend-of-zelda-ocarina-remake-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-11-05T04:15:40+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_9cfb36a60751",
+   "title": "Lore-Obsessed Fans Think The Elder Scrolls 6: Sentinel Is Connected To Skyrim",
+   "link": "https://kotaku.com/lore-obssessed-fans-think-the-elder-scrolls-6-sentinel-is-connected-to-skyrim-2000753341",
+   "summary": "Bethesda's next RPG might be years away, but fans are already theorizing about when it takes place and how it might invo",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2021/08/a2a414470b0775a8113b03e02daeb7b6.jpg",
+   "published_at": "2026-11-05T04:00:22+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_089b0efaf055",
+   "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+   "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+   "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lo",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T03:44:57+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_19dbb845c132",
+   "title": "PS5『ゴッド・オブ・ウォー ラウフェイ』発売延期、来年5月20日にリリースへ。約3か月延ばして作りこむ",
+   "link": "https://automaton-media.com/articles/newsjp/20261105-477518/",
+   "summary": "Santa Monica Studioは11月5日、『ゴッド・オブ・ウォー ラウフェイ』の発売日を2027年5月20日に延期すると発表した。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [
+    "PS5"
+   ],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261105-477518-header.jpg",
+   "published_at": "2026-11-05T03:33:36+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_675892a9198f",
+   "title": "Last Night’s VisionQuest Reveal Has A Whole Lot Of Marvel History Tied Up In It",
+   "link": "https://kotaku.com/visionquest-jim-hammond-human-torch-synthetic-man-explained-2000753358",
+   "summary": "Paul Bettany must be making hella cash playing all these characters",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/vision.jpg",
+   "published_at": "2026-11-05T03:30:30+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_d0178f35064d",
+   "title": "Nothing teases a screen-free AI device ahead of launch next month",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+   "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a lit",
+   "source": "The Verge AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T03:26:07+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_4e9552c8b993",
+   "title": "One Of The Greatest Adventure Games Ever Is 30 Today, And It Wasn’t Made By LucasArts",
+   "link": "https://kotaku.com/toonstruck-burst-studio-christopher-lloyd-dan-castellaneta-pc-steam-2000753327",
+   "summary": "Toonstruck holds up three decades later, thanks to its incredible cast and animation",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/toonstruck-2.jpg",
+   "published_at": "2026-11-05T03:00:55+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_acd980ecd1ae",
+   "title": "『タルコフ』生みの親の新作ハードコアSFシューター『Fragmentary Order』14分におよぶ初ゲームプレイ映像が公開！有料クローズドテスト参加権「Prime Batch」も受付開始",
+   "link": "http://www.gamespark.jp/article/2026/11/05/174489.html",
+   "summary": "Nikita Buyanov氏は「『タルコフ』と同じく10年後も遊べる作品にしたい」と語っており、年内に初のクローズドアルファテストが実施予定です。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1215600.png",
+   "published_at": "2026-11-05T03:00:48+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_830acd496e28",
+   "title": "I am back modding GTA 5 and being chased by a billion furious, armed cougars",
+   "link": "https://www.pcgamer.com/games/grand-theft-auto/i-am-back-modding-gta-5-and-being-chased-by-a-billion-furious-armed-cougars/",
+   "summary": "I missed this.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/zbjF32yTd7MrmU9rh8qEza-1920-80.jpg",
+   "published_at": "2026-11-05T03:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_3fdace98b464",
+   "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+   "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+   "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the lat",
+   "source": "The Verge AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T03:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_026e4ebd4085",
+   "title": "ChatGPT will now make you animated GIFs",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+   "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out along",
+   "source": "The Verge AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-05T03:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_ad7cb395e736",
+   "title": "GOG.comが初となる「GOG Showcase」を日本時間11月6日3時に配信！新しいゲームや新機能を発表",
+   "link": "http://www.gamespark.jp/article/2026/11/05/174488.html",
+   "summary": "18周年を記念",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1215599.png",
+   "published_at": "2026-11-05T02:50:03+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_8c97ab4b8a71",
+   "title": "Meg’s Monster coming to PS5 on March 1, 2027",
+   "link": "https://www.gematsu.com/2026/11/megs-monster-coming-to-ps5-on-march-1-2027",
+   "summary": "Odencat will release a PlayStation 5 version of RPG adventure game Meg’s Monster on March …",
+   "source": "Gematsu",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PS5"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Megs-Monster-PS5_11-04-26.jpg",
+   "published_at": "2026-11-05T02:45:31+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_0f76e0d8d5d2",
+   "title": "God of War Laufey delayed three months to May 2027, as Sony Santa Monica escapes a packed February",
+   "link": "https://www.eurogamer.net/god-of-war-laufey-delayed-may-three-months",
+   "summary": "God of War Laufey has been delayed. Sony Santa Monica's PS5 exclusive is now dodging the crowded month of February and w",
+   "source": "Eurogamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PS5"
+   ],
+   "image": "https://assetsio.gnwcdn.com/A-peaceful-looking-Faye-in-God-of-War-Laufey.jpg?width=690&quality=85&format=jpg&auto=webp",
+   "published_at": "2026-11-05T02:32:10+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_574950666841",
+   "title": "The Dark Souls Devs Are Masters At Looney Tunes–Style Physical Comedy",
+   "link": "https://kotaku.com/three-cheers-for-the-bonewheel-2000753329",
+   "summary": "Three cheers for the Bonewheel!",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/bonewheel-1280x960.jpg",
+   "published_at": "2026-11-05T02:30:45+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_c934d2973b44",
+   "title": "『ゴッド・オブ・ウォー ラウフェイ』発売延期へ。クレイトスの妻が主人公のシリーズ最新作",
+   "link": "http://www.gamespark.jp/article/2026/11/05/174487.html",
+   "summary": "サンタモニカスタジオが開発する『ゴッド・オブ・ウォー』シリーズ最新作。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1215594.jpg",
+   "published_at": "2026-11-05T02:29:36+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
+   "id": "n_8a5bc1e99ada",
+   "title": "New Blood CEO would rather shut down the boomer shooter studio than sell out: 'In 20 years, we're done. I'm gonna say goodbye, shut it down'",
+   "link": "https://www.pcgamer.com/games/fps/new-blood-ceo-would-rather-shut-down-the-boomer-shooter-studio-than-sell-out-in-20-years-were-done-im-gonna-say-goodbye-shut-it-down/",
+   "summary": "\"I want us to have a happy ending. I want us to go out on our terms.\"",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/LWJqcFFvfrZySZj5CgRwGL-1920-80.jpg",
+   "published_at": "2026-11-05T02:28:16+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
   {
    "id": "n_95fac57c36ab",
    "title": "Nexus Mods は AI 生成コンテンツに対して Valve のアプローチを採用: 完全な禁止はありませんが、開示は義務付けられています",
@@ -216,6 +936,19 @@
    "first_seen": "2026-11-05T02:20:58+09:00",
    "title_original": "God Of War Laufey Hit With Three-Month Delay",
    "translated": true
+  },
+  {
+   "id": "n_1f24be58018e",
+   "title": "God of War Laufey delayed to May 20, 2027",
+   "link": "https://www.gematsu.com/2026/11/god-of-war-laufey-delayed-to-may-20-2027",
+   "summary": "Publisher Sony Interactive Entertainment and developer Santa Monica Studio have delayed God of War Laufey …",
+   "source": "Gematsu",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/09/God-of-War-Laufey_2026_09-28-26_004.jpg",
+   "published_at": "2026-11-05T02:05:55+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
   },
   {
    "id": "n_be20c07b7f2d",
@@ -260,21 +993,6 @@
    "published_at": "2026-11-05T01:39:11+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00",
    "title_original": "'How can prices fall when there's nothing left?' TeamGroup CEO reckons supply-demand memory equilibrium may not happen until late 2028 at the earliest",
-   "translated": true
-  },
-  {
-   "id": "n_32a1a7406f33",
-   "title": "『フォートナイト』プレイヤーたちは、ワンピースの海賊ショップトークンを手に入れるために、本に載っているあらゆるトリックを使っている",
-   "link": "https://kotaku.com/fortnite-players-are-using-every-trick-in-the-book-to-get-that-one-piece-pirate-shop-token-2000753315",
-   "summary": "You can buy an account with Pirate Shop access on eBay for $10,000",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2025/09/one-piece.jpg",
-   "published_at": "2026-11-05T01:30:59+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Fortnite Players Are Using Every Trick In The Book To Get That One Piece Pirate Shop Token",
    "translated": true
   },
   {
@@ -338,21 +1056,6 @@
    "published_at": "2026-11-05T01:05:39+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00",
    "title_original": "Data centers lost the midterms",
-   "translated": true
-  },
-  {
-   "id": "n_9e576cd3d368",
-   "title": "アングリーバード 3 トレーラーでソニック・ザ・ヘッジホッグのサプライズ登場が明らかに",
-   "link": "https://kotaku.com/angry-birds-movie-3-sonic-hedgehog-cameo-new-trailer-2000753322",
-   "summary": "The blue blur is making a cameo in the upcoming animated film",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/11/sonicangrybirds.jpg",
-   "published_at": "2026-11-05T01:00:40+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Angry Birds 3 Trailer Reveals A Surprise Appearance By Sonic The Hedgehog",
    "translated": true
   },
   {
@@ -427,38 +1130,6 @@
    "image": "http://www.gamespark.jp/imgs/rss/1215570.jpg",
    "published_at": "2026-11-05T00:45:03+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_a9fcc7dd16c0",
-   "title": "サム・アルトマン、RAMに関する不評なコメントの後、壮絶な180を達成：「めちゃくちゃ迷惑だ」",
-   "link": "https://kotaku.com/sam-altman-pulls-spectacular-180-after-unpopular-comments-about-ram-it-is-fking-annoying-2000753328",
-   "summary": "The OpenAI boss changed his name on Twitter to Ram Altman as part of his backpedaling",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/10/sam-alt-1280x717.jpg",
-   "published_at": "2026-11-05T00:44:06+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Sam Altman Pulls Spectacular 180 After Unpopular Comments About RAM: ‘It Is F**king Annoying’",
-   "translated": true
-  },
-  {
-   "id": "n_31282f17b436",
-   "title": "任天堂のスイッチカートリッジチップメーカーがデータセンターに軸足を移し、物理メディアにさらなる打撃",
-   "link": "https://kotaku.com/nintendo-switch-cart-rom-physical-media-data-centers-manufacture-2000753293",
-   "summary": "Nintendo's ROM chip supplier, Macronix, stated that its ROM chip sales only made up 5 percent of its memory sales in its",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://kotaku.com/app/uploads/2025/09/New-Project-9-1280x720.jpg",
-   "published_at": "2026-11-05T00:30:33+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Another Blow For Physical Media As Nintendo’s Switch Cartridge Chip Manufacturer Pivots To Data Centers",
-   "translated": true
   },
   {
    "id": "n_7ad31391502b",
@@ -563,21 +1234,6 @@
    "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/20261105_CRYMELIGHT_001-1024x576.png",
    "published_at": "2026-11-05T00:00:51+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_f1e1c9285d5a",
-   "title": "オールドスクール RuneScape は World Of Warcraft: Classic を踏襲し、パーマデス ハードコア モードを追加",
-   "link": "https://kotaku.com/old-school-runescape-is-following-world-of-warcraft-classic-and-adding-a-permadeath-hardcore-mode-2000752446",
-   "summary": "Maybe don't go to the Wildy",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/11/runescape-hardcore-1280x720.jpg",
-   "published_at": "2026-11-05T00:00:48+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Old School RuneScape Is Following World Of Warcraft: Classic And Adding A Permadeath Hardcore Mode",
-   "translated": true
   },
   {
    "id": "n_91b10742ef8b",
@@ -692,21 +1348,6 @@
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
-   "id": "n_7aca8a0cd9d0",
-   "title": "有権者はトランプ大統領に薬を飲まされたHalo作曲家にはノー、ドラゴンボールZ作曲家にはイエスと答える",
-   "link": "https://kotaku.com/voters-says-no-to-trump-pilled-halo-composer-yes-to-dragon-ball-z-composer-2000753305",
-   "summary": "Marty O’Donnell has been rejected by the voters again",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/11/halo-goku-1280x733.jpg",
-   "published_at": "2026-11-04T23:30:22+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Voters Says No To Trump-Pilled Halo Composer, Yes To Dragon Ball Z Composer",
-   "translated": true
-  },
-  {
    "id": "n_3a06f84c0f51",
    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
    "link": "https://openai.com/index/openai-to-acquire-pierre",
@@ -776,19 +1417,17 @@
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
-   "id": "n_850ff6bc306a",
-   "title": "米国選挙夜のブルーウェーブにインターネットが反応",
-   "link": "https://kotaku.com/united-states-election-night-results-reactions-jokes-memes-2000753307",
-   "summary": "‘Looks like the U.S. hit a Paragon interrupt’",
-   "source": "Kotaku",
+   "id": "n_221c57036639",
+   "title": "Pokemon Pokopia DLC ‘Expansion Pass Part 2: Dazzling Decorations’ launches December 9",
+   "link": "https://www.gematsu.com/2026/11/pokemon-pokopia-dlc-expansion-pass-part-2-dazzling-decorations-launches-december-9",
+   "summary": "Cozy life simulation game Pokemon Pokopia paid downloadable content “Expansion Pass Part 2: Dazzling Decorations” …",
+   "source": "Gematsu",
    "region": "global",
    "genre": "game",
    "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/11/captainamerica-1280x720.jpg",
-   "published_at": "2026-11-04T23:06:12+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "The Internet Reacts To The United States’ Election Night Blue Wave",
-   "translated": true
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Pokopia-DLC_11-04-26.jpg",
+   "published_at": "2026-11-04T23:05:20+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
   },
   {
    "id": "n_156a539d5e1c",
@@ -840,21 +1479,6 @@
    "translated": true
   },
   {
-   "id": "n_7975f24901a3",
-   "title": "世界最大の MOD サイトが AI の開示を義務付けるも、その使用を禁止するまでには至らない",
-   "link": "https://kotaku.com/nexus-mods-gen-ai-disclosure-rules-steam-itch-update-2000753301",
-   "summary": "'We are pro-human creativity' declares the new owner of Nexus Mods",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/11/nexus-mods-1280x720.jpg",
-   "published_at": "2026-11-04T22:30:24+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "The World’s Biggest Mod Site Makes AI Disclosure Mandatory, But Stops Short Of Banning Its Use",
-   "translated": true
-  },
-  {
    "id": "n_4562d195a51c",
    "title": "【最大4人協力】おとぼけロボットACT『PERI.CO』発表！巨大なボスに破壊されてもSSDさえ無事なら大丈夫",
    "link": "http://www.gamespark.jp/article/2026/11/04/174479.html",
@@ -881,19 +1505,6 @@
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
-   "id": "n_be9da7b05361",
-   "title": "航空機も艦船も自分で操縦！太平洋戦線RTT『Fleets of Valor』11月7日リリース。デモ版も配信中",
-   "link": "http://www.gamespark.jp/article/2026/11/04/174478.html",
-   "summary": "対空砲火の弾幕を掻い潜る勇気が勝利をもたらす！",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1215494.jpg",
-   "published_at": "2026-11-04T22:15:03+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
    "id": "n_5505da3fa916",
    "title": "『Halo』と『Destiny』の作曲家マーティ・オドネル氏、米国下院議席争いに敗れる",
    "link": "https://www.eurogamer.net/halo-destiny-composer-martin-o-donnell-projected-lose-us-congress-race",
@@ -907,36 +1518,6 @@
    "first_seen": "2026-11-05T02:20:58+09:00",
    "title_original": "Halo and Destiny composer Marty O'Donnell loses his race for a seat in the US House of Representatives",
    "translated": true
-  },
-  {
-   "id": "n_1ab331f9d011",
-   "title": "ドラゴンズ ドグマ 2 ダンジョンコラボでおいしいサプライズをドロップ",
-   "link": "https://kotaku.com/dragons-dogma-2-drops-surprise-delicious-in-dungeon-collab-2000753287",
-   "summary": "Guess there's life in the old Dogma yet",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://kotaku.com/app/uploads/2026/11/Dragons-Dogma-2-Delicious-in-Dungeon-collab-1280x720.jpg",
-   "published_at": "2026-11-04T22:00:12+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Dragon’s Dogma 2 Drops Surprise Delicious In Dungeon Collab",
-   "translated": true
-  },
-  {
-   "id": "n_7d81334622b8",
-   "title": "MMO型の世界でのんびり生活を満喫するライフシムが配信。自分だけの空島で農業・冒険・家づくり―採れたて！本日のSteam注目ゲーム15選【2026年11月4日】",
-   "link": "http://www.gamespark.jp/article/2026/11/04/174477.html",
-   "summary": "着せ替えを楽しんだり、ペットを飼ったり、友達の空島を自分の島と繋げたり、自由気ままな暮らしが楽しめます。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "PC"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1215349.jpg",
-   "published_at": "2026-11-04T22:00:03+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
    "id": "n_9629b9d628e6",
@@ -1038,19 +1619,6 @@
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
-   "id": "n_65be18ba9393",
-   "title": "銃はいらない？ 移動が遅い？ 回避ないの？『アノマリス』を序盤で見限るのは早い！ プレイを続けると見えてくる「対処法」は一考の価値あり",
-   "link": "http://www.gamespark.jp/article/2026/11/04/174476.html",
-   "summary": "発売された『アノマリス』には、Xなどでさまざまな意見が寄せられています。納得できる指摘もある一方、序盤だけで判断するのは少々早い意見もありました。その不満、プレイを続けることで解消される可能性があります。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1215472.jpg",
-   "published_at": "2026-11-04T21:18:20+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
    "id": "n_9297c8ab6d71",
    "title": "「勝利の女神：NIKKE」，PCランチャーのスクリプトファイルが第三者によって改ざんされた可能性を確認",
    "link": "https://www.4gamer.net/games/685/G068576/20261104056/",
@@ -1077,23 +1645,6 @@
    "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/batch_ACE8_3840_2160_left_FIX_blue20260129.jpg-1024x576.webp",
    "published_at": "2026-11-04T21:10:50+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_6c35bb9edec3",
-   "title": "『ゼルダ: 時のオカリナ』リメイク版のレビューが 2026 年の最高評価のゲームに",
-   "link": "https://kotaku.com/legend-of-zelda-ocarina-of-time-review-roundup-nintendo-switch-2-2000753291",
-   "summary": "The Switch 2 version is being described as 'beautiful' and a 'masterpiece'",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://kotaku.com/app/uploads/2026/11/ocarina-reviews-1280x720.jpg",
-   "published_at": "2026-11-04T21:08:47+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00",
-   "title_original": "Zelda: Ocarina Of Time Remake Reviews Make It 2026’s Highest Rated Game",
-   "translated": true
   },
   {
    "id": "n_1ad8ef53d636",
@@ -1163,21 +1714,6 @@
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
-   "id": "n_6ef0b8ba3643",
-   "title": "『ゼルダの伝説 時のオカリナ』スイッチ2版メタスコア96点！「不朽の名作をいかに見事に再構築できるかを示す好例」との声も。暫定メタスコアは2026年1位に",
-   "link": "http://www.gamespark.jp/article/2026/11/04/174475.html",
-   "summary": "1998年にニンテンドウ64で発売された『ゼルダの伝説 時のオカリナ』のフルリメイク作品です。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1215442.jpg",
-   "published_at": "2026-11-04T20:47:43+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
    "id": "n_f4ab06976b60",
    "title": "WoW: Foreverの大規模な発売前バランスパッチは、古典的なパワーの連鎖から解放され、「高レベルのクリーチャーの健康を補って」増加します",
    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-massive-pre-launch-balance-patch-breaks-from-the-chains-classic-power-increasing-the-health-of-higher-level-creatures-to-compensate/",
@@ -1244,21 +1780,6 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-04T20:32:11+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_5c44ea71b0c8",
-   "title": "全長約1.5mのワニがXBOX Series Xを丸飲み！実際に動作する特注ゲーム機「XBOX Series X-BITE」公開―映画の特殊造形スタジオが手掛けた世界に1台の特別モデル",
-   "link": "http://www.gamespark.jp/article/2026/11/04/174474.html",
-   "summary": "造形を手掛けたのは、実写ドラマ「ウィッチャー」や映画「ジュラシック・ワールド／新たなる支配者」などの特殊造形・アニマトロニクスで知られるJohn Nolan Studioです。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "Xbox"
-   ],
-   "image": "http://www.gamespark.jp/imgs/rss/1215432.jpg",
-   "published_at": "2026-11-04T20:30:03+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
@@ -1375,19 +1896,6 @@
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
-   "id": "n_4dc311cc65c9",
-   "title": "『ドラクエ』スライムのパフェ、ももんじゃのケーキなど全6種のフィギュアが予約受付中",
-   "link": "http://www.gamespark.jp/article/2026/11/04/174473.html",
-   "summary": "「ドラゴンクエスト ミニチュアスイーツフィギュアコレクション スライムカフェ」が2027年1月26日に発売！スクウェア・エニックス e-STOREにて予約受付中。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1215413.jpg",
-   "published_at": "2026-11-04T20:00:03+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
    "id": "n_b7eb78405bc3",
    "title": "ゼルダの伝説 時のオカリナ (2026) レビュー",
    "link": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
@@ -1481,19 +1989,6 @@
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
-   "id": "n_2ec7eab59495",
-   "title": "『ポケモン』30周年記念アートブックのサンプルページが初公開！ポケモンやキャラ設定画、NPCトレーナーの一覧まで大ボリューム",
-   "link": "http://www.gamespark.jp/article/2026/11/04/174472.html",
-   "summary": "「ポケットモンスター ビジュアルアートブック 30th anniversary Art Book of Pokémon Video Games developed by GAME FREAK」のサンプルページが公開！",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1215388.jpg",
-   "published_at": "2026-11-04T19:30:02+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
    "id": "n_b2c22b3847dd",
    "title": "TessaroApps、インクリメンタルタワーディフェンス『Hivetide』をSteamにて11月3日に発売",
    "link": "https://gamebiz.jp/news/435054",
@@ -1584,19 +2079,6 @@
    "translated": true
   },
   {
-   "id": "n_86a2695afe24",
-   "title": "『エレベーターアクション』が11月5日より「コンアカ」で復刻。エレベーターを駆使してビルからの脱出を目指す",
-   "link": "https://news.denfaminicogamer.jp/news/2611042n",
-   "summary": "1985年にタイトーから8ビット家庭用ゲーム機向けに発売されたアクションゲーム。組織のビルに潜入し、ピストルやジャンプキックで戦いながら機密書類をあつめる",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/SS04-1-1024x576.png",
-   "published_at": "2026-11-04T19:00:43+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
    "id": "n_eb8592f922d4",
    "title": "ハムスター、「コンソールアーカイブス エレベーターアクション」を11月5日に配信！",
    "link": "https://gamebiz.jp/news/435043",
@@ -1637,47 +2119,6 @@
    "platforms": [],
    "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261104-477468-header.jpg",
    "published_at": "2026-11-04T18:57:31+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_5860e84d9fe9",
-   "title": "『コードギアス 反逆のルルーシュ』から「C.C.」の超特大ぬいぐるみが登場。普段は髪に隠れているギアスマークも、めくるとしっかり再現",
-   "link": "https://news.denfaminicogamer.jp/news/2611042q",
-   "summary": "株式会社タイトーは、「どきゅーと コードギアス 反逆のルルーシュ 超特大ぬいぐるみ C.C.」の予約販売を、11月6日より実施予定だ。 同商品は、2026年10月に20周年を迎えた『コードギアス 反逆のルルーシュ』の「C.C.」を、高さ約1",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/main-10-1024x683.png",
-   "published_at": "2026-11-04T18:54:40+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_8666be310c57",
-   "title": "【すごい】天野喜孝氏が米国「Concept Art Awards」で「生涯功労賞」を受賞！宮崎駿氏や大友克洋氏に続く日本人3人目の快挙",
-   "link": "https://news.denfaminicogamer.jp/news/2611042r",
-   "summary": "『FF』シリーズのロゴやイラスト、『タイムボカンシリーズ』のキャラデザなどで知られるアーティスト。コンセプトアートやビジュアル開発の功績が称えられる",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/main-5-1024x683.jpg",
-   "published_at": "2026-11-04T18:50:27+09:00",
-   "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_b2a4867cf183",
-   "title": "もこもこヒツジの毛を刈るゲーム『Shear It!』Steamストアページが公開中。“巨大なヒツジ”にも会える",
-   "link": "https://news.denfaminicogamer.jp/news/2611042u",
-   "summary": "あつめた羊毛をつむいでお金を稼ぎ、道具や設備をアップグレード。毛刈りを進めていくと新たな牧草地が解放され、より大きなヒツジの毛を刈ることができる",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/ShearIt_Screenshot_01_Shearing-1024x576.png",
-   "published_at": "2026-11-04T18:46:44+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00"
   },
   {
@@ -1954,6 +2395,19 @@
    "first_seen": "2026-11-04T18:15:54+09:00"
   },
   {
+   "id": "n_a4f4c423c542",
+   "title": "A thousand fewer paths to root",
+   "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vuln",
+   "source": "OpenAI",
+   "region": "official",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-04T17:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
+  },
+  {
    "id": "n_7f8ce50ffbd2",
    "title": "『グランド・セフト・オートVI』の事前ダウンロードが11月10日（火）に開始",
    "link": "https://blog.ja.playstation.com/2026/11/04/20261104-gtavi-pre-launch-update-o/",
@@ -1969,19 +2423,6 @@
    "first_seen": "2026-11-04T18:15:54+09:00"
   },
   {
-   "id": "n_590b70ea7c15",
-   "title": "空島スローライフMMO『Loftia』が人気爆発。自由な服とお家でエコな農業楽しむ“戦わない”MMO",
-   "link": "https://automaton-media.com/articles/newsjp/20261104-477368/",
-   "summary": "Qloud Gamesは11月4日、ライフシムMMO『Loftia』を早期アクセス配信した。さっそく多くのプレイヤーが集まり、好評を博しているようだ。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261104-477368-header.jpg",
-   "published_at": "2026-11-04T16:18:49+09:00",
-   "first_seen": "2026-11-04T18:15:54+09:00"
-  },
-  {
    "id": "n_75679f5aa60b",
    "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
    "link": "https://openai.com/index/daybreak-red-aws-govcloud",
@@ -1993,19 +2434,6 @@
    "image": null,
    "published_at": "2026-11-04T16:00:00+09:00",
    "first_seen": "2026-11-05T02:20:58+09:00"
-  },
-  {
-   "id": "n_a265aca6d438",
-   "title": "Mod共有サイト「Nexus Mods」、AIの利用開示を義務化。「AIの是非」にコミュニティ揺れるも、ひとまず“禁止”はしない",
-   "link": "https://automaton-media.com/articles/newsjp/20261104-477375/",
-   "summary": "Mod共有サイト「Nexus Mods」は11月3日、AI生成コンテンツに関する声明を発表した。新たにAI利用の開示が必須となる。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261104-477375-header.jpg",
-   "published_at": "2026-11-04T15:32:06+09:00",
-   "first_seen": "2026-11-04T18:15:54+09:00"
   },
   {
    "id": "n_d2800bb29c23",
@@ -2149,21 +2577,6 @@
    "first_seen": "2026-11-04T18:15:54+09:00"
   },
   {
-   "id": "n_5d47252e76d4",
-   "title": "The biggest modding site in PC gaming is taking a stance on AI",
-   "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-   "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that ",
-   "source": "The Verge AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-11-04T09:42:10+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
    "id": "n_9c3108facc15",
    "title": "Apple、刷新版「Siri AI」を全開発者に開放 アプリ連携で予約や注文などの操作が可能に",
    "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002855/",
@@ -2203,22 +2616,6 @@
    "first_seen": "2026-11-04T10:24:13+09:00"
   },
   {
-   "id": "n_6f96211556ef",
-   "title": "Game Pass Is About To Get One Of My Favorite Minimalist Strategy Games",
-   "link": "https://kotaku.com/game-pass-is-about-to-get-one-of-my-favorite-minimalist-strategy-games-2000752877",
-   "summary": "Thronefall is great on console and PC",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "PC",
-    "Xbox"
-   ],
-   "image": "https://kotaku.com/app/uploads/2026/11/thronefall-1280x720.jpg",
-   "published_at": "2026-11-04T09:00:29+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
    "id": "n_a02eee38b3d4",
    "title": "3D CADデータ×AIで造船設計を支援、設計情報の確認作業を効率化へ",
    "link": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news020.html",
@@ -2230,6 +2627,19 @@
    "image": null,
    "published_at": "2026-11-04T09:00:00+09:00",
    "first_seen": "2026-11-04T10:24:13+09:00"
+  },
+  {
+   "id": "n_bf25be8f8779",
+   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "link": "https://openai.com/index/devrev-enterprise-self-service",
+   "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+   "source": "OpenAI",
+   "region": "official",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-04T09:00:00+09:00",
+   "first_seen": "2026-11-05T08:41:07+09:00"
   },
   {
    "id": "n_01e6389639d3",
@@ -2244,47 +2654,6 @@
    ],
    "image": "https://cdn.mos.cms.futurecdn.net/UoEzWoavREo9zwpFLKCqC-1920-80.jpg",
    "published_at": "2026-11-04T08:51:13+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
-   "id": "n_64fbdbf83ed1",
-   "title": "Please stop asking me when the AI bubble will pop",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-   "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble wil",
-   "source": "The Verge AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T08:37:45+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
-   "id": "n_53fff4c35c99",
-   "title": "Devs Are Blaming A Flood Of AI Slop On Steam For Delaying Their Games",
-   "link": "https://kotaku.com/devs-are-being-forced-to-delay-their-games-on-steam-and-they-think-its-because-of-the-ai-slop-flood-2000752839",
-   "summary": "'Oh no, we are not releasing on the same day as Zelda '",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://kotaku.com/app/uploads/2025/08/valve.jpg",
-   "published_at": "2026-11-04T08:02:50+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
-   "id": "n_ea8888bb11fd",
-   "title": "Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'",
-   "link": "https://www.pcgamer.com/software/ai/google-criticized-by-nyc-mayor-zohran-mamdani-following-ai-policy-change-google-is-trying-to-use-its-monopoly-power-to-force-ai-into-our-public-schools/",
-   "summary": "Mamdani and others have called out Google's decision to disable search functionality for schools who opt out of its AI t",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/yy7kuH4T4FoMBC4UJHgSdj-1920-80.jpg",
-   "published_at": "2026-11-04T07:58:03+09:00",
    "first_seen": "2026-11-04T10:24:13+09:00"
   },
   {
@@ -2314,21 +2683,6 @@
    "first_seen": "2026-11-04T10:24:13+09:00"
   },
   {
-   "id": "n_fad3335a9150",
-   "title": "Final Fantasy 7 Remake And Rebirth Are Absurdly Cheap On Switch 2 Right Now",
-   "link": "https://kotaku.com/final-fantasy-7-remake-and-rebirth-are-absurdly-cheap-on-switch-2-right-now-2000752863",
-   "summary": "Two of the best RPGs on Nintendo's console are dirt cheap",
-   "source": "Kotaku",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://kotaku.com/app/uploads/2026/11/cloud-1280x720.jpg",
-   "published_at": "2026-11-04T07:30:40+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
    "id": "n_59cb8a96ca92",
    "title": "Data centers are turning to old jet engines as the wait for power grows",
    "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
@@ -2342,21 +2696,6 @@
    "first_seen": "2026-11-04T10:24:13+09:00"
   },
   {
-   "id": "n_cd653a114537",
-   "title": "Ubisoft reportedly wants to buy Arkane from Xbox",
-   "link": "https://www.pcgamer.com/gaming-industry/ubisoft-reportedly-wants-to-buy-arkane-from-xbox/",
-   "summary": "There might be hope for Arkane after all: A new report says multiple companies have made offers for it.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Xbox"
-   ],
-   "image": "https://cdn.mos.cms.futurecdn.net/omjsXVE2okQWrjxMV2AeBi-1920-80.jpg",
-   "published_at": "2026-11-04T07:12:35+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
    "id": "n_c646e64c3ca3",
    "title": "資料作成の「手直し地獄」がちょっと楽になる、Gemini新機能発表まとめ",
    "link": "https://kn.itmedia.co.jp/kn/article/2611/04/2000002816/",
@@ -2367,32 +2706,6 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-04T07:00:00+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
-   "id": "n_f5cb0a15285b",
-   "title": "Control Resonant is Remedy's fastest-selling game to date, tripling the studio's quarterly revenue",
-   "link": "https://www.pcgamer.com/games/action/control-resonant-is-remedys-fastest-selling-game-to-date-tripling-the-studios-quarterly-revenue/",
-   "summary": "Countless sickos of a certain vintage just breathed sighs of relief.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/xb2cQYdhNf5wD8AmMALY4G-1920-80.webp",
-   "published_at": "2026-11-04T06:54:41+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
-   "id": "n_123eda57c5a7",
-   "title": "東北大とアイシンがSTT-MRAM搭載AIチップを開発、16nmプロセスでは世界初",
-   "link": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news046.html",
-   "summary": "東北大学とアイシンは、不揮発性メモリであるSTT-MRAMを搭載するAIチップを開発したと発表した。「近メモリコンピューティング（NMC）」型のAIチップであり、従来比で電源投入からOS起動までの時間を約39倍高速化するとともに、物体検出な",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T06:45:00+09:00",
    "first_seen": "2026-11-04T10:24:13+09:00"
   },
   {
@@ -2422,137 +2735,6 @@
    "first_seen": "2026-11-04T10:24:13+09:00"
   },
   {
-   "id": "n_39cfcbde58ed",
-   "title": "Those Jeff Bezos hair transplant photos are very fake",
-   "link": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
-   "summary": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and ",
-   "source": "The Verge AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T06:01:07+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
-   "id": "n_562153fa17bc",
-   "title": "全社員を「AIマスター化」した広告代理店の“研修じゃない”人材戦略",
-   "link": "https://kn.itmedia.co.jp/kn/article/2611/04/2000002712/",
-   "summary": "顧客支援の質とスピードを底上げすべく生成AIの全社導入に踏み切ったテレシーだが、AIリテラシー格差による提供価値のバラつきや情報漏えいに対する懸念に直面した。同社はこの課題を突破するために、AI人材の育成と情報基盤の整備の両輪が必要だと考え",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T06:00:00+09:00",
-   "first_seen": "2026-11-04T10:24:13+09:00"
-  },
-  {
-   "id": "n_49792679d79f",
-   "title": "Apple、Siri AI にサードパーティ アプリへのアクセスを許可し始める",
-   "link": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
-   "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesda",
-   "source": "The Verge AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T05:16:17+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "Apple starts giving Siri AI access to third-party apps",
-   "translated": true
-  },
-  {
-   "id": "n_285a148b5739",
-   "title": "1 対 1 の戦闘を通じて史上最高の FPS モードを制覇する—セミファイナル!",
-   "link": "https://www.pcgamer.com/games/fps/crowning-the-greatest-fps-mode-of-all-time-through-1v1-combat-semifinals/",
-   "summary": "Battle royale is dead. Bomb be gone. It only gets harder from here...",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/YaMpuvXrbCsUQ5NSwnxLG4-1920-80.jpg",
-   "published_at": "2026-11-04T04:41:04+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS!",
-   "translated": true
-  },
-  {
-   "id": "n_c69664e34de2",
-   "title": "AI推論スタートアップFal、需要急増で評価額を2倍の160億ドルに",
-   "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-   "summary": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T04:34:43+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-   "translated": true
-  },
-  {
-   "id": "n_e9a5bab14503",
-   "title": "エルダースクロールズ6の完成はまだ遠い、ベセスダは「さらなる情報を共有する準備が整うまでにはしばらく時間がかかるだろう」と警告",
-   "link": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-still-a-long-way-off-bethesda-warns-itll-be-some-time-before-were-ready-to-share-more/",
-   "summary": "The waiting ain't over yet.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://cdn.mos.cms.futurecdn.net/Ga5SmnSkfRrmx9ChoFQAxg-1920-80.jpg",
-   "published_at": "2026-11-04T04:27:07+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'",
-   "translated": true
-  },
-  {
-   "id": "n_2023d4b1aafd",
-   "title": "Netflix の新しい AI Discover タブは、気分に応じて見たいものを見つけるのに役立ちます",
-   "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-   "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in ",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T03:42:16+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-   "translated": true
-  },
-  {
-   "id": "n_62af55115339",
-   "title": "Apple の最新の watchOS ベータ版には、新しい常時オンのオーディオ インテリジェンス機能が含まれています",
-   "link": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
-   "summary": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new ",
-   "source": "The Verge AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T03:31:00+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
-   "translated": true
-  },
-  {
-   "id": "n_662bf89dbff2",
-   "title": "OpenAIはChatGPTが検索においてGoogleに追いついていると言っている",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-   "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume",
-   "source": "The Verge AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T03:30:42+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "OpenAI says ChatGPT is catching up to Google in search",
-   "translated": true
-  },
-  {
    "id": "n_69806aa8738c",
    "title": "Game Pass に Escape Academy 2: Back 2 School、Thronefall、Warhammer Survivors などが 11 月上旬から中旬に追加されます",
    "link": "https://www.gematsu.com/2026/11/game-pass-adds-escape-academy-2-back-2-school-thronefall-warhammer-survivors-and-more-in-early-to-mid-november",
@@ -2567,21 +2749,6 @@
    "published_at": "2026-11-04T03:10:31+09:00",
    "first_seen": "2026-11-04T06:00:50+09:00",
    "title_original": "Game Pass adds Escape Academy 2: Back 2 School, Thronefall, Warhammer Survivors, and more in early to mid November",
-   "translated": true
-  },
-  {
-   "id": "n_2437af63b2f8",
-   "title": "Anthropic は依然としてコンピューティングの経済学と格闘しています",
-   "link": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-   "summary": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T02:07:01+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "Anthropic is still grappling with the economics of compute",
    "translated": true
   },
   {
@@ -2620,21 +2787,6 @@
    "translated": true
   },
   {
-   "id": "n_410d5c941f71",
-   "title": "Googleは学校が自社のAIツールを無効にすることを許可するが、検索を犠牲にすることは避けられない",
-   "link": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
-   "summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integr",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T01:30:34+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "Google will let schools disable its AI tools, but not without sacrificing Search",
-   "translated": true
-  },
-  {
    "id": "n_3a58588aee71",
    "title": "PS5版「ポピュコム」11月17日発売",
    "link": "https://www.gematsu.com/2026/11/popucom-for-ps5-launches-november-17",
@@ -2649,21 +2801,6 @@
    "published_at": "2026-11-04T01:08:23+09:00",
    "first_seen": "2026-11-04T06:00:50+09:00",
    "title_original": "POPUCOM for PS5 launches November 17",
-   "translated": true
-  },
-  {
-   "id": "n_f9c0c715eee2",
-   "title": "Apple、出会い系アプリとAIコンパニオンを18歳以上のユーザーに制限",
-   "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-   "summary": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic con",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-04T00:38:27+09:00",
-   "first_seen": "2026-11-04T06:00:50+09:00",
-   "title_original": "Apple restricts dating apps and AI companions to users 18 and up",
    "translated": true
   },
   {
@@ -2753,60 +2890,6 @@
    "first_seen": "2026-11-04T00:10:21+09:00"
   },
   {
-   "id": "n_954137d8d070",
-   "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4",
-   "link": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
-   "summary": "On November 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insig",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-03T23:30:00+09:00",
-   "first_seen": "2026-11-04T00:10:21+09:00"
-  },
-  {
-   "id": "n_2b376a551173",
-   "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
-   "link": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
-   "summary": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-03T23:00:00+09:00",
-   "first_seen": "2026-11-04T00:10:21+09:00"
-  },
-  {
-   "id": "n_d3cf3623b233",
-   "title": "COD: Modern Warfare 4 DMZ patch has nerfed UAV Towers so you're not immediately visible everywhere you go",
-   "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-uav-tower-nerf",
-   "summary": "The Call of Duty: Modern Warfare 4 patches continue, with the latest delivering some big changes to the game's extractio",
-   "source": "Eurogamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/DMZ-COD-MW4-(6).jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-11-03T22:36:19+09:00",
-   "first_seen": "2026-11-04T00:10:21+09:00"
-  },
-  {
-   "id": "n_131a07da01e9",
-   "title": "Indie game website itch.io expands its AI disclosure filter as 'AI slop' continues to overwhelm Steam and other storefronts",
-   "link": "https://www.eurogamer.net/itchio-generative-ai-filters-slop",
-   "summary": "Indie game storefront itch.io has expanded its AI disclosure filters, allowing its users to better separate games made w",
-   "source": "Eurogamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://assetsio.gnwcdn.com/itch-logo-black-new-svg.png?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-11-03T21:03:56+09:00",
-   "first_seen": "2026-11-04T00:10:21+09:00"
-  },
-  {
    "id": "n_26c6032e1d26",
    "title": "Accelerating engineering for the physical world",
    "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
@@ -2818,19 +2901,6 @@
    "image": null,
    "published_at": "2026-11-03T21:00:00+09:00",
    "first_seen": "2026-11-04T06:00:50+09:00"
-  },
-  {
-   "id": "n_82efcffd91b5",
-   "title": "It looks like Call of Duty: Modern Warfare 4 had fewer active players at launch in the US compared to last year's Black Ops 7",
-   "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-player-engagement-black-ops-7",
-   "summary": "It's been speculated for a while that Call of Duty may be losing its lustre. Although we don't have concrete data with d",
-   "source": "Eurogamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/DMZ-COD-MW4-(4).jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-11-03T20:22:41+09:00",
-   "first_seen": "2026-11-04T00:10:21+09:00"
   },
   {
    "id": "n_293d896a0d23",
@@ -2903,19 +2973,6 @@
    "first_seen": "2026-11-04T00:10:21+09:00"
   },
   {
-   "id": "n_0e5b1d74afc9",
-   "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-   "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-   "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversati",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-03T16:20:00+09:00",
-   "first_seen": "2026-11-04T00:10:21+09:00"
-  },
-  {
    "id": "n_0260c8333a08",
    "title": "「ゼルダの伝説」シリーズを溺愛するクラベの独断によるシリーズランキングTOP 10",
    "link": "https://jp.ign.com/zelda/84510/top-10",
@@ -2942,47 +2999,6 @@
    "first_seen": "2026-11-04T06:00:50+09:00"
   },
   {
-   "id": "n_c89a75689655",
-   "title": "Anthropic、IPO申請書を修正 7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
-   "link": "https://www.itmedia.co.jp/news/article/2611/03/2000002831/",
-   "summary": "Anthropicは、証券取引委員会（SEC）にIPOに向けた登録届出書の修正版を提出した。第3四半期の売上高は前年同期比約12.3倍の約169億ドルに拡大した一方、営業損益は赤字に転落。また、AI計算資源やインフラに関する将来の支出約束額",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-03T08:20:20+09:00",
-   "first_seen": "2026-11-03T15:50:17+09:00"
-  },
-  {
-   "id": "n_70e6b7ea5ee5",
-   "title": "Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy ‘Overview’ trailer",
-   "link": "https://www.gematsu.com/2026/11/pikmin-4-nintendo-switch-2-edition-dandori-academy-overview-trailer",
-   "summary": "Nintendo has released a four-minute overview trailer for Pikmin 4 – Nintendo Switch 2 Edition …",
-   "source": "Gematsu",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Pikmin-4-PV_11-02-26.jpg",
-   "published_at": "2026-11-03T08:05:25+09:00",
-   "first_seen": "2026-11-03T15:50:17+09:00"
-  },
-  {
-   "id": "n_67b5baa988f6",
-   "title": "Marvell、光通信技術のLumentumを約18兆円で買収 AIデータセンターの高速化に対応",
-   "link": "https://www.itmedia.co.jp/news/article/2611/03/2000002830/",
-   "summary": "半導体大手のMarvell Technologyは、光通信関連製品を手掛けるLumentum Holdingsを買収することで合意したと発表した。買収額は約1150億ドル。AIデータセンターで急増するデータ通信需要に対応するため、自社の半導",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-03T07:07:56+09:00",
-   "first_seen": "2026-11-03T08:32:23+09:00"
-  },
-  {
    "id": "n_1c951882c200",
    "title": "『SAROS』で立ちはだかる、カルコサを支配する君臨者たちの制作秘話",
    "link": "https://blog.ja.playstation.com/2026/11/03/20261103-saros-boss-deep-dive-feature-o/",
@@ -2998,10 +3014,10 @@
    "first_seen": "2026-11-03T08:32:23+09:00"
   },
   {
-   "id": "n_6fd6ad7938fa",
-   "title": "Rewarding defenders with bigger bug bounties",
-   "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for",
+   "id": "n_262cfa35f430",
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using A",
    "source": "OpenAI",
    "region": "official",
    "genre": "ai",
@@ -3011,10 +3027,10 @@
    "first_seen": "2026-11-03T15:50:17+09:00"
   },
   {
-   "id": "n_262cfa35f430",
-   "title": "Preparing our next security sprint to harden OpenAI",
-   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using A",
+   "id": "n_6fd6ad7938fa",
+   "title": "Rewarding defenders with bigger bug bounties",
+   "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for",
    "source": "OpenAI",
    "region": "official",
    "genre": "ai",
@@ -3035,43 +3051,6 @@
    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
    "published_at": "2026-11-03T02:45:00+09:00",
    "first_seen": "2026-11-03T08:32:23+09:00"
-  },
-  {
-   "id": "n_04ca84b59e89",
-   "title": "Silly Polly Beast が 11 月に Switch 2 に登場",
-   "link": "https://www.gematsu.com/2026/11/silly-polly-beast-coming-to-switch-2-in-november",
-   "summary": "Publisher Top Hat Studios and developer Anji Games will release a Switch 2 version of …",
-   "source": "Gematsu",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Switch"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/SPB-Switch-2-Announce_11-02-26.jpg",
-   "published_at": "2026-11-03T02:20:34+09:00",
-   "first_seen": "2026-11-03T08:32:23+09:00",
-   "title_original": "Silly Polly Beast coming to Switch 2 in November",
-   "translated": true
-  },
-  {
-   "id": "n_3c4c6890bc06",
-   "title": "PS5、Xbox シリーズ、Switch 2、PS4、Xbox One、Switch 用の Ova Magica が 11 月 10 日に発売",
-   "link": "https://www.gematsu.com/2026/11/ova-magica-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-switch-launches-november-10",
-   "summary": "Farming life simulation game Ova Magica will launch for PlayStation 5, Xbox Series, Switch 2, …",
-   "source": "Gematsu",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Switch",
-    "PS5",
-    "PS4",
-    "Xbox"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Ova-Magica-Consoles_11-02-26.jpg",
-   "published_at": "2026-11-03T02:18:19+09:00",
-   "first_seen": "2026-11-03T08:32:23+09:00",
-   "title_original": "Ova Magica for PS5, Xbox Series, Switch 2, PS4, Xbox One, and Switch launches November 10",
-   "translated": true
   },
   {
    "id": "n_de4cf53f9db9",
@@ -3126,19 +3105,6 @@
    "first_seen": "2026-11-03T08:32:23+09:00"
   },
   {
-   "id": "n_d1682afdf855",
-   "title": "富士通とNECのCFOが語る、2026年下期以降の「ITサービス需要動向」",
-   "link": "https://www.itmedia.co.jp/enterprise/articles/2611/02/news053.html",
-   "summary": "サイバー攻撃への緊急対応、膨らむAIコスト、部材の高騰といった不安要素が重なる中、ITサービス需要はどうなるのか。富士通とNECの受注状況と決算会見での発言から今後の需要動向を探る。",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-02T15:00:00+09:00",
-   "first_seen": "2026-11-03T00:57:34+09:00"
-  },
-  {
    "id": "n_a43f3388d5b7",
    "title": "『女神異聞録ペルソナ』のリメイク映像がネット上に流出か",
    "link": "https://jp.ign.com/persona/84539/",
@@ -3167,19 +3133,6 @@
    "first_seen": "2026-11-02T15:08:07+09:00"
   },
   {
-   "id": "n_ff138f709a7e",
-   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-   "link": "https://openai.com/index/dan-driscoll-joins-openai",
-   "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and coll",
-   "source": "OpenAI",
-   "region": "official",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-02T09:00:00+09:00",
-   "first_seen": "2026-11-03T15:50:17+09:00"
-  },
-  {
    "id": "n_598c6194c0d3",
    "title": "Qodo builds context into AI code review with Codex",
    "link": "https://openai.com/index/qodo-codex-plugin",
@@ -3191,23 +3144,22 @@
    "image": null,
    "published_at": "2026-11-02T09:00:00+09:00",
    "first_seen": "2026-11-03T08:32:23+09:00"
+  },
+  {
+   "id": "n_ff138f709a7e",
+   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+   "link": "https://openai.com/index/dan-driscoll-joins-openai",
+   "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and coll",
+   "source": "OpenAI",
+   "region": "official",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-02T09:00:00+09:00",
+   "first_seen": "2026-11-03T15:50:17+09:00"
   }
  ],
  "deals": [
-  {
-   "id": "d_steam_5266240",
-   "store": "steam",
-   "title": "Potato Please",
-   "link": "https://store.steampowered.com/app/5266240/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5266240/e289442aa6b3756109bc65b427556ea538efb849/header.jpg?t=1793717995",
-   "price_original": 1400,
-   "price_sale": 1260,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-16T03:00:36+09:00"
-  },
   {
    "id": "d_steam_4348910",
    "store": "steam",
@@ -3221,6 +3173,20 @@
    "upcoming": false,
    "starts_at": null,
    "ends_at": "2026-11-12T02:00:39+09:00"
+  },
+  {
+   "id": "d_steam_5266240",
+   "store": "steam",
+   "title": "Potato Please",
+   "link": "https://store.steampowered.com/app/5266240/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5266240/e289442aa6b3756109bc65b427556ea538efb849/header.jpg?t=1793717995",
+   "price_original": 1400,
+   "price_sale": 1260,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-11-16T03:00:36+09:00"
   },
   {
    "id": "d_steam_4530370",
@@ -3279,6 +3245,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_3375780",
+   "store": "steam",
+   "title": "空の軌跡 the 1st",
+   "link": "https://store.steampowered.com/app/3375780/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/header_japanese.jpg?t=1791225209",
+   "price_original": 8800,
+   "price_sale": 4400,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": "2026-11-17T03:00:00+09:00"
+  },
+  {
    "id": "d_steam_2991310",
    "store": "steam",
    "title": "夢幻桜楼閣",
@@ -3287,20 +3267,6 @@
    "price_original": 1500,
    "price_sale": 1200,
    "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_252490",
-   "store": "steam",
-   "title": "Rust",
-   "link": "https://store.steampowered.com/app/252490/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_231x87.jpg?t=1781536981",
-   "price_original": 4600,
-   "price_sale": 2300,
-   "discount": 50,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3321,20 +3287,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_960170",
-   "store": "steam",
-   "title": "DJMAX RESPECT V",
-   "link": "https://store.steampowered.com/app/960170/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/960170/f00db0558f4b4bd8965fd2e72aae3802ea46234b/capsule_231x87.jpg?t=1772009068",
-   "price_original": 4980,
-   "price_sale": 996,
-   "discount": 80,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_1799840",
    "store": "steam",
    "title": "Queen's Domain",
@@ -3347,6 +3299,34 @@
    "upcoming": false,
    "starts_at": null,
    "ends_at": "2026-11-07T02:00:43+09:00"
+  },
+  {
+   "id": "d_steam_252490",
+   "store": "steam",
+   "title": "Rust",
+   "link": "https://store.steampowered.com/app/252490/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_231x87.jpg?t=1781536981",
+   "price_original": 4600,
+   "price_sale": 2300,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3758950",
+   "store": "steam",
+   "title": "フレミング邸の殺人事件",
+   "link": "https://store.steampowered.com/app/3758950/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3758950/be7fb7d1b086f1c85779b1994b4c55a58f393b98/capsule_231x87_japanese.jpg?t=1793692815",
+   "price_original": 1840,
+   "price_sale": 1656,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
   },
   {
    "id": "d_steam_4017880",
@@ -3363,14 +3343,56 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3758950",
+   "id": "d_steam_960170",
    "store": "steam",
-   "title": "フレミング邸の殺人事件",
-   "link": "https://store.steampowered.com/app/3758950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3758950/be7fb7d1b086f1c85779b1994b4c55a58f393b98/capsule_231x87_japanese.jpg?t=1793692815",
-   "price_original": 1840,
-   "price_sale": 1656,
-   "discount": 10,
+   "title": "DJMAX RESPECT V",
+   "link": "https://store.steampowered.com/app/960170/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/960170/f00db0558f4b4bd8965fd2e72aae3802ea46234b/capsule_231x87.jpg?t=1772009068",
+   "price_original": 4980,
+   "price_sale": 996,
+   "discount": 80,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1285190",
+   "store": "steam",
+   "title": "ボーダーランズ®4",
+   "link": "https://store.steampowered.com/app/1285190/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1285190/7f4b1a9cbe01d19fdcbf10ef5dce492098ef0ba8/capsule_231x87.jpg?t=1793396913",
+   "price_original": 9460,
+   "price_sale": 4730,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2291060",
+   "store": "steam",
+   "title": "地球防衛軍６",
+   "link": "https://store.steampowered.com/app/2291060/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2291060/7516c54b49237066e807d0f24b344c15da26670c/capsule_231x87_japanese.jpg?t=1782115538",
+   "price_original": 8980,
+   "price_sale": 3951,
+   "discount": 56,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2060160",
+   "store": "steam",
+   "title": "農家は Replace() されました",
+   "link": "https://store.steampowered.com/app/2060160/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/71581173f1c6539225b8ed9865852d9282e1762f/capsule_231x87_alt_assets_2_japanese.jpg?t=1793711051",
+   "price_original": 1200,
+   "price_sale": 840,
+   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3395,66 +3417,24 @@
    "store": "steam",
    "title": "R.E.P.O.",
    "link": "https://store.steampowered.com/app/3241660/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3241660/be0c8d662bb4c8749736fd8fe336bc5d27bb3618/capsule_231x87_alt_assets_3.jpg?t=1793278962",
    "price_original": 1200,
    "price_sale": 780,
    "discount": 35,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-11-10T02:00:00+09:00"
-  },
-  {
-   "id": "d_steam_2060160",
-   "store": "steam",
-   "title": "農家は Replace() されました",
-   "link": "https://store.steampowered.com/app/2060160/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/71581173f1c6539225b8ed9865852d9282e1762f/capsule_231x87_alt_assets_2_japanese.jpg?t=1793711051",
-   "price_original": 1200,
-   "price_sale": 840,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_4179280",
+   "id": "d_steam_4356430",
    "store": "steam",
-   "title": "Moonshiner Simulator",
-   "link": "https://store.steampowered.com/app/4179280/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4179280/4882091dcd07344ed1f97edde6b5c70514f3c6a8/capsule_231x87.jpg?t=1793711064",
-   "price_original": 2100,
-   "price_sale": 1260,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2291060",
-   "store": "steam",
-   "title": "地球防衛軍６",
-   "link": "https://store.steampowered.com/app/2291060/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2291060/7516c54b49237066e807d0f24b344c15da26670c/capsule_231x87_japanese.jpg?t=1782115538",
-   "price_original": 8980,
-   "price_sale": 3951,
-   "discount": 56,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1285190",
-   "store": "steam",
-   "title": "ボーダーランズ®4",
-   "link": "https://store.steampowered.com/app/1285190/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1285190/7f4b1a9cbe01d19fdcbf10ef5dce492098ef0ba8/capsule_231x87.jpg?t=1793396913",
-   "price_original": 9460,
-   "price_sale": 4730,
-   "discount": 50,
+   "title": "『NBA 2K27』",
+   "link": "https://store.steampowered.com/app/4356430/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_231x87.jpg?t=1792163139",
+   "price_original": 14080,
+   "price_sale": 6336,
+   "discount": 55,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3475,14 +3455,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2190220",
+   "id": "d_steam_4179280",
    "store": "steam",
-   "title": "東方ダンマクカグラ ファンタジア・ロスト",
-   "link": "https://store.steampowered.com/app/2190220/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2190220/capsule_231x87_japanese.jpg?t=1793351533",
-   "price_original": 2650,
-   "price_sale": 1325,
-   "discount": 50,
+   "title": "Moonshiner Simulator",
+   "link": "https://store.steampowered.com/app/4179280/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4179280/4882091dcd07344ed1f97edde6b5c70514f3c6a8/capsule_231x87.jpg?t=1793711064",
+   "price_original": 2100,
+   "price_sale": 1260,
+   "discount": 40,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3517,32 +3497,18 @@
    "ends_at": "2026-11-10T03:00:00+09:00"
   },
   {
-   "id": "d_steam_3322630",
+   "id": "d_steam_1677110",
    "store": "steam",
-   "title": "カルドセプト ビギンズ",
-   "link": "https://store.steampowered.com/app/3322630/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3322630/2407e385d5d20307c818a3b97d37351f603a0b38/capsule_231x87_japanese.jpg?t=1793111634",
-   "price_original": 6380,
-   "price_sale": 5742,
-   "discount": 10,
+   "title": "Lightyear Frontier",
+   "link": "https://store.steampowered.com/app/1677110/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg?t=1793811955",
+   "price_original": 3400,
+   "price_sale": 2720,
+   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4356430",
-   "store": "steam",
-   "title": "『NBA 2K27』",
-   "link": "https://store.steampowered.com/app/4356430/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4356430/92d7aa92bafdd80d200ef25467a3680cf525836a/capsule_231x87.jpg?t=1792163139",
-   "price_original": 14080,
-   "price_sale": 6336,
-   "discount": 55,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
+   "ends_at": "2026-11-13T03:00:00+09:00"
   },
   {
    "id": "d_steam_4740930",
@@ -3559,14 +3525,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2138090",
+   "id": "d_steam_3322630",
    "store": "steam",
-   "title": "マリーのアトリエ Remake ～ザールブルグの錬金術士～",
-   "link": "https://store.steampowered.com/app/2138090/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138090/capsule_231x87_japanese.jpg?t=1793761032",
+   "title": "カルドセプト ビギンズ",
+   "link": "https://store.steampowered.com/app/3322630/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3322630/2407e385d5d20307c818a3b97d37351f603a0b38/capsule_231x87_japanese.jpg?t=1793111634",
    "price_original": 6380,
-   "price_sale": 1914,
-   "discount": 70,
+   "price_sale": 5742,
+   "discount": 10,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3601,60 +3567,18 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2089600",
+   "id": "d_steam_2138090",
    "store": "steam",
-   "title": "都市伝説解体センター",
-   "link": "https://store.steampowered.com/app/2089600/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2089600/capsule_231x87_japanese.jpg?t=1765525788",
-   "price_original": 1980,
-   "price_sale": 1386,
-   "discount": 30,
+   "title": "マリーのアトリエ Remake ～ザールブルグの錬金術士～",
+   "link": "https://store.steampowered.com/app/2138090/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138090/capsule_231x87_japanese.jpg?t=1793761032",
+   "price_original": 6380,
+   "price_sale": 1914,
+   "discount": 70,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
-  },
-  {
-   "id": "d_steam_3527290",
-   "store": "steam",
-   "title": "PEAK",
-   "link": "https://store.steampowered.com/app/3527290/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
-   "price_original": 880,
-   "price_sale": 545,
-   "discount": 38,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-15T19:00:00+09:00"
-  },
-  {
-   "id": "d_steam_648800",
-   "store": "steam",
-   "title": "Raft",
-   "link": "https://store.steampowered.com/app/648800/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/648800/capsule_231x87.jpg?t=1727184011",
-   "price_original": 2600,
-   "price_sale": 1742,
-   "discount": 33,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3240220",
-   "store": "steam",
-   "title": "グランド・セフト・オートV エンハンスト",
-   "link": "https://store.steampowered.com/app/3240220/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_japanese.jpg?t=1781187782",
-   "price_original": 4380,
-   "price_sale": 2190,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": "2026-11-06T03:00:00+09:00"
   },
   {
    "id": "d_steam_3681010",
@@ -3665,6 +3589,34 @@
    "price_original": 15180,
    "price_sale": 8197,
    "discount": 46,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3240220",
+   "store": "steam",
+   "title": "グランド・セフト・オートV エンハンスト",
+   "link": "https://store.steampowered.com/app/3240220/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1781187782",
+   "price_original": 4380,
+   "price_sale": 2190,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1669000",
+   "store": "steam",
+   "title": "Age of Wonders 4",
+   "link": "https://store.steampowered.com/app/1669000/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1669000/67b92bbae787e7c2c22668dc456fccb81211af41/capsule_231x87_alt_assets_14_japanese.jpg?t=1793788177",
+   "price_original": 6990,
+   "price_sale": 2796,
+   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3685,28 +3637,42 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_4358660",
+   "id": "d_steam_2089600",
    "store": "steam",
-   "title": "Hull Rupture",
-   "link": "https://store.steampowered.com/app/4358660/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4358660/cfc9c0becb9d7e5cd0f37fc3a0ccf7b688d73c0c/header_alt_assets_4_japanese.jpg?t=1793808075",
-   "price_original": 2100,
-   "price_sale": 1890,
-   "discount": 10,
+   "title": "都市伝説解体センター",
+   "link": "https://store.steampowered.com/app/2089600/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2089600/capsule_231x87_japanese.jpg?t=1765525788",
+   "price_original": 1980,
+   "price_sale": 1386,
+   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-11-19T03:00:08+09:00"
+   "ends_at": null
   },
   {
-   "id": "d_steam_3151270",
+   "id": "d_steam_648800",
    "store": "steam",
-   "title": "One Turn Kill",
-   "link": "https://store.steampowered.com/app/3151270/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3151270/5568e19d2d54aaf15e3e5d47aa61e07ec722aa1e/capsule_231x87.jpg?t=1789439061",
-   "price_original": 1200,
-   "price_sale": 960,
-   "discount": 20,
+   "title": "Raft",
+   "link": "https://store.steampowered.com/app/648800/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/648800/capsule_231x87.jpg?t=1727184011",
+   "price_original": 2600,
+   "price_sale": 1742,
+   "discount": 33,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3527290",
+   "store": "steam",
+   "title": "PEAK",
+   "link": "https://store.steampowered.com/app/3527290/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
+   "price_original": 880,
+   "price_sale": 545,
+   "discount": 38,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3727,13 +3693,27 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1669000",
+   "id": "d_steam_3151270",
    "store": "steam",
-   "title": "Age of Wonders 4",
-   "link": "https://store.steampowered.com/app/1669000/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1669000/67b92bbae787e7c2c22668dc456fccb81211af41/capsule_231x87_alt_assets_14_japanese.jpg?t=1793788177",
-   "price_original": 6990,
-   "price_sale": 2796,
+   "title": "One Turn Kill",
+   "link": "https://store.steampowered.com/app/3151270/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3151270/5568e19d2d54aaf15e3e5d47aa61e07ec722aa1e/capsule_231x87.jpg?t=1789439061",
+   "price_original": 1200,
+   "price_sale": 960,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1842810",
+   "store": "steam",
+   "title": "太閤立志伝Ⅴ DX",
+   "link": "https://store.steampowered.com/app/1842810/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1842810/capsule_231x87_japanese.jpg?t=1776671676",
+   "price_original": 4950,
+   "price_sale": 1980,
    "discount": 60,
    "is_free": false,
    "upcoming": false,
@@ -3755,6 +3735,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_1942280",
+   "store": "steam",
+   "title": "Brotato",
+   "link": "https://store.steampowered.com/app/1942280/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1942280/09947fd735e89f74581eeed42167403f68235208/capsule_231x87_alt_assets_4.jpg?t=1793641955",
+   "price_original": 580,
+   "price_sale": 290,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_3720100",
    "store": "steam",
    "title": "ARK: Lost Colony Expansion Pass",
@@ -3762,6 +3756,34 @@
    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3720100/33be731311791d3c8cddd7476d25a82d696ae520/capsule_231x87.jpg?t=1788023107",
    "price_original": 4318,
    "price_sale": 2159,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3365040",
+   "store": "steam",
+   "title": "ライザのアトリエ２ ～失われた伝承と秘密の妖精～ DX",
+   "link": "https://store.steampowered.com/app/3365040/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3365040/480419046817dd9d193124177e8558e08645e487/capsule_231x87_japanese.jpg?t=1793770311",
+   "price_original": 6380,
+   "price_sale": 4274,
+   "discount": 33,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1295660",
+   "store": "steam",
+   "title": "シドマイヤーズ シヴィライゼーション VII",
+   "link": "https://store.steampowered.com/app/1295660/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1295660/56f256d5776521616d8842cd435f97b22de655cd/capsule_231x87.jpg?t=1792718077",
+   "price_original": 8800,
+   "price_sale": 4400,
    "discount": 50,
    "is_free": false,
    "upcoming": false,
@@ -3783,67 +3805,25 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1942280",
+   "id": "d_steam_1798230",
    "store": "steam",
-   "title": "Brotato",
-   "link": "https://store.steampowered.com/app/1942280/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1942280/09947fd735e89f74581eeed42167403f68235208/capsule_231x87_alt_assets_4.jpg?t=1793641955",
-   "price_original": 580,
-   "price_sale": 290,
-   "discount": 50,
+   "title": "ATMOSFAR",
+   "link": "https://store.steampowered.com/app/1798230/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1798230/82597517be4e2548281437ff740983653f7a4d16/capsule_231x87.jpg?t=1793368647",
+   "price_original": 2980,
+   "price_sale": 2682,
+   "discount": 10,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_1842810",
+   "id": "d_steam_4358660",
    "store": "steam",
-   "title": "太閤立志伝Ⅴ DX",
-   "link": "https://store.steampowered.com/app/1842810/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1842810/capsule_231x87_japanese.jpg?t=1776671676",
-   "price_original": 4950,
-   "price_sale": 1980,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_831560",
-   "store": "steam",
-   "title": "無双OROCHI３",
-   "link": "https://store.steampowered.com/app/831560/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/831560/capsule_231x87_japanese.jpg?t=1775537630",
-   "price_original": 8580,
-   "price_sale": 4290,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3024130",
-   "store": "steam",
-   "title": "どうぶつの町の食堂物語",
-   "link": "https://store.steampowered.com/app/3024130/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3024130/6377d12f99d5ce2f3359f14d99dc0a2e9f7aede3/capsule_231x87_japanese.jpg?t=1793607167",
-   "price_original": 2450,
-   "price_sale": 1210,
-   "discount": 51,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2223980",
-   "store": "steam",
-   "title": "Nomad Drive",
-   "link": "https://store.steampowered.com/app/2223980/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2223980/04914cfd8e7f5a07e474acdf42ca9b5762fac7af/capsule_231x87.jpg?t=1793667805",
+   "title": "Hull Rupture",
+   "link": "https://store.steampowered.com/app/4358660/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4358660/8fb42f14d0685333affb6ac23f85cecfd96bd411/capsule_231x87_alt_assets_4_japanese.jpg?t=1793808075",
    "price_original": 2100,
    "price_sale": 1890,
    "discount": 10,
@@ -3853,13 +3833,13 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1903340",
+   "id": "d_steam_4558480",
    "store": "steam",
-   "title": "Clair Obscur: Expedition 33",
-   "link": "https://store.steampowered.com/app/1903340/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1903340/001d4a5d81e4bb9055b789240e78e04ef6e6da38/capsule_231x87.jpg?t=1782830877",
-   "price_original": 7480,
-   "price_sale": 5984,
+   "title": "ARK Tides of Fortune",
+   "link": "https://store.steampowered.com/app/4558480/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4558480/c8615e159b054ae4a66c64cccfa3740690d34788/capsule_231x87.jpg?t=1788022985",
+   "price_original": 3200,
+   "price_sale": 2560,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
@@ -3875,20 +3855,6 @@
    "price_original": 7700,
    "price_sale": 6160,
    "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3751950",
-   "store": "steam",
-   "title": "アサシン クリード ブラック フラッグ RE:シンクロ",
-   "link": "https://store.steampowered.com/app/3751950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/7599d7fe1b58e0ad5c07e98e8f9f1180dbe19794/capsule_231x87_alt_assets_0.jpg?t=1793391152",
-   "price_original": 8360,
-   "price_sale": 6270,
-   "discount": 25,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
