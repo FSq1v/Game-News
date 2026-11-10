@@ -109,18 +109,26 @@ jobs:
         run: |
           expected=$(python -c 'import json; print(json.load(open("data/news.json"))["updated_at"])')
           check() { curl -fsS -H 'Cache-Control: no-cache' "$PROD_URL?v=$(date +%s)" | grep -qF "datetime=\"$expected\""; }
-          if check; then
+          # 5 秒おきに最大 n 回、本番が最新になったかを見る
+          wait_for_update() {
+            for _ in $(seq "$1"); do
+              if check; then return 0; fi
+              sleep 5
+            done
+            return 1
+          }
+          # デプロイ直後は本番ドメインの切り替えが終わっていないことがあるので、すぐには promote しない
+          if wait_for_update 12; then
             echo "本番は最新です ($expected)"
             exit 0
           fi
           echo "::warning::本番が古いままなので $DEPLOY_URL を promote します"
-          vercel promote "$DEPLOY_URL" --yes --token="$VERCEL_TOKEN"
-          for i in 1 2 3 4 5 6; do
-            sleep 10
-            if check; then
-              echo "promote 後に本番が最新になりました ($expected)"
-              exit 0
-            fi
-          done
+          # チームのプロジェクトなので --scope を付ける（付けないと個人アカウントを探して 404 になる）
+          vercel promote "$DEPLOY_URL" --yes --scope="$VERCEL_ORG_ID" --token="$VERCEL_TOKEN" \
+            || echo "::warning::vercel promote が失敗しました"
+          if wait_for_update 12; then
+            echo "promote 後に本番が最新になりました ($expected)"
+            exit 0
+          fi
           echo "::error::本番 ($PROD_URL) が最新のデータ ($expected) になっていません"
           exit 1
