@@ -93,4 +93,34 @@ jobs:
           EOF
 
       - name: Deploy to Vercel
-        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        id: deploy
+        run: |
+          url=$(vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }})
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      # Vercel で Instant Rollback をすると、それ以降の --prod デプロイは「Aliased」と表示されても
+      # 本番ドメインに切り替わらなくなる（2026-11-05 にこれで本番が止まった）。
+      # 本番の「最終更新」が今回のデータと一致するかを確かめ、古ければ promote して付け直す。
+      - name: Verify production is updated
+        env:
+          PROD_URL: https://game-news-smoky.vercel.app/
+          DEPLOY_URL: ${{ steps.deploy.outputs.url }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          expected=$(python -c 'import json; print(json.load(open("data/news.json"))["updated_at"])')
+          check() { curl -fsS -H 'Cache-Control: no-cache' "$PROD_URL?v=$(date +%s)" | grep -qF "datetime=\"$expected\""; }
+          if check; then
+            echo "本番は最新です ($expected)"
+            exit 0
+          fi
+          echo "::warning::本番が古いままなので $DEPLOY_URL を promote します"
+          vercel promote "$DEPLOY_URL" --yes --token="$VERCEL_TOKEN"
+          for i in 1 2 3 4 5 6; do
+            sleep 10
+            if check; then
+              echo "promote 後に本番が最新になりました ($expected)"
+              exit 0
+            fi
+          done
+          echo "::error::本番 ($PROD_URL) が最新のデータ ($expected) になっていません"
+          exit 1
