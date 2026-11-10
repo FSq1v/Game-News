@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-10T11:41:39+09:00",
+ "updated_at": "2026-11-10T11:45:12+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -38,7 +38,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -46,7 +46,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -54,7 +54,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -62,7 +62,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -102,7 +102,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "ai"
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "ai"
   },
   {
@@ -126,7 +126,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "ai"
   },
   {
@@ -134,7 +134,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "ai"
   },
   {
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "ai"
   },
   {
@@ -150,7 +150,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "ai"
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -166,7 +166,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -174,7 +174,7 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   },
   {
@@ -182,11 +182,37 @@
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-11-10T11:41:39+09:00",
+   "last_success": "2026-11-10T11:45:12+09:00",
    "genre": "game"
   }
  ],
  "news": [
+  {
+   "id": "n_b76ac4507a0e",
+   "title": "日本におけるモバイル向けソートパズルのトレンドは矢印からバスへ。Sensor Towerが分析レポートを公開",
+   "link": "https://www.4gamer.net/games/999/G999904/20261110004/",
+   "summary": "SensorTowerは本日，日本におけるモバイル向けソートパズルの分析レポートを公式ブログで公開した。同社のデータによると，ダウンロード数の成長量1位は，2026年第2四半期が矢印を消していく「AmazeGO!」，第3四半期がバスを誘導す",
+   "source": "4Gamer",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:42:16+09:00",
+   "first_seen": "2026-11-10T11:45:12+09:00"
+  },
+  {
+   "id": "n_e34194add42b",
+   "title": "【ゲームエンタメ株前場(11/10)】『ドラクエRPG』開発と発表のグリーHDが年初来高値更新 コナミやタカラトミーなど好業績株にも物色【チャート掲載】",
+   "link": "https://gamebiz.jp/news/435296",
+   "summary": "11月10日前場の東京株式市場は続伸。日経平均株価は、前営業日比1700円28銭高の6万0475円78銭で午前中の取引を終えた。前日の米国株が買われたことを受けて、AI・半導体関連を中心に物色された。原油価格の下落も下支えしているとの見方も",
+   "source": "gamebiz",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:42:00+09:00",
+   "first_seen": "2026-11-10T11:45:12+09:00"
+  },
   {
    "id": "n_1c2f29032554",
    "title": "「カリアのアトリエ」，新キャラクター5人や拠点建築，友好度による個別エンディングなどの新情報を公開。ストーリートレイラーも披露",
@@ -2024,22 +2050,6 @@
    "translated": true
   },
   {
-   "id": "n_5b1976793fd4",
-   "title": "BEEP Japan、荷物整理パズルｘ弾幕ローグライトアクション『Deadly Days: Roadtrip』PS5版とSteam版をリリース",
-   "link": "https://gamebiz.jp/news/435279",
-   "summary": "Sidekick PublishingおよびPixelsplit、BEEP Japanは、荷物整理パズルと弾幕ローグライトアクションが融合した『Deadly Days: Roadtrip』のPlayStation 5版およびSteam版を2",
-   "source": "gamebiz",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "PS5",
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-11-09T23:35:00+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
    "id": "n_3e7441525d37",
    "title": "Sea of​​ Remnants「ドーンブレイカー」クローズドベータテストが12月3日開始",
    "link": "https://www.gematsu.com/2026/11/sea-of-remnants-dawnbreaker-closed-beta-test-begins-december-3",
@@ -2424,19 +2434,6 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-09T20:04:23+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
-   "id": "n_067887e15ef4",
-   "title": "1906年のパリから始まり，100年以上にわたる映画史を追体験。映画館経営シム「Cinema Theater Tycoon」，本日配信開始",
-   "link": "https://www.4gamer.net/games/022/G102271/20261109041/",
-   "summary": "フランスのインディー開発チームSouthWestGamesは本日，映画館経営シム「CinemaTheaterTycoon」をPC向けに配信開始した。本作は，1906年のパリから100年以上にわたる映画史をたどりながら，映画館のカスタマイズや",
-   "source": "4Gamer",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T20:00:20+09:00",
    "first_seen": "2026-11-10T02:31:50+09:00"
   },
   {
@@ -2971,19 +2968,6 @@
    "first_seen": "2026-11-08T09:38:48+09:00",
    "title_original": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
    "translated": true
-  },
-  {
-   "id": "n_b5c9cd61601f",
-   "title": "「世界征服をしようとしているわけではありません」 gamescomのキーマンが語る、世界展開の舞台裏",
-   "link": "https://jp.ign.com/gamescom/84545/gamescom",
-   "summary": "新たな可能性に対してオープン 2009年にドイツのケルンで初開催されたgamescomは、今や世界最大級、そしてもっとも影響力のある展示型ゲームイベントのひとつへと成長した。2026年8月に開催された今年のgamescomには、131カ国か",
-   "source": "IGN Japan",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://sm.ign.com/ign_jp/screenshot/default/01_yyu6.jpg",
-   "published_at": "2026-11-07T11:44:33+09:00",
-   "first_seen": "2026-11-07T19:13:32+09:00"
   }
  ],
  "deals": [
