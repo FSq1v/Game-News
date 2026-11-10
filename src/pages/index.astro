@@ -23,6 +23,7 @@ const latest = (await getDigests())[0];
     </div>
   </section>
 
+  <div class="home-body">
   {
     latest && (
       <section class="latest container" aria-labelledby="latest-title">
@@ -44,6 +45,7 @@ const latest = (await getDigests())[0];
       <NewsFeed items={ai} label="AI の新着" limit={5} showControls={false} />
       <a class="more" href="/ai">AI のニュースをすべて見る →</a>
     </div>
+  </div>
   </div>
 </Base>
 
@@ -115,6 +117,26 @@ const latest = (await getDigests())[0];
     border-left: 4px solid var(--genre);
   }
   .feeds__col .more { color: var(--genre); }
+
+  .home-body { display: flex; flex-direction: column; }
+
+  /*
+    スマホ：新着を先に見せる。まとめは週に数本なので、毎回開いたときに最初に目に入るのは新着のほうがよい。
+    見出しの文も少し小さくして、新着が 1 画面目に入るようにする
+  */
+  @media (max-width: 599px) {
+    .hero {
+      gap: var(--space-2);
+      padding-block: var(--space-3);
+    }
+    .hero__title { font-size: 1.125rem; line-height: 1.6; }
+    .latest {
+      order: 1;
+      margin-top: var(--space-5);
+      margin-bottom: 0;
+    }
+    .feeds { gap: var(--space-5); }
+  }
 
   @media (min-width: 600px) {
     .hero__title { font-size: var(--font-size-xl); }
