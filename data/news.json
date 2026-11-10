@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-10T10:33:53+09:00",
+ "updated_at": "2026-11-10T11:41:39+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -38,7 +38,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -46,7 +46,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -54,7 +54,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -62,7 +62,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -102,7 +102,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "ai"
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "ai"
   },
   {
@@ -126,7 +126,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "ai"
   },
   {
@@ -134,7 +134,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "ai"
   },
   {
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "ai"
   },
   {
@@ -150,7 +150,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "ai"
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -166,7 +166,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -174,7 +174,7 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   },
   {
@@ -182,11 +182,246 @@
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-11-10T10:33:53+09:00",
+   "last_success": "2026-11-10T11:41:39+09:00",
    "genre": "game"
   }
  ],
  "news": [
+  {
+   "id": "n_1c2f29032554",
+   "title": "「カリアのアトリエ」，新キャラクター5人や拠点建築，友好度による個別エンディングなどの新情報を公開。ストーリートレイラーも披露",
+   "link": "https://www.4gamer.net/games/015/G101585/20261110003/",
+   "summary": "コーエーテクモゲームスは，錬金術RPG「カリアのアトリエ〜夜の王国と追憶の道標〜」の新情報を公開した。カリアたちの前に立ちはだかる2人の錬金術士を含む新キャラクター5人のほか，拠点建築や仲間との交流，物語の分岐に関するシステムが明らかになっ",
+   "source": "4Gamer",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:35:48+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_dcb7864b004e",
+   "title": "メダロット クラシックス プラスが PC で 12 月に日本で登場",
+   "link": "https://www.gematsu.com/2026/11/medabots-classics-plus-coming-to-pc-in-december-in-japan",
+   "summary": "Publisher Imagineer and developer SUCCESS Corporation will release Medabots Classics Plus for PC via Steam …",
+   "source": "Gematsu",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Medabots-Collection-PC_11-09-26.jpg",
+   "published_at": "2026-11-10T11:32:20+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00",
+   "title_original": "Medabots Classics Plus coming to PC in December in Japan",
+   "translated": true
+  },
+  {
+   "id": "n_baa31b8667ad",
+   "title": "『GTA6』日本版の「消えた約1GB」。事前DLが開始するも約208GBでやっぱり海外版より容量少ない…CEROの「セクシャル」アイコン不在も気になる",
+   "link": "http://www.gamespark.jp/article/2026/11/10/174692.html",
+   "summary": "海外ユーザーの報告では209.913GB、日本のユーザーの報告では208.725GB。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1217691.jpg",
+   "published_at": "2026-11-10T11:30:16+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_f02b4b894648",
+   "title": "InstaVR、JALエンジニアリングと長期契約 航空機整備士の人材育成を支援",
+   "link": "https://gamebiz.jp/news/435293",
+   "summary": "InstaVRは、2026年11月より、JALエンジニアリングが同社のバーチャル・リアリティ(VR)プラットフォーム「InstaVRエンタープライズ」の長期契約を締結したと発表した。 JALエンジニアリングは2019年より同プラットフォーム",
+   "source": "gamebiz",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:26:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_56111b5a750a",
+   "title": "『ダンジョンマスター』の精神を継ぐ3DダンジョンARPG『Legend of Grimrock』1と2の日本語化Mod公開！ 謎解きに必要なメッセージやアイテム説明もわかる",
+   "link": "http://www.gamespark.jp/article/2026/11/10/174691.html",
+   "summary": "3Dダンジョン系ARPG『Legend of Grimrock』『Legend of Grimrock 2』の日本語化Modが公開され話題となっています。",
+   "source": "Game*Spark",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "http://www.gamespark.jp/imgs/rss/1217685.jpg",
+   "published_at": "2026-11-10T11:13:08+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_88695a47bb57",
+   "title": "Cygames、『グラブル』にて温浴施設コラボを各地で開催中…11月16日からは「バーデと天然温泉 豊島園 庭の湯」でも同コラボがスタート",
+   "link": "https://gamebiz.jp/news/435291",
+   "summary": "Cygamesは『グランブルーファンタジー』において、現在各地の温浴施設にてコラボレーションを実施しており、コラボメニューや限定グッズなど、多くのファンを満足させている。 そして、11月16日（月）からは「バーデと天然温泉 豊島園 庭の湯」",
+   "source": "gamebiz",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:13:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_f59cadfada3a",
+   "title": "AdobeとDisneyが戦略的提携 「Firefly Foundry」でDisney専用の生成AIモデル開発へ",
+   "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003050/",
+   "summary": "AdobeとWalt Disneyは、複数年にわたる戦略的提携を発表した。Adobeは公式AIパートナーとして、生成AI「Firefly Foundry」などの技術を提供。両社は共同でDisneyの作風に特化した安全なカスタムAIモデルを開",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:10:07+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_e01800b6c5f0",
+   "title": "スーパー マリオパーティ ジャンボリー バージョン 2.4.0 アップデートが利用可能になり、Switch 2 で GameChat を使用した GameShare が追加されました",
+   "link": "https://www.gematsu.com/2026/11/super-mario-party-jamboree-version-2-4-0-update-now-available-adds-gameshare-using-gamechat-on-switch-2",
+   "summary": "Nintendo has released the version 2.4.0 update for Super Mario Party Jamboree, which adds GameShare …",
+   "source": "Gematsu",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Mario-Party-Jamboree-Update_11-09-26.jpg",
+   "published_at": "2026-11-10T11:00:16+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00",
+   "title_original": "Super Mario Party Jamboree version 2.4.0 update now available, adds GameShare using GameChat on Switch 2",
+   "translated": true
+  },
+  {
+   "id": "n_0104aa7d3247",
+   "title": "レトロゲーム文化を未来へつなぐ「RETRO GAME SUMMIT Lv.6」開催。ディープな同人誌からレトロゲーム機で動作する新作，ゲーム大会までレトロゲーム満載の1日",
+   "link": "https://www.4gamer.net/games/991/G999110/20261109030/",
+   "summary": "2026年11月7日，東京たま未来メッセで「RETROGAMESUMMITLv.6」が行われた。「レトロゲーム文化を未来へ！」をキャッチフレーズに，多くの来場者たちがレトロゲームへの愛を分かち合う催しだ。",
+   "source": "4Gamer",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:00:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_a38c511dcbe9",
+   "title": "Cygames、『プリコネR』で★3ラッキーライラック(CV. 中島由貴)が11月10日より登場",
+   "link": "https://gamebiz.jp/news/435288",
+   "summary": "Cygamesは、『プリンセスコネクト!Re:Dive(プリコネR)』において、11月10日(火)より、★3ラッキーライラック(CV：中島由貴)が登場することを発表した。 ラッキーライラックは、バトル後半になると内に秘めた【スタミナ】を解き",
+   "source": "gamebiz",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:00:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_c9146cd96a8a",
+   "title": "“何でもリバースエンジニアリング”生成AIで広がる ソフトウェアもスマート家電も手軽に改造……ブームに潜む危険",
+   "link": "https://www.itmedia.co.jp/news/article/2611/10/2000002975/",
+   "summary": "AIを使ってスマート家電のOSに手を加え、AIに生成させたコードに入れ替えて、広告を消したり自分好みの機能を付け加えたりする行為がちょっとしたブームになっている。ソフトウェアの改造が手軽にできるとうたった“何でもリバースエンジニアリング”（",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T11:00:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_def7655ccff5",
+   "title": "エイチームENT、26年7月期決算は大幅減益も4期連続の最終黒字を達成、債務超過を解消 既存タイトルの効率運用、コスト抑制で黒字維持",
+   "link": "https://gamebiz.jp/news/435292",
+   "summary": "エイチームエンターテインメントの2026年7月期の決算は、売上高38億5800万円(前の期比8.2%減)、経常利益1億7100万円(同53.8%減)、最終利益1億5800万円(同51.1%減)だった。減収減益となったものの、4期連続の最終黒",
+   "source": "gamebiz",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T10:54:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_ef320352ca1d",
+   "title": "『マインクラフト』公式サーバー「Realms」に、“最大50人対応”最上位プラン「Pro」発表。月額4730円で本格大規模マルチ",
+   "link": "https://automaton-media.com/articles/newsjp/20261110-478346/",
+   "summary": "Mojang Studiosは11月10日、『Minecraft』の公式プライベートサーバーサービス「Realms」のProプランを発表した。",
+   "source": "AUTOMATON",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261110-478346-header.jpg",
+   "published_at": "2026-11-10T10:46:57+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_beac4d9ff9ee",
+   "title": "なぜAgodaは「単独で勝てない」と認めたのか？ ANAや星野リゾートと組んだ狙い",
+   "link": "https://www.itmedia.co.jp/business/articles/2611/10/news020.html",
+   "summary": "星野リゾートやANAとの提携を加速させるオンライン旅行大手Agoda。「日本では単独で成功できない」と言い切る同社は、なぜ現地企業との連携を急ぐのか。背景には「1人泊不可・夕食付き」というような日本市場特有の旅館文化やポイント経済圏など、グ",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T10:45:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_81cbbc8e6f71",
+   "title": "Nintendo Switch、Switch 2の新機能「プレゼント」が追加へ。ファミリーグループに参加している家族にニンテンドーeショップの商品を贈ることができるように",
+   "link": "https://news.denfaminicogamer.jp/news/261110l",
+   "summary": "子どもに遊んでほしいソフトを見つけた時や誕生日、記念日にゲームをプレゼントしたい時におすすめと公式は紹介",
+   "source": "電ファミニコゲーマー",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/d8781568e2ee473ba0eb32e4d3ee2d9d-1024x576.webp",
+   "published_at": "2026-11-10T10:40:42+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
+  {
+   "id": "n_c3e13193fa07",
+   "title": "Switch 2 および Switch システム アップデート バージョン 23.5.0 が利用可能になりました",
+   "link": "https://www.gematsu.com/2026/11/switch-2-and-switch-system-updates-version-23-5-0-now-available",
+   "summary": "Nintendo has released Switch 2 and Switch system updates version 23.5.0. The updates add support …",
+   "source": "Gematsu",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Switch"
+   ],
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Switch-Updates_11-09-26.jpg",
+   "published_at": "2026-11-10T10:37:42+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00",
+   "title_original": "Switch 2 and Switch system updates version 23.5.0 now available",
+   "translated": true
+  },
+  {
+   "id": "n_390809c12ee5",
+   "title": "「オープンなAIモデル」に関する資料を無料公開、NII 「LLM-jp」の開発手法など解説",
+   "link": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003046/",
+   "summary": "国立情報学研究所（NII）は、オープンなAIモデルに関する講演資料を公開した。11月5日に開催したイベント「第2回オープン大規模言語モデルシンポジウム」で使われたもの。",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T10:30:52+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
+  },
   {
    "id": "n_8b37a9417359",
    "title": "Nintendo Switch 2/Switch本日のアプデで新機能「プレゼント」実装、ニンテンドーeショップの商品を家族に贈れるように。11月17日から利用可能",
@@ -387,6 +622,19 @@
    "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261110-478324-header.jpg",
    "published_at": "2026-11-10T10:00:01+09:00",
    "first_seen": "2026-11-10T10:33:53+09:00"
+  },
+  {
+   "id": "n_cd6f057088ce",
+   "title": "島津製作所が半導体製造装置向けTMPのめっきライン増設、生産能力2倍に",
+   "link": "https://monoist.itmedia.co.jp/mn/articles/2611/10/news043.html",
+   "summary": "島津製作所は、本社三条工場において半導体製造装置向けターボ分子ポンプのめっき加工ラインを増設し、2026年9月に稼働を開始した。2027年夏にも追加増設を予定しており、サプライチェーン全体で生産体制を強化する。",
+   "source": "ITmedia AI+",
+   "region": "jp",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-10T10:00:00+09:00",
+   "first_seen": "2026-11-10T11:41:39+09:00"
   },
   {
    "id": "n_0477fe3d3bef",
@@ -1733,19 +1981,6 @@
    "first_seen": "2026-11-10T02:31:50+09:00"
   },
   {
-   "id": "n_5d810d3ccd62",
-   "title": "商人か海賊か探検家か。5つの生き方を選べる宇宙交易シム『Warp to Sector One』11月12日正式リリース。2,000セクターの銀河で交易・戦闘・探索",
-   "link": "http://www.gamespark.jp/article/2026/11/09/174677.html",
-   "summary": "貿易ゲーム『Trade Wars 2002』をオマージュ",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1217611.jpg",
-   "published_at": "2026-11-09T23:45:02+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
    "id": "n_0683bcd2c507",
    "title": "DeadPixel Studios、最大4人のオンライン協力プレイが可能なアクションゲーム『終末異変:サバイバー』をリリース",
    "link": "https://gamebiz.jp/news/435280",
@@ -1820,23 +2055,6 @@
    "translated": true
   },
   {
-   "id": "n_2318dc6f5f64",
-   "title": "Chucklefishと架け橋ゲームズ、最大4人で遊べる魔法学校ライフシム『Witchbrook』を2027年1月28日にリリース",
-   "link": "https://gamebiz.jp/news/435278",
-   "summary": "Chucklefishと架け橋ゲームズは、最大4人で遊べる魔法学校ライフシム『Witchbrook』を2027年1月28日にNintendo Switch、Nintendo Switch 2、PlayStation 5、Xbox One、X",
-   "source": "gamebiz",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "Switch",
-    "PS5",
-    "Xbox"
-   ],
-   "image": null,
-   "published_at": "2026-11-09T23:18:00+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
    "id": "n_0fa1d046bb91",
    "title": "「グランド・セフト・オート VI: ザ・フェスティバル」ライブイベントが 11 月 21 日に決定",
    "link": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-the-festival-live-event-set-for-november-21",
@@ -1850,22 +2068,6 @@
    "first_seen": "2026-11-10T02:31:50+09:00",
    "title_original": "Grand Theft Auto VI: The Festival live event set for November 21",
    "translated": true
-  },
-  {
-   "id": "n_4f189bf3f4da",
-   "title": "Alliance Arts、ターン制ストラテジー『大悪逆令嬢 ストラテジーオブリリィ』をPS5とSwitch向けに12月2日に発売",
-   "link": "https://gamebiz.jp/news/435277",
-   "summary": "Alliance Artsは、『大悪逆令嬢 ストラテジーオブリリィ(The Great Villainess: Strategy of Lily)』をPlayStation 5およびNintendo Switch向けに2026年12月2日に",
-   "source": "gamebiz",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "Switch",
-    "PS5"
-   ],
-   "image": null,
-   "published_at": "2026-11-09T23:08:00+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
   },
   {
    "id": "n_08656f088825",
@@ -1896,51 +2098,6 @@
    "first_seen": "2026-11-10T02:31:50+09:00",
    "title_original": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
    "translated": true
-  },
-  {
-   "id": "n_8ba9514b87a5",
-   "title": "米国シアトルのSpry Fox、コージーなオンラインマルチプレイヤーゲーム『クロスランド』を11月16日にコンソール・PC向けにリリース",
-   "link": "https://gamebiz.jp/news/435276",
-   "summary": "米国シアトルのSpry Foxは、オンラインマルチプレイヤーゲーム『クロスランド』(英語名: Spirit Crossing)を11月16日にNintendo Switch、Nintendo Switch 2、およびPC(Steam/Epi",
-   "source": "gamebiz",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "Switch",
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-11-09T22:59:00+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
-   "id": "n_5debf5e34fb7",
-   "title": "賈船、実写ホラー恋愛ミステリー『ラブラブミステリークラブ』Switchダウンロード版を日本・アジアでリリース",
-   "link": "https://gamebiz.jp/news/435275",
-   "summary": "賈船は、2026年10月29日、『ラブラブミステリークラブ』のNintendo Switchダウンロード版を日本およびアジア各地域で発売した。本作はタイ初の長編FMV作品として制作され、PC(Steam)版のリリース時に「新規トップセラー」",
-   "source": "gamebiz",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "Switch",
-    "PC"
-   ],
-   "image": null,
-   "published_at": "2026-11-09T22:48:00+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
-   "id": "n_f286131a6ae9",
-   "title": "SSDへの不必要な書き込み繰り返す不具合？AMD Radeon最新ドライバにて報告",
-   "link": "http://www.gamespark.jp/article/2026/11/09/174676.html",
-   "summary": "AMD Radeon最新ドライバにてSSDへ不必要な書き込みを続ける不具合が報告されました。",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1217603.jpg",
-   "published_at": "2026-11-09T22:30:02+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
   },
   {
    "id": "n_0b7260a0607e",
@@ -2283,32 +2440,6 @@
    "first_seen": "2026-11-10T02:31:50+09:00"
   },
   {
-   "id": "n_7cc108a0ef1e",
-   "title": "わしゃがなTVの最新動画では，いろいろなカプセルトイを開封する模様をお届け",
-   "link": "https://www.4gamer.net/games/991/G999106/20261109027/",
-   "summary": "2026年11月9日，声優の中村悠一さんと，フリーライターのマフィア梶田さんによるWeb番組「わしゃがなTV」の最新回が公開された。今回は，中村さんが購入したさまざまなカプセルトイを開封する様子をお届けする。",
-   "source": "4Gamer",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T20:00:00+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
-   "id": "n_59b320890568",
-   "title": "にじさんじ女性ライバー6人のクラシカルロリータ風衣装を描いたグッズ「Dolly Patchwork」が11月10日発売",
-   "link": "https://www.4gamer.net/games/004/G100451/20261109037/",
-   "summary": "2026年11月9日，「にじさんじ」を運営するANYCOLORは，新グッズ「DollyPatchwork」全6種類を，にじさんじオフィシャルストアで11月10日18：00に発売すると発表した。ソフィア・ヴァレンタインや葉加瀬冬雪ら6人がクラ",
-   "source": "4Gamer",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T19:43:25+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
    "id": "n_42bcab431908",
    "title": "『VALORANT』加藤純一さんのプロeスポーツチーム「ムラッシュゲーミング」新メンバーが11月11日に発表へ。HoneyBunnyさんとMrTenzouEzさんが2026年に引き続き予選大会に出場",
    "link": "https://news.denfaminicogamer.jp/news/2611092v",
@@ -2319,21 +2450,6 @@
    "platforms": [],
    "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/08f736b4e1dd63c78c55a26939193cc9-910x1024.png",
    "published_at": "2026-11-09T19:41:32+09:00",
-   "first_seen": "2026-11-10T02:31:50+09:00"
-  },
-  {
-   "id": "n_c2cc3ba1c992",
-   "title": "『ニーア オートマタ』Steam版の必要ディスク容量が突如「約366GB」になった事象が修正。公式が原因の判明と対応完了を伝える",
-   "link": "https://news.denfaminicogamer.jp/news/2611092w",
-   "summary": "11月6日に実施された約5年ぶりのアップデート後、すべてのDLCが40GB超えの表示に。推奨空き容量の「50GB」を、300GB以上も上回る状態だった",
-   "source": "電ファミニコゲーマー",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/PhotoshopExtension_Image-2026-11-09T190243.654-1024x576.png",
-   "published_at": "2026-11-09T19:13:35+09:00",
    "first_seen": "2026-11-10T02:31:50+09:00"
   },
   {
@@ -2599,19 +2715,6 @@
    "first_seen": "2026-11-09T15:34:03+09:00"
   },
   {
-   "id": "n_4684b183dc3e",
-   "title": "『ドラゴンクエストRPG 魔界樹と導かれし島』突然発表、スマホ向け新作。まだ謎だらけ、明日20時に詳細公開へ",
-   "link": "https://automaton-media.com/articles/newsjp/20261109-478205/",
-   "summary": "スクウェア・エニックスは11月9日、スマートフォン向け新作タイトル『ドラゴンクエストRPG 魔界樹と導かれし島』を発表した。",
-   "source": "AUTOMATON",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://automaton-media.com/wp-content/uploads/2026/11/header-2.jpg",
-   "published_at": "2026-11-09T12:09:35+09:00",
-   "first_seen": "2026-11-09T15:34:03+09:00"
-  },
-  {
    "id": "n_d5507ce5c50a",
    "title": "画像生成AIは既存のキャラクターをどれくらい出力する？ ソニーAIなどが14モデルを調査",
    "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002982/",
@@ -2733,58 +2836,6 @@
    "first_seen": "2026-11-09T15:34:03+09:00"
   },
   {
-   "id": "n_18b0a67ddf8b",
-   "title": "AIに業務を任せる大企業は6割へ 人材育成に投資しない企業はどうなる？",
-   "link": "https://www.itmedia.co.jp/enterprise/articles/2611/06/news023.html",
-   "summary": "AI予算を何に投資すべきか。IDCは、ある分野への投資を2029年までに怠った企業は、投資した企業に比べて収益成長率が50％低くなると予測する。収益成長率に直結する投資分野は何か。",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T08:00:00+09:00",
-   "first_seen": "2026-11-09T08:44:21+09:00"
-  },
-  {
-   "id": "n_71d028e47a2b",
-   "title": "“おいしい魚”を届けられないかも──スシロー、漁業の危機にどう挑む？ 富士通とタッグ、AIで「海を解剖」するワケ",
-   "link": "https://www.itmedia.co.jp/business/articles/2611/09/news039.html",
-   "summary": "スシロー、クロシオ水産、富士通などが手を組み、海洋テックを生かした養殖に挑戦している。舞台は、高知県の宿毛湾。異業種連携で、水産業の課題を解決できるのか。",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T07:00:00+09:00",
-   "first_seen": "2026-11-09T08:44:21+09:00"
-  },
-  {
-   "id": "n_bf3da7412caf",
-   "title": "「勝手に社外AIを使う」エース社員に困っています……どうすべき？",
-   "link": "https://www.itmedia.co.jp/business/articles/2611/09/news038.html",
-   "summary": "「会社の“公認AI”では物足りない」――社員が「シャドーAI」を使っている場合、“禁止令”を出すだけで解決する問題なのか。AI活用を推進するために企業はどう対応すればよいのか。",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T07:00:00+09:00",
-   "first_seen": "2026-11-09T08:44:21+09:00"
-  },
-  {
-   "id": "n_7d83122e7c5b",
-   "title": "意思疎通に難？ 技術が分かるから強い？――研究者に事業開発させるべきか否か、NEC・イビデンの回答は……",
-   "link": "https://www.itmedia.co.jp/business/articles/2611/09/news040.html",
-   "summary": "技術はあるのに「事業化の壁」を越えられない……。この課題に直面したNECとイビデンは、独自の取り組みで成長領域を模索している。AIをどう生かすか。研究者に事業開発を任せるべきか。両社のキーパーソンが語り合った。",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T07:00:00+09:00",
-   "first_seen": "2026-11-09T08:44:21+09:00"
-  },
-  {
    "id": "n_bc55171edc52",
    "title": "Nvidia、CEOのジェンスン・ファンと中国スパイの可能性のある人物との関係を調査へ",
    "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
@@ -2798,19 +2849,6 @@
    "first_seen": "2026-11-09T08:44:21+09:00",
    "title_original": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
    "translated": true
-  },
-  {
-   "id": "n_e6ffb5265bea",
-   "title": "コクヨが開発部門の「資料散乱」をAIでゼロに 「Notion」をどう使ったか？",
-   "link": "https://kn.itmedia.co.jp/kn/article/2611/09/2000002973/",
-   "summary": "社内に情報は蓄積されているのに、必要な資料が見つからない、十分に活用できない。こうした課題は開発組織でも起こりがちだ。コクヨはNotionとAIエージェントを組み合わせ、情報管理から文書レビューまでを効率化する仕組みづくりに取り組んだ。",
-   "source": "ITmedia AI+",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T06:00:00+09:00",
-   "first_seen": "2026-11-09T08:44:21+09:00"
   },
   {
    "id": "n_50280f9e646e",
@@ -2932,24 +2970,6 @@
    "published_at": "2026-11-08T06:17:08+09:00",
    "first_seen": "2026-11-08T09:38:48+09:00",
    "title_original": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-   "translated": true
-  },
-  {
-   "id": "n_bbe1aa0d5ff3",
-   "title": "アニプレックスとサイバードがSwitch、PC向けダークファンタジービジュアルノベル「LunaReverse」を発表",
-   "link": "https://www.gematsu.com/2026/11/aniplex-and-cybird-announce-dark-fantasy-visual-novel-lunareverse-for-switch-pc",
-   "summary": "Publisher Aniplex and developer CYBIRD have announced LunaReverse, a dark fantasy visual novel coming to …",
-   "source": "Gematsu",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "Switch",
-    "PC"
-   ],
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/11/LunaReverse-Ann_11-07-26.jpg",
-   "published_at": "2026-11-07T19:00:58+09:00",
-   "first_seen": "2026-11-08T01:28:40+09:00",
-   "title_original": "Aniplex and CYBIRD announce dark fantasy visual novel LunaReverse for Switch, PC",
    "translated": true
   },
   {
@@ -3122,20 +3142,6 @@
    "ends_at": "2026-11-21T03:00:30+09:00"
   },
   {
-   "id": "d_steam_4901540",
-   "store": "steam",
-   "title": "Brick Buddies",
-   "link": "https://store.steampowered.com/app/4901540/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4901540/61432dc4545be387dac5929eab83f9a2ec7e0ec9/capsule_231x87.jpg?t=1794229189",
-   "price_original": 799,
-   "price_sale": 719,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_4576490",
    "store": "steam",
    "title": "Casualties: Unknown",
@@ -3150,13 +3156,13 @@
    "ends_at": "2026-11-24T03:00:23+09:00"
   },
   {
-   "id": "d_steam_4017880",
+   "id": "d_steam_4901540",
    "store": "steam",
-   "title": "アノマリス／ANOMALITH",
-   "link": "https://store.steampowered.com/app/4017880/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4017880/1d0f1a44eef01aa497dc540c4d9c4f6e47374364/capsule_231x87_japanese.jpg?t=1793353788",
-   "price_original": 8580,
-   "price_sale": 7722,
+   "title": "Brick Buddies",
+   "link": "https://store.steampowered.com/app/4901540/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4901540/61432dc4545be387dac5929eab83f9a2ec7e0ec9/capsule_231x87.jpg?t=1794229189",
+   "price_original": 799,
+   "price_sale": 719,
    "discount": 10,
    "is_free": false,
    "upcoming": false,
@@ -3178,6 +3184,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_4017880",
+   "store": "steam",
+   "title": "アノマリス／ANOMALITH",
+   "link": "https://store.steampowered.com/app/4017880/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4017880/1d0f1a44eef01aa497dc540c4d9c4f6e47374364/capsule_231x87_japanese.jpg?t=1793353788",
+   "price_original": 8580,
+   "price_sale": 7722,
+   "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_3322630",
    "store": "steam",
    "title": "カルドセプト ビギンズ",
@@ -3186,20 +3206,6 @@
    "price_original": 6380,
    "price_sale": 5742,
    "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_5475960",
-   "store": "steam",
-   "title": "Incremental Traffic",
-   "link": "https://store.steampowered.com/app/5475960/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5475960/946f61a70df1f0306364a2721b2ebd3b9146fcc4/capsule_231x87_japanese.jpg?t=1793908197",
-   "price_original": 1400,
-   "price_sale": 980,
-   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3220,14 +3226,14 @@
    "ends_at": "2026-11-17T03:00:00+09:00"
   },
   {
-   "id": "d_steam_4476270",
+   "id": "d_steam_5475960",
    "store": "steam",
-   "title": "Crown & Coin: The Hundred Years（百年戦争）",
-   "link": "https://store.steampowered.com/app/4476270/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4476270/7987184e2c6b27cc8deb43f28a449ff6b9abb044/capsule_231x87.jpg?t=1794198875",
-   "price_original": 3480,
-   "price_sale": 2784,
-   "discount": 20,
+   "title": "Incremental Traffic",
+   "link": "https://store.steampowered.com/app/5475960/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5475960/946f61a70df1f0306364a2721b2ebd3b9146fcc4/capsule_231x87_japanese.jpg?t=1793908197",
+   "price_original": 1400,
+   "price_sale": 980,
+   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3262,6 +3268,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_4476270",
+   "store": "steam",
+   "title": "Crown & Coin: The Hundred Years（百年戦争）",
+   "link": "https://store.steampowered.com/app/4476270/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4476270/7987184e2c6b27cc8deb43f28a449ff6b9abb044/capsule_231x87.jpg?t=1794198875",
+   "price_original": 3480,
+   "price_sale": 2784,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_3499520",
    "store": "steam",
    "title": "Piano Glow",
@@ -3276,20 +3296,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3527290",
-   "store": "steam",
-   "title": "PEAK",
-   "link": "https://store.steampowered.com/app/3527290/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
-   "price_original": 880,
-   "price_sale": 545,
-   "discount": 38,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_3204330",
    "store": "steam",
    "title": "カウンティ・オブ・フォーチュン",
@@ -3298,6 +3304,20 @@
    "price_original": 2499,
    "price_sale": 2249,
    "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3527290",
+   "store": "steam",
+   "title": "PEAK",
+   "link": "https://store.steampowered.com/app/3527290/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
+   "price_original": 880,
+   "price_sale": 545,
+   "discount": 38,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3332,20 +3352,6 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2161440",
-   "store": "steam",
-   "title": "セーリング エラ Sailing Era",
-   "link": "https://store.steampowered.com/app/2161440/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2161440/capsule_231x87_japanese.jpg?t=1727606618",
-   "price_original": 2800,
-   "price_sale": 1260,
-   "discount": 55,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_3123410",
    "store": "steam",
    "title": "ユミアのアトリエ ～追憶の錬金術士と幻創の地～",
@@ -3354,20 +3360,6 @@
    "price_original": 9680,
    "price_sale": 4840,
    "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1677110",
-   "store": "steam",
-   "title": "Lightyear Frontier",
-   "link": "https://store.steampowered.com/app/1677110/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1677110/e438913d4e64c2d3db2d68da9f291257c028718c/capsule_231x87_alt_assets_7.jpg?t=1793891345",
-   "price_original": 3400,
-   "price_sale": 2720,
-   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3388,41 +3380,13 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1984270",
+   "id": "d_steam_1677110",
    "store": "steam",
-   "title": "デジモンストーリー タイムストレンジャー",
-   "link": "https://store.steampowered.com/app/1984270/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1984270/165bf4f4ac19e57890629b2d12a5a37a21bdd1d6/capsule_231x87_japanese.jpg?t=1790325181",
-   "price_original": 11000,
-   "price_sale": 6600,
-   "discount": 40,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3758950",
-   "store": "steam",
-   "title": "フレミング邸の殺人事件",
-   "link": "https://store.steampowered.com/app/3758950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3758950/be7fb7d1b086f1c85779b1994b4c55a58f393b98/capsule_231x87_japanese.jpg?t=1793692815",
-   "price_original": 1840,
-   "price_sale": 1656,
-   "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3669870",
-   "store": "steam",
-   "title": "CONTROL Resonant（コントロール レゾナント）",
-   "link": "https://store.steampowered.com/app/3669870/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3669870/867a73afa5f21c28aaa14e9b0a4d895c540d4a0c/capsule_231x87.jpg?t=1793357289",
-   "price_original": 7990,
-   "price_sale": 6392,
+   "title": "Lightyear Frontier",
+   "link": "https://store.steampowered.com/app/1677110/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1677110/e438913d4e64c2d3db2d68da9f291257c028718c/capsule_231x87_alt_assets_7.jpg?t=1793891345",
+   "price_original": 3400,
+   "price_sale": 2720,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
@@ -3430,56 +3394,14 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2221490",
+   "id": "d_steam_2161440",
    "store": "steam",
-   "title": "Tom Clancy’s The Division® 2",
-   "link": "https://store.steampowered.com/app/2221490/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2221490/3bd75609a225aacacf31634192bc9ac724e4961c/capsule_231x87_alt_assets_13_japanese.jpg?t=1793697026",
-   "price_original": 4180,
-   "price_sale": 1045,
-   "discount": 75,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2060160",
-   "store": "steam",
-   "title": "農家は Replace() されました",
-   "link": "https://store.steampowered.com/app/2060160/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/71581173f1c6539225b8ed9865852d9282e1762f/capsule_231x87_alt_assets_2_japanese.jpg?t=1793711051",
-   "price_original": 1200,
-   "price_sale": 840,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2991310",
-   "store": "steam",
-   "title": "夢幻桜楼閣",
-   "link": "https://store.steampowered.com/app/2991310/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2991310/3df2f836d84b4426cd9ed426ac61ef5e05cb00b7/capsule_231x87_japanese.jpg?t=1793805269",
-   "price_original": 1500,
-   "price_sale": 1200,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_851850",
-   "store": "steam",
-   "title": "ドラゴンボールZ KAKAROT",
-   "link": "https://store.steampowered.com/app/851850/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/851850/capsule_231x87.jpg?t=1769139697",
-   "price_original": 2970,
-   "price_sale": 2227,
-   "discount": 25,
+   "title": "セーリング エラ Sailing Era",
+   "link": "https://store.steampowered.com/app/2161440/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2161440/capsule_231x87_japanese.jpg?t=1727606618",
+   "price_original": 2800,
+   "price_sale": 1260,
+   "discount": 55,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3500,28 +3422,84 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_1227690",
+   "id": "d_steam_3758950",
    "store": "steam",
-   "title": "Severed Steel",
-   "link": "https://store.steampowered.com/app/1227690/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1227690/capsule_231x87.jpg?t=1723920018",
-   "price_original": 2570,
-   "price_sale": 179,
-   "discount": 93,
+   "title": "フレミング邸の殺人事件",
+   "link": "https://store.steampowered.com/app/3758950/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3758950/be7fb7d1b086f1c85779b1994b4c55a58f393b98/capsule_231x87_japanese.jpg?t=1793692815",
+   "price_original": 1840,
+   "price_sale": 1656,
+   "discount": 10,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
    "ends_at": null
   },
   {
-   "id": "d_steam_3936340",
+   "id": "d_steam_2221490",
    "store": "steam",
-   "title": "Hell Wait",
-   "link": "https://store.steampowered.com/app/3936340/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3936340/fa663f6f9e88d45bbf11d4d64dacefec5e292a3a/capsule_231x87.jpg?t=1794246714",
-   "price_original": 1900,
-   "price_sale": 1615,
-   "discount": 15,
+   "title": "Tom Clancy’s The Division® 2",
+   "link": "https://store.steampowered.com/app/2221490/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2221490/3bd75609a225aacacf31634192bc9ac724e4961c/capsule_231x87_alt_assets_13_japanese.jpg?t=1793697026",
+   "price_original": 4180,
+   "price_sale": 1045,
+   "discount": 75,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1984270",
+   "store": "steam",
+   "title": "デジモンストーリー タイムストレンジャー",
+   "link": "https://store.steampowered.com/app/1984270/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1984270/165bf4f4ac19e57890629b2d12a5a37a21bdd1d6/capsule_231x87_japanese.jpg?t=1790325181",
+   "price_original": 11000,
+   "price_sale": 6600,
+   "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2060160",
+   "store": "steam",
+   "title": "農家は Replace() されました",
+   "link": "https://store.steampowered.com/app/2060160/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/71581173f1c6539225b8ed9865852d9282e1762f/capsule_231x87_alt_assets_2_japanese.jpg?t=1793711051",
+   "price_original": 1200,
+   "price_sale": 840,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_851850",
+   "store": "steam",
+   "title": "ドラゴンボールZ KAKAROT",
+   "link": "https://store.steampowered.com/app/851850/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/851850/capsule_231x87.jpg?t=1769139697",
+   "price_original": 2970,
+   "price_sale": 2227,
+   "discount": 25,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2991310",
+   "store": "steam",
+   "title": "夢幻桜楼閣",
+   "link": "https://store.steampowered.com/app/2991310/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2991310/3df2f836d84b4426cd9ed426ac61ef5e05cb00b7/capsule_231x87_japanese.jpg?t=1793805269",
+   "price_original": 1500,
+   "price_sale": 1200,
+   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3542,13 +3520,55 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3208460",
+   "id": "d_steam_3936340",
    "store": "steam",
-   "title": "Rogue Braver | 勇者ローグ",
-   "link": "https://store.steampowered.com/app/3208460/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3208460/273fe74e8ffd69c425375c4367538f65dc30673d/capsule_231x87_japanese.jpg?t=1793969991",
-   "price_original": 1950,
-   "price_sale": 1560,
+   "title": "Hell Wait",
+   "link": "https://store.steampowered.com/app/3936340/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3936340/fa663f6f9e88d45bbf11d4d64dacefec5e292a3a/capsule_231x87.jpg?t=1794246714",
+   "price_original": 1900,
+   "price_sale": 1615,
+   "discount": 15,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_2384580",
+   "store": "steam",
+   "title": "真・三國無双 ORIGINS",
+   "link": "https://store.steampowered.com/app/2384580/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2384580/b5cbde6571bc616cb837db076fe3dde3668fa68f/capsule_231x87_japanese.jpg?t=1790733210",
+   "price_original": 9680,
+   "price_sale": 6776,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1227690",
+   "store": "steam",
+   "title": "Severed Steel",
+   "link": "https://store.steampowered.com/app/1227690/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1227690/capsule_231x87.jpg?t=1723920018",
+   "price_original": 2570,
+   "price_sale": 179,
+   "discount": 93,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3669870",
+   "store": "steam",
+   "title": "CONTROL Resonant（コントロール レゾナント）",
+   "link": "https://store.steampowered.com/app/3669870/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3669870/867a73afa5f21c28aaa14e9b0a4d895c540d4a0c/capsule_231x87.jpg?t=1793357289",
+   "price_original": 7990,
+   "price_sale": 6392,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
@@ -3556,27 +3576,13 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_2138090",
+   "id": "d_steam_3208460",
    "store": "steam",
-   "title": "マリーのアトリエ Remake ～ザールブルグの錬金術士～",
-   "link": "https://store.steampowered.com/app/2138090/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138090/capsule_231x87_japanese.jpg?t=1793761032",
-   "price_original": 6380,
-   "price_sale": 1914,
-   "discount": 70,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1903340",
-   "store": "steam",
-   "title": "Clair Obscur: Expedition 33",
-   "link": "https://store.steampowered.com/app/1903340/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1903340/001d4a5d81e4bb9055b789240e78e04ef6e6da38/capsule_231x87.jpg?t=1793903997",
-   "price_original": 7480,
-   "price_sale": 5984,
+   "title": "Rogue Braver | 勇者ローグ",
+   "link": "https://store.steampowered.com/app/3208460/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3208460/273fe74e8ffd69c425375c4367538f65dc30673d/capsule_231x87_japanese.jpg?t=1793969991",
+   "price_original": 1950,
+   "price_sale": 1560,
    "discount": 20,
    "is_free": false,
    "upcoming": false,
@@ -3592,20 +3598,6 @@
    "price_original": 2893,
    "price_sale": 2459,
    "discount": 15,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1372110",
-   "store": "steam",
-   "title": "ジョジョの奇妙な冒険 オールスターバトル R",
-   "link": "https://store.steampowered.com/app/1372110/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1372110/capsule_231x87_japanese.jpg?t=1720409046",
-   "price_original": 7678,
-   "price_sale": 1535,
-   "discount": 80,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3654,6 +3646,20 @@
    "ends_at": null
   },
   {
+   "id": "d_steam_2138090",
+   "store": "steam",
+   "title": "マリーのアトリエ Remake ～ザールブルグの錬金術士～",
+   "link": "https://store.steampowered.com/app/2138090/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138090/capsule_231x87_japanese.jpg?t=1793761032",
+   "price_original": 6380,
+   "price_sale": 1914,
+   "discount": 70,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_2089600",
    "store": "steam",
    "title": "都市伝説解体センター",
@@ -3662,6 +3668,20 @@
    "price_original": 1980,
    "price_sale": 1386,
    "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1372110",
+   "store": "steam",
+   "title": "ジョジョの奇妙な冒険 オールスターバトル R",
+   "link": "https://store.steampowered.com/app/1372110/",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1372110/capsule_231x87_japanese.jpg?t=1720409046",
+   "price_original": 7678,
+   "price_sale": 1535,
+   "discount": 80,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3752,20 +3772,6 @@
    "ends_at": null
   },
   {
-   "id": "d_ps_JP0082-PPSA16563_00-ROMANCINGSAGA2RJ",
-   "store": "ps",
-   "title": "ロマンシング サガ2 リベンジオブザセブン - PS4&PS5",
-   "link": "https://store.playstation.com/ja-jp/product/JP0082-PPSA16563_00-ROMANCINGSAGA2RJ",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2910/3dcef5f8ca01b1c916dfceaaa887d924b7bb638fd336aba7.png",
-   "price_original": 6820,
-   "price_sale": 2728,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_ps_JP0700-PPSA24913_00-ACEC8DLXEDITION0",
    "store": "ps",
    "title": "ACE COMBAT 8: WINGS OF THEVE DELUXE EDITION",
@@ -3774,6 +3780,20 @@
    "price_original": 11990,
    "price_sale": 10791,
    "discount": 10,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_ps_JP0082-PPSA16563_00-ROMANCINGSAGA2RJ",
+   "store": "ps",
+   "title": "ロマンシング サガ2 リベンジオブザセブン - PS4&PS5",
+   "link": "https://store.playstation.com/ja-jp/product/JP0082-PPSA16563_00-ROMANCINGSAGA2RJ",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2910/3dcef5f8ca01b1c916dfceaaa887d924b7bb638fd336aba7.png",
+   "price_original": 6820,
+   "price_sale": 2728,
+   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3822,6 +3842,20 @@
    "ends_at": null
   },
   {
+   "id": "d_ps_JP0177-PPSA30223_00-MAINGAME00000000",
+   "store": "ps",
+   "title": "龍が如く 極３ / 龍が如く３外伝 Dark Ties PS4 & PS5",
+   "link": "https://store.playstation.com/ja-jp/product/JP0177-PPSA30223_00-MAINGAME00000000",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202509/0506/60aab7d522e5dee73bda4dbaaf3a8330305425e12b5b84b9.png",
+   "price_original": 8990,
+   "price_sale": 3596,
+   "discount": 60,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_ps_JP0425-PPSA26891_00-EDSORANOKISEKI01",
    "store": "ps",
    "title": "空の軌跡 the 1st",
@@ -3864,48 +3898,6 @@
    "ends_at": null
   },
   {
-   "id": "d_ps_JP0177-PPSA30223_00-MAINGAME00000000",
-   "store": "ps",
-   "title": "龍が如く 極３ / 龍が如く３外伝 Dark Ties PS4 & PS5",
-   "link": "https://store.playstation.com/ja-jp/product/JP0177-PPSA30223_00-MAINGAME00000000",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202509/0506/60aab7d522e5dee73bda4dbaaf3a8330305425e12b5b84b9.png",
-   "price_original": 8990,
-   "price_sale": 3596,
-   "discount": 60,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_ps_JP0106-PPSA15972_00-DWORIGINSGAME000",
-   "store": "ps",
-   "title": "真・三國無双 ORIGINS",
-   "link": "https://store.playstation.com/ja-jp/product/JP0106-PPSA15972_00-DWORIGINSGAME000",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202410/3101/ef76e8294f36b2cce9f198501fb8d4948432f85023a03a12.png",
-   "price_original": 9680,
-   "price_sale": 6776,
-   "discount": 30,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_ps_JP0106-PPSA15972_00-DWORIGINSADDDLC1",
-   "store": "ps",
-   "title": "真・三國無双 ORIGINS 夢幻の四英傑",
-   "link": "https://store.playstation.com/ja-jp/product/JP0106-PPSA15972_00-DWORIGINSADDDLC1",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202510/2107/f0a7187bdeb292cd32f0c9cfdef9579897a9891f9ef5100b.png",
-   "price_original": 4840,
-   "price_sale": 3630,
-   "discount": 25,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_ps_JP0101-PPSA33286_00-TOWNFALLSIEJ0000",
    "store": "ps",
    "title": "SILENT HILL: Townfall",
@@ -3928,6 +3920,20 @@
    "price_original": 9910,
    "price_sale": 4955,
    "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_ps_JP0106-PPSA15972_00-DWORIGINSADDDLC1",
+   "store": "ps",
+   "title": "真・三國無双 ORIGINS 夢幻の四英傑",
+   "link": "https://store.playstation.com/ja-jp/product/JP0106-PPSA15972_00-DWORIGINSADDDLC1",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202510/2107/f0a7187bdeb292cd32f0c9cfdef9579897a9891f9ef5100b.png",
+   "price_original": 4840,
+   "price_sale": 3630,
+   "discount": 25,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -3962,6 +3968,20 @@
    "ends_at": null
   },
   {
+   "id": "d_ps_JP0106-PPSA15972_00-DWORIGINSGAME000",
+   "store": "ps",
+   "title": "真・三國無双 ORIGINS",
+   "link": "https://store.playstation.com/ja-jp/product/JP0106-PPSA15972_00-DWORIGINSGAME000",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202410/3101/ef76e8294f36b2cce9f198501fb8d4948432f85023a03a12.png",
+   "price_original": 9680,
+   "price_sale": 6776,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_ps_JP0082-PPSA20611_00-00000000000000JP",
    "store": "ps",
    "title": "ドラゴンクエストIII　そして伝説へ…",
@@ -3990,14 +4010,14 @@
    "ends_at": null
   },
   {
-   "id": "d_ps_UP9000-PPSA03671_00-WOLVERINEDELUXE0",
+   "id": "d_ps_JP0506-CUSA07339_00-DARKSOULS3BST000",
    "store": "ps",
-   "title": "Marvel’s Wolverineデジタルデラックスエディション",
-   "link": "https://store.playstation.com/ja-jp/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/dcb8dba73b850043430d2f2e56ffc6ac1dff77046a9eabd8.png",
-   "price_original": 9980,
-   "price_sale": 7485,
-   "discount": 25,
+   "title": "DARK SOULS Ⅲ THE FIRE FADES EDITION",
+   "link": "https://store.playstation.com/ja-jp/product/JP0506-CUSA07339_00-DARKSOULS3BST000",
+   "image": "https://image.api.playstation.com/cdn/JP0506/CUSA07339_00/zIcDUDXg8mNBapDwzPtT4jYliIkSNkRV.png",
+   "price_original": 5940,
+   "price_sale": 2970,
+   "discount": 50,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -4053,20 +4073,6 @@
    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202507/2305/671c12eff306cd552de1aef6df258c65b9c01f10094c6bb3.png",
    "price_original": 12100,
    "price_sale": 6050,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_ps_JP0506-CUSA07339_00-DARKSOULS3BST000",
-   "store": "ps",
-   "title": "DARK SOULS Ⅲ THE FIRE FADES EDITION",
-   "link": "https://store.playstation.com/ja-jp/product/JP0506-CUSA07339_00-DARKSOULS3BST000",
-   "image": "https://image.api.playstation.com/cdn/JP0506/CUSA07339_00/zIcDUDXg8mNBapDwzPtT4jYliIkSNkRV.png",
-   "price_original": 5940,
-   "price_sale": 2970,
    "discount": 50,
    "is_free": false,
    "upcoming": false,
@@ -4242,6 +4248,20 @@
    "ends_at": null
   },
   {
+   "id": "d_ps_UP9000-PPSA03671_00-WOLVERINEDELUXE0",
+   "store": "ps",
+   "title": "Marvel’s Wolverineデジタルデラックスエディション",
+   "link": "https://store.playstation.com/ja-jp/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/dcb8dba73b850043430d2f2e56ffc6ac1dff77046a9eabd8.png",
+   "price_original": 9980,
+   "price_sale": 7485,
+   "discount": 25,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_ps_UB1599-PPSA29345_00-AIBOUSIEJ0000000",
    "store": "ps",
    "title": "Beast of Reincarnation",
@@ -4250,20 +4270,6 @@
    "price_original": 7980,
    "price_sale": 6384,
    "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_ps_JP4162-PPSA03976_00-0000000000000WOA",
-   "store": "ps",
-   "title": "HITMAN World of Assassination",
-   "link": "https://store.playstation.com/ja-jp/product/JP4162-PPSA03976_00-0000000000000WOA",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2311/b8eef1ed41e1a72df5174894082790fd23a115e6fe73eaf2.png",
-   "price_original": 8250,
-   "price_sale": 3300,
-   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -4312,20 +4318,6 @@
    "ends_at": null
   },
   {
-   "id": "d_ps_JP0700-PPSA24699_00-DLTS0ULTEDITION0",
-   "store": "ps",
-   "title": "デジモンストーリー タイムストレンジャー アルティメットエディション",
-   "link": "https://store.playstation.com/ja-jp/product/JP0700-PPSA24699_00-DLTS0ULTEDITION0",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202505/1409/c3d89c36833e732b220795a66df7cdd1b95e25a7ed86b18a.png",
-   "price_original": 14300,
-   "price_sale": 9867,
-   "discount": 31,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_ps_UP4664-PPSA16634_00-SATISFACTORYGAME",
    "store": "ps",
    "title": "Satisfactory",
@@ -4354,14 +4346,28 @@
    "ends_at": null
   },
   {
-   "id": "d_ps_JP0177-PPSA31333_00-MAINGAME000000JP",
+   "id": "d_ps_JP0700-PPSA02166_00-BROS0ULTEDITION0",
    "store": "ps",
-   "title": "龍が如く 極２ PS4 & PS5",
-   "link": "https://store.playstation.com/ja-jp/product/JP0177-PPSA31333_00-MAINGAME000000JP",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1905/f1d7d9bd205cdcc40b36ede9da45be6448f41f3c13ec5b72.png",
-   "price_original": 3990,
-   "price_sale": 2394,
-   "discount": 40,
+   "title": "BLEACH Rebirth of Souls アルティメットエディション PS4 & PS5",
+   "link": "https://store.playstation.com/ja-jp/product/JP0700-PPSA02166_00-BROS0ULTEDITION0",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202410/0210/6d27039391b863be948964895186a66c7ae3233176f262d9.png",
+   "price_original": 12540,
+   "price_sale": 6270,
+   "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_ps_JP0700-PPSA24699_00-DLTS0ULTEDITION0",
+   "store": "ps",
+   "title": "デジモンストーリー タイムストレンジャー アルティメットエディション",
+   "link": "https://store.playstation.com/ja-jp/product/JP0700-PPSA24699_00-DLTS0ULTEDITION0",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202505/1409/c3d89c36833e732b220795a66df7cdd1b95e25a7ed86b18a.png",
+   "price_original": 14300,
+   "price_sale": 9867,
+   "discount": 31,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -4410,20 +4416,6 @@
    "ends_at": null
   },
   {
-   "id": "d_ps_JP0700-PPSA02166_00-BROS0ULTEDITION0",
-   "store": "ps",
-   "title": "BLEACH Rebirth of Souls アルティメットエディション PS4 & PS5",
-   "link": "https://store.playstation.com/ja-jp/product/JP0700-PPSA02166_00-BROS0ULTEDITION0",
-   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202410/0210/6d27039391b863be948964895186a66c7ae3233176f262d9.png",
-   "price_original": 12540,
-   "price_sale": 6270,
-   "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_ps_JP0367-PPSA03672_00-EDF6DXEDITION000",
    "store": "ps",
    "title": "地球防衛軍６ Deluxe Edition  PS4 & PS5",
@@ -4466,6 +4458,20 @@
    "ends_at": null
   },
   {
+   "id": "d_ps_EP8388-PPSA19411_00-0156050014836696",
+   "store": "ps",
+   "title": "Tainted Grail: The Fall of Avalon",
+   "link": "https://store.playstation.com/ja-jp/product/EP8388-PPSA19411_00-0156050014836696",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1112/0ca15a39dc1d8c3bfc899a1112de0bf9f4b2763cd836c862.png",
+   "price_original": 4950,
+   "price_sale": 1980,
+   "discount": 60,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_ps_JP0700-PPSA23905_00-CHRNSDLXBUNDLE00",
    "store": "ps",
    "title": "CODE VEIN II - デラックスコンテンツセット",
@@ -4488,6 +4494,20 @@
    "price_original": 6160,
    "price_sale": 3696,
    "discount": 40,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_ps_JP4162-PPSA03976_00-0000000000000WOA",
+   "store": "ps",
+   "title": "HITMAN World of Assassination",
+   "link": "https://store.playstation.com/ja-jp/product/JP4162-PPSA03976_00-0000000000000WOA",
+   "image": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2311/b8eef1ed41e1a72df5174894082790fd23a115e6fe73eaf2.png",
+   "price_original": 8250,
+   "price_sale": 3300,
+   "discount": 60,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
