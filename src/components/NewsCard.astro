@@ -170,6 +170,43 @@ const original = item.translated && item.title_original ? `原題：${item.title
   .fav[aria-pressed="true"] .fav__icon { fill: currentColor; }
   .fav:active { transform: scale(0.9); }
 
+  /*
+    スマホ：星の列をなくし、出典と時刻の行をカードの幅いっぱいに下ろす。
+    そのぶんタイトルの幅が広がり（約 180px → 250px）、1 行に入る字数が増える。
+    星はメタ情報の行の右端に重ねる
+  */
+  @media (max-width: 599px) {
+    .news-card {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0;
+    }
+    .news-card__link {
+      grid-template-columns: 96px minmax(0, 1fr);
+      grid-template-areas:
+        "thumb title"
+        "meta meta";
+      gap: var(--space-2) var(--space-3);
+    }
+    .news-card__body { display: contents; }
+    .thumb { grid-area: thumb; }
+    .thumb__label { font-size: 0.6875rem; }
+    .news-card__title {
+      grid-area: title;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .news-card__meta {
+      grid-area: meta;
+      min-height: 28px;
+      padding-right: var(--tap);
+    }
+    .fav {
+      position: absolute;
+      right: calc(var(--space-2) * -1);
+      bottom: calc(var(--space-3) - 8px);
+    }
+  }
+
   @media (min-width: 600px) {
     .news-card__link { grid-template-columns: 176px minmax(0, 1fr); gap: var(--space-4); }
     .news-card__title { font-size: var(--font-size-md); line-height: 1.45; -webkit-line-clamp: 2; line-clamp: 2; }
