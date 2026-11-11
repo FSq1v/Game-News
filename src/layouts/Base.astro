@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import SiteHeader from "../components/SiteHeader.astro";
 import SiteFooter from "../components/SiteFooter.astro";
+import Splash from "../components/Splash.astro";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "../site";
 
 interface Props {
@@ -27,6 +28,16 @@ const ogImageUrl = new URL(ogImage, SITE_URL);
     {/* JS が動く印。絞り込みやタブは JS がないと動かないので、この印があるときだけ出す。
         描画の前に付けるので、あとから部品が出てきて画面がずれることはない */}
     <script is:inline>document.documentElement.setAttribute("data-js", "");</script>
+    {/* 起動アニメーションを出すかどうか。タブを開いて最初の 1 回だけ出す。
+        動きを減らす設定のときと、sessionStorage が使えない（毎回出てしまう）ときは出さない */}
+    <script is:inline>
+      try {
+        if (!matchMedia("(prefers-reduced-motion: reduce)").matches && !sessionStorage.getItem("signal_splash_seen")) {
+          sessionStorage.setItem("signal_splash_seen", "1");
+          document.documentElement.setAttribute("data-splash", "");
+        }
+      } catch (e) {}
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
@@ -47,6 +58,7 @@ const ogImageUrl = new URL(ogImage, SITE_URL);
     <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
   <body>
+    <Splash />
     <a class="skip-link" href="#main">本文へ移動</a>
     <SiteHeader />
     <main id="main" tabindex="-1">
