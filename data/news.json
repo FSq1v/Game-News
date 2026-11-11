@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-12T00:15:19+09:00",
+ "updated_at": "2026-11-12T00:19:04+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -38,7 +38,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -46,7 +46,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -54,7 +54,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -62,7 +62,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -102,7 +102,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "ai"
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "ai"
   },
   {
@@ -126,7 +126,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "ai"
   },
   {
@@ -134,7 +134,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "ai"
   },
   {
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "ai"
   },
   {
@@ -150,7 +150,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "ai"
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -166,7 +166,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -174,7 +174,7 @@
    "ok": true,
    "count": 59,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   },
   {
@@ -182,7 +182,7 @@
    "ok": true,
    "count": 60,
    "error": null,
-   "last_success": "2026-11-12T00:15:19+09:00",
+   "last_success": "2026-11-12T00:19:04+09:00",
    "genre": "game"
   }
  ],
@@ -267,6 +267,21 @@
    "published_at": "2026-11-12T00:00:00+09:00",
    "first_seen": "2026-11-12T00:15:19+09:00",
    "title_original": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+   "translated": true
+  },
+  {
+   "id": "n_7d4c517a6890",
+   "title": "Databricks の新しい AI エージェントが CEO の Ali Ghodsi に赤裸々な真実を語る",
+   "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+   "summary": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess t",
+   "source": "TechCrunch AI",
+   "region": "global",
+   "genre": "ai",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-12T00:00:00+09:00",
+   "first_seen": "2026-11-12T00:19:04+09:00",
+   "title_original": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
    "translated": true
   },
   {
@@ -2250,7 +2265,7 @@
   },
   {
    "id": "n_306b22c14177",
-   "title": "You Can Play GTA 6 On A 13-Year-Old Xbox And It’ll Run At The Same Framerate As PS5 Pro",
+   "title": "13 年前の Xbox で GTA 6 をプレイでき、PS5 Pro と同じフレームレートで動作します",
    "link": "https://kotaku.com/you-can-play-gta-6-on-a-13-year-old-xbox-and-itll-run-at-the-same-framerate-as-ps5-pro-2000755587",
    "summary": "A cloud gaming deal with Rockstar yields a nice bonus for people still playing on Xbox One",
    "source": "Kotaku",
@@ -2262,11 +2277,13 @@
    ],
    "image": "https://kotaku.com/app/uploads/2026/11/xboxone-1280x718.jpg",
    "published_at": "2026-11-11T06:30:53+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "You Can Play GTA 6 On A 13-Year-Old Xbox And It’ll Run At The Same Framerate As PS5 Pro",
+   "translated": true
   },
   {
    "id": "n_6df35dfc2ecb",
-   "title": "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space",
+   "title": "BungieがMarathonの「協力PvEローグライト」モードとおしゃれな新しいソーシャルスペースのゲームプレイトレーラーを公開",
    "link": "https://www.pcgamer.com/games/fps/bungie-drops-gameplay-trailer-for-marathons-co-op-pve-roguelite-mode-and-swanky-new-social-space/",
    "summary": "The Symbiosis update, which will also kick off a beta for a new Team Deathmatch mode, will launch on December 8 with a f",
    "source": "PC Gamer",
@@ -2275,11 +2292,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/qsoUEKZJuZjDSsWKVnbSzh-1920-80.jpg",
    "published_at": "2026-11-11T06:16:59+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space",
+   "translated": true
   },
   {
    "id": "n_bd2a6830d8cf",
-   "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+   "title": "OpenAI、Sonder 創設者が設立した旅行スタートアップ、Odessia を買収",
    "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
    "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known",
    "source": "TechCrunch AI",
@@ -2288,11 +2307,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T06:08:52+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+   "translated": true
   },
   {
    "id": "n_32a45a565f48",
-   "title": "Fairgame$ canceled",
+   "title": "フェアゲーム$はキャンセルされました",
    "link": "https://www.gematsu.com/2026/11/fairgame-canceled",
    "summary": "Sony Interactive Entertainment has canceled development subsidiary Haven Interactive Studios’ May 2023-announced multipl",
    "source": "Gematsu",
@@ -2301,11 +2322,13 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Fairgames-Cancelled_11-10-26.jpg",
    "published_at": "2026-11-11T05:58:47+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "Fairgame$ canceled",
+   "translated": true
   },
   {
    "id": "n_91faed0650f0",
-   "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+   "title": "ニューヨーク州の AI 安全法発効に伴い、OpenAI と Anthropic は新たな監視に直面する",
    "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
    "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to reg",
    "source": "TechCrunch AI",
@@ -2314,11 +2337,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T05:52:13+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+   "translated": true
   },
   {
    "id": "n_4c2ad197dd2c",
-   "title": "PlayStation Cancels Fairgames After Years Of Silence",
+   "title": "PlayStation、長年の沈黙を経てフェアゲームを中止",
    "link": "https://kotaku.com/fairgames-haven-studios-jade-raymond-playstation-canceled-2000755584",
    "summary": "Haven Studios' multiplayer shooter was revealed in 2023",
    "source": "Kotaku",
@@ -2327,11 +2352,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/11/fairgames.jpg",
    "published_at": "2026-11-11T05:49:43+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "PlayStation Cancels Fairgames After Years Of Silence",
+   "translated": true
   },
   {
    "id": "n_4ac26d32a832",
-   "title": "It’s A Relief To Go Back To The Simple Joy Of Ocarina Of Time After A Decade Of Being Overwhelmed By Breath Of The Wild",
+   "title": "ブレス オブ ザ ワイルドに圧倒されてから 10 年が経ち、時のオカリナの単純な喜びに戻るとホッとします",
    "link": "https://kotaku.com/legend-zelda-ocarina-time-botw-totk-weapon-degradation-2000755576",
    "summary": "I just want to play with my silly little toys and solve my silly little puzzles without fighting the elements to survive",
    "source": "Kotaku",
@@ -2340,11 +2367,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/11/IMG_1724-1280x720.jpg",
    "published_at": "2026-11-11T05:30:45+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "It’s A Relief To Go Back To The Simple Joy Of Ocarina Of Time After A Decade Of Being Overwhelmed By Breath Of The Wild",
+   "translated": true
   },
   {
    "id": "n_9a5bae24e02d",
-   "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+   "title": "Anthropic の創設者 7 人全員が IPO でそれぞれ約 2 億 5,000 万ドルを現金化する予定",
    "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
    "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them",
    "source": "TechCrunch AI",
@@ -2353,11 +2382,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T04:57:52+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "All 7 Anthropic founders will each cash out about $250M in IPO",
+   "translated": true
   },
   {
    "id": "n_e8262c374686",
-   "title": "2 years after Unknown 9: Awakening bombed, Bandai Namco is closing the studio that made it",
+   "title": "『Unknown 9: Awakening』が爆撃されてから2年、バンダイナムコはこの作品を制作したスタジオを閉鎖する",
    "link": "https://www.pcgamer.com/gaming-industry/2-years-after-unknown-9-awakening-bombed-bandai-namco-is-closing-the-studio-that-made-it/",
    "summary": "Reflector Entertainment had a new game in pre-production, but Bandai decided it wasn't worth the time or money to pursue",
    "source": "PC Gamer",
@@ -2366,11 +2397,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/WTrJjDChn3v8ozas2KjHmf-1920-80.jpg",
    "published_at": "2026-11-11T04:55:36+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "2 years after Unknown 9: Awakening bombed, Bandai Namco is closing the studio that made it",
+   "translated": true
   },
   {
    "id": "n_fe6d70a1808a",
-   "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+   "title": "Oura、AIネイティブのプライマリケアスタートアップCounsel Healthを6億2,500万ドルで買収",
    "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
    "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO ",
    "source": "TechCrunch AI",
@@ -2379,11 +2412,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T04:23:34+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+   "translated": true
   },
   {
    "id": "n_34a6071342ff",
-   "title": "The US is winning the AI race. Jensen Huang could have blown it",
+   "title": "米国はAI競争に勝利しつつある。ジェンセン・ファンなら成功したかもしれない",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
    "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the wo",
    "source": "The Verge AI",
@@ -2392,11 +2427,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T04:04:05+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "The US is winning the AI race. Jensen Huang could have blown it",
+   "translated": true
   },
   {
    "id": "n_2800935556d8",
-   "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+   "title": "PSI は AI 主導の科学的発見をビジネスにしようとしている",
    "link": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
    "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pur",
    "source": "TechCrunch AI",
@@ -2405,7 +2442,9 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T04:03:52+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "PSI is trying to make a business out of AI-driven scientific discovery",
+   "translated": true
   },
   {
    "id": "n_ac5a661efbfd",
@@ -2422,7 +2461,7 @@
   },
   {
    "id": "n_617d1fe61fcc",
-   "title": "PlayStation Plus PC app is being shut down in December because less than 0.4% of eligible subscribers are using it",
+   "title": "PlayStation Plus PCアプリは、対象となる加入者の0.4%未満しか使用していないため、12月に閉鎖される",
    "link": "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/",
    "summary": "Yes, this fits with Sony's broader pullback from PC, but the real reason the app is \"retiring\" is a simple lack of inter",
    "source": "PC Gamer",
@@ -2433,11 +2472,13 @@
    ],
    "image": "https://cdn.mos.cms.futurecdn.net/wkTrHGFcrPxmNFFGDeyYtH-1920-80.jpg",
    "published_at": "2026-11-11T03:57:18+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "PlayStation Plus PC app is being shut down in December because less than 0.4% of eligible subscribers are using it",
+   "translated": true
   },
   {
    "id": "n_ccdccf818b30",
-   "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+   "title": "OpenAI が新しいビジネス プロファイルを展開し、ChatGPT をもう少し Google に近づけます",
    "link": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
    "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower bu",
    "source": "TechCrunch AI",
@@ -2446,11 +2487,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T03:49:52+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+   "translated": true
   },
   {
    "id": "n_17096fe89089",
-   "title": "Mouse Work launches December 7",
+   "title": "Mouse Work が 12 月 7 日に発売",
    "link": "https://www.gematsu.com/2026/11/mouse-work-launches-december-7",
    "summary": "Party game Mouse Work will launch for Switch 2 on December 7, developer Nitrome announced. …",
    "source": "Gematsu",
@@ -2461,11 +2504,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Mouse-Work-Date_11-09-26.jpg",
    "published_at": "2026-11-11T03:29:05+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "Mouse Work launches December 7",
+   "translated": true
   },
   {
    "id": "n_8181505d0af0",
-   "title": "The Outer Worlds 2 DLC ‘Side Effects Guaranteed’ launches December 2",
+   "title": "アウター・ワールド 2 DLC「サイド・エフェクト・ギャランティード」が 12 月 2 日にリリース",
    "link": "https://www.gematsu.com/2026/11/the-outer-worlds-2-dlc-side-effects-guaranteed-launches-december-2",
    "summary": "Publisher Xbox Game Studios and developer Obsidian Entertainment will release The Outer Worlds 2 downloadable …",
    "source": "Gematsu",
@@ -2476,11 +2521,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/TOW2-DLC_11-10-26.jpg",
    "published_at": "2026-11-11T03:17:44+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "The Outer Worlds 2 DLC ‘Side Effects Guaranteed’ launches December 2",
+   "translated": true
   },
   {
    "id": "n_efb813c9c548",
-   "title": "How To Get A Sleeping Bag In World Of Warcraft: Forever",
+   "title": "World Of Warcraft: Forever で寝袋を入手する方法",
    "link": "https://kotaku.com/how-to-get-a-sleeping-bag-in-world-of-warcraft-forever-2000755167",
    "summary": "Nap with your friends",
    "source": "Kotaku",
@@ -2489,11 +2536,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/11/sleepin-1280x720.jpg",
    "published_at": "2026-11-11T03:00:18+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "How To Get A Sleeping Bag In World Of Warcraft: Forever",
+   "translated": true
   },
   {
    "id": "n_211e12643a5b",
-   "title": "I installed a GTA 5 mod that makes it rain human beings, and no I don't know why either",
+   "title": "人間に雨を降らせるGTA 5 MODをインストールしましたが、理由はわかりません",
    "link": "https://www.pcgamer.com/games/grand-theft-auto/i-installed-a-gta-5-mod-that-makes-it-rain-human-beings-and-no-i-dont-know-why-either/",
    "summary": "It's raining men. And others.",
    "source": "PC Gamer",
@@ -2502,11 +2551,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/9BVTXEXPh2BBPMKmRjBnrU-1920-80.jpg",
    "published_at": "2026-11-11T03:00:00+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "I installed a GTA 5 mod that makes it rain human beings, and no I don't know why either",
+   "translated": true
   },
   {
    "id": "n_7396b577c725",
-   "title": "ChatGPT is getting verified AI ‘Business Agents’",
+   "title": "ChatGPT が検証済み AI「ビジネス エージェント」を取得",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
    "summary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like com",
    "source": "The Verge AI",
@@ -2515,7 +2566,9 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T03:00:00+09:00",
-   "first_seen": "2026-11-11T08:24:24+09:00"
+   "first_seen": "2026-11-11T08:24:24+09:00",
+   "title_original": "ChatGPT is getting verified AI ‘Business Agents’",
+   "translated": true
   },
   {
    "id": "n_8d3079bf8e7f",
@@ -2558,7 +2611,7 @@
   },
   {
    "id": "n_26dbcebbee97",
-   "title": "Grand Theft Auto 6 is 'the most pre-ordered' game of all time on both Xbox and PlayStation",
+   "title": "グランド・セフト・オート6はXboxとPlayStationの両方で史上「最も予約注文された」ゲームだ",
    "link": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/",
    "summary": "On PC, however, GTA 6 remains among the least pre-ordered games of all time because, well, you know.",
    "source": "PC Gamer",
@@ -2570,11 +2623,13 @@
    ],
    "image": "https://cdn.mos.cms.futurecdn.net/XmgQM2EHqUL9LoTv3eSBMF-1920-80.jpg",
    "published_at": "2026-11-11T02:34:18+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Grand Theft Auto 6 is 'the most pre-ordered' game of all time on both Xbox and PlayStation",
+   "translated": true
   },
   {
    "id": "n_efa47ed79857",
-   "title": "A Big Talk About Big Walk’s AI Fallout",
+   "title": "Big Walk の AI Fallout についての大きな話",
    "link": "https://kotaku.com/big-walk-ai-disclosure-igf-awards-vg-chat-2000755514",
    "summary": "Kotaku has a big talk about our big feelings regarding the recent disclosure that AI was used in its development",
    "source": "Kotaku",
@@ -2583,11 +2638,13 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/08/bigwalkinterview3-1280x720.jpg",
    "published_at": "2026-11-11T02:33:38+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "A Big Talk About Big Walk’s AI Fallout",
+   "translated": true
   },
   {
    "id": "n_7ac1a3b2939b",
-   "title": "The indie game community is in disarray over AI and Big Walk",
+   "title": "インディー ゲーム コミュニティは AI と Big Walk をめぐって混乱している",
    "link": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
    "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that u",
    "source": "The Verge AI",
@@ -2596,11 +2653,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T02:32:47+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "The indie game community is in disarray over AI and Big Walk",
+   "translated": true
   },
   {
    "id": "n_ec3f910d2a18",
-   "title": "Anthropic has its own AI-powered office suite now",
+   "title": "Anthropic は現在、AI を活用した独自のオフィス スイートを持っています",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
    "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clie",
    "source": "The Verge AI",
@@ -2609,11 +2668,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T02:30:00+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Anthropic has its own AI-powered office suite now",
+   "translated": true
   },
   {
    "id": "n_fd8e1c638d2d",
-   "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+   "title": "Anthropic が職場でのディスカッションを計画とタスクに変えるクロード ミーティングを開始",
    "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
    "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in",
    "source": "TechCrunch AI",
@@ -2622,11 +2683,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T02:30:00+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+   "translated": true
   },
   {
    "id": "n_eb0cdc070dfa",
-   "title": "Devolver Digital and BlackLight Games announce roguelike auto-battler All Army Attack for PC",
+   "title": "Devolver Digital と BlackLight Games が PC 向けローグライク オートバトラー All Army Attack を発表",
    "link": "https://www.gematsu.com/2026/11/devolver-digital-and-blacklight-games-announce-roguelike-auto-battler-all-army-attack-for-pc",
    "summary": "Publisher Devolver Digital and developer BlackLight Games have announced All Army Attack, a “chaotic, large-scale …",
    "source": "Gematsu",
@@ -2637,11 +2700,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/All-Army-Attack_2026_11-10-26_016.jpg",
    "published_at": "2026-11-11T02:13:01+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Devolver Digital and BlackLight Games announce roguelike auto-battler All Army Attack for PC",
+   "translated": true
   },
   {
    "id": "n_c81ba466dcd3",
-   "title": "Here's our second wave of PS Plus games for November 2026 - and Sony's scrapping its barely used PC app",
+   "title": "2026年11月のPS Plusゲーム第2弾はこちら - そしてソニーはほとんど使われていないPCアプリを廃止",
    "link": "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app",
    "summary": "Sony's revealed the second wave of games coming to PlayStation Plus Premium and Extra this month, and there are some gen",
    "source": "Eurogamer",
@@ -2652,11 +2717,13 @@
    ],
    "image": "https://assetsio.gnwcdn.com/Death-Stranding-2-trailer-screenshot-showing-a-masked-figure-in-red-pointing-to-themself-with-their-thumb.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-11T02:10:00+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Here's our second wave of PS Plus games for November 2026 - and Sony's scrapping its barely used PC app",
+   "translated": true
   },
   {
    "id": "n_940b8a321b94",
-   "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+   "title": "Nvidia CEO ジェンセン・ファンと中国スパイ容疑者との関係：タイムライン",
    "link": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
    "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI inf",
    "source": "TechCrunch AI",
@@ -2665,11 +2732,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T02:04:19+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+   "translated": true
   },
   {
    "id": "n_df56545d1ba8",
-   "title": "PlayStation Plus Game Catalog and Classics Catalog lineup for November 2026 announced",
+   "title": "2026年11月のPlayStation Plusゲームカタログとクラシックカタログのラインナップが発表",
    "link": "https://www.gematsu.com/2026/11/playstation-plus-game-catalog-and-classics-catalog-lineup-for-november-2026-announced",
    "summary": "Sony Interactive Entertainment has announced the November 2026 Game Catalog lineup for PlayStation Plus Extra …",
    "source": "Gematsu",
@@ -2678,7 +2747,9 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/PS-Plus-Game-Catalog_11-10-26.jpg",
    "published_at": "2026-11-11T01:40:46+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "PlayStation Plus Game Catalog and Classics Catalog lineup for November 2026 announced",
+   "translated": true
   },
   {
    "id": "n_1a64a915b59f",
@@ -2697,7 +2768,7 @@
   },
   {
    "id": "n_0bacbf2c208c",
-   "title": "Grand Theft Auto 6 becomes the most pre-ordered game in PlayStation Store history",
+   "title": "グランド・セフト・オート6はPlayStation Store史上最も予約注文されたゲームとなる",
    "link": "https://www.eurogamer.net/gta-6-most-preordered-game-playstation-store-history",
    "summary": "UPDATE 11TH NOVEMBER: Grand Theft Auto 6 has also become the most pre-ordered game \"of all time\" on the Xbox Store, Micr",
    "source": "Eurogamer",
@@ -2708,11 +2779,13 @@
    ],
    "image": "https://assetsio.gnwcdn.com/gta-6-pool-of-money.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-11T01:31:30+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Grand Theft Auto 6 becomes the most pre-ordered game in PlayStation Store history",
+   "translated": true
   },
   {
    "id": "n_3e50515c6d1f",
-   "title": "eBay appears to have shut the door on third-party AI agents",
+   "title": "eBayはサードパーティのAIエージェントへの扉を閉めたようだ",
    "link": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
    "summary": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in ",
    "source": "The Verge AI",
@@ -2721,11 +2794,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T01:20:30+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "eBay appears to have shut the door on third-party AI agents",
+   "translated": true
   },
   {
    "id": "n_90f34e52e601",
-   "title": "Teenage Mutant Ninja Turtles: Splintered Fate ‘Shell Squad Co-Op Update’ now available",
+   "title": "ティーンエイジ・ミュータント・ニンジャ・タートルズ：スプリンタード・フェイト「Shell Squad Co-Op Update」が利用可能になりました",
    "link": "https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available",
    "summary": "Super Evil Megacorp has released the “Shell Squad Co-Op Update” for Teenage Mutant Ninja Turtles: …",
    "source": "Gematsu",
@@ -2734,11 +2809,13 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Teenage-Mutant-Ninja-Turtles-Splintered-Fate_2026_11-10-26_001.jpg",
    "published_at": "2026-11-11T01:00:18+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Teenage Mutant Ninja Turtles: Splintered Fate ‘Shell Squad Co-Op Update’ now available",
+   "translated": true
   },
   {
    "id": "n_a14681e2ddce",
-   "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+   "title": "Google、エージェント「swarm」機能を備えた Gemini 4 Carbon をリリース",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
    "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group o",
    "source": "The Verge AI",
@@ -2747,11 +2824,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T01:00:00+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+   "translated": true
   },
   {
    "id": "n_5ef445c1e85d",
-   "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+   "title": "Google、2 つの新しい専用チップで AI ハードウェア ポートフォリオを拡大",
    "link": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
    "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training an",
    "source": "TechCrunch AI",
@@ -2760,11 +2839,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T00:54:08+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Google broadens its AI hardware portfolio with two new specialized chips",
+   "translated": true
   },
   {
    "id": "n_05045298619b",
-   "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+   "title": "Meta の AI エージェント Muse が Apple Watch と Android Wear OS に登場",
    "link": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
    "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
    "source": "TechCrunch AI",
@@ -2773,11 +2854,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-11T00:29:30+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+   "translated": true
   },
   {
    "id": "n_c56d8236014d",
-   "title": "Rockstar details Grand Theft Auto 6 PS5 Pro enhancements, but it'll still only run at 30FPS",
+   "title": "ロックスターはグランド・セフト・オート6 PS5 Proの機能強化を詳細に発表したが、それでも30FPSでしか動作しない",
    "link": "https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit",
    "summary": "As Grand Theft Auto 6 preloads go live, developer Rockstar has detailed the enhancements coming to the PS5 Pro version o",
    "source": "Eurogamer",
@@ -2788,11 +2871,13 @@
    ],
    "image": "https://assetsio.gnwcdn.com/GTA-frame-rate.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-11T00:01:10+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Rockstar details Grand Theft Auto 6 PS5 Pro enhancements, but it'll still only run at 30FPS",
+   "translated": true
   },
   {
    "id": "n_efd2b4eb8eeb",
-   "title": "Europe is about to get very tough on loot boxes in games, according to a leaked draft of the landmark Digital Fairness Act",
+   "title": "漏洩した画期的なデジタル公平法の草案によると、ヨーロッパはゲームのルートボックスに対して非常に厳しくなろうとしている",
    "link": "https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation",
    "summary": "An alleged draft of the potentially game-changing Digital Fairness Act has leaked ahead of its scheduled publication tom",
    "source": "Eurogamer",
@@ -2801,11 +2886,13 @@
    "platforms": [],
    "image": "https://assetsio.gnwcdn.com/evil_lootbox.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-10T23:46:50+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Europe is about to get very tough on loot boxes in games, according to a leaked draft of the landmark Digital Fairness Act",
+   "translated": true
   },
   {
    "id": "n_b15ed1b5b8e0",
-   "title": "Rockstar kills any hopes of streaming GTA 6 from Xbox to PC, but you can stream it to your old Xbox One if you like",
+   "title": "Rockstar は GTA 6 を Xbox から PC にストリーミングする希望を打ち消しますが、必要に応じて古い Xbox One にストリーミングすることもできます",
    "link": "https://www.eurogamer.net/gta-6-xbox-cloud-streaming-pc-xbox-one",
    "summary": "Rockstar Games has today clarified a few remaining details about Grand Theft Auto 6's framerate target and visual settin",
    "source": "Eurogamer",
@@ -2817,11 +2904,13 @@
    ],
    "image": "https://assetsio.gnwcdn.com/xbox-one-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-10T23:40:10+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Rockstar kills any hopes of streaming GTA 6 from Xbox to PC, but you can stream it to your old Xbox One if you like",
+   "translated": true
   },
   {
    "id": "n_0cd5e191c405",
-   "title": "Anthropic targets $1.4 trillion IPO",
+   "title": "Anthropic は 1 兆 4000 億ドルの IPO を目標としています",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
    "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expec",
    "source": "The Verge AI",
@@ -2830,11 +2919,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-10T23:06:54+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Anthropic targets $1.4 trillion IPO",
+   "translated": true
   },
   {
    "id": "n_fd2783d2e19a",
-   "title": "Despite promising a heady mix of Vampire Survivors and Warhammer fan-service, Warhammer Survivors is somehow less than the sum of its parts",
+   "title": "『ヴァンパイア サバイバーズ』と『ウォーハンマー』のファンサービスの熱狂的な組み合わせを約束しているにもかかわらず、『ウォーハンマー サバイバーズ』はどういうわけか各要素を合計したものよりも劣っています。",
    "link": "https://www.eurogamer.net/warhammer-survivors-now-playing",
    "summary": "You know my favourite thing about Vampire Survivors ? The slow build of strength, the swelling power fantasy, the edging",
    "source": "Eurogamer",
@@ -2843,7 +2934,9 @@
    "platforms": [],
    "image": "https://assetsio.gnwcdn.com/warhammer-survivors_5jrmIgw.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-10T23:06:10+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
+   "first_seen": "2026-11-11T02:52:01+09:00",
+   "title_original": "Despite promising a heady mix of Vampire Survivors and Warhammer fan-service, Warhammer Survivors is somehow less than the sum of its parts",
+   "translated": true
   },
   {
    "id": "n_d10ce5761f29",
@@ -2893,21 +2986,6 @@
    "region": "global",
    "genre": "ai",
    "platforms": [],
-   "image": null,
-   "published_at": "2026-11-10T23:00:00+09:00",
-   "first_seen": "2026-11-11T02:52:01+09:00"
-  },
-  {
-   "id": "n_5cd056a31d5d",
-   "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-   "link": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-   "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
-   "source": "TechCrunch AI",
-   "region": "global",
-   "genre": "ai",
-   "platforms": [
-    "PC"
-   ],
    "image": null,
    "published_at": "2026-11-10T23:00:00+09:00",
    "first_seen": "2026-11-11T02:52:01+09:00"
@@ -3149,19 +3227,6 @@
    "image": null,
    "published_at": "2026-11-09T17:00:00+09:00",
    "first_seen": "2026-11-10T09:26:49+09:00"
-  },
-  {
-   "id": "n_573e3cfeb4c5",
-   "title": "Excelで帳票レイアウトを作成、CSVデータから簡単に単票や明細付きの帳票を生成できる「AS-DataReport」が新登場［PR］",
-   "link": "https://www.publickey1.jp/blog/26/excelcsvas-datareportpr.html",
-   "summary": "年度の切り替え時に取引先に提出する見積書のフォーマットが変わる、取引先から納品書のフォーマットを指定されたなど、ビジネスにおいて帳票のレイアウトに新たな要求が寄せられることは珍しくありません。 しかし業務システムをそのたびに作り変えるのは一",
-   "source": "Publickey",
-   "region": "jp",
-   "genre": "ai",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-09T00:16:44+09:00",
-   "first_seen": "2026-11-09T00:14:29+09:00"
   }
  ],
  "deals": [
@@ -3240,14 +3305,14 @@
    "store": "steam",
    "title": "病能探偵",
    "link": "https://store.steampowered.com/app/3432860/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432860/c30c49d55dbce303bdd8e586d17b761f372ac504/header_japanese.jpg?t=1793883448",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3432860/f10610fffa8ecde4043e1ef0b6fcf06aa5dd8b0d/capsule_231x87_japanese.jpg?t=1793883448",
    "price_original": 3320,
    "price_sale": 2455,
    "discount": 26,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": "2026-11-20T03:00:00+09:00"
+   "ends_at": null
   },
   {
    "id": "d_steam_5266240",
@@ -3408,14 +3473,14 @@
    "store": "steam",
    "title": "Wall World Strategy",
    "link": "https://store.steampowered.com/app/4218360/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4218360/3a2af915aeb74c973cb118adecb80290199881ea/capsule_231x87.jpg?t=1794400714",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218360/affb6b94d152a5a52e6c5a75bb246be70e07ae3a/header.jpg?t=1794400714",
    "price_original": 2700,
    "price_sale": 2295,
    "discount": 15,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
-   "ends_at": null
+   "ends_at": "2026-11-26T03:00:01+09:00"
   },
   {
    "id": "d_steam_5475960",
