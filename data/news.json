@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-13T20:35:09+09:00",
+ "updated_at": "2026-11-13T20:47:36+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 40,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -38,7 +38,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -46,7 +46,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -54,7 +54,7 @@
    "ok": true,
    "count": 29,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -62,7 +62,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -102,7 +102,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -126,7 +126,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -134,7 +134,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -150,7 +150,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -166,7 +166,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -174,7 +174,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -182,7 +182,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -190,7 +190,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -198,7 +198,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "ai"
   },
   {
@@ -206,7 +206,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -214,7 +214,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -222,7 +222,7 @@
    "ok": true,
    "count": 57,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   },
   {
@@ -230,14 +230,87 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "last_success": "2026-11-13T20:35:09+09:00",
+   "last_success": "2026-11-13T20:47:36+09:00",
    "genre": "game"
   }
  ],
  "news": [
   {
+   "id": "n_bc6fbb8b7a97",
+   "title": "2019年公開の長編ホラーノベルの商用リメイク版「祀月夭花〜四月八日〜」，第1弾PVが公開。桜が舞う4月，町で真っ赤な死体が発見される",
+   "link": "https://www.4gamer.net/games/058/G105836/20261113047/",
+   "summary": "同人ゲームサークルNew++は本日，PC向けタイトル「祀月夭花〜四月八日〜」の第1弾PVを公開した。本作は，2019年に無料公開された長編ホラーノベル「死月妖花〜四月八日〜」をもとに，原作者のさつき氏が手掛ける商用リメイク版だ。",
+   "source": "4Gamer",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-13T20:43:43+09:00",
+   "first_seen": "2026-11-13T20:47:36+09:00"
+  },
+  {
+   "id": "n_06aeaed0ae9d",
+   "title": "「アズールプロミリア」，公式配信を11月20日20：00より実施。「特別番組」と「公式生放送」の2本立て",
+   "link": "https://www.4gamer.net/games/784/G078489/20261113051/",
+   "summary": "Yostarは本日（2026年11月13日），ManjuuGamesと共同パブリッシングする新作タイトル「アズールプロミリア」の公式配信を11月20日20：00より実施すると発表した。今回は「特別番組」と「公式生放送」の2本立てとなる。",
+   "source": "4Gamer",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-13T20:38:35+09:00",
+   "first_seen": "2026-11-13T20:47:36+09:00"
+  },
+  {
+   "id": "n_c87d5fbe44ea",
+   "title": "Xbox Live、Microsoft 365、Teams、そしてCopilotはいずれも依然として深刻な不具合を抱えており、修正も「期待通りに機能していない」",
+   "link": "https://kotaku.com/xbox-live-microsoft-365-copilot-outlook-outages-ongoing-2000756565",
+   "summary": "Microsoft's online services are in a complete state, all over the world, affecting governments, flights and more",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "Xbox"
+   ],
+   "image": "https://kotaku.com/app/uploads/2026/11/xbox-not-live-1280x720.jpg",
+   "published_at": "2026-11-13T20:35:13+09:00",
+   "first_seen": "2026-11-13T20:47:36+09:00",
+   "title_original": "Xbox Live, Microsoft 365, Teams And Copilot Are All Still Spectacularly Broken, Fixes ‘Not Taking As Expected’",
+   "translated": true
+  },
+  {
+   "id": "n_3693875e139c",
+   "title": "報道によると、NVIDIAの元CEOジェンセン・フアン氏は、別のNVIDIA社員とも「親密な関係」にあったとされる",
+   "link": "https://www.pcgamer.com/hardware/ex-nvidia-ceo-jensen-huang-allegedly-had-an-intimate-relationship-with-a-second-nvidia-employee-according-to-reports/",
+   "summary": "The report is based on information from \"two people familiar with the matter.\"",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/Gv633MiZGGDKePyr3xCf5i-1920-80.jpg",
+   "published_at": "2026-11-13T20:33:19+09:00",
+   "first_seen": "2026-11-13T20:47:36+09:00",
+   "title_original": "Ex-Nvidia CEO Jensen Huang allegedly had an 'intimate relationship' with a second Nvidia employee, according to reports",
+   "translated": true
+  },
+  {
+   "id": "n_912242a54175",
+   "title": "「私はジェンセンを支持する」：NVIDIA社員が、辞任した黄氏を支持する姿勢を明らかにした",
+   "link": "https://www.pcgamer.com/hardware/i-stand-by-jensen-nvidia-employees-come-out-in-support-of-huang-after-resignation/",
+   "summary": "The now ex-CEO co-founded the company over three decades ago.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://cdn.mos.cms.futurecdn.net/arypsdXmTz7vUuxPxsFcRZ-1920-80.png",
+   "published_at": "2026-11-13T20:30:35+09:00",
+   "first_seen": "2026-11-13T20:47:36+09:00",
+   "title_original": "'I stand by Jensen': Nvidia employees come out in support of Huang after resignation",
+   "translated": true
+  },
+  {
    "id": "n_de86baac8d37",
-   "title": "Wolfenstein 3 Is Now Officially In Production, With Motion Capture Currently Underway",
+   "title": "『Wolfenstein 3』の制作が正式に開始され、現在モーションキャプチャが行われている",
    "link": "https://kotaku.com/wolfenstein-3-in-production-machine-games-microsoft-asha-sharma-2000756436",
    "summary": "Brian Bloom and Debra Wilson will return as BJ Blazkowicz and Grace Walker for the first mainline game in a decade",
    "source": "Kotaku",
@@ -246,7 +319,9 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/11/Wolfenstein-2-1280x805.jpg",
    "published_at": "2026-11-13T20:30:07+09:00",
-   "first_seen": "2026-11-13T20:35:09+09:00"
+   "first_seen": "2026-11-13T20:35:09+09:00",
+   "title_original": "Wolfenstein 3 Is Now Officially In Production, With Motion Capture Currently Underway",
+   "translated": true
   },
   {
    "id": "n_be17c7c537f7",
@@ -345,7 +420,7 @@
   },
   {
    "id": "n_634ac3cf264d",
-   "title": "Fable Is Looking A Lot Darker Than We Expected",
+   "title": "『Fable』は、私たちが予想していたよりもずっと暗い雰囲気になっている",
    "link": "https://www.gamespot.com/articles/fable-is-looking-a-lot-darker-than-we-expected/",
    "summary": "Amid a modest 25th-anniversary celebration , Xbox dropped a new preview of the Fable reboot. This snippet — which runs f",
    "source": "GameSpot",
@@ -356,11 +431,13 @@
    ],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/Fable-Red_bba8eb.jpg?w=300",
    "published_at": "2026-11-13T20:00:58+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Fable Is Looking A Lot Darker Than We Expected",
+   "translated": true
   },
   {
    "id": "n_096274b5c5cb",
-   "title": "Over A Third Of Game Developers Have Lost A Job In The Last Two Years, Bleak Report Finds",
+   "title": "「過去2年間でゲーム開発者の3分の1以上が職を失った」――厳しい実態を明らかにする報告書",
    "link": "https://kotaku.com/gdc-state-of-industry-job-losses-layoffs-ai-report-2000756433",
    "summary": "Most developers say they are not using AI tools right now, but fear of it and layoffs contribute to low morale surroundi",
    "source": "Kotaku",
@@ -369,7 +446,9 @@
    "platforms": [],
    "image": "https://kotaku.com/app/uploads/2026/11/Mass-Effect-5-1280x703.jpg",
    "published_at": "2026-11-13T20:00:12+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Over A Third Of Game Developers Have Lost A Job In The Last Two Years, Bleak Report Finds",
+   "translated": true
   },
   {
    "id": "n_907465c4d3ad",
@@ -427,7 +506,7 @@
   },
   {
    "id": "n_bd3eb1122ef9",
-   "title": "Pixar's New Movie Gatto Gets First In-Depth Look in Official Trailer",
+   "title": "ピクサーの新作映画『ガット』の公式予告編で、初めてその全貌が明らかになった",
    "link": "https://www.polygon.com/pixar-gatto-trailer/",
    "summary": "Pixar takes viewers to Venice to meet a mobster cat in Gatto, starring Mark Ruffalo and Laurence Fishburne.",
    "source": "Polygon",
@@ -436,7 +515,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gatto-pixar.jpg",
    "published_at": "2026-11-13T19:43:49+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Pixar's New Movie Gatto Gets First In-Depth Look in Official Trailer",
+   "translated": true
   },
   {
    "id": "n_3685de4b6858",
@@ -481,7 +562,7 @@
   },
   {
    "id": "n_307292fbf5d7",
-   "title": "Microsoft says there is 'no evidence of malicious activity' being the cause of the global service outage affecting governments and organisations around the world",
+   "title": "マイクロソフトは、世界中の政府や組織に影響を及ぼしている今回の世界的なサービス停止の原因について、「悪意のある活動があったという証拠はない」と述べている。",
    "link": "https://www.pcgamer.com/software/security/microsoft-says-there-is-no-evidence-of-malicious-activity-being-the-cause-of-the-global-service-outage-affecting-governments-and-organisations-around-the-world/",
    "summary": "A bunch of governments, state institutions, and companies are affected globally.",
    "source": "PC Gamer",
@@ -490,11 +571,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/cfgisUwZ3YoQNzEfxyMQwE-1920-80.jpg",
    "published_at": "2026-11-13T19:33:22+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Microsoft says there is 'no evidence of malicious activity' being the cause of the global service outage affecting governments and organisations around the world",
+   "translated": true
   },
   {
    "id": "n_fe73ce31f99a",
-   "title": "Leaked Dune Magic Secret Lair Has Amazing Value Reprints and 9 New Cards",
+   "title": "リークされた『デューン・マジック』の「シークレット・レア」には、価値の高い再版カードと9枚の新規カードが含まれている",
    "link": "https://www.polygon.com/mtg-dune-magic-secret-lair-drop-leaks/",
    "summary": "An unconfirmed Dune x Magic Secret Lair superdrop leaked, and it includes great reprints and 9 new cards.",
    "source": "Polygon",
@@ -503,7 +586,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/dune-part-two-muad-dib.webp",
    "published_at": "2026-11-13T19:30:47+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Leaked Dune Magic Secret Lair Has Amazing Value Reprints and 9 New Cards",
+   "translated": true
   },
   {
    "id": "n_955dbcb596c5",
@@ -618,7 +703,7 @@
   },
   {
    "id": "n_e68263443538",
-   "title": "6 Nintendo Switch Special Editions With the Best Designs, Ranked",
+   "title": "デザインが最高なNintendo Switchスペシャルエディション6選、ランキング",
    "link": "https://www.polygon.com/best-nintendo-switch-special-edition-designs/",
    "summary": "Even when a person already owns a Switch, some of these are attractive enough to make them want to buy another one.",
    "source": "Polygon",
@@ -629,7 +714,9 @@
    ],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/switch-2-third-party-partner-games-february-direct.jpg",
    "published_at": "2026-11-13T19:00:17+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "6 Nintendo Switch Special Editions With the Best Designs, Ranked",
+   "translated": true
   },
   {
    "id": "n_7a560018ca92",
@@ -672,7 +759,7 @@
   },
   {
    "id": "n_d4440d858318",
-   "title": "Wolfenstein 3 Is Officially In Production At MachineGames",
+   "title": "『Wolfenstein 3』がMachineGamesで正式に制作中",
    "link": "https://www.gamespot.com/articles/wolfenstein-3-is-officially-in-production-at-machinegames/",
    "summary": "The long-rumored Wolfenstein 3 has been officially confirmed to be in development at MachineGames. The news follows many",
    "source": "GameSpot",
@@ -681,11 +768,13 @@
    "platforms": [],
    "image": "https://www.gamespot.com/wp-content/uploads/original/1601/16018044/4283452-wolfenstein.jpg?w=300",
    "published_at": "2026-11-13T18:50:39+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Wolfenstein 3 Is Officially In Production At MachineGames",
+   "translated": true
   },
   {
    "id": "n_0f847cad9746",
-   "title": "MachineGames has finally officially confirmed that Wolfenstein 3 is in development",
+   "title": "MachineGamesはついに、『Wolfenstein 3』が開発中であることを正式に確認した",
    "link": "https://www.videogameschronicle.com/news/machinegames-has-finally-officially-confirmed-that-wolfenstein-3-is-in-development/",
    "summary": "The studio's head said last year that it was always supposed to be a trilogy",
    "source": "VGC",
@@ -694,7 +783,9 @@
    "platforms": [],
    "image": "https://www.videogameschronicle.com/files/2025/09/wolfenstein.jpg",
    "published_at": "2026-11-13T18:47:59+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "MachineGames has finally officially confirmed that Wolfenstein 3 is in development",
+   "translated": true
   },
   {
    "id": "n_85e3a864309d",
@@ -737,7 +828,7 @@
   },
   {
    "id": "n_658d980ba94b",
-   "title": "Will GTA 6 break the internet? UK broadband operator braces for impact, saying \"GTA 6 has been on our radar for a long time\"",
+   "title": "『GTA 6』はインターネットを麻痺させるのか？ 英国のブロードバンド事業者はその影響に備え、「『GTA 6』については以前から注目していた」と述べている。",
    "link": "https://www.eurogamer.net/gta-6-internet-uk-broadband-ofcom-openreach",
    "summary": "As Grand Theft Auto 6 breaks pre-order records on the PlayStation and Xbox stores , and looks poised to break many more ",
    "source": "Eurogamer",
@@ -748,7 +839,9 @@
    ],
    "image": "https://assetsio.gnwcdn.com/gta-6-no-internet.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-13T18:42:40+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Will GTA 6 break the internet? UK broadband operator braces for impact, saying \"GTA 6 has been on our radar for a long time\"",
+   "translated": true
   },
   {
    "id": "n_4457786857d7",
@@ -795,7 +888,7 @@
   },
   {
    "id": "n_a265e57bdc77",
-   "title": "Halo: Campaign Evolved is getting its own four-player version of the series' staple Firefight mode, for free, \"this winter\"",
+   "title": "『Halo: Campaign Evolved』には、シリーズお馴染みの「ファイアファイト」モードの4人用バージョンが、「この冬」に無料で追加される予定だ。",
    "link": "https://www.eurogamer.net/halo-campaign-evovled-firefight-mode",
    "summary": "Last night, Xbox Game Studios and Halo Studios have announced a free update for the recently-released Halo: Campaign Evo",
    "source": "Eurogamer",
@@ -806,7 +899,9 @@
    ],
    "image": "https://assetsio.gnwcdn.com/Campaign-firefight-halo.jpg?width=690&quality=85&format=jpg&auto=webp",
    "published_at": "2026-11-13T18:36:20+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Halo: Campaign Evolved is getting its own four-player version of the series' staple Firefight mode, for free, \"this winter\"",
+   "translated": true
   },
   {
    "id": "n_88dc2f659c7b",
@@ -1026,7 +1121,7 @@
   },
   {
    "id": "n_957baa226851",
-   "title": "5 Sci-Fi Book Trilogies Where Every Entry Is Perfect",
+   "title": "全作が完璧なSF小説の三部作5選",
    "link": "https://www.polygon.com/sci-fi-trilogy-perfect-entries/",
    "summary": "Not all sci-fi trilogies are made equal, as some are impeccable from start to finish.",
    "source": "Polygon",
@@ -1035,7 +1130,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/aaaaqsvwbmutuyygxfebvcswpskx9vscutyezcvln4bmjy5p2d4pwu51_oflom3na20dbxxonxrs7ee9kr-qdczlqzr0ize-yjcjafijzt4_yyl15aopiprohh05jfdl7plobqbnyjhxiyqv8fy8qlhtl9dn.jpg",
    "published_at": "2026-11-13T18:00:18+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "5 Sci-Fi Book Trilogies Where Every Entry Is Perfect",
+   "translated": true
   },
   {
    "id": "n_f23823f00bbb",
@@ -1281,7 +1378,7 @@
   },
   {
    "id": "n_266cf2e31998",
-   "title": "Tim Burton's Forgotten Dark Fantasy Magnum Opus Is Officially Free on Youtube",
+   "title": "ティム・バートンの忘れ去られたダーク・ファンタジーの傑作が、YouTubeで正式に無料公開された",
    "link": "https://www.polygon.com/corpse-bride-streaming-free-youtube-november-2026/",
    "summary": "Corpse Bride and Wildwood make for a perfect stop-motion double feature",
    "source": "Polygon",
@@ -1290,7 +1387,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/12/tim-burton.jpg",
    "published_at": "2026-11-13T17:15:18+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Tim Burton's Forgotten Dark Fantasy Magnum Opus Is Officially Free on Youtube",
+   "translated": true
   },
   {
    "id": "n_1739d0647916",
@@ -1374,7 +1473,7 @@
   },
   {
    "id": "n_00183e9e6c66",
-   "title": "Netflix's Disappointing New Western Thriller Wastes Its Brilliant Concept",
+   "title": "Netflixの期待外れな新作西部劇スリラーは、その素晴らしいコンセプトを台無しにしている",
    "link": "https://www.polygon.com/heartland-netflix-review/",
    "summary": "Netflix’s Heartland is a western, a noir, and a musical starring Jessica Chastain. It’s also surprisingly predictable.",
    "source": "Polygon",
@@ -1383,7 +1482,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/_dsc4031_r-1.jpg",
    "published_at": "2026-11-13T17:00:17+09:00",
-   "first_seen": "2026-11-13T20:30:24+09:00"
+   "first_seen": "2026-11-13T20:30:24+09:00",
+   "title_original": "Netflix's Disappointing New Western Thriller Wastes Its Brilliant Concept",
+   "translated": true
   },
   {
    "id": "n_e156ccd29c89",
@@ -1508,7 +1609,7 @@
   },
   {
    "id": "n_f7ae7ba58e72",
-   "title": "26 Years Later, Charles Schulz' Final Comic Strip Is Still an All-Time Peanuts Classic",
+   "title": "26年が経った今も、チャールズ・シュルツの最後の漫画は『ピーナッツ』の不朽の名作であり続けている",
    "link": "https://www.polygon.com/peanuts-final-comic-strip-charlie-brown/",
    "summary": "26 Years Later, Charles Schulz' Final Comic Strip Is Still an All-Time Peanuts Classic",
    "source": "Polygon",
@@ -1517,7 +1618,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/charlie-brown-011-1024.jpg",
    "published_at": "2026-11-13T16:23:17+09:00",
-   "first_seen": "2026-11-13T17:00:00+09:00"
+   "first_seen": "2026-11-13T17:00:00+09:00",
+   "title_original": "26 Years Later, Charles Schulz' Final Comic Strip Is Still an All-Time Peanuts Classic",
+   "translated": true
   },
   {
    "id": "n_4d15f44d2887",
@@ -1943,7 +2046,7 @@
   },
   {
    "id": "n_46543acef25d",
-   "title": "5 Funniest 'Peanuts' Comics About Food Only Charles Schulz Could Come Up With",
+   "title": "チャールズ・シュルツにしか思いつかない、食べ物に関する『ピーナッツ』のコミック5選",
    "link": "https://www.polygon.com/peanuts-best-comics-food/",
    "summary": "Here's the World Famous Gastronomer reading 50 years of food gags",
    "source": "Polygon",
@@ -1952,7 +2055,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/peanuts-welcome-home-franklin.jpg",
    "published_at": "2026-11-13T14:00:17+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "5 Funniest 'Peanuts' Comics About Food Only Charles Schulz Could Come Up With",
+   "translated": true
   },
   {
    "id": "n_b03526419c0b",
@@ -2187,7 +2292,7 @@
   },
   {
    "id": "n_c745d57d8328",
-   "title": "8 Near-Perfect Xbox 360 Games That Are Forgotten Masterpieces",
+   "title": "忘れ去られた傑作――ほぼ完璧なXbox 360ゲーム8選",
    "link": "https://www.polygon.com/xbox-360-forgotten-masterpieces/",
    "summary": "From Viva Piñata to The Saboteur, these forgotten Xbox 360 masterpieces deserve another shot today.",
    "source": "Polygon",
@@ -2198,7 +2303,9 @@
    ],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/629968/sleeping-dogs-definitive-edition-world_1920.0.jpg",
    "published_at": "2026-11-13T13:00:17+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "8 Near-Perfect Xbox 360 Games That Are Forgotten Masterpieces",
+   "translated": true
   },
   {
    "id": "n_bd625f7de602",
@@ -2512,6 +2619,19 @@
    "first_seen": "2026-11-13T15:45:05+09:00"
   },
   {
+   "id": "n_2e5fb4adbf97",
+   "title": "サッカー熱が高まった今こそデビュー！ 初めてでも遊びやすい「Football Manager 27」で楽しむ，進化した現代サッカー戦術と自分だけの監督人生【PR】",
+   "link": "https://www.4gamer.net/games/037/G103744/20261109002/",
+   "summary": "好きなクラブの監督になったら，まず何をする？ サッカークラブ経営シム「FootballManager27」をこれから始める人に向けて，基本の遊び方を紹介。よりリアルになったゲームの魅力と，初心者にうれしい遊びやすさをお伝えしよう。",
+   "source": "4Gamer",
+   "region": "jp",
+   "genre": "game",
+   "platforms": [],
+   "image": null,
+   "published_at": "2026-11-13T12:00:00+09:00",
+   "first_seen": "2026-11-13T15:45:05+09:00"
+  },
+  {
    "id": "n_57ef55a50871",
    "title": "モフって，調合して，寄り道三昧！ Steamで“非常に好評”な「Little Witch in the Woods」は，戦うことに疲れた人に遊んでほしい【PR】",
    "link": "https://www.4gamer.net/games/931/G093154/20261109019/",
@@ -2523,19 +2643,6 @@
     "Switch",
     "PC"
    ],
-   "image": null,
-   "published_at": "2026-11-13T12:00:00+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
-  },
-  {
-   "id": "n_2e5fb4adbf97",
-   "title": "サッカー熱が高まった今こそデビュー！ 初めてでも遊びやすい「Football Manager 27」で楽しむ，進化した現代サッカー戦術と自分だけの監督人生【PR】",
-   "link": "https://www.4gamer.net/games/037/G103744/20261109002/",
-   "summary": "好きなクラブの監督になったら，まず何をする？ サッカークラブ経営シム「FootballManager27」をこれから始める人に向けて，基本の遊び方を紹介。よりリアルになったゲームの魅力と，初心者にうれしい遊びやすさをお伝えしよう。",
-   "source": "4Gamer",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
    "image": null,
    "published_at": "2026-11-13T12:00:00+09:00",
    "first_seen": "2026-11-13T15:45:05+09:00"
@@ -2609,7 +2716,7 @@
   },
   {
    "id": "n_992a01611b2e",
-   "title": "44 Years Later, Star Trek’s Best Quote About Grief Is Still a Near-Perfect Sci-Fi Moment",
+   "title": "44年が経った今も、『スター・トレック』の悲しみに関する名台詞は、ほぼ完璧なSFの瞬間として輝き続けている",
    "link": "https://www.polygon.com/star-trek-wrath-of-khan-best-quote-grief/",
    "summary": "Star Trek has some of the best moments in science fiction. And its best quote about grief is part of that.",
    "source": "Polygon",
@@ -2618,7 +2725,9 @@
    "platforms": [],
    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/spock-kirk-star-trek.jpeg",
    "published_at": "2026-11-13T11:45:17+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "44 Years Later, Star Trek’s Best Quote About Grief Is Still a Near-Perfect Sci-Fi Moment",
+   "translated": true
   },
   {
    "id": "n_a6718dd79c73",
@@ -2753,7 +2862,7 @@
   },
   {
    "id": "n_cf8d7ecf11bc",
-   "title": "Girls und Panzer: All-Star Tank Carnival adds PS5 and PC versions, launches March 25, 2027 in Japan",
+   "title": "『ガールズ＆パンツァー：オールスター・タンク・カーニバル』にPS5版とPC版が追加され、2027年3月25日に日本で発売される",
    "link": "https://www.gematsu.com/2026/11/girls-und-panzer-all-star-tank-carnival-adds-ps5-and-pc-versions-launches-march-25-2027-in-japan",
    "summary": "Tank battle action Girls und Panzer: All-Star Tank Carnival will launch for PlayStation 5, Switch …",
    "source": "Gematsu",
@@ -2766,7 +2875,9 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/GuP-Tank-Match_11-13-26.jpg",
    "published_at": "2026-11-13T11:05:02+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Girls und Panzer: All-Star Tank Carnival adds PS5 and PC versions, launches March 25, 2027 in Japan",
+   "translated": true
   },
   {
    "id": "n_184dc1f9b852",
@@ -2880,7 +2991,7 @@
   },
   {
    "id": "n_bed891528bce",
-   "title": "Wolfenstein 3 is in production at MachineGames",
+   "title": "『Wolfenstein 3』はMachineGamesで開発中だ",
    "link": "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/",
    "summary": "Blazkowicz is backscowicz.",
    "source": "PC Gamer",
@@ -2889,7 +3000,9 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/kLcpoTPbNywZi79u2Nox5C-1920-80.jpg",
    "published_at": "2026-11-13T10:35:32+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Wolfenstein 3 is in production at MachineGames",
+   "translated": true
   },
   {
    "id": "n_6c2548fe64ca",
@@ -2945,7 +3058,7 @@
   },
   {
    "id": "n_42d2fabedd75",
-   "title": "Attack on Titan 3 ‘Character Interactions and Expeditions Beyond the Walls’ gameplay",
+   "title": "『進撃の巨人』第3弾「キャラクターの交流と壁の外への遠征」ゲームプレイ",
    "link": "https://www.gematsu.com/2026/11/attack-on-titan-3-character-interactions-and-expeditions-beyond-the-walls-gameplay",
    "summary": "Publisher Koei Tecmo and developer Omega Force have released an 11-minute gameplay video for Attack …",
    "source": "Gematsu",
@@ -2954,7 +3067,9 @@
    "platforms": [],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/AoT3-Gameplay_11-12-26.jpg",
    "published_at": "2026-11-13T10:15:06+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Attack on Titan 3 ‘Character Interactions and Expeditions Beyond the Walls’ gameplay",
+   "translated": true
   },
   {
    "id": "n_4ca4b93ab091",
@@ -3136,19 +3251,6 @@
    "first_seen": "2026-11-13T09:27:32+09:00"
   },
   {
-   "id": "n_9c310ba7d74e",
-   "title": "3D言語解読パズルアドベンチャー「ピックアドベンチャー」，全世界でのパブリッシングを松竹ゲームズが担当",
-   "link": "https://www.4gamer.net/games/989/G098948/20261112046/",
-   "summary": "松竹ゲームズは2026年11月13日，「ピックアドベンチャー」について，全世界でのパブリッシングを担当すると発表した。本作は，イタリア・ミラノを拠点とする個人のインディーゲームスタジオ「PikkuStudios」が開発する3D言語解読パズル",
-   "source": "4Gamer",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-13T09:00:00+09:00",
-   "first_seen": "2026-11-13T09:27:32+09:00"
-  },
-  {
    "id": "n_0eb9bbbdbbe5",
    "title": "Xの投稿に添付できる画像・動画が4枚から「20枚」に増加、10年間つづいた4枚制限がついに変更へ。Xのモバイルエンジニアリングリードが大量に風景写真を添付して告知",
    "link": "https://news.denfaminicogamer.jp/news/261113h",
@@ -3216,19 +3318,6 @@
    "first_seen": "2026-11-13T09:27:32+09:00",
    "title_original": "Slay The Spire 2′s Latest Update Adds A New Character, Two New Modes, And A Byrdpip Evolution!",
    "translated": true
-  },
-  {
-   "id": "n_eb4f4623c633",
-   "title": "開発終盤でもう大きな変更はできない。「モンギル」のリリース半年前に合流したテクニカルアーティストは，アニメ調の魅力をどう足したのか［Unreal Fest Tokyo 2026］",
-   "link": "https://www.4gamer.net/games/857/G085718/20261111006/",
-   "summary": "「モンギル：STARDIVE」のアニメ調表現の舞台裏。リリース前の制約の中，いかに魅力を高めていったのか，UnrealFestTokyo2026での講演をレポート。",
-   "source": "4Gamer",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-13T08:00:00+09:00",
-   "first_seen": "2026-11-13T09:27:32+09:00"
   },
   {
    "id": "n_256cb97f9665",
@@ -3314,7 +3403,7 @@
   },
   {
    "id": "n_c95a2fac556e",
-   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "title": "FAA、全米空域における航空交通の混雑管理に向けたAIによる助言を拡大",
    "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
    "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
    "source": "Ars Technica AI",
@@ -3323,7 +3412,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
    "published_at": "2026-11-13T07:28:47+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "translated": true
   },
   {
    "id": "n_1a628d755dc3",
@@ -3420,7 +3511,7 @@
   },
   {
    "id": "n_f687e970dc01",
-   "title": "21 original Xbox games are now on PC via backward compatibility",
+   "title": "後方互換機能により、Xboxの初代タイトル21作品がPCでプレイ可能になりました",
    "link": "https://www.videogameschronicle.com/uncategorised/21-original-xbox-games-are-now-on-pc-via-backward-compatibility/",
    "summary": "There are now 25 classic Xbox games available on PC, and four have achievements",
    "source": "VGC",
@@ -3432,7 +3523,9 @@
    ],
    "image": "https://www.videogameschronicle.com/files/2026/11/Original-Xbox-games-on-PC.jpg",
    "published_at": "2026-11-13T07:01:31+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "21 original Xbox games are now on PC via backward compatibility",
+   "translated": true
   },
   {
    "id": "n_6f43ba06ec08",
@@ -3511,7 +3604,7 @@
   },
   {
    "id": "n_c4973f30f48e",
-   "title": "Candy Crush Is Celebrating Xbox’s 25th Anniversary With Halo, Fallout, And Doom Crossovers, Including Remixed Music",
+   "title": "『キャンディークラッシュ』は、Xboxの25周年を記念して、『Halo』、『Fallout』、『Doom』とのコラボレーションを実施し、リミックスされた楽曲も収録しています。",
    "link": "https://www.gamespot.com/articles/candy-crush-is-celebrating-xboxs-25th-anniversary-with-halo-fallout-and-doom-crossovers-including-remixed-music/",
    "summary": "2026 is the 25th anniversary of Xbox, and it's been a tough year for the brand with mass layoffs, studio closures/divest",
    "source": "GameSpot",
@@ -3522,7 +3615,9 @@
    ],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/doom.png?w=300",
    "published_at": "2026-11-13T07:00:00+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Candy Crush Is Celebrating Xbox’s 25th Anniversary With Halo, Fallout, And Doom Crossovers, Including Remixed Music",
+   "translated": true
   },
   {
    "id": "n_1d5899b147e1",
@@ -3580,7 +3675,7 @@
   },
   {
    "id": "n_10dacd1ac3a4",
-   "title": "Id Software confirms it’s working on a new game after layoffs",
+   "title": "Id Software、人員削減を経て新作ゲームの開発を進めていることを明らかにした",
    "link": "https://www.videogameschronicle.com/news/id-software-confirms-its-working-on-a-new-game-after-layoffs/",
    "summary": "Asha Sharma says id Software is \"already working on its next game\", despite recent layoffs",
    "source": "VGC",
@@ -3589,7 +3684,9 @@
    "platforms": [],
    "image": "https://www.videogameschronicle.com/files/2021/06/id-software-sign.jpg",
    "published_at": "2026-11-13T06:38:33+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Id Software confirms it’s working on a new game after layoffs",
+   "translated": true
   },
   {
    "id": "n_5e5f306d785f",
@@ -3684,7 +3781,7 @@
   },
   {
    "id": "n_a9bb2bb0c0e9",
-   "title": "New Doom Game Seemingly Announced In The Weirdest Way After Half The Studio Was Laid Off",
+   "title": "スタジオの半数が解雇された後、新作『ドゥーム』が、とんでもない方法で発表されたようだ",
    "link": "https://www.gamespot.com/articles/new-doom-game-seemingly-announced-in-the-weirdest-way-after-half-the-studio-was-laid-off/",
    "summary": "Xbox CEO Asha Sharma has announced that id Software is officially working on a new game, believed to be another Doom tit",
    "source": "GameSpot",
@@ -3695,7 +3792,9 @@
    ],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/DoomGame.jpg?w=300",
    "published_at": "2026-11-13T06:07:28+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "New Doom Game Seemingly Announced In The Weirdest Way After Half The Studio Was Laid Off",
+   "translated": true
   },
   {
    "id": "n_ba1880d7de38",
@@ -3787,7 +3886,7 @@
   },
   {
    "id": "n_6dc30af39b31",
-   "title": "Games Will Have A Physical Footprint Forever, Take-Two Boss Says, But It’ll Be “Very Small”",
+   "title": "「ゲームには今後も物理的な存在感が残るだろう」とテイク・ツーのトップは述べたが、その規模は「ごくわずか」になるという",
    "link": "https://www.gamespot.com/articles/games-will-have-a-physical-footprint-forever-take-two-boss-says-but-itll-be-very-small/",
    "summary": "It's no secret that the market for physical video games is drying up, but don't expect physical media for gaming to go a",
    "source": "GameSpot",
@@ -3796,7 +3895,9 @@
    "platforms": [],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.jpg?w=300",
    "published_at": "2026-11-13T05:12:18+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Games Will Have A Physical Footprint Forever, Take-Two Boss Says, But It’ll Be “Very Small”",
+   "translated": true
   },
   {
    "id": "n_91eb580e47d0",
@@ -3826,7 +3927,7 @@
   },
   {
    "id": "n_75c7ee7437ec",
-   "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+   "title": "Ars Live：データセンターへのドローン攻撃が、クラウド時代の現代生活に与える影響",
    "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
    "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
    "source": "Ars Technica AI",
@@ -3835,7 +3936,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg",
    "published_at": "2026-11-13T04:59:59+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+   "translated": true
   },
   {
    "id": "n_c146078f499f",
@@ -3871,7 +3974,7 @@
   },
   {
    "id": "n_b3b4f5c9e9e6",
-   "title": "Jeff Kaplan says there was ‘constant fighting’ between him and Blizzard years before he left",
+   "title": "ジェフ・カプラン氏は、自身がブリザードを去る何年も前から、自分とブリザードの間で「絶え間ない対立」があったと述べている",
    "link": "https://www.videogameschronicle.com/news/jeff-kaplan-says-there-was-constant-fighting-between-him-and-blizzard-years-before-he-left/",
    "summary": "From exec interference to paywalled Overwatch heroes, Jeff Kaplan says he had many reasons to leave Blizzard",
    "source": "VGC",
@@ -3880,7 +3983,9 @@
    "platforms": [],
    "image": "https://www.videogameschronicle.com/files/2026/11/Jeff-Kaplan.jpg",
    "published_at": "2026-11-13T04:50:11+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Jeff Kaplan says there was ‘constant fighting’ between him and Blizzard years before he left",
+   "translated": true
   },
   {
    "id": "n_1feb76ef5c16",
@@ -3946,7 +4051,7 @@
   },
   {
    "id": "n_77a7ce670b8c",
-   "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+   "title": "Googleが「Gemini 4 Hydrogen」をリリースし、ついに「3.8 Flash」に取って代わった",
    "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
    "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
    "source": "Ars Technica AI",
@@ -3955,11 +4060,13 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
    "published_at": "2026-11-13T04:23:03+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+   "translated": true
   },
   {
    "id": "n_01f9b5188982",
-   "title": "This Happy Ending For Two Games With Identical Names Was A Headache For Nintendo",
+   "title": "名前がまったく同じ2つのゲームのこのハッピーエンドは、任天堂にとって頭痛の種だった",
    "link": "https://www.gamespot.com/articles/this-happy-ending-for-two-games-with-identical-names-was-a-headache-for-nintendo/",
    "summary": "On November 25, two entirely separate games called Piece by Piece are releasing on Nintendo Switch. It's no coincidence,",
    "source": "GameSpot",
@@ -3970,7 +4077,9 @@
    ],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/PieceByPiece.jpg?w=300",
    "published_at": "2026-11-13T04:17:26+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "This Happy Ending For Two Games With Identical Names Was A Headache For Nintendo",
+   "translated": true
   },
   {
    "id": "n_f7effce2db92",
@@ -3989,7 +4098,7 @@
   },
   {
    "id": "n_6d5b34315c96",
-   "title": "Disney Teases “Major Announcements” For The Game Awards",
+   "title": "ディズニー、『ザ・ゲーム・アワード』に向けた「重要な発表」を予告",
    "link": "https://www.gamespot.com/articles/disney-teases-major-announcements-for-the-game-awards/",
    "summary": "The Game Awards will air on Disney+ this year, and along with that, Disney has teased \"major announcements and surprises",
    "source": "GameSpot",
@@ -3998,7 +4107,9 @@
    "platforms": [],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/starwars.png?w=300",
    "published_at": "2026-11-13T04:10:03+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Disney Teases “Major Announcements” For The Game Awards",
+   "translated": true
   },
   {
    "id": "n_a88bddb17214",
@@ -4045,7 +4156,7 @@
   },
   {
    "id": "n_3a3ea46b43b8",
-   "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+   "title": "「ジェミニ」の試験運用に対する反発を受け、Googleは学校でのAI導入一時停止を求める声に直面している",
    "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
    "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
    "source": "Ars Technica AI",
@@ -4054,11 +4165,13 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Win-win-1152x648.jpeg",
    "published_at": "2026-11-13T03:57:45+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+   "translated": true
   },
   {
    "id": "n_03258891e015",
-   "title": "Halo: Campaign Evolved is getting Firefight in a free update",
+   "title": "『Halo: Campaign Evolved』に、無料アップデートで「ファイアファイト」が追加される",
    "link": "https://www.videogameschronicle.com/news/halo-campaign-evolved-is-getting-firefight-in-a-free-update/",
    "summary": "Firefight, a 4-player PvE mode, is coming to Halo: Campaign Evolved soon",
    "source": "VGC",
@@ -4067,7 +4180,9 @@
    "platforms": [],
    "image": "https://www.videogameschronicle.com/files/2026/11/Halo-Firefight-update.jpg",
    "published_at": "2026-11-13T03:46:55+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Halo: Campaign Evolved is getting Firefight in a free update",
+   "translated": true
   },
   {
    "id": "n_baccdaa9b550",
@@ -4086,7 +4201,7 @@
   },
   {
    "id": "n_a2c0916d4ecf",
-   "title": "Xbox Has Spent 25 Years Tracking Your Gaming Habits; Now You Can See The Damage",
+   "title": "Xboxは25年間にわたり、あなたのゲーム利用習慣を追跡してきました。その「被害」の全貌が、今、明らかになります。",
    "link": "https://www.gamespot.com/articles/xbox-has-spent-25-years-tracking-your-gaming-habits-now-you-can-see-the-damage/",
    "summary": "It's the 25th anniversary of Xbox, and to celebrate, you can see how much time you've spent--or wasted, according to my ",
    "source": "GameSpot",
@@ -4097,11 +4212,13 @@
    ],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/Xbox-Playback.jpg?w=300",
    "published_at": "2026-11-13T03:34:06+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Xbox Has Spent 25 Years Tracking Your Gaming Habits; Now You Can See The Damage",
+   "translated": true
   },
   {
    "id": "n_a5c844759382",
-   "title": "Final Fantasy 14 Players Are Mourning The Loss Of The Game’s Legendary Bassist",
+   "title": "『ファイナルファンタジー14』のプレイヤーたちが、同作の伝説的なベーシストの死を悼んでいる",
    "link": "https://www.gamespot.com/articles/final-fantasy-14-players-are-mourning-the-loss-of-the-games-legendary-bassist/",
    "summary": "The Final Fantasy 14 community is in mourning following news that Eikichi Iwai, the bassist for the game's house band, T",
    "source": "GameSpot",
@@ -4110,7 +4227,9 @@
    "platforms": [],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/FF14-Eikichi-Iwai-Memorials.jpg?w=300",
    "published_at": "2026-11-13T03:32:19+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Final Fantasy 14 Players Are Mourning The Loss Of The Game’s Legendary Bassist",
+   "translated": true
   },
   {
    "id": "n_2c38858f141b",
@@ -4180,7 +4299,7 @@
   },
   {
    "id": "n_f0d4c3e54b34",
-   "title": "Pokémon Legends: Z-A players can claim 2 free shiny legendaries",
+   "title": "『ポケモン レジェンズ：Z』のプレイヤーは、2体の無料のシャイニー伝説のポケモンを入手できます",
    "link": "https://www.videogameschronicle.com/news/pokemon-legends-z-a-players-can-claim-2-free-shiny-legendaries/",
    "summary": "Pokémon Legends: Z-A's latest mystery gift is shiny forms of Xerneas and Yveltal",
    "source": "VGC",
@@ -4189,7 +4308,9 @@
    "platforms": [],
    "image": "https://www.videogameschronicle.com/files/2026/11/Pokemon-Shiny-Xerneas.jpg",
    "published_at": "2026-11-13T03:01:58+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Pokémon Legends: Z-A players can claim 2 free shiny legendaries",
+   "translated": true
   },
   {
    "id": "n_c867a61187e9",
@@ -4390,7 +4511,7 @@
   },
   {
    "id": "n_2c4abf55e0e9",
-   "title": "Xbox CEO’s 25th Anniversary Message Is About AI, Even If She Won’t Say It",
+   "title": "Xbox CEOの25周年記念メッセージはAIに関するものだが、彼女自身はそれを明言していない",
    "link": "https://www.gamespot.com/articles/xbox-ceos-25th-anniversary-message-is-about-ai-even-if-she-wont-say-it/",
    "summary": "As Xbox celebrates its 25th anniversary, Xbox CEO Asha Sharma has shared her thoughts on where gaming is going over the ",
    "source": "GameSpot",
@@ -4401,7 +4522,9 @@
    ],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/Xboxreset-1.png?w=300",
    "published_at": "2026-11-13T02:11:42+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Xbox CEO’s 25th Anniversary Message Is About AI, Even If She Won’t Say It",
+   "translated": true
   },
   {
    "id": "n_2504ae6dc80a",
@@ -4435,7 +4558,7 @@
   },
   {
    "id": "n_f634fe1c36ac",
-   "title": "One in three games industry professionals surveyed by GDC were laid off in the past two years, more than in its last report",
+   "title": "GDCが調査したゲーム業界の専門家の3人に1人が、過去2年間に解雇されており、前回の報告書よりもその割合が高くなっている。",
    "link": "https://www.videogameschronicle.com/news/one-in-three-games-industry-professionals-surveyed-by-gdc-were-laid-off-in-the-past-two-years-more-than-in-its-last-report/",
    "summary": "More than half are still unemployed, and a quarter have applied for at least 100 jobs",
    "source": "VGC",
@@ -4444,7 +4567,9 @@
    "platforms": [],
    "image": "https://www.videogameschronicle.com/files/2024/01/game-developer-1-768x433-1.jpg",
    "published_at": "2026-11-13T02:04:08+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "One in three games industry professionals surveyed by GDC were laid off in the past two years, more than in its last report",
+   "translated": true
   },
   {
    "id": "n_d31823eccf87",
@@ -4465,7 +4590,7 @@
   },
   {
    "id": "n_1a8028873753",
-   "title": "Nintendo’s Black Friday deals include Switch 2 and Mario Kart World bundle",
+   "title": "任天堂のブラックフライデーセールには、「Switch 2」と『マリオカート ワールド』のバンドルが含まれている",
    "link": "https://www.videogameschronicle.com/news/nintendos-black-friday-deals-include-switch-2-and-mario-kart-world-bundle/",
    "summary": "Nintendo announces its Black Friday deals, starting at the end of November",
    "source": "VGC",
@@ -4476,7 +4601,9 @@
    ],
    "image": "https://www.videogameschronicle.com/files/2026/11/Nintendo-Black-Friday.jpg",
    "published_at": "2026-11-13T02:01:41+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Nintendo’s Black Friday deals include Switch 2 and Mario Kart World bundle",
+   "translated": true
   },
   {
    "id": "n_ddf7a6c150d0",
@@ -4570,7 +4697,7 @@
   },
   {
    "id": "n_94709811c15f",
-   "title": "The Internet Reacts To Jensen Huang’s Resignation From Nvidia",
+   "title": "NVIDIAのジェンセン・フアン氏の辞任に対し、ネット上で様々な反応が寄せられている",
    "link": "https://www.gamespot.com/articles/the-internet-reacts-to-jensen-huang-resignation-from-nvidia/",
    "summary": "It's the end of an era for Nvidia , as its founder and longtime CEO, Jensen Huang, has resigned effective immediately. T",
    "source": "GameSpot",
@@ -4579,7 +4706,9 @@
    "platforms": [],
    "image": "https://www.gamespot.com/wp-content/uploads/2026/11/Nvidia-Keynote-Huang.jpg?w=300",
    "published_at": "2026-11-13T01:39:44+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "The Internet Reacts To Jensen Huang’s Resignation From Nvidia",
+   "translated": true
   },
   {
    "id": "n_0fd7ae7044e5",
@@ -4817,7 +4946,7 @@
   },
   {
    "id": "n_ea9eb24ea075",
-   "title": "GRIME II coming to Switch 2, Switch on November 27 alongside ‘A Final Coda’ update",
+   "title": "『GRIME II』が11月27日、『A Final Coda』アップデートとともにSwitch 2、Switchでリリースされる",
    "link": "https://www.gematsu.com/2026/11/grime-ii-coming-to-switch-2-switch-on-november-27-alongside-a-final-coda-update",
    "summary": "Publisher Kwalee and developer Clover Bite will release Metroidvania game sequel GRIME II for Switch …",
    "source": "Gematsu",
@@ -4828,26 +4957,13 @@
    ],
    "image": "https://www.gematsu.com/wp-content/uploads/2026/11/GRIME-2-Switch_11-06-26.jpg",
    "published_at": "2026-11-13T01:00:22+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
-  },
-  {
-   "id": "n_c1897db1fbdf",
-   "title": "Every nominee for the PC Gaming Show: Most Wanted's top 20 upcoming games",
-   "link": "https://www.pcgamer.com/gaming-industry/events-conferences/every-nominee-for-the-pc-gaming-show-most-wanteds-top-20-upcoming-games/",
-   "summary": "Here are all the games The Council voted on.",
-   "source": "PC Gamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [
-    "PC"
-   ],
-   "image": "https://cdn.mos.cms.futurecdn.net/PdjqDpDpv3yYGPNiyPZPj5-1920-80.png",
-   "published_at": "2026-11-13T01:00:00+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "GRIME II coming to Switch 2, Switch on November 27 alongside ‘A Final Coda’ update",
+   "translated": true
   },
   {
    "id": "n_fac38847c015",
-   "title": "Award-winning presenter Frankie Ward returns to bring you this year's PC Gaming Show: Most Wanted",
+   "title": "数々の賞を受賞した司会者、フランキー・ウォードが再び登場し、今年の「PC Gaming Show: Most Wanted」をお届けします。",
    "link": "https://www.pcgamer.com/gaming-industry/events-conferences/award-winning-presenter-frankie-ward-returns-to-bring-you-this-years-pc-gaming-show-most-wanted/",
    "summary": "Frankie Ward will countdown the 20 Most Wanted PC games, as decided by The Council.",
    "source": "PC Gamer",
@@ -4858,11 +4974,30 @@
    ],
    "image": "https://cdn.mos.cms.futurecdn.net/PdjqDpDpv3yYGPNiyPZPj5-1920-80.png",
    "published_at": "2026-11-13T01:00:00+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Award-winning presenter Frankie Ward returns to bring you this year's PC Gaming Show: Most Wanted",
+   "translated": true
+  },
+  {
+   "id": "n_c1897db1fbdf",
+   "title": "『PC Gaming Show: Most Wanted』の「今後発売予定のゲームトップ20」にノミネートされた全タイトル",
+   "link": "https://www.pcgamer.com/gaming-industry/events-conferences/every-nominee-for-the-pc-gaming-show-most-wanteds-top-20-upcoming-games/",
+   "summary": "Here are all the games The Council voted on.",
+   "source": "PC Gamer",
+   "region": "global",
+   "genre": "game",
+   "platforms": [
+    "PC"
+   ],
+   "image": "https://cdn.mos.cms.futurecdn.net/PdjqDpDpv3yYGPNiyPZPj5-1920-80.png",
+   "published_at": "2026-11-13T01:00:00+09:00",
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Every nominee for the PC Gaming Show: Most Wanted's top 20 upcoming games",
+   "translated": true
   },
   {
    "id": "n_a1e7cdb4fc6d",
-   "title": "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang",
+   "title": "Nvidiaファンの皆さん、ご安心ください。Nvidiaに関する著書を書いた人物によれば、同社の成功はジェンセン・フアン氏に依存しているわけではないとのことです。",
    "link": "https://www.pcgamer.com/hardware/fear-not-nvidians-the-man-who-wrote-the-book-on-nvidia-says-the-companys-success-doesnt-rely-on-jensen-huang/",
    "summary": "Tae Kim, author of The Nvidia Way, thinks there are some promising alternatives to Huang.",
    "source": "PC Gamer",
@@ -4871,11 +5006,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/VE3dBZCG8wUwPxHWNzqwD9-1920-80.jpg",
    "published_at": "2026-11-13T00:58:11+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang",
+   "translated": true
   },
   {
    "id": "n_e0a4a14284cf",
-   "title": "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why",
+   "title": "ジェンセン・フアン氏がNVIDIAを去るのは、PCゲーム業界にとって良いことではありません。その理由を説明しましょう。",
    "link": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-leaving-nvidia-is-not-a-good-thing-for-pc-gaming-and-ill-tell-you-why/",
    "summary": "We PC gamers are far from the belle of the AI ball.",
    "source": "PC Gamer",
@@ -4886,7 +5023,9 @@
    ],
    "image": "https://cdn.mos.cms.futurecdn.net/arypsdXmTz7vUuxPxsFcRZ-1920-80.png",
    "published_at": "2026-11-13T00:57:36+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why",
+   "translated": true
   },
   {
    "id": "n_830958e6e6f7",
@@ -4905,7 +5044,7 @@
   },
   {
    "id": "n_84bc74682918",
-   "title": "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is'",
+   "title": "コナー・マクレガーは、『インフィニット・ウォーフェア』の制作中に『コール オブ デューティ』の開発者を持ち上げてひっくり返した。「彼の身体能力の高さを示すために、本当に体力を要する何かをさせてみたかったんだ」",
    "link": "https://www.pcgamer.com/games/call-of-duty/conor-mcgregor-picked-up-and-flipped-a-call-of-duty-dev-during-the-making-of-infinite-warfare-i-wanted-him-to-do-something-really-physical-to-demonstrate-how-capable-he-is/",
    "summary": "The MMA fighter and failed Irish presidential candidate had a small role in the 2016 shooter.",
    "source": "PC Gamer",
@@ -4914,11 +5053,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/7eeissVNyfbgehTuYCLKah-1920-80.jpg",
    "published_at": "2026-11-13T00:43:03+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is'",
+   "translated": true
   },
   {
    "id": "n_2a4731564aca",
-   "title": "GTA 6 map seemingly leaks at Selfridges merch drop",
+   "title": "セルフリッジズでのグッズ発売イベントで、『GTA 6』のマップと思われる画像が流出した模様",
    "link": "https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/",
    "summary": "An apparent GTA 6 map is being shared around online, having been spotted at Selfridges in the UK",
    "source": "VGC",
@@ -4927,11 +5068,13 @@
    "platforms": [],
    "image": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic01.jpg",
    "published_at": "2026-11-13T00:40:43+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "GTA 6 map seemingly leaks at Selfridges merch drop",
+   "translated": true
   },
   {
    "id": "n_15b0384fb53f",
-   "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+   "title": "ジェンセン・フアンがNVIDIAを去った――後任の暫定CEO、コレット・クレスとは一体誰なのか？",
    "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
    "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in sca",
    "source": "TechCrunch AI",
@@ -4940,11 +5083,13 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-13T00:37:29+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+   "translated": true
   },
   {
    "id": "n_91a2dcc0532b",
-   "title": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that",
+   "title": "『WoW: Forever』の新エリア「リバーグレイズ」は、『クラシック+』というよりは『バーニング・クルセイド+』のような雰囲気だけど、正直言って、私はそれで全然構わないんだ",
    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-new-riverglades-zone-feels-more-like-the-burning-crusade-than-classic-and-you-know-what-im-absolutely-okay-with-that/",
    "summary": "Close enough. Welcome back, Nagrand.",
    "source": "PC Gamer",
@@ -4953,11 +5098,13 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/ZmWwKGBMZ6WAgctzPJmq5A-1920-80.png",
    "published_at": "2026-11-13T00:36:38+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that",
+   "translated": true
   },
   {
    "id": "n_0e250122249f",
-   "title": "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it",
+   "title": "NVIDIAがなぜこの窮地に陥ったのか：ジェンセン・フアン氏をめぐるスキャンダルと、それに至るまでの地政学的経緯の年表",
    "link": "https://www.pcgamer.com/hardware/graphics-cards/how-nvidia-got-into-this-mess-timeline-of-jensen-huang-scandal-and-geopolitics-leading-up-to-it/",
    "summary": "We're hearing a lot more about this now, but this story didn't totally begin with Jensen's admission of an affair.",
    "source": "PC Gamer",
@@ -4966,7 +5113,9 @@
    "platforms": [],
    "image": "https://cdn.mos.cms.futurecdn.net/qAijZ5j8sgKFUvCeMMUUm8-1920-80.jpg",
    "published_at": "2026-11-13T00:31:12+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it",
+   "translated": true
   },
   {
    "id": "n_462227478342",
@@ -5000,7 +5149,7 @@
   },
   {
    "id": "n_62c34abfa66e",
-   "title": "Norwest pushes deeper into AI with new $4B fund",
+   "title": "ノーウェスト、40億ドルの新ファンドでAI分野への進出をさらに加速",
    "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
    "summary": "This is the investment firm's largest fund to date.",
    "source": "TechCrunch AI",
@@ -5009,7 +5158,9 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-13T00:18:14+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Norwest pushes deeper into AI with new $4B fund",
+   "translated": true
   },
   {
    "id": "n_d2f1c61f0410",
@@ -5042,19 +5193,6 @@
    "first_seen": "2026-11-13T03:58:38+09:00"
   },
   {
-   "id": "n_0c9032ce7928",
-   "title": "『ポケモンZA』色違いのゼルネアスをもらえる「あいことば」が公開！12月10日には第2弾として「色違いのイベルタル」もプレゼント",
-   "link": "http://www.gamespark.jp/article/2026/11/13/174812.html",
-   "summary": "『ぽこ あ ポケモン』でも、特別な家具をもらえる「あいことば」が公開！",
-   "source": "Game*Spark",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": "http://www.gamespark.jp/imgs/rss/1218841.jpg",
-   "published_at": "2026-11-13T00:10:36+09:00",
-   "first_seen": "2026-11-13T03:58:38+09:00"
-  },
-  {
    "id": "n_7b71132c7f53",
    "title": "AWSをローカルマシン上でエミュレートする、AWS公式の「AWSエミュレータ」正式リリース",
    "link": "https://www.publickey1.jp/blog/26/awsawsaws_1.html",
@@ -5068,36 +5206,8 @@
    "first_seen": "2026-11-13T03:58:38+09:00"
   },
   {
-   "id": "n_c7605cd33105",
-   "title": "数日間の論争の後、NVIDIA CEO のジェンスン・フアン氏が辞任した",
-   "link": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-resigns",
-   "summary": "Nvidia's founder and CEO Jensen Huang has resigned from his position as leader of one of the most valuable companies in ",
-   "source": "Eurogamer",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://assetsio.gnwcdn.com/jensen-huang-speaking.jpg?width=690&quality=85&format=jpg&auto=webp",
-   "published_at": "2026-11-13T00:07:20+09:00",
-   "first_seen": "2026-11-13T03:58:38+09:00",
-   "title_original": "After days of controversy, Nvidia CEO Jensen Huang has resigned",
-   "translated": true
-  },
-  {
-   "id": "n_d8e8bcbd817a",
-   "title": "Zelda OOT Remake: All Piece of Heart locations",
-   "link": "https://www.videogameschronicle.com/guide/zelda-oot-remake-all-piece-of-heart-locations/",
-   "summary": "Every Piece of Heart location and how to get it in The Legend of Zelda: Ocarina of Time remake",
-   "source": "VGC",
-   "region": "global",
-   "genre": "game",
-   "platforms": [],
-   "image": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Dampes-Grave-Digging-Tour-explained-all-rewards-3.jpg",
-   "published_at": "2026-11-13T00:05:45+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
-  },
-  {
    "id": "n_023d1c79ca20",
-   "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+   "title": "「Fireworks AI」へのサイバー攻撃により、ハッカーがNotionの顧客のチャット記録にアクセスできるようになった",
    "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
    "summary": "This is Fireworks' second data breach in as many months.",
    "source": "TechCrunch AI",
@@ -5106,7 +5216,9 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-13T00:02:28+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+   "translated": true
   },
   {
    "id": "n_15c28179b2dc",
@@ -5125,7 +5237,7 @@
   },
   {
    "id": "n_5f96a0ebfa7b",
-   "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+   "title": "Google、Gemini搭載スマートグラスを395ドルから発売開始　プライバシーを前面に打ち出す",
    "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
    "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
    "source": "Ars Technica AI",
@@ -5134,7 +5246,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-1152x648.jpg",
    "published_at": "2026-11-12T23:50:17+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+   "translated": true
   },
   {
    "id": "n_39f4c129e434",
@@ -5153,7 +5267,7 @@
   },
   {
    "id": "n_7ed9c1c82c2d",
-   "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+   "title": "9社の韓国スタートアップが、「Disrupt 2027」の「Startup Battlefield 200」コンテストへの出場権を争う",
    "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
    "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine a",
    "source": "TechCrunch AI",
@@ -5162,7 +5276,9 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-12T22:26:25+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+   "translated": true
   },
   {
    "id": "n_90d79223706e",
@@ -5244,7 +5360,7 @@
   },
   {
    "id": "n_48e6c4124142",
-   "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+   "title": "ジェンセン・ホァンの後任には誰がふさわしいのか？　後継候補を挙げた、まったく科学的ではないリスト",
    "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
    "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
    "source": "TechCrunch AI",
@@ -5253,7 +5369,9 @@
    "platforms": [],
    "image": null,
    "published_at": "2026-11-12T12:13:10+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+   "translated": true
   },
   {
    "id": "n_8a30428b8f63",
@@ -5335,7 +5453,7 @@
   },
   {
    "id": "n_d48e4f7a3199",
-   "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+   "title": "台湾の半導体大手TSMC、AnthropicとOpenAIに10億ドルを投資へ",
    "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
    "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
    "source": "Ars Technica AI",
@@ -5344,7 +5462,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
    "published_at": "2026-11-12T03:16:40+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+   "translated": true
   },
   {
    "id": "n_8e4104a923ec",
@@ -5361,7 +5481,7 @@
   },
   {
    "id": "n_9e2e1c68cf1b",
-   "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+   "title": "『Big Walk』はAIを活用してバグを修正した。今、インディーゲーム界では大きな議論が巻き起こっている。",
    "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
    "summary": "Any amount of AI coding is too much for many Independent Games Festival judges.",
    "source": "Ars Technica AI",
@@ -5370,7 +5490,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
    "published_at": "2026-11-12T02:37:32+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+   "translated": true
   },
   {
    "id": "n_97adab01dbf7",
@@ -5426,7 +5548,7 @@
   },
   {
    "id": "n_ef892408bebc",
-   "title": "Google DeepMind just mathematically verified key parts of Signal",
+   "title": "Google DeepMindは、Signalの主要な部分を数学的に検証したばかりだ",
    "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
    "summary": "The four-week project hints that AI could make formal verification far more practical.",
    "source": "Ars Technica AI",
@@ -5435,7 +5557,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
    "published_at": "2026-11-11T23:08:57+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Google DeepMind just mathematically verified key parts of Signal",
+   "translated": true
   },
   {
    "id": "n_7e65614cc89a",
@@ -5504,7 +5628,7 @@
   },
   {
    "id": "n_cd1dc6d6e6bd",
-   "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+   "title": "AmazonがAI搭載のセキュリティドローンとロボットを発表、リングカメラがモバイル化へ",
    "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
    "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
    "source": "Ars Technica AI",
@@ -5513,11 +5637,13 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
    "published_at": "2026-11-11T07:35:01+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+   "translated": true
   },
   {
    "id": "n_b686da68349e",
-   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "title": "Grok Buildのコーディングエージェントから大量の機密情報が漏洩しており、その一部はSpaceXSIのものです。",
    "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
    "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
    "source": "Ars Technica AI",
@@ -5526,11 +5652,13 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp",
    "published_at": "2026-11-11T06:12:59+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "translated": true
   },
   {
    "id": "n_c4b2e9a50337",
-   "title": "What happens to mathematics when AI becomes an oracle?",
+   "title": "AIが「オラクル」となったとき、数学はどうなるのでしょうか？",
    "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
    "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
    "source": "Ars Technica AI",
@@ -5539,7 +5667,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
    "published_at": "2026-11-11T05:30:01+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "What happens to mathematics when AI becomes an oracle?",
+   "translated": true
   },
   {
    "id": "n_ac5a661efbfd",
@@ -5595,7 +5725,7 @@
   },
   {
    "id": "n_004c51f512e0",
-   "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+   "title": "DeepMindが「Gemini Robotics 2.5」と、オープンな安全性ベンチマーク「ASIMOV-jailbreak」を発表",
    "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
    "summary": "The new model is up to twice as successful at some tasks.",
    "source": "Ars Technica AI",
@@ -5604,7 +5734,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-1152x648.jpg",
    "published_at": "2026-11-11T00:00:39+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+   "translated": true
   },
   {
    "id": "n_c5fffc8a0cbd",
@@ -5634,7 +5766,7 @@
   },
   {
    "id": "n_ffd1be60b8ac",
-   "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+   "title": "ウクライナの光ファイバードローン、AIデータセンターの需要に押され苦戦",
    "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
    "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
    "source": "Ars Technica AI",
@@ -5643,7 +5775,9 @@
    "platforms": [],
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Fiber-optic-drone-cable-1152x648.jpg",
    "published_at": "2026-11-10T21:15:32+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
+   "first_seen": "2026-11-13T15:45:05+09:00",
+   "title_original": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+   "translated": true
   },
   {
    "id": "n_46ecb159c153",
@@ -5679,7 +5813,7 @@
    "store": "steam",
    "title": "Euro Truck Simulator 2",
    "link": "https://store.steampowered.com/app/227300/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/da84d11d3ddd817e0cca299608b469a854d75ba5/capsule_231x87.jpg?t=1794502925",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/da84d11d3ddd817e0cca299608b469a854d75ba5/capsule_231x87.jpg?t=1794502925",
    "price_original": 2999,
    "price_sale": 749,
    "discount": 75,
@@ -5707,7 +5841,7 @@
    "store": "steam",
    "title": "Slay the Spire 2",
    "link": "https://store.steampowered.com/app/2868840/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg?t=1787169309",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg?t=1787169309",
    "price_original": 2800,
    "price_sale": 2240,
    "discount": 20,
@@ -5749,7 +5883,7 @@
    "store": "steam",
    "title": "Hearts of Iron IV",
    "link": "https://store.steampowered.com/app/394360/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg?t=1794491980",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg?t=1794491980",
    "price_original": 6990,
    "price_sale": 2097,
    "discount": 70,
@@ -5763,7 +5897,7 @@
    "store": "steam",
    "title": "みんなでティア表!",
    "link": "https://store.steampowered.com/app/4921660/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4921660/217d35c87e564dc8133005e08b973b42edc74e2a/capsule_231x87_japanese.jpg?t=1794452483",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4921660/217d35c87e564dc8133005e08b973b42edc74e2a/capsule_231x87_japanese.jpg?t=1794452483",
    "price_original": 790,
    "price_sale": 671,
    "discount": 15,
@@ -5787,6 +5921,20 @@
    "ends_at": "2026-11-27T03:00:28+09:00"
   },
   {
+   "id": "d_steam_3432860",
+   "store": "steam",
+   "title": "病能探偵",
+   "link": "https://store.steampowered.com/app/3432860/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432860/f10610fffa8ecde4043e1ef0b6fcf06aa5dd8b0d/capsule_231x87_japanese.jpg?t=1793883448",
+   "price_original": 3035,
+   "price_sale": 2479,
+   "discount": 18,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_5266240",
    "store": "steam",
    "title": "Potato Please",
@@ -5801,25 +5949,11 @@
    "ends_at": "2026-11-16T03:00:36+09:00"
   },
   {
-   "id": "d_steam_3432860",
-   "store": "steam",
-   "title": "病能探偵",
-   "link": "https://store.steampowered.com/app/3432860/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3432860/f10610fffa8ecde4043e1ef0b6fcf06aa5dd8b0d/capsule_231x87_japanese.jpg?t=1793883448",
-   "price_original": 3035,
-   "price_sale": 2479,
-   "discount": 18,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
    "id": "d_steam_2062430",
    "store": "steam",
    "title": "BALL x PIT",
    "link": "https://store.steampowered.com/app/2062430/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg?t=1794503272",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg?t=1794503272",
    "price_original": 1700,
    "price_sale": 850,
    "discount": 50,
@@ -5847,7 +5981,7 @@
    "store": "steam",
    "title": "空の軌跡 the 1st",
    "link": "https://store.steampowered.com/app/3375780/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3375780/c118a360f4185da6b5a62ac93d12b6bfd0235f24/capsule_231x87_japanese.jpg?t=1791225209",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/c118a360f4185da6b5a62ac93d12b6bfd0235f24/capsule_231x87_japanese.jpg?t=1791225209",
    "price_original": 8800,
    "price_sale": 4400,
    "discount": 50,
@@ -5861,23 +5995,9 @@
    "store": "steam",
    "title": "Wizardry外伝 五つの試練",
    "link": "https://store.steampowered.com/app/1308700/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_231x87.jpg?t=1794335368",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_231x87.jpg?t=1794335368",
    "price_original": 3980,
    "price_sale": 1791,
-   "discount": 55,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2178480",
-   "store": "steam",
-   "title": "不思議のダンジョン　風来のシレン６　とぐろ島探検録",
-   "link": "https://store.steampowered.com/app/2178480/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2178480/37eb9500aaf99f0a8cd3d955c04e4e6d211b7e16/capsule_231x87_japanese.jpg?t=1738230227",
-   "price_original": 5980,
-   "price_sale": 2691,
    "discount": 55,
    "is_free": false,
    "upcoming": false,
@@ -5899,11 +6019,25 @@
    "ends_at": "2026-11-20T03:00:03+09:00"
   },
   {
+   "id": "d_steam_2178480",
+   "store": "steam",
+   "title": "不思議のダンジョン　風来のシレン６　とぐろ島探検録",
+   "link": "https://store.steampowered.com/app/2178480/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178480/37eb9500aaf99f0a8cd3d955c04e4e6d211b7e16/capsule_231x87_japanese.jpg?t=1738230227",
+   "price_original": 5980,
+   "price_sale": 2691,
+   "discount": 55,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
    "id": "d_steam_949230",
    "store": "steam",
    "title": "Cities: Skylines II",
    "link": "https://store.steampowered.com/app/949230/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/4bd24a2ba20f963cac8222c9facf766ab0caa010/capsule_231x87_alt_assets_9_japanese.jpg?t=1794506466",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/4bd24a2ba20f963cac8222c9facf766ab0caa010/capsule_231x87_alt_assets_9_japanese.jpg?t=1794506466",
    "price_original": 6990,
    "price_sale": 4893,
    "discount": 30,
@@ -5917,7 +6051,7 @@
    "store": "steam",
    "title": "餓狼伝説 CotW シーズンパス2",
    "link": "https://store.steampowered.com/app/4070950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4070950/65bcf47a871be38aac301df18a69ff4a01f94cee/capsule_231x87.jpg?t=1782956285",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4070950/65bcf47a871be38aac301df18a69ff4a01f94cee/capsule_231x87.jpg?t=1782956285",
    "price_original": 1980,
    "price_sale": 1584,
    "discount": 20,
@@ -5945,24 +6079,10 @@
    "store": "steam",
    "title": "「ディアブロ II リザレクテッド」 – 「獄炎エディション」",
    "link": "https://store.steampowered.com/app/2536520/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2536520/9787caa79ad6ce3c9d882553fc0656f6af0f55c4/capsule_231x87_japanese.jpg?t=1774399170",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/9787caa79ad6ce3c9d882553fc0656f6af0f55c4/capsule_231x87_japanese.jpg?t=1774399170",
    "price_original": 4800,
    "price_sale": 3120,
    "discount": 35,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4876650",
-   "store": "steam",
-   "title": "色で仕分けるな",
-   "link": "https://store.steampowered.com/app/4876650/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4876650/9b84c093119431bd0adc3c18e789b81b27614382/capsule_231x87_japanese.jpg?t=1794327933",
-   "price_original": 1400,
-   "price_sale": 1120,
-   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -5973,10 +6093,24 @@
    "store": "steam",
    "title": "The Hero's Legacy",
    "link": "https://store.steampowered.com/app/5416430/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5416430/6517e0e7d33d1a30392cba3ca99c7405bc2ba0c9/capsule_231x87.jpg?t=1794215438",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5416430/6517e0e7d33d1a30392cba3ca99c7405bc2ba0c9/capsule_231x87.jpg?t=1794215438",
    "price_original": 2050,
    "price_sale": 1373,
    "discount": 33,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4876650",
+   "store": "steam",
+   "title": "色で仕分けるな",
+   "link": "https://store.steampowered.com/app/4876650/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876650/9b84c093119431bd0adc3c18e789b81b27614382/capsule_231x87_japanese.jpg?t=1794327933",
+   "price_original": 1400,
+   "price_sale": 1120,
+   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -5987,7 +6121,7 @@
    "store": "steam",
    "title": "MONOMOON",
    "link": "https://store.steampowered.com/app/3285880/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3285880/f952731af010fbb871ffcccf6a7c5ba56483bd51/capsule_231x87.jpg?t=1794504675",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3285880/f952731af010fbb871ffcccf6a7c5ba56483bd51/capsule_231x87.jpg?t=1794504675",
    "price_original": 1680,
    "price_sale": 1512,
    "discount": 10,
@@ -6001,7 +6135,7 @@
    "store": "steam",
    "title": "American Truck Simulator",
    "link": "https://store.steampowered.com/app/270880/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/8809b200b3ebdd7fbcdbfdbe6c8f91b2c0ce93df/capsule_231x87.jpg?t=1794418935",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/8809b200b3ebdd7fbcdbfdbe6c8f91b2c0ce93df/capsule_231x87.jpg?t=1794418935",
    "price_original": 2999,
    "price_sale": 750,
    "discount": 75,
@@ -6015,7 +6149,7 @@
    "store": "steam",
    "title": "The Elder Scrolls V: Skyrim Special Edition",
    "link": "https://store.steampowered.com/app/489830/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/489830/capsule_231x87.jpg?t=1786648247",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_231x87.jpg?t=1786648247",
    "price_original": 4399,
    "price_sale": 879,
    "discount": 80,
@@ -6029,7 +6163,7 @@
    "store": "steam",
    "title": "Mortal Shell II",
    "link": "https://store.steampowered.com/app/2584270/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2584270/be45d87c9974a36f690480bceb01f03987a0c23a/capsule_231x87.jpg?t=1794241756",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/be45d87c9974a36f690480bceb01f03987a0c23a/capsule_231x87.jpg?t=1794241756",
    "price_original": 6480,
    "price_sale": 4860,
    "discount": 25,
@@ -6043,7 +6177,7 @@
    "store": "steam",
    "title": "スーパーダンガンロンパ2 さよなら絶望学園",
    "link": "https://store.steampowered.com/app/413420/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413420/capsule_231x87_japanese.jpg?t=1781085654",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/capsule_231x87_japanese.jpg?t=1781085654",
    "price_original": 2138,
    "price_sale": 855,
    "discount": 60,
@@ -6057,52 +6191,10 @@
    "store": "steam",
    "title": "DREADMOOR (ドレッドムア)",
    "link": "https://store.steampowered.com/app/3629430/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3629430/463d99fc377b03a3a20fc3b45915a8755ccabef4/capsule_231x87.jpg?t=1794233002",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/463d99fc377b03a3a20fc3b45915a8755ccabef4/capsule_231x87.jpg?t=1794233002",
    "price_original": 2600,
    "price_sale": 2340,
    "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_2175540",
-   "store": "steam",
-   "title": "ドラゴンクエストモンスターズ３　魔族の王子とエルフの旅",
-   "link": "https://store.steampowered.com/app/2175540/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_231x87_japanese.jpg?t=1775105751",
-   "price_original": 4980,
-   "price_sale": 996,
-   "discount": 80,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4476270",
-   "store": "steam",
-   "title": "Crown & Coin: The Hundred Years（百年戦争）",
-   "link": "https://store.steampowered.com/app/4476270/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4476270/7987184e2c6b27cc8deb43f28a449ff6b9abb044/capsule_231x87.jpg?t=1794198875",
-   "price_original": 3480,
-   "price_sale": 2784,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_5475960",
-   "store": "steam",
-   "title": "Incremental Traffic",
-   "link": "https://store.steampowered.com/app/5475960/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5475960/946f61a70df1f0306364a2721b2ebd3b9146fcc4/capsule_231x87_japanese.jpg?t=1793908197",
-   "price_original": 1400,
-   "price_sale": 980,
-   "discount": 30,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6113,7 +6205,7 @@
    "store": "steam",
    "title": "777勇者 〜時に抗う者〜",
    "link": "https://store.steampowered.com/app/5457010/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5457010/c7413365be2ebed477b9ed3b5474b1b4d638a4d9/capsule_231x87_japanese.jpg?t=1794544205",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/c7413365be2ebed477b9ed3b5474b1b4d638a4d9/capsule_231x87_japanese.jpg?t=1794544205",
    "price_original": 850,
    "price_sale": 680,
    "discount": 20,
@@ -6123,14 +6215,42 @@
    "ends_at": null
   },
   {
-   "id": "d_steam_3527290",
+   "id": "d_steam_2175540",
    "store": "steam",
-   "title": "PEAK",
-   "link": "https://store.steampowered.com/app/3527290/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
-   "price_original": 880,
-   "price_sale": 545,
-   "discount": 38,
+   "title": "ドラゴンクエストモンスターズ３　魔族の王子とエルフの旅",
+   "link": "https://store.steampowered.com/app/2175540/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_231x87_japanese.jpg?t=1775105751",
+   "price_original": 4980,
+   "price_sale": 996,
+   "discount": 80,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_5475960",
+   "store": "steam",
+   "title": "Incremental Traffic",
+   "link": "https://store.steampowered.com/app/5475960/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5475960/946f61a70df1f0306364a2721b2ebd3b9146fcc4/capsule_231x87_japanese.jpg?t=1793908197",
+   "price_original": 1400,
+   "price_sale": 980,
+   "discount": 30,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4476270",
+   "store": "steam",
+   "title": "Crown & Coin: The Hundred Years（百年戦争）",
+   "link": "https://store.steampowered.com/app/4476270/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4476270/7987184e2c6b27cc8deb43f28a449ff6b9abb044/capsule_231x87.jpg?t=1794198875",
+   "price_original": 3480,
+   "price_sale": 2784,
+   "discount": 20,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6141,10 +6261,24 @@
    "store": "steam",
    "title": "Satelital",
    "link": "https://store.steampowered.com/app/3256790/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3256790/d35906aafc1637d237ca8e3cc47c4cbbb20da766/capsule_231x87.jpg?t=1794531380",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256790/d35906aafc1637d237ca8e3cc47c4cbbb20da766/capsule_231x87.jpg?t=1794531380",
    "price_original": 2800,
    "price_sale": 2380,
    "discount": 15,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3527290",
+   "store": "steam",
+   "title": "PEAK",
+   "link": "https://store.steampowered.com/app/3527290/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
+   "price_original": 880,
+   "price_sale": 545,
+   "discount": 38,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6155,24 +6289,10 @@
    "store": "steam",
    "title": "Euro Truck Simulator 2 - Nordic Horizons",
    "link": "https://store.steampowered.com/app/2780810/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2780810/931380e22dc2a0ee6d489ee2ffb8bd7c201bbb01/capsule_231x87.jpg?t=1781093020",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2780810/931380e22dc2a0ee6d489ee2ffb8bd7c201bbb01/capsule_231x87.jpg?t=1781093020",
    "price_original": 2675,
    "price_sale": 2407,
    "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_567640",
-   "store": "steam",
-   "title": "ニューダンガンロンパV3 みんなのコロシアイ新学期",
-   "link": "https://store.steampowered.com/app/567640/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/567640/capsule_231x87_japanese.jpg?t=1750134757",
-   "price_original": 4190,
-   "price_sale": 838,
-   "discount": 80,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6183,38 +6303,10 @@
    "store": "steam",
    "title": "9 Kings 9 キングス",
    "link": "https://store.steampowered.com/app/2784470/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2784470/4b8302521a0a591aee46bb49ac93161c8315ac7b/capsule_231x87_japanese.jpg?t=1794518469",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/4b8302521a0a591aee46bb49ac93161c8315ac7b/capsule_231x87_japanese.jpg?t=1794518469",
    "price_original": 1980,
    "price_sale": 990,
    "discount": 50,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_1769420",
-   "store": "steam",
-   "title": "Noble Fates",
-   "link": "https://store.steampowered.com/app/1769420/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1769420/3c7a4201525b37c5338abd0c4382ce65876c7fb9/capsule_231x87_alt_assets_9.jpg?t=1794505279",
-   "price_original": 2570,
-   "price_sale": 2056,
-   "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_4557380",
-   "store": "steam",
-   "title": "バトモン対決",
-   "link": "https://store.steampowered.com/app/4557380/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4557380/b40dccb71e0f4917c751b4ee7c44eecfde1316be/capsule_231x87.jpg?t=1791378405",
-   "price_original": 1900,
-   "price_sale": 1235,
-   "discount": 35,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6225,10 +6317,66 @@
    "store": "steam",
    "title": "ユミアのアトリエ ～追憶の錬金術士と幻創の地～",
    "link": "https://store.steampowered.com/app/3123410/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3123410/e5bf7f05f103cb1296d9a989fdf0f7450ab9d863/capsule_231x87_japanese.jpg?t=1793770079",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123410/e5bf7f05f103cb1296d9a989fdf0f7450ab9d863/capsule_231x87_japanese.jpg?t=1793770079",
    "price_original": 9680,
    "price_sale": 4840,
    "discount": 50,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_567640",
+   "store": "steam",
+   "title": "ニューダンガンロンパV3 みんなのコロシアイ新学期",
+   "link": "https://store.steampowered.com/app/567640/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/capsule_231x87_japanese.jpg?t=1750134757",
+   "price_original": 4190,
+   "price_sale": 838,
+   "discount": 80,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_4557380",
+   "store": "steam",
+   "title": "バトモン対決",
+   "link": "https://store.steampowered.com/app/4557380/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557380/b40dccb71e0f4917c751b4ee7c44eecfde1316be/capsule_231x87.jpg?t=1791378405",
+   "price_original": 1900,
+   "price_sale": 1235,
+   "discount": 35,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_1769420",
+   "store": "steam",
+   "title": "Noble Fates",
+   "link": "https://store.steampowered.com/app/1769420/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1769420/3c7a4201525b37c5338abd0c4382ce65876c7fb9/capsule_231x87_alt_assets_9.jpg?t=1794505279",
+   "price_original": 2570,
+   "price_sale": 2056,
+   "discount": 20,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3141980",
+   "store": "steam",
+   "title": "餓狼伝説 CotW シーズンパス1",
+   "link": "https://store.steampowered.com/app/3141980/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141980/2bc244ac2c276fc9f30035f19612e0b25804a494/capsule_231x87.jpg?t=1781658207",
+   "price_original": 1480,
+   "price_sale": 991,
+   "discount": 33,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6239,7 +6387,7 @@
    "store": "steam",
    "title": "For The King II",
    "link": "https://store.steampowered.com/app/1676840/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1676840/6473fa57633ffc0e589099c39c1acb3a149bf16f/capsule_231x87_alt_assets_13_japanese.jpg?t=1794248102",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/6473fa57633ffc0e589099c39c1acb3a149bf16f/capsule_231x87_alt_assets_13_japanese.jpg?t=1794248102",
    "price_original": 3500,
    "price_sale": 1050,
    "discount": 70,
@@ -6253,24 +6401,10 @@
    "store": "steam",
    "title": "Dungeons & Dynasties",
    "link": "https://store.steampowered.com/app/5101960/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5101960/59efdb6296ab7a63966a4ef5ca0885c1ed59ef1a/capsule_231x87.jpg?t=1794521753",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5101960/59efdb6296ab7a63966a4ef5ca0885c1ed59ef1a/capsule_231x87.jpg?t=1794521753",
    "price_original": 1150,
    "price_sale": 1035,
    "discount": 10,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3141980",
-   "store": "steam",
-   "title": "餓狼伝説 CotW シーズンパス1",
-   "link": "https://store.steampowered.com/app/3141980/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3141980/2bc244ac2c276fc9f30035f19612e0b25804a494/capsule_231x87.jpg?t=1781658207",
-   "price_original": 1480,
-   "price_sale": 991,
-   "discount": 33,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6281,7 +6415,7 @@
    "store": "steam",
    "title": "Apotheosis Engine",
    "link": "https://store.steampowered.com/app/4665590/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4665590/8ac1b37596ec57851ddf39d7881532c84fca3292/capsule_231x87.jpg?t=1794551706",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665590/8ac1b37596ec57851ddf39d7881532c84fca3292/capsule_231x87.jpg?t=1794551706",
    "price_original": 1000,
    "price_sale": 900,
    "discount": 10,
@@ -6295,24 +6429,10 @@
    "store": "steam",
    "title": "夢幻桜楼閣",
    "link": "https://store.steampowered.com/app/2991310/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2991310/3df2f836d84b4426cd9ed426ac61ef5e05cb00b7/capsule_231x87_japanese.jpg?t=1793805269",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2991310/3df2f836d84b4426cd9ed426ac61ef5e05cb00b7/capsule_231x87_japanese.jpg?t=1793805269",
    "price_original": 1500,
    "price_sale": 1200,
    "discount": 20,
-   "is_free": false,
-   "upcoming": false,
-   "starts_at": null,
-   "ends_at": null
-  },
-  {
-   "id": "d_steam_3218570",
-   "store": "steam",
-   "title": "TANUKI: Pon's Summer  - タヌキ： ポンの夏",
-   "link": "https://store.steampowered.com/app/3218570/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3218570/404a5bd2fed6e2133b15390185db1ea360eb8370/capsule_231x87_japanese.jpg?t=1794331328",
-   "price_original": 2550,
-   "price_sale": 2167,
-   "discount": 15,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
@@ -6323,7 +6443,7 @@
    "store": "steam",
    "title": "Delve Survivors",
    "link": "https://store.steampowered.com/app/3319680/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3319680/55af1a906f77c649c4d01866b696787cb546873a/capsule_231x87.jpg?t=1794561993",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3319680/55af1a906f77c649c4d01866b696787cb546873a/capsule_231x87.jpg?t=1794561993",
    "price_original": 1800,
    "price_sale": 1530,
    "discount": 15,
@@ -6337,7 +6457,7 @@
    "store": "steam",
    "title": "みんなでおもちゃ屋おかたづけ！",
    "link": "https://store.steampowered.com/app/5041530/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5041530/7151197e5df505a2b585e2c6e878d11e376789ef/capsule_231x87_japanese.jpg?t=1793535688",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041530/7151197e5df505a2b585e2c6e878d11e376789ef/capsule_231x87_japanese.jpg?t=1793535688",
    "price_original": 930,
    "price_sale": 790,
    "discount": 15,
@@ -6351,10 +6471,24 @@
    "store": "steam",
    "title": "絶対絶望少女 ダンガンロンパ Another Episode",
    "link": "https://store.steampowered.com/app/555950/",
-   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/555950/capsule_231x87_japanese.jpg?t=1715701294",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555950/capsule_231x87_japanese.jpg?t=1715701294",
    "price_original": 3800,
    "price_sale": 760,
    "discount": 80,
+   "is_free": false,
+   "upcoming": false,
+   "starts_at": null,
+   "ends_at": null
+  },
+  {
+   "id": "d_steam_3218570",
+   "store": "steam",
+   "title": "TANUKI: Pon's Summer  - タヌキ： ポンの夏",
+   "link": "https://store.steampowered.com/app/3218570/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/404a5bd2fed6e2133b15390185db1ea360eb8370/capsule_231x87_japanese.jpg?t=1794331328",
+   "price_original": 2550,
+   "price_sale": 2167,
+   "discount": 15,
    "is_free": false,
    "upcoming": false,
    "starts_at": null,
