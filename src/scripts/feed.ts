@@ -3,9 +3,11 @@
 import { formatShort, relativeTime } from "../lib/format";
 import { matchesDeal, matchesNews, sortDeals, type DealState, type FeedState } from "../lib/filter";
 import type { Deal, Region } from "../lib/news";
+import { isNewSince, nextLastSeen, pickBase } from "../lib/visit";
 
 const FAV_KEY = "gamefeed_favs_v2";
-const STALE_MINUTES = 180;
+// GitHub の定期実行は毎時の予定でも 4〜11 時間あくことがあるので、それより長く止まったときだけ知らせる
+const STALE_MINUTES = 12 * 60;
 
 // ---------- お気に入り ----------
 function loadFavs(): Set<string> {
@@ -291,7 +293,34 @@ function initTabs(root: HTMLElement): void {
   root.classList.add("is-tabbed");
 }
 
+// ---------- 前回から増えた記事（NEW） ----------
+const LAST_SEEN_KEY = "signal_last_seen_v1"; // 前回までに見たデータの updated_at（ずっと残す）
+const VISIT_BASE_KEY = "signal_visit_base_v1"; // このタブで使う基準（タブを閉じると消える）
+
+function initNewBadges(): void {
+  let base: string | null = null;
+  try {
+    const picked = pickBase(sessionStorage.getItem(VISIT_BASE_KEY), localStorage.getItem(LAST_SEEN_KEY));
+    base = picked.base;
+    sessionStorage.setItem(VISIT_BASE_KEY, picked.session);
+    // いま見ているデータの時刻を覚える。ニュースのないページ（まとめなど）では何もしない
+    const current = document.querySelector<HTMLTimeElement>("[data-status] time")?.dateTime;
+    if (current) {
+      const next = nextLastSeen(localStorage.getItem(LAST_SEEN_KEY), current);
+      if (next) localStorage.setItem(LAST_SEEN_KEY, next);
+    }
+  } catch {
+    // 保存できない環境では印を付けない（毎回すべてが NEW になってしまうので）
+    return;
+  }
+  document.querySelectorAll<HTMLElement>("li[data-first-seen]").forEach((card) => {
+    const badge = card.querySelector<HTMLElement>("[data-new]");
+    if (badge) badge.hidden = !isNewSince(card.dataset.firstSeen ?? "", base);
+  });
+}
+
 // ---------- 起動 ----------
+initNewBadges();
 initImages();
 initFavs();
 document.querySelectorAll<HTMLElement>("[data-feed]").forEach(initFeed);

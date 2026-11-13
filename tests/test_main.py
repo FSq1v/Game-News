@@ -80,10 +80,10 @@ def test_old_news_dropped_after_72h():
     assert [n["id"] for n in out["news"]] == ["n_2"]
 
 
-def test_news_capped_at_150_per_genre():
-    items = [news(i, hours_ago=i / 10) for i in range(250)]
+def test_news_capped_at_300_per_genre():
+    items = [news(i, hours_ago=i / 10) for i in range(400)]
     out = m.merge({"rss:AUTOMATON": items}, m.empty_data(), NOW)
-    assert len(out["news"]) == m.NEWS_MAX_PER_GENRE == 150
+    assert len(out["news"]) == m.NEWS_MAX_PER_GENRE == 300
 
 
 def test_duplicate_news_id_kept_once():
