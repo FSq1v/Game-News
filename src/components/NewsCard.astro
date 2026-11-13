@@ -17,7 +17,7 @@ const search = [item.title, item.title_original, item.source]
 const original = item.translated && item.title_original ? `原題：${item.title_original}` : undefined;
 ---
 
-<li class="news-card" data-id={item.id} data-region={item.region} data-search={search}>
+<li class="news-card" data-id={item.id} data-region={item.region} data-search={search} data-first-seen={item.first_seen}>
   <a class="news-card__link" href={href} target="_blank" rel="noopener noreferrer">
     <span class="thumb">
       <span class="thumb__label" aria-hidden="true">{item.source}</span>
@@ -39,6 +39,8 @@ const original = item.translated && item.title_original ? `原題：${item.title
     <span class="news-card__body">
       <span class="news-card__title" title={original}>{item.title}</span>
       <span class="news-card__meta">
+        {/* 前回見たあとに増えた記事の印。付けるかどうかは src/scripts/feed.ts が決める */}
+        <span class="badge-new" data-new hidden>NEW<span class="visually-hidden">（前回見たあとに増えた記事）</span></span>
         <span class="news-card__source">{item.source}</span>
         <time datetime={item.published_at} data-rel>{formatShort(item.published_at, "Asia/Tokyo")}</time>
         {item.translated && <span class="badge" title={original}>翻訳</span>}
@@ -117,6 +119,18 @@ const original = item.translated && item.title_original ? `原題：${item.title
     font-size: var(--font-size-xs);
     line-height: 1.6;
   }
+
+  .badge-new {
+    padding: 0 var(--space-2);
+    border-radius: var(--radius-pill);
+    background: var(--genre, var(--accent));
+    color: var(--on-genre);
+    font-size: 0.6875rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    line-height: 1.7;
+  }
+  .badge-new[hidden] { display: none; }
 
   /* サムネイル：枠の比率を決めておき、画像がない・読めないときは出典名を見せる */
   .thumb {

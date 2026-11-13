@@ -22,7 +22,7 @@ const updated = updatedAt ? formatShort(updatedAt, "Asia/Tokyo") : "";
         <span class="status__updated">最終更新 <time datetime={updatedAt} data-rel>{updated}</time></span>
       )}
       <span class="status__stale" data-stale hidden>
-        3 時間以上、更新が止まっています
+        12 時間以上、更新が止まっています
       </span>
       {failed.length > 0 && <span class="status__failed">一部の取得に失敗：{failed.join("、")}</span>}
     </p>

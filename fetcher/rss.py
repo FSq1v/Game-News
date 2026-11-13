@@ -13,6 +13,7 @@ FEEDS = [
     {"url": "https://automaton-media.com/feed/", "source": "AUTOMATON", "region": "jp"},
     {"url": "https://gamebiz.jp/feed.rss", "source": "gamebiz", "region": "jp"},
     {"url": "https://www.gamespark.jp/rss20/index.rdf", "source": "Game*Spark", "region": "jp"},
+    {"url": "https://game.watch.impress.co.jp/data/rss/1.0/gmw/feed.rdf", "source": "GAME Watch", "region": "jp"},
     # --- ハード公式 ---
     {"url": "https://www.nintendo.com/jp/topics/c/feed/rss/", "source": "任天堂公式", "region": "official", "platform": "Switch"},
     {"url": "https://blog.ja.playstation.com/feed/", "source": "PlayStation Blog", "region": "official", "platform": "PS5"},
@@ -22,6 +23,9 @@ FEEDS = [
     {"url": "https://www.pcgamer.com/rss/", "source": "PC Gamer", "region": "global"},
     {"url": "https://kotaku.com/rss", "source": "Kotaku", "region": "global"},
     {"url": "https://www.eurogamer.net/feed", "source": "Eurogamer", "region": "global"},
+    {"url": "https://www.gamespot.com/feeds/news/", "source": "GameSpot", "region": "global"},
+    {"url": "https://www.polygon.com/rss/index.xml", "source": "Polygon", "region": "global"},
+    {"url": "https://www.videogameschronicle.com/feed/", "source": "VGC", "region": "global"},
     # --- AI ---
     {"url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", "source": "ITmedia AI+", "region": "jp", "genre": "ai"},
     {"url": "https://www.publickey1.jp/atom.xml", "source": "Publickey", "region": "jp", "genre": "ai"},
@@ -29,6 +33,8 @@ FEEDS = [
     {"url": "https://blog.google/technology/ai/rss/", "source": "Google AI", "region": "official", "genre": "ai"},
     {"url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "source": "The Verge AI", "region": "global", "genre": "ai"},
     {"url": "https://techcrunch.com/category/artificial-intelligence/feed/", "source": "TechCrunch AI", "region": "global", "genre": "ai"},
+    {"url": "https://arstechnica.com/ai/feed/", "source": "Ars Technica AI", "region": "global", "genre": "ai"},
+    {"url": "https://huggingface.co/blog/feed.xml", "source": "Hugging Face", "region": "official", "genre": "ai"},
 ]
 
 PLATFORM_PATTERNS = {
@@ -91,7 +97,12 @@ def _image(item, description: str) -> str | None:
     return m.group(1) if m else None
 
 
-def parse_feed(xml: bytes, feed: dict, limit: int = 15) -> list[dict]:
+# 1 回の取得で読む件数。更新は数時間おきになることがあり（GitHub の定期実行が遅れる）、
+# 1 日に何十本も出すメディアだと 15 件では次の取得までに流れてしまうので、多めに読む
+PER_FEED_LIMIT = 50
+
+
+def parse_feed(xml: bytes, feed: dict, limit: int = PER_FEED_LIMIT) -> list[dict]:
     root = ET.fromstring(xml)
     items = (root.findall(".//item") or root.findall(f".//{RSS1}item")
              or root.findall(f".//{ATOM}entry"))

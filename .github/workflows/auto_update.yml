@@ -21,7 +21,11 @@ jobs:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
     steps:
+      # 実行を待っているあいだにほかの実行が news.json を push していることがあるので、
+      # きっかけになったコミットではなく、取り出す時点のブランチの先頭を使う
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-python@v5
         with:
@@ -47,7 +51,8 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update news.json"
-            git pull --rebase
+            # それでも news.json がぶつかったら、いま取ってきたほうを採る（rebase では theirs が手元のコミット）
+            git pull --rebase -X theirs
             git push
           fi
 

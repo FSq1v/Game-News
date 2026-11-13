@@ -11,7 +11,8 @@ from .common import now_jst, parse_date, to_iso
 from .translate import to_japanese
 
 OUTPUT = Path("data/news.json")
-NEWS_MAX_PER_GENRE = 150
+# ジャンルごとに残す件数。取得元と 1 回あたりの件数を増やしたので、ここも広げる
+NEWS_MAX_PER_GENRE = 300
 NEWS_MAX_AGE = timedelta(hours=72)
 REUSE_LIMIT = timedelta(hours=24)
 TRANSLATE_PER_RUN = 40
