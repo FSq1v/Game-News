@@ -1,4 +1,3 @@
-import time
 from datetime import datetime, timedelta
 
 from fetcher import main as m
@@ -134,7 +133,7 @@ def test_main_writes_file(tmp_path, monkeypatch):
 
 def test_apply_translations_only_new_global(monkeypatch):
     calls = []
-    monkeypatch.setattr(m, "to_japanese", lambda t: calls.append(t) or f"訳:{t}")
+    monkeypatch.setattr(m, "translate_many", lambda ts: calls.extend(ts) or [f"訳:{t}" for t in ts])
     items = [news(1, region="global", title="Hello world"),
              news(2, region="jp", title="こんにちは"),
              news(3, region="global", title="done", translated=False)]
@@ -146,32 +145,30 @@ def test_apply_translations_only_new_global(monkeypatch):
 
 
 def test_apply_translations_failure_retries_next_time(monkeypatch):
-    monkeypatch.setattr(m, "to_japanese", lambda t: None)
+    monkeypatch.setattr(m, "translate_many", lambda ts: [None] * len(ts))
     items = [news(1, region="global", title="Hello world")]
     m.apply_translations(items)
     assert items[0]["title"] == "Hello world" and "translated" not in items[0]
 
 
 def test_apply_translations_skips_non_english(monkeypatch):
-    monkeypatch.setattr(m, "to_japanese", lambda t: 1 / 0)
+    monkeypatch.setattr(m, "translate_many", lambda ts: 1 / 0)
     items = [news(1, region="global", title="PS5 版")]
     m.apply_translations(items)
     assert items[0]["translated"] is False
 
 
 def test_apply_translations_capped(monkeypatch):
-    monkeypatch.setattr(m, "to_japanese", lambda t: "訳")
+    monkeypatch.setattr(m, "translate_many", lambda ts: ["訳"] * len(ts))
     items = [news(i, region="global", title="Hello world") for i in range(200)]
     m.apply_translations(items)
     assert sum(1 for n in items if n.get("translated")) == m.TRANSLATE_PER_RUN == 150
 
 
-def test_apply_translations_parallel_keeps_each_title(monkeypatch):
-    # 並行で訳しても、訳が別の記事に付かないこと。失敗した記事は次の実行に回すこと
-    def fake(t):
-        time.sleep(0.001 * (hash(t) % 5))
-        return None if t.endswith("7") else f"訳:{t}"
-    monkeypatch.setattr(m, "to_japanese", fake)
+def test_apply_translations_keeps_each_title(monkeypatch):
+    # 訳が別の記事に付かないこと。訳せなかった記事は次の実行に回すこと
+    monkeypatch.setattr(m, "translate_many",
+                        lambda ts: [None if t.endswith("7") else f"訳:{t}" for t in ts])
     items = [news(i, region="global", title=f"Headline number {i}") for i in range(60)]
     m.apply_translations(items)
     for i, n in enumerate(items):

@@ -40,6 +40,9 @@ jobs:
         run: pytest -q
 
       - name: Fetch news and deals
+        env:
+          # 海外記事のタイトル翻訳に使う。未登録でも動き、そのときはタイトルを訳さずに出す
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: python -m fetcher
 
       - name: Commit news.json
