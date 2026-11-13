@@ -126,6 +126,8 @@ def apply_translations(news: list[dict]) -> None:
         # 失敗したときはキーを付けずにおき、次の実行でもう一度訳す
         if translated:
             n["title_original"], n["title"], n["translated"] = n["title"], translated, True
+    ok = sum(1 for r in results if r)
+    print(f"Translated {ok}/{len(targets)} titles")
 
 
 def _run(fn: Callable[[], list[dict]]) -> list[dict] | Exception:
