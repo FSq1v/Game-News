@@ -15,7 +15,10 @@ OUTPUT = Path("data/news.json")
 NEWS_MAX_PER_GENRE = 300
 NEWS_MAX_AGE = timedelta(hours=72)
 REUSE_LIMIT = timedelta(hours=24)
-TRANSLATE_PER_RUN = 40
+# 1 回に訳す件数と、同時に訳す数。取得元を増やしたぶん新しい海外記事も増えたので、
+# 並行で訳して 1 回で追いつけるようにする（1 件の待ちは最大 5 秒なので、150 件 ÷ 8 でも 2 分弱で済む）
+TRANSLATE_PER_RUN = 150
+TRANSLATE_WORKERS = 8
 _NEEDS_TRANSLATION = re.compile(r"[a-zA-Z]{5,}")
 
 SOURCES: list[tuple[str, Callable[[], list[dict]]]] = [
@@ -106,17 +109,20 @@ def merge(results: dict[str, list[dict] | Exception], previous: dict, now: datet
 
 
 def apply_translations(news: list[dict]) -> None:
-    done = 0
+    targets = []
     for n in news:
         if n.get("region") != "global" or "translated" in n:
             continue
         if not _NEEDS_TRANSLATION.search(n["title"]):
             n["translated"] = False
             continue
-        if done >= TRANSLATE_PER_RUN:
-            continue
-        done += 1
-        translated = to_japanese(n["title"])
+        if len(targets) < TRANSLATE_PER_RUN:
+            targets.append(n)
+    if not targets:
+        return
+    with ThreadPoolExecutor(max_workers=TRANSLATE_WORKERS) as pool:
+        results = list(pool.map(lambda n: to_japanese(n["title"]), targets))
+    for n, translated in zip(targets, results):
         # 失敗したときはキーを付けずにおき、次の実行でもう一度訳す
         if translated:
             n["title_original"], n["title"], n["translated"] = n["title"], translated, True
