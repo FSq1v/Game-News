@@ -1,3 +1,4 @@
+import time
 from datetime import datetime, timedelta
 
 from fetcher import main as m
@@ -160,9 +161,24 @@ def test_apply_translations_skips_non_english(monkeypatch):
 
 def test_apply_translations_capped(monkeypatch):
     monkeypatch.setattr(m, "to_japanese", lambda t: "訳")
-    items = [news(i, region="global", title="Hello world") for i in range(50)]
+    items = [news(i, region="global", title="Hello world") for i in range(200)]
     m.apply_translations(items)
-    assert sum(1 for n in items if n.get("translated")) == 40
+    assert sum(1 for n in items if n.get("translated")) == m.TRANSLATE_PER_RUN == 150
+
+
+def test_apply_translations_parallel_keeps_each_title(monkeypatch):
+    # 並行で訳しても、訳が別の記事に付かないこと。失敗した記事は次の実行に回すこと
+    def fake(t):
+        time.sleep(0.001 * (hash(t) % 5))
+        return None if t.endswith("7") else f"訳:{t}"
+    monkeypatch.setattr(m, "to_japanese", fake)
+    items = [news(i, region="global", title=f"Headline number {i}") for i in range(60)]
+    m.apply_translations(items)
+    for i, n in enumerate(items):
+        if str(i).endswith("7"):
+            assert n["title"] == f"Headline number {i}" and "translated" not in n
+        else:
+            assert (n["title"], n["title_original"]) == (f"訳:Headline number {i}", f"Headline number {i}")
 
 
 def test_cap_is_per_genre(monkeypatch):
