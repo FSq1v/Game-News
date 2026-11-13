@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-13T20:30:24+09:00",
+ "updated_at": "2026-11-13T20:35:09+09:00",
  "sources": [
   {
    "id": "rss:4Gamer",
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 40,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -22,7 +22,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -30,7 +30,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -38,7 +38,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -46,7 +46,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -54,7 +54,7 @@
    "ok": true,
    "count": 29,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -62,7 +62,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -70,7 +70,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -78,7 +78,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -94,7 +94,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -102,7 +102,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -118,7 +118,7 @@
    "ok": true,
    "count": 30,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -126,7 +126,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -134,7 +134,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -142,7 +142,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -150,7 +150,7 @@
    "ok": true,
    "count": 15,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -166,7 +166,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -174,7 +174,7 @@
    "ok": true,
    "count": 10,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -182,7 +182,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -190,7 +190,7 @@
    "ok": true,
    "count": 20,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -198,7 +198,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "ai"
   },
   {
@@ -206,7 +206,7 @@
    "ok": true,
    "count": 50,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -214,7 +214,7 @@
    "ok": true,
    "count": 3,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -222,7 +222,7 @@
    "ok": true,
    "count": 57,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   },
   {
@@ -230,11 +230,24 @@
    "ok": true,
    "count": 58,
    "error": null,
-   "last_success": "2026-11-13T20:30:24+09:00",
+   "last_success": "2026-11-13T20:35:09+09:00",
    "genre": "game"
   }
  ],
  "news": [
+  {
+   "id": "n_de86baac8d37",
+   "title": "Wolfenstein 3 Is Now Officially In Production, With Motion Capture Currently Underway",
+   "link": "https://kotaku.com/wolfenstein-3-in-production-machine-games-microsoft-asha-sharma-2000756436",
+   "summary": "Brian Bloom and Debra Wilson will return as BJ Blazkowicz and Grace Walker for the first mainline game in a decade",
+   "source": "Kotaku",
+   "region": "global",
+   "genre": "game",
+   "platforms": [],
+   "image": "https://kotaku.com/app/uploads/2026/11/Wolfenstein-2-1280x805.jpg",
+   "published_at": "2026-11-13T20:30:07+09:00",
+   "first_seen": "2026-11-13T20:35:09+09:00"
+  },
   {
    "id": "n_be17c7c537f7",
    "title": "買い切り型MMOアクション『ArcheAge Chronicles』大型コンテンツ追加アップデート12月実装！新レイドボスと女戦士登場",
@@ -5083,19 +5096,6 @@
    "first_seen": "2026-11-13T15:45:05+09:00"
   },
   {
-   "id": "n_eeaf5ddce45b",
-   "title": "【Amazonセール】LGの4K有機ELテレビがお買い得！65インチモデルもラインナップ",
-   "link": "https://game.watch.impress.co.jp/docs/news/2156035.html",
-   "summary": "Amazonにて、LG製のテレビが特別価格で販売されている。期間は11月26日23時59分まで。",
-   "source": "GAME Watch",
-   "region": "jp",
-   "genre": "game",
-   "platforms": [],
-   "image": null,
-   "published_at": "2026-11-13T00:05:00+09:00",
-   "first_seen": "2026-11-13T15:45:05+09:00"
-  },
-  {
    "id": "n_023d1c79ca20",
    "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
    "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
@@ -5679,7 +5679,7 @@
    "store": "steam",
    "title": "Euro Truck Simulator 2",
    "link": "https://store.steampowered.com/app/227300/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/da84d11d3ddd817e0cca299608b469a854d75ba5/capsule_231x87.jpg?t=1794502925",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/da84d11d3ddd817e0cca299608b469a854d75ba5/capsule_231x87.jpg?t=1794502925",
    "price_original": 2999,
    "price_sale": 749,
    "discount": 75,
@@ -5707,7 +5707,7 @@
    "store": "steam",
    "title": "Slay the Spire 2",
    "link": "https://store.steampowered.com/app/2868840/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg?t=1787169309",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg?t=1787169309",
    "price_original": 2800,
    "price_sale": 2240,
    "discount": 20,
@@ -5749,7 +5749,7 @@
    "store": "steam",
    "title": "Hearts of Iron IV",
    "link": "https://store.steampowered.com/app/394360/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg?t=1794491980",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg?t=1794491980",
    "price_original": 6990,
    "price_sale": 2097,
    "discount": 70,
@@ -5763,7 +5763,7 @@
    "store": "steam",
    "title": "みんなでティア表!",
    "link": "https://store.steampowered.com/app/4921660/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4921660/217d35c87e564dc8133005e08b973b42edc74e2a/capsule_231x87_japanese.jpg?t=1794452483",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4921660/217d35c87e564dc8133005e08b973b42edc74e2a/capsule_231x87_japanese.jpg?t=1794452483",
    "price_original": 790,
    "price_sale": 671,
    "discount": 15,
@@ -5805,7 +5805,7 @@
    "store": "steam",
    "title": "病能探偵",
    "link": "https://store.steampowered.com/app/3432860/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432860/f10610fffa8ecde4043e1ef0b6fcf06aa5dd8b0d/capsule_231x87_japanese.jpg?t=1793883448",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3432860/f10610fffa8ecde4043e1ef0b6fcf06aa5dd8b0d/capsule_231x87_japanese.jpg?t=1793883448",
    "price_original": 3035,
    "price_sale": 2479,
    "discount": 18,
@@ -5819,7 +5819,7 @@
    "store": "steam",
    "title": "BALL x PIT",
    "link": "https://store.steampowered.com/app/2062430/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg?t=1794503272",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg?t=1794503272",
    "price_original": 1700,
    "price_sale": 850,
    "discount": 50,
@@ -5847,7 +5847,7 @@
    "store": "steam",
    "title": "空の軌跡 the 1st",
    "link": "https://store.steampowered.com/app/3375780/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/c118a360f4185da6b5a62ac93d12b6bfd0235f24/capsule_231x87_japanese.jpg?t=1791225209",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3375780/c118a360f4185da6b5a62ac93d12b6bfd0235f24/capsule_231x87_japanese.jpg?t=1791225209",
    "price_original": 8800,
    "price_sale": 4400,
    "discount": 50,
@@ -5861,7 +5861,7 @@
    "store": "steam",
    "title": "Wizardry外伝 五つの試練",
    "link": "https://store.steampowered.com/app/1308700/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_231x87.jpg?t=1794335368",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_231x87.jpg?t=1794335368",
    "price_original": 3980,
    "price_sale": 1791,
    "discount": 55,
@@ -5875,7 +5875,7 @@
    "store": "steam",
    "title": "不思議のダンジョン　風来のシレン６　とぐろ島探検録",
    "link": "https://store.steampowered.com/app/2178480/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178480/37eb9500aaf99f0a8cd3d955c04e4e6d211b7e16/capsule_231x87_japanese.jpg?t=1738230227",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2178480/37eb9500aaf99f0a8cd3d955c04e4e6d211b7e16/capsule_231x87_japanese.jpg?t=1738230227",
    "price_original": 5980,
    "price_sale": 2691,
    "discount": 55,
@@ -5903,7 +5903,7 @@
    "store": "steam",
    "title": "Cities: Skylines II",
    "link": "https://store.steampowered.com/app/949230/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/4bd24a2ba20f963cac8222c9facf766ab0caa010/capsule_231x87_alt_assets_9_japanese.jpg?t=1794506466",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/4bd24a2ba20f963cac8222c9facf766ab0caa010/capsule_231x87_alt_assets_9_japanese.jpg?t=1794506466",
    "price_original": 6990,
    "price_sale": 4893,
    "discount": 30,
@@ -5917,7 +5917,7 @@
    "store": "steam",
    "title": "餓狼伝説 CotW シーズンパス2",
    "link": "https://store.steampowered.com/app/4070950/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4070950/65bcf47a871be38aac301df18a69ff4a01f94cee/capsule_231x87.jpg?t=1782956285",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4070950/65bcf47a871be38aac301df18a69ff4a01f94cee/capsule_231x87.jpg?t=1782956285",
    "price_original": 1980,
    "price_sale": 1584,
    "discount": 20,
@@ -5945,7 +5945,7 @@
    "store": "steam",
    "title": "「ディアブロ II リザレクテッド」 – 「獄炎エディション」",
    "link": "https://store.steampowered.com/app/2536520/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/9787caa79ad6ce3c9d882553fc0656f6af0f55c4/capsule_231x87_japanese.jpg?t=1774399170",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2536520/9787caa79ad6ce3c9d882553fc0656f6af0f55c4/capsule_231x87_japanese.jpg?t=1774399170",
    "price_original": 4800,
    "price_sale": 3120,
    "discount": 35,
@@ -5959,7 +5959,7 @@
    "store": "steam",
    "title": "色で仕分けるな",
    "link": "https://store.steampowered.com/app/4876650/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4876650/9b84c093119431bd0adc3c18e789b81b27614382/capsule_231x87_japanese.jpg?t=1794327933",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4876650/9b84c093119431bd0adc3c18e789b81b27614382/capsule_231x87_japanese.jpg?t=1794327933",
    "price_original": 1400,
    "price_sale": 1120,
    "discount": 20,
@@ -5973,7 +5973,7 @@
    "store": "steam",
    "title": "The Hero's Legacy",
    "link": "https://store.steampowered.com/app/5416430/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5416430/6517e0e7d33d1a30392cba3ca99c7405bc2ba0c9/capsule_231x87.jpg?t=1794215438",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5416430/6517e0e7d33d1a30392cba3ca99c7405bc2ba0c9/capsule_231x87.jpg?t=1794215438",
    "price_original": 2050,
    "price_sale": 1373,
    "discount": 33,
@@ -5987,7 +5987,7 @@
    "store": "steam",
    "title": "MONOMOON",
    "link": "https://store.steampowered.com/app/3285880/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3285880/f952731af010fbb871ffcccf6a7c5ba56483bd51/capsule_231x87.jpg?t=1794504675",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3285880/f952731af010fbb871ffcccf6a7c5ba56483bd51/capsule_231x87.jpg?t=1794504675",
    "price_original": 1680,
    "price_sale": 1512,
    "discount": 10,
@@ -6001,7 +6001,7 @@
    "store": "steam",
    "title": "American Truck Simulator",
    "link": "https://store.steampowered.com/app/270880/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/8809b200b3ebdd7fbcdbfdbe6c8f91b2c0ce93df/capsule_231x87.jpg?t=1794418935",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/8809b200b3ebdd7fbcdbfdbe6c8f91b2c0ce93df/capsule_231x87.jpg?t=1794418935",
    "price_original": 2999,
    "price_sale": 750,
    "discount": 75,
@@ -6015,7 +6015,7 @@
    "store": "steam",
    "title": "The Elder Scrolls V: Skyrim Special Edition",
    "link": "https://store.steampowered.com/app/489830/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_231x87.jpg?t=1786648247",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/489830/capsule_231x87.jpg?t=1786648247",
    "price_original": 4399,
    "price_sale": 879,
    "discount": 80,
@@ -6029,7 +6029,7 @@
    "store": "steam",
    "title": "Mortal Shell II",
    "link": "https://store.steampowered.com/app/2584270/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/be45d87c9974a36f690480bceb01f03987a0c23a/capsule_231x87.jpg?t=1794241756",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2584270/be45d87c9974a36f690480bceb01f03987a0c23a/capsule_231x87.jpg?t=1794241756",
    "price_original": 6480,
    "price_sale": 4860,
    "discount": 25,
@@ -6043,7 +6043,7 @@
    "store": "steam",
    "title": "スーパーダンガンロンパ2 さよなら絶望学園",
    "link": "https://store.steampowered.com/app/413420/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/capsule_231x87_japanese.jpg?t=1781085654",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413420/capsule_231x87_japanese.jpg?t=1781085654",
    "price_original": 2138,
    "price_sale": 855,
    "discount": 60,
@@ -6057,7 +6057,7 @@
    "store": "steam",
    "title": "DREADMOOR (ドレッドムア)",
    "link": "https://store.steampowered.com/app/3629430/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/463d99fc377b03a3a20fc3b45915a8755ccabef4/capsule_231x87.jpg?t=1794233002",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3629430/463d99fc377b03a3a20fc3b45915a8755ccabef4/capsule_231x87.jpg?t=1794233002",
    "price_original": 2600,
    "price_sale": 2340,
    "discount": 10,
@@ -6071,7 +6071,7 @@
    "store": "steam",
    "title": "ドラゴンクエストモンスターズ３　魔族の王子とエルフの旅",
    "link": "https://store.steampowered.com/app/2175540/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_231x87_japanese.jpg?t=1775105751",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_231x87_japanese.jpg?t=1775105751",
    "price_original": 4980,
    "price_sale": 996,
    "discount": 80,
@@ -6085,7 +6085,7 @@
    "store": "steam",
    "title": "Crown & Coin: The Hundred Years（百年戦争）",
    "link": "https://store.steampowered.com/app/4476270/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4476270/7987184e2c6b27cc8deb43f28a449ff6b9abb044/capsule_231x87.jpg?t=1794198875",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4476270/7987184e2c6b27cc8deb43f28a449ff6b9abb044/capsule_231x87.jpg?t=1794198875",
    "price_original": 3480,
    "price_sale": 2784,
    "discount": 20,
@@ -6099,7 +6099,7 @@
    "store": "steam",
    "title": "Incremental Traffic",
    "link": "https://store.steampowered.com/app/5475960/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5475960/946f61a70df1f0306364a2721b2ebd3b9146fcc4/capsule_231x87_japanese.jpg?t=1793908197",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5475960/946f61a70df1f0306364a2721b2ebd3b9146fcc4/capsule_231x87_japanese.jpg?t=1793908197",
    "price_original": 1400,
    "price_sale": 980,
    "discount": 30,
@@ -6113,7 +6113,7 @@
    "store": "steam",
    "title": "777勇者 〜時に抗う者〜",
    "link": "https://store.steampowered.com/app/5457010/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/c7413365be2ebed477b9ed3b5474b1b4d638a4d9/capsule_231x87_japanese.jpg?t=1794544205",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5457010/c7413365be2ebed477b9ed3b5474b1b4d638a4d9/capsule_231x87_japanese.jpg?t=1794544205",
    "price_original": 850,
    "price_sale": 680,
    "discount": 20,
@@ -6127,7 +6127,7 @@
    "store": "steam",
    "title": "PEAK",
    "link": "https://store.steampowered.com/app/3527290/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
    "price_original": 880,
    "price_sale": 545,
    "discount": 38,
@@ -6141,7 +6141,7 @@
    "store": "steam",
    "title": "Satelital",
    "link": "https://store.steampowered.com/app/3256790/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256790/d35906aafc1637d237ca8e3cc47c4cbbb20da766/capsule_231x87.jpg?t=1794531380",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3256790/d35906aafc1637d237ca8e3cc47c4cbbb20da766/capsule_231x87.jpg?t=1794531380",
    "price_original": 2800,
    "price_sale": 2380,
    "discount": 15,
@@ -6155,7 +6155,7 @@
    "store": "steam",
    "title": "Euro Truck Simulator 2 - Nordic Horizons",
    "link": "https://store.steampowered.com/app/2780810/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2780810/931380e22dc2a0ee6d489ee2ffb8bd7c201bbb01/capsule_231x87.jpg?t=1781093020",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2780810/931380e22dc2a0ee6d489ee2ffb8bd7c201bbb01/capsule_231x87.jpg?t=1781093020",
    "price_original": 2675,
    "price_sale": 2407,
    "discount": 10,
@@ -6169,7 +6169,7 @@
    "store": "steam",
    "title": "ニューダンガンロンパV3 みんなのコロシアイ新学期",
    "link": "https://store.steampowered.com/app/567640/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/capsule_231x87_japanese.jpg?t=1750134757",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/567640/capsule_231x87_japanese.jpg?t=1750134757",
    "price_original": 4190,
    "price_sale": 838,
    "discount": 80,
@@ -6183,7 +6183,7 @@
    "store": "steam",
    "title": "9 Kings 9 キングス",
    "link": "https://store.steampowered.com/app/2784470/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/4b8302521a0a591aee46bb49ac93161c8315ac7b/capsule_231x87_japanese.jpg?t=1794518469",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2784470/4b8302521a0a591aee46bb49ac93161c8315ac7b/capsule_231x87_japanese.jpg?t=1794518469",
    "price_original": 1980,
    "price_sale": 990,
    "discount": 50,
@@ -6197,7 +6197,7 @@
    "store": "steam",
    "title": "Noble Fates",
    "link": "https://store.steampowered.com/app/1769420/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1769420/3c7a4201525b37c5338abd0c4382ce65876c7fb9/capsule_231x87_alt_assets_9.jpg?t=1794505279",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1769420/3c7a4201525b37c5338abd0c4382ce65876c7fb9/capsule_231x87_alt_assets_9.jpg?t=1794505279",
    "price_original": 2570,
    "price_sale": 2056,
    "discount": 20,
@@ -6211,7 +6211,7 @@
    "store": "steam",
    "title": "バトモン対決",
    "link": "https://store.steampowered.com/app/4557380/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557380/b40dccb71e0f4917c751b4ee7c44eecfde1316be/capsule_231x87.jpg?t=1791378405",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4557380/b40dccb71e0f4917c751b4ee7c44eecfde1316be/capsule_231x87.jpg?t=1791378405",
    "price_original": 1900,
    "price_sale": 1235,
    "discount": 35,
@@ -6225,7 +6225,7 @@
    "store": "steam",
    "title": "ユミアのアトリエ ～追憶の錬金術士と幻創の地～",
    "link": "https://store.steampowered.com/app/3123410/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123410/e5bf7f05f103cb1296d9a989fdf0f7450ab9d863/capsule_231x87_japanese.jpg?t=1793770079",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3123410/e5bf7f05f103cb1296d9a989fdf0f7450ab9d863/capsule_231x87_japanese.jpg?t=1793770079",
    "price_original": 9680,
    "price_sale": 4840,
    "discount": 50,
@@ -6239,7 +6239,7 @@
    "store": "steam",
    "title": "For The King II",
    "link": "https://store.steampowered.com/app/1676840/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/6473fa57633ffc0e589099c39c1acb3a149bf16f/capsule_231x87_alt_assets_13_japanese.jpg?t=1794248102",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1676840/6473fa57633ffc0e589099c39c1acb3a149bf16f/capsule_231x87_alt_assets_13_japanese.jpg?t=1794248102",
    "price_original": 3500,
    "price_sale": 1050,
    "discount": 70,
@@ -6253,7 +6253,7 @@
    "store": "steam",
    "title": "Dungeons & Dynasties",
    "link": "https://store.steampowered.com/app/5101960/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5101960/59efdb6296ab7a63966a4ef5ca0885c1ed59ef1a/capsule_231x87.jpg?t=1794521753",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5101960/59efdb6296ab7a63966a4ef5ca0885c1ed59ef1a/capsule_231x87.jpg?t=1794521753",
    "price_original": 1150,
    "price_sale": 1035,
    "discount": 10,
@@ -6267,7 +6267,7 @@
    "store": "steam",
    "title": "餓狼伝説 CotW シーズンパス1",
    "link": "https://store.steampowered.com/app/3141980/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141980/2bc244ac2c276fc9f30035f19612e0b25804a494/capsule_231x87.jpg?t=1781658207",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3141980/2bc244ac2c276fc9f30035f19612e0b25804a494/capsule_231x87.jpg?t=1781658207",
    "price_original": 1480,
    "price_sale": 991,
    "discount": 33,
@@ -6281,7 +6281,7 @@
    "store": "steam",
    "title": "Apotheosis Engine",
    "link": "https://store.steampowered.com/app/4665590/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665590/8ac1b37596ec57851ddf39d7881532c84fca3292/capsule_231x87.jpg?t=1794551706",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4665590/8ac1b37596ec57851ddf39d7881532c84fca3292/capsule_231x87.jpg?t=1794551706",
    "price_original": 1000,
    "price_sale": 900,
    "discount": 10,
@@ -6295,7 +6295,7 @@
    "store": "steam",
    "title": "夢幻桜楼閣",
    "link": "https://store.steampowered.com/app/2991310/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2991310/3df2f836d84b4426cd9ed426ac61ef5e05cb00b7/capsule_231x87_japanese.jpg?t=1793805269",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2991310/3df2f836d84b4426cd9ed426ac61ef5e05cb00b7/capsule_231x87_japanese.jpg?t=1793805269",
    "price_original": 1500,
    "price_sale": 1200,
    "discount": 20,
@@ -6309,7 +6309,7 @@
    "store": "steam",
    "title": "TANUKI: Pon's Summer  - タヌキ： ポンの夏",
    "link": "https://store.steampowered.com/app/3218570/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/404a5bd2fed6e2133b15390185db1ea360eb8370/capsule_231x87_japanese.jpg?t=1794331328",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3218570/404a5bd2fed6e2133b15390185db1ea360eb8370/capsule_231x87_japanese.jpg?t=1794331328",
    "price_original": 2550,
    "price_sale": 2167,
    "discount": 15,
@@ -6323,7 +6323,7 @@
    "store": "steam",
    "title": "Delve Survivors",
    "link": "https://store.steampowered.com/app/3319680/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3319680/55af1a906f77c649c4d01866b696787cb546873a/capsule_231x87.jpg?t=1794561993",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3319680/55af1a906f77c649c4d01866b696787cb546873a/capsule_231x87.jpg?t=1794561993",
    "price_original": 1800,
    "price_sale": 1530,
    "discount": 15,
@@ -6337,7 +6337,7 @@
    "store": "steam",
    "title": "みんなでおもちゃ屋おかたづけ！",
    "link": "https://store.steampowered.com/app/5041530/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5041530/7151197e5df505a2b585e2c6e878d11e376789ef/capsule_231x87_japanese.jpg?t=1793535688",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5041530/7151197e5df505a2b585e2c6e878d11e376789ef/capsule_231x87_japanese.jpg?t=1793535688",
    "price_original": 930,
    "price_sale": 790,
    "discount": 15,
@@ -6351,7 +6351,7 @@
    "store": "steam",
    "title": "絶対絶望少女 ダンガンロンパ Another Episode",
    "link": "https://store.steampowered.com/app/555950/",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555950/capsule_231x87_japanese.jpg?t=1715701294",
+   "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/555950/capsule_231x87_japanese.jpg?t=1715701294",
    "price_original": 3800,
    "price_sale": 760,
    "discount": 80,
