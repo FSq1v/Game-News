@@ -137,6 +137,7 @@ GitHub のリポジトリの Settings → Secrets and variables → Actions に�
 
 - PS Store は公式 API がなく、ストアのページが内部で使っている GraphQL を呼んでいます。取れなくなったら、PS Store の「すべてのセール」ページをブラウザの開発者ツールで開き、`categoryGridRetrieve` の `sha256Hash` を `fetcher/psstore.py` の `QUERY_HASH` に入れ直してください。
 - Nintendo eShop は任天堂の検索サイトの API（`search.nintendo.jp`）を使っています。
+- 「伸びているゲーム」（`/trend`）は、ニュースの話題量と Twitch の視聴者数の 2 つで出しています。話題量はゲームのニュースのタイトルの『』の中身を記事ごとに数え、直近 3 日を前の 7 日と比べます（2 社以上が取り上げたものだけ）。Twitch は視聴者の多い配信から 1,000 本ほどを見てゲームごとに合計し、日ごとの平均を前の 7 日と比べます。日ごとの記録は `data/trends.json` に 14 日ぶん残します（`fetcher/trends.py`、`fetcher/twitch.py`）。Twitch のキーは GitHub の Secrets に `TWITCH_CLIENT_ID` と `TWITCH_CLIENT_SECRET` として登録し、ないときは話題量だけを出します。
 - 海外記事のタイトル翻訳は DeepL API（無料プラン）です。キーは GitHub の Secrets に `DEEPL_API_KEY` として登録します。キーがないときや失敗したときは原文のまま表示し、次の実行で訳し直します。
 - RSS のアドレスが変わったときは、`fetcher/rss.py` の `FEEDS` を直します。直したあとは `.venv\Scripts\python -m fetcher` を一度動かし、`data/news.json` でそのソースの記事が取れているかを見てください。
 
