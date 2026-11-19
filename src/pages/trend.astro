@@ -1,0 +1,276 @@
+---
+import Base from "../layouts/Base.astro";
+import { formatShort, safeImageUrl, safeUrl } from "../lib/format";
+import { buzzHasHistory, formatGrowth, formatViewers, loadTrends, twitchHasHistory } from "../lib/trends";
+
+const data = loadTrends();
+const buzzReady = buzzHasHistory(data);
+const twitchReady = twitchHasHistory(data);
+const updated = data.updated_at ? formatShort(data.updated_at, "Asia/Tokyo") : "";
+const description =
+  "国内外のゲームメディアでの話題量と、Twitch の視聴者数から、機種を問わずいま伸びているゲームを並べています。";
+---
+
+<Base title="伸びているゲーム" description={description}>
+  <div class="trend-page">
+    <header class="page-head container">
+      <h1 class="page-head__title">
+        <svg class="page-head__mark" viewBox="0 0 24 24" width="40" height="40" aria-hidden="true" focusable="false">
+          <path d="M3 17l6-6 4 4 8-8" />
+          <path d="M15 7h6v6" />
+        </svg>
+        伸びているゲーム
+      </h1>
+      <p class="page-head__lead">
+        機種を問わず、ここ数日で急に話題が増えたゲームと、配信で見られるようになったゲームです。ニュースは直近 3 日を前の 7 日と、Twitch は今日の平均視聴者数を前の 7 日の平均と比べています。
+      </p>
+      {updated && <p class="status">集計 <time datetime={data.updated_at!}>{updated}</time></p>}
+    </header>
+
+    <div class="container trend-cols">
+      <section class="trend" aria-labelledby="buzz-title">
+        <div class="trend__head">
+          <h2 class="trend__title" id="buzz-title">ニュースで話題</h2>
+          <p class="trend__note">
+            {buzzReady ? "直近 3 日の記事の数（2 社以上が取り上げたもの）" : "記録を集めはじめたところです。いまは記事の多い順です"}
+          </p>
+        </div>
+        {
+          data.buzz.length === 0 ? (
+            <p class="empty">まだ集計できるだけの記事がありません。</p>
+          ) : (
+            <ol class="rank">
+              {data.buzz.map((b, i) => (
+                <li class="rank__item">
+                  <span class="rank__no" aria-hidden="true">{i + 1}</span>
+                  <div class="rank__body">
+                    <p class="rank__name">{b.name}</p>
+                    <p class="rank__meta">
+                      <span class="rank__value">{b.recent} 本</span>
+                      {buzzReady && <span>前の 7 日 {b.prev} 本</span>}
+                      <span>{b.sources.length} 社</span>
+                    </p>
+                    {b.articles.length > 0 && (
+                      <ul class="rank__links">
+                        {b.articles.slice(0, 2).map((a) => (
+                          <li>
+                            <a href={safeUrl(a.link)} target="_blank" rel="noopener noreferrer">{a.title}</a>
+                            <span class="rank__src">{a.source}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          )
+        }
+      </section>
+
+      <section class="trend trend--twitch" aria-labelledby="twitch-title">
+        <div class="trend__head">
+          <h2 class="trend__title" id="twitch-title">配信で伸びている</h2>
+          <p class="trend__note">
+            {
+              !data.twitch_enabled
+                ? "Twitch のデータは準備中です"
+                : twitchReady
+                  ? "Twitch の平均視聴者数の伸び（前の 7 日と比べて）"
+                  : "記録を集めはじめたところです。いまは視聴者数の多い順です"
+            }
+          </p>
+        </div>
+        {
+          data.twitch.length === 0 ? (
+            <p class="empty">{data.twitch_enabled ? "まだ集計できていません。" : "Twitch とつなぐ設定が済むと、ここに出ます。"}</p>
+          ) : (
+            <ol class="rank">
+              {data.twitch.map((t, i) => (
+                <li class="rank__item">
+                  <span class="rank__no" aria-hidden="true">{i + 1}</span>
+                  {safeImageUrl(t.box_art) !== "#" && (
+                    <img class="rank__art" src={safeImageUrl(t.box_art)} alt="" width="52" height="70" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                  )}
+                  <div class="rank__body">
+                    <p class="rank__name">{t.name}</p>
+                    <p class="rank__meta">
+                      <span class="rank__value">{formatViewers(t.viewers)} 人</span>
+                      {formatGrowth(t.growth) && (
+                        <span class={`growth ${t.growth! >= 0 ? "growth--up" : "growth--down"}`}>{formatGrowth(t.growth)}</span>
+                      )}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          )
+        }
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .trend-page {
+    --genre: var(--game);
+    --genre-soft: var(--game-soft);
+  }
+
+  .page-head {
+    display: grid;
+    gap: var(--space-3);
+    padding-block: var(--space-5) var(--space-4);
+  }
+  .page-head__title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: var(--font-size-2xl);
+    letter-spacing: -0.03em;
+  }
+  .page-head__mark {
+    flex: none;
+    width: 0.8em;
+    height: 0.8em;
+    fill: none;
+    stroke: var(--genre);
+    stroke-width: 2.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .page-head__lead {
+    max-width: var(--measure);
+    color: var(--text-muted);
+    font-size: var(--font-size-base);
+  }
+  .status {
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .trend-cols {
+    display: grid;
+    gap: var(--space-5);
+    padding-bottom: var(--space-6);
+  }
+  .trend { min-width: 0; }
+  .trend__head {
+    display: grid;
+    gap: var(--space-1);
+    margin-bottom: var(--space-3);
+  }
+  .trend__title {
+    padding-left: var(--space-3);
+    border-left: 4px solid var(--genre);
+    font-size: var(--font-size-lg);
+  }
+  .trend--twitch .trend__title { border-left-color: var(--ai); }
+  .trend__note {
+    color: var(--text-muted);
+    font-size: var(--font-size-xs);
+  }
+  .empty {
+    padding: var(--space-4);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text-muted);
+    font-size: var(--font-size-sm);
+  }
+
+  .rank {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--border);
+  }
+  .rank__item {
+    display: grid;
+    grid-template-columns: 2rem auto minmax(0, 1fr);
+    gap: var(--space-3);
+    align-items: start;
+    padding-block: var(--space-3);
+    border-bottom: 1px solid var(--border);
+  }
+  .rank__item:not(:has(.rank__art)) { grid-template-columns: 2rem minmax(0, 1fr); }
+  .rank__no {
+    color: var(--text-muted);
+    font-size: var(--font-size-lg);
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.3;
+    text-align: center;
+  }
+  .rank__item:nth-child(-n + 3) .rank__no { color: var(--genre); }
+  .trend--twitch .rank__item:nth-child(-n + 3) .rank__no { color: var(--ai); }
+  .rank__art {
+    width: 52px;
+    height: 70px;
+    border-radius: var(--radius-sm);
+    background: var(--surface-2);
+    object-fit: cover;
+  }
+  .rank__body {
+    display: grid;
+    gap: var(--space-1);
+    min-width: 0;
+  }
+  .rank__name {
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+  .rank__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-1) var(--space-3);
+    color: var(--text-muted);
+    font-size: var(--font-size-xs);
+    font-variant-numeric: tabular-nums;
+  }
+  .rank__value { color: var(--text); font-weight: 700; }
+  .growth {
+    padding: 0 var(--space-2);
+    border-radius: var(--radius-pill);
+    font-weight: 800;
+    line-height: 1.7;
+  }
+  .growth--up { background: var(--ai); color: var(--on-genre); }
+  .growth--down { background: var(--surface-2); color: var(--text-muted); }
+
+  .rank__links {
+    display: grid;
+    gap: var(--space-1);
+    margin: var(--space-1) 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--font-size-xs);
+    line-height: 1.5;
+  }
+  .rank__links a {
+    color: var(--text);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .rank__src { color: var(--text-muted); }
+
+  @media (max-width: 599px) {
+    .page-head {
+      gap: var(--space-2);
+      padding-block: var(--space-3) var(--space-3);
+    }
+    .page-head__title { font-size: 1.75rem; }
+    .page-head__lead { display: none; }
+  }
+  @media (min-width: 900px) {
+    .page-head { padding-block: var(--space-6) var(--space-5); }
+    .trend-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+</style>

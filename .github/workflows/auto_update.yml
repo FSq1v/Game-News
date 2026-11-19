@@ -43,13 +43,16 @@ jobs:
         env:
           # 海外記事のタイトル翻訳に使う。未登録でも動き、そのときはタイトルを訳さずに出す
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          # 「最近伸びているゲーム」の Twitch 視聴者数に使う。未登録ならニュースの話題量だけ出す
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: python -m fetcher
 
       - name: Commit news.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add data/news.json data/trends.json
           if git diff --staged --quiet; then
             echo "No changes"
           else
