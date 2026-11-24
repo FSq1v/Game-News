@@ -6,11 +6,12 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Callable
 
-from . import epic, eshop, psstore, rss, steam
+from . import epic, eshop, psstore, rss, steam, trends, twitch
 from .common import now_jst, parse_date, to_iso
 from .translate import translate_many
 
 OUTPUT = Path("data/news.json")
+TRENDS_OUTPUT = Path("data/trends.json")
 # ジャンルごとに残す件数。取得元と 1 回あたりの件数を増やしたので、ここも広げる
 NEWS_MAX_PER_GENRE = 300
 NEWS_MAX_AGE = timedelta(hours=72)
@@ -134,6 +135,39 @@ def _run(fn: Callable[[], list[dict]]) -> list[dict] | Exception:
         return e
 
 
+def update_trends(news: list[dict], now: datetime, path: Path = TRENDS_OUTPUT) -> None:
+    """「最近伸びているゲーム」の記録を足して、ランキングと一緒に書き出す。失敗してもニュースの更新は止めない"""
+    try:
+        previous = json.loads(path.read_text(encoding="utf-8"))
+        hist = previous.get("history") or trends.empty_history()
+    except (OSError, ValueError):
+        hist = trends.empty_history()
+
+    trends.record_mentions(hist, news)
+    if twitch.enabled():
+        try:
+            viewers, games = twitch.fetch()
+            trends.record_twitch(hist, viewers, games, now)
+            print(f"twitch: {len(viewers)} games")
+        except Exception as e:  # Twitch が落ちていても、ニュースの話題量は出す
+            print(f"twitch: ERROR {type(e).__name__}: {str(e)[:200]}")
+    trends.prune(hist, now)
+
+    out = {
+        "updated_at": to_iso(now),
+        "twitch_enabled": twitch.enabled(),
+        # 比べる前の日の記録が何日ぶんあるか（少ないうちは画面に「集計中」と出す）
+        "mention_days": len({a["date"] for e in hist["mentions"].values() for a in e["articles"].values()}),
+        "twitch_days": len(hist.get("twitch", {})),
+        "buzz": trends.buzz_ranking(hist, news, now),
+        "twitch": trends.twitch_ranking(hist),
+        "history": hist,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Wrote {len(out['buzz'])} buzz and {len(out['twitch'])} twitch trends to {path}")
+
+
 def main(path: Path = OUTPUT) -> int:
     with ThreadPoolExecutor(max_workers=8) as pool:
         futures = {sid: pool.submit(_run, fn) for sid, fn in SOURCES}
@@ -149,4 +183,5 @@ def main(path: Path = OUTPUT) -> int:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Wrote {len(data['news'])} news and {len(data['deals'])} deals to {path}")
+    update_trends(data["news"], now_jst(), path.parent / TRENDS_OUTPUT.name)
     return 0
